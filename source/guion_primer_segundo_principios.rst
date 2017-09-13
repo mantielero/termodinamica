@@ -4,30 +4,6 @@ Primer y Segundo Principios Aplicados a Sistemas Abiertos
 (Antonio Sánchez Sánchez)
 
 
-5. PRINCIPIOS PRIMERO Y SEGUNDO APLICADOS A SISTEMAS ABIERTOS::
-
-   5.1.- Introducción.
-   5.1.1.	- Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto.
-   5.1.2.	- Conservación de la masa..
-   5.2.	- Formulación del primer principio vara sistemas abiertos.
-   5.2.1.	-Procesos de flujo estacionario.
-   5.2.2.	-Trabajo mecánico en flujo estacionario.
-   5.3.	- Ecuación del sesundo principio para sistemas abiertos.
-   5.4.	- Magnitudes de remanso.
-   5.5.	- Análisis de turbinas, bombas, compresores, difusores y toberas.
-   5.5.1.	- Turbina.
-   5.5.2.	- Compresor y bomba.
-   5.5.3.	- Difusor y Tobera.
-   5.5.4.	-Rendimiento adiabático de estos dispositivos. 
-   5.5.5- Dispositivos de estrangulación.
-   
-Qengel, Yunus A. y M.A. Boles. TERMODINÁMICA^ 
-   
-Tomo I) Me GRAW-HILL. 1996 México Capitulo IV, VI y VII.
-   
-Wark. K. TERMODINÁMICA. Me GRAW-HILL. 1991 México Capítulos VII y VIII.
-   
-
 Introducción
 ------------
 
@@ -38,66 +14,39 @@ Estos sistemas abiertos suelen ser los de mayor interés práctico, pues facilit
 La ampliación de la metodología seguida en el estudio de sistemas cerrados a sistemas abiertos se produce con bastante proximidad histórica. La primera formulación explícita del primer principio, como tal, se da alrededor de 1850 (Clausius, Kelvin y Rankine) y el primero en ofrecer una formulación de la primera ley para sistemas abiertos fue Gustav Zenner como parte de su análisis sobre sistemas de flujo que funcionan en régimen estacionario, publicado en su tratado sobre termodinámica técnica en 1859. Respecto a esta cuetión del desarrollo histórico de estas ideas, es interesante la contribución de A. Bajan^*\
 Para el estudio de los sistemas abiertos, como ya vimos al considerar la clasificación de sistemas, se utiliza el denominado volumen de control: cualquier región definida del espacio y limitada por una superficie (superficie de control) real o imaginaria y que puede ser variable en forma y tamaño, así como debe permitir a su través el flujo de materia y energía.
 
-Í El flujo de materia se define como aquella condición de desplazamiento del fluido en la que un elemento fluido puede considerarse como un sistema cerrado limitado por una superficie definida durante un cierto tiempo. La condición de flujo de materia no se da cuando una
-; sustancia se difunde a través de otra.
+El flujo de materia se define como aquella condición de desplazamiento del fluido en la que un elemento fluido puede considerarse como un sistema cerrado limitado por una superficie definida durante un cierto tiempo. La condición de flujo de materia no se da cuando una sustancia se difunde a través de otra.
 
-En lo que sigue realizamos la aplicación de los principios primero y segundo a este tipo de sistemas. Es importante destacar que, a fin de hacer aplicables los razonamientos de la
-^-termodinámica a estos sistemas, es preciso considerar en ellos la \híj
-modinámico local.
-
-íilibrio ter-
+En lo que sigue realizamos la aplicación de los principios primero y segundo a este tipo de sistemas. Es importante destacar que, a fin de hacer aplicables los razonamientos de la termodinámica a estos sistemas, es preciso considerar en ellos la hípótesis de equilibrio termodinámico local.
 
 (*)Vide A. Bejan Advanced Engineering Thermodynamics 1988 pp. 5, 30 - 38
 
 
-k
-(9-	f
-
-í,
-—£>
-7 ¿fr
-yjr
-Í'L'
+FIGURA A MANO EN EL BORDE
 
 
 Al aplicar los conceptos de la termodinámica a un sistema abierto, es preciso suponer que en el sistema se cumple la condición de equilibrio local. Es decir, puesto que en un sistema abierto, aún trabajando en régimen estacionario, nos vamos a encontrar con un conjunto de valores de las correspondientes magnitudes en cada localización, distinto del que se presentará "en otra, se tendrán que definir las condiciones que deben cumplirse en cada punto para poder asignar un valor a estas magnitudes que tengan sentido termodinámico.
 
 Para ello, recuérdese que cuando hablamos de un punto en un sistema abierto, de hecho nos estamos refiriendo a un elemento de volumen pequeño en valor absoluto, pero grande respecto al recorrido libre medio de las moléculas que integran el sistema, de forma que el elemento de volumen contenga un gran número de moléculas.
 
-íL^t
-
-
-// 7
-
-Al considerar que podemos asignar un valor determinado a las propiedades termodinámicas en un punto del sistema, estamos considerando que, si se aislara la masa contenida en ese elemento de volumen del conjunto que integra el sietema abierto, las propiedades de este elemento de volumen no se alteran con el tiempo. Recordemos que este es el criterio seguido para que un
-
-
+Al considerar que podemos asignar un valor determinado a las propiedades termodinámicas en un punto del sistema, estamos considerando que, si se aislara la masa contenida en ese elemento de volumen del conjunto que integra el sietema abierto, las propiedades de este elemento de volumen no se alteran con el tiempo. Recordemos que este es el criterio seguido para que un 
 sistema esté en equilibrio-termodinámico. Por otro lado, para poder considerar que la transformación es cuasiestática, otra característica que tiene que darse en el valor de las propiedades termodinámicas de dos elementos de masa próximos de los que integran el contenido del volumen de control, es que la variación del valor de estas propiedades sea muy pequeña frente al valor real de las mismas en la zona considerada. Si estas dos condiciones se cumplen, puede decirse que en el sistema se dan las condiciones del equilibrio termodinámico local en todos los puntos del mismo.
-
-( p:	T■	A '
 
 En el estudio que realicemos se supondrá, en general, que se cumplen estas condiciones.
 
-¡A'UA/J/Juh
-
-,—(^4.2.- Formulación del primer principio para sistemas abiertos.
+Formulación del primer principio para sistemas abiertos
+-------------------------------------------------------
 
 Consideremos un sistema A (esquematizado en la figura 4.1) definido por una frontera perfectamente determinada fi y un elemento diferencial de masa adyacente dm.
 
-Instante í	Instante t + Ai
+Instante t	Instante t + delta t
 
 Figura 4.1 Masa de control elegida para aplicar el primer principio a sistemas abiertos.
 
 Si dm puede pasar a través de 0 al interior del volumen de control y es p la presión que el medio exterior ejerce sobre ella mientras cruza la frontera, la interacción trabajo será igual a:
 
-ids-	t—■*-
+.. math::
 
-£¿o«c*^o
-r^év/í
-irá*
-
-/
-"r
+   \delta W = -p dV_{sis}
 
 Primer y segundo principios aplicados a sistemas abiertos
 
@@ -717,6 +666,31 @@ TEMA 5 - COMBINACION DEL PRIMER Y SEGUNDO PRINCIPIO: EXERGIA.
 Antonio Sánchez Sánchez.
 
 Pablo de Assas Martínez de Morentin.
+
+5. PRINCIPIOS PRIMERO Y SEGUNDO APLICADOS A SISTEMAS ABIERTOS::
+
+   5.1.- Introducción.
+   5.1.1.	- Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto.
+   5.1.2.	- Conservación de la masa..
+   5.2.	- Formulación del primer principio vara sistemas abiertos.
+   5.2.1.	-Procesos de flujo estacionario.
+   5.2.2.	-Trabajo mecánico en flujo estacionario.
+   5.3.	- Ecuación del sesundo principio para sistemas abiertos.
+   5.4.	- Magnitudes de remanso.
+   5.5.	- Análisis de turbinas, bombas, compresores, difusores y toberas.
+   5.5.1.	- Turbina.
+   5.5.2.	- Compresor y bomba.
+   5.5.3.	- Difusor y Tobera.
+   5.5.4.	-Rendimiento adiabático de estos dispositivos. 
+   5.5.5- Dispositivos de estrangulación.
+
+Bibliografía
+------------
+
+Qengel, Yunus A. y M.A. Boles. TERMODINÁMICA Tomo I) Me GRAW-HILL. 1996 México Capitulo IV, VI y VII.
+   
+Wark. K. TERMODINÁMICA. Me GRAW-HILL. 1991 México Capítulos VII y VIII.
+
 
 Introducción
 ------------
