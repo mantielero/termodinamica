@@ -67,56 +67,40 @@ Si el volumen específico de la sustancia al alcanzar la superficie de entrada e
 
    \delta W = -p (-vdm) = pvdm
 
-Si designamos por :math:`E_1  y :math:`E_1  + dE` a las energías de la materia en el interior de :math:`\Omega` en los instantes t y t -f Ai respectivamente, (e dm) es la energía de la masa dm en la frontera y durante el proceso hay una interacción térmica, entonces para el sistema cerrado elegido, tendremos:
+Si designamos por :math:`E_1` y :math:`E_1  + dE` a las energías de la materia en el interior de :math:`\Omega` en los instantes :math:`t` y :math:`t +\Delta t` respectivamente, :math:`(e dm)` es la energía de la masa :math:`dm` en la frontera y durante el proceso hay una interacción térmica, entonces para el sistema cerrado elegido, tendremos:
 
-(E\ 4- dE) — (Ei 4&lm) = ¿Q + pv dm I
+.. math::
 
-Si además consideramos que durante el proceso hay una interacción trabajo, por variación de la frontera íí, o por rotación de un eje (éste será el caso más frecuente) representemos por bWx (trabajo al eje) esta interacción, entonces podremos reescribir la ecuación anterior en la forma:
+   (E_1 + dE) — (E_1+edm) = \delta Q + pv dm
+   
+   
+Si además consideramos que durante el proceso hay una interacción trabajo, por variación de la frontera :math:`\Omega`, o por rotación de un eje (éste será el caso más frecuente) representemos por :math:`\delta W_x` (trabajo al eje) esta interacción, entonces podremos reescribir la ecuación anterior en la forma:
 
-dE = 6Q + (e + pv) dm + 6WX	(4.4)
+.. math::
 
-donde representa la variación de energía en el interior de fl.
+   dE = \delta Q + (e + pv) dm + \delta W_x
 
-J
-Mf^Ttr^Zïy
-LM
-ï- íu-^íj
+donde :math:`dE` representa la variación de energía en el interior de :math:`\Omega`.
 
-A la magnitud e + pv se la denomina entalpia totaL)h7.'; y si desprecÍamos~4xi>do tlpé'lle acción, menos la presencia del campo gravitatorio, recordarán que:
+A la magnitud :math:`e + pv` se la denomina entalpía total, :math:`h_t`, y si despreciamos todo tipo de acción, menos la presencia del campo gravitatorio, recordarán que:
 
-V2
-e = u+Y + 9Z
+.. math::
+
+   e = u+\frac{v^2}{2} + gz
 
 por lo que:
 
-dE
-----------y2--------
-6Q + 6WX + (h + — + gz) dm
-kÍM'
-(4.5)
-= 6Q + èWx + ht dm
-X/
+.. math::
 
-Para la transferencia de una masa finita a través de fl, los términos dé" la ecución (4.5) pueden ser sumados para todos los elementos en los que puede considerarse descompuesta la masa finita. Si un elemento de masa pasa a través de í) hacia afuera;'entonces dm es negativo y ht es su entalpia por unidad de masa cuando emerge (es decir sobre la frontera íí). Así:
+   dE &= \delta Q + \delta W_x + (h+\frac{v^2}{2} +gz) dm \\
+      &= \delta Q + \delta W_x + h_t dm
+      
+Para la transferencia de una masa finita a través de :math:`\Omega`, los términos de la ecución (4.5) pueden ser sumados para todos los elementos en los que puede considerarse descompuesta la masa finita. Si un elemento de masa pasa a través de :math:`\Omega` hacia afuera, entonces :math:`dm` es negativo y :math:`h_t` es su entalpia por unidad de masa cuando emerge (es decir sobre la frontera :math:`\Omega`). Así:
 
-r»/(,
-PñP/T	ffÉh...
+.. math::
 
-E2-Ei=Q + Wx + ^2
---■A
-
-J
-l^yx^-6)
-iM?
-
-^A (-•& Jy^- cJr
-y /	1/g dú-h * oto
-t/fcc* g	■	/
-
-■ Jsj *-■
-
-Primer y segundo principios aplicados a sistemas abiertos. Entropía
-
+   E_2 - E_1 = Q + W_x + \sum_k \int h_{tk} dm_k
+   
 Un ejemplo simple al que puede aplicarse la ecuación anterior es al flujo adiabático de un gas desde una línea de alimentación a un depósito a presión más baja (llenado de botellas de gas). Cuando la presión se incrementa en la botella, el incremento de la energía interna del contenido de la botella es igual a la masa del fluido que entra por su entalpia total a la entrada.
 Es interesante destacar que la ecuación formulada para aplicar el primer principio a sistemas cerrados:
 
