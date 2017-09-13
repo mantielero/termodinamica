@@ -48,19 +48,11 @@ Si dm puede pasar a través de 0 al interior del volumen de control y es p la pr
 
    \delta W = -p dV_{sis}
 
-Primer y segundo principios aplicados a sistemas abiertos
+en la que :math:`dV_{sis}`, tomando como sistema el conjunto masa contenida inicialmente en :math:`\Omega` más :math:`dm`, será igual a:
 
-/
--<Cí.
-GóC*
+.. math:: 
 
--■S /	yyM.
-
-i/l/
-(l)SW = -PdV3l3
-
-en la que dV3¡3, tomando como sistqrha el conjunto masa contenida inicialmente en Í2 más dm, será igual a:
-dVgis — a( t+At) 1^3is(í)	(4-1)
+   dV_{sis} = V_{sis(t+\Delta t)} - V_{sis(t)}
 
 Ahora bien, V3Í3/t\ = Vq + Vdm y V3is(t+M) = Pues el proceso de introducir la masa dentro de íl ha finalizado, por lo ¿anto dV3i3 queda:
 
