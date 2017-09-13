@@ -54,7 +54,7 @@ en la que :math:`dV_{sis}`, tomando como sistema el conjunto masa contenida inic
 
    dV_{sis} = V_{sis(t+\Delta t)} - V_{sis(t)}
 
-Ahora bien, :math:`V_{sis(t)} = V_{\Omega} - V_{dm}` y :math:`V_{sis(t+\Delta t)} = V_{\Omega}` pues el proceso de introducir la masa dentro :math:`\Omage` ha finalizado, por lo tanto :math:`dV_{sis}` queda:
+Ahora bien, :math:`V_{sis(t)} = V_{\Omega} - V_{dm}` y :math:`V_{sis(t+\Delta t)} = V_{\Omega}` pues el proceso de introducir la masa dentro :math:`\Omega` ha finalizado, por lo tanto :math:`dV_{sis}` queda:
 
 
 .. math::
