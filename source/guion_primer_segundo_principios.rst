@@ -112,7 +112,7 @@ sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de cont
 
 .. math::
 
-   \oint \delta Q = - \oint \deltaa W
+   \oint \delta Q = - \oint \delta W
 
 
 
