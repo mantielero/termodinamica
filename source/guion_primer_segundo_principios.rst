@@ -116,7 +116,7 @@ sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de cont
 
 
 
-El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \textbf{V} \cdot {n}`
+El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \textbf{V} \cdot \textbf{n}`
 
 Figura 4.2 Flujo másico a través de un elemento de área
 
