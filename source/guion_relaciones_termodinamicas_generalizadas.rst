@@ -1,0 +1,879 @@
+Relaciones Termodinámicas Generalizadas
+=======================================
+
+RELACIONES TERMODINÁMICAS GENERALIZADAS
+Antonio Sánchez Sánchez
+
+TEMA6
+RELACIONES TERMODINÁMICA GENERALIZADAS.
+6.1.	- Introducción.
+6.2.	- Potenciales termodinámicos o funciones características.
+6.2.1.- Transformaciones de Legendre.
+6.3	- Relaciones de Maxwell.
+6.4	- Relaciones generalizadas para cambios de entropía, energía interna y entalpia, de
+sustancias compresibles simples.
+6.5.- Relaciones generalizadas para cp, cv y y.
+6.5.1-	Diferencias cp - cv
+6.5.2	- Expresión generalizada de y.
+6.6	- Coeficiente de Joule-Thomson o Joule-Kelvin.
+Ejercicios.
+
+
+
+TEMA 6
+RELACIONES TERMODINÁMICA GENERALIZADAS.
+6.1.- Introducción.
+
+á
+i/(a Jí ~J ; £
+l'c,/
+/
+-- ’ “f
+Relacionadas con la función exergía vista en el tema cinco, aunque históricamente son anteriores, podemos definir dos nuevas funciones termodinámicas, las denominadas funciones de Helmholtz y Gibbs*2>
+La primera se definirá a partir de la que algunos textos denominan disponibilidad para sistemas cerrados (U+p0V-T0S) prescindiendo del término p0V y suponiendo que la temperatura del sistema es igual a T0:
+//XVÁ [ A = U - TS ó a = u - Ts 4______________ (6.1)
+y la segunda a partir de la exergía para sistemas abiertos: _
+d-ik. Ci -H-TS ó g = h-Ts J	(6.2)
+Ambas funciones están relacionadas con sistemas complejos, en los que se dan reacciones químicas y en los que puede producirse más de una forma de trabajo. La frecuencia con la que se presentan en el anáfisis termodinámico de los sistemas, es lo que justifica que a estas agrupaciones de variables termodinámicas se les haya dado nombre propio.
+Cuando estudiemos sistemas multicomponentes y multifase, con y sin reacción química, veremos la importancia de estas funciones.
+Con frecuencia se nos presentará en el transcurso de nuestro estudio la necesidad de disponer de valores de las magnitudes u. h, s, a. g. etc. y estas npspndetexminables experimentalmente. por lo que es preciso disponer de relaciones entre estas magnitudes y otras que se puedan determinar de forma empírica, como son p, v, T, c~, Cy y las relaciones de estas últimas con T.
+I	'	...
+En este tema veremos cómo pueden determinarse estas relaciones y cómo se procede para calcular valores de las distintas magnitudes a partir de las que podemos medir en el laboratorio.
+Antes de efectuar la determinación de estas relaciones veremos que existe un conjunto de magnitudes características que, expresadas en función de variables adecuadas, nos permiten un conocimiento termodinámico completo del sistema sometido a estudio: estas son los potenciales , termodinámicos o funciones características. Procuraremos destacar lo que hace que estas ecuaciones sean fundamentales en el estudio de la termodinámica.
+Para el estudio de esta parte de la termodinámica se supone que el alumno domina la utilización de funciones de más de una variable y por tanto las relaciones entre derivadas parciales.
+Relaciones termodinámicas generalizadas.
+6.2.- Potenciales termodinámicos o funciones características.
+Se denominan ‘potenciales termodinámicos o funciones características a las funciones que proporcionan una descripción completa del estado termodinámico del sistema. En el caso de sis-jtemas compresibles simples, en los que sólo son necesarias dos variables independientes para identificar su estado, las fondones características pueden tomar cualesquiera de las formas si-¡ guientes :
+JL - 1 d$ - í,íh"
+azU	// ; (J - TS
+; & r 1+ 'TS
+\ 1 Expresadas estas fondones mediante las variables indicadas, tienen la importante propiedad de que nos permiten calcular a partir de cada una de ellas cualquier magnitud termodinámica que nos interese.
+Consideremos el caso de u ^ u (s, v)¡ Por ser función de estado, tendremos:
+u = u (s, v) h = h (s, p) a = a (T, v) g = g (T, p)
+du =
+,5vJs
+dv +
+,5sJv
+ds
+(6.3)
+da:
+La ecuación de Gibbs (3.23) referida a la unidad de masa o de cantidad de sustancia, nos
+r Lt,	K ^
+Aj/uKM1' bu *
+Identificando términos equivalentes:
+du = T ds - p dv
+(6.4)
+'du^	"1 = -p,i	"Su"	= T
+UVJ	!- ’	USJ
+(6.5)
+Conocidas u, s, v, p, y T podemos calcular sin dificultad h, a, g y otras magnitudes que puedan interesar, como son Cy y ks:
+7
+( a 2 A o u
+d v
+7s
+V5v7s
+1
+K v
+->7
+(6.6)
+í«92u^		Qj H
+U2j	V	l )
+T
+C v
+(6.7)
+Como aplicación de lo expuesto anteriormente consideremos el siguiente ejercicio:
+2
+Relaciones termodinámicas generalizadas.
+Ejercicio E6.1.
+1
+Para un determinado sistema se ha encontrado que la relación entre la energía interna y el volumen del mismo puede expresarse por la función:
+U = AS2V1 exp (S/B)
+En la que A y B son constantes.
+El sistema se somete a una transformación isoentrópica tal que la presión queda reducida a un tercio de la presión inicial, es decir:
+Determínese:
+a)	Temperatura final del sistema.
+b)	Volumen final.
+*********
+Solución:
+Para el sistema indicado en el enunciado nos dan la dependencia funcional de la energía interna con la entropía y el volumen, es decir, nos proporcionan una ecuación característica del sistema. A partir de esta ecuación es posible obtener, para el sistema dado, las expresiones de la presión y temperatura en función de las variables mencionadas:
+P
+¿HJ d V
+= A S 2 es/B V
+(E6.a)
+T =
+'£U
+„ as
+= 2AS V“1 v
+= ASV"'e
+es/B + AS_v
+B
+S/B
+2+A
+B
+-1
+e
+s
+B
+(E6.b)
+a) Según se índica en el enunciado:
+À
+p A S 2 es / B V ~2	1
+Po A S 02 es°/B V0 ”2	3
+(Eòe)
+f
+También nos indican en el enunciado que el proceso es isoentrópico, por lo que:
+3
+Relaciones termodinámicas generalizadas.
+s = sr
+Simplificando en (E6.c), obtenemos.
+_P_ = f V_o Po l V
+Para el mismo sistema y proceso, al aplicar (E6.b) se obtiene:
+T V
+1	_ yo
+T ~~ V *0
+Teniendo en cuenta (E6.d):
+(E6.d)
+(E6.e)
+JL-J_
+T0 ~ yÍ3
+de donde:	T = T0 / >/3
+b) Sustituyendo (E6.f) en (E6.e), se obtiene:
+(E6.fi)
+A
+V _ 1
+vó~ Ví
+por lo que:	V = VJ VQ
+Compárense los resultados obtenidos con los que se obtendrían para un gas ideal.
+De forma análoga si conocemos la dependencia deh en función de sv~pl obtenemos:
+por lo que:
+dh
+A
+1 dh^ \d s7
+ds +
+^ah^
+\dVj
+dp
+dh = T ds + v dp ^
+^ t f> cb/'
+vaSy
+= T,
+^ahA
+= v
+(6.8)
+(6.9)
+•zvc ■*p¡/ 7	jÁ ifílvA '/¿‘.p
+T dS
+(6.10)
+Si disponemos de h, s, p, T y v, podemos determinar las restantes funciones termodinámi-
+cas.
+Supongamos que lo que nos dan es a en función de T y v:
+ir--—------------	"
+4
+Relaciones termodinámicas generalizadas.
+
+~p
+Jv.
+1 dz ^ - ls- )
+z (ij ~ el I ‘ S ' J. £
+por lo tanto:
+(6.11)
+(6.12)
+(6.13)
+Teniendo los valores de a, T, v, p y s , es posible determinar cualquier otra magnitud termodinámica que nos interese.
+También conocida g en función de p y T/podríamos determinar cualquier otra magnitud termodinámica, ya que:	.	_	1 .	, , \	.	,
+vzh - i s *	- idh)- clT’S - (h *; '
+dg =
+f -s \
+dg
+dp +
+fdg^
+ydTj
+v5PA-
+dg = v dp - s dT
+dT
+(6.14)
+(6.15)
+de donde:
+(6.16)
+Conviene que completen el estudio de las funciones h, a, y g de la misma forma que se ha realizado el estudio de la función u.
+Es fácil comprobar que tanto las magnitudes consideradas expresadas en función de otras variables termodinámicas, como cualquier otra magnitud termodinámica expresada en función de variables cualesquiera, no tienen la propiedad de ser funciones características.
+El nombre de potenciales termodinámicos que se asigna a las funciones que acabamos de considerar proviene del hecho de que su variación en ciertas condiciones, nos da el trabajo distinto del pdv que puede obtenerse en una determinada transformación.
+En efecto, consideremos el caso de la energía interna/ A partir del primer principio, supuesto que los cambios de energía mecánica son despreciables, obtenemos:
+du = 5q + 5w	(6.17)
+Del segundo principio, sabemos que para transformaciones reversibles 5q = T ds, por lo
+que:
+5
+Relaciones termodinámicas generalizadas.
+du - T ds + 5w
+(6.18)
+Téngase en cuenta que el término dw incluye tanto el trabajo -p dv cómo cualquier otra forma de trabajo cuasiestático ( eléctrico, superficial, químico, etc.) al que representaremos por 8wx sustituyendo:
+du = T ds - p dv + 5wx
+>i consideramos un proceso a s y v constantes:
+du = 8w*
+(6.19)
+(6.20)
+Vemos que la variación de energía intema representa el trabajo distinto del p dv que se realiza en una transformación a entropía y volumen constantes.
+En el caso de la función de Gibbs,' tenemos:	u<^
+dg = du + p dv + v dp - T ds - s dT Teniendo en cuenta (6.19), obtenemos:
+du + p dv - T ds = 8w^
+por lo que:
+dg = v dp - s dT + 8wx Si consideramos una transformación a p y T constantes:
+dg = 8wx
+/ X.r f/ 'pjfr
+(6.21)
+r-f'd
+(6.22)
+(6.23)
+
+De forma análoga podríamos proceder con h y a y su variación a p yj>j5onstantes y a v y T constantes, respectivamente, inos daría el trabajo implicado en las transformaciones correspon-
+dientes, distinto del p dv.
+■¡Jh
+' jo •
+. JL¡	C.JÍ ‘ £-
+
+"£*> (A.
+En el caso del potencial dé Helmholtz se nos presenta un caso muy interesante de analizar. Para ello consideremos una transformación a T constante solamente, en vez de una isoterma e isocórica. En este caso:	. a , h /	,
+n A tíJUMh Ulu,
+da = - p dv - s dT + 8wx	(6.24)
+
+; ;
+r
+[da = - p dv + 8w>
+fe
+árj& Has*' (M 4 Wi
+<6 25)
+Por lo que la variación de la función de Helmholtz nos da el trabajo total (incluido e¡A
+Tú
+dv) que se intercambia en una transformación isoterma.
+T,
+- c- X/.
+
+1 A esta función también se la denomina, en ciertas publicaciones, energia libre. Este nombre proviene de lo que acabamos de ver, es decir, el trabajo total que podemos obtener de un sis- La tema a T constante viene ligado a la variación de a y como u = a + Ts, vemos que de la energia <7t. interna u sólo una parte a puede ser utilizada, quedando otra parte no disponible para efectuar tra- ¡t , ^ bajo, a la que se denomina energia ligada (Ts) o termentropia.
+hl-
+tr-
+
+6
+Relaciones termodinámicas generalizadas.
+De forma análoga podríamos justificar el nombre de entalpia libre, que ftm,cióndeGibbs.
+también se da a la
+6.2.1.- Transformaciones de Legendre.
+Como información adicional consideraremos la herramienta matemática que puede utilizarse para la deducción de los distintos potenciales termodinámicos.
+ÍEs importante tener en cuenta que los distintos potenciales termodinámicos pueden obte-erse a partir del primero, sin más que utilizar la denominada transformación de Legendre, que ertenece al grupo de las denominadas transformaciones de contacto, estudiadas en teoría de ecuaciones diferenciales.
+La transformación de Legendre consiste en la sustitución de alguna o algunas de las variables por su correspondiente derivada conjugada. El resultado es que cualquiera de las funciones obtenidas (transformadas de Legendre) contienen la misma información que la ecuación de partida, pero dependen de variables diferentes. Ello representa una gran ventaja cuando se trata de funciones termodinámicas cuya forma puede cambiarse hasta que se puedan llegar a expresar en función de propiedades directamente mensurables.
+Consideremos la forma de proceder al utilizar esta herramienta matemática. Para ellos supongamos que tenemos una expresión diferencial exacta del tipo:
+dY = D, dX, + D2 dX2 + D3 dX3 + ...	(6.26)
+Las correspondientes funciones transformadas de Legendre definen una serie de funciones relacionadas con Y, en las cuales el conjunto de variables utilizado para definir cada una de ellas contiene una o más de las Dj (Recuerden que D, = (5Y/3X,)	) en lugar de las conjugadas X¿. Para
+una expresión diferencial que tiene n variables existen 2n-1 transformaciones posibles de Legendre. Si hay dos variables existirán tres transformadas de Legendre, es decir, si:
+dY = D, dX, + D2 dX2	(6.27)	'>
+las transformadas serán:
+t,=Y-D,X,
+t2 = Y-D2X2
+ti2 = Y - D,X,- D2X2
+(6.28)
+y, por tanto,
+di, = dY - D,dX, - X, dD, = D2 dX2 - X, dD,
+(6.29)
+dr2 = dY - D2dX2 - X2 dD2 = D, dX, - X2 dD2
+(6.30)
+di,2 = dY - D,dX,- X,dD,- D2dX2- X2dD2 = - X,dD, - X2dD2
+7
+(6.31)
+Relaciones termodinámicas generalizadas.
+Concretando para el caso de la energía interna:
+dU = T dS - p dV
+U => Y, T => D,, X, => S, D2 => -p, X2 => V
+U-TS
+r2 = U + pV
+/ J
+•- •- ''
+-, V- ^	/	/
+r3 = U - TS + pV
+Que corresponden a las funciones de Helmholtz, entalpia y Gibbs, respectivamente.
+6.3.- Relaciones de Maxwell.
+Las funciones características expresadas en función de sus variables naturales proporcionan un medio para caracterizar por completo el estado termodinámico de un sistema, también estas funciones, por el hecho de ser sus diferenciales exactas, permiten la deducción de relaciones entre propiedades termodinámicas que son de gran interés en el estudio de los sistemas termodi-námicos. Recordemos que para sistemas compresibles simples:
+du = T ds - p dv dh = T ds + v dp da = -p dv -s dT dg = v dp - s dT Por la igualdad de las derivadas cruzadas:
+y
+flLoRr^ ^
+ÍQj\
+Vavy
+í Qj\
+vaPys ' á¿
+dT
+{ dy} vdTy
+\ 5s7v
+^dvN
+VdSy
+^ds^
+VdvyT
+ds
+v5PyT
+(6.4)
+(6.9)
+(6.12)
+(6.15)
+(6.32)
+(6.33)
+(6.34)	)
+(6.35)
+Estas son las denominadas relaciones de Maxwell.
+8
+Relaciones termodinámicas generalizadas.
+Una regla nemotécnica que nos permite recordar con facilidad las relaciones anteriores, es la siguiente. Dispongamos las cuatro magnitudes que intervienen en estas relaciones en orden alfabético, formando una seudomatriz, y con ella deducimos la relación funcional como se indica
+MbJlo '
+a contmuacion.
+fd^ V5v7t
+Asignemos a esta seudomatriz la propiedad de que cuando se cambia el orden de los elementos de una diagonal el signo de la correspondiente relación funcional debe cambiarse, como indicamos a continuación para el cambio de los elementos de la diagonal principal
+v s T P
+dy}
+3T
+( -, \ 3s
+3p
+Cambiando la diagonal secundaria y también el signo:
+v T s p
+' dv'
+UsJ	p	UpJs
+Volviendo a cambiar la diagonal principal y el signo:
+P T	-»	'dp] _ fdT"
+S V		,dsJv
+La utilidad de estas relaciones se verá a lo largo de nuestro estudio, sin embargo, como una primera aplicación inmediata, consideremos el caso siguiente: supongamos que en el estudio de una determinada sustancia es preciso conocer como varia la entropía de la misma al variar el volumen a temperatura constante.
+Como dijimos al principio, la entropía no es directamente mensurable, por lo que no tenemos procedimiento que nos permita determinar esta relación experimentalmente, sin embargo, según (6.34), se tiene directamente relacionada la variación de la entropía con el volumen a temperatura constante, con la correspondiente variación de la presión con la temperatura a volumen constante:
+i
+9
+Relaciones termodinámicas generalizadas.
+fd£>
+v5v;t
+'di'
+ydT;
+por lo que se tiene la posibilidad de deducir la relación que nos piden a partir de medidas experimentales de p y T. También podríamos determinar la relación mencionada si disponemos de una ecuación f (p, v, T) = 0.
+6.4	Relaciones generalizadas para cambios de entropía, energía interna y entalpia, de sustancias compresibles simples.
+Para el análisis termodinàmico de sistemas es importante disponer de ecuaciones que permitan evaluar los cambios en estas magnitudes a partir de los correspondientes a los valores de las magnitudes que pueden medirse directamente. A continuación deduciremos alguna de estas ecuaciones.
+Comencemos con los cambios de entropía. Por ser un sistema compresible simple, s podemos expresarla en función de T y v, T y p, ó p y v.
+Consideremos el primer par de variables, T y v:
+|N*.				f ds Ì	í ds\
+-t?ds = .	— dT +
+	l<5Tjv	UVJ
+dv
+r
+(6.36)
+Para conseguir el fin propuesto se deben sustituir las derivadas parciales dadas en función de expresiones que solo contengan p, v, T y los calores específicos. Para ello recordemos que:
+T ds = du + p dv ds = 1/T( du)+ p dv)
+du =
+(du]	dT +	'du'	1			 dv = c. dT +	Í5Ul
+UtJ	V	U vJ	T	UvJ
+dv
+L----
+ds= — dT + —
+P +
+f Su'
+\dvj
+\
+dv
+___J
+(6.37)
+Las ecuaciones (6.36) y (6.37) son expresiones equivalente para ds, por lo que:
+'ds'
+ydTj
+V
+T
+\dvJr
+P +
+rdu^ V5v7t
+(6.38)
+10
+Relaciones termodinámicas generalizadas.
+[uto,
+
+Jí
+
+De la tercera relación de Maxwell (6.34):
+fd%'
+V5v7t
+
+¡2T i-/J hr-	yfO^i c- t~- y
+y ^ Ja;
+&rh 1/
+K/
+Sustituyendo en (6.36) la primera de las (6.38) y la (6.34), se obtiene:
+ds = — dT + T
+5p
+
+V5T;V
+dv
+L.J
+(6.39)
+tyfá.¿ C A 4¿¡ajLcO%*
+Vemos que ds queda en función de magnitudes fáciles de determinar. De (6.38) y (6.34) también se puede deducir:
+fSpl	1	P +	í 5U1
+UtJ	T V			T.
+de la podemos obtener (3u/5v)T en función de cualquier ecuación pvT, relación que se necesitará utilizar más adelante.
+De forma análoga para la expresión en función de/p y Ti tenemos:
+A partir de:
+
+ds =
+^ 3s ^
+v3Íy
+dT +
+f \
+os
+v5PyT
+dp
+j
+(6.40)
+dh = T ds + v dp ds = 1/T(dh - v dp)
+y-
+dh
+» ÍT +
+3T
+'dh'
+v5pJt
+dp = c dT +
+3h
+3p
+dp
+se obtiene:
+-í
+c
+ds = — dT + — T T
+3h
+5P
+dp
+/T
+(6.41)
+11
+Relaciones termodinámicas generalizadas.
+Las expresiones (6.40) y (6.41) representan la misma función, por lo que identificando términos equivalentes, se llega a la relación:
+í ds)
+V<5T,
+p
+T
+(6.42)
+De la cuarta relación de Maxwell, ecuación (6.35), se tiene:
+V5P/r
+5v
+dT
+r s t ^
+T P '
+Por lo que:
+d s = — dT T
+^ dv^ vaTy
+dp (6.43a) y
+( A dv
+dT
+v5PyT
+- V
+(6.43b)
+Algo semejante se puede hacer con la expresión de s en función de p y v. Es conveniente que el alumno realice la deducción completa de esta ecuación y compruebe que se llega a:
+^ c ( ds = ^ —
+T l5Py
+dP + -^ T
+
+dv
+(6.43c)
+La metodología utilizada en la deducción de las correspondientes expresiones para las funciones u y h es análoga a la utilizada hasta ahora.
+Para obtener la correspondiente a los cambios de energía intema, recordemos que:
+du = T ds - p dv
+Sustituyendo ds por la expresión (6.39), se obtiene:
+du = c, dT +
+V<3T,v
+d v
+(6.44)
+De la expresión dh = T ds + v dp, sustituyendo en ella ds de la primera ecuación (6.43a), se obtiene:
+dh = c dT +	v-T	'dv'
+p		,dT)	p.
+(6.45)
+12
+Relaciones termodinámicas generalizadas.
+Tanto la expresión de du como la de dh permiten encontrar el valor de Au e Ah para un determinado proceso, sin más que conocer las correspondientes relaciones cp (T) y f(p,v,T) = 0, mediante la integración entre los estados inicial y final correspondientes.
+En algunos textos es frecuente dar estas expresiones utilizando a y kt, para ello, recuérdese que:
+por lo que:
+du = c„ dT +
+'r a
+T------p
+d v
+(6.46)
+dh = cp dT + [v-Tav]dp = cp dT + [l- ocT] v dp
+(6.47)
+Como aplicación inmediata de lo que acabamos de ver consideremos el ejercicio siguiente:
+I
+Ejercicio E6.2.
+Se ha de comprimir un gas monoatómico en un compresor que funciona en régimen estacionario, de forma reversible y a temperatura constante.
+El gas entra al compresor a 300 K y 10 bar y se comprime hasta 150 bar.
+Determínese:
+1)	el trabajo requerido, por mol de gas, para hacer funcionar el compresor.
+2)	la cantidad de calor intercambiado, si:
+a)	El gas se comporta como gas perfecto.
+b)	El comportamiento del gas obedece a la ecuación:
+P
+-í
+f
+en la que:
+pv=RT-^p+bp
+a = 0, 385 K m3 kmol"1 b = 0, 0152 m3 kmol"1
+13
+Relaciones termodinámicas generalizadas.
+/P	*******************
+w	p = 150 bar	P
+Solución:
+Sistema: Volumen de control definido por la carcasa del compresor. Interacciones: Las esquematizadas en la figura.
+Proceso: El representado en el diagrama.
+Ecuaciones aplicables: las (4.11) y (4.20)
+q = hts - hte ' wx	(411)
+Z — = Zsm i T¿ s
+Zsm
+(4.20)
+En el caso que estamos considerando sólo hay una entrada y una salida y puede considerarse que únicamente se intercambia calor con una fuente térmica a 300 K (proceso isotérmico), por lo que :
+de donde:
+Y =	“ Se
+m
+q = T(ss-se)	(E6.2.a)
+En esta ecuación podemos considerar valores por unidad de masa o por unidad de cantidad de sustancia (mol). Para el problema que nos ocupa conviene utilizar el mol.
+Se ha de calcular wx y q, por lo que, según (4.11) y (E.6.2.a):
+wx = A h - q
+q = T A s
+Ir?	Vemos que, calculado el incremento de entropía, puede determinarse q y una vez conocido q y
+calculado D h, se podrá determinar el trabajo.
+%
+Para calcular A s y A h, recordemos que según (6.43) y (6.45):
+14
+Relaciones termodinámicas generalizadas.
+h
+^ dv^
+k8Tj
+dp
+dh = cp
+dT +
+^ 5v ^
+v5Ty
+dp
+para un proceso a temperatura constante:
+d s^p
+5T
+dp
+d h j —
+v-T
+
+v5T /
+dp
+a) En el caso de gas perfecto:
+pv=RT,
+_ RT P
+/ , \ 5v
+5T
+R
+P
+s2 _ S1 -
+8.314
+/•l50 «	ISO
+—= R ln—— = - 22.51 kJ . kmol
+J io P 10
+d hT —
+T R
+v-T —
+dp = 0,
+Ah = 0
+q = T D s = 300 (- 22.51) = -6 754,42 kJ.kmol'1 w, = Dh - q = 0 + 6 754.42 = 6 754,42 kJ.kmol'1
+b) Gas real:
+pv =
+RT- — p + bp, T
+RT	a	,
+v =------ + b ,
+P	T
+
+dT
+R a
+H 2 p T2
+15
+Relaciones termodinámicas generalizadas.
+t
+v-T
+
+v5Ty
+RT a R T a	RT a _ 2a,b
+“	T _ p T	p T~T
+d Sr — —
+( d\ '	dp = -	( R a V	M50	f R a 'j
+		— + — dp, A s =	—
+	p	l P T2 J J	10	y p t2 )
+dp
+ÁSx = - 8.314 ln
+150	0.385
+10	3002
+(150- 10) 102 = -22,57 kJ.(kmol.K)-1
+dhT
+	r (7 v 'l			(. ¿a"!
+v-T			dp =
+	[tiT¡	l C.		l T J
+dp
+i
+A hT
+n	b-^1
+JJ	T )
+dp
+b (150 - 10) 102 - — (150- 10) 102 = 176,86 kJ . kmol-1 300
+q = - 300.22.57 = - 6 772,38 kJ . kmol'1
+wx = 176,86 - ( - 6 772,38 ) = 6 949,24 kJ . kmol’1
+6.5.- Relaciones generalizadas para cp, cv y y.
+En el apartado anterior hemos encontrado dos relaciones de las que pueden deducirse definiciones generalizadas para cp y cv, utilizables en cualquier región monofase en la que sean conocidos datos (s, p, v, T):
+y las relaciones de Maxwell correspondientes, se obtiene:
+Relaciones termodinámicas generalizadas.
+
+{J/' i i	^
+Q^rJtk
+-oirc¿ t
+'a h \ I v
+
+yv-y
+cv = -T
+3 v 3 T
+/P
+3£'
+\(ST,
+Y
+U'“/0
+/¡A
+(6.49a)
+lcp=T
+r;
+rrrr
+gp
+3 v^l
+di)	p 1
+/X. „ X, >'
+________(
+¿¡¿'Vi <■
+r
+(6.49b)
+v / /p j
+Un método alternativo para la determinación de valores de cp y cv en un amplio intervalo de presiones y temperaturas está basado en el hecho experimental de que es fácil determinar ..calores específicos- í presiones bajas, ^ no lo es tanto a presiones-elevadas. Ya se mencionó la posibilidad de utilizar los métodos espectroscópicos para la determinación de calores específicos de gases a baja presión y la variación de este calor específico con la temperatura. Tales datos se denominan calores específicos a presión cero. ( L j ^	¿
+“	fSrM-A	'
+Para hacer que estos datos sean aplicables en cualquier intervalo, no sólo de temperatura, sino también de presión, es preciso que podamos determinar como varían estos calores específicos con la presión a temperatura constante.
+Esta evaluación deberá basarse nuevamente en la utilización de datos p, v, T, determinados en el intervalo adecuado de estados de equilibrio.
+
+Desde el punto de vista matemático lo que buscamos es una expresión para (3 cp/3 p)^ y
+en casos menos frecuentes (3cv/3 v) . Ecuaciones generalizadas para estas dos expresiones se obtienen a partir de las ecuaciones s (T, p) (6.43a) y s (T,v) (6.39) deducidas antes.
+Nos centraremos en la primera, ya que la segunda tiene un tratamiento análogo, que se recomienda realizar al alumno.
+Teniendo en cuenta (6.43) y aplicando a la misma la condición de diferencial exacta, se obtiene:	-----------------7 7- ~r
+Jí i /
+'	C- dlS-isCrcL 0
+Cfl, Ai-jÍ 10 *•**' /■ Tíc/j
+(
+-1\ 3 P
+7
+Jj
+ft)'
+y 3 T2
+(6.50)
+de donde:
+Í<M	— T
+l 5P J	f	(3 T2 J
+(6.51)
+Para obtener el valor de cp a una presión elevada tendremos que integrar la ecuación anterior a lo largo de una isoterma desde la presión cero al valor deseado. Por lo que:
+C/a sv
+Cv-tnoo : {/>, yf TÍ.
+(6.52)
+
+7a"
+Relaciones termodinámicas generalizadas.
+En esta expresión cpo es el calor específico a presión cero o calor específico de gas ideal. La integración del segundo miembro requiere que dispongamos de información del comportamiento pvT de la sustancia en forma analítica o tabular.
+6.5.1.- Diferencias cp - cv.
+Otra relación termodinámica de gran interés es la que da la diferencia de los calores específicos a presión constante y a volumen constante. Una razón que justifica este interés es, que como ya hemos dicho, los valores de cp son mucho más fáciles de medir que los de cv. De hecho, los valores de cv sólo pueden evaluarse de forma rigurosa a partir de datos de cp y pvT.
+Para realizar esta evaluación recordemos que la variación de cualquier propiedad termodinámica (variable de estado) no depende del método de evaluación (camino recorrido), por lo que podremos igualar las dos ecuaciones obtenidas para ds, ecuaciones (6.39) y (6.43), obteniendo:
+^ dT +	f dp 1	dv = — dT -
+T	[dT)	T V	IdT J
+dp
+y de ésta se puede obtener:
+c — c
+p
+dT :
+( -, \ dv
+dT
+dp +
+dp ' dT,
+dv
+(6.53)
+de donde:
+dT =
+c — c
+p
+dv
+dT
+dp +
+'dp}
+V dTy
+d v
+(6.54)
+Es decir, hemos obtenido una expresión de T considerada como función de p y v. Para esta función debe cumplirse:
+dT =
+dT'
+dpjv
+dp +
+^d^
+dv
+d v
+Identificando coeficiente homólogos, se obtiene:
+r dT'	- T	f5vl
+V dp.	K cp-cv	l dT J
+por lo que:
+18
+Relaciones termodinámicas generalizadas.
+lwse* I c_-cv= T			fdy]
+p v ÍL=S	UtJ	V	(dTj	I P
+(6.55)
+Se hubiese llegado al mismo resultado utilizando la equivalencia de los otros coeficientes. Si utilizando la relación cíclica sustituimos (5 p¡d T) v:
+( -, \
+( dy}
+í a N
+dp
+Xv/T
+en (6.55), llegamos a la expresión:
+CP-CV=-T
+XX2
+
+dp
+V5v/t
+XX
+(6.56)
+De esta ecuación se pueden deducir inmediatamente un conjunto de resultados importan-
+tes.
+® Ante todo y sobre la base de datos experimentales, se sabe que (óp/dv)T es siempre negativa para todas las sustancias en todas las fases. Ya que la primera derivada parcial est
+________T ±
+elevada al cuadrado, se deduce que c - cv debe ser siempre positivo o cero.	y" > -i á/>y j a j
+y- <-•
+®'Ct'-c7 Esta diferencia se hace cero en dos ocasiones. La primera de estas es, evidentemente, cuando T es el cero de la escala termodinámica, si los restantes términos permanecen finitos en este estado. Consecuentemente, los calores específicos a presión constante y a volumen constante
+a 0 K son idénticos.
+(kl =- (au.
+i■
+-pí'-iA
+A j-X
+El segundo caso en el que se anula la diferencia c - cv es cuando se anula la derivada
+parcial (dv/5T)p. Esto ocurre cuando el fluido tiene un valor extremo del volumen específico
+(máximo o mínimo). Si consideramos como sistema el agua líquida, este caso se presenta en el entorno de 4 °C, por ser a esta temperatura su densidad máxima. J1
+Es importante destacar que cuando se considera el estudio de hablar de calor específico y no se hace referencia a que el proceso considerado sea a presión o a
+.■Üod't A
+sólidos y líquidos se suele
+volumen constante. Esto se debe a que los valores de (d v/d T)p son pequeños para la mayoría de
+los estados de equilibrio de las sustancias en estas fases. Generalmente los datos tabulados son valores de cp .
+Es frecuente que encontremos expresada la diferencia de calores específicos para sólidos y líquidos en función del coeficiente de dilatación a y del coeficiente de compresibilidad isoterma kt, ya definidos. Sustituyendo en (6.56), se obtiene:
+cu
+/
+iPóc-^-v
+
+' - c
+&
+UL cJ X
+X
+
+
+
+farj
+: ¡ ! />-/
+Ct
+J'
+Me*
+‘S'f,
+Relaciones termodinámicas generalizadas.
+cp - cv = -T (a v)2/ (- tcxv) = T a2v / kx	(6.57)
+La utilización de a y kx resulta muy cómoda en la mayor parte de los cálculos que tienen que realizarse con estos sistemas, ya que sus valores pueden considerarse prácticamente constantes en casi todos los procesos considerados.
+6.5,2.- Expresión generalizada de y.
+Para determinar y a partir de datos pvT, sustituyamos cp y cv por sus definiciones generalizadas:
+T	'V ^TJs	fdv' UtJ	p	5pf Sv^	í 9T1
+CV y	'av ydT)	'dp .Ut	K	UvJ.UtJ	pUpJ
+(6.58)
+teniendo en cuenta que:
+"5v"		CD H		=_j	' dv'				5 v ^
+	P	15pJ	V	UvJT	<d Tj	P	,5P>	V	v5P,
+Sustituyendo en (6.58) y recordando que kx = -(l/v)(dv/dp)T y ks = -(l/v)(dv/3p)s, se obtiene:
+Es decir, podemos relacionar el cociente de calores específicos con el cociente de las compresibilidades de la sustancia a temperatura y entropía constante.
+6.6.- Coeficiente de Joule-Thomson o Joule-Kelvin.
+Consideremos el flujo de un fluido a través de un conducto que tiene un obstáculo o limitación al paso del fluido. Esta limitación puede ser un estrechamiento o algún tipo de tapón poroso como lana de acero, lana de vidrio o algodón. El efecto de esta limitación es producir una caída notable de presión a través del obstáculo. Un esquema de la instalación se muestra en la figura
+6.1.	La interacción trabajo entre las superficies de control 1 y 2 es nula y el conducto a través del que se produce el flujo está aislado térmicamente.
+i
+20
+Relaciones termodinámicas generalizadas.
+Wi/
+¥
+
+
+r
+...» ájj **&&&*
+L~<-
+„jrW>^
+' Á
+O-
+Í^'P'
+Figura 6.1 Experiencia de Joule-Thomson
+m
+
+i Ki
+/)U- : ¡Mi
+<n -	^i
+.S©
+r
+7
+^7
+-I) Uz 1J’i 4S ;
+í
+¡i j >£.<_ y
+de Joule-Thomson
+-	Pplr	¡r_t_y P j
+Consecuentemente, la interacción térmica es nula o despreciable. El flujo del fluido se
+ajusta a las condiciones de estado estacionario. Además, los cambios en energía cinética y potencial de la corriente fluida entre 1 y 2, pueden también considerarse despreciables. Por lo que aplicando el primer principio para sistemas abiertos, se obtiene:
+/bs /j--*-	^ <<,-	'<*•' tUy(A^¡UÍ
+h, = h2
+Mu es geKti&i&iG-
+U- y ítíti
+7
+Como ya mencionamos en la apbcación del primer principio a sistemas abiertos, los procesos en los que la entalpia de entrada es igual a la entalpia de salida, se denominanjwocesós^de' estrüñgütacíofp El efecto de estrangulación tiene un gran número dé aplicaciones tanto desde el punto de vista, técnico como teórico, a este tipo de experiencias también se les denomina ^efecto Joule-Thomson o Joule-Kelvin7
+El efecto Joule-Kelvin tiene gran importancia, fundamentalmente, por dos hechos:
+a)	Se pueden referir a él otras propiedades termodinámicas, que pueden evaluarse a partir de este efecto, como: volúmenes específicos, calores específicos y temperaturas.
+b)	El resultado de la estrangulación, en ciertas condiciones, es una reducción en la temperatura del fluido, de forma que podemos tener un enfriamiento mediante un sistema sin partes móviles. De hecho, bajo condiciones adecuadas, es posible que uno o más componentes de una corriente fluida pase a la fase líquida durante el proceso de estrangulación, de forma que puede utilizarse el sistema para proceder a la separación de componentes de una mezcla gaseosa.
+Como acabamos de decir, se ha visto experimentalmente que mediante el efecto Joule-Kelvin un fluido puede llegar a una temperatura final con un valor mayor o menor que el valor correspondiente de la temperatura inicial, dependiendo de los valores de p,,T, y p2. Una evaluación matemática adecuada de este efecto se realiza mediante el coeficiente de Joule-Kelvin pjj-, que se define mediante la ecuación:
+M-jt -
+r_dr)
+,ôpjh
+(6.60)
+21
+Relaciones termodinámicas generalizadas.
+De acuerdo con esta ecuación es fácil ver que (ijj- se puede determinar mediante las gráficas experimentales de procesos a entalpia constante, en un diagrama Tp.
+Para obtener estas gráfica experimentalmente, se fijan los valores de p,Tj corriente arriba de la estrangulación y se hace variar la presión p2. Para cada valor de p2 se determina experimentalmente T2. Bajo condiciones de estrangulación, cada uno de los estados medidos corriente abajo tiene la misma entalpia que los estados corriente arriba del obstáculo. Después de hacer un número de medidas adecuado corriente abajo, para un estado dado en la parte anterior del obstáculo, se puede trazar una línea que corresponde a estados del sistema con la misma entalpia, sobre un diagrama Tp. Es necesario hacer notar que lo único que decimos es que cada estado representado por puntos de la linea tienen la misma entalpia, lo cual no quiere decir que el proceso que tiene lugar cuando se produce el paso de un fluido por un estrechamiento sea isoentálpico.
+Para obtener otr curva de entalpia constante, se altera o la presión o la temperatura inicial y se repite el procedimiento anterior para este nuevo valor de la entalpia.
+De esta forma se traza una familia de líneas de entalpia constante sobre un diagrama Tp. Un resultado típico se muestra en la figura 6.2. La pendiente de una línea de entalpia constante, para cualquier estado, es una medida del coeficiente de Joule-Kelvin correspondiente a ese estado,
+es decir, una medida de .
+Ii>"‘
+En la figura 6.2, en donde se han representado las lineas de entalpia constante, vemos que algunas de ellas presentan un máximo. La linea que une estos máximos se denomina linea de inversión, y el valor de la temperatura para este estado se denomina temperatura de inversión. Una linea de presión constante cortará a la curva de inversión en dos puntos, de aquí que se hable de temperatura de inversión superior e inferior para una presión dada, en la zona de existencia de la curva de inversión.
+La línea de inversión tiene un significado físico importante. A la derecha de la curva de inversión en un diagrama Tp el coeficiente de Joule-Kelvin es negativo. Es decir en esta región particular la temperatura se incrementará cuando la presión decrezca y a través del estrechamiento se produce un efecto de calentamiento. Por otro lado, a la izquierda de la curva de inversión el coeficiente es positivo, lo que significa que tendrá lugar un enfriamiento por expansión en esta región.
+Vemos, por tanto, que en la estrangulación de un fluido, la temperatura final después del tapón poroso puede ser mayor que, igual a, o menor que la temperatura inicial, dependiendo, para un conjunto dado de condiciones iniciales, de la presión final. Por ejemplo, en la figura mencionada un estado típico inicial puede ser el punto w y la expansión hasta la curva de inversión (punto z) produce un calentamiento del fluido. Si se permite una expansión posterior hasta el punto y, se producirá un enfriamiento, pero no será suficiente para que el fluido recupere su temperatura inicial. Sin embargo, si la expansión progresa hasta el punto x, entonces será posible un enfriamiento suficiente para que la temperatura final sea inferior a la correspondiente al estado inicial.
+Debe también destacarse que, para algunos estados iniciales, es imposible un proceso de enfriamiento. La parte superior de la curva de inversión corta a la línea de presión cero en un valor finito de temperatura, para todas las sustancias. Consecuentemente, las líneas de entalpia constante correspondientes a temperaturas muy altas nunca pasan a través de la línea de inversión, como puede verse en la mencionada figura y para estas líneas el coeficiente de Joule-Kelvin es siempre negativo para cualquier presión. Ejemplos de gases que tienen coeficientes negativos a
+22
+Relaciones termodinámicas generalizadas.
+temperaturas ordinarias y presiones bajas son el hidrógeno y el helio. De aquí que, si se quieren enfriar estos gases utilizando un dispositivo de estrangulación, previamente habrá que disminuir su temperatura considerablemente antes de poder conseguir mediante la estrangulación un enfriamiento adicional. No obstante, para la mayor parte de los gases, a temperaturas ordinarias, el coeficiente de Joule-Kelvin es negativo para presiones altas y positivo para presiones bajas.
+En la figura 6.2 puede verse que, para una disminución de presiones determinada, el máximo efecto de enfriamiento se consigue si el estado inicial se encuentra sobre la línea de inversión. Si el estado inicial está a la derecha de la cura de inversión, parte de la expansión produce calentamiento, lo que está en contra del efecto deseado.
+Es interesante que consideremos el coeficiente de Joule-Kelvin desde el punto de vista de una ecuación generalizada, es decir, su relación con las variables p, v, T y los calores específicos. Esto se obtiene fácilmente recordando la ecuación generalizada para la entalpia (6.45):
+dh = cp dT +
+v-T
+fd^
+V<5T ,
+dp
+considerando una transformación entre dos estados con el mismo valor de la entalpia , dh - 0, se obtiene:
+(6.61)
+Por lo que el coeficiente de Joule-Kelvin, para un fluido determinado, puede calcularse a partir de la relación pvT del fluido y del calor específico a presión constante para el estado considerado. En la práctica, se utiliza el coeficiente de Joule-Kelvin, que puede medirse con facilidad, para evaluar calores específicos a presiones elevadas.
+De la ecuación anterior se puede deducir una expresión para la temperatura de inversión, sin más que tener en cuenta que, en la curva de inversión, es igual a cero, de donde:
+( dv}
+ydTj
+- v = 0
+por lo que:
+/ / ' (6.62)
+23
+Relaciones termodinámicas generalizadas.
+A partir de esta relación, una vez conocida la ecuación pvT del gas, se podría determinar el valor de la temperatura de inversión del mismo.
+Ejercicios.
+6.1	Para un sistema compresible simple determínese una expresión que proporcione la variación | de entalpia con el volumen a temperatura constante en función de T, a, y kt.
+Respuesta:
+a T- 1
+6.2	Si se dispone de la expresión para la energía intema en función de la entropía y el volumen, u(s, v), determínense las correspondientes expresiones para cv y c .
+Respuesta:
+6.3	Hallar una expresión para (3cp//3p)T en función de v, T y a, suponiendo a constante. Respuesta: (3cp/3p)T = - T a2 v
+6.4	La velocidad del sonido puede expresarse por ^j(dp/dp)g . Determínese esta velocidad en
+función de coordenadas termodinámicas y propiedades del sistema (p, v, T, cp y cv). ¿Que forma tomaría la mencionada expresión de la velocidad para el caso de un gas perfecto?.
+Respuesta : yjy R T
+24
