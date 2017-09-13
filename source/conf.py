@@ -82,6 +82,7 @@ todo_include_todos = True
 
 #MATHJAX
 mathjax_path="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML-HTMLorMML"
+mathjax_path="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"
 #mathjax_path="../../../../MathJax-2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"
 
 # -- Options for HTML output ----------------------------------------------
