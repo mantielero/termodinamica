@@ -4,8 +4,6 @@ Primer y Segundo Principios Aplicados a Sistemas Abiertos
 (Antonio Sánchez Sánchez)
 
 
-
-
 5. PRINCIPIOS PRIMERO Y SEGUNDO APLICADOS A SISTEMAS ABIERTOS::
 
    5.1.- Introducción.
@@ -20,13 +18,14 @@ Primer y Segundo Principios Aplicados a Sistemas Abiertos
    5.5.1.	- Turbina.
    5.5.2.	- Compresor y bomba.
    5.5.3.	- Difusor y Tobera.
-   5.5.4.	-Rendimiento adiabático de estos dispositivos. 5.5.5- Dispositivos de estrangulación.
+   5.5.4.	-Rendimiento adiabático de estos dispositivos. 
+   5.5.5- Dispositivos de estrangulación.
    
-   Qengel, Yunus A. y M.A. Boles. TERMODINÁMICA^ 
+Qengel, Yunus A. y M.A. Boles. TERMODINÁMICA^ 
    
-   Tomo I) Me GRAW-HILL. 1996 México Capitulo IV, VI y VII.
+Tomo I) Me GRAW-HILL. 1996 México Capitulo IV, VI y VII.
    
-   Wark. K. TERMODINÁMICA. Me GRAW-HILL. 1991 México Capítulos VII y VIII.
+Wark. K. TERMODINÁMICA. Me GRAW-HILL. 1991 México Capítulos VII y VIII.
    
 
 Introducción
@@ -41,10 +40,13 @@ Para el estudio de los sistemas abiertos, como ya vimos al considerar la clasifi
 
 Í El flujo de materia se define como aquella condición de desplazamiento del fluido en la que un elemento fluido puede considerarse como un sistema cerrado limitado por una superficie definida durante un cierto tiempo. La condición de flujo de materia no se da cuando una
 ; sustancia se difunde a través de otra.
+
 En lo que sigue realizamos la aplicación de los principios primero y segundo a este tipo de sistemas. Es importante destacar que, a fin de hacer aplicables los razonamientos de la
 ^-termodinámica a estos sistemas, es preciso considerar en ellos la \híj
 modinámico local.
+
 íilibrio ter-
+
 (*)Vide A. Bejan Advanced Engineering Thermodynamics 1988 pp. 5, 30 - 38
 
 
@@ -296,7 +298,8 @@ Primer y segundo principios aplicados a sistemas abiertos. Entropía
 
 en la que m es el gasto a través de una sección del sistema y los subíndices 1 y 2 se refieren a cualquier sección normal a la dirección del flujo.
 
-4.2.2.- Trabajo mecánico en flujo estacionario
+Trabajo mecánico en flujo estacionario
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 En el tema 2 vimos que el máximo trabajo mecánico realizado por un sistema cerrado cuando se desplaza su frontera, en ausencia de otros efectos, viene dado por:
@@ -607,7 +610,7 @@ Si suponemos, además, que la variación de velocidad es despreciable, la ecuaci
 wx = ha — he	(4.32.b)
 
 Compresor
-
+^^^^^^^^^
 
 Un compresor es un dispositivo que se utiliza para incrementar la presión de un fluido. En este dispositivo se entraga trabajo al fluido y se produce un incremento de presión en el mismo. Si suponemos transformación adiabática y en régimen estacionario, al igual que en la turbina, podremos escribir:
 wx = hQ¡ - h0c	(4.33.a)
@@ -615,6 +618,7 @@ y si V8 ~ Ve:
 wx — ha — he	(4.33.b)
 
 Difusor y Tobera
+^^^^^^^^^^^^^^^^
 
 Los difusores y toberas son elementos sin partes móviles utilizados en las instalaciones que funcionan con fluidos y en las que se quiere o bien incrementar la presión a expensas, fundamentalmente, de la energía cinética (compresión dinámica), difusor, o bien incrementar la velocidad expansionando el fluido (expansión dinámica), tobera.
 
@@ -640,9 +644,11 @@ Primer y segundo principios aplicados a sistemas abiertos
 condición de idealidad es donde interviene la segunda ley, ya que lo que vamos a tomar como referencia de idealidad es el comportamiento isoentrópico del dispositivo. Así, cuanto más se acerque la instalación al comportamiento reversible más se acerca el rendimiento al valor unidad.
 
 Compresor
+
 o2
 
 Turbina
+^^^^^^^
 
 En la figura 4.4 representamos en un diagrama T — s la evolución tanto de un compresor como de una turbina. A partir de ese diagrama queda claro que los rendimientos de un compresor y de una turbina se definen como:
 
