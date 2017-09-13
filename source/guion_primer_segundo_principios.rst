@@ -157,16 +157,18 @@ Otra forma más general de expresar la ecuación anterior sería:
    \int_V \frac{\partial(\rho e)}{\partial t} dV = -\int_{\Omega} \textbf{q} \cdot \textbf{n} da + \dot{W_x} - \int_{\Omega} \rho h_t \textbf{V} \cdot \textbf{n} da
 
 
-En esta ecuación q y V representan el vector flujo de calor y el vector velocidad respectivamente, correspondientes a cada elemento de área en los que pueden definirse. Como siempre n es el vector unitario normal a la superficie del volumen de control y dirigido hacia el exterior de éste.
+En esta ecuación **q** y **V** representan el vector flujo de calor y el vector velocidad respectivamente, correspondientes a cada elemento de área en los que pueden definirse. Como siempre **n** es el vector unitario normal a la superficie del volumen de control y dirigido hacia el exterior de éste.
 
 De acuerdo con (4.6) o (4.8.a) vemos que, para volúmenes de control que experimenten transformaciones cíclicas, no es posible aplicar la ecuación del primer principio en la forma:
 
-SW
-j> 6Q = - j> «
+.. math::
 
-pues quedarían sin considerar los términos correspondientes al flujo músico. Por el contrario, tanto las expresiones (4.6) como (4.8.a) serían aplicables a masas de control sin más que considerar nulos los correspondientes flujos músicos.
+   \oint \delta Q = - \oint \delta W
 
-4.2.1.- Proceso de flujo estacionario.
+pues quedarían sin considerar los términos correspondientes al flujo músico. Por el contrario, tanto las expresiones (4.6) como (4.8.a) serían aplicables a masas de control sin más que considerar nulos los correspondientes flujos másicos.
+
+Proceso de flujo estacionario
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ol f K
 r~,
