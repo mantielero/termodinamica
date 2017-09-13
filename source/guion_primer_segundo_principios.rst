@@ -104,80 +104,58 @@ Para la transferencia de una masa finita a través de :math:`\Omega`, los térmi
 Un ejemplo simple al que puede aplicarse la ecuación anterior es al flujo adiabático de un gas desde una línea de alimentación a un depósito a presión más baja (llenado de botellas de gas). Cuando la presión se incrementa en la botella, el incremento de la energía interna del contenido de la botella es igual a la masa del fluido que entra por su entalpia total a la entrada.
 Es interesante destacar que la ecuación formulada para aplicar el primer principio a sistemas cerrados:
 
-dE = 6Q + 6W
+.. math::
 
-(2.2)
+   dE = \delta Q + \delta W
 
-sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de control o sistemas abiertos^tampoco es aplicable a estos sistemas la primera ley en la forma:
+sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de control o sistemas abiertos; tampoco es aplicable a estos sistemas la primera ley en la forma:
 
-¿isl
+.. math::
 
-\l M
-X
-fw—f
-6 W
+   \oint \delta Q = - \oint \deltaa W
 
-El flujo, por definición = k V Por lo que el flujo máslco =
-ara el volumen de control de la figura 4.2, podemos expresar la velocidad a la que gana masa el interior de íí en función de los vectores área de la superficie de entrada y velocidad, así como de la densidad en los puntos donde
-el fluido cruza la superficie, tendremos:
 
--	—fr
-(yfaA -	^	‘ * 4
+
+El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \textbf{V \cdot n}`
 
 Figura 4.2 Flujo másico a través de un elemento de área
 
-"n = “ YX¿JSaMakf>k
-(4.7)
-X.X m
-/ i' i
+Para el volumen de control de la figura 4.2, podemos expresar la velocidad a la que gana masa el interior de :math:`\Omega` en función de los vectores área de la superficie de entrada y velocidad, así como de la densidad en los puntos donde el fluido cruza la superficie, tendremos:
 
-(ya que se considera positiva la masa que entra) en la que m representa la velocidad a la que el ¡volumen limitado por 0 gana masa, n es un vector unitario normal al área de la superficie dk
-sn la que la velocidad es Vk y Pk es la densidad del fluido en a*,.
+.. math::
+
+   \dot{m}_\Omega = -\sum_k \textbf{V_k \cdot n} a_k \rho_k
+
+(ya que se considera positiva la masa que entra) en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k`
+sn la que la velocidad es :math:`\textbf{V_k}`  y :math:`\textbf{\rho_k}`  es la densidad del fluido en :math:`a_k`.
+
 La expresión (4.5) podemos referirla a la unidad de tiempo:
 
-"I------fSF. .	‘	0 Uf1*
-—Ví-	= Q + wx + htjh \	¡1^ <L f
+.. math::
 
-
-Á,
--lUX.
-J
-pl/-	.
-
-en la que rh representa la velocidad de flujo másico en el volumen de control para una corriente simple que cruza la superficie de control, Q la velocidad a la que se suministra calor y Wx la potencia mecánica suministrada al eje que cruza la frontera.	
-
-u-vjLU&tA
+   \frac{dE}{dt} = \dot{Q} + \dot{W_x} + h_t \dot{m}
+   
+en la que :math:`\dot{m}` representa la velocidad de flujo másico en el volumen de control para una corriente simple que cruza la superficie de control, :math:`\dot{Q}`  la velocidad a la que se suministra calor y :math:`\dot{W_x}` la potencia mecánica suministrada al eje que cruza la frontera.	
 
 Si en vez de ser una sola corriente, consideramos varias tendremos:
 
-l f/' X	/y-
+.. math::
 
-¿JLm;
-JX—
-
-X - Q +Xx\ Y(ht - y<h, m)s
+   \frac{dE}{dt} = \dot{Q} + \dot{W_x} + \sum_e (h_t \dot{m})_e - \sum_s (h_t \dot{m})_s
 
 Cuando sólo hay una corriente de entrada y una de salida y los flujos másicos son iguales, la ecuación anterior toma la forma:
 
-dE
-— = Q + Wx + (hte - hts) m
-üt
+.. math::
 
+   \frac{ dE}{dt} = \dot{Q} +\dot{W_x} + (h_t e - h_t s) \dot{m}
+   
 Otra forma más general de expresar la ecuación anterior sería:
 
-(4.8.b)
-/ dV ~ ~ J SI ' « da + íÚr ~ J phtV- n
--o
-da
-lyues > n ¿A
-(¡Í¿¿	AAIUfr'V'i uu—cciA
-(4.9) A
-J .
 
-Primer y segundo principios aplicados a sistemas abiertos
+.. math::
 
-5
-1/fcA ■
+   \int_V \frac{\partial(\rho e)}{\partial t} dV = -\int_\Omega \textbf{q\cdot n} da + \dot{W_x} - \int_\Omega \rho h_t \textbf{V \cdot n} da
+
 
 En esta ecuación q y V representan el vector flujo de calor y el vector velocidad respectivamente, correspondientes a cada elemento de área en los que pueden definirse. Como siempre n es el vector unitario normal a la superficie del volumen de control y dirigido hacia el exterior de éste.
 
