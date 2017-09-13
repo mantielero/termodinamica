@@ -54,15 +54,20 @@ en la que :math:`dV_{sis}`, tomando como sistema el conjunto masa contenida inic
 
    dV_{sis} = V_{sis(t+\Delta t)} - V_{sis(t)}
 
-Ahora bien, V3Í3/t\ = Vq + Vdm y V3is(t+M) = Pues el proceso de introducir la masa dentro de íl ha finalizado, por lo ¿anto dV3i3 queda:
+Ahora bien, :math:`V_{sis(t) = V_{\Omega} - V_{dm)` y :math:`V_{sis(t+\Delta t)} = V_{\Omega}` pues el proceso de introducir la masa dentro :math:`\Omage` ha finalizado, por lo tanto :math:`dV_{sis}` queda:
 
-dV3Í3 = Vh - (Vb + Vdm) = -Vdm	(4.2)
 
-Si el volumen específico de la sustancia al alcanzar la superficie de entrada es v, como la masa es dm, tendremos VV», = v dnxy/dV,i, = —v dm^Sustituyendo en la expresión del trabajo:
+.. math::
 
-U---bfa ■	^	-p(-vdm) = pvdmj	(4.3)
+   dV_{sis} = V_{\Omega} - (V_{\Omega} + V_{dm}) = -V_{dm}
 
-üTllesignamos por E\ y E\ + dE a las energías de la materia en el interior de íí en los instantes t y t -f Ai respectivamente, (e dm) es la energía de la masa dm en la frontera y durante el proceso hay una interacción térmica, entonces para el sistema cerrado elegido, tendremos:
+Si el volumen específico de la sustancia al alcanzar la superficie de entrada es :math:`v`, como la masa es :math:`dm`, tendremos :math:`V_{dm}=v dm` y :math:`dV_{sis} = -vdm`. Sustituyendo en la expresión del trabajo:
+
+.. math::
+
+   \delta W = -p (-vdm) = pvdm
+
+Si designamos por :math:`E_1  y :math:`E_1  + dE` a las energías de la materia en el interior de :math:`\Omega` en los instantes t y t -f Ai respectivamente, (e dm) es la energía de la masa dm en la frontera y durante el proceso hay una interacción térmica, entonces para el sistema cerrado elegido, tendremos:
 
 (E\ 4- dE) — (Ei 4&lm) = ¿Q + pv dm I
 
