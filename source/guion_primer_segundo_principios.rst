@@ -7,7 +7,7 @@ Primer y Segundo Principios Aplicados a Sistemas Abiertos
 Introducción
 ------------
 
-El desarrollo de la termodinámica clásica está ligado, fundamentalmente, al estudio de sistemas cerrados, esto es, sistemas que constan de una cantidad de materia constante. Sin embargo, a veces, como sistema de estudio se elige la cantidad de materia que en cada instante hay en el interior de un recinto dado, limitado por una frontera constituida por paredes en parte físicas (reales) y en parte imaginarias. Estos últimos permiten el flujo de masa a través de las paredes imaginarias, es decir, son sistemas abiertos^
+El desarrollo de la termodinámica clásica está ligado, fundamentalmente, al estudio de sistemas cerrados, esto es, sistemas que constan de una cantidad de materia constante. Sin embargo, a veces, como sistema de estudio se elige la cantidad de materia que en cada instante hay en el interior de un recinto dado, limitado por una frontera constituida por paredes en parte físicas (reales) y en parte imaginarias. Estos últimos permiten el flujo de masa a través de las paredes imaginarias, es decir, son sistemas abiertos.
 
 Estos sistemas abiertos suelen ser los de mayor interés práctico, pues facilitan el estudio de las instalaciones y procesos utilizados en el manejo de la energía, cuyo análisis es el objeto de la Termodinámica Aplicada. Entre estos procesos e instalaciones se pueden citar: el flujo de fluidos a través de conductos, válvulas de estrangulación, compresores, turbinas, cambiadores de calor, etc.
 
@@ -170,43 +170,37 @@ pues quedarían sin considerar los términos correspondientes al flujo músico. 
 Proceso de flujo estacionario
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Ol f K
-r~,
-i ¿L bV«. ^<i	¿ brsAMg
+Un caso especial, y que es el que más frecuentemente se considera, es flujo estacionario. Por este nombre entendemos que el estado del fluido en cualquier punto dentro del volumen de control es el mismo a lo largo del tiempo, aunque, como ya se ha dicho, el estado del fluido cambia de una a otra sección del volumen de control. El estado de un sistema abierto para el que esta suposición se cumple se denomina *estado estacionario*.
 
-Un caso especial, y que es el que más frecuentemente se considera, es ePQvpó Estacionario. \ Por este nombre entendemos que el estado del fluido en cualquier punto dentro del volumen de control es el mismo a lo largo del tiempo, aunque, como ya se ha dicho, el estado del fluido cambia de una a otra sección del volumen de control. El estado de un sistema abierto para el que esta suposición se cumple-sedeño minares ¿ado estacionario.
+La condición de estado estacionario requiere que *dE* sea cero, por lo que (4.6) se simplifica y puede expresarse mediante:
 
-La condición de estado estacionario requiere que dE sea cero, por lo que (4.6) se simplifica y puede expresarse mediante:
+.. math::
 
-Q + W;
-I + Ç/'
-htk dmk = 0
-(4.10)
+   Q+W_x+\sum_k \int h_{tk} dm_k = 0
 
 Si sólo hay una corriente de entrada y otra de salida, la ecuación (4.10) se convierte en:
 
-; M't - M\ 'U-, -yMs }<? = hU — hte -	(£~ -	^"fA. 11 )
+.. math::
 
-donde q y wx representan el calor y el trabajo que, por unidad de masa, se suministran a través de las fronteras impermeables del sistema.
+   q = h_{ts}-h_{te} -w_x
+donde :math:`q` y :math:`w_x` representan el calor y el trabajo que, por unidad de masa, se suministran a través de las fronteras impermeables del sistema.
 
-Variaciones periódicas en el estado dentro de O se pueden explicar también mediante las ecuaciones (4.10) y (4.11). Si los estados del fluido en todos los puntos dentro del volumen de control, periódica y simultáneamente, se hacen idénticos a estados previamente existentes en aquellos puntos, entonces estas ecuaciones también son aplicables sobre un conjunto de períodos completos. Así, estas ecuaciones se aplican tanto a una turbina como a un motor alternativo.
+Variaciones periódicas en el estado dentro de :math:`\Omega` se pueden explicar también mediante las ecuaciones (4.10) y (4.11). Si los estados del fluido en todos los puntos dentro del volumen de control, periódica y simultáneamente, se hacen idénticos a estados previamente existentes en aquellos puntos, entonces estas ecuaciones también son aplicables sobre un conjunto de períodos completos. Así, estas ecuaciones se aplican tanto a una turbina como a un motor alternativo.
 
 Para el flujo estacionario la ecuación (4.7) se reduce a:
 
-^2 Vk ■ n akpk = 0
-(4.12)
+.. math::
 
+   \sum_k \textbf{V_k} \cdot \textbf{n} a_k \rho_k = 0
+   
 Cuando sólo hay una corriente de entrada y otra de salida con velocidad constante en cada sección normal al úrea tendremos:
 
-V\üip\ = V2Ü2P2 - m
-J
+.. math::
+  
+   \nu_1 a_1 \rho_1 = \nu_2 a_2 \rho_2 = \dot{m}
+   
 
-
-6
-
-Primer y segundo principios aplicados a sistemas abiertos. Entropía
-
-en la que m es el gasto a través de una sección del sistema y los subíndices 1 y 2 se refieren a cualquier sección normal a la dirección del flujo.
+en la que :math:`\dot{m}` es el gasto a través de una sección del sistema y los subíndices 1 y 2 se refieren a cualquier sección normal a la dirección del flujo.
 
 Trabajo mecánico en flujo estacionario
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
