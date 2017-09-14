@@ -208,38 +208,36 @@ Trabajo mecánico en flujo estacionario
 
 En el tema 2 vimos que el máximo trabajo mecánico realizado por un sistema cerrado cuando se desplaza su frontera, en ausencia de otros efectos, viene dado por:
 
-éW = -pdV
+.. math::
+
+   \partial W = -p dV
 
 Esto permite evaluar tales interacciones trabajo, independientemente del conocimiento de la interacción calor y de los cambios en la energía del sistema, que también tengan lugar en el proceso. Sería útil tener una expresión análoga para el máximo trabajo al eje realizado por un sistema durante un proceso de flujo estacionario. En el mejor de los casos, la ecuación resultante debería incluir variables independientes que sean características del sistema y conduzcan ellas mismas a la evaluación del trabajo.
 
 Hay dos métodos de análisis que conducen a una forma deseable de la ecuación para el trabajo mecánico en régimen estacionario durante un proceso sin fricción. Él más cortojfle éstos implica la aplicación de un balance de energía como sistema cerrado y un balance de energía como sistema abierto sobre una cantidad diferencial de masa que pasa a través del sistema en régimen estacionario. El segundo método está basado en un balance de las fuerzas que actúan sobre un elemento de fluido dentro del sistema en flujo estacionario. A continuación analizamos el primero de estos métodos.
-V
 
 Consideremos un observador situado en el exterior de un sistema de flujo estacionario que realiza el balance de energía en un volumen de control, arbitrariamente elegido, en tanto la masa va desde la entrada a la salida.
 
 De acuerdo con la ecuación (4.11), el balance de energía en un sistema en régimen_esta-cionario. sobre el volumen de control por unidad de masa que atraviesa un elemento diferencial de volumen de control, está dada por:
 
-JjT¿UiJ	üq + Swx = du + d (pv) ±d(ec) + d(ep) /	(4-13)
+.. math::
+
+   \partial q + \partial w_x = du + d(pv) + d(ec) + d(ep)
 
 si despreciamos otras formas dé energía. (Esto no restringe el resultado final, como ya veremos). Podemos considerar otro punto de vista igualmente válido. Supongamos que otro observador viaja sobre el elemento de masa a través del sistema en flujo estacionario desde la entrada a la salida. En este caso el sistema será la unidad de masa de control, y no el volumen de control, por lo que es válido un análisis como sistema cerrado. Si un elemento de masa experimenta un
 cambio sin fricción, el balance de energía sobre la unidad de masa está dado por:
 
-Aa-------------
-oeo»
-<5$ — P dv = du
-(4.14)
+.. math::
 
-De nuevo se desprecian otras formas de energía, así como otras formas de trabajo. Los cambios en las energías cinética y potencial no son notados por el observador que viaja con el sistema. En ambas ecuaciones, (4.13) y (4.14), 6q representa la interacción calor entre el medio ambiente
+   \partial q - pdv = du
+   
+De nuevo se desprecian otras formas de energía, así como otras formas de trabajo. Los cambios en las energías cinética y potencial no son notados por el observador que viaja con el sistema. En ambas ecuaciones, (4.13) y (4.14), 6q representa la interacción calor entre el medio ambiente y el sistema (unidad de masa) cuando éste pasa a través del dispositivo en flujo estacionario. Eliminando 6qe ntre (4.13) y (4.14) y despejendo 6wx obtenemos:
 
-Primer y segundo principios aplicados a sistemas abiertos
+.. math::
+   
+   \partial w_x &= d(pv) + d(ec) + d(ep) - pdv \\
+    &= vdp + d(ec)+ d(ep)
 
-7
-
-y el sistema (unidad de masa) cuando éste pasa a través del dispositivo en flujo estacionario. Eliminando 6qe ntre (4.13) y (4.14) y despejendo 6wx obtenemos:
-
-ru t pdü -h £r b	t
-fwx ~ d (pv) -f d (ec) + d (ep) — pdv = vdp + d (ec) + d (ep)
-(4.15)
 
 Para un dispositivo con flujo estacionario, el trabajo mecánico sin fricción sobre la base de la unidad de masa se convierte en:
 Jwx = j V
