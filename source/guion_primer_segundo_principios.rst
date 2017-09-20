@@ -569,7 +569,7 @@ Sin embargo, en la mayoría de las aplicaciones, o el dispositivo de estrangulac
 
 .. math::
 
-   h-2 = h_1
+   h_2 = h_1
 
 Esto no quiere decir que la entalpia sea constante durante el proceso, sino que la entalpia del flujo en la sección de entrada y en la sección de salida son las mismas. Como ejemplos de sistemas sencillos que utilizan este efecto podrían citarse un grifo de agua, una válvula de expansión de un figorífico, etc. En todos estos dispositivos tiene lugar un efecto de estrangulación o *expansión de Joule-Thomson*.
 
@@ -612,252 +612,188 @@ Introducción
 
 Como se vio en el tema 3, la implicación más técnica e ingenieril de los dos principios de la termodinámica estudiados hasta ahora, primer y segundo principio, es la deducción de la íntima relación existente entre la generación de entropía y la pérdiada de capacidad de realizar trabajo. Esta relación es fundamental ya que la Termodinámica Técnica es el resultado de nuestro interés en el trabajo como valor de cambio (mercancía), es decir: obtención de trabajo de diferentes fuentes energéticas y utilización al máximo del trabajo ya en nuestro poder.
 
-A nivel teórico, el concepto de ’’trabajo disponible destruido” nos recuerda que los principios primero y segundo de la termodinámica van conjuntos, a pesar de que la tradición en la resolución de problemas nos puede inducir a pensar lo contrario. 
-
-El concepto que forma el objetivo de este tema tjene su origen en la invocación simultánea de los dos principios ya mencionados. 
-
-A menudo, este procedimiento tiende a ser obscurecido con etiquetas tales como ’’análisis según el segundo principio” que muy frecuentemente se pone para la evaluación del trabajo disponoble perdido y para la minimización de la generación de entropía. No obstante, entendido en el sentido señalado de conjunción de los dos principios, incluso el término ’’análisis según el segundo principio” puede ser efectivo para recordar que el segundo principio debe formar parte del análisis enegético y en muchos casos ser previo en su utilización al primero.
+A nivel teórico, el concepto de ’’trabajo disponible destruido” nos recuerda que los principios primero y segundo de la termodinámica van conjuntos, a pesar de que la tradición en la resolución de problemas nos puede inducir a pensar lo contrario. El concepto que forma el objetivo de este tema tjene su origen en la invocación simultánea de los dos principios ya mencionados. A menudo, este procedimiento tiende a ser obscurecido con etiquetas tales como ’’análisis según el segundo principio” que muy frecuentemente se pone para la evaluación del trabajo disponoble perdido y para la minimización de la generación de entropía. No obstante, entendido en el sentido señalado de conjunción de los dos principios, incluso el término ’’análisis según el segundo principio” puede ser efectivo para recordar que el segundo principio debe formar parte del análisis enegético y en muchos casos ser previo en su utilización al primero.
 
 El tema se inicia con el análisis de sistemas cerrados, obteniendo la expresión general del trabajo útil reversible y a partir de él se define la exergía. Después se hace aplicación de las expresiones generales de los sistemas cerrados a sustancias incompresibles y a gases perfectos. A continuación se hace una aplicación de la ecuación del trabajo útil reversible a procesos de flujo y posteriormente se da la definición y algunas aplicaciones de lo que llamaremos rendimiento exergético. El tema se termina con la aplicación a los ciclos termodinámicos.
 
 En todo lo que sigue, conviene destacar:
 
-|¡a) Al exterior inmediato al sistema lo denominaremos, indistintamente, medio ambiente, atmósfera o entorno.
-1 b) Que este medio ambiente lo consideraremos infinito y que sus propiedades térmicas
-i (presión, volumen y temperatura) no se verán alteradas por los interacambios ener-
-j) géticos (calor y/o trabajo) con el sistema en consideración.
-1c) También hay que decir que el equiljjj¿& al que se hace referencia en todo el tema es , sólo el equilibrio térmico v mecánico,-dejando el equilibrio material o químico, por
-I	intercambio de especies, para el tema 9. Por esta razón el estado de equilibrio con el
-II	medio ambiente se denomina. estatlo”müeff(rrestrin.gido en el que:
+a) Al exterior inmediato al sistema lo denominaremos, indistintamente, medio ambiente, atmósfera o entorno.
+b) Que este medio ambiente lo consideraremos infinito y que sus propiedades térmicas (presión, volumen y temperatura) no se verán alteradas por los interacambios energéticos (calor y/o trabajo) con el sistema en consideración.
+c) También hay que decir que el equiljjj¿& al que se hace referencia en todo el tema es , sólo el equilibrio térmico v mecánico,-dejando el equilibrio material o químico, por intercambio de especies, para el tema 9. Por esta razón el estado de equilibrio con el medio ambiente se denomina. estatlo”müeff(rrestrin.gido en el que:
 
-2
+.. math::
 
-Combinación del primer y segundo principio: exergía
-
-V = O y z = 0
-----—---J
+   T = T_o, p=p_o, \nu = 0 y z=0
 
 Balance de exergía para sistemas cerrados
 -----------------------------------------
 
-Consideremos un sistema cerrado de propiedades uniformes que evoluciona intercambiando calor con un cierto número de fuentes térmicas a temperaturas (i = 0,1,. ..n), y entre las que se encuentra la atmósfera. Durante la evolución el exterior comunica al sistema un trabajo bW. Una posible interacción mecánica realizada por la atmósfera, en tanto que ésta actúe como depósito mecánico, es el trabajo -p0dV.*
+Consideremos un sistema cerrado de propiedades uniformes que evoluciona intercambiando calor con un cierto número de fuentes térmicas a temperaturas (i = 0,1,. ..n), y entre las que se encuentra la atmósfera. Durante la evolución el exterior comunica al sistema un trabajo bW. Una posible interacción mecánica realizada por la atmósfera, en tanto que ésta actúe como depósito mecánico, es el trabajo :math:`-p_odV`.(*)
 
 El primer principio aplicado al sistema nos proporciona:
 
-n ------' f
-Y^6Qt + 6W = dE con E = U + Em	(5.1)
+.. math::
+
+   \sum_{i=0}^n \partial Q_i + \partial W = dE  \text{ con } E=U+E_m
+   
 
 Si calculamos la producción de entropía habida en la evolución del sistema obtendremos:
 
-n
-bcji — dSsis ^ ^ -------- i=0
-(5.2)
+.. math::
 
-donde bot > 0 representa la producción de entropía e incluye no sólo las irreversibilidades interiores y en la frontera del sistema, sino también, el hecho de que cada bQi esté siendo cedido desde una fuente a una temperatura que en general no es la temperatura del sistema.
+   \partial \sigma_t = dS_{sis} - \sum_{i=0}^n \frac{\partial Q_i}{T_i}
 
-De siempre el interés de la ingeniería es realizar cambios sobre los sistemas que lleven de forma coherente a incrementar el trabajo obtenido o a disminuir el trabajo consumido. Esto nos lleva a considerar la posibilidad de cambiar el funcionamiento interno del sistema para poder minimizar el trabajo comunicado al mismo. Para conseguir este efecto, supuestos definidos los estados extremos del proceso y teniendo en cuenta (5.1), se tendrá que cambiar alguno de los bQi si se quiere modificar bW. Supongamos que es la transferencia de calor con la atmósfera, bQ0, la única interacción energética que varía en tanto que bW se minimiza. Es decir: suponemos que a excepción de bQ0, el resto de las interacciones térmicas vienen fijadas por diseño y que
-Ísólo ese bQ0 es flotante de cara a equilibrar los cambios habidos en bW. La elección de bQ0 como la interacción ’’flotante” como consecuencia del cambio en el diseño, es consistente cop el papel que tradicionalmente se le asigna al calor cedido a la atmósfera en el diseño de sistemas de potencia y refrigeración.
+donde :math:`\partial \sigma_t >0` representa la producción de entropía e incluye no sólo las irreversibilidades interiores y en la frontera del sistema, sino también, el hecho de que cada :math:`Q_i` esté siendo cedido desde una fuente a una temperatura :math:`T_i` que en general no es la temperatura del sistema.
 
-Si se elimina bQ0 entre las ecuaciones (5.1) y (5.2) queda:
+De siempre el interés de la ingeniería es realizar cambios sobre los sistemas que lleven de forma coherente a incrementar el trabajo obtenido o a disminuir el trabajo consumido. Esto nos lleva a considerar la posibilidad de cambiar el funcionamiento interno del sistema para poder minimizar el trabajo comunicado al mismo. Para conseguir este efecto, supuestos definidos los estados extremos del proceso y teniendo en cuenta (5.1), se tendrá que cambiar alguno de los :math:`\partial Q_i` si se quiere modificar :math:`\partial W`. Supongamos que es la transferencia de calor con la atmósfera, :math:`\partial Q_o`, la única interacción energética que varía en tanto que :math:`\partial W` se minimiza. Es decir: suponemos que a excepción de :math:`\partial Q_o`, el resto de las interacciones térmicas vienen fijadas por diseño y que sólo ese :math:`\partial Q_o` es flotante de cara a equilibrar los cambios habidos en :math:`\partial W`. La elección de :math:`\partial Q_o` como la interacción "flotante" como consecuencia del cambio en el diseño, es consistente cop el papel que tradicionalmente se le asigna al calor cedido a la atmósfera en el diseño de sistemas de potencia y refrigeración.
 
-*Nota: es obvio que estamos tratando con velocidades de desplazamiento de la frontera del sistema, v, pequeñas frente a la velocidad del sonido en la atmósfera de modo que la sobrepresión generada por ese desplazamiento, del orden de p0v2, es muy pequeña frente a p0 si v < a (siendo a la velocidad local del sonido), esto es e°v ‘2 < 1
-/ — \ P° y (p ~ Po)dV = ^-------J p0dV -C p0dV, por lo que quitamos ese término del trabajo de desplazamiento de la
-atmósfera.
+Si se elimina :math:`\partial Q_o` entre las ecuaciones (5.1) y (5.2) queda:
 
-Combinación del primer y segundo principio: exergía
+.. math::
 
-3
-dE-Y, éQi ~SW = T0dSsis - Y ^SQt ~ To So
-i=1
-¿=1
-Ti
-Sí
-i
-!
+   dE - \sum_{i=1}^n \partial Q_i -\partial W = T_o dS_{sis} - \sum_{i=1}^n \frac{T_o}{T_i}\partial Q_i - T_o \partial \sigma_i
+
 y despejando el trabajo:
-M
-Vi
-,¿%Md(E~T°s^
-\SQi (1-^) +T0Sot
-(5.3)
 
-De acuerdo con el segundo principio ^ cr( > 0 por lo tanto los otros dos términos del segundo miembro representan algebraicamente un b'mite inferior para SW. Este límite inferior se alcanza cuando el sistema evoluciona de manera que no haya producción de entropía en el proceso (esto es, la variación de entropía del universo sea nula). Así pues, identificamos los dos primeros
-términos del segundo miembro como el trabajo Reversible coiqunicado al sistema; esto es:
+.. math::
 
-mxd<av ¿>C	^
-i - óVf L
-¡swTI
-d{E - T0S)sis -
-n	/ \ T
-E««.)1-F
-i=1	v 1
-h^/'o	w£<.
-(5.4)
-o 'Usoh. J
-I  ------------ —*	. (I _	0
+   \partial_{real} = d(E-T_oS)_{sis} - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right) + T_o \partial \sigma_t
+
+(*) Nota: es obvio que estamos tratando con velocidades de desplazamiento de la frontera del sistema, v, pequeñas frente a la velocidad del sonido en la atmósfera de modo que la sobrepresión generada por ese desplazamiento, del orden de :math:`\rho \nu^2`, es muy pequeña frente a :math:`p_o` si :math:`v << a` (siendo a la velocidad local del sonido), esto es :math:`\frac{\rho \frac{\nu^2}{2}}{p_o}<<1` y :math:`(p - p_o)dV = \left( \frac{p-p_o}{p_o} \right) p_odV`, por lo que quitamos ese término del trabajo de desplazamiento de la atmósfera.
+
+De acuerdo con el segundo principio :math:`\partial \sigma_t \get 0` por lo tanto los otros dos términos del segundo miembro representan algebraicamente un b'mite inferior para :math:`\partial W`. Este límite inferior se alcanza cuando el sistema evoluciona de manera que no haya producción de entropía en el proceso (esto es, la variación de entropía del universo sea nula). Así pues, identificamos los dos primeros términos del segundo miembro como el trabajo Reversible comunicado al sistema; esto es:
+
+.. math::
+
+   \partial W_{rev} = d(E-T_o S)_{sis}  - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right)
 
 Una cuestión que surge en conexión con esto último es si todo el trabajo reversible es trabajo útil o no. La respuesta depende de si la atmósfera, como depósito mecánico, es parte del entorno y de si el sistema experimenta un cambio de volumen comprimiéndose a favor de (o expandiéndose contra) la misma. En el caso en que el depósito mecánico atmosférico intercambie trabajo con el sistema, la parte de SW que es transferida por la atmósfera es (—p0dVj mientras
 que el resto loRonstituye el trabajo útil’esto ps de (5.3) se tendrá:
 
-y*
-j
-¿o—<_A c Ja
-l
-qL^ ¿fl ‘VtZV yj—*—« U p.1—effo'	VI /•
-SWútil, real = 6W+ PodV
-= d(E + p0V - T0S)sis -YsQí(1~y)+T° 6at Teniendo en cuenta (5.4) podemos poner:
+.. math::
 
-¿=i
-(5.5)
-«W’ütü, real — ^W^útil, rev H” T0 ¿(71
+   \partial W_{util,real} &= \partial W + p_odV \\
+    &= d(E+p_oV-T_oS)_{sis}-\sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i} \right) + T_o \partial \sigma_t
+
+
+Teniendo en cuenta (5.4) podemos poner:
+
+
+.. math::
+
+   \partial W_{util,real} = \partial W_{util,rev} + T_o \partial \sigma_t
 
 ecuación que puede escribirse en la forma:
 
-¿Wútil, real ^^útil, rev — T0
+.. math::
+
+   \partial W_{util,real} - \partial W_{util,rev} = T_o \partial \sigma_t
 
 donde se ha puesto que:
 
-: swúül rev = d(E + PoV - TaS)sls - Y*Qi (l - y)
+.. math::
+
+   \partial W_{util,rev} = d(E+p_oV-T_oS)_{sis} - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right)
+
 Así pues:
-(5.6)
-(5.7)
-^W^real ^b^rev— ^f^útil, real	rev
----1,1,1.	"" v
 
-representa eltra.ba.jo perdido y la ecuación (5.6) es la expresión matemática del (teorema de Gouy-Stodola o del trabajo perdido que puede enunciarse de la siguiente forma: cuando
+.. math::
 
-4
+   \partial W_{real} - \partial W_{rev} = \partial W_{util,real} - \partial W_{util,rev}
 
-Combinación del primer y segundo principio: exergía
-
-un sistema evoluciona irreversiblemente destruye trabajo a un ritmo que es proporcional a la generación de entropía habida en el proceso. Al producto T0 6<rt se le conoce con el nombre de irreversibilidad 61 (6i por unidad de masa); al igual que el calor y el trabajo, depende del camino seguido por la evolución, esto es, no es una propiedad del sistema ni tampoco del conjunto sistema-medio ambiente. .......
+representa eltra.ba.jo perdido y la ecuación (5.6) es la expresión matemática del **teorema de Gouy-Stodola** o del trabajo perdido que puede enunciarse de la siguiente forma: cuando un sistema evoluciona irreversiblemente destruye trabajo a un ritmo que es proporcional a la generación de entropía habida en el proceso. Al producto T0 6<rt se le conoce con el nombre de irreversibilidad 61 (6i por unidad de masa); al igual que el calor y el trabajo, depende del camino seguido por la evolución, esto es, no es una propiedad del sistema ni tampoco del conjunto sistema-medio ambiente.
 
 Si se quiere saber cuál es el trabajo útil reversible que es necesario comunicar a una masa de control (sistema cerrado) para llevarla desde las condiciones de equilibrio termomecánico con la atmósfera (estado muerto restringido) hasta unas condiciones de temperatura y presión determinadas ( y distintas de las de la atmósfera) en un proceso en el que la única fuente térmica con la que el sistema pueda interactuar es la atmósfera, se hace aplicación de (5.7) obteniéndose:
-\tv -	= Inútil, rev = E - E0 + Po(V - Voy- T0(S - So) [ '	(5.8.a)
-A este trabajo, que es el mínimo necesario para conseguir un estado termodinámico determinado (T, p) a partir de las condiciones del medio ambiente se le llama exergía, $(*L. Si se considera la unidad de masa, la exergía específica^ = «h/m/vendrá expresada por:
 
-<í> = (e - u0) + p0(v - vQ) - T0(s - s0)	(5.8.b)
+.. math::
+
+   \Phi_2-\Phi_1 = W_{util,rev} = E_E_o + p_o(V-V_o)-T_o(S-S_o)
+
+A este trabajo, que es el mínimo necesario para conseguir un estado termodinámico determinado (T, p) a partir de las condiciones del medio ambiente se le llama exergía, :math:`\Phi(*)`. Si se considera la unidad de masa, la exergía específica, :math:`\phi = \frac{\Phi}{m}` vendrá expresada por:
+
+.. math::
+
+   \phi = (e-u_o)+p_o(v-v_o)-T_o(s-s_o)
 
 Con esta definición dada de la exergía, la ecuación (5.7) se puede escribir en la forma
 
-1 - Ti)	(5-9)
+.. math::
+
+   \partial W_{util,rev} = d(\Phi) - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i} \right)
 
 Así pues, el trabajo útil comunicado a un sistema cuando evoluciona desde un estado de equilibrio 1 a otro 2 , también de equilibrio, y en su evolución intercambia calor con i fuentes térmicas, puede expresarse en la forma:
 
-(Wútil,real = (*2-*l)-¿Q¿ (l ~	+ l>t	(5.10.a)
+.. math::
+
+   W_{útil,real} = (\Phi_2-\Phi_1)-\sum_{i=1}^n Q_i \left( 1- \frac{T_o}{T_i}\right) + T_o\sigma_t
 
 Esta ecuación (5.10.a) podemos reescribirla poniendo:
 
-j¡A$ = $2 - $1 = Wútil, real + Qi (X “	~	(5.10.b)
-/__---------.------------ ------* ~	—------- _ J
+.. math::
 
-ecuación que no es sino la expresión del balance de exergía para una masa de control; balance que nos indica que la variación de exergía en el sistema cerrado proviene de la exergía que se introduce al sistema con el trabajo comunicado al sistema,	reai, la que se introduce con
-í*') Es importante señalar que la práctica totalidad de los autores definen la exergía como el trabajo máximo que puede obtenerse de un sistema en un determinado estado termodinámico cuando, sin producción de entropía y sin otra fuente térmica distinta de la atmósfera, se le lleva al equilibrio con el medio ambiente. Sin embargo aquí se ha cambiado la definición para que haya coherencia con el criterio de signos atribuido al trabajo en el primer principio. También es importante señalar que lo que aquí se ha denominado exergía, algunos autores de habla inglesa (norteamericanos fundamentalmente) lo denominan disponibilidad.
-Wútil, rev =<*($)- Y.*®'
-¿=1
+   \Delta\Phi = \Phi_2-\Phi_1 = W_{útil,real}+\sum_{i=1}^n Q_i \left( 1- \frac{T_o}{T_i}\right) + T_o\sigma_t
 
-Combinación del primer y segundo principio: exergia
+ecuación que no es sino la expresión del balance de exergía para una masa de control; balance que nos indica que la variación de exergía en el sistema cerrado proviene de la exergía que se introduce al sistema con el trabajo comunicado al sistema,	reai, la que se introduce con el calor que se le transfiere al sistema,	:math:`\sum_{i=1}^n Q_i \left( 1-\frac{T_o}{T_i}\right)` (téngase en cuenta que este término representa el trabajo máximo que se podría obtener con la mencionada interacción mediante máquinas de Carnot), menos la que se destruye por irreversibilidades tanto internas al sistema como por las existentes entre el sistema y la atmósfera, :math:`T_o\sigma_t`.
 
-5
+(*) Es importante señalar que la práctica totalidad de los autores definen la exergía como el trabajo máximo que puede obtenerse de un sistema en un determinado estado termodinámico cuando, sin producción de entropía y sin otra fuente térmica distinta de la atmósfera, se le lleva al equilibrio con el medio ambiente. Sin embargo aquí se ha cambiado la definición para que haya coherencia con el criterio de signos atribuido al trabajo en el primer principio. También es importante señalar que lo que aquí se ha denominado exergía, algunos autores de habla inglesa (norteamericanos fundamentalmente) lo denominan disponibilidad.
 
-el calor que se le transfiere al sistema,	(1 — j (téngase en cuenta que este término
-
-i=i '	1'
-
-representa el trabajo máximo que se podría obtener con la mencionada interacción mediante máquinas de Carnot), menos la que se destruye por irreversibilidades tanto internas al sistema como por las existentes entre el sistema y la atmósfera, T0ot.
 La exergia, tal como se ha definido, es una función de estado del conjunto sistema-ambiente, y no del sistema sólo; esto es, dados dos estados de equilibrio de un sistema y una atmósfera, la variación de la exergia no depende del camino que el sistema recorra para pasar de un estado de equilibrio a otro. Como el medio ambiente viene caracterizado por su presión y temperatura (T0, p0), es lógico que todas las propiedades termodinámicas que intervienen en la evaluación de la exergia, <f>, vengan expresadas en función de esas variables. Así pues, a partir de (5.8.b) y considerando un sistema simple, podemos escribir:
 
-d(j> — de + p0 dv — T0 ds
-(5.11)
-Vil
-1
+.. math::
+
+   d\phi = de +p_odv-T_ods
 
 Vamos a hacer aplicación de (5.11) a dos tipos de sustancias:
 
-A)	Sustancias incompresibles a temperatura T y presión p tales que T / T0 y p / p0.
+A)	Sustancias incompresibles a temperatura *T* y presión *p* tales que :math:`T \neq T_o` y :math:`p \neq p_o`.
 B)	Gases perfectos, que al igual que en el caso anterior, su presión y temperatura son distintas a la del medio ambiente.
-| A) Sustancias incompresibles
 
-i--.__...1~T2,	—i	...
+A) Sustancias incompresibles
+''''''''''''''''''''''''''''
 
-Para una sustancia incompresible fdu = c dT( dv — 0 y jds = c — por lo que la ecuación (5.11), una vez integrada, se reduce a:
+Para una sustancia incompresible :math:`du = c dT`, :math:`dv=0` y :math:`ds = c \frac{dT}{T}` por lo que la ecuación (5.11), una vez integrada, se reduce a:
 
-4>
-cT0
-T	T
-—	1 - ln —
-O	1 O
-i, #T)
-(5.12)
+.. math::
 
-La exergia de una sustancia incompresible es sólo función de la temperatura y referida a cT0, ecuación (5.12), es independiente de cuál sea la sustancia concreta.
+   \phi = \frac{\phi}{cT_o} =\frac{T}{T_o} -1 - \ln \frac{T}{T_o}
 
-(f)	T
+La exergia de una sustancia incompresible es sólo función de la temperatura y referida a :math:`cT_o`, ecuación (5.12), es independiente de cuál sea la sustancia concreta.
 
-Si representamos <j> = —— en función de —
+Si representamos :math:`\phi = \frac{\phi}{cT_o}` en función de :math:`\frac{T}{T_o}`obtenemos la curva de la Fig 5.1 en la que se puede ver que una sustancia incompresible puede servir como fuente de trabajo en tanto que su temperatura sea distinta de la temperatura de la atmósfera. Efectivamente, un sistema caliente de masa fija puede servir como fuente de alta a un motor térmico cíclico que ceda calor a la atmósfera (punto :math:`T_o`) obteniéndose una cantidad de trabajo. Igualmente de una masa fría también puede obtenerse trabajo sin más que considerar a ésta como el foco frío de un motor térmico, siendo la atmósfera el foco caliente.
 
-o	lo
-
-obtenemos la curva de la Fig 5.1 en la que se puede ver que una sustancia incompresible puede servir como fuente de trabajo en tanto que su temperatura sea distinta de la temperatura de la atmósfera. Efectivamente, un sistema caliente de masa fija puede servir como fuente de alta a un motor térmico cíclico que ceda calor a la atmósfera (punto T0) obteniéndose una cantidad de trabajo. Igualmente de una masa fría también puede obtenerse trabajo sin más que considerar a ésta como el foco frío de un motor térmico, siendo la atmósfera el foco caliente.
-
-'	¿LJ
 
 B) Gases perfectos
-
-i
-< t
-Té
-
->1
-
-6
-
-Combinación del primer y segundo principio: exergia
+''''''''''''''''''
 
 Para gases perfectos la dependencia de la energía interna, del volumen específico y de la entropía con la temperatura y la presión viene dada por las expresiones siguientes:
 
-du = CydT ; dv — Rd
-T
-dT ndp P
-ds — Cp R
+.. math::
 
-con lo que 4> vendrá dada por: <b ~ jn -j ) t- tio i j - M,}
+   du = C_vdT \\
+   dv=Rd\left\frac{T}{p}\right) \\
+   ds = c_p \frac{dT}{T} - R\frac{dp}{p}
 
-; v-Ai/f /f= cCurì Jal. Vf 1
-/ rp	'10	'
-<t> = cvT0 ( £ - 1 - 7ln Jr ) + RT0	- 1 + ln ?-
-T0
-T0 P
-Po
+con lo que :math:`\phi` vendrá dada por:
 
-Expresión que podemos adimensionalizar con cvT0 obteniendo:
+.. math::
 
-- r,/
-(5.13.a)
-■c
--4> =	+(7-l)(f--l+ln-^-
-\T0	T0)	\T0 p	p0
+   \phi = c_v T_o \left( \frac{T}{T_o}-1-\gamma \ln \frac{T}{T_o} \right) + RT_o \left( \frac{T}{T_o}\frac{p_o}{p} - 1 + \ln\frac{p}{p_o} \right)
 
-(5.13.b)
+Expresión que podemos adimensionalizar con :math:`c_vT_o` obteniendo:
 
--De (5.13.a) se ve que, para un gas perfecto, la exergia depende de la presión y temperatura. Puede comprobarse que <¡> (o <f>) dada por (5.13.a) tiene un mínimo en (T0, p0). También puede comprobarse que, si del estado final se tiene determinada la presión, la temperatura
-correspondiente que hace „que la, exergia sea mínima,
+.. math::
 
-£ J ukjL kJ T +	y ¿
-ft-c. ir fa VlJ1" di. ~f AX
-yttu í.Mftv
+   \phi = \left( \frac{T}{T_o}-1-\gamma \ln \frac{T}{T_o}\right) + (\gamma-1) \left( \frac{T}{T_o}\frac{p_o}{p} - 1 + \ln\frac{p}{p_o} \right)
 
-viene dada por:
 
-______&	tr&' 'i*
-JiAs-f---*—w
-* &
-1 — — ( 1 — ^°
--»Os*.
-U
-(5.14)
+De (5.13.a) se ve que, para un gas perfecto, la exergia depende de la presión y temperatura. Puede comprobarse que :math:`\phi` (o :math:`\phi`) dada por (5.13.a) tiene un mínimo en (:math:`T_o `, :math:`p_o`). También puede comprobarse que, si del estado final se tiene determinada la presión, la temperatura correspondiente que hace que la, exergia sea mínima viene dada por:
 
-En la Fig 5.2 se ha representado (f) en función de — para gases perfectos cuyo y sea 1,4 ya para,
+.. math::
+
+   \frac{T}{T_o} = \frac{1}{ 1- \frac{\gamma-1}{\gamma}\left( 1- \frac{p_o}{p} \right) }
+
+En la Fig 5.2 se ha representado :math:`\phi` en función de :math:`\frac{T}{T_o}` para gases perfectos cuyo :math:`\gamma` sea 1.4 y para valores de :math:`\frac{p}{p_o}=0.5;1 y 1.5`
 
 * í I	* O
 0,5; 1 y 1,5.
@@ -865,49 +801,23 @@ En la Fig 5.2 se ha representado (f) en función de — para gases perfectos cuy
 
 Figura 5.2
 
-Los mínimos indican el valor que alcanzaría la temperatura de un sistema si desde un estado inicial fijo
-(—^-, —) se quisiera, para un valor de — dado, al-d o Po	Po
-canzar, con el consumo mínimo de trabajo, esto es,
-teniendo como única fuente térmica la atmósfera,un
-estado termodinámico de equilibrio mediante un
-proceso sin producción de entropía.
+Los mínimos indican el valor que alcanzaría la temperatura de un sistema si desde un estado inicial fijo :math:`\left( \frac{T_1}{T-o},\frac{p_1}{p_o}\right)` se quisiera, para un valor de :math:`\frac{p_2}{p_o}` dado, alcanzar, con el consumo mínimo de trabajo, esto es, teniendo como única fuente térmica la atmósfera, un estado termodinámico de equilibrio mediante un proceso sin producción de entropía.
 
-Po
+De (5.13.b) puede verse que las curvas :math:`\phi = cte` en las proximidades del punto :math:`\frac{T}{T_o}=1`, :math:`\frac{p}{p_o}=1` son elipses dadas por la ecuación:
 
-De (5.13.b) puede verse que las jcurvas ¿ = cte en las proximidades del punto ~ = 1,
+.. math::
 
-O
+   \phi = \frac{\tau^2}{2}+\frac{\gamma-1}{2}(\pi-\tau)^2
 
-= 1 son elipses dadas por la ecuación:
-d:L- ‘	¿i:;J
-nHfi Ì.
+donde las variables :math:`\tau` y :math:`\pi` están definidas como:
 
-donde las variables r yyr están definidas como:
+.. math::
 
-^ 2 + 2 ^ T^	Jq-G/Jtt-ñftjr:. \Jfy£r
-lt:	T
-Af f îæA.
-!Í	OÍu*/e*	l'X 4	¿
-i;
+   \tau &= \frac{T_T_o}{T_o} \\
+   \pi &= \frac{p-p_o}{p_o}
 
-&*-
-f'A^ Jm i
-w- WL ,
-T
-
-^ ^¿I :o^As> p,i*,ví-i6 eL-.í^^
-ki
-
--7^ y?i^k¿^/s> (í ¿ ¿t/)jr
-¿ufa. í&j/J..
-i y A	/?
-
-Combinación del primer y segundo principio: exergía	Av /*7^	7
-
-Balance de exergía para sistemas de flujo. (/¿¡Yo J,
----------------------------------------------------
-
-(s«	{ 5c£S#z ■ó. "
+Balance de exergía para sistemas de flujo
+----------------------------------------
 
 Para obtener el balance de exergía en sistemas dé flujo, (esto es, sistemas en los que la masa tiene una velocidad media macroscópica) se procede de manera análoga a lo hecho con los sistemas cerrados. Según vimos en el tema 4 [(4.8.a) y (4.24.b)], las ecuaciones del primer y segundo principio para sistemas abiertos en régimen no estacionario son:
 
