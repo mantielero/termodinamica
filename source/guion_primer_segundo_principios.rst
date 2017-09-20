@@ -538,41 +538,40 @@ Para un tobera, definimos el rendimiento adiabático como el cociente entre la e
 
 Este rendimiento lo ponemos en función de las entalpias de remanso a la entrada de la tobera y de la entalpia estática a la salida sin más que despejar de (4.34) los términos de energía cinética a la salida quedándonos:
 
-Vt =
-boi b*2 ho i ^2*
+.. math::
+
+   \eta_T = \frac{ {h_o}_1 - h_2}{ {h_o}_1 -{h_2}_s}
 
 El rendimiento adiabático de un difusor lo definimos en la forma:
 
-2¡ h\
-Vd =
-ho2r h\
-(4.37)
-(4.38)
+.. math::
+
+   \eta_D = \frac{ {h_o}_{2'} - h_1}{ {h_o}_{2r} -h_1}
 
 siendo (2') el estado que se alcanzaría si llevásemos el fluido, isoentrópicamente, desde las condiciones de presión y temperatura de entrada hasta alcanzar la presión de remanso de salida.
+
 Dispositivos de estrangulación.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Sistemas de flujo estacionario tales como una turbina Ó'una tobera producen, como hemos dicho, trabajo o un incremento de la energía cinética cuando el fluido pasa a través de ellos. Concomitante con estos efectos hay una caída de presión. Esta caída de presión debe controlarse en las instalaciones y el control se consigue insertando en el sistema de flujo otra componente denominada artificio de estrangulación. El proceso de estrangulación se utiliza para fines distintos de los meramente de control.j El efecto principal conseguido es una caída significativa de \ Impresión sin interacción de trabajo ni variación apreciable de las energías cinética o potencial. /El flujo a través de restricciones tales como una válvula o un tapón poroso, cumplen por completo
+Sistemas de flujo estacionario tales como una turbina Ó'una tobera producen, como hemos dicho, trabajo o un incremento de la energía cinética cuando el fluido pasa a través de ellos. Concomitante con estos efectos hay una caída de presión. Esta caída de presión debe controlarse en las instalaciones y el control se consigue insertando en el sistema de flujo otra componente denominada artificio de estrangulación. El proceso de estrangulación se utiliza para fines distintos de los meramente de control. El efecto principal conseguido es una caída significativa de presión sin interacción de trabajo ni variación apreciable de las energías cinética o potencial. El flujo a través de restricciones tales como una válvula o un tapón poroso, cumplen por completo las condiciones requeridas para este tipo de proceso. En la figura 4.5 se muestra una válvula de estrangulación.
 
-14
-
-Primer y segundo principios aplicados a sistemas abiertos. Entropía
-
-las condiciones requeridas para este tipo de proceso. En la figura 4.5 se muestra una válvula de estrangulación.
-
-Figura 4.5Esquema de una válvula.
+Figura 4.5 Esquema de una válvula.
 
 Aunque la velocidad puede ser muy alta en la región de la restricción, medidas realizadas corriente-arriba y corriente-abajo de la restricción real indican que el cambio en la velocidad, y por tanto en energía cinética, a través de la válvula es muy pequeño. Como el volumen de control es rígido y no hay presente ningún eje giratorio, no hay implicada ninguna interacción trabajo
 
 Así pues, con las consideraciones anteriores, el balance energético para el flujo estacionario a través de una válvula de estrangulación queda reducido a:
 
-q — hi — h\
+.. math::
+
+   q = h_2 - h_1
 
 Sin embargo, en la mayoría de las aplicaciones, o el dispositivo de estrangulación está asilado o la transferencia de calor es despreciable, por lo que para este proceso el cambio de entalpia es nulo; esto es:
 
-/12 = h\
+.. math::
 
-Esto no quiere decir que la entalpia sea constante durante el proceso, sino que la entalpia del flujo en la sección de entrada y en la sección de salida son las mismas. Como ejemplos de sistemas sencillos que utilizan este efecto podrían citarse un grifo de agua, una válvula de expansión de un figorífico, etc. En todos estos dispositivos tiene lugar un efecto de estrangulación o expansión de Joule-Thomson.
+   h-2 = h_1
+
+Esto no quiere decir que la entalpia sea constante durante el proceso, sino que la entalpia del flujo en la sección de entrada y en la sección de salida son las mismas. Como ejemplos de sistemas sencillos que utilizan este efecto podrían citarse un grifo de agua, una válvula de expansión de un figorífico, etc. En todos estos dispositivos tiene lugar un efecto de estrangulación o *expansión de Joule-Thomson*.
 
 TEMA 5 - COMBINACION DEL PRIMER Y SEGUNDO PRINCIPIO: EXERGIA.
 =============================================================
@@ -581,22 +580,24 @@ Antonio Sánchez Sánchez.
 
 Pablo de Assas Martínez de Morentin.
 
-5. PRINCIPIOS PRIMERO Y SEGUNDO APLICADOS A SISTEMAS ABIERTOS::
+ïndice::
 
-   5.1.- Introducción.
-   5.1.1.	- Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto.
-   5.1.2.	- Conservación de la masa..
-   5.2.	- Formulación del primer principio vara sistemas abiertos.
-   5.2.1.	-Procesos de flujo estacionario.
-   5.2.2.	-Trabajo mecánico en flujo estacionario.
-   5.3.	- Ecuación del sesundo principio para sistemas abiertos.
-   5.4.	- Magnitudes de remanso.
-   5.5.	- Análisis de turbinas, bombas, compresores, difusores y toberas.
-   5.5.1.	- Turbina.
-   5.5.2.	- Compresor y bomba.
-   5.5.3.	- Difusor y Tobera.
-   5.5.4.	-Rendimiento adiabático de estos dispositivos. 
-   5.5.5- Dispositivos de estrangulación.
+   5. PRINCIPIOS PRIMERO Y SEGUNDO APLICADOS A SISTEMAS ABIERTOS::
+
+      5.1.- Introducción.
+      5.1.1.	- Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto.
+      5.1.2.	- Conservación de la masa..
+      5.2.	- Formulación del primer principio vara sistemas abiertos.
+      5.2.1.	-Procesos de flujo estacionario.
+      5.2.2.	-Trabajo mecánico en flujo estacionario.
+      5.3.	- Ecuación del sesundo principio para sistemas abiertos.
+      5.4.	- Magnitudes de remanso.
+      5.5.	- Análisis de turbinas, bombas, compresores, difusores y toberas.
+      5.5.1.	- Turbina.
+      5.5.2.	- Compresor y bomba.
+      5.5.3.	- Difusor y Tobera.
+      5.5.4.	-Rendimiento adiabático de estos dispositivos. 
+      5.5.5- Dispositivos de estrangulación.
 
 Bibliografía
 ------------
