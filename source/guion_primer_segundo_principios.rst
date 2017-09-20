@@ -760,7 +760,7 @@ Para una sustancia incompresible :math:`du = c dT`, :math:`dv=0` y :math:`ds = c
 
 La exergia de una sustancia incompresible es sólo función de la temperatura y referida a :math:`cT_o`, ecuación (5.12), es independiente de cuál sea la sustancia concreta.
 
-Si representamos :math:`\phi = \frac{\phi}{cT_o}` en función de :math:`\frac{T}{T_o}`obtenemos la curva de la Fig 5.1 en la que se puede ver que una sustancia incompresible puede servir como fuente de trabajo en tanto que su temperatura sea distinta de la temperatura de la atmósfera. Efectivamente, un sistema caliente de masa fija puede servir como fuente de alta a un motor térmico cíclico que ceda calor a la atmósfera (punto :math:`T_o`) obteniéndose una cantidad de trabajo. Igualmente de una masa fría también puede obtenerse trabajo sin más que considerar a ésta como el foco frío de un motor térmico, siendo la atmósfera el foco caliente.
+Si representamos :math:`\phi = \frac{\phi}{cT_o}` en función de :math:`\frac{T}{T_o}` obtenemos la curva de la Fig 5.1 en la que se puede ver que una sustancia incompresible puede servir como fuente de trabajo en tanto que su temperatura sea distinta de la temperatura de la atmósfera. Efectivamente, un sistema caliente de masa fija puede servir como fuente de alta a un motor térmico cíclico que ceda calor a la atmósfera (punto :math:`T_o`) obteniéndose una cantidad de trabajo. Igualmente de una masa fría también puede obtenerse trabajo sin más que considerar a ésta como el foco frío de un motor térmico, siendo la atmósfera el foco caliente.
 
 
 B) Gases perfectos
@@ -770,8 +770,8 @@ Para gases perfectos la dependencia de la energía interna, del volumen específ
 
 .. math::
 
-   du = C_vdT \\
-   dv=Rd\left\frac{T}{p}\right) \\
+   du = C_v dT \\
+   dv = Rd \left( \frac{T}{p} \right) \\
    ds = c_p \frac{dT}{T} - R\frac{dp}{p}
 
 con lo que :math:`\phi` vendrá dada por:
@@ -795,9 +795,6 @@ De (5.13.a) se ve que, para un gas perfecto, la exergia depende de la presión y
 
 En la Fig 5.2 se ha representado :math:`\phi` en función de :math:`\frac{T}{T_o}` para gases perfectos cuyo :math:`\gamma` sea 1.4 y para valores de :math:`\frac{p}{p_o}=0.5;1 y 1.5`
 
-* í I	* O
-0,5; 1 y 1,5.
-íM't- XyC¿OiJ- od
 
 Figura 5.2
 
@@ -813,7 +810,7 @@ donde las variables :math:`\tau` y :math:`\pi` están definidas como:
 
 .. math::
 
-   \tau &= \frac{T_T_o}{T_o} \\
+   \tau &= \frac{T-T_o}{T_o} \\
    \pi &= \frac{p-p_o}{p_o}
 
 Balance de exergía para sistemas de flujo
