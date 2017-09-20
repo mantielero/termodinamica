@@ -120,9 +120,11 @@ Figura 4.2 Flujo másico a través de un elemento de área
 
 Para el volumen de control de la figura 4.2, podemos expresar la velocidad a la que gana masa el interior de :math:`\Omega` en función de los vectores área de la superficie de entrada y velocidad, así como de la densidad en los puntos donde el fluido cruza la superficie, tendremos:
 
-.. math::
 
-   \dot{m}_\Omega = 
+
+
+
+
 
 (ya que se considera positiva la masa que entra) en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k` en la que la velocidad es :math:`\textbf{V_k}` y :math:`\textbf{\rho_k}` es la densidad del fluido en :math:`a_k`.
 
