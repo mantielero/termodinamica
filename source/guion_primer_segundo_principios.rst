@@ -508,43 +508,33 @@ En esta última ecuación vemos que, en estos dispositivos; la contribución de 
 Rendimiento adiabático de estos dispositivos
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Podemos decir que el rendimiento de una instalación, de una máquina y en general de cualquier dispositivo no es otra cosa que una comparación entre la actuación real de ese dispositivo bajo ciertas condiciones y la actuación que tendría lugar en un proceso ideal. En esta
+Podemos decir que el rendimiento de una instalación, de una máquina y en general de cualquier dispositivo no es otra cosa que una comparación entre la actuación real de ese dispositivo bajo ciertas condiciones y la actuación que tendría lugar en un proceso ideal. En esta condición de idealidad es donde interviene la segunda ley, ya que lo que vamos a tomar como referencia de idealidad es el comportamiento isoentrópico del dispositivo. Así, cuanto más se acerque la instalación al comportamiento reversible más se acerca el rendimiento al valor unidad.
 
-Primer y segundo principios aplicados a sistemas abiertos
-
-13
-
-condición de idealidad es donde interviene la segunda ley, ya que lo que vamos a tomar como referencia de idealidad es el comportamiento isoentrópico del dispositivo. Así, cuanto más se acerque la instalación al comportamiento reversible más se acerca el rendimiento al valor unidad.
+FIGURA 
 
 Compresor
 
 o2
 
 Turbina
-^^^^^^^
+
 
 En la figura 4.4 representamos en un diagrama T — s la evolución tanto de un compresor como de una turbina. A partir de ese diagrama queda claro que los rendimientos de un compresor y de una turbina se definen como:
 
-wis
-o2r
-o2i
-Ve =
-Wreal
-hpn, ~ fi'Oi bo2r
-Vt =
-Wreal
-Wi.
+.. math::
 
-Figura 4.4Esquema de la evolución del fluido en un compresor y en una turbina.
+   \eta_c &= \frac{w_{is}}{w_{real}} &= \frac{{h_o}_{2is}-h_{o1}}{h_{o2r}-h_{o1}} \\
+   \eta_t &= \frac{w_{real}}{w_{is}} &= \frac{{h_o}_{2r}-h_{o1}}{h_{o2is}-h_{o1}}
 
-hp2r hQl hou, ~ h0l
-(4.35)
-(4.36)
+
+Figura 4.4 Esquema de la evolución del fluido en un compresor y en una turbina.
+
 
 Para un tobera, definimos el rendimiento adiabático como el cociente entre la energía cinética real de la corriente de salida y la energía cinética que tendría esa corriente si el proceso en la tobera fuese isoentrópico. Esto es:
 
-_	vl
-”T ~ VV2|2,
+.. math::
+
+   \eta_T = \frac{ \frac{\nu^2}{2} \vert_{2r} }{ \frac{\nu^2}{2} \vert_{2s} }
 
 Este rendimiento lo ponemos en función de las entalpias de remanso a la entrada de la tobera y de la entalpia estática a la salida sin más que despejar de (4.34) los términos de energía cinética a la salida quedándonos:
 
