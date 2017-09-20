@@ -122,7 +122,7 @@ Para el volumen de control de la figura 4.2, podemos expresar la velocidad a la 
 
 .. math::
 
-   \dot{m}_\Omega = -\sum_k \textbf{V_k} \cdot \textbf{n} a_k \rho_k
+   \dot{m}_\Omega = 
 
 (ya que se considera positiva la masa que entra) en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k` en la que la velocidad es :math:`\textbf{V_k}` y :math:`\textbf{\rho_k}` es la densidad del fluido en :math:`a_k`.
 
@@ -371,7 +371,7 @@ Por lo tanto tendremos:
 
 .. math::
 
-   \dot{S}_{MA} &= \sum_i \frac{\dot{Q}_{Fi}}{T_{F_i}} + \sum_s s \dot{m}_s - \sum_e \dot{m}_e \\
+   \dot{S}_{MA} &= \sum_i  \frac{\dot{Q}_{Fi}}{T_{F_i}} + \sum_s s \dot{m}_s - \sum_e \dot{m}_e \\
                 &= -\sum_i \frac{\dot{Q}_{Fi}}{T_{F_i}} + \sum_s s \dot{m}_s - \sum_e \dot{m}_e
  
 Por lo tanto, sustituyendo en (4.23), (4.22) y (4.24.a) se obtiene:7
