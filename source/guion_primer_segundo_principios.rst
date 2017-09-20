@@ -114,8 +114,6 @@ sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de cont
 
    \oint \delta Q = - \oint \delta W
 
-
-
 El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \textbf{V} \cdot \textbf{n}`
 
 Figura 4.2 Flujo másico a través de un elemento de área
@@ -140,7 +138,7 @@ Si en vez de ser una sola corriente, consideramos varias tendremos:
 
 .. math::
 
-   \frac{dE}{dt} = \dot{Q} + \dot{W_x} + \sum_e (h_t \dot{m})_e - \sum_s (h_t \dot{m})_s
+   \frac{dE}{dt} = \dot{Q} + \dot{W}_x + \sum_e \left( h_t \dot{m} \right)_e - \sum_s \left( h_t \dot{m} \right)_s
 
 Cuando sólo hay una corriente de entrada y una de salida y los flujos másicos son iguales, la ecuación anterior toma la forma:
 
