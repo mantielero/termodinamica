@@ -818,107 +818,74 @@ Balance de exergía para sistemas de flujo
 
 Para obtener el balance de exergía en sistemas dé flujo, (esto es, sistemas en los que la masa tiene una velocidad media macroscópica) se procede de manera análoga a lo hecho con los sistemas cerrados. Según vimos en el tema 4 [(4.8.a) y (4.24.b)], las ecuaciones del primer y segundo principio para sistemas abiertos en régimen no estacionario son:
 
-r tai
-d
-Y Qi + w + Y(h +-¿- +9Z)™~ Y(h + y +gz) ™= ¿¡(u + E
-1=0
-Jm )vc
-(5.15)
-r:-r~£~—\ . ds
-'W-cfra-t a, = — ---- ---- ::	dt
--E;|-Es™ + Es™^0
-ve 1=0
-(5.16)
+.. math::
+   
+   \sum_{i=0}^n \dot{Q}_i+\dot{W}+\sum_e\left( h+\frac{\nu^2}{2} + gz \right) \dot{m} -  \sum_s \left( h+\frac{\nu^2}{2} + gz \right) \dot{m} = \frac{d}{dt}\left( U+E_m\right)_{VC}
 
-Eliminando entre las ecuaciones (5.15) y 1(5.16), y como ht = h + — + gz, despejando
-W se obtiene:
+Eliminando :math:`\dot{Q}_o` entre las ecuaciones (5.15) y 1(5.16), y como :math:`h_t = h +\frac{\nu^2}{2} + gz`, despejando :math:`\dot{W}` se obtiene:
 
-(^fÁ^jw = jt(U + Em-T0S)vc + Y(ht-Tos)m-Y(ht-Tos)^-YQi (l ~t)+To
-■------ s	e	i = l '	1 '
+.. math::
 
-(5.17)
+   \dot{W} = \frac{d}{dt} \left( U+E_m-T_oS\right)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t - T_os) \dot{m} -\sum_{i=1}^n \dot{Q}_i \left( 1 - \frac{T_o}{T_i} \right) + T_o \dot{\sigma}_t
 
-A ht — T0s se le suele llamar disponibilidad de flujo*
+A :math:`h_t — T_os` se le suele llamar disponibilidad de flujo(*)
 
--Jj
--'V* jj tí*-*. ííy ■
-■'i	AA/ _ o-~C- '\A.	(Ajy j
 
 Al igual que en el caso de sistemas cerrados, en lo que estamos interesados es en la potencia mecánica útil, tanto real como reversible, que hay que consumir en una evolución de un sistema de flujo no estacionario. Procediendo igual que en el apartado anterior, podremos escribir:
 
-Wútil,real = -^(U + Em + p0V - T0S)VC + J^(/lí - T0s) m - Y(ht ~ T°S)
-m
-u
-¿q,(i-^)+r0át	j (5.18)
+.. math::
 
-habiendo desdoblado el término de la potencia mecánica en dos: potencia útil, W¿tn, y poten-
-dVwr.
-cia debida al hecho de que las paredes del volumen de control es deformable, — pQ-representa la potencia mecánica intercambiada con la atmósfera.
+   \dot{W}_{útil,real} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) +T_o\dot{\sigma}_t
 
-La potencia útil reversible será: d
 
-dt ’
-que
-W,
-útiljrev
-= -(U + Em+ PoV - T0S)VC + Y(h* ~ T°s) ™ - E(/lí - r°s)
-m
+habiendo desdoblado el término de la potencia mecánica en dos: potencia útil, :math:`\dot{W}_{útil}`, y potencia debida al hecho de que las paredes del volumen de control es deformable, :math:`-p_o\frac{dV_{VC}}{dt}` que representa la potencia mecánica intercambiada con la atmósfera.
 
-¿=i
-Tn
-(5.19)
+La potencia útil reversible será: 
+
+.. math::
+
+   \dot{W}_{útil,rev} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) +T_o\dot{\sigma}_t
 
 y la ecuación (5.18) se puede escribir:
-bfútil, real — fí^útil, rev 4" T0 <T¡
 
-(5.20)
+.. math::
 
-*En algunos textos a (e + p0v — T0s) le llaman disponibilidad. La disponibilidad de flujo se relaciona con ésta mediante la relación a¡ = a + v(p — p0).
+   \dot{W}_{útil,real} = \dot{W}_{útil,rev}+T_o\dot{\sigma}_t
 
-8
+(*) En algunos textos a :math:`(e + p_ov — T_os)` le llaman disponibilidad. La disponibilidad de flujo se relaciona con ésta mediante la relación :math:`a_f = a + v(p — p_o)`.
 
-Combinación del primer y segundo principio: exergía
 
-Si desde las condiciones del medio ambiente (estado muerto restringido: p0, T0, v = 0 y z = 0) mediante un proceso en régimen estacionario (— = 0) y teniendo como única fuente
-térmica la atmósfera (^jQi ^1 —	= 0) se quiere obtener una corriente con una velocidad,
-| v, temperatura, T, presión, p y altura z determinadas, la potencia mecánica reversible útil i necesaria es siendo ip la exergía de una corriente, que se obtiene a partir de (5.19) con ^ todas las condiciones especificadas. Esto es:
+Si desde las condiciones del medio ambiente (estado muerto restringido: :math:`p_o, T_o, v = 0 y z = 0`) mediante un proceso en régimen estacionario (:math:`\frac{d}{dt}=0`) y teniendo como única fuente térmica la atmósfera (:math:`\sum_{i=1}^n \dot{Q}_i \left( 1- \frac{T_o}{T_i} \right)=0` ) se quiere obtener una corriente con una velocidad, v, temperatura, T, presión, p y altura z determinadas, la potencia mecánica reversible útil i necesaria es :math:`m\psi` siendo :math:`\psi`  la exergía de una corriente, que se obtiene a partir de (5.19) con ^ todas las condiciones especificadas. Esto es:
 
-<4 0 ,
+.. math::
 
-OinWM-	(5.21)
+   \psi = h -h_o + \frac{\nu^2}{2}+gz- T_o(s-s_o)
 
-Teniendo en cuenta (5.8.a), (5.18) v Í5.211 el balance de exergía para sistemas de flujo en ;égimen no estacionario puede expresarse en la forma:	. f
+Teniendo en cuenta (5.8.a), (5.18) v Í5.211 el balance de exergía para sistemas de flujo en ;égimen no estacionario puede expresarse en la forma:	
 
-'k
-% kns-*'
-[|V> = h - hQ + — + gz - T0(s - sQ)
-d$
-dt
--	- VEútil, real - ^2 Q' ( 1 ~ Yf ) + To
-se	i'=l
-ot = 0
-r; -■ '
-(5.22)
+.. math::
 
-Ecuación, que de manera análoga al caso de sistemas cerrados (5.10.b), nos indica que la variación de exergía de un recinto abierto proviene de la exergía neta que se introduce al recinto: a) con la masa a través de las fronteras permeables, (~	b) con el trabajo,
+   \frac{d}{dt}\bracevert_{VC} + \sum_s \psi \dot{m} - \sum_e \psi \dot{m} - \dot{W}_{útil,real} - \sum_{i=1} \dot{Q}_i \left( 1-\frac{T_o}{T_i} \right) + T_o\dot{\sigma}_t = 0
+
+Ecuación, que de manera análoga al caso de sistemas cerrados (5.10.b), nos indica que la variación de exergía de un recinto abierto proviene de la exergía neta que se introduce al recinto: a) con la masa a través de las fronteras permeables, (:math:`\sum_s \psi \dot{m} - \sum_e \psi \dot{m}`) con el trabajo, :math:`\dot{W}_{útil,real}`
+
 a través de las fronteras impermeables restando la
 exergía que se destruye por irreversibilidades existentes en el proceso, irreversibilidades tanto internas al sistema como las que hay entre el sistema y el medio ambiente.
+
 Si el proceso de flujo es estacionario, la ecuación (5.22) se reduce a:
-d J l^UIl Id IlidÛd d UdVCÛ UC idO IIUIl leí dO
 
-Inútil, real, y con el calor,	^1 -
+.. math::
 
-tr
-i=i
-- VEútil, real -	( 1 - T~ ) + T° &t = °
-Ti
-(5.23)
+   \sum_s \psi \dot{m} - \sum_e \psi \dot{m} - \dot{W}_{útil,real}- \sum_{i=1} \dot{Q}_i \left( 1-\frac{T_o}{T_i} \right) + T_o\dot{\sigma}_t = 0
+
 
 La expresión (5.23) puede ponerse de una forma genérica:
 
-$
+.. math::
 
-obtenida	perdida	suministrada ¡	(5.24)
+   \dot{e_x}\bracevert_{obtenida} + \dot{e_x}\bracevert_{perdida} = \dot{e}\bracevert_{suministrada} 
+
+
 donde q0señala exergía. El valor de cada término habrá que asignarlo en cada caso concreto. A modo de ejemplo, supongamos la actuación de una turbina funcionando en régimen estacionario a la que se suministran m kg-s-1 de vapor en condiciones (pi, Ti), que sen de la misma en condiciones (p2, T2) y proporciona una potencia W. En este caso particular:
 éx) obtenida es la potencia W
 y de (5.24) se sigue que:
