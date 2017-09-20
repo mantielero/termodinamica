@@ -374,7 +374,7 @@ Por lo tanto tendremos:
    \dot{S}_{MA} &= \sum_i  \frac{\dot{Q}_{Fi}}{T_{F_i}} + \sum_s s \dot{m}_s - \sum_e \dot{m}_e \\
                 &= -\sum_i \frac{\dot{Q}_{Fi}}{T_{F_i}} + \sum_s s \dot{m}_s - \sum_e \dot{m}_e
  
-Por lo tanto, sustituyendo en (4.23), (4.22) y (4.24.a) se obtiene:7
+Por lo tanto, sustituyendo en (4.23), (4.22) y (4.24.a) se obtiene:
 
 .. math::
 
@@ -392,102 +392,97 @@ Magnitudes de remanso
 Definimos las magnitudes de remanso como las magnitudes termodinámicas que se obtendrían decelerando el fluido desde la velocidad V hasta el reposo en las siguientes condiciones:
 
 a)	estacionariamente
-b)	sin fuerzas músicasni de viscosidad ff :
+b)	sin fuerzas másicas de viscosidad
+c)	adiabáticamente (sin calor)
+d)	sin paredes móviles en el volumen de control (sin trabajo)
 
-f. ■
-/
 
-No se consideran posibles efectos disipativos debido al flujo de materia en las mismas secciones de entrada o salida.
-Fuerzas músicas son aquellas proporcionales a la masa como las fuerzas gravitatorias y las fuerzas de inercia dabidas al movimiento del sistema de referencia
+(*) No se consideran posibles efectos disipativos debido al flujo de materia en las mismas secciones de entrada o salida.
 
-Primer y segundo principios aplicados a sistemas abiertos
-11
+(*) Fuerzas músicas son aquellas proporcionales a la masa como las fuerzas gravitatorias y las fuerzas de inercia dabidas al movimiento del sistema de referencia
 
-c-i/A ,
+Teniendo en cuenta estas condiciones y las ecuaciones (4.8.b) y (4.21), obtenemos:
 
-c)	adiabáticamente (ríV .
-d)	sin paredes móviles en el volumen de control f	J
+.. math::
 
-Teniendo es cuenta estas condiciones y las ecuaciones (4.8.b) y (4.21), obtenemos:
+   h_o &= h + \frac{\nu^2}{2} \\
+   s_o &= s
 
-/■ kyw'n -hr.í
-\\	A.--'"'
->V© o®
-f y
-j/lííCtja rjbv
-iJ-	''UysA'A2~	suLst^dh	-
+donde el subídice *o* denata magnitud de remenso.
 
-donde el subídice Q_denata magnitud de remenso. '	■
+Si la sustancia de trabajo es un gas perfecto, como para estas sustancias :math:`h = c_pT`, de la primera de las igualdades de (4.26) se obtiene la relación entre la temperatura de remanso y la temperatura estática; esto es:
 
-—- — --------------------------- í2vy ,
+.. math::
 
-Si la sustancia de trabajo es un gas perfecto, como para"7estas sustancias h — c,,T. de la primera de las igualdades de (4.26) se obtiene la relación entre la temperatura de remanso y la temperatura estática; esto es:
-
-(4.27)
-A 'Vw -o
-Ctr~
-C'irli	V/''tAS'0'/ (AA.M
+   T_o = T + \frac{\nu^2}{2c_p}
 
 La segunda de las igualdades se reduce a:
 
-í i- -	-•-T° ».-»»
+.. math::
 
-r-'T l ¿ fc*
-ÁM ii	!
-50 = S
-c„ ln ^ — E ln — = 0
-(4.28)
+   s_o = s \arrow c_p ln \frac{T_o}{T} - R \ln \frac{p_o}{p}  = 0 \fatarrow \frac{p_o}{p} = \left( \frac{T_o}{T} \right)^\frac{\gamma}{\gamma-1}
 
-trata de una sustancia incompresible (un líquida por ejemplo), gualdades (4.26) se obtiene:
-segunda de las
+Si se trata de una sustancia incompresible (un líquida por ejemplo), de la segunda de las igualdades (4.26) se obtiene:
 
-f h ¿fa
-As = c ln ^ = 0
-Ì , ' » vu)l
+.. math::
 
-
-Ij T0 = fJJ	(4.29)
+  \Delta s = c \ln \frac{T_o}{T} = 0 \rightarrow T_o = T
 
 ya que para este modelo de sustancias la variación de entropía sólo es función de la temperatura [ver (3.29)].
-Al ser la temperatura de remanso igual a la estática, de (4.26) y de la definición de entalpia, h = u + pv, obtenemos:
-l Po = P+ ¿/>V2	(4.30)
+
+Al ser la temperatura de remanso igual a la estática, de (4.26) y de la definición de entalpia, :math:`h = u + pv`, obtenemos:
+
+.. math::
+
+   p_o = p +\frac{1}{2}\rho \nu^2
 
 Hay que señalar que las expresiónes (4.27) a (4.30) sólo son válidas para los modelos de sustancias señalados. Para cualquier otro comportamiento de las sustancias, habrá que resolver las ecuaciones (4.26) junto con la ecuación térmica de estado correspondiente a la sustancia particular.
 
 Análisis de turbinas, compresores, difusores y toberas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Vamos ahora a analizar una serie de dispositivos que suponemos funcionan en régimen estacionario y que sólo tienen una corriente de entrada y otra de salida. Para ellos será de aplicación la ecuación (4.11):	__q	¿JPyk,
+Vamos ahora a analizar una serie de dispositivos que suponemos funcionan en régimen estacionario y que sólo tienen una corriente de entrada y otra de salida. Para ellos será de aplicación la ecuación (4.11):
 
-A
-q +(«y= ht
-h
-te
+.. math::
 
-Suponiendo despreciable la variación de energía potencial gravitatoria y la interacción con otros campos de fuerzas, la entalpia total coincide con la entalpia de remanso, ht = h0, pudiéndose escribir la última ecuación en la forma:
+   q+w_x = h_{ts}-h_{te}
 
-q + wx = h0¡ - h0c
-(4.31)
+Suponiendo despreciable la variación de energía potencial gravitatoria y la interacción con otros campos de fuerzas, la entalpia total coincide con la entalpia de remanso, :math:`h_t = h_o`, pudiéndose escribir la última ecuación en la forma:
 
-12
+.. math::
 
-Primer y segundo principios aplicados a sistemas abiertos. Entropía
+   q + w_x = h_{0s} - h_{oe}
 
 Turbina
 ^^^^^^^
 
 Una turbina es un dispositivo para obtener trabajo de una corriente fluida. En ella el paso del fluido es tan rápido y el área efectiva para la transferencia de calor es tan pequeña que, en primera aproximación, podemos suponer que la turbina es un dispositivo adiabática, esto es, en ella q = 0, por lo que, de (4.31), el balance energético para una turbina se reduce a:
-wx = h0l - hQt	(4.32.a)
+
+.. math::
+
+   w_x = {h_o}_s - {h_o}_e
 
 Si suponemos, además, que la variación de velocidad es despreciable, la ecuación anterior queda:
-wx = ha — he	(4.32.b)
+
+.. math::
+
+   w_x = h_s - h_e
 
 Compresor
 ^^^^^^^^^
 
 Un compresor es un dispositivo que se utiliza para incrementar la presión de un fluido. En este dispositivo se entraga trabajo al fluido y se produce un incremento de presión en el mismo. Si suponemos transformación adiabática y en régimen estacionario, al igual que en la turbina, podremos escribir:
-wx = hQ¡ - h0c	(4.33.a)
-y si V8 ~ Ve:
-wx — ha — he	(4.33.b)
+
+.. math::
+
+   w_x = {h_o}_s - {h_o}_e
+
+y si :math:`v_s \approx v_e`:
+
+.. math::
+
+   w_x = h_s - h_e
+
 
 Difusor y Tobera
 ^^^^^^^^^^^^^^^^
@@ -496,16 +491,22 @@ Los difusores y toberas son elementos sin partes móviles utilizados en las inst
 
 En ambos casos, tanto q como wx son nulos, por lo que:
 
-i................... y2	y2 \
-I h0, = h0e	—*	h3 +	= he + j	(4-34)
+.. math::
+
+   {h_o}_s - {h_o}_e \rightarrow h_s + \frac{\nu^2_s}{2} = h_e + \frac{\nu^2_e}{2} 
 
 Si la sustancia de trabajo es un gas perfecto, como h — u + pv, sustituyendo en (4.34):
 
-Aec = ui + (pv)i - «2 - (pv)2
-= cv(T\ — T-¡) — R (Ti - r2) = cp (Ti - T2) )
+.. math::
 
+   \Delta e_c &= u_1 + (pv)_1 - u_2 - (pv)_2 \\
+              &= c_v (T-1 - T_2) - R(T_1-T_2) = c_p (T_1 - T_2)
+   
+   
 En esta última ecuación vemos que, en estos dispositivos; la contribución de la energía interna al cambio de energía cinética es prácticamente el doble que la contribución correspondiente al trabajo de flujo.
-Rendimiento adiabático de estos dispositivos.
+
+Rendimiento adiabático de estos dispositivos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Podemos decir que el rendimiento de una instalación, de una máquina y en general de cualquier dispositivo no es otra cosa que una comparación entre la actuación real de ese dispositivo bajo ciertas condiciones y la actuación que tendría lugar en un proceso ideal. En esta
 
