@@ -188,7 +188,7 @@ Según lo que acaba de verse, si *Y* es una propiedad de un sistema simple que c
 
 .. math::
 
-   Y \approx n^0° (\alpha = 0), intensiva\\
+   Y \approx n^0 (\alpha = 0), intensiva\\
    y \approx n^1 (\alpha = 1), extensiva
 
 Así, el volumen total *V* es extensiva, ya que si se duplica el número de moles del sistema, conservando constantes todos los parámetros intensivos, el volumen se duplica. Por otro lado, el volumen total dividido entre el número de moles del sistema proporciona el volumen específico molar (:math:`v = \frac{V}{n}`) que es una variable intensiva.
