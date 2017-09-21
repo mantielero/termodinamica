@@ -886,34 +886,28 @@ La expresión (5.23) puede ponerse de una forma genérica:
    \dot{e_x}\bracevert_{obtenida} + \dot{e_x}\bracevert_{perdida} = \dot{e}\bracevert_{suministrada} 
 
 
-donde q0señala exergía. El valor de cada término habrá que asignarlo en cada caso concreto. A modo de ejemplo, supongamos la actuación de una turbina funcionando en régimen estacionario a la que se suministran m kg-s-1 de vapor en condiciones (pi, Ti), que sen de la misma en condiciones (p2, T2) y proporciona una potencia W. En este caso particular:
-éx) obtenida es la potencia W
+donde :math:`e_x` señala exergía. El valor de cada término habrá que asignarlo en cada caso concreto. A modo de ejemplo, supongamos la actuación de una turbina funcionando en régimen estacionario a la que se suministran :math:`\dot{m} kg\cdot s^{-1}` de vapor en condiciones (:math:`p_1`, :math:`T_1`), que sen de la misma en condiciones (:math:`p_2`, :math:`T_2`) y proporciona una potencia :math:`\dot{W}`. En este caso particular:
+
+.. math::
+
+   \dot{e}_x\bracebar_{obtenida} &\text{ es la potencia } \dot{W} \\
+   \dot{e}_x\bracebar_{suministrada} &\text{ es } \dot{m}\psi_e
+
+
 y de (5.24) se sigue que:
-éx) . . .	, es mée
-’ suministrada
-é*) perdida = rhrjle - W =	+ T0át
 
-Í)aq eU L- '
-tsf¿, ct<A(.C*'*~	£ Jn**&	hj£*- faéU U- /¿t~Ci~ a^Jt^ /tribus
-(&h	^	t*W'ys~>-	a*—'¿«+fa & c- -'V~#!iJ o sut*-	oikf)). 71.	/
-*	* / |	^	I	/ l'^Cu' ¿Sifú
-A 2/xJo>tfT t
+.. math::
 
-Combinación del primer y segundo principio: exergía
-
-+ 'o ¿T t e Jtv-iiofí. 4,.^_ a
-t\L / ) y
-* «-«wW
-jr N) J 'tx -XxAÍa^-c,
-^ /wc/ic/i,
+   \dot{e}_x\bracebar_{perdida} = \dot{m} \psi_e - \dot{W} = \dot{m} \psi_s + T_o \dot{\sigma}_t 
 
 ¿Cómo se modificarían estas expresiones si el flujo músico de salida se utilizase en un dispositivo para calefacción saliendo del dispositivo en condiciones del ambiente (p0, T0)1.
 
 De manera análoga, la expresión (5.lO.b) y la (5.22) una vez integrada, pueden expresarse, también, en la forma:
-1 obtenida
-+ ex) perdida ~ ^)
-suministrada
-(5.24.a)
+
+.. math::
+
+   \dot{e}_x\bracebar_{obtenida} + \dot{e}_x\bracebar_{perdida} = \dot{e}_x\bracebar_{suministrada} 
+
 
 Rendimiento exergético
 ----------------------
