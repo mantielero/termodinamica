@@ -835,7 +835,7 @@ Al igual que en el caso de sistemas cerrados, en lo que estamos interesados es e
 
 .. math::
 
-   \dot{W}_{útil,real} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) +T_o\dot{\sigma}_t
+   \dot{W}_{útil,real} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS \right)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) +T_o\dot{\sigma}_t
 
 
 habiendo desdoblado el término de la potencia mecánica en dos: potencia útil, :math:`\dot{W}_{útil}`, y potencia debida al hecho de que las paredes del volumen de control es deformable, :math:`-p_o\frac{dV_{VC}}{dt}` que representa la potencia mecánica intercambiada con la atmósfera.
@@ -844,7 +844,7 @@ La potencia útil reversible será:
 
 .. math::
 
-   \dot{W}_{útil,rev} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) +T_o\dot{\sigma}_t
+   \dot{W}_{útil,rev} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS\right)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) +T_o\dot{\sigma}_t
 
 y la ecuación (5.18) se puede escribir:
 
