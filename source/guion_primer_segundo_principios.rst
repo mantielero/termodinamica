@@ -708,7 +708,7 @@ Si se quiere saber cuál es el trabajo útil reversible que es necesario comunic
 
 .. math::
 
-   \Phi_2-\Phi_1 = W_{util,rev} = E_E_o + p_o(V-V_o)-T_o(S-S_o)
+   \Phi_2-\Phi_1 = W_{util,rev} = E-E_o + p_o(V-V_o)-T_o(S-S_o)
 
 A este trabajo, que es el mínimo necesario para conseguir un estado termodinámico determinado (T, p) a partir de las condiciones del medio ambiente se le llama exergía, :math:`\Phi(*)`. Si se considera la unidad de masa, la exergía específica, :math:`\phi = \frac{\Phi}{m}` vendrá expresada por:
 
