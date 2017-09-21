@@ -913,187 +913,130 @@ Rendimiento exergético
 ----------------------
 
 De manera análoga a como se ha hecho en el análisis energético de los sistemas donde se ha definido un rendimiento térmico o energético, en el que se relaciona la energía real consumida con la correspondiente al funcionamiento ideal, podemos definir un rendimiento exergético en la forma:
-0
-obtenida
-?x)	• •
-> sumtni
-strada
+
+.. math::
+
+   \epsilon = \frac{e_x\bracebar_{obtenida}}{e_x\bracebar_{suministrada}}
+   
 Teniendo en cuenta la relación (5.24), el rendimiento exergético se puede escribir:
-perdida
-x ’ suministrada
-(5.25)
 
-En algunos casos, como se verá en el apartado siguiente, los rendimientos térmico y exergético están relacionados entre sí. Qué diferencia haya entre estos rendimientos se puede ver con el siguiente ejemplo. Supongamos un sistema cerrado que recibe una potencia térmica Qs de una fuente térmica a temperatura Ts y cede una potencia térmica Qu a una temperatura de utilización Tu. 
+.. math::
 
-Además hay una pérdida de energía térmica hacia el medio ambiente, Qp, a través de una parte de la frontera que está a Tp.
+   \epsilon = 1- \frac{e_x\bracebar_{perdida}}{e_x\bracebar_{suministrada}}
+
+En algunos casos, como se verá en el apartado siguiente, los rendimientos térmico y exergético están relacionados entre sí. Qué diferencia haya entre estos rendimientos se puede ver con el siguiente ejemplo. Supongamos un sistema cerrado que recibe una potencia térmica :math:`\dot{Q}_s` de una fuente térmica a temperatura :math:`T_s` y cede una potencia térmica :math:`\dot{Q}_u` a una temperatura de utilización :math:`T_u`. Además hay una pérdida de energía térmica hacia el medio ambiente, :math:`\dot{Q}_p`, a través de una parte de la frontera que está a :math:`T_p`.
+
 Suponiendo un funcionamiento en régimen estacionario y que al sistema cerrado no se le transfiere energía en forma de trabajo, los balances energético y exergético (ec 5.lO.b) para el sistema son:
 
-Qs — Qu + Qp
+.. math::
 
-í*(1-£H*(1-£)+í'(1"£)+r" = 0
+   \dot{Q}_s = \dot{Q}_u + \dot{Q}_p \\
+   \dot{Q}_u \left( 1- \frac{T_o}{T_u}\right) - \dot{Q}_s \left( 1- \frac{T_o}{T_s}\right) + \dot{Q}_p \left( 1- \frac{T_o}{T_p}\right) + T_o \sigma = 0
+   
 
 El balance energético dice simplemente que de la potencia térmica que recibe el sistema parte se utiliza y el resto se pierde.
 
 Un rendimiento energético puede definirse en función de la potencia térmica utilizadáTy la suministrada, esto es:
-10
 
-Combinación del primer y segundo principio: exergía
+.. math::
 
-En principio este rendimiento puede aumentarse poniendo más aislante de modo que se reduzcan las pérdidas. En el Emite de Qp = 0, el rendimiento será la unidad.
-Si comparamos el balance de exergía del proceso con (5.24), se ve que se suministra exergía el calor, Qs ^1 —	, y que hay una exergía que se obtiene con la potencia térmica utilizada,
-con
-Qu
+   \eta = \frac{\dot{Q}_u}{\dot{Q}_s}
 
-1------ ) i de modo que el rendimiento exergético será
+En principio este rendimiento puede aumentarse poniendo más aislante de modo que se reduzcan las pérdidas. En el Emite de :math:`\dot{Q}_p = 0`, el rendimiento será la unidad.
 
-Tu,
-£ =
-Qu 1-
-To
-Tu
-Qs
-= V
-1- ^
-1- ^
-T
-1 U
-T
-i- — Ts
+Si comparamos el balance de exergía del proceso con (5.24), se ve que se suministra exergía el calor, :math:`\dot{Q}_s \left( 1  \frac{T_o}{T_s}\right)`, y que hay una exergía que se obtiene con la potencia térmica utilizada,
+:math:`\dot{Q}_u \left( 1 - \frac{T_o}{T_u}\right)` de modo que el rendimiento exergético será
 
-De esta expresión se ve que es importante no sólo la energía térmica utilizada, en definitiva valores altos de g que en el límite sería la unidad, sino también la temperatura de utilización de esa energía. Así por ejemplo, suponiendo que seamos capaces de utilizar prácticamente casi toda la energía suministrada (77 ~ 1), si la temperatura a la que se utiliza esa energía Tu, es próxima a la temperatura ambiente, el rendimiento exergético tiende a cero. Dicho de otra forma, cuanto
-más baja sea la temperatura de utilización del calor generado a alta temperatura, aunque se utilice íntegramente, peor es la utilización de esa energía. Desde el punió de vista de óptima utilizaciónMeJa^eneFgTarÍTrteresap€©n_k)s. valores más altos posibles de r¡, una temperatura de utilización de la energía térmica lo más próxima a la temperatura de la fuente de la que se
-obtiene la energía térmica.'
+.. math::
 
-ergia tei
-T7
-Lyu /iIzXa/,
-7*2? Tc.
+   \epsilon &= \frac{ \dot{Q}_u \left( 1 - \frac{T_o}{T_u}\right) }{ \dot{Q}_s \left( 1 - \frac{T_o}{T_s}\right) } \\
+            &= \eta \left( 1 - \frac{T_o}{T_u}\right) }{ \left( 1 - \frac{T_o}{T_s}\right) }
 
-Por ejemplo, supongamos que para la calefacción de un gran edificio se ha de quemar un combustible. Mejor que generar vapor y comunicarlo a los radiadores, sería generar vapor y utilizarlo para producir energía eléctrica y sacar parte del vapor en una etapa intermedia para calefacción (este proceso se llama cogeneración).	..	/
-_____________________________—----------/ ¿
-viví- y* ____.
-~57í>UAplicación a procesos cíclicos.
-/
+De esta expresión se ve que es importante no sólo la energía térmica utilizada, en definitiva valores altos de g que en el límite sería la unidad, sino también la temperatura de utilización de esa energía. Así por ejemplo, suponiendo que seamos capaces de utilizar prácticamente casi toda la energía suministrada (77 ~ 1), si la temperatura a la que se utiliza esa energía Tu, es próxima a la temperatura ambiente, el rendimiento exergético tiende a cero. Dicho de otra forma, cuanto más baja sea la temperatura de utilización del calor generado a alta temperatura, aunque se utilice íntegramente, peor es la utilización de esa energía. Desde el punto de vista de óptima utilización de la energía interna, con los valores más altos posibles de :math:`\eta`, una temperatura de utilización de la energía térmica lo más próxima a la temperatura de la fuente de la que se obtiene la energía térmica.
+
+Por ejemplo, supongamos que para la calefacción de un gran edificio se ha de quemar un combustible. Mejor que generar vapor y comunicarlo a los radiadores, sería generar vapor y utilizarlo para producir energía eléctrica y sacar parte del vapor en una etapa intermedia para calefacción (este proceso se llama cogeneración).
+
+
+Aplicación a procesos cíclicos
+------------------------------
 
 Este análisis exergético de los ciclos, aunque lo hacemos con dispositivos poco complicados, esto es, sistemas cerrados que trabajan en un número entero de ciclos, nos va servir como una introducción para el análisis posterior de procesos más complicados y detallados que puedan hacerse con ciclos de potencia y de refrigeración. El estudio lo haremos, separadamente, para motores térmicos y para bombas térmicas y máquinas refrigerantes. El ciclo trabajará entre dos fuentes térmicas. Una será siempre el ambiente y la otra estará, en cada caso, a una temperatura especificada.
+
 Motores térmicos
+^^^^^^^^^^^^^^^^
 
 Al tratarse un sistema cerrado cíclico, definido en la sección 3.2, la ecuación (5.10.a) se reduce a:
 
-Combinación del primer y segundo principio: exergía
+.. math::
 
-11
-Ta > T*	¿b /	/ P. tícfió ^ ~Q
-V^útil, real — Qa	T0\ TaJ	) + Tq(t — 0	(5.26)
-Ti
+   W_{util,real} = -Q_a \left( 1 - \frac{T_o}{T_a}\right) + T_o \sigma = 0
 
-1 3 donde Qa es el calor que el motor toma de la fuente de alta que está a una temperatura Ta. La otra, como ya se ha dicho, es el ambiente. En los motores el trabajo útil real es trabajo extraído, no suministrado, de modo que si ponemos W(,t\i, rea| = — Wmot0r en la expresión anterior, reordenándola queda en la forma:
+donde :math:`Q_a` es el calor que el motor toma de la fuente de alta que está a una temperatura :math:`T_a`. La otra, como ya se ha dicho, es el ambiente. En los motores el trabajo útil real es trabajo extraído, no suministrado, de modo que si ponemos  :math:`W_{util,real} = - W_{motor}` en la expresión anterior, reordenándola queda en la forma:
 
-Wmotor-Qa[l-~) +ToO = 0
-(5.27)
+.. math::
+
+   W_{motor}  - Q_a \left( 1 - \frac{T_o}{T_a}\right) + T_o \sigma = 0 
 
 Si se compara (5.27) con (5.24) se ve que se suministra exergía al motor con el calor que éste toma de la fuente de alta; esto es, aunque de forma no muy ortodoxa, se podría hablar del contenido de trabajo disponible en el calor transferido.
 
 El rendimiento exergético de un motor térmico, según la expresión (5.25) es:
 
-£ = 1
-T0 o
-Qa^l-
-Wmotor
-T
--L O
-± a
-(5.28)
-Qa 1
-T
-Tn
-Como
-W,
-motor
-Qa
+.. math::
 
-es el rendimiento energético del motor térmico, (77), se podrá poner para el
-rendimiento exergético de un motor:
+   \epsilon &= 1- \frac{T_o\sigma}{Q_a \left( 1- \frac{T_o}{T_a}\right)} \\
+            &= \frac{W_{motor}}{Q_a \left( 1- \frac{T_o}{T_a}\right)} }
 
-7V-Í-Á
+Como :math:`\frac{W_{motor}}{Q_a}` es el rendimiento energético del motor térmico, (:math:`\eta`), se podrá poner para el rendimiento exergético de un motor:
 
-(5.29)
+.. math::
 
-¡esto es, el rendimiento exergético es el cociente entre el rendimiento térmico del motor y el rendimiento de un motor equivalente de Carnot que trabajase entre la temperatura de la fuente de alta y la temperatura del medio ambiente.
+   \epsilon = \frac{\eta}{\left( 1- \frac{T_o}{T_a}\right)}}
+
+esto es, el rendimiento exergético es el cociente entre el rendimiento térmico del motor y el rendimiento de un motor equivalente de Carnot que trabajase entre la temperatura de la fuente de alta y la temperatura del medio ambiente.
+
 Bombas térmicas y máquinas refrigerantes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-En el caso deJb.QmbasTérmlcas|, al ser éstas dispositivos que ceden una cantidad determinada { de calor (Qa será negativo) a una fuente a una temperatura Ta consumiendo un trabajo W¿t¡i, rea]
-| que es el trabajo consumido en el compresor de la máquina (VE), la ecuación (5.10.a) quedará:
+En el caso de las bombas térmlcas, al ser éstas dispositivos que ceden una cantidad determinada de calor (:math:`Q_a` será negativo) a una fuente a una temperatura :math:`T_a` consumiendo un trabajo :math:`W_{util,real}`, que es el trabajo consumido en el compresor de la máquina (:math:`W`), la ecuación (5.10.a) quedará:
 
-';'í74-
-U/&T
-m
+.. math::
 
-ie se ve que se está calentando.
+   W = Q_a\left( 1- \frac{T_o}{T_a}\right) + T_o \sigma = 0
 
-W = Qa ( 1 - ^ j + T0o
-T
-J- n
-0
-(5.30)
 
-de la que se ve que se obtiene la exergía Qa ( 1 — — ) que es la que se suministra al sistema
+de la que se ve que se obtiene la exergía :math:`Q_a\left( 1- \frac{T_o}{T_a}\right)` que es la que se suministra al sistema que se ve que se está calentando.
 
 El rendimiento exergético en este caso de bombas térmicas es:
-12
 
-Combinación del primer y segundo principio: exergía
+.. math::
 
-£ =
-w
-C O Pbomba
-(5.31)
-siendo COPeq.ca
-T
--L n.
-COPeq. Carnot
+   \epsilon &= \frac{Q_a\left( 1- \frac{T_o}{T_a}\right)}{W} \\
+            &= \frac{COP_{bomba}}{COP_{eq.Carnot}}
+            
 
-el coeficiente de actuación de una bomba térmica funcionando
+siendo :math:`COP_{eq.Carnot} = \frac{T_a}{T_a-T_o}` el coeficiente de actuación de una bomba térmica funcionando según un ciclo de Carnot entré la temperatura del recinto a calentar (:math:`T_a`) y la temperatura del medio ambiente.
 
-T - T
-¿a ± o
+Si de lo que se trata es de máquinas refrigerantes el calor involucrado es el que hay que extraer (:math:`Q_b`) del recinto a refrigerar (fuente a una temperatura :math:`T_b`). Este calor es positivo para la máquina. En cuanto al trabajo útil real, también en estos dispositivos es el trabajo consumido en el compresor de manera que (5.10.a), en este caso, será:
 
-según un ciclo de Carnot entré la temperatura del recinto a calentar (Ta) y la temperatura del medio ambiente.
-Si de lo que se trata es deimáquinas refrigerantes» el calor involucrado es el que hay que extraer (Qb) del recinto a refrigerar (fuente a una temperatura TQ. Este calor es positivo para la máquina. En cuanto al trabajo útil real, también en estos dispositivos es el trabaj^ consumido
-en el compresor de manera que (5.10.a), en este caso, será:
+.. math::
 
-W = -Qb(l-'^)+T0a
-¡	i	,	6
+   W=-Q_b \left( 1- \frac{T_o}{T_b}\right) + T_o \sigma
 
-Como;Tb < T0, la ecuación anterior se puede escribir en la forma:
+Como :math:`T_b<T_o`,  la ecuación anterior se puede escribir en la forma:
 
-* ^
-w»
-id.
-T»
-Qb
-Tb
-1 - VE + T0a = 0
-(5.32)
-(5.33)
-Qb
+.. math::
 
-De esta ecuación se ve claramente que de una máquina refrigerante se obtiene exergía,
--f - 1 ) ya que Tb < T0, que es suministrada al sistema que se refrigera. Esta es la razón -^6 /
-por la que de un sistema cerrado a tamperatura inferior a la del medio ambiente se puede obtener trabajo, o lo que es lo mismo, este sistema ’’frío” tiene una exergía positiva ya que se le ha dado esa exergía mientras se enfriaba.
+   Q_b \left( \frac{T_o}{T_b} -1 \right) -W + T_o \sigma = 0
+
+De esta ecuación se ve claramente que de una máquina refrigerante se obtiene exergía, :math:`Q_b\left( \frac{T_o}{T_b} -1 \right)` ya que :math:`T_b<T_o`, que es suministrada al sistema que se refrigera. Esta es la razón -^6 /
+por la que de un sistema cerrado a tamperatura inferior a la del medio ambiente se puede obtener trabajo, o lo que es lo mismo, este sistema "frío" tiene una exergía positiva ya que se le ha dado esa exergía mientras se enfriaba.
 
 El rendimiento exergético de un refrigerador será, pues,
 
-£ =
-Qb( Yb -1
-w
-COPref
-(5.34)
-siendo COP,
-Tb
-eq.C arnot
-To-Tb
-CO Peq. Carnot
+.. math::
 
-el coeficiente de actuación de una máquina refrigerante de
-Carnot qué trabajase entre las temperaturas del recinto a refrigerar (Tb) y la temperatura ambiente.
+   \epsilon &= \frac{Q_b \left( \frac{T_o}{T_b} -1 \right) }{W} \\
+            &= \frac{COP_{ref}}{COP_{eq.Carnot}}
+
+siendo :math:`COP_{ref}}{COP_{eq.Carnot}`  el coeficiente de actuación de una máquina refrigerante de
+Carnot qué trabajase entre las temperaturas del recinto a refrigerar (:math:`T_b`) y la temperatura ambiente.
