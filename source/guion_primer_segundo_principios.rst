@@ -624,7 +624,10 @@ c) También hay que decir que el equiljjj¿& al que se hace referencia en todo e
 
 .. math::
 
-   T = T_o, p=p_o, \nu = 0 y z=0
+   T &= T_o\\
+   p &=p_o\\
+   \nu &= 0\\
+   z & =0
 
 Balance de exergía para sistemas cerrados
 -----------------------------------------
