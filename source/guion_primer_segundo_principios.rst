@@ -890,15 +890,15 @@ donde :math:`e_x` señala exergía. El valor de cada término habrá que asignar
 
 .. math::
 
-   \dot{e}_x\bracebar_{obtenida} &\text{ es la potencia } \dot{W} \\
-   \dot{e}_x\bracebar_{suministrada} &\text{ es } \dot{m}\psi_e
+   \dot{e}_x\bracevert_{obtenida} &\text{ es la potencia } \dot{W} \\
+   \dot{e}_x\bracevert_{suministrada} &\text{ es } \dot{m}\psi_e
 
 
 y de (5.24) se sigue que:
 
 .. math::
 
-   \dot{e}_x\bracebar_{perdida} = \dot{m} \psi_e - \dot{W} = \dot{m} \psi_s + T_o \dot{\sigma}_t 
+   \dot{e}_x\bracevert_{perdida} = \dot{m} \psi_e - \dot{W} = \dot{m} \psi_s + T_o \dot{\sigma}_t 
 
 ¿Cómo se modificarían estas expresiones si el flujo músico de salida se utilizase en un dispositivo para calefacción saliendo del dispositivo en condiciones del ambiente (p0, T0)1.
 
@@ -906,7 +906,7 @@ De manera análoga, la expresión (5.lO.b) y la (5.22) una vez integrada, pueden
 
 .. math::
 
-   \dot{e}_x\bracebar_{obtenida} + \dot{e}_x\bracebar_{perdida} = \dot{e}_x\bracebar_{suministrada} 
+   \dot{e}_x\bracevert_{obtenida} + \dot{e}_x\bracevert_{perdida} = \dot{e}_x\bracevert_{suministrada} 
 
 
 Rendimiento exergético
@@ -916,13 +916,13 @@ De manera análoga a como se ha hecho en el análisis energético de los sistema
 
 .. math::
 
-   \epsilon = \frac{e_x\bracebar_{obtenida}}{e_x\bracebar_{suministrada}}
+   \epsilon = \frac{e_x\bracevert_{obtenida}}{e_x\bracevert_{suministrada}}
    
 Teniendo en cuenta la relación (5.24), el rendimiento exergético se puede escribir:
 
 .. math::
 
-   \epsilon = 1- \frac{e_x\bracebar_{perdida}}{e_x\bracebar_{suministrada}}
+   \epsilon = 1- \frac{e_x\bracevert_{perdida}}{e_x\bracevert_{suministrada}}
 
 En algunos casos, como se verá en el apartado siguiente, los rendimientos térmico y exergético están relacionados entre sí. Qué diferencia haya entre estos rendimientos se puede ver con el siguiente ejemplo. Supongamos un sistema cerrado que recibe una potencia térmica :math:`\dot{Q}_s` de una fuente térmica a temperatura :math:`T_s` y cede una potencia térmica :math:`\dot{Q}_u` a una temperatura de utilización :math:`T_u`. Además hay una pérdida de energía térmica hacia el medio ambiente, :math:`\dot{Q}_p`, a través de una parte de la frontera que está a :math:`T_p`.
 
