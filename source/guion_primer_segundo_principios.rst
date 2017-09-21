@@ -984,13 +984,13 @@ El rendimiento exergético de un motor térmico, según la expresión (5.25) es:
 .. math::
 
    \epsilon &= 1- \frac{T_o\sigma}{Q_a \left( 1- \frac{T_o}{T_a}\right)} \\
-            &= \frac{W_{motor}}{Q_a \left( 1- \frac{T_o}{T_a}\right)} }
+            &= \frac{W_{motor}}{Q_a \left( 1- \frac{T_o}{T_a}\right)} 
 
 Como :math:`\frac{W_{motor}}{Q_a}` es el rendimiento energético del motor térmico, (:math:`\eta`), se podrá poner para el rendimiento exergético de un motor:
 
 .. math::
 
-   \epsilon = \frac{\eta}{\left( 1- \frac{T_o}{T_a}\right)}}
+   \epsilon = \frac{\eta}{ \left( 1- \frac{T_o}{T_a}\right) }
 
 esto es, el rendimiento exergético es el cociente entre el rendimiento térmico del motor y el rendimiento de un motor equivalente de Carnot que trabajase entre la temperatura de la fuente de alta y la temperatura del medio ambiente.
 
@@ -1038,5 +1038,5 @@ El rendimiento exergético de un refrigerador será, pues,
    \epsilon &= \frac{Q_b \left( \frac{T_o}{T_b} -1 \right) }{W} \\
             &= \frac{COP_{ref}}{COP_{eq.Carnot}}
 
-siendo :math:`COP_{ref}}{COP_{eq.Carnot}`  el coeficiente de actuación de una máquina refrigerante de
+siendo :math:`COP_{eq.Carnot}= \frac{T_b}{T_o-T_b}` el coeficiente de actuación de una máquina refrigerante de
 Carnot qué trabajase entre las temperaturas del recinto a refrigerar (:math:`T_b`) y la temperatura ambiente.
