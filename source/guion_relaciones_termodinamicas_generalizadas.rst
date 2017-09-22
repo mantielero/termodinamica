@@ -6,31 +6,33 @@ Relaciones Termodinámicas Generalizadas
 Introducción
 ------------
 
-á
-i/(a Jí ~J ; £
-l'c,/
-/
--- ’ “f
+Relacionadas con la función exergía vista en el tema cinco, aunque históricamente son anteriores, podemos definir dos nuevas funciones termodinámicas, las denominadas funciones de Helmholtz y Gibbs.
 
-Relacionadas con la función exergía vista en el tema cinco, aunque históricamente son anteriores, podemos definir dos nuevas funciones termodinámicas, las denominadas funciones de Helmholtz y Gibbs*2>
-La primera se definirá a partir de la que algunos textos denominan disponibilidad para sistemas cerrados (U+p0V-T0S) prescindiendo del término p0V y suponiendo que la temperatura del sistema es igual a T0:
+La primera se definirá a partir de la que algunos textos denominan disponibilidad para sistemas cerrados (:math:`U+p_oV-T_oS`) prescindiendo del término :math:`p_oV` y suponiendo que la temperatura del sistema es igual a :math:`T_o`:
 
-//XVÁ [ A = U - TS ó a = u - Ts 4______________ (6.1)
-y la segunda a partir de la exergía para sistemas abiertos: _
-d-ik. Ci -H-TS ó g = h-Ts J	(6.2)
+.. math::
+
+   A=U-TS \text{ o } a=u-Ts
+
+
+y la segunda a partir de la exergía para sistemas abiertos:
+
+.. math::
+
+   G = H-TS \text{ o } g = h-Ts
 
 Ambas funciones están relacionadas con sistemas complejos, en los que se dan reacciones químicas y en los que puede producirse más de una forma de trabajo. La frecuencia con la que se presentan en el anáfisis termodinámico de los sistemas, es lo que justifica que a estas agrupaciones de variables termodinámicas se les haya dado nombre propio.
+
 Cuando estudiemos sistemas multicomponentes y multifase, con y sin reacción química, veremos la importancia de estas funciones.
 
-Con frecuencia se nos presentará en el transcurso de nuestro estudio la necesidad de disponer de valores de las magnitudes u. h, s, a. g. etc. y estas npspndetexminables experimentalmente. por lo que es preciso disponer de relaciones entre estas magnitudes y otras que se puedan determinar de forma empírica, como son p, v, T, c~, Cy y las relaciones de estas últimas con T.
-I	'	...
+Con frecuencia se nos presentará en el transcurso de nuestro estudio la necesidad de disponer de valores de las magnitudes u. h, s, a, g, etc. y estas no son determinables experimentalmente, por lo que es preciso disponer de relaciones entre estas magnitudes y otras que se puedan determinar de forma empírica, como son p, v, T, cp, Cv y las relaciones de estas últimas con T.
 
 En este tema veremos cómo pueden determinarse estas relaciones y cómo se procede para calcular valores de las distintas magnitudes a partir de las que podemos medir en el laboratorio.
 
 Antes de efectuar la determinación de estas relaciones veremos que existe un conjunto de magnitudes características que, expresadas en función de variables adecuadas, nos permiten un conocimiento termodinámico completo del sistema sometido a estudio: estas son los potenciales , termodinámicos o funciones características. Procuraremos destacar lo que hace que estas ecuaciones sean fundamentales en el estudio de la termodinámica.
 
 Para el estudio de esta parte de la termodinámica se supone que el alumno domina la utilización de funciones de más de una variable y por tanto las relaciones entre derivadas parciales.
-Relaciones termodinámicas generalizadas.
+
 
 6.2.- Potenciales termodinámicos o funciones características.
 --------------------------------------------------------------
@@ -213,7 +215,7 @@ por lo tanto:
 (6.13)
 
 Teniendo los valores de a, T, v, p y s , es posible determinar cualquier otra magnitud termodinámica que nos interese.
-También conocida g en función de p y T/podríamos determinar cualquier otra magnitud termodinámica, ya que:	.	
+También conocida g en función de p y T/podríamos determinar cualquier otra magnitud termodinámica, ya que:	.
 
 _	1 .	, , \	.	,
 vzh - i s *	- idh)- clT’S - (h *; '
