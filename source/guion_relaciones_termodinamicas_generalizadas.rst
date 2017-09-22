@@ -34,145 +34,139 @@ Antes de efectuar la determinación de estas relaciones veremos que existe un co
 Para el estudio de esta parte de la termodinámica se supone que el alumno domina la utilización de funciones de más de una variable y por tanto las relaciones entre derivadas parciales.
 
 
-6.2.- Potenciales termodinámicos o funciones características.
---------------------------------------------------------------
+Potenciales termodinámicos o funciones características
+------------------------------------------------------
 
-Se denominan ‘potenciales termodinámicos o funciones características a las funciones que proporcionan una descripción completa del estado termodinámico del sistema. En el caso de sis-jtemas compresibles simples, en los que sólo son necesarias dos variables independientes para identificar su estado, las fondones características pueden tomar cualesquiera de las formas si-¡ guientes :
+Se denominan ‘potenciales termodinámicos o funciones características a las funciones que proporcionan una descripción completa del estado termodinámico del sistema. En el caso de sis-jtemas compresibles simples, en los que sólo son necesarias dos variables independientes para identificar su estado, las fondones características pueden tomar cualesquiera de las formas siguientes:
 
-JL - 1 d$ - í,íh"
-azU	// ; (J - TS
-; & r 1+ 'TS
+.. math::
 
-\ 1 Expresadas estas fondones mediante las variables indicadas, tienen la importante propiedad de que nos permiten calcular a partir de cada una de ellas cualquier magnitud termodinámica que nos interese.
-Consideremos el caso de u ^ u (s, v)¡ Por ser función de estado, tendremos:
+   u&=u(s,v)\\
+   h&=h(s,p)\\\
+   a&=a(T,v)\\
+   g&=g(T,p))
 
-u = u (s, v) h = h (s, p) a = a (T, v) g = g (T, p)
-du =
-,5vJs
-dv +
-,5sJv
-ds
-(6.3)
+Expresadas estas funciones mediante las variables indicadas, tienen la importante propiedad de que nos permiten calcular a partir de cada una de ellas cualquier magnitud termodinámica que nos interese.
 
-da:
+Consideremos el caso de :math:`u = u(s, v)`. Por ser función de estado, tendremos:
 
-La ecuación de Gibbs (3.23) referida a la unidad de masa o de cantidad de sustancia, nos
+.. math::
 
-r Lt,	K ^
-Aj/uKM1' bu *
+   du = \left( \frac{\partial u}{\partial v}\right)_s dv + \left( \frac{\partial u}{\partial s}\right)_v ds
+
+La ecuación de Gibbs (3.23) referida a la unidad de masa o de cantidad de sustancia, nos da:
+
+.. math::
+
+   du = Tds -p dv
 
 Identificando términos equivalentes:
 
-du = T ds - p dv
-(6.4)
-'du^	"1 = -p,i	"Su"	= T
-UVJ	!- ’	USJ
-(6.5)
+.. math::
+
+   \left( \frac{\partial u}{\partial v}\right)_s = -p \\
+   \left( \frac{\partial u}{\partial s}\right)_v  = T
 
 Conocidas u, s, v, p, y T podemos calcular sin dificultad h, a, g y otras magnitudes que puedan interesar, como son Cy y ks:
 
-7
-( a 2 A o u
-d v
-7s
-V5v7s
-1
-K v
-->7
-(6.6)
-í«92u^		Qj H
-U2j	V	l )
-T
-C v
-(6.7)
+.. math::
+
+   \left( \frac{\partial^2 u}{\partial v^2}\right)_s &= \left( \frac{\partial p}{\partial v}\right)_s &= \frac{1}{k_s v}\\
+   \left( \frac{\partial^2 u}{\partial s^2}\right)_s &= \left( \frac{\partial T}{\partial s}\right)_v = \frac{T}{c}
+
 
 Como aplicación de lo expuesto anteriormente consideremos el siguiente ejercicio:
 
-2
-Relaciones termodinámicas generalizadas.
 
-Ejercicio E6.1.
-
-1
+Ejercicio E6.1
+^^^^^^^^^^^^^^
 
 Para un determinado sistema se ha encontrado que la relación entre la energía interna y el volumen del mismo puede expresarse por la función:
 
-U = AS2V1 exp (S/B)
+.. math::
+
+   U = AS^2V^{-1} exp (S/B)
 
 En la que A y B son constantes.
 
 El sistema se somete a una transformación isoentrópica tal que la presión queda reducida a un tercio de la presión inicial, es decir:
+
+.. math::
+
+   \frac{p}{p_o} = \frac{1}{3}
 
 Determínese:
 
 a)	Temperatura final del sistema.
 b)	Volumen final.
 
-*********
+*******
 
-Solución:
+**Solución**:
 
 Para el sistema indicado en el enunciado nos dan la dependencia funcional de la energía interna con la entropía y el volumen, es decir, nos proporcionan una ecuación característica del sistema. A partir de esta ecuación es posible obtener, para el sistema dado, las expresiones de la presión y temperatura en función de las variables mencionadas:
-P
-¿HJ d V
-= A S 2 es/B V
-(E6.a)
-T =
-'£U
-„ as
-= 2AS V“1 v
-= ASV"'e
-es/B + AS_v
-B
-S/B
-2+A
-B
--1
-e
-s
-B
-(E6.b)
+
+.. math::
+
+   p &= -\left( \frac{\partial U}{\partial V}\right)_s = AS^2e^{S/B}V^{-2}\\
+   T &= \left( \frac{\partial U}{\partial S}\right)_V = 2ASV^{-1} e^{S/B}+\frac{AS^2}{B} V^{-1}e^{S/B}\\
+   &= ASV^{-1} e^{S/B}\left[ 2+ \frac{S}{B}\right]
+
+
 a) Según se índica en el enunciado:
-À
-p A S 2 es / B V ~2	1
-Po A S 02 es°/B V0 ”2	3
-(Eòe)
-f
+
+
+.. math::
+
+   \fraac{p}{p_o} = \frac{AS^2 e^{ S/B}V^{-2}}{ ASV^{ -1} e^{S_o/B}V_o^{-2}} = \frac{1}{3}
 
 También nos indican en el enunciado que el proceso es isoentrópico, por lo que:
 
+.. math::
 
-s = sr
+   s = S_o
 
-Simplificando en (E6.c), obtenemos.
+Simplificando en (E6.c), obtenemos:
 
-_P_ = f V_o Po l V
+.. math::
+
+   \frac{p}{p_o} = \left( \frac{V_o}{V}\right)^2 = \frac{1}{3}
 
 Para el mismo sistema y proceso, al aplicar (E6.b) se obtiene:
 
-T V
-1	_ yo
-T ~~ V *0
+.. math::
+
+   \frac{T}{T_o} = \frac{V_o}{V}
+
 
 Teniendo en cuenta (E6.d):
 
-(E6.d)
-(E6.e)
-JL-J_
-T0 ~ yÍ3
+.. math::
 
-de donde:	T = T0 / >/3
+   \frac{T}{T_o} = \frac{1}{\sqrt{3}}
+
+de donde:
+
+.. math::
+
+   V = \sqrt{3} V_o
 
 b) Sustituyendo (E6.f) en (E6.e), se obtiene:
 
-(E6.fi)
-A
-V _ 1
-vó~ Ví
+.. math::
 
-por lo que:	V = VJ VQ
+   \frac{V}{V_o} = \frac{1}{\sqrt{3}}
+
+por lo que:
+
+.. math::
+
+   V=\sqrt{3}V_o
 
 Compárense los resultados obtenidos con los que se obtendrían para un gas ideal.
+
+********
+
 De forma análoga si conocemos la dependencia deh en función de sv~pl obtenemos:
 por lo que:
 
