@@ -44,7 +44,7 @@ Se denominan ‘potenciales termodinámicos o funciones características a las f
    u&=u(s,v)\\
    h&=h(s,p)\\\
    a&=a(T,v)\\
-   g&=g(T,p))
+   g&=g(T,p)
 
 Expresadas estas funciones mediante las variables indicadas, tienen la importante propiedad de que nos permiten calcular a partir de cada una de ellas cualquier magnitud termodinámica que nos interese.
 
@@ -167,112 +167,111 @@ Compárense los resultados obtenidos con los que se obtendrían para un gas idea
 
 ********
 
-De forma análoga si conocemos la dependencia deh en función de sv~pl obtenemos:
+De forma análoga si conocemos la dependencia de h en función de s y p, obtenemos:
+
+.. math::
+
+   dh &= \left( \frac{\partial h}{\partial s}\right)_p ds + \left( \frac{\partial h}{\partial p}\right)_s dp \\
+   dh &= Tds + vdp
+
 por lo que:
 
-dh
-A
-1 dh^ \d s7
-ds +
-^ah^
-\dVj
-dp
-dh = T ds + v dp ^
-^ t f> cb/'
-vaSy
-= T,
-^ahA
-= v
-(6.8)
-(6.9)
-•zvc ■*p¡/ 7	jÁ ifílvA '/¿‘.p
-T dS
-(6.10)
+.. math::
+
+   \left( \frac{\partial h}{\partial s}\right)_p = T \\
+   \left( \frac{\partial h}{\partial p}\right)_s = v
 
 Si disponemos de h, s, p, T y v, podemos determinar las restantes funciones termodinámi-
 cas.
 
 Supongamos que lo que nos dan es a en función de T y v:
 
-ir--—------------	"
-4
+.. math::
 
-Relaciones termodinámicas generalizadas.
+   da &= \left( \frac{\partial a}{\partial v}\right)_T dv + \left( \frac{\partial a}{\partial T}\right)_v dT \\
+   da &= -pdv -s dT
 
-~p
-Jv.
-1 dz ^ - ls- )
-z (ij ~ el I ‘ S ' J. £
 por lo tanto:
-(6.11)
-(6.12)
-(6.13)
 
-Teniendo los valores de a, T, v, p y s , es posible determinar cualquier otra magnitud termodinámica que nos interese.
-También conocida g en función de p y T/podríamos determinar cualquier otra magnitud termodinámica, ya que:	.
+.. math::
 
-_	1 .	, , \	.	,
-vzh - i s *	- idh)- clT’S - (h *; '
-dg =
-f -s \
-dg
-dp +
-fdg^
-ydTj
-v5PA-
-dg = v dp - s dT
-dT
-(6.14)
-(6.15)
+   \left( \frac{\partial a}{\partial v}\right)_T = -p\\
+   \left( \frac{\partial a}{\partial T}\right)_v = -s
+
+Teniendo los valores de a, T, v, p y s, es posible determinar cualquier otra magnitud termodinámica que nos interese.
+
+También conocida g en función de p y T podríamos determinar cualquier otra magnitud termodinámica, ya que:	.
+
+.. math::
+
+   dg &= \left( \frac{\partial g}{\partial p}\right)_T dp + \left( \frac{\partial g}{\partial T}\right)_p dT \\
+   dg &= -vdp -s dT
 
 de donde:
 
-(6.16)
+.. math::
+
+   \left( \frac{\partial g}{\partial p}\right)_T = v\\
+   \left( \frac{\partial g}{\partial T}\right)_p = -s
 
 Conviene que completen el estudio de las funciones h, a, y g de la misma forma que se ha realizado el estudio de la función u.
 
 Es fácil comprobar que tanto las magnitudes consideradas expresadas en función de otras variables termodinámicas, como cualquier otra magnitud termodinámica expresada en función de variables cualesquiera, no tienen la propiedad de ser funciones características.
 
+***********
+
 El nombre de potenciales termodinámicos que se asigna a las funciones que acabamos de considerar proviene del hecho de que su variación en ciertas condiciones, nos da el trabajo distinto del pdv que puede obtenerse en una determinada transformación.
 
-En efecto, consideremos el caso de la energía interna/ A partir del primer principio, supuesto que los cambios de energía mecánica son despreciables, obtenemos:
+En efecto, consideremos el caso de la energía interna. A partir del primer principio, supuesto que los cambios de energía mecánica son despreciables, obtenemos:
 
-du = 5q + 5w	(6.17)
+.. math::
 
-Del segundo principio, sabemos que para transformaciones reversibles 5q = T ds, por lo
-que:
+   du = \partial q + \partial w	(6.17)
 
-5
-Relaciones termodinámicas generalizadas.
-du - T ds + 5w
-(6.18)
+Del segundo principio, sabemos que para transformaciones reversibles :math:`\partial q = T ds`, por lo que:
 
-Téngase en cuenta que el término dw incluye tanto el trabajo -p dv cómo cualquier otra forma de trabajo cuasiestático ( eléctrico, superficial, químico, etc.) al que representaremos por 8wx sustituyendo:
+.. math::
 
-du = T ds - p dv + 5wx
+   du = T ds + \partial w
 
->i consideramos un proceso a s y v constantes:
+Téngase en cuenta que el término dw incluye tanto el trabajo :math:`-p dv` cómo cualquier otra forma de trabajo cuasiestático ( eléctrico, superficial, químico, etc.) al que representaremos por :math:`\partial w_x` sustituyendo:
 
-du = 8w*
-(6.19)
-(6.20)
+.. math::
 
-Vemos que la variación de energía intema representa el trabajo distinto del p dv que se realiza en una transformación a entropía y volumen constantes.
+   du = T ds - p dv + \partial w_x
 
-En el caso de la función de Gibbs,' tenemos:	u<^
+Si consideramos un proceso a s y v constantes:
 
-dg = du + p dv + v dp - T ds - s dT Teniendo en cuenta (6.19), obtenemos:
-du + p dv - T ds = 8w^
+.. math::
+
+   du =  \partial w_x
+
+Vemos que la variación de energía intema representa el trabajo distinto del :math:`p dv` que se realiza en una transformación a entropía y volumen constantes.
+
+En el caso de la función de Gibbs, tenemos:
+
+.. math::
+
+   dg = du + p dv + v dp - T ds - s dT
+
+
+Teniendo en cuenta (6.19), obtenemos:
+
+.. math::
+
+   du + p dv - T ds = \partial w_x
 
 por lo que:
 
-dg = v dp - s dT + 8wx Si consideramos una transformación a p y T constantes:
-dg = 8wx
-/ X.r f/ 'pjfr
-(6.21)
-r-f'd
-(6.22)
-(6.23)
+.. math::
+
+   dg = v dp - s dT + \partial w_x
+
+Si consideramos una transformación a p y T constantes:
+
+.. math::
+
+   dg = \partial w_x
 
 De forma análoga podríamos proceder con h y a y su variación a p yj>j5onstantes y a v y T constantes, respectivamente, inos daría el trabajo implicado en las transformaciones correspon-
 dientes, distinto del p dv.
