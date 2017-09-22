@@ -345,77 +345,53 @@ Relaciones de Maxwell
 
 Las funciones características expresadas en función de sus variables naturales proporcionan un medio para caracterizar por completo el estado termodinámico de un sistema, también estas funciones, por el hecho de ser sus diferenciales exactas, permiten la deducción de relaciones entre propiedades termodinámicas que son de gran interés en el estudio de los sistemas termodi-námicos. Recordemos que para sistemas compresibles simples:
 
-du = T ds - p dv dh = T ds + v dp da = -p dv -s dT dg = v dp - s dT Por la igualdad de las derivadas cruzadas:
-y
-flLoRr^ ^
-ÍQj\
-Vavy
-í Qj\
-vaPys ' á¿
-dT
-{ dy} vdTy
-\ 5s7v
-^dvN
-VdSy
-^ds^
-VdvyT
-ds
-v5PyT
-(6.4)
-(6.9)
-(6.12)
-(6.15)
-(6.32)
-(6.33)
-(6.34)	)
-(6.35)
+.. math::
+
+   du &= Tds -pdv \\
+   dh &= Tds + vdp \\
+   da &= -pdv -sdT \\
+   dg &= vdp -sdT
+
+
+Por la igualdad de las derivadas cruzadas:
+
+.. math::
+
+   \left( \frac{\partial T}{\partial v}\right)_s &= -\left( \frac{\partial p}{\partial s}\right)_v \\
+   \left( \frac{\partial T}{\partial p}\right)_s &= \left( \frac{\partial v}{\partial s}\right)_p \\
+   \left( \frac{\partial p}{\partial T}\right)_v &= \left( \frac{\partial s}{\partial v}\right)_T \\
+   \left( \frac{\partial v}{\partial T}\right)_p &= -\left( \frac{\partial s}{\partial p}\right)_T \\
 
 Estas son las denominadas relaciones de Maxwell.
 
-8
-Relaciones termodinámicas generalizadas.
+Una regla nemotécnica que nos permite recordar con facilidad las relaciones anteriores, es la siguiente. Dispongamos las cuatro magnitudes que intervienen en estas relaciones en orden alfabético, formando una seudomatriz, y con ella deducimos la relación funcional como se indica a contmuacion.
 
-Una regla nemotécnica que nos permite recordar con facilidad las relaciones anteriores, es la siguiente. Dispongamos las cuatro magnitudes que intervienen en estas relaciones en orden alfabético, formando una seudomatriz, y con ella deducimos la relación funcional como se indica
-MbJlo '
-
-a contmuacion.
-
-fd^ V5v7t
+MATRIX
 
 Asignemos a esta seudomatriz la propiedad de que cuando se cambia el orden de los elementos de una diagonal el signo de la correspondiente relación funcional debe cambiarse, como indicamos a continuación para el cambio de los elementos de la diagonal principal
 
-v s T P
-dy}
-3T
-( -, \ 3s
-3p
+MATRIX
 
 Cambiando la diagonal secundaria y también el signo:
 
-v T s p
-' dv'
-UsJ	p	UpJs
+MATRIX
 
 Volviendo a cambiar la diagonal principal y el signo:
 
-P T	-»	'dp] _ fdT"
-S V		,dsJv
+MATRIX
 
 La utilidad de estas relaciones se verá a lo largo de nuestro estudio, sin embargo, como una primera aplicación inmediata, consideremos el caso siguiente: supongamos que en el estudio de una determinada sustancia es preciso conocer como varia la entropía de la misma al variar el volumen a temperatura constante.
+
 Como dijimos al principio, la entropía no es directamente mensurable, por lo que no tenemos procedimiento que nos permita determinar esta relación experimentalmente, sin embargo, según (6.34), se tiene directamente relacionada la variación de la entropía con el volumen a temperatura constante, con la correspondiente variación de la presión con la temperatura a volumen constante:
 
-i
-9
-Relaciones termodinámicas generalizadas.
-fd£>
-v5v;t
-'di'
-ydT;
+.. math::
+
+   \left( \frac{\partial s}{\partial v}\right)_T = \left( \frac{\partial p}{\partial T}\right)_v
 
 por lo que se tiene la posibilidad de deducir la relación que nos piden a partir de medidas experimentales de p y T. También podríamos determinar la relación mencionada si disponemos de una ecuación f (p, v, T) = 0.
 
-6.4	Relaciones generalizadas para cambios de entropía, energía interna y entalpia, de sustancias compresibles simples.
---------------------------------------------------------------------------------------------------------------------------------
+Relaciones generalizadas para cambios de entropía, energía interna y entalpia, de sustancias compresibles simpless
+-----------------------------------------------------------------------------------------------------------------
 
 Para el análisis termodinàmico de sistemas es importante disponer de ecuaciones que permitan evaluar los cambios en estas magnitudes a partir de los correspondientes a los valores de las magnitudes que pueden medirse directamente. A continuación deduciremos alguna de estas ecuaciones.
 
