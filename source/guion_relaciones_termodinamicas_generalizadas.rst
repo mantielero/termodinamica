@@ -273,94 +273,75 @@ Si consideramos una transformación a p y T constantes:
 
    dg = \partial w_x
 
-De forma análoga podríamos proceder con h y a y su variación a p yj>j5onstantes y a v y T constantes, respectivamente, inos daría el trabajo implicado en las transformaciones correspon-
-dientes, distinto del p dv.
+De forma análoga podríamos proceder con h y a y su variación a p y s constantes y a v y T constantes, respectivamente, inos daría el trabajo implicado en las transformaciones correspondientes, distinto del :math:`p dv`.
 
-■¡Jh
-' jo •
-. JL¡	C.JÍ ‘ £-
+En el caso del potencial dé Helmholtz se nos presenta un caso muy interesante de analizar. Para ello consideremos una transformación a T constante solamente, en vez de una isoterma e isocórica. En este caso:
 
-"£*> (A.
+.. math::
 
-En el caso del potencial dé Helmholtz se nos presenta un caso muy interesante de analizar. Para ello consideremos una transformación a T constante solamente, en vez de una isoterma e isocórica. En este caso:	. a , h /	,
+   da &= -pdv -sdT+\partial w_x\\
+   da &= -pdv+\partial w_x
 
-n A tíJUMh Ulu,
-da = - p dv - s dT + 8wx	(6.24)
 
-; ;
-r
-[da = - p dv + 8w>
-fe
-árj& Has*' (M 4 Wi
-<6 25)
+Por lo que la variación de la función de Helmholtz nos da el trabajo total (incluido el pdv) que se intercambia en una transformación isoterma.
 
-Por lo que la variación de la función de Helmholtz nos da el trabajo total (incluido e¡A
-Tú
-dv) que se intercambia en una transformación isoterma.
-
-T,
-- c- X/.
-
-1 A esta función también se la denomina, en ciertas publicaciones, energia libre. Este nombre proviene de lo que acabamos de ver, es decir, el trabajo total que podemos obtener de un sis- La tema a T constante viene ligado a la variación de a y como u = a + Ts, vemos que de la energia <7t. interna u sólo una parte a puede ser utilizada, quedando otra parte no disponible para efectuar tra- ¡t , ^ bajo, a la que se denomina energia ligada (Ts) o termentropia.
-
-hl-
-tr-
-
-6
-Relaciones termodinámicas generalizadas.
+A esta función también se la denomina, en ciertas publicaciones, *energia libre*. Este nombre proviene de lo que acabamos de ver, es decir, el trabajo total que podemos obtener de un sistema a T constante viene ligado a la variación de a y como :math:`u = a + Ts`, vemos que de la energia interna u sólo una parte a puede ser utilizada, quedando otra parte no disponible para efectuar trabajo, a la que se denomina energia ligada (:math:`Ts`) o termentropia.
 
 De forma análoga podríamos justificar el nombre de entalpia libre, que ftm,cióndeGibbs.
 también se da a la
 
-6.2.1.- Transformaciones de Legendre.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Transformaciones de Legendre
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Como información adicional consideraremos la herramienta matemática que puede utilizarse para la deducción de los distintos potenciales termodinámicos.
 
-ÍEs importante tener en cuenta que los distintos potenciales termodinámicos pueden obte-erse a partir del primero, sin más que utilizar la denominada transformación de Legendre, que ertenece al grupo de las denominadas transformaciones de contacto, estudiadas en teoría de ecuaciones diferenciales.
+Es importante tener en cuenta que los distintos potenciales termodinámicos pueden obte-erse a partir del primero, sin más que utilizar la denominada transformación de Legendre, que ertenece al grupo de las denominadas transformaciones de contacto, estudiadas en teoría de ecuaciones diferenciales.
 
 La transformación de Legendre consiste en la sustitución de alguna o algunas de las variables por su correspondiente derivada conjugada. El resultado es que cualquiera de las funciones obtenidas (transformadas de Legendre) contienen la misma información que la ecuación de partida, pero dependen de variables diferentes. Ello representa una gran ventaja cuando se trata de funciones termodinámicas cuya forma puede cambiarse hasta que se puedan llegar a expresar en función de propiedades directamente mensurables.
 
 Consideremos la forma de proceder al utilizar esta herramienta matemática. Para ellos supongamos que tenemos una expresión diferencial exacta del tipo:
 
-dY = D, dX, + D2 dX2 + D3 dX3 + ...	(6.26)
+.. math::
 
-Las correspondientes funciones transformadas de Legendre definen una serie de funciones relacionadas con Y, en las cuales el conjunto de variables utilizado para definir cada una de ellas contiene una o más de las Dj (Recuerden que D, = (5Y/3X,)	) en lugar de las conjugadas X¿. Para
-una expresión diferencial que tiene n variables existen 2n-1 transformaciones posibles de Legendre. Si hay dos variables existirán tres transformadas de Legendre, es decir, si:
+   dY = D_1 dX_1 + D_2 dX_2 + D_3 dX_3 + ...
 
-dY = D, dX, + D2 dX2	(6.27)	'>
+Las correspondientes funciones transformadas de Legendre definen una serie de funciones relacionadas con Y, en las cuales el conjunto de variables utilizado para definir cada una de ellas contiene una o más de las :math:`D_i` (Recuerden que :math:`D_i=\left( \frac{\partial Y}{\partial X_i}\right)_{X_i}`) en lugar de las conjugadas :math:`X_i`. Para una expresión diferencial que tiene n variables existen :math:`2^n-1`  transformaciones posibles de Legendre. Si hay dos variables existirán tres transformadas de Legendre, es decir, si:
+
+
+.. math::
+
+   dY = D_1 dX_1+D_2dX_2
 
 las transformadas serán:
 
-t,=Y-D,X,
-t2 = Y-D2X2
-ti2 = Y - D,X,- D2X2
-(6.28)
+.. math::
+
+   \tau_1 = Y - D_1X_1 \\
+   \tau_2 = Y - D_2X_2 \\
+   \tau_{12} = Y - D_1X_1 -D_2X_2
+
 y, por tanto,
-di, = dY - D,dX, - X, dD, = D2 dX2 - X, dD,
-(6.29)
-dr2 = dY - D2dX2 - X2 dD2 = D, dX, - X2 dD2
-(6.30)
-di,2 = dY - D,dX,- X,dD,- D2dX2- X2dD2 = - X,dD, - X2dD2
-7
-(6.31)
-Relaciones termodinámicas generalizadas.
+
+.. math::
+
+   d\tau_1 &= DY-D_1dX_1-X_1dD_1 &=D_2dX_2-X_1dD_1 \\
+   d\tau_2 &= DY-D_2dX_2-X_2dD_2 &=D_1dX_1-X_2dD_2 \\
+   d\tau_{12} &= DY-D_1dX_1-X_1dD_1-D_2dX_2-X_2dD_2 &= -X_1dD_1-X_2dD_2
 
 Concretando para el caso de la energía interna:
 
-dU = T dS - p dV
-U => Y, T => D,, X, => S, D2 => -p, X2 => V
-U-TS
-r2 = U + pV
-/ J
-•- •- ''
--, V- ^	/	/
-r3 = U - TS + pV
+.. math::
+
+   dU = T dS - p dV \\
+   U \fatarrow Y, T\fatarrow D_1, X_1 \fatarrow S, D_2 \fatarrow -p, X_2 \fatarrow V \\
+   \tau_1 = U - TS\\
+   \tau_2 = U-pV \\
+   \tau_3 = U - TS + pV
 
 Que corresponden a las funciones de Helmholtz, entalpia y Gibbs, respectivamente.
 
-6.3.- Relaciones de Maxwell.
-----------------------------
+Relaciones de Maxwell
+---------------------
 
 Las funciones características expresadas en función de sus variables naturales proporcionan un medio para caracterizar por completo el estado termodinámico de un sistema, también estas funciones, por el hecho de ser sus diferenciales exactas, permiten la deducción de relaciones entre propiedades termodinámicas que son de gran interés en el estudio de los sistemas termodi-námicos. Recordemos que para sistemas compresibles simples:
 
