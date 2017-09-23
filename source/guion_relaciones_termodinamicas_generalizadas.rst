@@ -707,10 +707,10 @@ Es frecuente que encontremos expresada la diferencia de calores específicos par
 
 La utilización de :math:`\alpha` y :math:`k_T` resulta muy cómoda en la mayor parte de los cálculos que tienen que realizarse con estos sistemas, ya que sus valores pueden considerarse prácticamente constantes en casi todos los procesos considerados.
 
-Expresión generalizada de :math:`\alpha`
+Expresión generalizada de :math:`\gamma`
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Para determinar :math:`\alpha` a partir de datos *pvT*, sustituyamos :math:`c_p` y :math:`c_v` por sus definiciones generalizadas:
+Para determinar :math:`\gamma` a partir de datos *pvT*, sustituyamos :math:`c_p` y :math:`c_v` por sus definiciones generalizadas:
 
 .. math::
 
@@ -728,7 +728,7 @@ Sustituyendo en (6.58) y recordando que :math:`k_T= -\left(\frac{1}{v}\right)\le
 
 .. math::
 
-   \gamma = -\left(\frac{\partial p}{\partial v}\right)_s \left( -\frac{\partial v}{\partial p}\right)_T = \frac{k_T}{k_s}
+   \gamma = -\left(\frac{\partial p}{\partial v}\right)_s \left( -\frac{\partial v}{\partial p}\right)_T = \frac{\kappa_T}{\kappa_s}
 
 Es decir, podemos relacionar el cociente de calores específicos con el cociente de las compresibilidades de la sustancia a temperatura y entropía constante.
 
