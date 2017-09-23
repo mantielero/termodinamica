@@ -568,394 +568,210 @@ por lo que:
 
 Como aplicación inmediata de lo que acabamos de ver consideremos el ejercicio siguiente:
 
-****************
+:doc:`Ejercicio E6.2 <rpg_E6.2>`
 
-Ejercicio E6.2
-^^^^^^^^^^^^^^
+Relaciones generalizadas para :math:`c_p, c_v \text{ y } \gamma`
+----------------------------------------------------------------
 
-Se ha de comprimir un gas monoatómico en un compresor que funciona en régimen estacionario, de forma reversible y a temperatura constante.
+En el apartado anterior hemos encontrado dos relaciones de las que pueden deducirse definiciones generalizadas para :math:`c_p` y :math:`c_v`, utilizables en cualquier región monofase en la que sean conocidos datos (s, p, v, T):
 
-El gas entra al compresor a 300 K y 10 bar y se comprime hasta 150 bar.
-Determínese:
+.. math::
 
-1)	el trabajo requerido, por mol de gas, para hacer funcionar el compresor.
-2)	la cantidad de calor intercambiado, si:
+   c_v = T \left( \frac{\partial s}{\partial T}\right)_v\\
+   c_p = T \left( \frac{\partial s}{\partial T}\right)_p
 
-   a)	El gas se comporta como gas perfecto.
-   b)	El comportamiento del gas obedece a la ecuación:
+Teniendo en cuenta que:
 
-P
--í
-f
+.. math::
 
-en la que:
+   \left( \frac{\partial s}{\partial T}\right)_v \left( \frac{\partial T}{\partial v}\right)_s \left( \frac{\partial v}{\partial s}\right)_T = -1\\
+   \left( \frac{\partial s}{\partial T}\right)_p \left( \frac{\partial T}{\partial p}\right)_s \left( \frac{\partial p}{\partial s}\right)_T = -1
 
-pv=RT-^p+bp
-a = 0, 385 K m3 kmol"1 b = 0, 0152 m3 kmol"1
-13
-
-Relaciones termodinámicas generalizadas.
-
-/P	*******************
-
-w	p = 150 bar	P
-
-Solución:
-
-Sistema: Volumen de control definido por la carcasa del compresor. Interacciones: Las esquematizadas en la figura.
-Proceso: El representado en el diagrama.
-Ecuaciones aplicables: las (4.11) y (4.20)
-q = hts - hte ' wx	(411)
-Z — = Zsm i T¿ s
-Zsm
-(4.20)
-
-En el caso que estamos considerando sólo hay una entrada y una salida y puede considerarse que únicamente se intercambia calor con una fuente térmica a 300 K (proceso isotérmico), por lo que :
-de donde:
-
-Y =	“ Se
-m
-q = T(ss-se)	(E6.2.a)
-
-En esta ecuación podemos considerar valores por unidad de masa o por unidad de cantidad de sustancia (mol). Para el problema que nos ocupa conviene utilizar el mol.
-
-Se ha de calcular wx y q, por lo que, según (4.11) y (E.6.2.a):
-
-wx = A h - q
-q = T A s
-Ir?	Vemos que, calculado el incremento de entropía, puede determinarse q y una vez conocido q y
-calculado D h, se podrá determinar el trabajo.
-%
-Para calcular A s y A h, recordemos que según (6.43) y (6.45):
-14
-Relaciones termodinámicas generalizadas.
-h
-^ dv^
-k8Tj
-dp
-dh = cp
-dT +
-^ 5v ^
-v5Ty
-dp
-para un proceso a temperatura constante:
-d s^p
-5T
-dp
-d h j —
-v-T
-
-v5T /
-dp
-a) En el caso de gas perfecto:
-pv=RT,
-_ RT P
-/ , \ 5v
-5T
-R
-P
-s2 _ S1 -
-8.314
-/•l50 «	ISO
-—= R ln—— = - 22.51 kJ . kmol
-J io P 10
-d hT —
-T R
-v-T —
-dp = 0,
-Ah = 0
-q = T D s = 300 (- 22.51) = -6 754,42 kJ.kmol'1 w, = Dh - q = 0 + 6 754.42 = 6 754,42 kJ.kmol'1
-b) Gas real:
-pv =
-RT- — p + bp, T
-RT	a	,
-v =------ + b ,
-P	T
-
-dT
-R a
-H 2 p T2
-15
-Relaciones termodinámicas generalizadas.
-t
-v-T
-
-v5Ty
-RT a R T a	RT a _ 2a,b
-“	T _ p T	p T~T
-d Sr — —
-( d\ '	dp = -	( R a V	M50	f R a 'j
-		— + — dp, A s =	—
-	p	l P T2 J J	10	y p t2 )
-dp
-ÁSx = - 8.314 ln
-150	0.385
-10	3002
-(150- 10) 102 = -22,57 kJ.(kmol.K)-1
-dhT
-	r (7 v 'l			(. ¿a"!
-v-T			dp =
-	[tiT¡	l C.		l T J
-dp
-i
-A hT
-n	b-^1
-JJ	T )
-dp
-b (150 - 10) 102 - — (150- 10) 102 = 176,86 kJ . kmol-1 300
-q = - 300.22.57 = - 6 772,38 kJ . kmol'1
-wx = 176,86 - ( - 6 772,38 ) = 6 949,24 kJ . kmol’1
-
-6.5.- Relaciones generalizadas para cp, cv y y.
-------------------------------------------------
-
-En el apartado anterior hemos encontrado dos relaciones de las que pueden deducirse definiciones generalizadas para cp y cv, utilizables en cualquier región monofase en la que sean conocidos datos (s, p, v, T):
 y las relaciones de Maxwell correspondientes, se obtiene:
-Relaciones termodinámicas generalizadas.
 
-{J/' i i	^
-Q^rJtk
--oirc¿ t
-'a h \ I v
+.. math::
 
-yv-y
-cv = -T
-3 v 3 T
-/P
-3£'
-\(ST,
-Y
-U'“/0
-/¡A
-(6.49a)
-lcp=T
-r;
-rrrr
-gp
-3 v^l
-di)	p 1
-/X. „ X, >'
-________(
-¿¡¿'Vi <■
-r
-(6.49b)
-v / /p j
-Un método alternativo para la determinación de valores de cp y cv en un amplio intervalo de presiones y temperaturas está basado en el hecho experimental de que es fácil determinar ..calores específicos- í presiones bajas, ^ no lo es tanto a presiones-elevadas. Ya se mencionó la posibilidad de utilizar los métodos espectroscópicos para la determinación de calores específicos de gases a baja presión y la variación de este calor específico con la temperatura. Tales datos se denominan calores específicos a presión cero. ( L j ^	¿
-“	fSrM-A	'
+   c_v = -T \left( \frac{\partial v}{\partial T}\right)_s \left( \frac{\partial p}{\partial T}\right)_v\\
+   c_p = T \left( \frac{\partial p}{\partial T}\right)_s \left( \frac{\partial v}{\partial T}\right)_p
+
+Un método alternativo para la determinación de valores de cp y cv en un amplio intervalo de presiones y temperaturas está basado en el hecho experimental de que es fácil determinar ..calores específicos- í presiones bajas, ^ no lo es tanto a presiones-elevadas. Ya se mencionó la posibilidad de utilizar los métodos espectroscópicos para la determinación de calores específicos de gases a baja presión y la variación de este calor específico con la temperatura. Tales datos se denominan calores específicos a presión cero.
+
 Para hacer que estos datos sean aplicables en cualquier intervalo, no sólo de temperatura, sino también de presión, es preciso que podamos determinar como varían estos calores específicos con la presión a temperatura constante.
 Esta evaluación deberá basarse nuevamente en la utilización de datos p, v, T, determinados en el intervalo adecuado de estados de equilibrio.
 
-Desde el punto de vista matemático lo que buscamos es una expresión para (3 cp/3 p)^ y
-en casos menos frecuentes (3cv/3 v) . Ecuaciones generalizadas para estas dos expresiones se obtienen a partir de las ecuaciones s (T, p) (6.43a) y s (T,v) (6.39) deducidas antes.
+Desde el punto de vista matemático lo que buscamos es una expresión para :math:`\left( \frac{\partial c_p}{\partial p} \right)_T` y en casos menos frecuentes :math:`\left( \frac{\partial c_v}{\partial v} \right)_T`. Ecuaciones generalizadas para estas dos expresiones se obtienen a partir de las ecuaciones s(T, p) (6.43a) y s (T,v) (6.39) deducidas antes.
+
 Nos centraremos en la primera, ya que la segunda tiene un tratamiento análogo, que se recomienda realizar al alumno.
-Teniendo en cuenta (6.43) y aplicando a la misma la condición de diferencial exacta, se obtiene:	-----------------7 7- ~r
-Jí i /
-'	C- dlS-isCrcL 0
-Cfl, Ai-jÍ 10 *•**' /■ Tíc/j
-(
--1\ 3 P
-7
-Jj
-ft)'
-y 3 T2
-(6.50)
+
+Teniendo en cuenta (6.43) y aplicando a la misma la condición de diferencial exacta, se obtiene:
+
+.. math::
+
+   \left( \frac{\partial \left( \frac{c_p}{T}\right)}{p} \right)_T = - \left( \frac{\partial ^2 v}{\partial T^2}\right)_p
+
+
+
 de donde:
-Í<M	— T
-l 5P J	f	(3 T2 J
-(6.51)
-Para obtener el valor de cp a una presión elevada tendremos que integrar la ecuación anterior a lo largo de una isoterma desde la presión cero al valor deseado. Por lo que:
-C/a sv
-Cv-tnoo : {/>, yf TÍ.
-(6.52)
 
-7a"
-Relaciones termodinámicas generalizadas.
-En esta expresión cpo es el calor específico a presión cero o calor específico de gas ideal. La integración del segundo miembro requiere que dispongamos de información del comportamiento pvT de la sustancia en forma analítica o tabular.
+.. math::
 
-6.5.1.- Diferencias cp - cv.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   \left( \frac{\partial c_p}{\partial p} \right)_T = - \left( \frac{\partial ^2 v}{\partial T^2}\right)_p
 
-Otra relación termodinámica de gran interés es la que da la diferencia de los calores específicos a presión constante y a volumen constante. Una razón que justifica este interés es, que como ya hemos dicho, los valores de cp son mucho más fáciles de medir que los de cv. De hecho, los valores de cv sólo pueden evaluarse de forma rigurosa a partir de datos de cp y pvT.
+Para obtener el valor de :math:`c_p` a una presión elevada tendremos que integrar la ecuación anterior a lo largo de una isoterma desde la presión cero al valor deseado. Por lo que:
+
+.. math::
+
+   c_p-{c_p}_o = -T \int_0^p \left( \frac{\partial^2 v}{\partial T^2}\right)_p dp
+
+En esta expresión :math:`{c_p}_o` es el calor específico a presión cero o calor específico de gas ideal. La integración del segundo miembro requiere que dispongamos de información del comportamiento *pvT* de la sustancia en forma analítica o tabular.
+
+Diferencias :math:`c_p` - :math:`c_v`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Otra relación termodinámica de gran interés es la que da la diferencia de los calores específicos a presión constante y a volumen constante. Una razón que justifica este interés es, que como ya hemos dicho, los valores de :math:`c_p` son mucho más fáciles de medir que los de :math:`c_v`. De hecho, los valores de :math:`c_v` sólo pueden evaluarse de forma rigurosa a partir de datos de :math:`c_p` y :math:`pvT`.
+
 Para realizar esta evaluación recordemos que la variación de cualquier propiedad termodinámica (variable de estado) no depende del método de evaluación (camino recorrido), por lo que podremos igualar las dos ecuaciones obtenidas para ds, ecuaciones (6.39) y (6.43), obteniendo:
-^ dT +	f dp 1	dv = — dT -
-T	[dT)	T V	IdT J
-dp
-y de ésta se puede obtener:
-c — c
-p
-dT :
-( -, \ dv
-dT
-dp +
-dp ' dT,
-dv
-(6.53)
-de donde:
-dT =
-c — c
-p
-dv
-dT
-dp +
-'dp}
-V dTy
-d v
-(6.54)
-Es decir, hemos obtenido una expresión de T considerada como función de p y v. Para esta función debe cumplirse:
-dT =
-dT'
-dpjv
-dp +
-^d^
-dv
-d v
-Identificando coeficiente homólogos, se obtiene:
-r dT'	- T	f5vl
-V dp.	K cp-cv	l dT J
-por lo que:
-18
-Relaciones termodinámicas generalizadas.
-lwse* I c_-cv= T			fdy]
-p v ÍL=S	UtJ	V	(dTj	I P
-(6.55)
-Se hubiese llegado al mismo resultado utilizando la equivalencia de los otros coeficientes. Si utilizando la relación cíclica sustituimos (5 p¡d T) v:
-( -, \
-( dy}
-í a N
-dp
-Xv/T
-en (6.55), llegamos a la expresión:
-CP-CV=-T
-XX2
 
-dp
-V5v/t
-XX
-(6.56)
+.. math::
+
+   \frac{c_v}{T}dT+ \left(\frac{\partial p}{\partial T}\right)_v dv = \frac{c_p}{T}dT - \left(\frac{\partial v}{\partial T}\right)_p dp
+
+y de ésta se puede obtener:
+
+.. math::
+
+   \frac{c_p-c_v}{T}dT = \left(\frac{\partial v}{\partial T}\right)_p dp +  \left(\frac{\partial p}{\partial T}\right)_v dv
+
+de donde:
+
+.. math::
+
+   dT = \frac{T}{c_p-c_v} \left[ \left(\frac{\partial v}{\partial T}\right)_p dp + \left(\frac{\partial p}{\partial T}\right)_v dv \right]
+
+
+Es decir, hemos obtenido una expresión de T considerada como función de p y v. Para esta función debe cumplirse:
+
+
+.. math::
+
+   dT = \left(\frac{\partial T}{\partial p}\right)_v dp + \left(\frac{\partial T}{\partial v}\right)_p  dv
+
+Identificando coeficiente homólogos, se obtiene:
+
+.. math::
+
+   \left(\frac{\partial T}{\partial p}\right)_v = \frac{T}{c_p-c_v} \left(\frac{\partial v}{\partial T}\right)_p
+
+
+por lo que:
+
+.. math::
+
+   c_p-c_v = T \left(\frac{\partial p}{\partial T}\right)_v \left(\frac{\partial v}{\partial T}\right)_p
+
+
+Se hubiese llegado al mismo resultado utilizando la equivalencia de los otros coeficientes.
+
+Si utilizando la relación cíclica sustituimos :math:`\left(\frac{\partial p}{\partial T}\right)_v`:
+
+.. math::
+
+   \left(\frac{\partial p}{\partial T}\right)_v = - \left(\frac{\partial v}{\partial T}\right)_p \left(\frac{\partial p}{\partial v}\right)_T
+
+en (6.55), llegamos a la expresión:
+
+.. math::
+
+   c_p-c_v = -T \left(\frac{\partial p}{\partial v}\right)_T \left(\frac{\partial v}{\partial T}\right)_p^2
+
+
 De esta ecuación se pueden deducir inmediatamente un conjunto de resultados importan-
 tes.
-® Ante todo y sobre la base de datos experimentales, se sabe que (óp/dv)T es siempre negativa para todas las sustancias en todas las fases. Ya que la primera derivada parcial est
-________T ±
-elevada al cuadrado, se deduce que c - cv debe ser siempre positivo o cero.	y" > -i á/>y j a j
-y- <-•
-®'Ct'-c7 Esta diferencia se hace cero en dos ocasiones. La primera de estas es, evidentemente, cuando T es el cero de la escala termodinámica, si los restantes términos permanecen finitos en este estado. Consecuentemente, los calores específicos a presión constante y a volumen constante
-a 0 K son idénticos.
-(kl =- (au.
-i■
--pí'-iA
-A j-X
 
-El segundo caso en el que se anula la diferencia c - cv es cuando se anula la derivada
-parcial (dv/5T)p. Esto ocurre cuando el fluido tiene un valor extremo del volumen específico
-(máximo o mínimo). Si consideramos como sistema el agua líquida, este caso se presenta en el entorno de 4 °C, por ser a esta temperatura su densidad máxima. J1
+Ante todo y sobre la base de datos experimentales, se sabe que :math:`\left(\frac{\partial p}{\partial v}\right)_T` es siempre negativa para todas las sustancias en todas las fases. Ya que la primera derivada parcial está elevada al cuadrado, se deduce que :math:`c_p-c_v` debe ser siempre positivo o cero.
 
-Es importante destacar que cuando se considera el estudio de hablar de calor específico y no se hace referencia a que el proceso considerado sea a presión o a
-.■Üod't A
+Esta diferencia se hace cero en dos ocasiones. La primera de estas es, evidentemente, cuando T es el cero de la escala termodinámica, si los restantes términos permanecen finitos en este estado. Consecuentemente, los calores específicos a presión constante y a volumen constante
+a 0K son idénticos.
+
+El segundo caso en el que se anula la diferencia :math:`c_p-c_v` es cuando se anula la derivada parcial :math:`\left(\frac{\partial v}{\partial T}\right)_p`. Esto ocurre cuando el fluido tiene un valor extremo del volumen específico (máximo o mínimo). Si consideramos como sistema el agua líquida, este caso se presenta en el entorno de 4 °C, por ser a esta temperatura su densidad máxima. J1
+
 sólidos y líquidos se suele
-volumen constante. Esto se debe a que los valores de (d v/d T)p son pequeños para la mayoría de
-los estados de equilibrio de las sustancias en estas fases. Generalmente los datos tabulados son valores de cp .
-Es frecuente que encontremos expresada la diferencia de calores específicos para sólidos y líquidos en función del coeficiente de dilatación a y del coeficiente de compresibilidad isoterma kt, ya definidos. Sustituyendo en (6.56), se obtiene:
-cu
-/
-iPóc-^-v
 
-' - c
-&
-UL cJ X
-X
+Es importante destacar que cuando se considera el estudio de hablar de calor específico y no se hace referencia a que el proceso considerado sea a presión o a volumen constante. Esto se debe a que los valores de :math:`\left(\frac{\partial v}{\partial T}\right)_p` son pequeños para la mayoría de los estados de equilibrio de las sustancias en estas fases. Generalmente los datos tabulados son valores de :math:`c_p`.
 
+Es frecuente que encontremos expresada la diferencia de calores específicos para sólidos y líquidos en función del coeficiente de dilatación a y del coeficiente de compresibilidad isoterma :math:`k_T`, ya definidos. Sustituyendo en (6.56), se obtiene:
 
+.. math::
 
-farj
-: ¡ ! />-/
-Ct
-J'
-Me*
-‘S'f,
-Relaciones termodinámicas generalizadas.
-cp - cv = -T (a v)2/ (- tcxv) = T a2v / kx	(6.57)
-La utilización de a y kx resulta muy cómoda en la mayor parte de los cálculos que tienen que realizarse con estos sistemas, ya que sus valores pueden considerarse prácticamente constantes en casi todos los procesos considerados.
+   c_p - c_v = -T \frac{(\alpha v)^2}{-k_T v} = T \frac{\alpha^2 v}{k_T}
 
-6.5,2.- Expresión generalizada de y.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+La utilización de :math:`\alpha` y :math:`k_T` resulta muy cómoda en la mayor parte de los cálculos que tienen que realizarse con estos sistemas, ya que sus valores pueden considerarse prácticamente constantes en casi todos los procesos considerados.
 
-Para determinar y a partir de datos pvT, sustituyamos cp y cv por sus definiciones generalizadas:
+Expresión generalizada de :math:`\alpha`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-T	'V ^TJs	fdv' UtJ	p	5pf Sv^	í 9T1
-CV y	'av ydT)	'dp .Ut	K	UvJ.UtJ	pUpJ
-(6.58)
+Para determinar :math:`\alpha` a partir de datos *pvT*, sustituyamos :math:`c_p` y :math:`c_v` por sus definiciones generalizadas:
+
+.. math::
+
+   \gamma = \frac{c_p}{c_v} = \frac{ T \left(\frac{\partial p}{\partial T}\right)_s \left(\frac{\partial v}{\partial T}\right)_p  }{ -T \left(\frac{\partial v}{\partial T}\right)_s \left(\frac{\partial p}{\partial T}\right)_v} = - \left(\frac{\partial p}{\partial v}\right)_s \left(\frac{\partial v}{\partial T}\right)_p \left(\frac{\partial T}{\partial p}\right)_v
+
 
 teniendo en cuenta que:
 
-"5v"		CD H		=_j	' dv'				5 v ^
-	P	15pJ	V	UvJT	<d Tj	P	,5P>	V	v5P,
+.. math::
 
-Sustituyendo en (6.58) y recordando que kx = -(l/v)(dv/dp)T y ks = -(l/v)(dv/3p)s, se obtiene:
+   \left(\frac{\partial v}{\partial T}\right)_p \left(\frac{\partial T}{\partial p}\right)_v \left(\frac{\partial p}{\partial v}\right)_T = -1\\
+   \left(\frac{\partial v}{\partial T}\right)_p \left(\frac{\partial T}{\partial p}\right)_v = - \left(\frac{\partial v}{\partial p}\right)_T
+
+Sustituyendo en (6.58) y recordando que :math:`k_T= -\left(\frac{1}{v}\right)\left(\frac{\partial v}{\partial p}\right)_T` y :math:`k_s = -\left(\frac{1}{v}\right)\left(\frac{\partial v}{\partial p}\right)_s`, se obtiene:
+
+.. math::
+
+   \gamma = -\left(\frac{\partial p}{\partial v}\right)_s \left( -\frac{\partial v}{\partial p}\right)_T = \frac{k_T}{k_s}
 
 Es decir, podemos relacionar el cociente de calores específicos con el cociente de las compresibilidades de la sustancia a temperatura y entropía constante.
 
-6.6.- Coeficiente de Joule-Thomson o Joule-Kelvin.
--------------------------------------------------
+Coeficiente de Joule-Thomson o Joule-Kelvin
+-------------------------------------------
 
-Consideremos el flujo de un fluido a través de un conducto que tiene un obstáculo o limitación al paso del fluido. Esta limitación puede ser un estrechamiento o algún tipo de tapón poroso como lana de acero, lana de vidrio o algodón. El efecto de esta limitación es producir una caída notable de presión a través del obstáculo. Un esquema de la instalación se muestra en la figura
-6.1.	La interacción trabajo entre las superficies de control 1 y 2 es nula y el conducto a través del que se produce el flujo está aislado térmicamente.
-i
-20
-Relaciones termodinámicas generalizadas.
-Wi/
-¥
+Consideremos el flujo de un fluido a través de un conducto que tiene un obstáculo o limitación al paso del fluido. Esta limitación puede ser un estrechamiento o algún tipo de tapón poroso como lana de acero, lana de vidrio o algodón. El efecto de esta limitación es producir una caída notable de presión a través del obstáculo. Un esquema de la instalación se muestra en la figura 6.1. La interacción trabajo entre las superficies de control 1 y 2 es nula y el conducto a través del que se produce el flujo está aislado térmicamente.
 
 
-r
-...» ájj **&&&*
-L~<-
-„jrW>^
-' Á
-O-
-Í^'P'
+
 Figura 6.1 Experiencia de Joule-Thomson
-m
 
-i Ki
-/)U- : ¡Mi
-<n -	^i
-.S©
-r
-7
-^7
--I) Uz 1J’i 4S ;
-í
-¡i j >£.<_ y
-de Joule-Thomson
--	Pplr	¡r_t_y P j
+Figura 6.2: Resultados del experimento de Joule-Thomson
+
 Consecuentemente, la interacción térmica es nula o despreciable. El flujo del fluido se
 ajusta a las condiciones de estado estacionario. Además, los cambios en energía cinética y potencial de la corriente fluida entre 1 y 2, pueden también considerarse despreciables. Por lo que aplicando el primer principio para sistemas abiertos, se obtiene:
-/bs /j--*-	^ <<,-	'<*•' tUy(A^¡UÍ
-h, = h2
-Mu es geKti&i&iG-
-U- y ítíti
-7
 
-Como ya mencionamos en la apbcación del primer principio a sistemas abiertos, los procesos en los que la entalpia de entrada es igual a la entalpia de salida, se denominanjwocesós^de' estrüñgütacíofp El efecto de estrangulación tiene un gran número dé aplicaciones tanto desde el punto de vista, técnico como teórico, a este tipo de experiencias también se les denomina ^efecto Joule-Thomson o Joule-Kelvin7
+.. math::
+
+   h_1 = h_2
+
+Como ya mencionamos en la aplicación del primer principio a sistemas abiertos, los procesos en los que la entalpia de entrada es igual a la entalpia de salida, se denominan procesos de estrangulación. El efecto de estrangulación tiene un gran número dé aplicaciones tanto desde el punto de vista, técnico como teórico, a este tipo de experiencias también se les denomina efecto Joule-Thomson o Joule-Kelvin.
 
 El efecto Joule-Kelvin tiene gran importancia, fundamentalmente, por dos hechos:
 
 a)	Se pueden referir a él otras propiedades termodinámicas, que pueden evaluarse a partir de este efecto, como: volúmenes específicos, calores específicos y temperaturas.
 
 b)	El resultado de la estrangulación, en ciertas condiciones, es una reducción en la temperatura del fluido, de forma que podemos tener un enfriamiento mediante un sistema sin partes móviles. De hecho, bajo condiciones adecuadas, es posible que uno o más componentes de una corriente fluida pase a la fase líquida durante el proceso de estrangulación, de forma que puede utilizarse el sistema para proceder a la separación de componentes de una mezcla gaseosa.
-Como acabamos de decir, se ha visto experimentalmente que mediante el efecto Joule-Kelvin un fluido puede llegar a una temperatura final con un valor mayor o menor que el valor correspondiente de la temperatura inicial, dependiendo de los valores de p,,T, y p2. Una evaluación matemática adecuada de este efecto se realiza mediante el coeficiente de Joule-Kelvin pjj-, que se define mediante la ecuación:
-M-jt -
-r_dr)
-,ôpjh
-(6.60)
+
+Como acabamos de decir, se ha visto experimentalmente que mediante el efecto Joule-Kelvin un fluido puede llegar a una temperatura final con un valor mayor o menor que el valor correspondiente de la temperatura inicial, dependiendo de los valores de :math:`p_1`, :math:`T_1` y :math:`p_2`. Una evaluación matemática adecuada de este efecto se realiza mediante el coeficiente de Joule-Kelvin :math:`\mu_{JT}`, que se define mediante la ecuación:
+
+.. math::
+
+   \mu_{JT} = \left( \frac{\partial T}{\partial p}\right)_h
 
 
-De acuerdo con esta ecuación es fácil ver que (ijj- se puede determinar mediante las gráficas experimentales de procesos a entalpia constante, en un diagrama Tp.
-Para obtener estas gráfica experimentalmente, se fijan los valores de p,Tj corriente arriba de la estrangulación y se hace variar la presión p2. Para cada valor de p2 se determina experimentalmente T2. Bajo condiciones de estrangulación, cada uno de los estados medidos corriente abajo tiene la misma entalpia que los estados corriente arriba del obstáculo. Después de hacer un número de medidas adecuado corriente abajo, para un estado dado en la parte anterior del obstáculo, se puede trazar una línea que corresponde a estados del sistema con la misma entalpia, sobre un diagrama Tp. Es necesario hacer notar que lo único que decimos es que cada estado representado por puntos de la linea tienen la misma entalpia, lo cual no quiere decir que el proceso que tiene lugar cuando se produce el paso de un fluido por un estrechamiento sea isoentálpico.
-Para obtener otr curva de entalpia constante, se altera o la presión o la temperatura inicial y se repite el procedimiento anterior para este nuevo valor de la entalpia.
-De esta forma se traza una familia de líneas de entalpia constante sobre un diagrama Tp. Un resultado típico se muestra en la figura 6.2. La pendiente de una línea de entalpia constante, para cualquier estado, es una medida del coeficiente de Joule-Kelvin correspondiente a ese estado,
-es decir, una medida de .
-Ii>"‘
+De acuerdo con esta ecuación es fácil ver que :math:`\mu_{JT}` se puede determinar mediante las gráficas experimentales de procesos a entalpia constante, en un diagrama :math:`T_p`.
+
+Para obtener estas gráfica experimentalmente, se fijan los valores de:math:`p_1T_1` corriente arriba de la estrangulación y se hace variar la presión :math:`p_2`. Para cada valor de :math:`p_2` se determina experimentalmente :math:`T_2`. Bajo condiciones de estrangulación, cada uno de los estados medidos corriente abajo tiene la misma entalpia que los estados corriente arriba del obstáculo. Después de hacer un número de medidas adecuado corriente abajo, para un estado dado en la parte anterior del obstáculo, se puede trazar una línea que corresponde a estados del sistema con la misma entalpia, sobre un diagrama :math:`T_p`. Es necesario hacer notar que lo único que decimos es que cada estado representado por puntos de la linea tienen la misma entalpia, lo cual no quiere decir que el proceso que tiene lugar cuando se produce el paso de un fluido por un estrechamiento sea isoentálpico.
+
+Para obtener otra curva de entalpia constante, se altera o la presión o la temperatura inicial y se repite el procedimiento anterior para este nuevo valor de la entalpia.
+
+De esta forma se traza una familia de líneas de entalpia constante sobre un diagrama :math:`T_p`. Un resultado típico se muestra en la figura 6.2. La pendiente de una línea de entalpia constante, para cualquier estado, es una medida del coeficiente de Joule-Kelvin correspondiente a ese estado, es decir, una medida de :math:`\mu_{JT}`.
 
 En la figura 6.2, en donde se han representado las lineas de entalpia constante, vemos que algunas de ellas presentan un máximo. La linea que une estos máximos se denomina linea de inversión, y el valor de la temperatura para este estado se denomina temperatura de inversión. Una linea de presión constante cortará a la curva de inversión en dos puntos, de aquí que se hable de temperatura de inversión superior e inferior para una presión dada, en la zona de existencia de la curva de inversión.
 
@@ -964,32 +780,47 @@ La línea de inversión tiene un significado físico importante. A la derecha de
 Vemos, por tanto, que en la estrangulación de un fluido, la temperatura final después del tapón poroso puede ser mayor que, igual a, o menor que la temperatura inicial, dependiendo, para un conjunto dado de condiciones iniciales, de la presión final. Por ejemplo, en la figura mencionada un estado típico inicial puede ser el punto w y la expansión hasta la curva de inversión (punto z) produce un calentamiento del fluido. Si se permite una expansión posterior hasta el punto y, se producirá un enfriamiento, pero no será suficiente para que el fluido recupere su temperatura inicial. Sin embargo, si la expansión progresa hasta el punto x, entonces será posible un enfriamiento suficiente para que la temperatura final sea inferior a la correspondiente al estado inicial.
 
 Debe también destacarse que, para algunos estados iniciales, es imposible un proceso de enfriamiento. La parte superior de la curva de inversión corta a la línea de presión cero en un valor finito de temperatura, para todas las sustancias. Consecuentemente, las líneas de entalpia constante correspondientes a temperaturas muy altas nunca pasan a través de la línea de inversión, como puede verse en la mencionada figura y para estas líneas el coeficiente de Joule-Kelvin es siempre negativo para cualquier presión. Ejemplos de gases que tienen coeficientes negativos a temperaturas ordinarias y presiones bajas son el hidrógeno y el helio. De aquí que, si se quieren enfriar estos gases utilizando un dispositivo de estrangulación, previamente habrá que disminuir su temperatura considerablemente antes de poder conseguir mediante la estrangulación un enfriamiento adicional. No obstante, para la mayor parte de los gases, a temperaturas ordinarias, el coeficiente de Joule-Kelvin es negativo para presiones altas y positivo para presiones bajas.
+
 En la figura 6.2 puede verse que, para una disminución de presiones determinada, el máximo efecto de enfriamiento se consigue si el estado inicial se encuentra sobre la línea de inversión. Si el estado inicial está a la derecha de la cura de inversión, parte de la expansión produce calentamiento, lo que está en contra del efecto deseado.
-Es interesante que consideremos el coeficiente de Joule-Kelvin desde el punto de vista de una ecuación generalizada, es decir, su relación con las variables p, v, T y los calores específicos. Esto se obtiene fácilmente recordando la ecuación generalizada para la entalpia (6.45):
-dh = cp dT +
-v-T
-fd^
-V<5T ,
-dp
-considerando una transformación entre dos estados con el mismo valor de la entalpia , dh - 0, se obtiene:
-(6.61)
-Por lo que el coeficiente de Joule-Kelvin, para un fluido determinado, puede calcularse a partir de la relación pvT del fluido y del calor específico a presión constante para el estado considerado. En la práctica, se utiliza el coeficiente de Joule-Kelvin, que puede medirse con facilidad, para evaluar calores específicos a presiones elevadas.
+
+Es interesante que consideremos el coeficiente de Joule-Kelvin desde el punto de vista de una ecuación generalizada, es decir, su relación con las variables p, v, T y los calores específicos. Esto se obtiene fácilmente recordando la ecuación generalizada para la entalpia
+
+.. math::
+
+   dh = c_p dT + \left[ v - T \left( \frac{\partial v}{\partial T}\right)_p \right] dp
+
+considerando una transformación entre dos estados con el mismo valor de la entalpia , :math:`dh = 0`, se obtiene:
+
+.. math::
+
+   \left( \frac{\partial T}{\partial p} \right)_h = \frac{1}{c_p} \left[ T \left( \frac{\partial v}{\partial T}\right)_p - v\right]
+
+
+Por lo que el coeficiente de Joule-Kelvin, para un fluido determinado, puede calcularse a partir de la relación *pvT* del fluido y del calor específico a presión constante para el estado considerado. En la práctica, se utiliza el coeficiente de Joule-Kelvin, que puede medirse con facilidad, para evaluar calores específicos a presiones elevadas.
+
 De la ecuación anterior se puede deducir una expresión para la temperatura de inversión, sin más que tener en cuenta que, en la curva de inversión, es igual a cero, de donde:
-( dv}
-ydTj
-- v = 0
+
+.. math::
+
+   T_i \left( \frac{\partial T}{\partial p} \right)_p -v = 0
+
 por lo que:
-/ / ' (6.62)
 
 
-A partir de esta relación, una vez conocida la ecuación pvT del gas, se podría determinar el valor de la temperatura de inversión del mismo.
+.. math::
+
+   T_i = \frac{v}{\left( \frac{\partial T}{\partial p} \right)_p} = \frac{1}{\alpha_i}
+
+
+A partir de esta relación, una vez conocida la ecuación *pvT* del gas, se podría determinar el valor de la temperatura de inversión del mismo.
 
 Ejercicios
 ----------
 
 6.1	Para un sistema compresible simple determínese una expresión que proporcione la variación | de entalpia con el volumen a temperatura constante en función de T, a, y kt.
-Respuesta:
-a T- 1
+
+Respuesta: :math:`\frac{\alpha T -1}{\kappa_T}`
+
 
 6.2	Si se dispone de la expresión para la energía intema en función de la entropía y el volumen, u(s, v), determínense las correspondientes expresiones para cv y c .
 Respuesta:
