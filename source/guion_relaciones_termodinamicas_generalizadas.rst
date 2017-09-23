@@ -366,7 +366,14 @@ Estas son las denominadas relaciones de Maxwell.
 
 Una regla nemotécnica que nos permite recordar con facilidad las relaciones anteriores, es la siguiente. Dispongamos las cuatro magnitudes que intervienen en estas relaciones en orden alfabético, formando una seudomatriz, y con ella deducimos la relación funcional como se indica a contmuacion.
 
-MATRIX
+.. math::
+
+
+   \begin{bmatrix}
+     1 & 0 & 0 \\
+     0 & 1 & 0 \\
+     0 & 0 & 1
+   \en{bmatrix}
 
 Asignemos a esta seudomatriz la propiedad de que cuando se cambia el orden de los elementos de una diagonal el signo de la correspondiente relación funcional debe cambiarse, como indicamos a continuación para el cambio de los elementos de la diagonal principal
 
