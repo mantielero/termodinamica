@@ -368,24 +368,53 @@ Una regla nemotécnica que nos permite recordar con facilidad las relaciones ant
 
 .. math::
 
-
-   \begin{bmatrix}
-     1 & 0 & 0 \\
-     0 & 1 & 0 \\
-     0 & 0 & 1
-   \en{bmatrix}
+   \begin{vmatrix}
+     p & s\\
+     T & v
+   \end{vmatrix}
+   \rightarrow
+   \left( \frac{\partial p}{\partial T}\right)_v = \left( \frac{\partial s}{\partial v}\right)_T
 
 Asignemos a esta seudomatriz la propiedad de que cuando se cambia el orden de los elementos de una diagonal el signo de la correspondiente relación funcional debe cambiarse, como indicamos a continuación para el cambio de los elementos de la diagonal principal
 
-MATRIX
+.. math::
+
+   \begin{vmatrix}
+     v & s\\
+     T & p
+   \end{vmatrix}
+   \rightarrow
+   \left( \frac{\partial v}{\partial T}\right)_p = -\left( \frac{\partial s}{\partial p}\right)_T
+
 
 Cambiando la diagonal secundaria y también el signo:
 
-MATRIX
+.. math::
+
+   \begin{vmatrix}
+     v & T\\
+     s & p
+   \end{vmatrix}
+   \rightarrow
+   \left( \frac{\partial v}{\partial s}\right)_p = \left( \frac{\partial T}{\partial p}\right)_s
+
 
 Volviendo a cambiar la diagonal principal y el signo:
 
-MATRIX
+.. math::
+
+   \begin{vmatrix}
+     p & T\\
+     s & v
+   \end{vmatrix}
+   \rightarrow
+   \left( \frac{\partial p}{\partial s}\right)_v = - \left( \frac{\partial T}{\partial v}\right)_s
+
+
+Para este mismo fin se utiliza el cuadro de Max Born:
+
+
+INCLUIR LA FIGURA
 
 La utilidad de estas relaciones se verá a lo largo de nuestro estudio, sin embargo, como una primera aplicación inmediata, consideremos el caso siguiente: supongamos que en el estudio de una determinada sustancia es preciso conocer como varia la entropía de la misma al variar el volumen a temperatura constante.
 
@@ -402,187 +431,147 @@ Relaciones generalizadas para cambios de entropía, energía interna y entalpia,
 
 Para el análisis termodinàmico de sistemas es importante disponer de ecuaciones que permitan evaluar los cambios en estas magnitudes a partir de los correspondientes a los valores de las magnitudes que pueden medirse directamente. A continuación deduciremos alguna de estas ecuaciones.
 
-Comencemos con los cambios de entropía. Por ser un sistema compresible simple, s podemos expresarla en función de T y v, T y p, ó p y v.
+Comencemos con los *cambios de entropía*. Por ser un sistema compresible simple, s podemos expresarla en función de T y v, T y p, ó p y v.
 
 Consideremos el primer par de variables, T y v:
 
-|N*.				f ds Ì	í ds\
--t?ds = .	— dT +
-	l<5Tjv	UVJ
-dv
-r
-(6.36)
+ .. math::
+
+    ds = \left( \frac{\partial s}{\partial T}\right)_v dT +    \left( \frac{\partial s}{\partial v}\right)_T dv
+
 
 Para conseguir el fin propuesto se deben sustituir las derivadas parciales dadas en función de expresiones que solo contengan p, v, T y los calores específicos. Para ello recordemos que:
 
-T ds = du + p dv ds = 1/T( du)+ p dv)
-du =
-(du]	dT +	'du'	1			 dv = c. dT +	Í5Ul
-UtJ	V	U vJ	T	UvJ
-dv
-L----
-ds= — dT + —
-P +
-f Su'
-\dvj
-\
-dv
-___J
-(6.37)
+.. math::
+
+   Tds &= du +pdv\\
+   ds &= \frac{1}{T}(du +pdv) \\
+   du &=    \left( \frac{\partial u}{\partial T}\right)_v dT +    \left( \frac{\partial u}{\partial v}\right)_T dv = c_vdT +    \left( \frac{\partial u}{\partial v}\right)_T  dv\\
+   ds &= \frac{c_v}{T}dT+    \left( \frac{\partial u}{\partial v}\right)_T dv = c_v dT +    \left( \frac{\partial u}{\partial v}\right)_T dv \\
+   ds =  \frac{c_v}{T}dT+\frac{1}{T}\left[ p + \left(  \frac{\partial u}{\partial v}\right)_T \right]
+
 
 Las ecuaciones (6.36) y (6.37) son expresiones equivalente para ds, por lo que:
 
-'ds'
-ydTj
-V
-T
-\dvJr
-P +
-rdu^ V5v7t
-(6.38)
-10
-Relaciones termodinámicas generalizadas.
-[uto,
+.. math::
 
-Jí
+   \left( \frac{\partial s}{\partial T}\right)_v = \frac{c_v}{T}
+
+y
+
+.. math::
+
+   \left( \frac{\partial s}{\partial v} \right)_T  = \frac{1}{T} \left[ p + \left( \frac{\partial u}{\partial v}\right)_T \right]
 
 De la tercera relación de Maxwell (6.34):
 
-fd%'
-V5v7t
+.. math::
 
-¡2T i-/J hr-	yfO^i c- t~- y
-y ^ Ja;
-&rh 1/
-K/
+   \left( \frac{\partial s}{\partial v}\right)_T  = \left(\frac{\partial p}{\partial T}\right)_v
 
 Sustituyendo en (6.36) la primera de las (6.38) y la (6.34), se obtiene:
 
-ds = — dT + T
-5p
 
-V5T;V
-dv
-L.J
-(6.39)
-tyfá.¿ C A 4¿¡ajLcO%*
+.. math::
 
-Vemos que ds queda en función de magnitudes fáciles de determinar. De (6.38) y (6.34) también se puede deducir:
+   ds =  \frac{c_v}{T}dT+ \left(\frac{\partial p}{\partial T}\right)_v dv
 
-fSpl	1	P +	í 5U1
-UtJ	T V			T.
 
-de la podemos obtener (3u/5v)T en función de cualquier ecuación pvT, relación que se necesitará utilizar más adelante.
-De forma análoga para la expresión en función de/p y Ti tenemos:
+Vemos que ds queda en función de magnitudes fáciles de determinar.
+
+De (6.38) y (6.34) también se puede deducir:
+
+.. math::
+
+   \left(\frac{\partial p}{\partial T}\right)_v  = \frac{1}{T} \left[ p + \left(\frac{\partial u}{\partial v}\right)_T \right]
+
+de la podemos obtener :math:`\left( \frac{\partial u}{\partial v} \right)` en función de cualquier ecuación *pvT*, relación que se necesitará utilizar más adelante.
+
+De forma análoga para la expresión en función de *p* y *T* tenemos:
+
+.. math::
+
+   ds = \left( \frac{\partial s}{\partial T}\right)_p dT + \left( \frac{\partial s}{\partial p}\right)_T dp
 
 A partir de:
 
-ds =
-^ 3s ^
-v3Íy
-dT +
-f \
-os
-v5PyT
-dp
-j
-(6.40)
-dh = T ds + v dp ds = 1/T(dh - v dp)
-y-
-dh
-» ÍT +
-3T
-'dh'
-v5pJt
-dp = c dT +
-3h
-3p
-dp
+.. math::
+
+   dh &= Tds + vdp\\
+   ds &= \frac{1}{T}(dh -vdp)
+
+y
+
+.. math::
+
+   dh = \left( \frac{\partial h}{\partial T}\right)_p dT + \left( \frac{\partial h}{\partial p}\right)_T  dp = c_p dT + \left( \frac{\partial h}{\partial p}\right)_T  dp
+
 se obtiene:
--í
-c
-ds = — dT + — T T
-3h
-5P
-dp
-/T
-(6.41)
-11
-Relaciones termodinámicas generalizadas.
+
+.. math::
+
+   ds = \frac{c_p}{T}dT + \frac{1}{T} \left[ \left( \frac{\partial h}{\partial p}\right)_T -v\right]dp
 
 Las expresiones (6.40) y (6.41) representan la misma función, por lo que identificando términos equivalentes, se llega a la relación:
 
-í ds)
-V<5T,
-p
-T
-(6.42)
+.. math::
+
+   \left( \frac{\partial s}{\partial T}\right)_p = \frac{c_p}{T}
 
 De la cuarta relación de Maxwell, ecuación (6.35), se tiene:
 
-V5P/r
-5v
-dT
-r s t ^
-T P '
-Por lo que:
-d s = — dT T
-^ dv^ vaTy
-dp (6.43a) y
-( A dv
-dT
-v5PyT
-- V
-(6.43b)
+.. math::
+
+   \left( \frac{\partial s}{\partial p}\right)_T  = - \left( \frac{\partial v}{\partial T}\right)_p
 
 Algo semejante se puede hacer con la expresión de s en función de p y v. Es conveniente que el alumno realice la deducción completa de esta ecuación y compruebe que se llega a:
 
-^ c ( ds = ^ —
-T l5Py
-dP + -^ T
+.. math::
 
-dv
-(6.43c)
+   ds = \frac{c_v}{T} \left( \frac{\partial T}{\partial p}\right)_v dp + \frac{c_p}{T} \left( \frac{\partial T}{\partial v}\right)_p dv
 
 La metodología utilizada en la deducción de las correspondientes expresiones para las funciones u y h es análoga a la utilizada hasta ahora.
 
 Para obtener la correspondiente a los cambios de energía intema, recordemos que:
 
-du = T ds - p dv
+.. math::
+
+   du = T ds - p dv
 
 Sustituyendo ds por la expresión (6.39), se obtiene:
 
-du = c, dT +
-V<3T,v
-d v
-(6.44)
 
-De la expresión dh = T ds + v dp, sustituyendo en ella ds de la primera ecuación (6.43a), se obtiene:
+.. math::
 
-dh = c dT +	v-T	'dv'
-p		,dT)	p.
-(6.45)
-12
-Relaciones termodinámicas generalizadas.
+   du = c_v dT + \left[ T \left( \frac{\partial p}{\partial T}\right)_v -p\right] dv
 
-Tanto la expresión de du como la de dh permiten encontrar el valor de Au e Ah para un determinado proceso, sin más que conocer las correspondientes relaciones cp (T) y f(p,v,T) = 0, mediante la integración entre los estados inicial y final correspondientes.
+De la expresión :math:`dh = T ds + v dp`, sustituyendo en ella ds de la primera ecuación (6.43a), se obtiene:
 
-En algunos textos es frecuente dar estas expresiones utilizando a y kt, para ello, recuérdese que:
+.. math::
+
+   dh = c_p dT + \left[ v-T \left( \frac{\partial v}{\partial T}\right)_p \right] dp
+
+Tanto la expresión de du como la de dh permiten encontrar el valor de :math:`\Delta u` e :math:`\Delta h` para un determinado proceso, sin más que conocer las correspondientes relaciones :math:`c_p(T)`  y :math:`f(p,v,T) = 0`, mediante la integración entre los estados inicial y final correspondientes.
+
+En algunos textos es frecuente dar estas expresiones utilizando :math:`\alpha` y :math:`k_T`, para ello, recuérdese que:
+
+.. math::
+
+   \left( \frac{\partial p}{\partial T}\right)_v = - \frac{  \left( \frac{\partial v}{\partial T}\right)_p  } {\left( \frac{\partial v}{\partial p}\right)_T } = \frac{\alpha v}{k_T v} = \frac{v}{v}
+
 por lo que:
 
-du = c„ dT +
-'r a
-T------p
-d v
-(6.46)
-dh = cp dT + [v-Tav]dp = cp dT + [l- ocT] v dp
-(6.47)
+.. math::
+
+   du = c_v dT + \left[ T\frac{\alpha}{k_T} - p\right]dv\\
+   dh = c_p dT + [v-T\alpha v] dp = c_p dT + [1-\alpha T]v dp
 
 Como aplicación inmediata de lo que acabamos de ver consideremos el ejercicio siguiente:
 
-I
+****************
 
-Ejercicio E6.2.
+Ejercicio E6.2
+^^^^^^^^^^^^^^
 
 Se ha de comprimir un gas monoatómico en un compresor que funciona en régimen estacionario, de forma reversible y a temperatura constante.
 
