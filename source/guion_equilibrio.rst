@@ -7,8 +7,6 @@ Antonio Sánchez Sánchez Teresa Leo Mena
 
 
 
-f
-
 
 TEMAS
 EQUILIBRIO DE LOS SISTEMAS TERMODINAMICOS.
