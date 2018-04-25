@@ -198,7 +198,7 @@ Para aclarar lo expuesto, supóngase que *Y* es una propiedad extensiva dependie
 
 .. math::
 
-   Y(2X_1,2X_2, ..., 2X_n) = 2 Y(X_1, ..., X_n)
+   Y( 2X_1, 2X_2, ..., 2X_n) = 2 Y(X_1, ..., X_n)
 
 y en general:
 
