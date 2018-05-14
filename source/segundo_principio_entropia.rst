@@ -4,7 +4,7 @@ Entropía
 Definición
 ----------
 
-La entropía es una *propiedad del sistema* definida como:
+La **entropía** es una *propiedad del sistema* definida como:
 
 
 .. math::
@@ -15,6 +15,10 @@ La entropía es una *propiedad del sistema* definida como:
 .. note::
 
    Recordemos que una magnitud es una propiedad si y solo si el cambio en su valor entre dos estados de equilibrio es independiente del camino seguido en el proceso.
+
+.. note::
+
+   Realmente hemos indicado la **variación de la entropía**. Esta fórmula es sólo para una transformación reversible.
 
 La unidad de la entropía en el sistema internacional es el :math:`J\cdot K^{-1}`. 
 
