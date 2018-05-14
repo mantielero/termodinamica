@@ -6,7 +6,27 @@ Introducción
 
 Como **sistema termodinámico** se puede considerar cualquier cosa que se desee estudiar y el sistema puede ser tan sencillo como un cuerpo libre, o tan complejo como una moderna central productora de energía. 
 
-A efectos de sistematización, un sistema termodinámico se define como cualquier cantidad de materia o cualquier región del espacio sometida a estudio (se entiende que se está considerando el análisis termodinámico del mencionado sistema). La cantidad de materia o región del espacio debe hallarse contenida dentro de unos límites perfectamente predeterminados. Estos límites pueden ser fijos o deformables, así como reales o imaginarios.
+Cualquier cantidad de materia o espacio sometida a estudio (termodinámico). La cantidad de materia o región del espacio debe hallarse contenida dentro de unos límites perfectamente predeterminados. Estos límites pueden ser fijos o deformables, así como reales o imaginarios.
+
+Clasificación:
+
+- Deformable (indeformable): cuando la distancia relativa entre todas las partículas del mismo es constante. Cuando algo puede variar su posición relativa, deformable.
+- Cerrados (abiertos): no intercambian material a través de su frontera. Ojo, la no variación de masa no implica que el sistema sea cerrado.
+- Homogéneo / Heterogéneo: cuando su composición química y propiedades físicas son iguales en todas sus partes o varían de un modo continuo de un punto del sistema a otro. Cuandoel sistema está constituido por dos o más partes homogéneas distintas, se denomina heterogéneo. A cada sistema homogéneo de un sistema heterogéneo se le denomina fase.
+- Aislado: no interaccionan con el exterior ni másica ni energéticamente.
+- Sistema cerrado o masa de control: determinada cantidad de materia.
+- Sistema abierto o volumen de control: región del espacio dentro de un límite predeterminado . El límite del volumen de control (que puede ser móvil) se denomina superficie de control.
+- Medio ambiente o exterior o alrededores: lo que está fuera de los límies del sistema.
+
+.. note::
+
+   Determinar y clasificar el sistema es esencial. No hay ninguna regla para elegir el sistema. Este se elegirá intuitivamente.
+
+.. note::
+
+   Al proceder al estudio de un sistema, casi siempre se idealizará el conjunto. Se obtendrá un resultado aproximado al real. Así pues, el comportamiento real y el teórico podrían no coincidir. Esto implica que el modelo teórico estudiado es inadecuado.
+
+
 
 Según su constitución
 ---------------------
