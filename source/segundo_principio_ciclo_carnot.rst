@@ -1,5 +1,5 @@
 Ciclo de Carnot
----------------
+===============
 
 Ya se ha visto la posibilidad de la existencia de un dispositivo que trabajando cíclicamente e intercambiando calor con dos fuentes térmicas realice trabajo. A un tal dispositivo le hemos llamado motor térmico.
 
