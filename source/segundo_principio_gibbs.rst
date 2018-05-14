@@ -1,6 +1,19 @@
 Ecuación de Gibbs
 =================
 
+
+Definición
+----------
+
+Para un sistema simple compresible que realiza un proceso elemental cuasi-estático y reversible:
+
+.. math::
+
+   dU = TdS -pdV
+
+Demostración
+------------
+
 Consideremos un sistema simple compresible que realiza un proceso elemental cuasi-estático y reversible durante el cual intercambia una cantidad de calor :math:`\delta Q` y recibe del exterior un trabajo :math:`\delta W`.
 
 Según se vió en el tema 2, a partir del primer principio obtenemos para la evolución elemental de este sistema que:
