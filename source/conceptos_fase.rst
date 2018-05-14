@@ -32,4 +32,4 @@ Interfase
    superficie de separación entre fases. Ojo: gases y líquidos mixcibles; por otro lado, se mezclan.
 
 Sustancia pura
-   aquella que tiene composición química definida. Por ejemplo: :math:`H_2O_{(l)}+H_2O_{v}`, aire seco (sólo si es estado gaseoso)
+   aquella que tiene composición química definida. Por ejemplo: :math:`H_2O_{(l)}+H_2O_{(v)}`, aire seco (sólo si es estado gaseoso)
