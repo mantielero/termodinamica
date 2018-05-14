@@ -1,6 +1,9 @@
 Entropía
 ========
 
+Definición
+----------
+
 La entropía es una *propiedad del sistema* definida como:
 
 
@@ -9,9 +12,12 @@ La entropía es una *propiedad del sistema* definida como:
    dS = \left. \frac{\delta Q}{T} \right)_R \text{ ó } \Delta S_{1-2} = \int_1^2 \left.\frac{\delta Q}{T}\right)_R
 
 
+.. note::
+
+   Recordemos que una magnitud es una propiedad si y solo si el cambio en su valor entre dos estados de equilibrio es independiente del camino seguido en el proceso.
+
 Demostración
 ------------
-
 
 Consideremos dos estados de equilibrio (1) y (2) representados en un diagrama generalizado en la figura 3.10. De (1) a (2) podemos ir por el camino indicado por la curva I y regresamos a (1) por el camino representado por la curva II. Ambos procesos los suponemos reversibles y en conjunto constituyen un ciclo. Si aplicamos a este ciclo reversible el teorema de Clausius, (3.13.a), obtendremos:
 
