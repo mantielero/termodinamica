@@ -25,7 +25,6 @@ Madrid, Julio 1994
    introduccion
    alcance_termodinamica
    conceptos
-   conceptos_equilibrio
    introduccion_metodo_termodinamico_estadistico
    introduccion_presion
    introduccion_densidad
