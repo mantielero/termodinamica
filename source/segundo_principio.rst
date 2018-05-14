@@ -803,3 +803,8 @@ De la ecuación (3.14) se deduce que, para el proceso de nuestro sistema, :math:
 
 Esta importante relación cono conoce con el nombre de ecuación de Gibbs y es ampliamente utilizada en termodinámica, como se verá a lo largo del curso (*).
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Contenido:
+
+   segundo_principio_variacion_entropia
