@@ -1,5 +1,5 @@
 Entropía y procesos irreversibles; producción de entropía
----------------------------------------------------------
+=========================================================
 
 Consideremos dos estados de equilibrio conectados mediante dos procesos, uno reversible (R) y otro irreversible (I) según se muestra en la figura 3.9.
 
