@@ -9,11 +9,15 @@ Enunciado de Kelvin-Planck del segundo principio
 
 Enunciado de Clausius del segundo principio
 
-   No es posible construir un dispositivo que funcione cíclicamente y no produzca otro efecto que el paso de calor de un cuerpo a otro más caliente
+   No es posible construir un dispositivo que funcione cíclicamente y no produzca otro efecto que el paso de calor de un cuerpo frío a otro más caliente
 
 De los enunciados del segundo principio vemos que un dispositivo que funcione según un ciclo termodinámico y del que se obtenga trabajo debe intercambiar calor, al menos, con dos fuentes térmicas. Y que si lo que se quiere es transferir, con un dispositivo que trabaje cíclicamente, calor desde una fuente térmica a otra a mayor temperatura, hay que suministrar a ese dispositivo una cierta cantidad de trabajo.
 
-Pues bien, definimos un *motor térmico* como un dispositivo que funciona según un ciclo termodinámico y que proporciona un cierto trabajo como resultado del intercambio de calor entre dos fuentes térmicas una a alta y otra a baja temperatura, ver figura 3.1.
+
+Motor térmico
+-------------
+
+Definimos un *motor térmico* como un dispositivo que funciona según un ciclo termodinámico y que proporciona un cierto trabajo como resultado del intercambio de calor entre dos fuentes térmicas una a alta y otra a baja temperatura, ver figura 3.1.
 
 
 .. figure:: img/2nd_principio_motor_termico.png
@@ -22,11 +26,7 @@ Pues bien, definimos un *motor térmico* como un dispositivo que funciona según
 
    Motor térmico
 
-.. figure:: img/2nd_principio_maquina_refrigeradora.png
-   :width: 30%
-   :align: center
 
-   Máquina refrigeradora
 
 Definiendo el *rendimiento del motor* como el cociente entre el trabajo que da el motor, W, y el calor que recibe de la fuente térmica de alta temperatura, :math:`Q_1`, podremos escribir:
 
@@ -49,7 +49,16 @@ en donde los valores de W, :math:`Q_1` y :math:`Q_2` están considerados en sus 
 
 En términos del rendimiento de un motor térmico el enunciado de Kelvin-Planck del segundo principio diría que no es posible ningún motor térmico cuyo rendimiento sea la unidad.
 
+Máquina refrigeradora
+---------------------
+
 De manera análoga una *máquina refrigeradora*, figura 3.2 la definimos como un dispositivo que funciona según un ciclo termodinámico y que el trabajo que se le aporta lo invierte en extraer una cierta cantidad de calor :math:`Q_2` de una fuente a baja temperatura y ceder otra cantidad de calor :math:`Q_1` a otra fuente a temperatura mayor.
+
+.. figure:: img/2nd_principio_maquina_refrigeradora.png
+   :width: 30%
+   :align: center
+
+   Máquina refrigeradora
 
 Si aplicamos el balance energético a este dispositivo, obtenemos:
 
