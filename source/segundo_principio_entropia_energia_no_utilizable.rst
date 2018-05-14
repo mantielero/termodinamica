@@ -35,7 +35,7 @@ Para el ciclo completo tendremos que :math:`\Delta E + \Delta E_R = 0` con lo qu
 
    Q+Q_R = -(W-W_R)
 
-Como el sistema ha vuelto a sus condiciones iniciales su entrópía no habrá experimentado variación alguna, por lo que el cambio de entropía del sistema compuesto por el sistema original más el ambiente vendrá dado, de acuerdo con (3.19) por
+Como el sistema ha vuelto a sus condiciones iniciales su entropía no habrá experimentado variación alguna, por lo que el cambio de entropía del sistema compuesto por el sistema original más el ambiente vendrá dado, de acuerdo con (3.19) por
 
 .. math::
 
