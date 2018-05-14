@@ -84,7 +84,7 @@ En la demostración que sigue designaremos por K la veracidad del enunciado de K
 Se trata de demostrar la equivalencia lógica de ambos postulados esto es :math:`K\Leftrightarrow C`, lo que equivale a demostrar:
 
 a) que :math:`K\Rightarrow C` y
-b) que :math:`C\Leftarrow K`.
+b) que :math:`C\Rightarrow K`.
 
 
 :math:`K\Rightarrow C`
@@ -112,7 +112,7 @@ Así pues el no cumplimiento del enunciado de Clausius es lo mismo que el no cum
 
    Demostración de :math:`\bar{K}\Rightarrow\bar{C}`
 
-:math:`C\Leftarrow K`
+:math:`C\Rightarrow K`
 ^^^^^^^^^^^^^^^^^^^^^
 
 De manera análoga podemos probar que :math:`(C\Rightarrow K) \Leftrightarrow (\bar{K}\Rightarrow\bar{C})`
