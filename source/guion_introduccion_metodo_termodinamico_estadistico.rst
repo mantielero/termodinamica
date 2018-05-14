@@ -1,14 +1,20 @@
 Método termodinámico y método estadístico
------------------------------------------
+=========================================
+
+Introducción
+------------
 
 El estudio de los procesos que tienen lugar en los sistemas macroscópicos, es decir, sistemas formados por un gran número de micro partículas (átomos, moléculas, iones, etc., dependiendo de la clase de sistema) puede abordarse siguiendo dos métodos:
 
 - Método termodinámico.
 - Método estadístico.
 
-El método termodinàmico es independiente de cualesquiera modelos de la estructura de la materia (para nada requiere la existencia de átomos, moléculas, etc.) esencialmente es un método fenomenológico, es decir, su propósito fundamental es establecer relaciones entre propiedades directamente observables (que se miden por procedimientos macroscópicos), tales como presión, volumen, temperatura, concentración de disoluciones, intensidad de campos eléctricos, y magnéticos, etc. Magnitudes asociadas con la estructura atómica y molecular de la materia (dimensiones de átomos o moléculas, su masa, etc.) no son utilizadas por el método termodinámico en la solución de problemas.
+El **método termodinàmico** es independiente de cualesquiera modelos de la estructura de la materia (para nada requiere la existencia de átomos, moléculas, etc.). Esencialmente es un método fenomenológico, es decir, su propósito fundamental es establecer relaciones entre propiedades directamente observables (que se miden por procedimientos macroscópicos), tales como presión, volumen, temperatura, concentración de disoluciones, intensidad de campos eléctricos, y magnéticos, etc. Magnitudes asociadas con la estructura atómica y molecular de la materia (dimensiones de átomos o moléculas, su masa, etc.) no son utilizadas por el método termodinámico en la solución de problemas.
 
-En contraste con lo dicho antes, el método estadístico para estudiar las propiedades de cuerpos macroscópicos se basa en la utilización de modelos atómico-moleculares. El propósito fundamental de la física estadística puede formularse como sigue: utilizando las leyes que gobiernan el comportamiento de las partículas integrantes de un determinado sistema, deduce las leyes que gobiernan el comportamiento de las magnitudes macroscópicas que definen el sistema mencionado.
+En contraste con lo dicho antes, el **método estadístico** para estudiar las propiedades de cuerpos macroscópicos se basa en la utilización de modelos atómico-moleculares. El propósito fundamental de la física estadística puede formularse como sigue: utilizando las leyes que gobiernan el comportamiento de las partículas integrantes de un determinado sistema, deduce las leyes que gobiernan el comportamiento de las magnitudes macroscópicas que definen el sistema mencionado.
+
+Ventajas e inconvenientes
+-------------------------
 
 Al afrontar el estudio del comportamiento de la materia, se encuentra que tanto la termodinámica como la física estadística poseen ventajas e inconvenientes en la consideración de distintos fenómenos.
 
