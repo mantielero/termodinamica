@@ -4,11 +4,14 @@ Primera Ley de la Termodínamica. Postulado de Estado
 El concepto de trabajo y los procesos adiabáticos
 -------------------------------------------------
 
-Trabajo: interacción entre sistema y medio ambiente que, cuando es realizado por el sistema, su único efecto sobre el ambiente "puede representarse" por la elevación de un peso.
+Trabajo
+   interacción entre sistema y medio ambiente que, cuando es realizado por el sistema, su único efecto sobre el ambiente "puede representarse" por la elevación de un peso.
 
-Criterio de signos: positivo cuando vaya al sistema y negativo cuando salga de él (puede ser el criterio contrario)
+Criterio de signos
+   positivo cuando vaya al sistema y negativo cuando salga de él (puede ser el criterio contrario)
 
-Transformación adiabática: aquella en la que sólo intervienen interacciones de trabajo.
+Transformación adiabática
+   aquella en la que sólo intervienen interacciones de trabajo.
 
 Primer principio
 ----------------
