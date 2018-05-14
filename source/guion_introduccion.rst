@@ -1,10 +1,6 @@
-Introducción. Algunos conceptos y definiciones
-==============================================
-
-(Antonio Sánchez Sánchez. Teresa Leo Mena)
-
 Introducción
-------------
+============
+
 
 En esta asignatura se expondrán los conceptos y métodos que permiten discernir en qué casos un determinado sistema puede alcanzar el objetivo para el que ha sido diseñado y en cuales no. En general se profundizará sobre el concepto de energía y la forma en que ésta puede utilizarse con un mejor aprovechamiento.
 
@@ -19,4 +15,3 @@ En el estudio de la termodinámica se considerará cómo son afectadas las propi
 A lo largo del curso se verá cómo el concepto de la termodinámica se va llenando de contenido.
 
 En este tema se considerará el alcance y método de la termodinámica, distinguiéndolo del que es característico de la mecánica estadística, así como un conjunto de conceptos básicos necesarios para realizar su estudio.
-
