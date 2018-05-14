@@ -20,11 +20,12 @@ Madrid, Julio 1994
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Contenido:
 
    introduccion
    alcance_termodinamica
    conceptos
+   conceptos_equilibrio
    guion_introduccion_metodo_termodinamico_estadistico
    guion_introduccion_presion
    guion_introduccion_ley_cero_temperatura
