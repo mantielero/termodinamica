@@ -1,6 +1,9 @@
 Ciclo de Carnot
 ===============
 
+Introducción
+------------
+
 Ya se ha visto la posibilidad de la existencia de un dispositivo que trabajando cíclicamente e intercambiando calor con dos fuentes térmicas realice trabajo. A un tal dispositivo le hemos llamado motor térmico.
 
 Se nos plantea ahora la siguiente cuestión: dadas dos fuentes térmicas:
@@ -11,7 +14,10 @@ Se nos plantea ahora la siguiente cuestión: dadas dos fuentes térmicas:
 
 Estas preguntas fueron contestadas por N. S. Carnot en su trabajo "Reflections sur la puissance motrice du feu el les moyens propes a developped" publicado anteriormente al enunciado del :math:`1^{er}` principio y 25 años antes de enunciarse el segundo. En este trabajo Carnot introdujo por primera vez el concepto de ciclo y propuso un motor ideal que funcionaba según un ciclo, particularmente sencillo, que ha recibido el nombre de Ciclo de Carnot.
 
-Diremos que un sistema termodinàmico cualquiera (mecánico, eléctrico, químico, magnético, etc.) realiza un ciclo de Caxnot si, partiendo del equilibrio con la fuente térmica fría a temperatura :math:`T_2` realiza el siguiente ciclo:
+Ciclo de Carnot
+---------------
+
+Diremos que un sistema termodinàmico cualquiera (mecánico, eléctrico, químico, magnético, etc.) realiza un **ciclo de Carnot** si, partiendo del equilibrio con la fuente térmica fría a temperatura :math:`T_2` realiza el siguiente ciclo:
 
 - Una evolución adiabática reversible hasta alcanzar la temperatura :math:`T_1` de la fuente caliente.
 - Un proceso isotérmico a temperatura :math:`T_1` mientras recibe una cantidad de calor :math:`Q_1` de la fuente caliente.
