@@ -26,10 +26,11 @@ Madrid, Julio 1994
    alcance_termodinamica
    conceptos
    conceptos_equilibrio
-   guion_introduccion_metodo_termodinamico_estadistico
-   guion_introduccion_presion
-   guion_introduccion_ley_cero_temperatura
-   guion_introduccion_ejercicios
+   introduccion_metodo_termodinamico_estadistico
+   introduccion_presion
+   introduccion_densidad
+   introduccion_ley_cero_temperatura
+   introduccion_ejercicios
    primer_principio
    guion_segundo_principio
    guion_primer_segundo_principios
