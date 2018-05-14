@@ -1,5 +1,5 @@
 Alcance de la Termodinámica
----------------------------
+===========================
 
 Ya se ha dicho que la termodinámica centra su estudio en objetos macroscópicos, es decir, porciones de materia integradas por un gran número de partículas. El estudio de cómo influyen las interacciones de calor y trabajo sobre las propiedades de estos cuerpos y cómo pueden utilizarse estos cambios de propiedades en la conversión de una forma de energía en otra y qué limitaciones tiene esta conversión, será el tema de trabajo. Se verá que los principios primero y segundo de la termodinámica delimitarán las posibilidades que presénta la conversión de energía.
 
