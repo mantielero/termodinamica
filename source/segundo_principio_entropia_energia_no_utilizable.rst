@@ -23,7 +23,7 @@ Imaginemos ahora un proceso reversible que devuelva el sistema, a sus condicione
 
 donde el subíndice R indica reversibilidad.
 
-La variación de entropía del ambienté asociada al proceso reversible será:
+La variación de entropía del ambiente asociada al proceso reversible será:
 
 .. math::
 
