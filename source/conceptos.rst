@@ -187,4 +187,5 @@ A lo largo del curso se utilizará con frecuencia el criterio de homogeneidad.
    :maxdepth: 1
    :caption: Contenido:
    
+   conceptos_fase
    conceptos_equilibrio
