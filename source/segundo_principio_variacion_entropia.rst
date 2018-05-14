@@ -1,7 +1,7 @@
 Variación de entropía en sustancias incompresibles y en gases perfectos
 =======================================================================
 
-Para calcular la variación de entropía de una sustancia determinada no hay más que aplicar la ecuación (3.23) reordenada en la forma:
+Para calcular la variación de entropía de una sustancia determinada no hay más que aplicar la ecuación de Gibbs reordenada en la forma:
 
 .. math::
 
@@ -34,5 +34,3 @@ con :math:`c_v` constante. Así pues, la variación de entropía en un gas perfe
 (*) Sí además del trabajo :math:`—pdV` hay otras formas de trabajo cuasi-estático, la ecuación (3.23) se escribirá con más generalidad, en la forma :math:`dU = T dS + \sum_k Y_k dX_k`, siendo :math:`Y_kdX_k` cada uno de los posibles trabajos cuasi-estáticos (ver tema 2).
 
 Se podría actuar de forma análoga para obtener las correspondientes expresiones :math:`S= S(p, T)` y :math:`S=S(p, F)`. Es conveniente que realicen las transformaciones adecuadas a fin de obtener expresiones análogas a la (3.27) en función de las variables :math:`(p, T)` y :math:`(p, F)`.
-
-
