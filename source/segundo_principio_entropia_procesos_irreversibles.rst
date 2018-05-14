@@ -46,7 +46,7 @@ Si el sistema está aislado térmicamente. :math:`\delta Q = 0` y de (3.15.a) se
 
    \Delta S_{aisl} > 0
 
-Como el universo es en sí un sistema aislado, podemos afirmar que todos los procesos reales ocurren en el séntido de que la entropía del universo aumenta, lo cual marca un sentido a la evolución del mundo físico, hecho que se conoce como *principio del aumento de entropía*.
+Como el universo es en sí un sistema aislado, podemos afirmar que todos los procesos reales ocurren en el sentido de que la entropía del universo aumenta, lo cual marca un sentido a la evolución del mundo físico, hecho que se conoce como *principio del aumento de entropía*.
 
 Así pues, la forma matemática más sencilla del *segundo principio de la termodinámica* expuesto al principio del tema, puede ser la siguiente:
 
@@ -90,4 +90,3 @@ Si sustituimos en (3.19) :math:`\Delta S_{ext}` por su valor dado en (3.20), obt
    &= \sigma_s+\int_1^2 \frac{\delta Q}{T} - \sum_i \frac{Q_i}{T_i}
 
 (*) A esta última contribución a la variación de entropía de un sistema se la suele llamar **flujo de entropía**
-
