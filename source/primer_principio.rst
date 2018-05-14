@@ -126,27 +126,7 @@ Unidades:
    1bar = 10^5Pa\\
    \text{Presión atmosférica estándar: }1'01325bar
 
-Temperatura y Ley Cero
-----------------------
 
-Sean dos sistemas A y B con el mismo gas. A y B con la misma densidad :math:`rho`, presiones distintas y temperaturas distintas (lo sabemos tocándolo; no nos confundimos porque se trata de la misma sustancia y no de hierro y madera, por ejemplo).
-
-Los ponemos en contacto:
-
-a. :math:`P_A^{(1)} = P_A^{(2)}` y :math:`P_B^{(1)} = P_B^{(2)}`; paredes adibáticas: aislante térmico.
-b. :math:`P_A^{(2)} = P_B^{(2)}`; paredes diatérmanas (o diatérmicas): conductoras térmicas.
-
-Equilibrio térmico: estado que se mantiene independiente del tiempo
-
-.. note:: un material que sea conductor térmico lo será sean cuales sean las sustancias puestas en contacto.
-
-Los procesos rápidos serán adiabáticos. Los procesos lentos serán diatérmicos (equilbrio térmico con el medio ambiente).
-
-Principio cero de la termodinámica: A en equilibrio térmico con B y B en equilibrio térmico con C implica que A está en equilibrio térmico con C. (se observa empíricamente)
-
-Temperatura: característica o propiedad común que tienen dos sistemas en equilibrio térmico.
-
-Escala empírica de temperaturas:
 
 
 
