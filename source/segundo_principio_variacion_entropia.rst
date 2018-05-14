@@ -1,5 +1,5 @@
 Variación de entropía en sustancias incompresibles y en gases perfectos
------------------------------------------------------------------------
+=======================================================================
 
 Para calcular la variación de entropía de una sustancia determinada no hay más que aplicar la ecuación (3.23) reordenada en la forma:
 
