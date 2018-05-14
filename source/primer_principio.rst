@@ -186,34 +186,7 @@ Clasificación:
    Al proceder al estudio de un sistema, casi siempre se idealizará el conjunto. Se obtendrá un resultado aproximado al real. Así pues, el comportamiento real y el teórico podrían no coincidir. Esto implica que el modelo teórico estudiado es inadecuado.
 
 
-Propiedades, estados, procesos y equilibrio
--------------------------------------------
 
-Propiedades termodinámicas de un sistema (o variables de estado o variables termodinámicas): cualquier característica observable: masa, volumen, presión, temperatura.
-
-Sus valores se pueden obtener en cualquier momento sin tener en cuenta la historia del sistema. Características indirectamente observables son aquellas que podemos calcular mediante las directamente observables. No son propiedades ni el calor, ni el trabajo pues no es algo que sea propio del sistema, sino que se trata de transferencias energéticas.
-
-Matemáticamente:
-
-1. Sea :math:`x_1, ..., x_n` propiedades de un sistema que lo caracterizan.
-2. :math:`y=y(x_1, ..., x_n)`: "y" es una nueva propidad (función de estado).
-3. "y" es diferenciable:
-
-.. math::
-
-   dy = \sum \frac{\partial y }{\partial x_i} = dx_i
-
-4. "y" verifica Scwartz:
-
-.. math::
-
-   \frac{\partial^2y}{\partial x_i \partial x_j} = \frac{\partial^2y}{\partial x_j \partial x_i}
-
-Los puntos 3. y 4.: o sea, :math:`dy` es diferencial exacta. Esta condición se usará con frecuencia.
-
-Si "y" no fuese una propiedad no cumpliría 3. y 4..
-
-Cambio diferencial en una variable que no es una propiedad: :math:`\partial y = \sum z_i dx_i`, donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
 
 Estado: situación determinada en la que se halla un sistema, viene especificado por el valor de sus propiedades. El número de propiedades necesarios paradeterminar el estado de un sistema depende de su complejidad y como se verá al estudiar el Principio de Estado, se halla perfectamente determinado.
 
