@@ -24,7 +24,7 @@ Madrid, Julio 1994
 
    introduccion
    alcance_termodinamica
-   guion_introduccion_conceptos_definiones
+   conceptos
    guion_introduccion_metodo_termodinamico_estadistico
    guion_introduccion_presion
    guion_introduccion_ley_cero_temperatura
