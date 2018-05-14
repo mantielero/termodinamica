@@ -1,4 +1,4 @@
-Método termodinámico y metodo estadístico
+Método termodinámico y método estadístico
 -----------------------------------------
 
 El estudio de los procesos que tienen lugar en los sistemas macroscópicos, es decir, sistemas formados por un gran número de micro partículas (átomos, moléculas, iones, etc., dependiendo de la clase de sistema) puede abordarse siguiendo dos métodos:
