@@ -112,7 +112,10 @@ Así pues el no cumplimiento del enunciado de Clausius es lo mismo que el no cum
 
    Demostración de :math:`\bar{K}\Rightarrow\bar{C}`
 
-b)	De manera análoga podemos probar que :math:`(C\Rightarrow K) \Leftrightarrow (\bar{K}\Rightarrow\bar{C})`
+:math:`C\Leftarrow K`
+^^^^^^^^^^^^^^^^^^^^^
+
+De manera análoga podemos probar que :math:`(C\Rightarrow K) \Leftrightarrow (\bar{K}\Rightarrow\bar{C})`
 
 Para ello consideremos un motor que extrayendo la cantidad de calor :math:`(Q_1-Q_2)` de una fuente térmica a temperatura :math:`T_1` lo transforme íntegramente en trabajo :math:`(\bar{K})`.
 
