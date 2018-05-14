@@ -1,5 +1,5 @@
 Propiedades, estados, procesos y equilibrio
--------------------------------------------
+===========================================
 
 Para estudiar un determinado sistema lo primero que debe hacerse es proceder a su descripción y ello requiere el conocimiento de sus características propias, es decir, de sus propiedades.
 
