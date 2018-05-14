@@ -86,7 +86,7 @@ Si sustituimos en (3.19) :math:`\Delta S_{ext}` por su valor dado en (3.20), obt
 
 .. math::
 
-   \Delta S_{univ} &= \sigma_t = S_2 - S_1 - \sum_i \frac{Q_i}{T_i}  = \\
+   \Delta S_{univ} = \sigma_t &= S_2 - S_1 - \sum_i \frac{Q_i}{T_i}  = \\
    &= \sigma_s+\int_1^2 \frac{\delta Q}{T} - \sum_i \frac{Q_i}{T_i}
 
 (*) A esta última contribución a la variación de entropía de un sistema se la suele llamar **flujo de entropía**
