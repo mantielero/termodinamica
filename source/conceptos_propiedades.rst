@@ -1,15 +1,66 @@
 Propiedades, estados, procesos y equilibrio
 ===========================================
 
-Para estudiar un determinado sistema lo primero que debe hacerse es proceder a su descripción y ello requiere el conocimiento de sus características propias, es decir, de sus propiedades.
+Introducción
+------------
 
-También la predicción de la evolución del mismo requiere el conocimiento de las propiedades del sistema y de cómo estas se relacionan. ¿A qué se llaman propiedades de un sistema?
+Para estudiar un determinado sistema lo primero que debe hacerse es proceder a su descripción y ello requiere el conocimiento de sus características propias, es decir, sus propiedades.
 
-Se denominan propiedades termodinámicas de un sistema, o simplemente propiedades, a cualesquiera características macroscópicas observables tales como la masa, el volumen, la presión, la temperatura..., cuyos valores numéricos pueden asignarse en un momento dado sin 'tener en cuenta la historia del sistema. A veces se considera propiedad del sistema cualquier relación entre las propiedades directamente observables del mismo, tal como el producto de la presión y el volumen o la presión y la temperatura, etc. Tales propiedades pueden considerarse características indirectamente observables de un sistema. Teóricamente pueden definirse un gran número de propiedades, pero como se verá, sólo unas pocas resultan útiles. Conviene tener en cuenta que a las propiedades termodinámicas también se las conoce como variables termodinámicas o variables de estado.
+También la predicción de la evolución del mismo requiere el conocimiento de las propiedades del sistema y de cómo estas se relacionan.
+
+Propiedades
+-----------
+
+Propiedades termodinámicas de un sistema (o simplemente propiedades)
+    cualesquiera características macroscópicas observables tales como la masa, el volumen, la presión, la temperatura..., cuyos valores numéricos pueden asignarse en un momento dado sin tener en cuenta la historia del sistema. 
+
+.. note::
+
+   Conviene tener en cuenta que a las propiedades termodinámicas también se las conoce como variables termodinámicas o variables de estado.
+
+Sus valores se pueden obtener en cualquier momento sin tener en cuenta la historia del sistema. 
+
+
+Características indirectamente observables:
+   son aquellas que podemos calcular mediante las directamente observables. 
+
+A veces se considera propiedad del sistema cualquier relación entre las propiedades directamente observables del mismo, tal como el producto de la presión y el volumen o la presión y la temperatura, etc. Tales propiedades pueden considerarse *características indirectamente observables* de un sistema. 
+
+Teóricamente pueden definirse un gran número de propiedades, pero como se verá, sólo unas pocas resultan útiles. 
+
 
 Hay otro tipo de propiedades de un sistema que no son directamente observables y que se deducen de los principios de la termodinámica. En las lecciones correspondientes se verá cómo se introducen la energía interna, la entalpía, la entropía, etc., a partir de estos principios.
 
 En el estudio de la termodinámica también se encuentran magnitudes que no son propiedades, porque sus valores dependen de la trayectoria seguida por el sistema, pudiendo citar entre ellas las transferencias de energía, como son el calor y el trabajo.
+
+No son propiedades ni el calor, ni el trabajo pues no es algo que sea propio del sistema, sino que se trata de transferencias energéticas.
+
+
+Matemáticamente hablando
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sean:
+
+1. Sea :math:`x_1, ..., x_n` propiedades de un sistema que lo caracterizan.
+2. :math:`y=y(x_1, ..., x_n)`: "y" es una nueva propidad (función de estado).
+3. "y" es diferenciable:
+
+.. math::
+
+   dy = \sum \frac{\partial y }{\partial x_i} = dx_i
+
+4. "y" verifica Schwarz:
+
+.. math::
+
+   \frac{\partial^2y}{\partial x_i \partial x_j} = \frac{\partial^2y}{\partial x_j \partial x_i}
+
+Los puntos 3. y 4.: o sea, :math:`dy` es diferencial exacta. Esta condición se usará con frecuencia.
+
+Si "y" no fuese una propiedad no cumpliría 3. y 4..
+
+Cambio diferencial en una variable que no es una propiedad: :math:`\partial y = \sum z_i dx_i`, donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
+
 
 Todo lo dicho anteriormente podría sintetizarse utilizando un lenguaje matemático de la forma siguiente.
 
@@ -59,11 +110,27 @@ donde :math:`z_i` y :math:`x_i` son variables de estado para las que:
 
 por lo que :math:`\delta y` no es una diferencial exacta y su integral depende de la trayectoria (integral de línea).
 
+Estado
+------
+
+Situación determinada en la que se halla un sistema, viene especificado por el valor de sus propiedades. El número de propiedades necesarios paradeterminar el estado de un sistema depende de su complejidad y como se verá al estudiar el Principio de Estado, se halla perfectamente determinado.
+
+Si el valor de las propiedades es el mismo en dos instantes distintos, el sistema se encontrará en el mismo estado en los dos instantes (no nos importa lo que haya hecho entre esos instantes).
+
 El estado, o situación determinada en la que se halla un sistema, viene especificado por el valor de sus propiedades. Ya que hay numerosas relaciones entre las propiedades de un sistema particular, los valores de unas pocas propiedades identificarán completamente su estado, puesto que las otras propiedades pueden determinarse en función de estas pocas. El número mínimo de propiedades que hace falta para definir el estado de un sistema depende de su complejidad y como se verá al estudiar el Principio de Estado, se halla perfectamente determinado.
 
 Si un sistema tiene el mismo valor de sus propiedades en dos instantes diferentes, se dice que el sistema se encuentra en el mismo estado en estos dos instantes. Cuando cualquier propiedad cambia, el estado del sistema cambia y se dice que el sistema ha experimentado un proceso. Por lo tanto, un proceso es una transformación desde un estado a otro. Un sistema está en estado estacionario si ninguna de sus propiedades cambia con el tiempo.
 
 Entre los diversos procesos que puede experimentar un sistema, tiene especial interés el ciclo termodinámico. Se define el ciclo termodinámico como la secuencia de procesos experimentados por un sistema de forma que comienza y termina en el mismo estado. Por lo tanto, al final de un ciclo las propiedades del sistema son las mismas que al principio, es decir, en el ciclo no hay cambio neto del estado del sistema. Los ciclos juegan un gran papel en las aplicaciones de la termodinámica y la mayor parte de las instalaciones de potencia funcionan mediante ciclos repetidos en el tiempo. El funcionamiento de cualquier motor puede modelizarse según este proceso y el funcionamiento real de las plantas de vapor se representa perfectamente mediante este modelo.
+
+Proceso
+-------
+
+Cuando cambia el estado del sistema diremos que éste ha experimentado un proceso.
+
+Estado estacionario (equilibrio): secuencia de procesos experimentados por un sistema de forma que comienza y termina en el mismo estado.
+
+Propiedad: una magnitud determinada es una propiedad, sí y solo si, la variación de su valor al pasar de un estado a otro es independiente del proceso seguido.
 
 Como se ha dicho antes, en un estado dado cada propiedad tiene un valor definido que puede ser asignado sin saber cómo el sistema ha llegado a ese estado. Por lo tanto, el cambio en el valor de una propiedad, cuando el sistema es alterado para pasar de un estado a otro, se determina únicamente por los estados extremos y resulta independiente de la trayectoria particular seguida por el sistema en el cambio de estado. Es decir, el cambio es independiente de los detalles, o historia, del proceso. Recíprocamente, si la variación en el valor de una magnitud es independiente de la trayectoria del proceso entre dos estados, entonces aquella magnitud es una propiedad. Esto proporciona la prueba necesaria y suficiente para determinar si una magnitud es una propiedad: una magnitud determinada es una propiedad si, y solo si, la variación de su valor al pasar de un estado a otro es independiente del proceso seguido. Se sigue de esto que si el cambio en el valor de una magnitud depende de los detalles del proceso y no solamente de los estado extremos, la mencionada magnitud no es una propiedad termodinámica.
 
