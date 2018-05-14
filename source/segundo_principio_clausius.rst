@@ -13,6 +13,9 @@ Si las cantidades de calor son diferenciales y el proceso es cíclico:
 
     \displaystyle\oint\frac{\delta Q}{T} \leq 0
 
+Demostración
+------------
+
 Para demostrar esta desigualdad consideremos el sistema esquematizado en la figura 3.7a
 en la que diversas fuentes térmicas, a temperaturas :math:`T_1, T_2,...T_i...T_n`, intercambian calor con un sistema y éste produce un trabajo :math:`W_a` sin que haya incremento de su energía total.
 
@@ -154,4 +157,3 @@ Resolviendo y despejendo :math:`Q_1`, se obtiene: :math:`Q_1 = 0,416kJ`. Por lo 
 
 ¿Cuál sería el COP de la máquina frigorífica de Carnot que realizara la misma función
 que la máquina dada?
-
