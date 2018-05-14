@@ -1,14 +1,18 @@
 Procesos reversibles e irreversibles
 ====================================
 
-Ya se definió anteriormente el proceso reversible como aquel que ocurre de tal manera que tanto el sistema como el medio ambiente pueden ser devueltos a sus estados originales respectivos.
+Introducción
+------------
 
-Se plantea ahora la cuestión de si los procesos que ocurren en la naturaleza, y que son con los que trata la ingeniería y los que se van a estudiar en este curso, son reversibles o irreversibles. O dicho de otra forma, de lo que vamos a ocuparnos a continuación es examinar algunos de los factores que hacen que los procesos sean irreversibles.
+Ya se definió anteriormente el **proceso reversible** como aquel que ocurre de tal manera que tanto el sistema como el medio ambiente pueden ser devueltos a sus estados originales respectivos.
+
+Se plantea ahora la cuestión de si los procesos que ocurren en la naturaleza, y que son con los que trata la ingeniería y los que se van a estudiar en este curso, son reversibles o irreversibles. O dicho de otra forma, de lo que vamos a ocuparnos a continuación es examinar **algunos de los factores que hacen que los procesos sean irreversibles**.
 
 Clases de irreversibilidad
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
-1)	Irreversibilidad mecánica externa.
+Irreversibilidad mecánica externa
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Existen procesos en los que el trabajo realizado sobre el sistema se convierte en energía interna, bien de un fuente térmica, bien del propio sistema. Estos procesos, que se conocen con el sobrenombre de disipativos (decimos que en ellos se "disipa" energía), presentan, como vamos a ver, una irreversibilidad que denominaremos irreversibilidad mecánica externa. Conviene señalar que esta energía degradada (disipada) por fricción puede ser interna al sistema, aunque el agente productor de la energía mecánica que se disipa sea externo. El nombre de irreversibilidad mecánica externa hace referencia al hecho de que es la energía producida por un agente mecánico externo la que se disipa.
 
@@ -26,7 +30,8 @@ siempre que cada uno de los sistemas citados estén en contacto con un fuente t�
 
 Los ejemplos anteriormente citados, si se encuentran aislados térmicamente, nos sirven como ejemplos en los que el trabajo se convierte en energía interna del sistema.
 
-2)	Irreversibilidad mecánica interna.
+Irreversibilidad mecánica interna
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Se llamará así porque no hay ningún agente mecánico externo. Son procesos en los que la irreversibilidad es intrínseca al sistema; por ejemplo, la expansión adiabática en el vacío de un gas.
 
@@ -105,4 +110,3 @@ Examinando los ejemplos anteriormente citados podemos decir que la irreversibili
 Para que un proceso sea, pues, reversible han de cumplirse los fenómenos contrarios a los dichos arriba; esto es, ha de realizarse cuasi-estáticamente y no ha d ehaber efectos disipativos, con el objeto de que el trabajo realizado sobre un sistema durante el proceso pueda ser devuelto íntegramente en el proceso inverso.
 
 Las condiciones anteriores no son perfectamente realizables de modo que el proceso reversible es una abstracción que nos aproximará tanto más a la realidad cuanto en mayor parte se cumplan estas condiciones.
-
