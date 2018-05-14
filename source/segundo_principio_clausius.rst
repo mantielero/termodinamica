@@ -106,3 +106,9 @@ en donde :math:`Q_i` indica calor intercambiado por cada fuente con el sistema y
 
 Si invertimos el ciclo :math:`Q_i` cambiará de signo (al cambiar de sentido) por lo que el signo igual (=) es para procesos reversibles y el signo menor que (<) para procesos irreversibles.
 
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Ejemplos:
+   
+   segundo_principio_clausius_ejemplo
