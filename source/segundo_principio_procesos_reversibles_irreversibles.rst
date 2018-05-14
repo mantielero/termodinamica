@@ -85,11 +85,13 @@ válvula).
 - Chasquido de un alambre tenso después de cortado.
 - Desvanecimiento de una pompa de jabón después de pinchada.
 
-3)	Irreversibilidad térmica
+Irreversibilidad térmica
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Se da en los procesos en los que existe una transferencia de calor entre sistemas como consecuencia de una diferencia finita de temperaturas; por ejemplo la coducción o radiación de calor desde un sistema a otro más frío  o a través de un sistema (que permanece invariable), transferencia directa de calor entre dos fuentes térmicas a temperaturas distintas.
 
-4) Irreversibilidad química
+Irreversibilidad química
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Hay procesos en termodinámica de los que puede demostrarse, aunque generalmente no es sencillo, que presentan lo que llamaremos irreversibilidad química. Algunos de estos procesos son:
 
@@ -101,7 +103,7 @@ Hay procesos en termodinámica de los que puede demostrarse, aunque generalmente
 - Ósmosis.
 
 Condiciones necesarias para la reversibilidad
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------------------
 
 Prácticamente todos los procesos naturales pueden incluirse en alguna de las clasificaciones anteriores, por lo que puede afirmarse, como consecuencia del segundo principio de la termodinámica, que todos los procesos naturales son irreversibles.
 
