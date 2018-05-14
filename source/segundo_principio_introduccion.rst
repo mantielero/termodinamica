@@ -7,6 +7,10 @@ Como corolario de la primera ley de la termodinámica se obtiene para un sistema
 
     	 \displaystyle\oint \delta Q = - \displaystyle\oint \delta W
 
+.. note::
+
+   Esto es porque en un proceso cíclico el estado inicial y final es exactamente el mismo. Consecuentemente, su diferencia es cero.
+
 Así pues, la primera ley no impone ninguna restricción en las direcciones de los flujos de calor y trabajo. Esto es, un ciclo en el cual se transfiere desde un sistema una cantidad determinada de calor y a la vez se realiza sobre el sistema una cantidad igual del trabajo satisface la primera ley igual que un ciclo en el que el flujo de calor y el trabajo tuviesen los sentidos contrarios (el sistema recibe calor y realiza trabajo).
 
 Sin embargo, se sabe por experiencia que el hecho de que un ciclo propuesto no viole la primera ley, no nos asegura que ese ciclo pueda realizarse. Es esta evidencia experimental la que lleva a la formulación de la segunda ley de la termodinámica. Así un ciclo sólo se efectuará si se satisfacen a la vez las leyes primera y segunda de la termodinámica.
