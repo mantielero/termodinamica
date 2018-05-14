@@ -10,7 +10,7 @@ Según se vió en el tema 2, a partir del primer principio obtenemos para la evo
 
    dU = \delta Q -p dV
 
-De la ecuación (3.14) se deduce que, para el proceso de nuestro sistema, :math:`\delta Q = tdS`, por lo que podemos poner:
+De la ecuación (3.14) se deduce que, para el proceso de nuestro sistema, :math:`\delta Q = TdS`, por lo que podemos poner:
 
 .. math::
 
