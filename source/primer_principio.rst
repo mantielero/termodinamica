@@ -188,47 +188,11 @@ Clasificación:
 
 
 
-Estado
-^^^^^^
 
-Situación determinada en la que se halla un sistema, viene especificado por el valor de sus propiedades. El número de propiedades necesarios paradeterminar el estado de un sistema depende de su complejidad y como se verá al estudiar el Principio de Estado, se halla perfectamente determinado.
-
-Si el valor de las propiedades es el mismo en dos instantes distintos, el sistema se encontrará en el mismo estado en los dos instantes (no nos importa lo que haya hecho entre esos instantes).
-
-Proceso
-^^^^^^^
-
-Cuando cambia el estado del sistema diremos que éste ha experimentado un proceso.
-
-Estado estacionario (equilibrio): secuencia de procesos experimentados por un sistema de forma que comienza y termina en el mismo estado.
-
-Propiedad: una magnitud determinada es una propiedad, sí y solo si, la variación de su valor al pasar de un estado a otro es independiente del proceso seguido.
 
 Propiedades, estados, procesos y equilibrio
 -------------------------------------------
 
-Propiedades termodinámicas de un sistema (o variables de estado o variables termodinámicas): cualquier característica observable: masa, volumen, presión, temperatura.
 
-Sus valores se pueden obtener en cualquier momento sin tener en cuenta la historia del sistema. Características indirectamente observables son aquellas que podemos calcular mediante las directamente observables. No son propiedades ni el calor, ni el trabajo pues no es algo que sea propio del sistema, sino que se trata de transferencias energéticas.
 
-Matemáticamente:
 
-1. Sea :math:`x_1, ..., x_n` propiedades de un sistema que lo caracterizan.
-2. :math:`y=y(x_1, ..., x_n)`: "y" es una nueva propidad (función de estado).
-3. "y" es diferenciable:
-
-.. math::
-
-   dy = \sum \frac{\partial y }{\partial x_i} = dx_i
-
-4. "y" verifica Scwartz:
-
-.. math::
-
-   \frac{\partial^2y}{\partial x_i \partial x_j} = \frac{\partial^2y}{\partial x_j \partial x_i}
-
-Los puntos 3. y 4.: o sea, :math:`dy` es diferencial exacta. Esta condición se usará con frecuencia.
-
-Si "y" no fuese una propiedad no cumpliría 3. y 4..
-
-Cambio diferencial en una variable que no es una propiedad: :math:`\partial y = \sum z_i dx_i`, donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
