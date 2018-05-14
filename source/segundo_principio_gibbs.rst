@@ -16,4 +16,4 @@ De la ecuación (3.14) se deduce que, para el proceso de nuestro sistema, :math:
 
    dU = TdS -pdV
 
-Esta importante relación cono conoce con el nombre de ecuación de Gibbs y es ampliamente utilizada en termodinámica, como se verá a lo largo del curso (*).
+Esta importante relación se conoce con el nombre de ecuación de Gibbs y es ampliamente utilizada en termodinámica, como se verá a lo largo del curso (*).
