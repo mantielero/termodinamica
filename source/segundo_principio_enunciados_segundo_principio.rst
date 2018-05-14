@@ -35,7 +35,7 @@ Definiendo el *rendimiento del motor* como el cociente entre el trabajo que da e
 
    \eta_{mot} = \frac{W}{Q_1}
 
-y, del balance de energía aplicado al motor, se obtiene
+y, del balance de energía aplicado al motor (primer principio), se obtiene
 
 .. math::
 
@@ -52,7 +52,7 @@ En términos del rendimiento de un motor térmico el enunciado de Kelvin-Planck 
 Máquina refrigeradora
 ---------------------
 
-De manera análoga una *máquina refrigeradora*, figura 3.2 la definimos como un dispositivo que funciona según un ciclo termodinámico y que el trabajo que se le aporta lo invierte en extraer una cierta cantidad de calor :math:`Q_2` de una fuente a baja temperatura y ceder otra cantidad de calor :math:`Q_1` a otra fuente a temperatura mayor.
+De manera análoga, una *máquina refrigeradora* la definimos como un dispositivo que funciona según un ciclo termodinámico y que el trabajo que se le aporta lo invierte en extraer una cierta cantidad de calor :math:`Q_2` de una fuente a baja temperatura y ceder otra cantidad de calor :math:`Q_1` a otra fuente a temperatura mayor.
 
 .. figure:: img/2nd_principio_maquina_refrigeradora.png
    :width: 30%
