@@ -50,7 +50,9 @@ por lo que
 
 Es decir, la integral de :math:`\frac{\delta Q}{T}` no depende de la trayectoria elegida para la integración, sino únicamente de los estados inicial y final de la transformación. 
 
-De acuerdo a lo que dijimos en el tema 1 al definir una propiedad: una magnitud es una propiedad si y solo si el cambio en su valor entre dos estados de equilibrio es independiente del camino seguido en el proceso, :math:`\int_1^2 \frac{\delta Q}{T}` representa una propiedad del sistema. A esta propiedad se la denomina **entropía** y su variación entre dos estados de equilibrio viene dada por:
+De acuerdo a lo que dijimos en el tema 1 al definir una propiedad: una magnitud es una propiedad si y solo si el cambio en su valor entre dos estados de equilibrio es independiente del camino seguido en el proceso.
+
+Consecuentemente, :math:`\int_1^2 \frac{\delta Q}{T}` representa una propiedad del sistema. A esta propiedad se la denomina **entropía** y su variación entre dos estados de equilibrio viene dada por:
 
 .. math::
 
