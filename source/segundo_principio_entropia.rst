@@ -18,7 +18,7 @@ La **entropía** es una *propiedad del sistema* definida como:
 
 .. note::
 
-   Realmente hemos indicado la **variación de la entropía**. Esta fórmula es sólo para una transformación reversible.
+   Realmente hemos indicado la **variación de la entropía**. Esta fórmula es sólo válida para una transformación reversible.
 
 La unidad de la entropía en el sistema internacional es el :math:`J\cdot K^{-1}`. 
 
