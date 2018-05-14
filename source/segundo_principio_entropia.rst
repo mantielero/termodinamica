@@ -7,7 +7,7 @@ Definición
 La entropía es una *propiedad del sistema* definida como:
 
 
-. math::
+.. math::
 
    dS = \left. \frac{\delta Q}{T} \right)_R \text{ ó } \Delta S_{1-2} = \int_1^2 \left.\frac{\delta Q}{T}\right)_R
 
