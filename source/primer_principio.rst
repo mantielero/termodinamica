@@ -44,14 +44,12 @@ Principio de conservación de la energía para sistemas cerrados
    \delta E = W_{21}+Q_{12} \text{ , en donde } Q_{12} \text{ son }
 
 
-Fase y sustancia pura
----------------------
 
-Fase: sustancia homogénea en todos sus puntos, tanto en composición como en estructura física. Ojo: distinta fase no implica distintos estados de agregación (ej. tipos de hielo).
 
-Intefase: superficie de separación entre fases. Ojo: gases y líquidos misibles; por otro lado, se mezclan.
 
-Sustancia pura: aquella que tiene composición química definida. Por ejemplo: :math:`H_2O_{(l)}+H-2O_{v}`, aire seco (sólo si es estado gaseoso)
+Equilibrio
+----------
+
 
 Equilibrio termodinámico: equilibrio mecánico, equilibrio térmico, equilibrio de fase y equilibrio químico.
 
