@@ -76,8 +76,7 @@ El resultado neto de este ciclo es extraer calor de una sola fuente térmica y r
 Como ejemplos de irreversibilidad mecánica interna podemos citar:
 
 - Ondas de choque.
-- Procesos de estrangulación (gas que pasa a través de un tabique poroso o de una
-válvula).
+- Procesos de estrangulación (gas que pasa a través de un tabique poroso o de una válvula).
 - Chasquido de un alambre tenso después de cortado.
 - Desvanecimiento de una pompa de jabón después de pinchada.
 
