@@ -31,7 +31,8 @@ Madrid, Julio 1994
    introduccion_ley_cero_temperatura
    introduccion_ejercicios
    primer_principio
-   guion_segundo_principio
+   segundo_principio
+   segundo_principio_ejercicios
    guion_primer_segundo_principios
    guion_relaciones_termodinamicas_generalizadas
    guion_sistemas_homogeneos
