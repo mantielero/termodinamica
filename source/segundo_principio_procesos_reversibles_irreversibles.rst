@@ -58,7 +58,7 @@ Modificamos el sistema como se muestra en la figura 3.6, introduciendo una turbi
    :width: 50%
    :align: center
 
-   FIgura 3.6
+   Figura 3.6
 
 
 A partir del estado final de la expansión libre, esto es, partiendo del gas ocupando todo el volumen, con las modificaciones dichas, permitimos que el gas realice un ciclo siguiendo los siguientes procesos:
@@ -88,7 +88,12 @@ válvula).
 Irreversibilidad térmica
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Se da en los procesos en los que existe una transferencia de calor entre sistemas como consecuencia de una diferencia finita de temperaturas; por ejemplo la coducción o radiación de calor desde un sistema a otro más frío  o a través de un sistema (que permanece invariable), transferencia directa de calor entre dos fuentes térmicas a temperaturas distintas.
+Se da en los procesos en los que existe una transferencia de calor entre sistemas como consecuencia de una diferencia finita de temperaturas.
+
+Por ejemplo: 
+
+- la conducción o radiación de calor desde un sistema a otro más frío  o a través de un sistema (que permanece invariable)
+- transferencia directa de calor entre dos fuentes térmicas a temperaturas distintas.
 
 Irreversibilidad química
 ^^^^^^^^^^^^^^^^^^^^^^^^
