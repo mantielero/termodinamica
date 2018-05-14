@@ -20,9 +20,9 @@ La **entropía** es una *propiedad del sistema* definida como:
 
    Realmente hemos indicado la **variación de la entropía**. Esta fórmula es sólo válida para una transformación reversible.
 
-La unidad de la entropía en el sistema internacional es el :math:`J\cdot K^{-1}`. 
+La unidad de la entropía en el sistema internacional es el :math:`\frac{J}{K}`. 
 
-Es una magnitud extensiva, de modo que podemos definir la entropía específica :math:`s =\frac{S}{m}` ó :math:`s =\frac{S}{n}` si se toma la unidad de masa o la unidad de sustancia siendo, entonces, las unidades de la entropía específica  :math:`J\cdot kg^{-1}\cdot K^{-1}` ó :math:`J\cdot mol^{-1}\cdot K^{-1}`.
+Es una magnitud extensiva, de modo que podemos definir la entropía específica :math:`s =\frac{S}{m}` ó :math:`s =\frac{S}{n}` si se toma la unidad de masa o la unidad de sustancia siendo, entonces, las unidades de la entropía específica  :math:`\frac{J}{K \cdot Kg}` ó :math:`\frac{J}{K \cdot mol}``.
 
 .. warning::
 
