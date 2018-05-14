@@ -30,7 +30,7 @@ Madrid, Julio 1994
    guion_introduccion_presion
    guion_introduccion_ley_cero_temperatura
    guion_introduccion_ejercicios
-   guion_primer_principio
+   primer_principio
    guion_segundo_principio
    guion_primer_segundo_principios
    guion_relaciones_termodinamicas_generalizadas
