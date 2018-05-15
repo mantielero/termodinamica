@@ -34,17 +34,26 @@ que referida a la unidad de masa o a la unidad de sustancia se escribe:
 
    ds = \frac{du+pdv}{T}
 
-Para sustancias incompresibles :math:`dv = 0` y :math:`du = cdT` siendo c el calor específico de la sustancia incompresible. Con esto la ecuación (3.24.b) queda:
+En el caso de sustancias incompresibles:
+.. math::
+   
+   dv &= 0 \\
+   du &= cdT
+
+siendo :math:`c` el calor específico de la sustancia incompresible. 
+
+Con esto la ecuación de Gibbs queda:
 
 .. math::
 
    ds = c\frac{dT}{T} \rightarrow s_2-s_1 = c \ln \frac{T_2}{T_1} \hspace{2cm}  \left[\frac{J}{kg \cdot K}\right]
 
-Para el modelo de gas perfecto:
+En el caso del modelo de gas perfecto:
 
 .. math::
 
-   du = c_v dT \text{  y  } p=R_g\frac{T}{v}
+   du &= c_v dT \\
+   p &= R_g\frac{T}{v}
 
 con :math:`c_v` constante. Así pues, la variación de entropía en un gas perfecto se obtendrá sustituyendo en (3.24) las relaciones (3.26) e integrando entre el instante inicial y final obteniendo:
 
