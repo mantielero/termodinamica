@@ -8,12 +8,6 @@ Primer y Segundo Principios Aplicados a Sistemas Abiertos
 
    5. PRINCIPIOS PRIMERO Y SEGUNDO APLICADOS A SISTEMAS ABIERTOS::
 
-      5.1.- Introducción.
-      5.1.1.	- Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto.
-      5.1.2.	- Conservación de la masa..
-      5.2.	- Formulación del primer principio vara sistemas abiertos.
-      5.2.1.	-Procesos de flujo estacionario.
-      5.2.2.	-Trabajo mecánico en flujo estacionario.
       5.3.	- Ecuación del sesundo principio para sistemas abiertos.
       5.4.	- Magnitudes de remanso.
       5.5.	- Análisis de turbinas, bombas, compresores, difusores y toberas.
