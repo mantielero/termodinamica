@@ -17,17 +17,7 @@ Emilio Navarro Arévalo.
    vapores_aire_humedo
    vapores_propiedades_termodinamicas
    vapores_saturacion
+   vapores_mollier
    vapores_acondicionamiento_aire
    vapores_torres
-
-
-TEMA 10
-MEZCLAS DE GASES Y VAPORES. PSICROMETRIA
-
-
-10.5 Diagramas de Mollier y psicrométrico del aire húmedo.	13
-10.6	Exergía del aire húmedo.	16
-
-
-
 
