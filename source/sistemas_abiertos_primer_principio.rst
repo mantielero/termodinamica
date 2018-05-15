@@ -258,7 +258,7 @@ Si sólo hay una corriente de entrada y otra de salida:
 donde :math:`q` y :math:`w_x` representan el calor específico (por unidad de masa) y el trabajo específico suministrados a través de las fronteras impermeables del sistema.
 
 
-Variaciones periódicas en el estado dentro de :math:`\Omega` se pueden explicar también mediante las ecuaciones (4.10) y (4.11). Si los estados del fluido en todos los puntos dentro del volumen de control, periódica y simultáneamente, se hacen idénticos a estados previamente existentes en aquellos puntos, entonces estas ecuaciones también son aplicables sobre un conjunto de períodos completos. Así, estas ecuaciones se aplican tanto a una turbina como a un motor alternativo.
+Variaciones periódicas en el estado dentro de :math:`\Omega` se pueden explicar también mediante las ecuaciones (4.10) y (4.11). Si los estados del fluido en todos los puntos dentro del volumen de control, periódica y simultáneamente, se hacen idénticos a estados previamente existentes en aquellos puntos, entonces estas ecuaciones también son aplicables sobre un conjunto de períodos completos. Así, **estas ecuaciones se aplican tanto a una turbina como a un motor alternativo**.
 
 Para el flujo estacionario la ecuación (4.7) se reduce a:
 
