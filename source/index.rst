@@ -33,7 +33,7 @@ Madrid, Julio 1994
    primer_principio
    segundo_principio
    segundo_principio_ejercicios
-   primer_segundo_principios
+   exergia
    guion_relaciones_termodinamicas_generalizadas
    guion_sistemas_homogeneos
    guion_equilibrio
