@@ -36,7 +36,7 @@ Madrid, Julio 1994
    sistemas_abiertos
    exergia
    rtg
-   guion_sistemas_homogeneos
+   homogeneos
    guion_equilibrio
    guion_sistemas_multicomponentes
    guion_mezcla_gases_vapores
