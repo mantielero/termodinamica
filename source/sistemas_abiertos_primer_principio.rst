@@ -154,7 +154,7 @@ Para el flujo estacionario la ecuación (4.7) se reduce a:
 
 .. math::
 
-   \sum_k \textbf{V_k} \cdot \textbf{n} a_k \rho_k = 0
+   \sum_k \boldsymbol{V_k} \cdot \boldsymbol{n} a_k \rho_k = 0
    
 Cuando sólo hay una corriente de entrada y otra de salida con velocidad constante en cada sección normal al úrea tendremos:
 
