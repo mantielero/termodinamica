@@ -1,13 +1,13 @@
 Formulación del primer principio para sistemas abiertos
 -------------------------------------------------------
 
-Consideremos un sistema A (esquematizado en la figura 4.1) definido por una frontera perfectamente determinada fi y un elemento diferencial de masa adyacente dm.
+Consideremos un sistema A (esquematizado en la figura 4.1) definido por una frontera perfectamente determinada :math:`Omega` y un elemento diferencial de masa adyacente :math:`dm`.
 
-Instante t	Instante t + delta t
+FIGURA: Instante t	Instante t + delta t
 
 Figura 4.1 Masa de control elegida para aplicar el primer principio a sistemas abiertos.
 
-Si dm puede pasar a través de 0 al interior del volumen de control y es p la presión que el medio exterior ejerce sobre ella mientras cruza la frontera, la interacción trabajo será igual a:
+Si :math:`dm` puede pasar a través de :math:`Omega` al interior del volumen de control y es :math:`p` la presión que el medio exterior ejerce sobre ella mientras cruza la frontera, la interacción trabajo será igual a:
 
 .. math::
 
