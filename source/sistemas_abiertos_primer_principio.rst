@@ -243,7 +243,7 @@ Proceso de flujo estacionario
 
 Un caso especial, y que es el que más frecuentemente se considera, es flujo estacionario. Por este nombre entendemos que el estado del fluido en cualquier punto dentro del volumen de control es el mismo a lo largo del tiempo, aunque, como ya se ha dicho, el estado del fluido cambia de una a otra sección del volumen de control. El estado de un sistema abierto para el que esta suposición se cumple se denomina **estado estacionario**.
 
-La condición de estado estacionario requiere que *dE* sea cero, por lo que (4.6) se simplifica y puede expresarse mediante:
+La condición de estado estacionario requiere que *dE* sea cero, por lo que las ecuaciones anteriores se simplifican. Podemos expresar:
 
 .. math::
 
