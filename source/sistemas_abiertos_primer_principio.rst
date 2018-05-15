@@ -43,7 +43,7 @@ esto es, tiene en cuenta toda la energía que tiene ese fluido:
 
     **sólo es aplicable a sistemas cerrados** (no puede aplicarse a volúmenes de control o sistemas abiertos).
     
-    Tampoco es aplicable a estos sistemas la primera ley en la forma:
+    Tampoco es aplicable a estos sistemas la primera ley en la siguiente forma (aplicable a sistemas cíclicos):
 
     .. math::
 
