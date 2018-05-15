@@ -11,7 +11,7 @@ Teresa Leo Mena
    :caption: Contenido:
    
    equilibrio_introduccion
-
+   equilibrio_criterios
 
 
 
