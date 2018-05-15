@@ -23,7 +23,7 @@ Ahora bien:
 
 .. math::
 
-   V_{sis(t)} &= V_{\Omega} - V_{dm}
+   V_{sis(t)} &= V_{\Omega} - V_{dm} \\
    V_{sis(t+\Delta t)} &= V_{\Omega} 
    
 pues el proceso de introducir la masa dentro :math:`\Omega` ha finalizado, por lo tanto :math:`dV_{sis}` queda:
