@@ -10,6 +10,7 @@ Pablo de Assas Marinez de Morentin
    :maxdepth: 1
    :caption: Contenido:
    
+   multicomponentes_gases_ideales
    multicomponentes_gases_reales
 
 
