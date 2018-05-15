@@ -1,5 +1,23 @@
 Formulación del primer principio para sistemas abiertos
--------------------------------------------------------
+=======================================================
+
+El primer principio aplicado a sistemas abiertos (esto es, a un volumen de control) será:
+
+.. math::
+
+   E_2 - E_1 = Q + W_x + \sum_k \int {h_t}_k dm_k
+
+es decir, el incremento de energía en ese volumen de control se debe a:
+
+* el calor aplicado sobre él
+* el trabajo en el eje aplicado sobre él
+* la suma de las entalpías totales de la materia que entra y la resta de las entalpías totales de la materia que sale
+
+
+
+
+Demostración
+------------
 
 Consideremos un sistema A (esquematizado en la siguiente figura) definido por una frontera perfectamente determinada :math:`\Omega` y un elemento diferencial de masa adyacente :math:`dm`.
 
