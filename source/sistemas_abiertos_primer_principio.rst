@@ -177,6 +177,10 @@ Consecuentemente, el flujo másico que entra/sale del volumen de control, se cal
 
    \dot{m}_\Omega = -\sum_k \boldsymbol{\nu_k} \cdot \boldsymbol{n} a_k \rho_k
 
+.. note::
+
+   El signo negativo viene porque el flujo másico que entra al volumen de control (positivo) tiene sentido opuesto al vector normal.
+
 (ya que se considera positiva la masa que entra) en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k` en la que la velocidad es :math:`\boldsymbol{V_k}` y :math:`\rho_k` es la densidad del fluido en :math:`a_k`.
 
 La expresión (4.5) podemos referirla a la unidad de tiempo:
