@@ -6,6 +6,11 @@ Antonio Sánchez Sánchez
 
 Pablo de Assas Marinez de Morentin
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Contenido:
+   
+   multicomponentes_gases_reales
 
 
 TEMA 9
@@ -983,109 +988,3 @@ i=i
 
 
 
-Mezcla de gases reales
-----------------------
-
-Cuando los componentes de la mezcla no pueden ser tratados como gases ideales el problema de dar una ecuación térmica de estado para la mezcla o de calcular las variaciones de energía interna, entalpia o entropía que experimenta la mezcla en un proceso se complica sobremanera. Se pueden distinguir dos casos:
-a)	El comportamiento de cada componente de la mezcla es el que corresponde a un gas real y su influencia sobre los otros componentes es apreciable, en cuyo caso tendremos una mezcla real de gases reales.
-b)	Cada componente se comporta como gas real, pero su interacción con los restantes componentes es despreciable. Se tendrá en este caso una mezcla ideal de gases reales.
-28
-Sistemas multicomponentes. Mezcla no reactiva de gases
-El estudio que se realiza a continuación se centrará es este segundo caso, ya que la aplicación de la adecuada ecuación de estado a cada componente, o bien el método de los estados correspondientes, permiten estimar con suficiente precisión tanto la ecuación térmica de estado como la variación de las distintas propiedades trmodinámicas.
-9.7.1	Relaciones p, v, T para mezclas de gases reales
-A la hora de dar una ecuación térmica de estado para una mezcla de gases reales utilizando el método de estados correspondientes (o cualquier ecuación térmica de estado), nos encontramos con dos alternativas. 0 generalizamos la ley de Dalton en lo que se conoce como ley de aditividad de la presiones o lo hacemos con la ley de Amagat, ley de la aditividad de los volúmenes.
-La primera es simplemente decir que la presión de la mezcla es la suma de las presiones de cada uno de los componentes suponiendo que cada uno de ellos ocupa él solo todo el volumen a la temperatura de la mezcla. Esto es:
-k
-P=Y.p'
-«=i
-V,T
-A partir del modelo de estados correspondientes p¿
-n{ZiRT ,
-—y—, luego
-(9.70)
-RTX- 7
-V=—^niZi
-«=1
-V,T
-nRT
-V
-nRT
-
-¿=i
-V,T
-(9.71)
-k
-donde se ha puesto que ^^XíZí) v t = Zm. El subídice (V,T) se ha puesto para destacar
-t=i
-el que cada se debe calcular para el volumen total y temperatura de la mezcla, esto es, Z{ = Zí(v'rí,Trí). El problema de esta aproximación de la ley de aditividad de las presiones es que en muchos casos, en concreto en todos aquellos en los que no se conozca la densidad o el volumen molar de cada componente, es preciso un método iterativo ya que los son función de v'Ri — c* *, Trí = —— y se desconocen, en principio, los valores de v'Ri. También es necesario
-m ci	ci
-utilizar un método iterativo si el estado termodinàmico viene determinado por la temperatura y la presión.
-La generalización de la ley de Dalton predice, a bajas presiones, valores del factor de compresibilidad de la mezcla mayores que los obtenidos experimentalmente, mientras que a altas presiones los predice algo menores. Este inconveniente se obvia utilizando lo que se conoce como regla de Bartlett de la aditividad de las presiones. Esta regla no es más que una modificación de la de Dalton generalizada, modificación consistente en utilizar, al evaluar los Zt, el volumen molar de la mezcla en lugar del volumen molar del componente; esto es, Zt = Z{(v'Rm, Tr¿) con
-Sisteméis multicomponentes. Mezcla, no reactiva de gases
-29
-/	__ Pci^m
-VRm’i ~ RTci '
-La generalización de la regla de Amagat conduce, como ya se ha indicado, a la ley de la adi-tividad de los volúmenes que puede utilizarse como método de aproximación al comportamiento de las mezclas de gases reales. Esta ley establece que:
-k
-V = YJ^i	(9.72)
-1=1
-Si recordamos (9.47) vemos que esta aproximación es simplemente suponer que la mezcla es ideal. El hecho de que los componentes no se comporten como gases ideales nos lleva a dar, al igual que con la ley de la aditividad de las presiones, a cada componente el modelo de estados correspondientes obteniendo para el factor de compresibilidad de la mezcla:
-k
-Y*XiZi)P,T = Zm	(9‘73)
-i'=l
-P	T
-En este caso los Z, se calculan con pr¡ = —, Trí = —. Esta generalización de la regla de
-Pci	Tci
-Amagat conduce a mejores resultados, cuando las presiones son altas, que la generalización de la regla de Dalton.
-Existe otro método apropiado para determinar el factor de compresibilidad para una mezcla, que es el conocido como regla de Kay. Para calcular el factor de compresibilidad de la mezcla con la regla de Kay se define lo que se llama temperatura pseudocritica y presión pseudocrítica a partir de los valores de la temperatura y presión críticas de cada uno de los componentes de la mezcla. Estos valores pseudocríticos se definen de la forma:
-k
-T'c = X>Tc,
-¿=i
-k
-p'c = x'pci i = 1
-El factor de compresibilidad de la mezcla será, pues
-(9.74)
-(9.75)
-Una vez calculado el factor de compresibilidad, la ecuación térmica de estado para la mezcla es:
-pV- ZmnRT
-9.7.2	Propiedades termodinámicas para mezclas de gases reales
-A la hora de calcular las variaciones de energía interna, entalpia y entropía de una mezcla ideal de gases reales hay que tener en cuenta el modelo elegido para determinar la ecuación
-30
-Sistemas multicomponentes. Mezcla no reactiva de gases
-térmica de estado de cada componente, ya que debe existir coherencia entre ese modelo térmico y el que se utilice para calcular las variaciones de esas propiedades termodinámicas.
-Cualquier modelo de los estudiados anteriormente para determinar la ecuación térmica de estado involucra el modelo de estados correspondientes por lo que vamos a ver si podemos aplicar este modelo para calcular AU, AH e AS de la mezcla.
-Para obtener la ecuación generalizada de la variación de entalpia para un gas se partía de la ecuación (6.9):
-dh = T ds + v dp
-Si esta ecuación la escribimos para la mezcla tendremos:
-(6.9)
-dhm — Tmdsm I- vmdpm
-(9.76)
-Por tratarse de una mezcla ideal, se verifican las ecuaciones (9.65) y si durante el proceso no varía la composición de la mezcla podremos escribir la ecuación anterior en la forma:
-o
-(9.77.a)
-y por lo tanto:
-k
-^ ^ Xj (dhj Tmdsi v¡dpm) — 0 ¿=i
-(9.77.b)
-dhi = Tmdsi + Vidpm	(9.78)
-Vemos que este resultado, formalmente idéntico al dado en (6.9), es la ecuación que se utilizaría para desarrollar la correspondiente expresión generalizada para cada uno de los componentes de la mezcla por separado. Es importante destacar que en la ecuación aparece la variación de la presión de la mezcla y no la del componente. Así pues, podremos utilizar los diagramas generalizados para la corrección de la entalpia y entropía por efecto de compresibilidad utilizando la presión de la mezcla para calcular la presión reducida de cada componente de la mezcla. Esto es, podremos poner para la mezcla:
-Ah = X{Ahi
-k
-As = ^ X{Así
-(9.79)
-t=i
-conAhi = Ah;-Ahf!(^,£)+Ahf1(^,^),eAsi = As--Así2(^,£)+As;¡(!!l-,£-),
-Pci ci	Pci -*■ ci	Pci ci	Pci -*■ ci
-siendo (P2,?2) el estado final del proceso y (pi,!)) el estado inicial del mismo. Nótese que al ser
-Sistemas multicomponentes. Mezcla no reactiva de gases
-31
-un proceso en el que no varía la composición de la mezcla el término ASmezcia de la expresión de la variación de entropía se anula.
-Hay que resaltar el hecho de que en la forma en que se han deducido las expresiones (9.76) a (9.78) subyace la hipótesis de la ley de aditividad de los volúmenes, de modo que la ley de aditividad de las presiones no es válida para calcular las variaciones de energía interna, entalpia y entropía de una mezcla ideal de gases reales utilizando el modelo de estados correspondientes.
-También puede utilizarse el modelo de Kay para calcular las variaciones de las propiedades termodinámicas de las que nos estamos ocupando. En este caso la mezcla se considera como un único gas real que tuviese como valores críticos de presión y temperatura los dados por (9.74), siendo en este caso las variaciones de entalpia y entropía:
-(9.80)
-(9.81)
-Si de una mezcla de gases reales conocemos la temperatura, tanto la inicial como la final del proceso, y el volumen final, para poder utilizar las expresiones (9.80) o (9.81), es preciso
-k
-primero estimar pm =	mediante la ley de la aditividad de las presiones y una vez obtenida,
-¿ = 1
-ya podemos utilizar esas expresiones.
