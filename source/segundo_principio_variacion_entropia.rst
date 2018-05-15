@@ -35,6 +35,7 @@ que referida a la unidad de masa o a la unidad de sustancia se escribe:
    ds = \frac{du+pdv}{T}
 
 En el caso de sustancias incompresibles:
+
 .. math::
    
    dv &= 0 \\
