@@ -303,7 +303,7 @@ De acuerdo con la ecuación (4.11), el balance de energía en un sistema en rég
 
    \partial q + \partial w_x = du + d(pv) + d(e_c) + d(e_p)
 
-si despreciamos otras formas dé energía. (Esto no restringe el resultado final, como ya veremos). Podemos considerar otro punto de vista igualmente válido. Supongamos que otro observador viaja sobre el elemento de masa a través del sistema en flujo estacionario desde la entrada a la salida. En este caso el sistema será la unidad de masa de control, y no el volumen de control, por lo que es válido un análisis como sistema cerrado. Si un elemento de masa experimenta un
+si despreciamos otras formas de energía. (Esto no restringe el resultado final, como ya veremos). Podemos considerar otro punto de vista igualmente válido. Supongamos que otro observador viaja sobre el elemento de masa a través del sistema en flujo estacionario desde la entrada a la salida. En este caso el sistema será la unidad de masa de control, y no el volumen de control, por lo que es válido un análisis como sistema cerrado. Si un elemento de masa experimenta un
 cambio sin fricción, el balance de energía sobre la unidad de masa está dado por:
 
 .. math::
