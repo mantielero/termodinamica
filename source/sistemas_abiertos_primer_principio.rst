@@ -64,7 +64,7 @@ por lo que:
 
 .. math::
 
-   dE &= \delta Q + \delta W_x + (h+\frac{v^2}{2} +gz) dm \\
+   dE &= \delta Q + \delta W_x + \left(h+\frac{v^2}{2} +gz\right) dm \\
       &= \delta Q + \delta W_x + h_t dm
       
 Para la transferencia de una masa finita a través de :math:`\Omega`, los términos de la ecución (4.5) pueden ser sumados para todos los elementos en los que puede considerarse descompuesta la masa finita. Si un elemento de masa pasa a través de :math:`\Omega` hacia afuera, entonces :math:`dm` es negativo y :math:`h_t` es su entalpia por unidad de masa cuando emerge (es decir sobre la frontera :math:`\Omega`). Así:
