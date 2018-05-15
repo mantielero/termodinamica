@@ -4,7 +4,10 @@ Formulación del primer principio para sistemas abiertos
 Consideremos un sistema A (esquematizado en la figura 4.1) definido por una frontera perfectamente determinada :math:`\Omega` y un elemento diferencial de masa adyacente :math:`dm`.
 
 .. figure:: img/figura4-1.png
-   :caption: Masa de control elegida para aplicar el primer principio a sistemas abiertos.
+   :width: 80%
+   :align: center
+   
+   Masa de control elegida para aplicar el primer principio a sistemas abiertos.
 
 Si :math:`dm` puede pasar a través de :math:`\Omega` al interior del volumen de control y es :math:`p` la presión que el medio exterior ejerce sobre ella mientras cruza la frontera, la interacción trabajo será igual a:
 
