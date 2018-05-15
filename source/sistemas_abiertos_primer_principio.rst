@@ -3,7 +3,7 @@ Formulación del primer principio para sistemas abiertos
 
 Consideremos un sistema A (esquematizado en la figura 4.1) definido por una frontera perfectamente determinada :math:`\Omega` y un elemento diferencial de masa adyacente :math:`dm`.
 
-.. figure:: img/figura4-1.png
+.. figure:: ./img/figura4-1.png
    :width: 80%
    :align: center
    
