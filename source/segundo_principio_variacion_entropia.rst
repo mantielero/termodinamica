@@ -61,6 +61,12 @@ con :math:`c_v` constante. Así pues, la variación de entropía en un gas perfe
 
    s_2-s_1 = c_v \ln \frac{T_2}{T_1} + R\ln \frac{v_2}{v_1} \text{   } (J\cdot kg^{-1} \cdot K^{-1})
 
-(*) Sí además del trabajo :math:`—pdV` hay otras formas de trabajo cuasi-estático, la ecuación (3.23) se escribirá con más generalidad, en la forma :math:`dU = T dS + \sum_k Y_k dX_k`, siendo :math:`Y_kdX_k` cada uno de los posibles trabajos cuasi-estáticos (ver tema 2).
+Sí además del trabajo :math:`—pdV` hay otras formas de trabajo cuasi-estático, la ecuación (3.23) se escribirá con más generalidad, en la forma:
+
+.. math::
+
+   dU = T dS + \sum_k Y_k dX_k
+   
+siendo :math:`Y_kdX_k` cada uno de los posibles trabajos cuasi-estáticos (ver tema 2).
 
 Se podría actuar de forma análoga para obtener las correspondientes expresiones :math:`S= S(p, T)` y :math:`S=S(p, F)`. Es conveniente que realicen las transformaciones adecuadas a fin de obtener expresiones análogas a la (3.27) en función de las variables :math:`(p, T)` y :math:`(p, F)`.
