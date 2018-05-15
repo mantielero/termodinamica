@@ -736,5 +736,6 @@ Es decir, podemos relacionar el cociente de calores específicos con el cociente
 .. toctree::
    :maxdepth: 1
    :caption: Contenido:
-   
+
+   rtg_JT_JK
    rtg_ejercicios
