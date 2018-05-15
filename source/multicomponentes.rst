@@ -26,8 +26,7 @@ Introducción : descripción de la mezcla.	1
 9.3.2	Evaluación de la fugacidad para gases a partir de datos p, v, T.	12
 9.3.3	Evaluación de la fugacidad cuando el sistema se presenta como líquido o sólido. 13
 9.3.4	Sistemas multicomponentes.	15
-9.4	Disolución ideal	17
-9.4.1	Potencial químico para disoluciones ideales.	19
+
 
 
 
