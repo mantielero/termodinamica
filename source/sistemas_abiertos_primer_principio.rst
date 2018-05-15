@@ -161,11 +161,15 @@ podemos expresar la velocidad a la que gana masa el interior de :math:`\Omega` e
 
 .. math::
 
-   \boldsymbol{a_k} &= \text{ los vectores área de la superficie de entrada} \\
+   \boldsymbol{a_k} &= \boldsymbol{n} \cdot a_k = \text{ vectores área de la superficie de entrada} \\
    \boldsymbol{\nu} &= \text{ velocidad} \\
    \rho &= \text{ densidad }
    
 en los puntos donde el fluido cruza la superficie
+
+.. note::
+
+   Los vectores área son paralelos al vector normal en la superficie.
 
 
 tendremos:
