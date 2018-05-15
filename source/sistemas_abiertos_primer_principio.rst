@@ -60,6 +60,18 @@ A la magnitud :math:`e + pv` se la denomina entalpía total, :math:`h_t`, y si d
 
    e = u+\frac{\nu^2}{2} + gz
 
+.. note::
+
+   Volumen específico: :math:`v`
+   
+   Velocidad: :math:`\nu`
+
+.. note::
+
+   Entalpía: :math:`h = u+pv`
+   
+   Entalpía total: :math:`h_t=e+pv`
+
 por lo que:
 
 .. math::
