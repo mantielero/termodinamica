@@ -230,7 +230,10 @@ En esta ecuación **q** y **V** representan el vector flujo de calor y el vector
 
    pues quedarían sin considerar los términos correspondientes al flujo músico. 
    
-   Por el contrario, tanto las expresiones (4.6) como (4.8.a) serían aplicables a masas de control sin más que considerar nulos los correspondientes flujos másicos.
+
+.. note::
+
+   La formulación obtenida para sistemas abiertos (volúmenes de control) sí es aplicable a sistemas cerrados (masas de control). Basta con considerar nulos los correspondientes flujos másicos.
 
 Proceso de flujo estacionario
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
