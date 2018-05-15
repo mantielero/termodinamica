@@ -6,7 +6,7 @@ Se calcula mediante:
 
 .. math::
 
-   s_2-s_1 = c_v \ln \frac{T_2}{T_1} + R\ln \frac{v_2}{v_1} \hspace{2cm} (\frac{J}{kg \cdot K})
+   s_2-s_1 = c_v \ln \frac{T_2}{T_1} + R\ln \frac{v_2}{v_1} \hspace{2cm} \left[\frac{J}{kg \cdot K}\right]
    
 Demostración
 ------------
@@ -28,7 +28,7 @@ Para sustancias incompresibles :math:`dv = 0` y :math:`du = cdT` siendo c el cal
 
 .. math::
 
-   ds = c\frac{dT}{T} \rightarrow s_2-s_1 = c \ln \frac{T_2}{T_1} \hspace{2cm}  (frac{J}{kg \cdot K})
+   ds = c\frac{dT}{T} \rightarrow s_2-s_1 = c \ln \frac{T_2}{T_1} \hspace{2cm}  \left[\frac{J}{kg \cdot K}\right]
 
 Para el modelo de gas perfecto:
 
