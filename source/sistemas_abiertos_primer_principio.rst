@@ -215,10 +215,13 @@ Otra forma más general de expresar la ecuación anterior sería:
 
 .. math::
 
-   \int_V \frac{\partial(\rho e)}{\partial t} dV = -\int_{\Omega} \textbf{q} \cdot \textbf{n} da + \dot{W_x} - \int_{\Omega} \rho h_t \textbf{V} \cdot \textbf{n} da
+   \int_V \frac{\partial(\rho e)}{\partial t} dV = -\int_{\Omega} \boldsymbol{q} \cdot \boldsymbol{n} da + \dot{W_x} - \int_{\Omega} \rho h_t \boldsymbol{\nu} \cdot \boldsymbol{n} da
 
+en donde:
 
-En esta ecuación **q** y **V** representan el vector flujo de calor y el vector velocidad respectivamente, correspondientes a cada elemento de área en los que pueden definirse. Como siempre **n** es el vector unitario normal a la superficie del volumen de control y dirigido hacia el exterior de éste.
+- :math:`\boldsymbol{q}`: vector flujo de calor
+- :math:`\boldsymbol{\nu}`: vector velocidad 
+- :math:`\boldsymbol{n}`: vector unitario normal a la superficie del volumen de control y dirigido hacia el exterior de éste
 
 .. warning::
 
