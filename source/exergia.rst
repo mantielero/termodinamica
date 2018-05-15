@@ -336,4 +336,5 @@ De manera análoga, la expresión (5.lO.b) y la (5.22) una vez integrada, pueden
    :maxdepth: 1
    :caption: Contenido:
    
+   exergia_rendimiento
    exergia_procesos_ciclicos
