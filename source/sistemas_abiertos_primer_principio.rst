@@ -33,6 +33,20 @@ esto es, tiene en cuenta toda la energía que tiene ese fluido:
 * trabajo al atravesar la superficie
 
 
+.. warning::
+
+    Es interesante destacar que la ecuación formulada para aplicar el primer principio a sistemas cerrados:
+
+    .. math::
+
+       dE = \delta Q + \delta W
+
+    sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de control o sistemas abiertos; tampoco es aplicable a estos sistemas la primera ley en la forma:
+
+    .. math::
+
+       \oint \delta Q = - \oint \delta W
+
 Demostración
 ------------
 
@@ -124,17 +138,8 @@ Para la transferencia de una masa finita a través de :math:`\Omega`, los térmi
    
 
 Un **ejemplo simple** al que puede aplicarse la ecuación anterior es al flujo adiabático de un gas desde una línea de alimentación a un depósito a presión más baja (llenado de botellas de gas). Cuando la presión se incrementa en la botella, el incremento de la energía interna del contenido de la botella es igual a la masa del fluido que entra por su entalpia total a la entrada.
-Es interesante destacar que la ecuación formulada para aplicar el primer principio a sistemas cerrados:
 
-.. math::
 
-   dE = \delta Q + \delta W
-
-sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de control o sistemas abiertos; tampoco es aplicable a estos sistemas la primera ley en la forma:
-
-.. math::
-
-   \oint \delta Q = - \oint \delta W
 
 El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \textbf{V} \cdot \textbf{n}`
 
