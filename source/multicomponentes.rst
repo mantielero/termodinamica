@@ -1,13 +1,10 @@
 Sistemas Multicomponentes. Mezclas No Reactivas de Gases
 ========================================================
 
-TEMA 9
-SISTEMAS MULTICOMPONENTES. MEZCLAS NO REACTIVAS DE GASES
-Antonio Sánchez Sánchez.
-Pablo de Assas Marinez de Morentin.
-Vv
 
+Antonio Sánchez Sánchez
 
+Pablo de Assas Marinez de Morentin
 
 
 
@@ -38,10 +35,9 @@ Introducción : descripción de la mezcla.	1
 
 
 
+Introducción: descripción de la mezcla
+--------------------------------------
 
-
-TEMA 9
-SISTEMAS MULTICOMPONENTES: mezclas no reactivas de gases
 Hasta ahora hemos fijado nuestra atención en sistemas homogéneos monocomponentes. En este tema se considerarán algunos aspectos generales de las propiedades de un sistema con dos o más componentes. El interés primordial está en el caso de mezcla de gases, pero el método que se desarrolla también se aplica a disoluciones. Cuando lo que se considera objeto de estudio son líquidos o sólidos, se usa el término de disolución en vez de mezcla. La discusión presente se limita a mezclas no reactivas o disoluciones en una sola fase. El efecto de reacciones químicas y el equilibrio entre diferentes fases se consideran más adelante.
 Para describir los sistemas multicomponentes se debe incluir la composición en nuestras relaciones térmodinámicas. Esto lleva a la definición y desarrollo de conceptos, algunos ya mencionados en temas anteriores y otros nuevos, que incluyen las propiedades molares parciales, el potencial químico y la fugacidad. Posteriormente se considerará el caso particular de la mezcla ideal de gases suponiendo que éstos tienen un comportamiento primero ideal y luego se extiende el estudio a gases reales. Para estas mezclas ideales de gases se dan las relaciones p, v, T y la variación de las propiedades termodinámicas energía interna, entalpia y entropía.
 Descripción de la mezcla
@@ -94,7 +90,17 @@ i=i
 (9.5)
 í=i
 esto es, la masa molar de la mezcla es una media ponderada de las masa molares de cada componente.
-9.1.- Propiedades molares parciales
+
+
+
+
+
+
+
+
+Propiedades molares parciales
+-----------------------------
+
 En la presente discusión se introducirá el concepto de propiedad molar parcial y se verá su aplicación. Este concepto juega un papel importante en el análisis de los sistemas multicomponentes.
 Una propiedad termodinámica extensiva X de un sistema monocomponente y monofásico es una función de dos propiedades intensivas independientes y de la cantidad de sustancia del sistema. Eligiendo como variables independientes la presión y la temperatura y el número de
 Sistemas multicomponentes. Mezcla no reactiva de gases
@@ -230,7 +236,15 @@ ASmezcla — ^ ^ ^i(^t	^t)
 t=l
 En las ecuaciones (9.11),	/i¿ y s,- representan la energía, entalpia y entropía molar del
 componente puro i. Los símbolos ñ¿, y s, representan las respectivas propiedades molares parciales.
-9.2.- Potenciales termodinámicos para sistemas multicomponentes
+
+
+
+
+
+
+Potenciales termodinámicos para sistemas multicomponentes
+---------------------------------------------------------
+
 Como ya se ha visto cualquier potencial termodinámico proporciona una descripción completa del estado termodinámico de un sistema. En principio, todas las propiedades de interés pueden determinarse a partir de ese potencial mediante un tratamiento matemático adecuado.
 Ya se vio en el tema anterior que la energía interna de un sistema multicomponente puede ser considerada como potencial termodinámico si se expresa en función de la entropía y el volumen del sistema así como del número de moles de cada componente; esto es:
 u	■_
@@ -415,9 +429,14 @@ hi - Tsí 1 _
 = 'k\
 jr2 \
 ecuación utilizada con frecuencia en termodinámica química.
-9.3.- Fugacidad y coeficiente de fugacidad
-(9.26)
-(9.27)
+
+
+
+
+
+Fugacidad y coeficiente de fugacidad
+------------------------------------
+
 Hemos visto que la energía libre de Gibbs, y por tanto el potencial químico p desempeñan un papel muy importante en el estudio de los sistemas multicomponentes. Otra magnitud, relacionada con la anterior, y que también conviene tenerla en cuenta en este estudio es la denominada fugacidad.
 La definiremos a partir de la consideración de sistemas monocomponentes y posteriormente ampliaremos esta definición a sistemas multicomponentes.
 9.3.1	Sistemas monocomponentes
@@ -673,7 +692,17 @@ RT ln ^ j'j - ln x,J = J (v¡ - v{)dp
 (9.43)
 en donde /¿ es la fugacidad del componente i en la mezcla, de composición, presión y temperatura dadas, y /¿ es la fugacidad del componente puro a la misma presión y temperatura. La ecuación
 (9.43)	expresa la relación entre /¿ y /, en función de la diferencia entre y que es una cantidad mensurable.
-9.4.- La disolución ideal
+
+
+
+
+
+
+
+
+La disolución ideal
+-------------------
+
 La tarea de evaluar las fugacidades de los componentes en una mezcla se simplifica con-
 .Jsiderablemente cuando la mezcla puede modelizarse como una mezcla o disolución ideal. Una disolución ideal es una mezcla en la que:
 
@@ -737,7 +766,17 @@ a T y p como a T y p°, — = — = 1 y la ecuación (9.53) se reduce a:
 p p°
 Pi — Pi + RT ln----b .RTln X{
 (9.54)
-9.5.- Exergía en mezclas: exergía química; exergía total
+
+
+
+
+
+
+
+
+Exergía en mezclas: exergía química; exergía total
+--------------------------------------------------
+
 Al estudiar los potenciales termodinámicos vimos que la variación del potencial de Gibbs, en un proceso es reversible, era el trabajo mínimo, distinto del pdV, que había que dar para realizar el proceso; esto es:
 swmin
 ,nopdV — dGT,P	(9.55)
@@ -774,7 +813,14 @@ Extm = *)„,= [(£ - E0) + p0(V - v0) - To(S - So)]Bi	(9.57)
 b) la exergía química dada por la expresión (9.56) pudiéndose expresar la exegía total, Ex, como:
 Ex — $)n. + Exq
 (9.58)
-9.6.- Mezcla de gases ideales
+
+
+
+
+
+Mezcla de gases ideales
+-----------------------
+
 9.6.1	Relaciones p, v, T para mezclas de gases ideales
 En la presente sección nos vamos a referir exclusivamente a mezclas de gases ideales y vamos a introducir los dos modelos utilizados al considerar esta idealización: el modelo de Dalton y el de Amagat.
 22
@@ -932,7 +978,14 @@ cp - Z_^Xi - / ,XjCpi
 (9.69)
 i=i
 ¿=i
-9.7.- Mezcla de gases reales
+
+
+
+
+
+Mezcla de gases reales
+----------------------
+
 Cuando los componentes de la mezcla no pueden ser tratados como gases ideales el problema de dar una ecuación térmica de estado para la mezcla o de calcular las variaciones de energía interna, entalpia o entropía que experimenta la mezcla en un proceso se complica sobremanera. Se pueden distinguir dos casos:
 a)	El comportamiento de cada componente de la mezcla es el que corresponde a un gas real y su influencia sobre los otros componentes es apreciable, en cuyo caso tendremos una mezcla real de gases reales.
 b)	Cada componente se comporta como gas real, pero su interacción con los restantes componentes es despreciable. Se tendrá en este caso una mezcla ideal de gases reales.
