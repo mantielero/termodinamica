@@ -161,7 +161,7 @@ podemos expresar la velocidad a la que gana masa el interior de :math:`\Omega` e
 
 .. math::
 
-   \boldsymbol{a_k} = \text{ los vectores área de la superficie de entrada} \\
+   \boldsymbol{a_k} &= \text{ los vectores área de la superficie de entrada} \\
    \boldsymbol{\nu} &= \text{ velocidad} \\
    \rho &= \text{ densidad }
    
