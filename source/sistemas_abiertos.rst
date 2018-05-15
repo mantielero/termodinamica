@@ -13,6 +13,4 @@ Primer y Segundo Principios Aplicados a Sistemas Abiertos
    sistemas_abiertos_segundo_principio
    sistemas_abiertos_magnitudes_remanso
    sistemas_abiertos_analisis
-
-
-
+   sistemas_abiertos_dispositivos_estrangulacion
