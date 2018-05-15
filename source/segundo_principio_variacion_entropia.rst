@@ -60,7 +60,7 @@ con :math:`c_v` constante. Así pues, la variación de entropía en un gas perfe
 
 .. math::
 
-   s_2-s_1 = c_v \ln \frac{T_2}{T_1} + R\ln \frac{v_2}{v_1} \text{   } (J\cdot kg^{-1} \cdot K^{-1})
+   s_2-s_1 = c_v \ln \frac{T_2}{T_1} + R\ln \frac{v_2}{v_1} \hspace{2cm} \left[\frac{J}{kg \cdot K}\right]
 
 Sí además del trabajo :math:`—pdV` hay otras formas de trabajo cuasi-estático, la ecuación (3.23) se escribirá con más generalidad, en la forma:
 
