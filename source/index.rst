@@ -37,6 +37,6 @@ Madrid, Julio 1994
    exergia
    rtg
    homogeneos
-   guion_equilibrio
+   equilibrio
    guion_sistemas_multicomponentes
    guion_mezcla_gases_vapores
