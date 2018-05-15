@@ -11,9 +11,23 @@ es decir, el incremento de energía en ese volumen de control se debe a:
 
 * el calor aplicado sobre él
 * el trabajo en el eje aplicado sobre él
-* la suma de las entalpías totales de la materia que entra y la resta de las entalpías totales de la materia que sale
+* la suma de las entalpías totales específicas de la materia que entra y la resta de las entalpías totales específicas de la materia que sale
 
+La entalpía total se define como:
 
+.. math::
+
+   h_t = e + pv = u+\frac{\nu^2}{2}+gz + pv
+   
+esto es, tiene en cuenta toda la energía que tiene ese fluido:
+
+* energía 
+
+  * energía interna (debido a su temperatura)
+  * energía cinética (debido a su velocidad)
+  * energía potencial (debido a la presencia de un campo gravitatorio)
+  
+* trabajo al atravesar la superficie
 
 
 Demostración
