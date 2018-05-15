@@ -185,7 +185,7 @@ De acuerdo con la ecuación (4.11), el balance de energía en un sistema en rég
 
 .. math::
 
-   \partial q + \partial w_x = du + d(pv) + d(ec) + d(ep)
+   \partial q + \partial w_x = du + d(pv) + d(e_c) + d(e_p)
 
 si despreciamos otras formas dé energía. (Esto no restringe el resultado final, como ya veremos). Podemos considerar otro punto de vista igualmente válido. Supongamos que otro observador viaja sobre el elemento de masa a través del sistema en flujo estacionario desde la entrada a la salida. En este caso el sistema será la unidad de masa de control, y no el volumen de control, por lo que es válido un análisis como sistema cerrado. Si un elemento de masa experimenta un
 cambio sin fricción, el balance de energía sobre la unidad de masa está dado por:
@@ -198,8 +198,8 @@ De nuevo se desprecian otras formas de energía, así como otras formas de traba
 
 .. math::
    
-   \partial w_x &= d(pv) + d(ec) + d(ep) - pdv \\
-    &= vdp + d(ec)+ d(ep)
+   \partial w_x &= d(pv) + d(e_c) + d(e_p) - pdv \\
+    &= vdp + d(e_c)+ d(e_p)
 
 
 Para un dispositivo con flujo estacionario, el trabajo mecánico sin fricción sobre la base de la unidad de masa se convierte en:
