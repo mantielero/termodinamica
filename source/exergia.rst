@@ -55,6 +55,7 @@ c) También hay que decir que el equiljjj¿& al que se hace referencia en todo e
    :maxdepth: 1
    :caption: Contenido:
    
+   exergia_balance_sistemas_cerrados
    exergia_balance_sistemas_abiertos
    exergia_rendimiento
    exergia_procesos_ciclicos
