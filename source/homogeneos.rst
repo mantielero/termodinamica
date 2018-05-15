@@ -10,6 +10,7 @@ Antonio Sánchez Sánchez.
    homogeneos_introduccion
    homogeneos_gases
    homogeneos_solidos_liquidos
+   homogeneos_ejercicios
 
 
 
