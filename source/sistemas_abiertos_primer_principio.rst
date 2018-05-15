@@ -87,9 +87,9 @@ Para el volumen de control de la figura 4.2, podemos expresar la velocidad a la 
 
 .. math::
 
-   \dot{m}_\Omega = -\sum_k \textbf{V_k} \cdot \textbf{n} a_k \rho_k
+   \dot{m}_\Omega = -\sum_k \boldsymbol{V_k} \cdot \boldsymbol{n} a_k \rho_k
 
-(ya que se considera positiva la masa que entra) en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k` en la que la velocidad es :math:`\boldsymbol{V_k}` y :math:`\boldsymbol{\rho_k}` es la densidad del fluido en :math:`a_k`.
+(ya que se considera positiva la masa que entra) en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k` en la que la velocidad es :math:`\boldsymbol{V_k}` y :math:`\rho_k` es la densidad del fluido en :math:`a_k`.
 
 La expresión (4.5) podemos referirla a la unidad de tiempo:
 
