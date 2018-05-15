@@ -1,6 +1,13 @@
 Introducción
 ============
 
+
+Índice::
+
+   5.1.- Introducción.
+   5.1.1.    - Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto.
+   5.1.2.    - Conservación de la masa..
+
 El desarrollo de la termodinámica clásica está ligado, fundamentalmente, al estudio de sistemas cerrados, esto es, sistemas que constan de una cantidad de materia constante. Sin embargo, a veces, como sistema de estudio se elige la cantidad de materia que en cada instante hay en el interior de un recinto dado, limitado por una frontera constituida por paredes en parte físicas (reales) y en parte imaginarias. Estos últimos permiten el flujo de masa a través de las paredes imaginarias, es decir, son sistemas abiertos.
 
 Estos sistemas abiertos suelen ser los de mayor interés práctico, pues facilitan el estudio de las instalaciones y procesos utilizados en el manejo de la energía, cuyo análisis es el objeto de la Termodinámica Aplicada. Entre estos procesos e instalaciones se pueden citar: el flujo de fluidos a través de conductos, válvulas de estrangulación, compresores, turbinas, cambiadores de calor, etc.
