@@ -378,3 +378,8 @@ De esta expresión se ve que es importante no sólo la energía térmica utiliza
 Por ejemplo, supongamos que para la calefacción de un gran edificio se ha de quemar un combustible. Mejor que generar vapor y comunicarlo a los radiadores, sería generar vapor y utilizarlo para producir energía eléctrica y sacar parte del vapor en una etapa intermedia para calefacción (este proceso se llama cogeneración).
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Contenido:
+   
+   exergia_procesos_ciclicos
