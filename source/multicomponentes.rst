@@ -10,6 +10,7 @@ Pablo de Assas Marinez de Morentin
    :maxdepth: 1
    :caption: Contenido:
 
+   multicomponentes_introduccion
    multicomponentes_propiedades_molares
    multicomponentes_potenciales
    multicomponentes_fugacidad
@@ -17,13 +18,6 @@ Pablo de Assas Marinez de Morentin
    multicomponentes_exergia
    multicomponentes_gases_ideales
    multicomponentes_gases_reales
-
-
-TEMA 9
-SISTEMAS MULTICOMPONENTES. MEZCLAS NO REACTIVAS DE GASES
-Introducción : descripción de la mezcla.	1
-
-
 
 
 
