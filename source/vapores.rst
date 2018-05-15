@@ -2,30 +2,11 @@ Mezcla de Gases y Vapores. Psicrometría
 =======================================
 
 
+Antonio Sánchez Sánchez
 
+Pablo de Assas Martínez de Morentin
 
-
-
-
-
-TEMA 10
-MEZCLA DE GASES Y VAPORES. PSICROMETRIA.
-Antonio Sánchez Sánchez.
-Pablo de Assas Martínez de Morentin. Emilio Navarro Arévalo.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Emilio Navarro Arévalo.
 
 TEMA 10
 MEZCLAS DE GASES Y VAPORES. PSICROMETRIA
@@ -50,12 +31,10 @@ MEZCLAS DE GASES Y VAPORES. PSICROMETRIA
 *
 
 
+Introducción
+------------
 
 
-
-TEMA 10
-MEZCLAS DE GASES Y VAPORES. PSICROMETRIA
-10.1 Introducción
 De entre las mezclas de gases ocupan un lugar destacado, debido tanto a sus peculiaridades como a su importancia, las mezclas en las que uno, o más, de sus componentes es condensable. Nos vamos a ceñir, en el presente tema, sólo al estudio de mezclas binarias entre un gas y un vapor, analizando con detalle el caso de la mezcla aire seco-vapor de agua.
 La temperatura crítica de uno de los componentes de la mezcla binaria es muy baja, de manera que su estado, a las temperaturas de trabajo, se hallará tan lejos de la zona de saturación que podremos considerar su comportamiento como el de un gas ideal siempre suponiendo que su presión parcial pg sea lo suficientemente baja; en cambio la temperatura crítica del otro componente de la mezcla, el vapor, está muy por encima de la zona de temperaturas consideradas, de manera que su estado se hallará cerca de la saturación, por lo que será posible, en principio, separarlo de la mezcla gaseosa tanto por enfriamiento como por compresión. Se supondrá que la presión del vapor, pv, es lo suficientemente baja como para poder considerar el comportamiento de este componente también como gas ideal.
 Lo dicho anteriormente queda esquemáticamente reflejado en los diagramas T-s del gas y
@@ -71,7 +50,17 @@ Mezclas de gases y vapores. Psicrometría
 La mezcla del gas y el vapor saturado puede componerse de gas -f vapor saturado, gas + vapor saturado + líquido saturado o también puede darse gas -f vapor saturado -f sólido saturado. Estos últimos, en equilibrio termodinámico con el vapor saturado (pi — pv, T¡ = Tv o ps = pv, T, = Tv) puede suponerse que se halla formando una fina niebla o que ha precipitado, formando una masa líquida compacta o hielo.
 3) Mezcla sobresaturada:Para unas condiciones de pg y T, sería una mezcla en la que la presión parcial del vapor fuese mayor que la de saturación a esa temperatura, manteniéndose el vapor no saturado. Correspondería a un estado metaestable en el que, por cualquier pequeña perturbación, se produciría la condensación de parte del vapor disminuyendo, por tanto, la presión que pasaría al valor correspondiente a la de saturación a la temperatura T.
 También se denomina aire sobresaturado al que resulta de una mezcla sobresatu-radauna vez que se ha condensado el vapor de agua en exceso y éste permanece en suspensión (niebla).
-10.2	Aire húmedo: conceptos y definiciones
+
+
+
+
+
+
+
+
+Aire húmedo: conceptos y definiciones
+-------------------------------------
+
 El caso más importante de las mezclas gas-vapor es el aire h úmedd'rlLos procesos en los que interviene el aire húmedo tienen una importancia suma en Meteorología, así como en acondicionamiento de aire y en procesos de secado. Así pues, en lo restante del tema nos vamos a dedicar al estudio de las propiedades de las mezclas gas-vapor aplicadas al aire húmedo. El-
 aire húmedo es una mezcla de aire seco y agua. El aire seco es el ”gas” y el vapor de agua el
 ■- • - ' ~ * —--------------------------------------------------------
@@ -169,7 +158,15 @@ p*(Tfi) = d>-p*(T)
 Tomando logaritmos en esta expresión y despejando Tr se obtiene:
 (10.8)
 Si de lo que disponemos es de los valores tabulares de propiedades termodinámicas del agua en saturación, de (10.6) con </) y T del aire húmedo obtenemos pv y hay que localizar en las tablas la temperatura a la que la presión de saturación coincide con la pv calculada. Si es el diagrama T-s del agua de lo que disponemos, obtenida pv de (10.6) simplemente se mira cuál es la temperatura a la que la isóbara pv corta a la curva de vapor saturado y esa será la temperatura de rocío.
-10.3 Propiedades termodinámicas del aire húmedo
+
+
+
+
+
+
+Propiedades termodinámicas del aire húmedo
+------------------------------------------
+
 Al estudiar procesos que involucren al aire húmedo y tener que aplicar tanto el primer principio como el segundo bien a sistemas abiertos bien a sistemas cerrados, nos encontramos
 6
 Mezclas de gases y vapores. Psicrometría
