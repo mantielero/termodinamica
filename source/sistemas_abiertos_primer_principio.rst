@@ -186,7 +186,7 @@ en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado p
 Por unidad de tiempo
 --------------------
 
-La expresión (4.5) podemos referirla a la unidad de tiempo:
+Si referimos a la unidad de tiempo el primer principio aplicado aplicado a sistemas abiertos:
 
 .. math::
 
