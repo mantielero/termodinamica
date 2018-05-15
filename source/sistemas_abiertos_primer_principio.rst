@@ -151,7 +151,7 @@ Flujo másico por un elemento de área
 Para el volumen de control (:math:`\Omega`)de la siguiente figura: 
 
 .. figure:: ./img/flujo_masico.png
-   :width: 50%
+   :width: 30%
    :align: center
    
    Flujo másico a través de un elemento de área
