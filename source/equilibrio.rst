@@ -16,6 +16,7 @@ Teresa Leo Mena
    equilibrio_condiciones
    equilibrio_transicion_fase
    equilibrio_punto_critico
+   equilibrio_tablas
 
 
 Índice::
