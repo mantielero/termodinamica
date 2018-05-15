@@ -183,6 +183,9 @@ Consecuentemente, el flujo másico que entra/sale del volumen de control, se cal
 
 en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k` en la que la velocidad es :math:`\boldsymbol{V_k}` y :math:`\rho_k` es la densidad del fluido en :math:`a_k`.
 
+Por unidad de tiempo
+--------------------
+
 La expresión (4.5) podemos referirla a la unidad de tiempo:
 
 .. math::
