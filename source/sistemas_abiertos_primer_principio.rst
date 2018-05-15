@@ -145,15 +145,35 @@ Un **ejemplo simple** al que puede aplicarse la ecuación anterior es al flujo a
 
 
 
-El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \textbf{V} \cdot \textbf{n}`
+Flujo másico por un elemento de área
+------------------------------------
+
+Para el volumen de control (:math:`\Omega`)de la siguiente figura: 
 
 .. figure:: ./img/flujo_masico.png
    :width: 50%
    :align: center
    
    Flujo másico a través de un elemento de área
+   
+   
+podemos expresar la velocidad a la que gana masa el interior de :math:`\Omega` en función de:
 
-Para el volumen de control de la figura 4.2, podemos expresar la velocidad a la que gana masa el interior de :math:`\Omega` en función de los vectores área de la superficie de entrada y velocidad, así como de la densidad en los puntos donde el fluido cruza la superficie, tendremos:
+.. math::
+
+   \boldsymbol{a_k} = \text{ los vectores área de la superficie de entrada} \\
+   \boldsymbol{\nu} &= \text{ velocidad} \\
+   \rho &= \text{ densidad }
+   
+en los puntos donde el fluido cruza la superficie
+
+
+tendremos:
+
+El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \boldsymbol{V} \cdot \boldsymbol{n}`
+
+
+   
 
 .. math::
 
