@@ -34,6 +34,7 @@ Madrid, Julio 1994
    segundo_principio
    segundo_principio_ejercicios
    sistemas_abiertos
+   exergia
    guion_relaciones_termodinamicas_generalizadas
    guion_sistemas_homogeneos
    guion_equilibrio
