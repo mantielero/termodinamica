@@ -1,5 +1,8 @@
-Formulación del primer principio para sistemas abiertos
-=======================================================
+Primer principio para sistemas abiertos
+=======================================
+
+Formulación
+-----------
 
 El primer principio aplicado a sistemas abiertos (esto es, a un volumen de control) será:
 
@@ -119,7 +122,8 @@ Para la transferencia de una masa finita a través de :math:`\Omega`, los térmi
 
    E_2 - E_1 = Q + W_x + \sum_k \int h_{tk} dm_k
    
-Un ejemplo simple al que puede aplicarse la ecuación anterior es al flujo adiabático de un gas desde una línea de alimentación a un depósito a presión más baja (llenado de botellas de gas). Cuando la presión se incrementa en la botella, el incremento de la energía interna del contenido de la botella es igual a la masa del fluido que entra por su entalpia total a la entrada.
+
+Un **ejemplo simple** al que puede aplicarse la ecuación anterior es al flujo adiabático de un gas desde una línea de alimentación a un depósito a presión más baja (llenado de botellas de gas). Cuando la presión se incrementa en la botella, el incremento de la energía interna del contenido de la botella es igual a la masa del fluido que entra por su entalpia total a la entrada.
 Es interesante destacar que la ecuación formulada para aplicar el primer principio a sistemas cerrados:
 
 .. math::
