@@ -58,7 +58,7 @@ A la magnitud :math:`e + pv` se la denomina entalpía total, :math:`h_t`, y si d
 
 .. math::
 
-   e = u+\frac{v^2}{2} + gz
+   e = u+\frac{\nu^2}{2} + gz
 
 por lo que:
 
