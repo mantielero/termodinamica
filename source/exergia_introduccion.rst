@@ -4,9 +4,9 @@ Introducción
 
 Índice::
 
-   5.1.- Introducción.
-   5.1.1.    - Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto.
-   5.1.2.    - Conservación de la masa..
+   5.1 Introducción.
+   5.1.1 Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto
+   5.1.2 Conservación de la masa
 
 El desarrollo de la termodinámica clásica está ligado, fundamentalmente, al estudio de sistemas cerrados, esto es, sistemas que constan de una cantidad de materia constante. Sin embargo, a veces, como sistema de estudio se elige la cantidad de materia que en cada instante hay en el interior de un recinto dado, limitado por una frontera constituida por paredes en parte físicas (reales) y en parte imaginarias. Estos últimos permiten el flujo de masa a través de las paredes imaginarias, es decir, son sistemas abiertos.
 
