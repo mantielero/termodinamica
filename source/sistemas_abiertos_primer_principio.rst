@@ -35,13 +35,15 @@ esto es, tiene en cuenta toda la energía que tiene ese fluido:
 
 .. warning::
 
-    Es interesante destacar que la ecuación formulada para aplicar el primer principio a sistemas cerrados:
+    La formulación del primer principio aplicable a sistemas cerrados:
 
     .. math::
 
        dE = \delta Q + \delta W
 
-    sólo es aplicable a sistemas cerrados y no puede aplicarse a volúmenes de control o sistemas abiertos; tampoco es aplicable a estos sistemas la primera ley en la forma:
+    **sólo es aplicable a sistemas cerrados** (no puede aplicarse a volúmenes de control o sistemas abiertos).
+    
+    Tampoco es aplicable a estos sistemas la primera ley en la forma:
 
     .. math::
 
