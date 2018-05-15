@@ -9,7 +9,8 @@ Pablo de Assas Marinez de Morentin
 .. toctree::
    :maxdepth: 1
    :caption: Contenido:
-   
+
+   multicomponentes_exergia
    multicomponentes_gases_ideales
    multicomponentes_gases_reales
 
