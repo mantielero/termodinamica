@@ -15,6 +15,7 @@ Teresa Leo Mena
    equilibrio_aplicacion_criterios
    equilibrio_condiciones
    equilibrio_transicion_fase
+   equilibrio_punto_critico
 
 
 Índice::
