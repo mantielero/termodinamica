@@ -192,7 +192,11 @@ Si referimos a la unidad de tiempo el primer principio aplicado aplicado a siste
 
    \frac{dE}{dt} = \dot{Q} + \dot{W}_x + h_t \dot{m}
    
-en la que :math:`\dot{m}` representa la velocidad de flujo másico en el volumen de control para una corriente simple que cruza la superficie de control, :math:`\dot{Q}`  la velocidad a la que se suministra calor y :math:`\dot{W_x}` la potencia mecánica suministrada al eje que cruza la frontera.	
+en la que:
+
+- :math:`\dot{m}` representa la velocidad de flujo másico en el volumen de control para una corriente simple que cruza la superficie de control
+- :math:`\dot{Q}`  la velocidad a la que se suministra calor
+- :math:`\dot{W_x}` la potencia mecánica suministrada al eje que cruza la frontera.	
 
 Si en vez de ser una sola corriente, consideramos varias tendremos:
 
