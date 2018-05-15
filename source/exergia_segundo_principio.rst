@@ -1,5 +1,5 @@
 Ecuación del segundo principio para sistemas abiertos
------------------------------------------------------
+=====================================================
 
 De manera análoga a como anteriormente hemos procedido con el primer principio de la termodinámica, en esta sección haremos una deducción de la aplicación del segundo principio de la temodinámica a sistemas abiertos.
 
