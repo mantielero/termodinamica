@@ -576,5 +576,6 @@ Como aplicación inmediata de lo que acabamos de ver consideremos el ejercicio s
    :maxdepth: 1
    :caption: Contenido:
 
+   rtg_cp_cv_gamma
    rtg_JT_JK
    rtg_ejercicios
