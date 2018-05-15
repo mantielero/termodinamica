@@ -22,12 +22,6 @@ SISTEMAS MULTICOMPONENTES. MEZCLAS NO REACTIVAS DE GASES
 Introducción : descripción de la mezcla.	1
 9.1	Propiedades molares parciales.	2
 9.2	Potenciales termodinámicos para sistemas multicomponentes. Potencial químico.	6
-9.3	Fugacidad y coeficiente de fugacidad.	10
-9.3.1	Sistemas monocomponentes.	10
-9.3.2	Evaluación de la fugacidad para gases a partir de datos p, v, T.	12
-9.3.3	Evaluación de la fugacidad cuando el sistema se presenta como líquido o sólido. 13
-9.3.4	Sistemas multicomponentes.	15
-
 
 
 
