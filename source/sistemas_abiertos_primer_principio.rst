@@ -208,7 +208,7 @@ Cuando sólo hay una corriente de entrada y una de salida y los flujos másicos 
 
 .. math::
 
-   \frac{ dE}{dt} = \dot{Q} +\dot{W_x} + (h_t e - h_t s) \dot{m}
+   \frac{ dE}{dt} = \dot{Q} +\dot{W_x} + ({h_t}_e - {h_t}_s) \dot{m}
    
 Otra forma más general de expresar la ecuación anterior sería:
 
