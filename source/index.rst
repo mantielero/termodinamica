@@ -38,5 +38,5 @@ Madrid, Julio 1994
    rtg
    homogeneos
    equilibrio
-   guion_sistemas_multicomponentes
+   sistemas_multicomponentes
    guion_mezcla_gases_vapores
