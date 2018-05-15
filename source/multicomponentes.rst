@@ -10,6 +10,7 @@ Pablo de Assas Marinez de Morentin
    :maxdepth: 1
    :caption: Contenido:
 
+   multicomponentes_fugacidad
    multicomponentes_disolucion_ideal
    multicomponentes_exergia
    multicomponentes_gases_ideales
