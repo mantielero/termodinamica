@@ -6,13 +6,6 @@ Antonio Sánchez Sánchez.
 Pablo de Assas Martínez de Morentin.
 
 
-Bibliografía
-------------
-
-Qengel, Yunus A. y M.A. Boles. TERMODINÁMICA Tomo I) Me GRAW-HILL. 1996 México Capitulo IV, VI y VII.
-   
-Wark. K. TERMODINÁMICA. Me GRAW-HILL. 1991 México Capítulos VII y VIII.
-
 .. toctree::
    :maxdepth: 1
    :caption: Contenido:
@@ -22,3 +15,10 @@ Wark. K. TERMODINÁMICA. Me GRAW-HILL. 1991 México Capítulos VII y VIII.
    exergia_balance_sistemas_abiertos
    exergia_rendimiento
    exergia_procesos_ciclicos
+   
+Bibliografía
+------------
+
+Qengel, Yunus A. y M.A. Boles. TERMODINÁMICA Tomo I) Me GRAW-HILL. 1996 México Capitulo IV, VI y VII.
+   
+Wark. K. TERMODINÁMICA. Me GRAW-HILL. 1991 México Capítulos VII y VIII.
