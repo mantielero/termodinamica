@@ -241,5 +241,6 @@ donde las variables :math:`\tau` y :math:`\pi` están definidas como:
    :maxdepth: 1
    :caption: Contenido:
    
+   exergia_balance
    exergia_rendimiento
    exergia_procesos_ciclicos
