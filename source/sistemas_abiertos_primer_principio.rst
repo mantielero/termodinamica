@@ -249,13 +249,14 @@ La condición de estado estacionario requiere que *dE* sea cero, por lo que las 
 
    Q+W_x+\sum_k \int h_{tk} dm_k = 0
 
-Si sólo hay una corriente de entrada y otra de salida, la ecuación (4.10) se convierte en:
+Si sólo hay una corriente de entrada y otra de salida:
 
 .. math::
 
    q = h_{ts}-h_{te} -w_x
    
-donde :math:`q` y :math:`w_x` representan el calor y el trabajo que, por unidad de masa, se suministran a través de las fronteras impermeables del sistema.
+donde :math:`q` y :math:`w_x` representan el calor específico (por unidad de masa) y el trabajo específico suministrados a través de las fronteras impermeables del sistema.
+
 
 Variaciones periódicas en el estado dentro de :math:`\Omega` se pueden explicar también mediante las ecuaciones (4.10) y (4.11). Si los estados del fluido en todos los puntos dentro del volumen de control, periódica y simultáneamente, se hacen idénticos a estados previamente existentes en aquellos puntos, entonces estas ecuaciones también son aplicables sobre un conjunto de períodos completos. Así, estas ecuaciones se aplican tanto a una turbina como a un motor alternativo.
 
