@@ -220,13 +220,17 @@ Otra forma más general de expresar la ecuación anterior sería:
 
 En esta ecuación **q** y **V** representan el vector flujo de calor y el vector velocidad respectivamente, correspondientes a cada elemento de área en los que pueden definirse. Como siempre **n** es el vector unitario normal a la superficie del volumen de control y dirigido hacia el exterior de éste.
 
-De acuerdo con (4.6) o (4.8.a) vemos que, para volúmenes de control que experimenten transformaciones cíclicas, no es posible aplicar la ecuación del primer principio en la forma:
+.. warning::
 
-.. math::
+   Vemos que, para volúmenes de control que experimenten transformaciones cíclicas, no es posible aplicar la ecuación del primer principio en la forma:
 
-   \oint \delta Q = - \oint \delta W
+   .. math::
 
-pues quedarían sin considerar los términos correspondientes al flujo músico. Por el contrario, tanto las expresiones (4.6) como (4.8.a) serían aplicables a masas de control sin más que considerar nulos los correspondientes flujos másicos.
+      \oint \delta Q = - \oint \delta W
+
+   pues quedarían sin considerar los términos correspondientes al flujo músico. 
+   
+   Por el contrario, tanto las expresiones (4.6) como (4.8.a) serían aplicables a masas de control sin más que considerar nulos los correspondientes flujos másicos.
 
 Proceso de flujo estacionario
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
