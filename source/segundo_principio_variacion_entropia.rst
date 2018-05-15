@@ -2,7 +2,17 @@ Variación de entropía en sustancias incompresibles y en gases perfectos
 =======================================================================
 
 
-Se calcula mediante:
+Para líquidos incompresibles:
+
+.. math::
+
+   ds = c\frac{dT}{T} \rightarrow s_2-s_1 = c \ln \frac{T_2}{T_1} \hspace{2cm}  \left[\frac{J}{kg \cdot K}\right]
+   
+en donde:
+
+- c: calor específico de la sustancia
+
+Para gases perfectos:
 
 .. math::
 
