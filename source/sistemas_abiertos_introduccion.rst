@@ -2,12 +2,6 @@ Introducción
 ============
 
 
-Índice::
-
-   5.1 Introducción.
-   5.1.1 Relación entre la variación de propiedades en un sistema cerrado y un sistema abierto
-   5.1.2 Conservación de la masa
-
 El desarrollo de la termodinámica clásica está ligado, fundamentalmente, al estudio de sistemas cerrados, esto es, sistemas que constan de una cantidad de materia constante. Sin embargo, a veces, como sistema de estudio se elige la cantidad de materia que en cada instante hay en el interior de un recinto dado, limitado por una frontera constituida por paredes en parte físicas (reales) y en parte imaginarias. Estos últimos permiten el flujo de masa a través de las paredes imaginarias, es decir, son sistemas abiertos.
 
 Estos sistemas abiertos suelen ser los de mayor interés práctico, pues facilitan el estudio de las instalaciones y procesos utilizados en el manejo de la energía, cuyo análisis es el objeto de la Termodinámica Aplicada. Entre estos procesos e instalaciones se pueden citar: el flujo de fluidos a través de conductos, válvulas de estrangulación, compresores, turbinas, cambiadores de calor, etc.
@@ -20,7 +14,13 @@ Para el estudio de los sistemas abiertos, como ya vimos al considerar la clasifi
 
 El flujo de materia se define como aquella condición de desplazamiento del fluido en la que un elemento fluido puede considerarse como un sistema cerrado limitado por una superficie definida durante un cierto tiempo. La condición de flujo de materia no se da cuando una sustancia se difunde a través de otra.
 
-En lo que sigue realizamos la aplicación de los principios primero y segundo a este tipo de sistemas. Es importante destacar que, a fin de hacer aplicables los razonamientos de la termodinámica a estos sistemas, es preciso considerar en ellos la hípótesis de equilibrio termodinámico local.
+En lo que sigue realizamos la aplicación de los principios primero y segundo a este tipo de sistemas. 
+
+
+Equilibrio termodinámico local
+------------------------------
+
+Es importante destacar que, a fin de hacer aplicables los razonamientos de la termodinámica a estos sistemas, es preciso considerar en ellos la **hípótesis de equilibrio termodinámico local**.
 
 
 
@@ -28,7 +28,7 @@ En lo que sigue realizamos la aplicación de los principios primero y segundo a 
 FIGURA A MANO EN EL BORDE
 
 
-Al aplicar los conceptos de la termodinámica a un sistema abierto, es preciso suponer que en el sistema se cumple la condición de equilibrio local. Es decir, puesto que en un sistema abierto, aún trabajando en régimen estacionario, nos vamos a encontrar con un conjunto de valores de las correspondientes magnitudes en cada localización, distinto del que se presentará "en otra, se tendrán que definir las condiciones que deben cumplirse en cada punto para poder asignar un valor a estas magnitudes que tengan sentido termodinámico.
+Al aplicar los conceptos de la termodinámica a un sistema abierto, es preciso suponer que en el sistema se cumple la **condición de equilibrio local**. Es decir, puesto que en un sistema abierto, aún trabajando en régimen estacionario, nos vamos a encontrar con un conjunto de valores de las correspondientes magnitudes en cada localización, distinto del que se presentará "en otra, se tendrán que definir las condiciones que deben cumplirse en cada punto para poder asignar un valor a estas magnitudes que tengan sentido termodinámico.
 
 Para ello, recuérdese que cuando hablamos de un punto en un sistema abierto, de hecho nos estamos refiriendo a un elemento de volumen pequeño en valor absoluto, pero grande respecto al recorrido libre medio de las moléculas que integran el sistema, de forma que el elemento de volumen contenga un gran número de moléculas.
 
