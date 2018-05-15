@@ -39,4 +39,4 @@ Madrid, Julio 1994
    homogeneos
    equilibrio
    multicomponentes
-   guion_mezcla_gases_vapores
+   vapores
