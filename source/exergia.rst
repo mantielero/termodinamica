@@ -1,5 +1,5 @@
-TEMA 5 - COMBINACION DEL PRIMER Y SEGUNDO PRINCIPIO: EXERGIA.
-=============================================================
+Combinación del primer y segundo principio: exergía
+===================================================
 
 Antonio Sánchez Sánchez.
 
