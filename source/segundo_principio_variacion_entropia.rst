@@ -6,7 +6,7 @@ Se calcula mediante:
 
 .. math::
 
-   s_2-s_1 = c_v \ln \frac{T_2}{T_1} + R\ln \frac{v_2}{v_1} \text{   } (\frac{J}{kg \cdot K})
+   s_2-s_1 = c_v \ln \frac{T_2}{T_1} + R\ln \frac{v_2}{v_1} \hspace{2cm} (\frac{J}{kg \cdot K})
    
 Demostración
 ------------
