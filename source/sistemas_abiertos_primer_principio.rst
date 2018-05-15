@@ -162,8 +162,8 @@ podemos expresar la velocidad a la que gana masa el interior de :math:`\Omega` e
 .. math::
 
    \boldsymbol{a_k} &= \boldsymbol{n} \cdot a_k = \text{ vectores área de la superficie de entrada} \\
-   \boldsymbol{\nu} &= \text{ velocidad} \\
-   \rho &= \text{ densidad }
+   \boldsymbol{\nu_k} &= \text{ vector velocidad} \\
+   \rho &= \text{ vector densidad }
    
 en los puntos donde el fluido cruza la superficie
 
@@ -171,17 +171,11 @@ en los puntos donde el fluido cruza la superficie
 
    Los vectores área son paralelos al vector normal en la superficie.
 
-
-tendremos:
-
-El flujo, por definición :math:`= a_k V` Por lo que el flujo máslco :math:`a_k \rho \boldsymbol{V} \cdot \boldsymbol{n}`
-
-
-   
+Consecuentemente, el flujo másico que entra/sale del volumen de control, se calcula mediante:  
 
 .. math::
 
-   \dot{m}_\Omega = -\sum_k \boldsymbol{V_k} \cdot \boldsymbol{n} a_k \rho_k
+   \dot{m}_\Omega = -\sum_k \boldsymbol{\nu_k} \cdot \boldsymbol{n} a_k \rho_k
 
 (ya que se considera positiva la masa que entra) en la que :math:`\dot{m}` representa la velocidad a la que el volumen limitado por :math:`\Omega` gana masa, :math:`\textbf{n}` es un vector unitario normal al área de la superficie :math:`a_k` en la que la velocidad es :math:`\boldsymbol{V_k}` y :math:`\rho_k` es la densidad del fluido en :math:`a_k`.
 
