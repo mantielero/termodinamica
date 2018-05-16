@@ -6,21 +6,30 @@
 TERMODINAMICA - (Fundamentos y Aplicaciones)
 ============================================
 
-A. Sánchez Sánchez
 
-Profesores Colaboradores:
+Introducción
+------------
+
+Basado en el guión de: A. Sánchez Sánchez, con los profesores colaboradores:
 
 - P. Assas
 - T. Leo
 - E. Navarro
 
-Madrid, Julio 1994
+editado en 1995.
 
-(Revisión: Julio 1995)
+Usarlo como base, pero modificarlo sensiblemente para mi uso personal.
+
+También quiero basarme en:
+
+`Unified: Thermodynamics and Propulsion Prof. Z. S. Spakovszky <http://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/notes.html>`_
+
+
+Contenido
+---------
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contenido:
 
    introduccion
    alcance_termodinamica
