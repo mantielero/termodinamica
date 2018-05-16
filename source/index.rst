@@ -22,7 +22,7 @@ Usarlo como base, pero modificarlo sensiblemente para mi uso personal.
 
 También quiero basarme en:
 
-`Unified: Thermodynamics and Propulsion Prof. Z. S. Spakovszky <http://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/notes.html>`_
+`Unified: Thermodynamics and Propulsion (Prof. Z. S. Spakovszky) <http://web.mit.edu/16.unified/www/FALL/thermodynamics/notes/notes.html>`_
 
 
 Contenido
