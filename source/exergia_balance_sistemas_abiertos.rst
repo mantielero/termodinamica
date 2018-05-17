@@ -5,7 +5,8 @@ Para obtener el balance de exergía en sistemas dé flujo, (esto es, sistemas en
 
 .. math::
    
-   \sum_{i=0}^n \dot{Q}_i+\dot{W}+\sum_e\left( h+\frac{\nu^2}{2} + gz \right) \dot{m} -  \sum_s \left( h+\frac{\nu^2}{2} + gz \right) \dot{m} = \frac{d}{dt}\left( U+E_m\right)_{VC}
+   \text{Primer principio} &: \sum_{i=0}^n \dot{Q}_i+\dot{W}+\sum_e\left( h+\frac{\nu^2}{2} + gz \right) \dot{m} -  \sum_s \left( h+\frac{\nu^2}{2} + gz \right) \dot{m} = \frac{d}{dt}\left( U+E_m\right)_{VC} \\
+   \text{Segundo principio} &: \dot{\sigma}_t = \frac{dS}{dt} - \sum \frac{\dot{Q}}{T_i} - \sum s \dot{m} + \sum s \dot{m} \geq 0
 
 Eliminando :math:`\dot{Q}_o` entre las ecuaciones (5.15) y 1(5.16), y como :math:`h_t = h +\frac{\nu^2}{2} + gz`, despejando :math:`\dot{W}` se obtiene:
 
