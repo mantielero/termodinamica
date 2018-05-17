@@ -250,8 +250,8 @@ Por lo que la variación de la función de Helmholtz nos da el trabajo total (in
 
 A esta función también se la denomina, en ciertas publicaciones, *energia libre*. Este nombre proviene de lo que acabamos de ver, es decir, el trabajo total que podemos obtener de un sistema a T constante viene ligado a la variación de a y como :math:`u = a + Ts`, vemos que de la energia interna u sólo una parte a puede ser utilizada, quedando otra parte no disponible para efectuar trabajo, a la que se denomina energia ligada (:math:`Ts`) o termentropia.
 
-De forma análoga podríamos justificar el nombre de entalpia libre, que ftm,cióndeGibbs.
-también se da a la
+De forma análoga podríamos justificar el nombre de entalpia libre, que también se da a la función de Gibbs.
+
 
 Transformaciones de Legendre
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
