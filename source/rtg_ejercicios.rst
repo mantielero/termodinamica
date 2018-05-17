@@ -6,9 +6,14 @@ Ejercicios
 Respuesta: :math:`\frac{\alpha T -1}{\kappa_T}`
 
 
-6.2	Si se dispone de la expresión para la energía intema en función de la entropía y el volumen, u(s, v), determínense las correspondientes expresiones para cv y c .
+6.2	Si se dispone de la expresión para la energía intema en función de la entropía y el volumen, u(s, v), determínense las correspondientes expresiones para :math:`c_v` y :math:`c_p`.
+
 Respuesta:
 
+.. math::
+
+   c_v = \frac{ \left( \frac{\partial u}{\partial s}\right)_v }{ \left( \frac{\partial^2 u}{\partial s^2}\right)_v } \\
+   c_p = \frac{\frac{\partial u}{\partial s}\right)_v}{\frac{\partial^2 u}{\partial s^2}\right)_v \left[ 1 - \left( \frac{\partial^2 u}{\partial v \partial s}\right)_v\right) \right]}
 
 
 6.3	Hallar una expresión para (3cp//3p)T en función de v, T y a, suponiendo a constante. Respuesta: (3cp/3p)T = - T a2 v
