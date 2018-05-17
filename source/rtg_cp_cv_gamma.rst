@@ -44,7 +44,7 @@ de donde:
 
 .. math::
 
-   \left( \frac{\partial c_p}{\partial p} \right)_T = - \left( \frac{\partial ^2 v}{\partial T^2}\right)_p
+   \left( \frac{\partial c_p}{\partial p} \right)_T = - T \left( \frac{\partial ^2 v}{\partial T^2}\right)_p
 
 Para obtener el valor de :math:`c_p` a una presión elevada tendremos que integrar la ecuación anterior a lo largo de una isoterma desde la presión cero al valor deseado. Por lo que:
 
