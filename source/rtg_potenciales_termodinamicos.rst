@@ -168,7 +168,7 @@ También conocida g en función de p y T podríamos determinar cualquier otra ma
 .. math::
 
    dg &= \left( \frac{\partial g}{\partial p}\right)_T dp + \left( \frac{\partial g}{\partial T}\right)_p dT \\
-   dg &= -vdp -s dT
+   dg &= vdp -s dT
 
 de donde:
 
