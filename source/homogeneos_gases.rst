@@ -123,7 +123,7 @@ tenemos
 
 .. math::
 
-   \left( \frac{\partial p}{\partial v}\right)_{T_c} = - \frac{R T_c}{(v_c-b)^2} + \frac{a}{v_c^3} = 0 \\
+   \left( \frac{\partial p}{\partial v}\right)_{T_c} = - \frac{R T_c}{(v_c-b)^2} + \frac{2a}{v_c^3} = 0 \\
    \left( \frac{\partial^2 p}{\partial v^2}\right)_{T_c} = \frac{2RT_c}{(v_c-b)^3}-\frac{6a}{v_c4} = 0
 
 Pasando los términos en :math:`\frac{1}{v_c}` al segundo miembro y dividiendo una entre otra, obtenemos
