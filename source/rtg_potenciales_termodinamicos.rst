@@ -296,7 +296,7 @@ Concretando para el caso de la energía interna:
 .. math::
 
    dU = T dS - p dV \\
-   U \fatarrow Y, T\fatarrow D_1, X_1 \fatarrow S, D_2 \fatarrow -p, X_2 \fatarrow V \\
+   U \Rightarrow Y, T\Rightarrow D_1, X_1 \Rightarrow S, D_2 \Rightarrow -p, X_2 \Rightarrow V \\
    \tau_1 = U - TS\\
    \tau_2 = U-pV \\
    \tau_3 = U - TS + pV
