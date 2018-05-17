@@ -22,7 +22,7 @@ A continuación procederemos a deducir la aplicabilidad de esta ecuación a un s
 
    Esquema para la deducción de la ecuación del segundo principio aplicada a un sistema abierto.
 
-En el instante t nuestro sistema está integrado por la masa contenida en el volumen de control, delimitado por la línea a trazos, rnj, y la contenida en el volumen rayado, Sme.
+En el instante :math:`t` nuestro sistema está integrado por la masa contenida en el volumen de control, delimitado por la línea a trazos, :math:`m_t`, y la contenida en el volumen rayado, :math:`\partial m_e`.
 
 Transcurrido el intervalo de tiempo At, durante el que la masa Sme se ha introducido ya en el volumen de control y de él ha salido la masa ím„ el sistema a considerar (instante t -f At) es el constituido por la masa en el interior del volumen de control y 6ms
 
