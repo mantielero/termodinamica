@@ -174,8 +174,8 @@ de donde:
 
 .. math::
 
-   \left( \frac{\partial g}{\partial p}\right)_T = v\\
-   \left( \frac{\partial g}{\partial T}\right)_p = -s
+   \left( \frac{\partial g}{\partial p}\right)_T &= v\\
+   \left( \frac{\partial g}{\partial T}\right)_p &= -s
 
 Conviene que completen el estudio de las funciones h, a, y g de la misma forma que se ha realizado el estudio de la función u.
 
