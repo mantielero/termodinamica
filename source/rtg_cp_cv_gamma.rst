@@ -118,8 +118,7 @@ De esta ecuación se pueden deducir inmediatamente un conjunto de resultados imp
 
 Ante todo y sobre la base de datos experimentales, se sabe que :math:`\left(\frac{\partial p}{\partial v}\right)_T` es siempre negativa para todas las sustancias en todas las fases. Ya que la primera derivada parcial está elevada al cuadrado, se deduce que :math:`c_p-c_v` debe ser siempre positivo o cero.
 
-Esta diferencia se hace cero en dos ocasiones. La primera de estas es, evidentemente, cuando T es el cero de la escala termodinámica, si los restantes términos permanecen finitos en este estado. Consecuentemente, los calores específicos a presión constante y a volumen constante
-a 0K son idénticos.
+Esta diferencia se hace cero en dos ocasiones. La primera de estas es, evidentemente, cuando T es el cero de la escala termodinámica, si los restantes términos permanecen finitos en este estado. Consecuentemente, los calores específicos a presión constante y a volumen constante a 0K son idénticos.
 
 El segundo caso en el que se anula la diferencia :math:`c_p-c_v` es cuando se anula la derivada parcial :math:`\left(\frac{\partial v}{\partial T}\right)_p`. Esto ocurre cuando el fluido tiene un valor extremo del volumen específico (máximo o mínimo). Si consideramos como sistema el agua líquida, este caso se presenta en el entorno de 4 °C, por ser a esta temperatura su densidad máxima. J1
 
