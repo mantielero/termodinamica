@@ -32,7 +32,7 @@ La segunda de las igualdades se reduce a:
 
 .. math::
 
-   s_o = s \rightarrow c_p ln \frac{T_o}{T} - R \ln \frac{p_o}{p}  = 0 \fatrightarrow \frac{p_o}{p} = \left( \frac{T_o}{T} \right)^\frac{\gamma}{\gamma-1}
+   s_o = s \rightarrow c_p ln \frac{T_o}{T} - R \ln \frac{p_o}{p}  = 0 \Rightarrow \frac{p_o}{p} = \left( \frac{T_o}{T} \right)^\frac{\gamma}{\gamma-1}
 
 Si se trata de una *sustancia incompresible* (un líquido por ejemplo), de la segunda de las igualdades (4.26) se obtiene:
 
