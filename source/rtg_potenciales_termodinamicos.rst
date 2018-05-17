@@ -31,7 +31,7 @@ Identificando términos equivalentes:
    \left( \frac{\partial u}{\partial v}\right)_s = -p \\
    \left( \frac{\partial u}{\partial s}\right)_v  = T
 
-Conocidas u, s, v, p, y T podemos calcular sin dificultad h, a, g y otras magnitudes que puedan interesar, como son Cy y ks:
+Conocidas u, s, v, p, y T podemos calcular sin dificultad h, a, g y otras magnitudes que puedan interesar, como son :math:`c_v` y :math:`\kappa_s`:
 
 .. math::
 
@@ -389,4 +389,3 @@ Como dijimos al principio, la entropía no es directamente mensurable, por lo qu
    \left( \frac{\partial s}{\partial v}\right)_T = \left( \frac{\partial p}{\partial T}\right)_v
 
 por lo que se tiene la posibilidad de deducir la relación que nos piden a partir de medidas experimentales de p y T. También podríamos determinar la relación mencionada si disponemos de una ecuación f (p, v, T) = 0.
-
