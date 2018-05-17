@@ -38,7 +38,7 @@ De acuerdo con el segundo principio :math:`\partial \sigma_t \get 0` por lo tant
 
 .. math::
 
-   \partial W_{rev} = d(E-T_o S)_{sis}  - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right)
+   \partial W_{real} = d(E-T_o S)_{sis}  - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right)
 
 Una cuestión que surge en conexión con esto último es si todo el trabajo reversible es trabajo útil o no. La respuesta depende de si la atmósfera, como depósito mecánico, es parte del entorno y de si el sistema experimenta un cambio de volumen comprimiéndose a favor de (o expandiéndose contra) la misma. En el caso en que el depósito mecánico atmosférico intercambie trabajo con el sistema, la parte de SW que es transferida por la atmósfera es (—p0dVj mientras
 que el resto loRonstituye el trabajo útil’esto ps de (5.3) se tendrá:
