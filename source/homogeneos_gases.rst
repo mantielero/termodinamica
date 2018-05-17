@@ -49,7 +49,7 @@ El desarrollo del virial y el significado físico atribuido a los distintos tér
 
    pv = A
 
-pero cuando ocurre esto, el gas se comporta com/) ideal, por lo que
+pero cuando ocurre esto, el gas se comporta como ideal, por lo que
 
 .. math::
 
