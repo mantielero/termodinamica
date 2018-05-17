@@ -36,16 +36,29 @@ Relaciones termodinámicas generalizadas.
 Solución
 --------
 
-Sistema: Volumen de control definido por la carcasa del compresor. Interacciones: Las esquematizadas en la figura.
-Proceso: El representado en el diagrama.
-Ecuaciones aplicables: las (4.11) y (4.20)
-q = hts - hte ' wx	(411)
-Z — = Zsm i T¿ s
-Zsm
-(4.20)
+* Sistema: Volumen de control definido por la carcasa del compresor. * Interacciones: Las esquematizadas en la figura.
+* Proceso: El representado en el diagrama.
+* Ecuaciones aplicables: las (4.11) y (4.20)
 
-En el caso que estamos considerando sólo hay una entrada y una salida y puede considerarse que únicamente se intercambia calor con una fuente térmica a 300 K (proceso isotérmico), por lo que :
+.. math::
+
+   q &= h_{ts} - h-{te} - w_x \\
+   \sum_i \frac{Q_i}{T_i} &= \sum_s s \left. \dot{m} \right|_s — \sum_e s \left. \dot{m} \right|_e
+
+
+
+En el caso que estamos considerando sólo hay una entrada y una salida y puede considerarse que únicamente se intercambia calor con una fuente térmica a 300K (proceso isotérmico), por lo que:
+
+.. math::
+
+   \frac{\dot{Q}}{T} = (s_s-s_e) \dot{m}
+   
+
 de donde:
+
+.. math::
+
+   q = T (s_s -s_e)
 
 Y =	“ Se
 m
