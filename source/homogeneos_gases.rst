@@ -386,7 +386,7 @@ Procediendo como antes para un cambio a T constante
 
 .. math::
 
-   (s_p-s_0^*)_T = - \int_0^p \left( \frac{\partial v}{\partial T}_p \right) dp
+   (s_p-s_0^*)_T = - \int_0^p \left( \frac{\partial v}{\partial T} \right)_p dp
 
 Continuando con el proceso, realizaríamos la integración gráfica partiendo de datos de la gráfica de compresibilidad generalizada, :math:`p_R` y :math:`T_R`, pero no merece la pena continuar por este camino, ya que la entropía de gas ideal correspondiente a presión cero es infinita. Para evitar este inconveniente podemos aplicar la ecuación (7.16) al gas que estamos estudiando como si el modelo de gas ideal fuese aplicable en todo el intervalo de presiones (que no se comporte realmente como tal gas ideal no quiere decir que no podamos definir hipotéticamente este comportamiento). Suponiendo que se verifica esta hipótesis, tendríamos
 
