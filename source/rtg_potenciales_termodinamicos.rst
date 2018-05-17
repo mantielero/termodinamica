@@ -145,8 +145,7 @@ por lo que:
    \left( \frac{\partial h}{\partial s}\right)_p = T \\
    \left( \frac{\partial h}{\partial p}\right)_s = v
 
-Si disponemos de h, s, p, T y v, podemos determinar las restantes funciones termodinámi-
-cas.
+Si disponemos de h, s, p, T y v, podemos determinar las restantes funciones termodinámicas.
 
 Supongamos que lo que nos dan es a en función de T y v:
 
