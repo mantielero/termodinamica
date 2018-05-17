@@ -19,8 +19,7 @@ Para conseguir el fin propuesto se deben sustituir las derivadas parciales dadas
    Tds &= du +pdv\\
    ds &= \frac{1}{T}(du +pdv) \\
    du &=    \left( \frac{\partial u}{\partial T}\right)_v dT +    \left( \frac{\partial u}{\partial v}\right)_T dv = c_vdT +    \left( \frac{\partial u}{\partial v}\right)_T  dv\\
-   ds &= \frac{c_v}{T}dT+    \left( \frac{\partial u}{\partial v}\right)_T dv = c_v dT +    \left( \frac{\partial u}{\partial v}\right)_T dv \\
-   ds =  \frac{c_v}{T}dT+\frac{1}{T}\left[ p + \left(  \frac{\partial u}{\partial v}\right)_T \right]
+   ds &=  \frac{c_v}{T}dT+\frac{1}{T}\left[ p + \left(  \frac{\partial u}{\partial v}\right)_T \right]
 
 
 Las ecuaciones (6.36) y (6.37) son expresiones equivalente para ds, por lo que:
@@ -70,7 +69,7 @@ A partir de:
 .. math::
 
    dh &= Tds + vdp\\
-   ds &= \frac{1}{T}(dh -vdp)
+   ds &= \frac{1}{T} (dh -vdp)
 
 y
 
@@ -129,7 +128,7 @@ En algunos textos es frecuente dar estas expresiones utilizando :math:`\alpha` y
 
 .. math::
 
-   \left( \frac{\partial p}{\partial T}\right)_v = - \frac{  \left( \frac{\partial v}{\partial T}\right)_p  } {\left( \frac{\partial v}{\partial p}\right)_T } = \frac{\alpha v}{k_T v} = \frac{v}{v}
+   \left( \frac{\partial p}{\partial T}\right)_v = - \frac{  \left( \frac{\partial v}{\partial T}\right)_p  } {\left( \frac{\partial v}{\partial p}\right)_T } = \frac{\alpha v}{k_T v} = \frac{\alpha}{\kappa_T}
 
 por lo que:
 
@@ -141,4 +140,3 @@ por lo que:
 Como aplicación inmediata de lo que acabamos de ver consideremos el ejercicio siguiente:
 
 :doc:`Ejercicio E6.2 <rpg_E6.2>`
-
