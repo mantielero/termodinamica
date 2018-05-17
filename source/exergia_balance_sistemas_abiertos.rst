@@ -81,8 +81,8 @@ donde :math:`e_x` señala exergía. El valor de cada término habrá que asignar
 
 .. math::
 
-   \left. \dot{e}_x\right)_{obtenida} &\text{ es la potencia } \dot{W} \\
-   \left. \dot{e}_x\right)_{suministrada} &\text{ es } \dot{m}\psi_e
+   & \left. \dot{e}_x\right)_{obtenida} &\text{ es la potencia } \dot{W} \\
+   & \left. \dot{e}_x\right)_{suministrada} &\text{ es } \dot{m}\psi_e
 
 
 y de (5.24) se sigue que:
