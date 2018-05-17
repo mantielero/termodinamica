@@ -175,7 +175,7 @@ De (5.13.b) puede verse que las curvas :math:`\widetilde{\phi} = cte` en las pro
 
 .. math::
 
-   \phi = \frac{\tau^2}{2}+\frac{\gamma-1}{2}(\pi-\tau)^2
+   \widetilde{\phi} = \frac{\tau^2}{2}+\frac{\gamma-1}{2}(\pi-\tau)^2
 
 donde las variables :math:`\tau` y :math:`\pi` están definidas como:
 
