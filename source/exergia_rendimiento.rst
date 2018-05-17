@@ -11,7 +11,7 @@ Teniendo en cuenta la relación (5.24), el rendimiento exergético se puede escr
 
 .. math::
 
-   \epsilon = 1- \frac{e_x\bracevert_{perdida}}{e_x\bracevert_{suministrada}}
+   \epsilon = 1- \frac{\left. e_x\right_{perdida}}{\left. e_x\right_{suministrada}}
 
 En algunos casos, como se verá en el apartado siguiente, los rendimientos térmico y exergético están relacionados entre sí. Qué diferencia haya entre estos rendimientos se puede ver con el siguiente ejemplo. Supongamos un sistema cerrado que recibe una potencia térmica :math:`\dot{Q}_s` de una fuente térmica a temperatura :math:`T_s` y cede una potencia térmica :math:`\dot{Q}_u` a una temperatura de utilización :math:`T_u`. Además hay una pérdida de energía térmica hacia el medio ambiente, :math:`\dot{Q}_p`, a través de una parte de la frontera que está a :math:`T_p`.
 
