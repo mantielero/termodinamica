@@ -33,7 +33,7 @@ Un rendimiento energético puede definirse en función de la potencia térmica u
 
 En principio este rendimiento puede aumentarse poniendo más aislante de modo que se reduzcan las pérdidas. En el Emite de :math:`\dot{Q}_p = 0`, el rendimiento será la unidad.
 
-Si comparamos el balance de exergía del proceso con (5.24), se ve que se suministra exergía el calor, :math:`\dot{Q}_s \left( 1  \frac{T_o}{T_s}\right)`, y que hay una exergía que se obtiene con la potencia térmica utilizada,
+Si comparamos el balance de exergía del proceso con (5.24), se ve que se suministra exergía el calor, :math:`\dot{Q}_s \left( 1 - \frac{T_o}{T_s}\right)`, y que hay una exergía que se obtiene con la potencia térmica utilizada,
 :math:`\dot{Q}_u \left( 1 - \frac{T_o}{T_u}\right)` de modo que el rendimiento exergético será
 
 .. math::
