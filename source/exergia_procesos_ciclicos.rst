@@ -69,8 +69,7 @@ Como :math:`T_b<T_o`,  la ecuación anterior se puede escribir en la forma:
 
    Q_b \left( \frac{T_o}{T_b} -1 \right) -W + T_o \sigma = 0
 
-De esta ecuación se ve claramente que de una máquina refrigerante se obtiene exergía, :math:`Q_b\left( \frac{T_o}{T_b} -1 \right)` ya que :math:`T_b<T_o`, que es suministrada al sistema que se refrigera. Esta es la razón -^6 /
-por la que de un sistema cerrado a tamperatura inferior a la del medio ambiente se puede obtener trabajo, o lo que es lo mismo, este sistema "frío" tiene una exergía positiva ya que se le ha dado esa exergía mientras se enfriaba.
+De esta ecuación se ve claramente que de una máquina refrigerante se obtiene exergía, :math:`Q_b\left( \frac{T_o}{T_b} -1 \right)` ya que :math:`T_b<T_o`, que es suministrada al sistema que se refrigera. Esta es la razón por la que de un sistema cerrado a temperatura inferior a la del medio ambiente se puede obtener trabajo, o lo que es lo mismo, este sistema "frío" tiene una exergía positiva ya que se le ha dado esa exergía mientras se enfriaba.
 
 El rendimiento exergético de un refrigerador será, pues,
 
@@ -81,4 +80,3 @@ El rendimiento exergético de un refrigerador será, pues,
 
 siendo :math:`COP_{eq.Carnot}= \frac{T_b}{T_o-T_b}` el coeficiente de actuación de una máquina refrigerante de
 Carnot qué trabajase entre las temperaturas del recinto a refrigerar (:math:`T_b`) y la temperatura ambiente.
-
