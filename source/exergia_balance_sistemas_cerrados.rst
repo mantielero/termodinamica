@@ -131,7 +131,7 @@ Para una sustancia incompresible :math:`du = c dT`, :math:`dv=0` y :math:`ds = c
 
 La exergia de una sustancia incompresible es sólo función de la temperatura y referida a :math:`cT_o`, ecuación (5.12), es independiente de cuál sea la sustancia concreta.
 
-Si representamos :math:`\phi = \frac{\phi}{cT_o}` en función de :math:`\frac{T}{T_o}` obtenemos la curva de la Fig 5.1 en la que se puede ver que una sustancia incompresible puede servir como fuente de trabajo en tanto que su temperatura sea distinta de la temperatura de la atmósfera. Efectivamente, un sistema caliente de masa fija puede servir como fuente de alta a un motor térmico cíclico que ceda calor a la atmósfera (punto :math:`T_o`) obteniéndose una cantidad de trabajo. Igualmente de una masa fría también puede obtenerse trabajo sin más que considerar a ésta como el foco frío de un motor térmico, siendo la atmósfera el foco caliente.
+Si representamos :math:`\widetilde{\phi} = \frac{\phi}{cT_o}` en función de :math:`\frac{T}{T_o}` obtenemos la curva de la Fig 5.1 en la que se puede ver que una sustancia incompresible puede servir como fuente de trabajo en tanto que su temperatura sea distinta de la temperatura de la atmósfera. Efectivamente, un sistema caliente de masa fija puede servir como fuente de alta a un motor térmico cíclico que ceda calor a la atmósfera (punto :math:`T_o`) obteniéndose una cantidad de trabajo. Igualmente de una masa fría también puede obtenerse trabajo sin más que considerar a ésta como el foco frío de un motor térmico, siendo la atmósfera el foco caliente.
 
 
 B) Gases perfectos
