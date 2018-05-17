@@ -322,7 +322,7 @@ encontraremos que
 
 .. math::
 
-   v = \frac{ZRT}{p}
+   v = \frac{ZRT}{p} \\
    
    \left( \frac{\partial v}{\partial T}\right)_p = \frac{ZR}{p}+ \frac{RT}{p}\left( \frac{\partial Z}{\partial T}\right)_p dp
 
