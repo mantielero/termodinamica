@@ -38,7 +38,7 @@ La potencia útil reversible será:
 
 .. math::
 
-   \dot{W}_{útil,rev} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS\right)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) +T_o\dot{\sigma}_t
+   \dot{W}_{útil,rev} = \frac{d}{dt} \left(U + E_m + p_oV - T_oS\right)_{VC} + \sum_s (h_t-T_os)\dot{m} - \sum_e (h_t-T_os)\dot{m}  - \sum_{i=1}^n \dot{Q}_i\left( 1- \frac{T_o}{T_i}\right) 
 
 y la ecuación (5.18) se puede escribir:
 
