@@ -19,7 +19,7 @@ Respuesta:
    c_p = \left( \frac{\partial u}{\partial s} \right)_v
 
  
- }{\frac{\partial^2 u}{\partial s^2} \right)_v
+
 
 
 .. math::
