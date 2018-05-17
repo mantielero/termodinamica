@@ -25,7 +25,7 @@ Suponiendo un funcionamiento en régimen estacionario y que al sistema cerrado n
 
 El balance energético dice simplemente que de la potencia térmica que recibe el sistema parte se utiliza y el resto se pierde.
 
-Un rendimiento energético puede definirse en función de la potencia térmica utilizadáTy la suministrada, esto es:
+Un rendimiento energético puede definirse en función de la potencia térmica utilizada y la suministrada, esto es:
 
 .. math::
 
