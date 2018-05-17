@@ -61,9 +61,7 @@ Teniendo en cuenta (5.8.a), (5.18) v (5.21) el balance de exergía para sistemas
 
    \left. \frac{d}{dt} \right|_{VC} + \sum_s \psi \dot{m} - \sum_e \psi \dot{m} - \dot{W}_{útil,real} - \sum_{i=1} \dot{Q}_i \left( 1-\frac{T_o}{T_i} \right) + T_o\dot{\sigma}_t = 0
 
-Ecuación, que de manera análoga al caso de sistemas cerrados (5.10.b), nos indica que la variación de exergía de un recinto abierto proviene de la exergía neta que se introduce al recinto: a) con la masa a través de las fronteras permeables, (:math:`\sum_s \psi \dot{m} - \sum_e \psi \dot{m}`), b) con el trabajo, :math:`\dot{W}_{útil,real}`
-
-a través de las fronteras impermeables restando la
+Ecuación, que de manera análoga al caso de sistemas cerrados (5.10.b), nos indica que la variación de exergía de un recinto abierto proviene de la exergía neta que se introduce al recinto: a) con la masa a través de las fronteras permeables, (:math:`\sum_s \psi \dot{m} - \sum_e \psi \dot{m}`), b) con el trabajo, :math:`\dot{W}_{útil,real}` y con el calor, :math:`\left(\sum_{i=1}^n \dot{Q}_i \left( 1- \frac{T_o}{T_i} \right)\right)`,  a través de las fronteras impermeables restando la
 exergía que se destruye por irreversibilidades existentes en el proceso, irreversibilidades tanto internas al sistema como las que hay entre el sistema y el medio ambiente.
 
 Si el proceso de flujo es estacionario, la ecuación (5.22) se reduce a:
