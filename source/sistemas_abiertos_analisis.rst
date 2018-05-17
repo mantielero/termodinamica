@@ -37,7 +37,7 @@ Un compresor es un dispositivo que se utiliza para incrementar la presión de un
 
    w_x = {h_o}_s - {h_o}_e
 
-y si :math:`v_s \approx v_e`:
+y si :math:`\boldsymbol{\nu}_s \approx \boldsymbol{\nu}_e`:
 
 .. math::
 
@@ -109,4 +109,3 @@ El rendimiento adiabático de un difusor lo definimos en la forma:
    \eta_D = \frac{ {h_o}_{2'} - h_1}{ {h_o}_{2r} -h_1}
 
 siendo (2') el estado que se alcanzaría si llevásemos el fluido, isoentrópicamente, desde las condiciones de presión y temperatura de entrada hasta alcanzar la presión de remanso de salida.
-
