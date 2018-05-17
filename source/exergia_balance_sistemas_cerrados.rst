@@ -34,7 +34,7 @@ y despejando el trabajo:
 
 (*) Nota: es obvio que estamos tratando con velocidades de desplazamiento de la frontera del sistema, v, pequeñas frente a la velocidad del sonido en la atmósfera de modo que la sobrepresión generada por ese desplazamiento, del orden de :math:`\rho \nu^2`, es muy pequeña frente a :math:`p_o` si :math:`v << a` (siendo a la velocidad local del sonido), esto es :math:`\frac{\rho_o \frac{\nu^2}{2}}{p_o}<<1` y :math:`(p - p_o)dV = \left( \frac{p-p_o}{p_o} \right) p_odV << p_o dV`, por lo que quitamos ese término del trabajo de desplazamiento de la atmósfera.
 
-De acuerdo con el segundo principio :math:`\partial \sigma_t \get 0` por lo tanto los otros dos términos del segundo miembro representan algebraicamente un b'mite inferior para :math:`\partial W`. Este límite inferior se alcanza cuando el sistema evoluciona de manera que no haya producción de entropía en el proceso (esto es, la variación de entropía del universo sea nula). Así pues, identificamos los dos primeros términos del segundo miembro como el trabajo Reversible comunicado al sistema; esto es:
+De acuerdo con el segundo principio :math:`\partial \sigma_t \geq 0` por lo tanto los otros dos términos del segundo miembro representan algebraicamente un b'mite inferior para :math:`\partial W`. Este límite inferior se alcanza cuando el sistema evoluciona de manera que no haya producción de entropía en el proceso (esto es, la variación de entropía del universo sea nula). Así pues, identificamos los dos primeros términos del segundo miembro como el trabajo Reversible comunicado al sistema; esto es:
 
 .. math::
 
