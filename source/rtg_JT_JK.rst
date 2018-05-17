@@ -12,8 +12,7 @@ Consideremos el flujo de un fluido a través de un conducto que tiene un obstác
 
    Resultados del experimento de Joule-Thomson
 
-Consecuentemente, la interacción térmica es nula o despreciable. El flujo del fluido se
-ajusta a las condiciones de estado estacionario. Además, los cambios en energía cinética y potencial de la corriente fluida entre 1 y 2, pueden también considerarse despreciables. Por lo que aplicando el primer principio para sistemas abiertos, se obtiene:
+Consecuentemente, la interacción térmica es nula o despreciable. El flujo del fluido se ajusta a las condiciones de estado estacionario. Además, los cambios en energía cinética y potencial de la corriente fluida entre 1 y 2, pueden también considerarse despreciables. Por lo que aplicando el primer principio para sistemas abiertos, se obtiene:
 
 .. math::
 
