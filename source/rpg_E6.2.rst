@@ -117,6 +117,6 @@ b) Gas real:
    dh_T = \left[ v- T \left( \frac{\partial v}{\partial T} \right)_p\right] dp = \left( b-\frac{2a}{T} \right) dp \\
    \Delta h_T = \int_10^150 \left(b- \frac{2a}{T} \right) dp = \\
    = b(150-10)10^2-\frac{2a}{300}(150-10)10^2= 176.86\frac{kJ}{kmol} \\
-   q = -300 \¢dot 22.57 = -6772.38\frac{kJ}{kmol} \\
+   q = -300 \cdot 22.57 = -6772.38\frac{kJ}{kmol} \\
    w_x = 176.86 - (-6772.38) = 6949.24\frac{kJ}{kmol}
    
