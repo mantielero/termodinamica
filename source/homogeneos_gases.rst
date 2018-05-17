@@ -19,7 +19,8 @@ Experiencias de esta clase fueron realizadas por vez primera por Amagat [#Amagat
 .. [#Amagat] Emile Hilaire Amagat (1841-1915). Físico francés, autor de importantes investigaciones acerca de las propiedades de líquidos y gases.
 .. [#Andrews] Thomas Andrews (1813-1885). Médico inglés. Fue profesor de Química en Belfast. Realizó las primeras investigaciones sobre compresibilidad de los gases reales a distintas temperaturas. Sus experimentos con el dióxido de carbono le llevaron a la noción de temperatura crítica al encontrar que por encima de 31,1°C era imposible licuarlo. Sus resultados fueron publicados en 1869 y confirmados en 1877 por el físico suizo Raúl Picter.
 
-Fig. 7.1
+.. figure:: ./img/fig_7_1.png
+
 
 En la Fig.7.1 se representan un conjunto de isotermas típicas de un gas como el nitrógeno.
 
