@@ -1,10 +1,10 @@
 Magnitudes de remanso
 =====================
 
-Definimos las magnitudes de remanso como las magnitudes termodinámicas que se obtendrían decelerando el fluido desde la velocidad V hasta el reposo en las siguientes condiciones:
+Definimos las magnitudes de remanso como las magnitudes termodinámicas que se obtendrían decelerando el fluido desde la velocidad :math:`\boldsymbol{\nu}` hasta el reposo en las siguientes condiciones:
 
 a)	estacionariamente
-b)	sin fuerzas másicas de viscosidad
+b)	sin fuerzas másicas(*) de viscosidad
 c)	adiabáticamente (sin calor)
 d)	sin paredes móviles en el volumen de control (sin trabajo)
 
@@ -20,9 +20,9 @@ Teniendo en cuenta estas condiciones y las ecuaciones (4.8.b) y (4.21), obtenemo
    h_o &= h + \frac{\nu^2}{2} \\
    s_o &= s
 
-donde el subídice *o* denata magnitud de remenso.
+donde el subíndice *o* denota magnitud de remenso.
 
-Si la sustancia de trabajo es un gas perfecto, como para estas sustancias :math:`h = c_pT`, de la primera de las igualdades de (4.26) se obtiene la relación entre la temperatura de remanso y la temperatura estática; esto es:
+Si la sustancia de trabajo es un *gas perfecto*, como para estas sustancias :math:`h = c_pT`, de la primera de las igualdades de (4.26) se obtiene la relación entre la temperatura de remanso y la temperatura estática; esto es:
 
 .. math::
 
@@ -32,9 +32,9 @@ La segunda de las igualdades se reduce a:
 
 .. math::
 
-   s_o = s \arrow c_p ln \frac{T_o}{T} - R \ln \frac{p_o}{p}  = 0 \fatarrow \frac{p_o}{p} = \left( \frac{T_o}{T} \right)^\frac{\gamma}{\gamma-1}
+   s_o = s \rightarrow c_p ln \frac{T_o}{T} - R \ln \frac{p_o}{p}  = 0 \fatrightarrow \frac{p_o}{p} = \left( \frac{T_o}{T} \right)^\frac{\gamma}{\gamma-1}
 
-Si se trata de una sustancia incompresible (un líquida por ejemplo), de la segunda de las igualdades (4.26) se obtiene:
+Si se trata de una *sustancia incompresible* (un líquido por ejemplo), de la segunda de las igualdades (4.26) se obtiene:
 
 .. math::
 
@@ -48,4 +48,6 @@ Al ser la temperatura de remanso igual a la estática, de (4.26) y de la definic
 
    p_o = p +\frac{1}{2}\rho \nu^2
 
-Hay que señalar que las expresiónes (4.27) a (4.30) sólo son válidas para los modelos de sustancias señalados. Para cualquier otro comportamiento de las sustancias, habrá que resolver las ecuaciones (4.26) junto con la ecuación térmica de estado correspondiente a la sustancia particular.
+.. warning:: 
+
+   Hay que señalar que las expresiónes (4.27) a (4.30) sólo son válidas para los modelos de sustancias señalados. Para cualquier otro comportamiento de las sustancias, habrá que resolver las ecuaciones (4.26) junto con la ecuación térmica de estado correspondiente a la sustancia particular.
