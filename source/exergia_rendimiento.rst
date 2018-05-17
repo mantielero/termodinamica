@@ -5,7 +5,7 @@ De manera análoga a como se ha hecho en el análisis energético de los sistema
 
 .. math::
 
-   \epsilon = \frac{e_x\bracevert_{obtenida}}{e_x\bracevert_{suministrada}}
+   \epsilon = \frac{\left. e_x\right_{obtenida}}{\left. e_x\right_{suministrada}}
    
 Teniendo en cuenta la relación (5.24), el rendimiento exergético se puede escribir:
 
@@ -44,4 +44,3 @@ Si comparamos el balance de exergía del proceso con (5.24), se ve que se sumini
 De esta expresión se ve que es importante no sólo la energía térmica utilizada, en definitiva valores altos de g que en el límite sería la unidad, sino también la temperatura de utilización de esa energía. Así por ejemplo, suponiendo que seamos capaces de utilizar prácticamente casi toda la energía suministrada (77 ~ 1), si la temperatura a la que se utiliza esa energía Tu, es próxima a la temperatura ambiente, el rendimiento exergético tiende a cero. Dicho de otra forma, cuanto más baja sea la temperatura de utilización del calor generado a alta temperatura, aunque se utilice íntegramente, peor es la utilización de esa energía. Desde el punto de vista de óptima utilización de la energía interna, con los valores más altos posibles de :math:`\eta`, una temperatura de utilización de la energía térmica lo más próxima a la temperatura de la fuente de la que se obtiene la energía térmica.
 
 Por ejemplo, supongamos que para la calefacción de un gran edificio se ha de quemar un combustible. Mejor que generar vapor y comunicarlo a los radiadores, sería generar vapor y utilizarlo para producir energía eléctrica y sacar parte del vapor en una etapa intermedia para calefacción (este proceso se llama cogeneración).
-
