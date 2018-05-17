@@ -298,7 +298,7 @@ Concretando para el caso de la energía interna:
    dU = T dS - p dV \\
    U \Rightarrow Y, T\Rightarrow D_1, X_1 \Rightarrow S, D_2 \Rightarrow -p, X_2 \Rightarrow V \\
    \tau_1 = U - TS\\
-   \tau_2 = U-pV \\
+   \tau_2 = U+pV \\
    \tau_3 = U - TS + pV
 
 Que corresponden a las funciones de Helmholtz, entalpia y Gibbs, respectivamente.
