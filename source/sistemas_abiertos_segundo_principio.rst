@@ -24,7 +24,7 @@ A continuación procederemos a deducir la aplicabilidad de esta ecuación a un s
 
 En el instante :math:`t` nuestro sistema está integrado por la masa contenida en el volumen de control, delimitado por la línea a trazos, :math:`m_t`, y la contenida en el volumen rayado, :math:`\partial m_e`.
 
-Transcurrido el intervalo de tiempo At, durante el que la masa Sme se ha introducido ya en el volumen de control y de él ha salido la masa ím„ el sistema a considerar (instante t -f At) es el constituido por la masa en el interior del volumen de control y 6ms
+Transcurrido el intervalo de tiempo :math:`\Delta t`, durante el que la masa :math:`\partial m_e` se ha introducido ya en el volumen de control y de él ha salido la masa :math:`\partial m_s` el sistema a considerar (instante t -f At) es el constituido por la masa en el interior del volumen de control y 6ms
 
 Durante el intervalo de tiempo considerado se supone que se produce una interacción con el medio ambiente en la que se transfieren al volumen de control una cierta cantidad de calor SQi y un trabajo SWX.
 
