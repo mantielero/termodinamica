@@ -70,7 +70,7 @@ De la ecuación anterior se puede deducir una expresión para la temperatura de 
 
 .. math::
 
-   T_i \left( \frac{\partial T}{\partial p} \right)_p -v = 0
+   T_i \left( \frac{\partial v}{\partial T} \right)_p -v = 0
 
 por lo que:
 
