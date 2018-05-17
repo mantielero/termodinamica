@@ -93,7 +93,7 @@ A fin de encontrar la semejanza entre las ecuaciones deducidas de la aplicación
    \dot{S}_{VC} &= \frac{d}{dt} \left( m s \right)_{VC} \\
                 &= \underbrace{\sum_i \frac{\dot{Q}_i}{T_i} + \sum_e s \dot{m}_e - \sum_s s \dot{m}_s}_{\text{(a)}} + \dot{\sigma}_{VC}
 
-De nuevo nos encontramos con que la variación de entropía de un volumen de control está compuesta por términos de flujo, (a), y términos de producción, crvc. En este caso, a diferencia de lo encontrado para el sistema cerrado, el ambiente no sólo actúa como un conjunto de fuentes térmicas que proporciona una determinada cantidad de calor, sino que además proporciona un intercambio de materia al que podemos asociar el correspondiente flujo de entropía	m¡
+De nuevo nos encontramos con que la variación de entropía de un volumen de control está compuesta por términos de flujo, (a), y términos de producción, :math:`\dot{\sigma}_{VC}`. En este caso, a diferencia de lo encontrado para el sistema cerrado, el ambiente no sólo actúa como un conjunto de fuentes térmicas que proporciona una determinada cantidad de calor, sino que además proporciona un intercambio de materia al que podemos asociar el correspondiente flujo de entropía	:math:`\sum_i s_i \dot{m}_i`
 
 
 Teniendo esto en cuenta podemos expresar la producción total de entropía., como en el caso de sistemas cerados, sin más que recordar que:
@@ -102,13 +102,13 @@ Teniendo esto en cuenta podemos expresar la producción total de entropía., com
 
    \Delta S_{univ} = \Delta S_{sis} + \Delta S_{MA} = \sigma_t
 
-siendo, en este caso, AS,i, el incremento de entropía del volumen de control, ASvc e ASMA el incremento de entropía del medio ambiente. La ecuación anterior se puede escribir también:
+siendo, en este caso, :math:`\Delta S_{sis}`, el incremento de entropía del volumen de control, ASvc e ASMA el incremento de entropía del medio ambiente. La ecuación anterior se puede escribir también:
 
 .. math::
 
    \dot{S}_{univ} = \dot{S}_{VC} + \dot{S}_{MA} = \dot{\sigma}_t
 
-La expresión para Svc es la (4.22). Para calcular la variación de entropía del medio ambiente, SMA, hemos de tener en cuenta que éste podemos modelizarlo mediante un conjunto de fuentes térmicas, más las fuentes y sumideros de materia. En todo caso, el calor QFi que la fuente intercambia con el sistema será igual pero de signo contrario a Qi que como vimos es el calor desde el punto de vista del sistema, ya que el calor cedido por la fuente es recibido por el sistema y viceversa. Algo análogo podríamos decir respecto a los términos m¡ es decir, lo que es positivo para el sistema es negativo para la fuente y a la inversa. Es importante resaltar que no siempre es inmediato la modelización de las correspondientes fuentes térmicas.
+La expresión para :math:`\dot{S}_{VC}` es la (4.22). Para calcular la variación de entropía del medio ambiente, :math:`\dot{S}_{MA}, hemos de tener en cuenta que éste podemos modelizarlo mediante un conjunto de fuentes térmicas, más las fuentes y sumideros de materia. En todo caso, el calor :math:`\dot{Q}_{F_i}` que la fuente intercambia con el sistema será igual pero de signo contrario a :math:`\dot{Q}_i` que como vimos es el calor desde el punto de vista del sistema, ya que el calor cedido por la fuente es recibido por el sistema y viceversa. Algo análogo podríamos decir respecto a los términos :math:`\dot{m}_i s_i` es decir, lo que es positivo para el sistema es negativo para la fuente y a la inversa. Es importante resaltar que no siempre es inmediato la modelización de las correspondientes fuentes térmicas.
 
 Por lo tanto tendremos:
 
@@ -127,4 +127,4 @@ Por lo tanto, sustituyendo en (4.23), (4.22) y (4.24.a) se obtiene:
  
    \dot{\sigma}_t = \dot{S}_{VC} + \sum_s s \dot{m}_s - \sum_e s \dot{m}_e - \sum_i \frac{\dot{Q}_i}{T_{Fi}}
 
-Nos encontramos con que la producción de entropía en el proceso es debida a los fenómenos <)isipativos que se producen en el volumen de control, más la irreversibilidad producida por la diferencia finita de temperaturas entre las fuentes térmicas y las distintas secciones de la superficie en las que se produce la transferencia de caloré.
+Nos encontramos con que la producción de entropía en el proceso es debida a los fenómenos <)isipativos que se producen en el volumen de control, más la irreversibilidad producida por la diferencia finita de temperaturas entre las fuentes térmicas y las distintas secciones de la superficie en las que se produce la transferencia de calor(*).
