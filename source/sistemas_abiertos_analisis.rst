@@ -49,7 +49,7 @@ Difusor y Tobera
 
 Los difusores y toberas son elementos sin partes móviles utilizados en las instalaciones que funcionan con fluidos y en las que se quiere o bien incrementar la presión a expensas, fundamentalmente, de la energía cinética (compresión dinámica), difusor, o bien incrementar la velocidad expansionando el fluido (expansión dinámica), tobera.
 
-En ambos casos, tanto q como wx son nulos, por lo que:
+En ambos casos, tanto :math:`q` como :math:`w_x` son nulos, por lo que:
 
 .. math::
 
@@ -70,25 +70,16 @@ Rendimiento adiabático de estos dispositivos
 
 Podemos decir que el rendimiento de una instalación, de una máquina y en general de cualquier dispositivo no es otra cosa que una comparación entre la actuación real de ese dispositivo bajo ciertas condiciones y la actuación que tendría lugar en un proceso ideal. En esta condición de idealidad es donde interviene la segunda ley, ya que lo que vamos a tomar como referencia de idealidad es el comportamiento isoentrópico del dispositivo. Así, cuanto más se acerque la instalación al comportamiento reversible más se acerca el rendimiento al valor unidad.
 
-FIGURA 
+.. figure:: ./img/fluido_compresor_turbina.png
 
-Compresor
-
-o2
-
-Turbina
-
-
+   Esquema de la evolución del fluido en un compresor y en una turbina.
+   
 En la figura 4.4 representamos en un diagrama T — s la evolución tanto de un compresor como de una turbina. A partir de ese diagrama queda claro que los rendimientos de un compresor y de una turbina se definen como:
 
 .. math::
 
    \eta_c &= \frac{w_{is}}{w_{real}} &= \frac{{h_o}_{2is}-h_{o1}}{h_{o2r}-h_{o1}} \\
    \eta_t &= \frac{w_{real}}{w_{is}} &= \frac{{h_o}_{2r}-h_{o1}}{h_{o2is}-h_{o1}}
-
-
-Figura 4.4 Esquema de la evolución del fluido en un compresor y en una turbina.
-
 
 Para un tobera, definimos el rendimiento adiabático como el cociente entre la energía cinética real de la corriente de salida y la energía cinética que tendría esa corriente si el proceso en la tobera fuese isoentrópico. Esto es:
 
