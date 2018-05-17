@@ -371,7 +371,7 @@ La entalpia de un gas ideal se representa normalmente utilizando como superindic
 
 .. math::
 
-   \frac{h^*-h}{T_c} = R \int_0^{p_R} T_R^2 \left( \frac{\partial Z}{\partial T_R}_{p_R}\right) d(\ln p_R)
+   \frac{h^*-h}{T_c} = R \int_0^{p_R} T_R^2 \left( \frac{\partial Z}{\partial T_R}\right)_{p_R} d(\ln p_R)
 
 El valor de la integral se obtiene por integración gráfica, utilizando datos de la gráfica de compresibilidad generalizada. El resultado de la integración conduce a valores de :math:`\frac{h^*-h}{T_c}` como función de :math:`p_R` y :math:`T_R`, estos datos se representan en forma de gráficas denominadas gráficas de entalpia generalizada. En la figura 7.7 se reproduce una de estas gráficas.
 
