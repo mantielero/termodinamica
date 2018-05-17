@@ -19,8 +19,6 @@ Respuesta:
    c_p = \frac{ \left( \frac{\partial u}{\partial s} \right)_v } {\left( \frac{\partial^2 u}{\partial s^2} \right)_v \left[ 1 - \left( \frac{\left( \frac{\partial^2 u}{\partial v \partial s} \right)^2}{\left( \frac{\partial^2 u}{\partial s^2} \right)_v \left( \frac{\partial^2 u}{\partial v^2} \right)_s} \right) \right] }
 
 
-
-
 6.3	Hallar una expresión para :math:`\left( \frac{\partial c_p}{\partial p} \right)_T` en función de v, T y :math:`\alpha`, suponiendo :math:`\alpha` constante. 
 
 Respuesta: :math:`\left( \frac{\partial c_p}{\partial p} \right)_T = -T \alpha^2 v`
