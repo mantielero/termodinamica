@@ -33,8 +33,6 @@ Relaciones termodinámicas generalizadas.
    :align: center
 
 
-
-
 Solución
 --------
 
