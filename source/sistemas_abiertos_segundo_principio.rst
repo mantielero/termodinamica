@@ -26,9 +26,9 @@ En el instante :math:`t` nuestro sistema está integrado por la masa contenida e
 
 Transcurrido el intervalo de tiempo :math:`\Delta t`, durante el que la masa :math:`\partial m_e` se ha introducido ya en el volumen de control y de él ha salido la masa :math:`\partial m_s` el sistema a considerar (instante :math:`t+\Delta t`) es el constituido por la masa en el interior del volumen de control y :math:`\partial m_s`.
 
-Durante el intervalo de tiempo considerado se supone que se produce una interacción con el medio ambiente en la que se transfieren al volumen de control una cierta cantidad de calor SQi y un trabajo SWX.
+Durante el intervalo de tiempo considerado se supone que se produce una interacción con el medio ambiente en la que se transfieren al volumen de control una cierta cantidad de calor :math:`\partial Q_i` y un trabajo :math:`\partial W_x`.
 
-Como se indica en la figura 4.3, St y St+At son los valores de la entropía de la masa del volumen de control en los instantes í y i + Ai respectivamente. Si es Si la entropía del sistema en el instante í y S2 la del sistema en el instante í + Ai, tendremos:
+Como se indica en la figura 4.3, :math:`S_t` y :math:`S_{t+\Delta t}` son los valores de la entropía de la masa del volumen de control en los instantes :math:`t` y :math:`t+\Delta t` respectivamente. Si es :math:`S_1` la entropía del sistema en el instante :math:`t` y :math:`S_2` la del sistema en el instante :math:`t+\Delta t`, tendremos:
 
 .. math::
 
