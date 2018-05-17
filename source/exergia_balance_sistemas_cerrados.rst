@@ -164,7 +164,7 @@ De (5.13.a) se ve que, para un gas perfecto, la exergia depende de la presión y
 
    \frac{T}{T_o} = \frac{1}{ 1- \frac{\gamma-1}{\gamma}\left( 1- \frac{p_o}{p} \right) }
 
-En la Fig 5.2 se ha representado :math:`\widetilde{\phi}` en función de :math:`\frac{T}{T_o}` para gases perfectos cuyo :math:`\gamma` sea 1.4 y para valores de :math:`\frac{p}{p_o}=0.5;1 y 1.5`
+En la Fig 5.2 se ha representado :math:`\widetilde{\phi}` en función de :math:`\frac{T}{T_o}` para gases perfectos cuyo :math:`\gamma` sea 1.4 y para valores de :math:`\frac{p}{p_o}=0.5`; 1 y 1.5.
 
 
 Figura 5.2
