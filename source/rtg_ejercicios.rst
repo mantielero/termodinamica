@@ -12,8 +12,9 @@ Respuesta:
 
 .. math::
 
-   c_v = \frac{ \left( \frac{\partial u}{\partial s}\right)_v }{ \left( \frac{\partial^2 u}{\partial s^2}\right)_v } \\
-   c_p = \frac{\frac{\partial u}{\partial s}\right)_v}{\frac{\partial^2 u}{\partial s^2}\right)_v \left[ 1 - \left( \frac{\partial^2 u}{\partial v \partial s}\right)_v\right) \right]}
+   c_v = \frac{ \left( \frac{\partial u}{\partial s}\right)_v }{ \left( \frac{\partial^2 u}{\partial s^2}\right)_v } 
+
+
 
 
 6.3	Hallar una expresión para (3cp//3p)T en función de v, T y a, suponiendo a constante. Respuesta: (3cp/3p)T = - T a2 v
