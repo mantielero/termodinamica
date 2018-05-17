@@ -11,7 +11,7 @@ En todo lo que sigue, conviene destacar:
 
 a) Al exterior inmediato al sistema lo denominaremos, indistintamente, medio ambiente, atmósfera o entorno.
 b) Que este medio ambiente lo consideraremos infinito y que sus propiedades térmicas (presión, volumen y temperatura) no se verán alteradas por los interacambios energéticos (calor y/o trabajo) con el sistema en consideración.
-c) También hay que decir que el equiljjj¿& al que se hace referencia en todo el tema es , sólo el equilibrio térmico v mecánico,-dejando el equilibrio material o químico, por intercambio de especies, para el tema 9. Por esta razón el estado de equilibrio con el medio ambiente se denomina. estatlo”müeff(rrestrin.gido en el que:
+c) También hay que decir que el equilibrio al que se hace referencia en todo el tema es sólo el equilibrio térmico y mecánico, dejando el equilibrio material o químico, por intercambio de especies, para el tema 9. Por esta razón el estado de equilibrio con el medio ambiente se denomina estado muerto restringido en el que:
 
 .. math::
 
@@ -19,5 +19,3 @@ c) También hay que decir que el equiljjj¿& al que se hace referencia en todo e
    p &=p_o\\
    \nu &= 0\\
    z & =0
-
-
