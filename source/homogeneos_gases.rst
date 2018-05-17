@@ -187,7 +187,7 @@ Mucho más precisa que las ecuaciones anteriores es la propuesta en 1949 por Red
 
 .. math::
 
-   p = \frac{RT}{v-b}-\frac{a}{T^{\frac{1}{2}v(v+b)}}
+   p = \frac{RT}{v-b}-\frac{a}{T^\frac{1}{2}v(v+b)}
 
 Aplicada esta ecuación en el punto critico nos conduce a los valores para *a* y *b* en función de :math:`T_c` y :math:`p_c`
 
