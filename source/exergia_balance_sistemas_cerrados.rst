@@ -30,7 +30,7 @@ y despejando el trabajo:
 
 .. math::
 
-   \partial_{real} = d(E-T_oS)_{sis} - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right) + T_o \partial \sigma_t
+   \partial W_{real} = d(E-T_oS)_{sis} - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right) + T_o \partial \sigma_t
 
 (*) Nota: es obvio que estamos tratando con velocidades de desplazamiento de la frontera del sistema, v, pequeñas frente a la velocidad del sonido en la atmósfera de modo que la sobrepresión generada por ese desplazamiento, del orden de :math:`\rho \nu^2`, es muy pequeña frente a :math:`p_o` si :math:`v << a` (siendo a la velocidad local del sonido), esto es :math:`\frac{\rho_o \frac{\nu^2}{2}}{p_o}<<1` y :math:`(p - p_o)dV = \left( \frac{p-p_o}{p_o} \right) p_odV << p_o dV`, por lo que quitamos ese término del trabajo de desplazamiento de la atmósfera.
 
@@ -38,7 +38,7 @@ De acuerdo con el segundo principio :math:`\partial \sigma_t \geq 0` por lo tant
 
 .. math::
 
-   \partial W_{real} = d(E-T_o S)_{sis}  - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right)
+   \partial W_{rev} = d(E-T_o S)_{sis}  - \sum_{i=1}^n \partial Q_i \left( 1 - \frac{T_o}{T_i}\right)
 
 Una cuestión que surge en conexión con esto último es si todo el trabajo reversible es trabajo útil o no. La respuesta depende de si la atmósfera, como depósito mecánico, es parte del entorno y de si el sistema experimenta un cambio de volumen comprimiéndose a favor de (o expandiéndose contra) la misma. En el caso en que el depósito mecánico atmosférico intercambie trabajo con el sistema, la parte de SW que es transferida por la atmósfera es (—p0dVj mientras
 que el resto loRonstituye el trabajo útil’esto ps de (5.3) se tendrá:
