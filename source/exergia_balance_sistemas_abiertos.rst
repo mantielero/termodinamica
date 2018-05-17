@@ -55,7 +55,7 @@ Si desde las condiciones del medio ambiente (estado muerto restringido: :math:`p
 
    \psi = h -h_o + \frac{\nu^2}{2}+gz- T_o(s-s_o)
 
-Teniendo en cuenta (5.8.a), (5.18) v Í5.211 el balance de exergía para sistemas de flujo en ;égimen no estacionario puede expresarse en la forma:	
+Teniendo en cuenta (5.8.a), (5.18) v (5.21) el balance de exergía para sistemas de flujo en ;égimen no estacionario puede expresarse en la forma:	
 
 .. math::
 
