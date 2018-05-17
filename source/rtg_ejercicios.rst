@@ -26,11 +26,11 @@ Respuesta:
 
 
 
+6.3	Hallar una expresión para :math:`\left( \frac{\partial c_p}{\partial p} \right)_T` en función de v, T y :math:`\alpha`, suponiendo :math:`\alpha` constante. 
 
+Respuesta: :math:`\left( \frac{\partial c_p}{\partial p} \right)_T = -T \alpha^2 v`
 
-6.3	Hallar una expresión para (3cp//3p)T en función de v, T y a, suponiendo a constante. Respuesta: (3cp/3p)T = - T a2 v
-
-6.4	La velocidad del sonido puede expresarse por ^j(dp/dp)g . Determínese esta velocidad en
+6.4	La velocidad del sonido puede expresarse por :math:`\sqrt\left( \frac{\partial p}{\partial \rho} \right)_T`. Determínese esta velocidad en
 función de coordenadas termodinámicas y propiedades del sistema (p, v, T, cp y cv). ¿Que forma tomaría la mencionada expresión de la velocidad para el caso de un gas perfecto?.
 Respuesta : yjy R T
 24
