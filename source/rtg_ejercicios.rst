@@ -13,9 +13,9 @@ Respuesta:
 .. math::
 
    c_v = \frac{ \left( \frac{\partial u}{\partial s}\right)_v }{ \left( \frac{\partial^2 u}{\partial s^2}\right)_v } \\
-   c_p = \frac{\left(\frac{\partial u}{\partial s}\right)_v}{\frac{\partial^2 u}{\partial s^2}\right)_v }
+   c_p = \left(\frac{\partial u}{\partial s}\right)_v}{\frac{\partial^2 u}{\partial s^2}\right)_v
 
-
+ \frac{ }
 
 \left[ 1 - \left( \frac{\partial^2 u}{\partial v \partial s}\right)_v\right) \right]
 
