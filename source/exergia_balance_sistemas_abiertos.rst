@@ -3,10 +3,18 @@ Balance de exergía para sistemas de flujo
 
 Para obtener el balance de exergía en sistemas dé flujo, (esto es, sistemas en los que la masa tiene una velocidad media macroscópica) se procede de manera análoga a lo hecho con los sistemas cerrados. Según vimos en el tema 4 [(4.8.a) y (4.24.b)], las ecuaciones del primer y segundo principio para sistemas abiertos en régimen no estacionario son:
 
-.. math::
-   
-   \text{Primer principio} &: \sum_{i=0}^n \dot{Q}_i+\dot{W}+\sum_e\left( h+\frac{\nu^2}{2} + gz \right) \dot{m} -  \sum_s \left( h+\frac{\nu^2}{2} + gz \right) \dot{m} = \frac{d}{dt}\left( U+E_m\right)_{VC} \\
-   \text{Segundo principio} &: \dot{\sigma}_t = \left. \frac{dS}{dt} \right|_{VC} - \sum_{i=0}^{n} \frac{\dot{Q}}{T_i} - \sum_e s \dot{m} + \sum_s s \dot{m} \geq 0
+* Primer principio:
+
+  .. math::
+
+     \sum_{i=0}^n \dot{Q}_i+\dot{W}+\sum_e\left( h+\frac{\nu^2}{2} + gz \right) \dot{m} -  \sum_s \left( h+\frac{\nu^2}{2} + gz \right) \dot{m} = \frac{d}{dt}\left( U+E_m\right)_{VC} \\
+
+
+* Segundo principio:
+
+  .. math::
+
+     \dot{\sigma}_t = \left. \frac{dS}{dt} \right|_{VC} - \sum_{i=0}^{n} \frac{\dot{Q}}{T_i} - \sum_e s \dot{m} + \sum_s s \dot{m} \geq 0
 
 Eliminando :math:`\dot{Q}_o` entre las ecuaciones (5.15) y 1(5.16), y como :math:`h_t = h +\frac{\nu^2}{2} + gz`, despejando :math:`\dot{W}` se obtiene:
 
