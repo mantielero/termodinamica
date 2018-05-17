@@ -19,8 +19,8 @@ Suponiendo un funcionamiento en régimen estacionario y que al sistema cerrado n
 
 .. math::
 
-   \dot{Q}_s = \dot{Q}_u + \dot{Q}_p \\
-   \dot{Q}_u \left( 1- \frac{T_o}{T_u}\right) - \dot{Q}_s \left( 1- \frac{T_o}{T_s}\right) + \dot{Q}_p \left( 1- \frac{T_o}{T_p}\right) + T_o \sigma = 0
+   & \dot{Q}_s = \dot{Q}_u + \dot{Q}_p \\
+   & \dot{Q}_u \left( 1- \frac{T_o}{T_u}\right) - \dot{Q}_s \left( 1- \frac{T_o}{T_s}\right) + \dot{Q}_p \left( 1- \frac{T_o}{T_p}\right) + T_o \sigma = 0
    
 
 El balance energético dice simplemente que de la potencia térmica que recibe el sistema parte se utiliza y el resto se pierde.
