@@ -36,7 +36,7 @@ Teniendo en cuenta (6.43) y aplicando a la misma la condición de diferencial ex
 
 .. math::
 
-   \left( \frac{\partial \left( \frac{c_p}{T}\right)}{p} \right)_T = - \left( \frac{\partial ^2 v}{\partial T^2}\right)_p
+   \left( \frac{\partial \left( \frac{c_p}{T}\right)}{\partial p} \right)_T = - \left( \frac{\partial ^2 v}{\partial T^2}\right)_p
 
 
 
