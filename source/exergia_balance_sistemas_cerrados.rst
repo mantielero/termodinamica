@@ -127,7 +127,7 @@ Para una sustancia incompresible :math:`du = c dT`, :math:`dv=0` y :math:`ds = c
 
 .. math::
 
-   \phi = \frac{\phi}{cT_o} =\frac{T}{T_o} -1 - \ln \frac{T}{T_o}
+   \widetilde{\phi} = \frac{\phi}{cT_o} =\frac{T}{T_o} -1 - \ln \frac{T}{T_o}
 
 La exergia de una sustancia incompresible es sólo función de la temperatura y referida a :math:`cT_o`, ecuación (5.12), es independiente de cuál sea la sustancia concreta.
 
