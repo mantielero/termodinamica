@@ -35,13 +35,13 @@ Como se indica en la figura 4.3, :math:`S_t` y :math:`S_{t+\Delta t}` son los va
    S_1 &= S_t + s_e \partial m_e\\
    S_2 &= S_{t+\Delta t}+ s_s \partial m_s
 
-Así pues, llevando estas expresiones a /4.17) obtendremos:
+Así pues, llevando estas expresiones a (4.17) obtendremos:
 
 .. math::
 
    S_{t+\Delta t} - S_t+s_s \partial m_s -s_e \partial m_e = \frac{\partial Q_i}{T_i} + \partial \sigma_{VC}
 
-En el caso que estamos considerando, hemos de tener claro que SQi y son, respectivamente, los valores de la cantidad de calor que a través de las fronteras impermeables recibe el sistema y la temperatura de la frontera del sistema por donde se produce la transferencia de calor. Si esta transferencia de calor tiene lugar en más de un punto de la frontera habrá que considerar el sumatorio correspondiente.
+En el caso que estamos considerando, hemos de tener claro que :math:`\partial Q_i` y :math:`T_i`son, respectivamente, los valores de la cantidad de calor que a través de las fronteras impermeables recibe el sistema y la temperatura de la frontera del sistema por donde se produce la transferencia de calor. Si esta transferencia de calor tiene lugar en más de un punto de la frontera habrá que considerar el sumatorio correspondiente.
 
 Considerando el cambio por unidad de tiempo, tendremos:
 
@@ -49,7 +49,7 @@ Considerando el cambio por unidad de tiempo, tendremos:
  
    \frac{\partial \sigma_{VC}}{\Delta t} = \frac{S_{t+\Delta t}-S_t}{\Delta t} + s_s \frac{\partial m_s}{\Delta t} - s_e \frac{\partial m_e}{\Delta t} - \sum_i \frac{\frac{\partial Q_i}{\Delta t}}{T_i}
   
-En el límite Ai —> 0 y suponiendo múltiples entradas y salidas:
+En el límite :math:`\Delta t \rightarrow 0` y suponiendo múltiples entradas y salidas:
 
 .. math::
 
@@ -57,7 +57,7 @@ En el límite Ai —> 0 y suponiendo múltiples entradas y salidas:
 
 La ecuación (4.18) es la ecuación del segundo principio para sistemas abiertos en régimen no estacionario. El término de producción de entropía que aparece en ella recoge todas las irreversibilidades existentes en el interior del volumen de control.
 
-Si consideramos un proceso estacionario, Svc = 0,;y de (4.18) deducimos:
+Si consideramos un proceso estacionario, :math:`\dot{S}_{VC}=0`, y de (4.18) deducimos:
 
 .. math::
 
@@ -91,7 +91,7 @@ A fin de encontrar la semejanza entre las ecuaciones deducidas de la aplicación
 .. math::
 
    \dot{S}_{VC} &= \frac{d}{dt} \left( m s \right)_{VC} \\
-                &= \sum_i \frac{\dot{Q}_i}{T_i} + \sum_e s \dot{m}_e - \sum_s s \dot{m}_s + \dot{\sigma}_{VC}
+                &= \underbrace{\sum_i \frac{\dot{Q}_i}{T_i} + \sum_e s \dot{m}_e - \sum_s s \dot{m}_s}_{\text{(a)}} + \dot{\sigma}_{VC}
 
 De nuevo nos encontramos con que la variación de entropía de un volumen de control está compuesta por términos de flujo, (a), y términos de producción, crvc. En este caso, a diferencia de lo encontrado para el sistema cerrado, el ambiente no sólo actúa como un conjunto de fuentes térmicas que proporciona una determinada cantidad de calor, sino que además proporciona un intercambio de materia al que podemos asociar el correspondiente flujo de entropía	m¡
 
