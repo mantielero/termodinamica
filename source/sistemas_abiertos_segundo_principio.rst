@@ -18,13 +18,9 @@ y para un proceso finito:
 A continuación procederemos a deducir la aplicabilidad de esta ecuación a un sistema abierto, para lo que seguiremos un método análogo al utilizado en la deducción de la ecuación del primer principio para este tipo de sistemas.
 
 
-Instante t	Instante t -f At
+.. figure:: ./img/entropia_sistemas_abiertos.png
 
-Masa del sistema = m< + Sme	Masa del sistema	+ ¿m.
-
-Entropía del sistema = St + se Sme	Entropía del sistema = Sj+a< + s» 4m»
-
-Figura 4.3 Esquema para la deducción de la ecuación del segundo principio aplicada a un sistema abierto.
+   Esquema para la deducción de la ecuación del segundo principio aplicada a un sistema abierto.
 
 En el instante t nuestro sistema está integrado por la masa contenida en el volumen de control, delimitado por la línea a trazos, rnj, y la contenida en el volumen rayado, Sme.
 
