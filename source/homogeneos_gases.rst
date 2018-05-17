@@ -100,7 +100,7 @@ La ecuación de van der Waals tiene un campo de aplicación restringido, ya que 
 
 A pesar de lo dicho, esta ecuación tiene un merecido interés histórico porque permitió la deducción de los parámetros característicos que definen el comportamiento de cada gas (a, b), sin más que tener en cuenta el comportamiento genérico de las sustancias puras. Al principio del tema hemos citado las experiencias de Andrews con gases, fundamentalmente con :math:`CO_2`, siendo los resultados obtenidos una red de isotermas como la esquematizada en la fig. 7.2.
 
-Fig 7.2
+.. figure:: ./img/fig_7_2.png
 
 Aunque en el próximo tema consideraremos con más detenimiento este tipo de isotermas destaquemos que en las dos regiones señaladas, gas y líquido-gas, encontramos una isoterma que representa el límite de esta última zona, es decir, el punto en el que coincide el volumen específico del líquido y el gas. A este punto se le denomina punto crítico y a la isoterma se la denomina isoterma crítica. El punto crítico está caracterizado por las coordenadas termodinámicas presión crítica :math:`p_c`, temperatura crítica :math:`T_c`, y volumen crítico :math:v_c``
 
