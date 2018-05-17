@@ -355,7 +355,7 @@ Sustituyendo estas expresiones en la ecuación (7.13), obtenemos
 
 .. math::
 
-   dh_T = -\frac{RT_c^2T_R^2}{p_Cp_R} \left( \frac{\partial Z}{T_c \partial T_R}_{p_R}\right) d(\ln p_R)
+   dh_T = -\frac{RT_c^2T_R^2}{p_Cp_R} \left( \frac{\partial Z}{T_c \partial T_R}\right)_{p_R} d(\ln p_R)
 
 e integrando a temperatura constante se obtiene la expresión
 
