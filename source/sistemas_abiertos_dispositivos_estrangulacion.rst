@@ -23,8 +23,3 @@ Sin embargo, en la mayoría de las aplicaciones, o el dispositivo de estrangulac
    h_2 = h_1
 
 Esto no quiere decir que la entalpia sea constante durante el proceso, sino que la entalpia del flujo en la sección de entrada y en la sección de salida son las mismas. Como ejemplos de sistemas sencillos que utilizan este efecto podrían citarse un grifo de agua, una válvula de expansión de un figorífico, etc. En todos estos dispositivos tiene lugar un efecto de estrangulación o *expansión de Joule-Thomson*.
-
-
-
-OTRO
-----
