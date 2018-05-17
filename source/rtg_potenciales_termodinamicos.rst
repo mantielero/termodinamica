@@ -377,7 +377,7 @@ Volviendo a cambiar la diagonal principal y el signo:
 Para este mismo fin se utiliza el cuadro de Max Born:
 
 
-INCLUIR LA FIGURA
+.. figure:: ./img/max_born.png
 
 La utilidad de estas relaciones se verá a lo largo de nuestro estudio, sin embargo, como una primera aplicación inmediata, consideremos el caso siguiente: supongamos que en el estudio de una determinada sustancia es preciso conocer como varia la entropía de la misma al variar el volumen a temperatura constante.
 
