@@ -39,7 +39,7 @@ Para obtener estas gráfica experimentalmente, se fijan los valores de :math:`p_
 
 Para obtener otra curva de entalpia constante, se altera o la presión o la temperatura inicial y se repite el procedimiento anterior para este nuevo valor de la entalpia.
 
-De esta forma se traza una familia de líneas de entalpia constante sobre un diagrama :math:`T_p`. Un resultado típico se muestra en la figura 6.2. La pendiente de una línea de entalpia constante, para cualquier estado, es una medida del coeficiente de Joule-Kelvin correspondiente a ese estado, es decir, una medida de :math:`\mu_{JT}`.
+De esta forma se traza una familia de líneas de entalpia constante sobre un diagrama T-p. Un resultado típico se muestra en la figura 6.2. La pendiente de una línea de entalpia constante, para cualquier estado, es una medida del coeficiente de Joule-Kelvin correspondiente a ese estado, es decir, una medida de :math:`\mu_{JT}`.
 
 En la figura 6.2, en donde se han representado las lineas de entalpia constante, vemos que algunas de ellas presentan un máximo. La linea que une estos máximos se denomina linea de inversión, y el valor de la temperatura para este estado se denomina temperatura de inversión. Una linea de presión constante cortará a la curva de inversión en dos puntos, de aquí que se hable de temperatura de inversión superior e inferior para una presión dada, en la zona de existencia de la curva de inversión.
 
