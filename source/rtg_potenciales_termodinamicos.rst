@@ -36,7 +36,7 @@ Conocidas u, s, v, p, y T podemos calcular sin dificultad h, a, g y otras magnit
 .. math::
 
    \left( \frac{\partial^2 u}{\partial v^2}\right)_s &= \left( \frac{\partial p}{\partial v}\right)_s &= \frac{1}{k_s v}\\
-   \left( \frac{\partial^2 u}{\partial s^2}\right)_s &= \left( \frac{\partial T}{\partial s}\right)_v = \frac{T}{c}
+   \left( \frac{\partial^2 u}{\partial s^2}\right)_s &= \left( \frac{\partial T}{\partial s}\right)_v = \frac{T}{c_v}
 
 
 Como aplicación de lo expuesto anteriormente consideremos el siguiente ejercicio:
