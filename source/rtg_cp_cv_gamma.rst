@@ -122,8 +122,6 @@ Esta diferencia se hace cero en dos ocasiones. La primera de estas es, evidentem
 
 El segundo caso en el que se anula la diferencia :math:`c_p-c_v` es cuando se anula la derivada parcial :math:`\left(\frac{\partial v}{\partial T}\right)_p`. Esto ocurre cuando el fluido tiene un valor extremo del volumen específico (máximo o mínimo). Si consideramos como sistema el agua líquida, este caso se presenta en el entorno de 4 °C, por ser a esta temperatura su densidad máxima.
 
-sólidos y líquidos se suele
-
 Es importante destacar que cuando se considera el estudio de hablar de calor específico y no se hace referencia a que el proceso considerado sea a presión o a volumen constante. Esto se debe a que los valores de :math:`\left(\frac{\partial v}{\partial T}\right)_p` son pequeños para la mayoría de los estados de equilibrio de las sustancias en estas fases. Generalmente los datos tabulados son valores de :math:`c_p`.
 
 Es frecuente que encontremos expresada la diferencia de calores específicos para sólidos y líquidos en función del coeficiente de dilatación a y del coeficiente de compresibilidad isoterma :math:`k_T`, ya definidos. Sustituyendo en (6.56), se obtiene:
