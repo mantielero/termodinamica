@@ -141,9 +141,9 @@ Para gases perfectos la dependencia de la energía interna, del volumen específ
 
 .. math::
 
-   du = C_v dT \\
-   dv = Rd \left( \frac{T}{p} \right) \\
-   ds = c_p \frac{dT}{T} - R\frac{dp}{p}
+   du &= C_v dT \\
+   dv &= Rd \left( \frac{T}{p} \right) \\
+   ds &= c_p \frac{dT}{T} - R\frac{dp}{p}
 
 con lo que :math:`\phi` vendrá dada por:
 
