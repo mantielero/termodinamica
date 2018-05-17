@@ -171,7 +171,7 @@ Figura 5.2
 
 Los mínimos indican el valor que alcanzaría la temperatura de un sistema si desde un estado inicial fijo :math:`\left( \frac{T_1}{T_o},\frac{p_1}{p_o}\right)` se quisiera, para un valor de :math:`\frac{p_2}{p_o}` dado, alcanzar, con el consumo mínimo de trabajo, esto es, teniendo como única fuente térmica la atmósfera, un estado termodinámico de equilibrio mediante un proceso sin producción de entropía.
 
-De (5.13.b) puede verse que las curvas :math:`\phi = cte` en las proximidades del punto :math:`\frac{T}{T_o}=1`, :math:`\frac{p}{p_o}=1` son elipses dadas por la ecuación:
+De (5.13.b) puede verse que las curvas :math:`\widetilde{\phi} = cte` en las proximidades del punto :math:`\frac{T}{T_o}=1`, :math:`\frac{p}{p_o}=1` son elipses dadas por la ecuación:
 
 .. math::
 
