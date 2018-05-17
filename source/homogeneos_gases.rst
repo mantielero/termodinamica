@@ -365,7 +365,7 @@ e integrando a temperatura constante se obtiene la expresión
 
 donde i y f indican los límites inicial y final de integración para :math:`p_R`. Debido a que es fácil determinar la variación de entalpia con la temperatura a presión constante, cuando la presión es baja, la integración anterior debe realizarse desde el estado de gas ideal (:math:`p\rightarrow 0`), al estado de gas real a la misma temperatura.
 
-FIGURA
+.. figure:: ./img/z_pr5.png
 
 La entalpia de un gas ideal se representa normalmente utilizando como superindice un asterisco, es decir, :math:`h^*`, o también mediante el subíndice (pg), :math:`h_{pg}` (correspondería a la denominación gas perfecto, considerado como sinònimo de gas ideal, sin tener en cuenta la dependencia :math:`c_p` con T). El límite superior es la entalpia reai del gas, h, a una presión determinada. De aquí
 
