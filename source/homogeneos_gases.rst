@@ -12,7 +12,7 @@ Entre las ecuaciones analíticas que se utilizan para expresar el comportamiento
 
 Supongamos que se mide la presión p y el volumen V de n moles de un gas, mantenidos a una temperatura determinada, para un amplio intervalo de valores de la presión, y representamos el producto pv, siendo :math:`v = \frac{V}{n}`, en función de *p*.
 
-Experiencias de esta clase fueron realizadas por vez primera por Amagat [#Amagat]_ en Francia en 1870 (Antes, en el periodo 1857-69 T. Andrews [#Andrews]_ realizó estudios sobre diversas isotermas del CO2, viendo que al incrementar T disminuye la diferencia vg — v¡). Estas experiencias se han repetido en diversos laboratorios y en diversa épocas.
+Experiencias de esta clase fueron realizadas por vez primera por Amagat [#Amagat]_ en Francia en 1870 (Antes, en el periodo 1857-69 T. Andrews [#Andrews]_ realizó estudios sobre diversas isotermas del CO2, viendo que al incrementar T disminuye la diferencia :math:`v_g` — :math:`v_l`). Estas experiencias se han repetido en diversos laboratorios y en diversa épocas.
 
 .. rubric:: Investigadores
 
