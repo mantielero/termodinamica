@@ -309,7 +309,7 @@ De la ecuación anterior se deduce que a temperatura constante el cambio de enta
 
 .. math::
 
-   dh_T = \left[ v - T \left( \frac{\partial v}{\partial T}\right)_p \right]
+   dh_T = \left[ v - T \left( \frac{\partial v}{\partial T}\right)_p \right] dp
 
 
 Utilizando la relación de compresibilidad
