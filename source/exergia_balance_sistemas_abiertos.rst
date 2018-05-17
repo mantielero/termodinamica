@@ -97,4 +97,4 @@ De manera análoga, la expresión (5.lO.b) y la (5.22) una vez integrada, pueden
 
 .. math::
 
-   \left. e_x\right_{obtenida} + \left. e_x\riht_{perdida} = \left. e_x\right_{suministrada}
+   \left. e_x\right_{obtenida} + \left. e_x\right_{perdida} = \left. e_x\right_{suministrada}
