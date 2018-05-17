@@ -22,9 +22,10 @@ y las relaciones de Maxwell correspondientes, se obtiene:
    c_v = -T \left( \frac{\partial v}{\partial T}\right)_s \left( \frac{\partial p}{\partial T}\right)_v\\
    c_p = T \left( \frac{\partial p}{\partial T}\right)_s \left( \frac{\partial v}{\partial T}\right)_p
 
-Un método alternativo para la determinación de valores de cp y cv en un amplio intervalo de presiones y temperaturas está basado en el hecho experimental de que es fácil determinar ..calores específicos- í presiones bajas, ^ no lo es tanto a presiones-elevadas. Ya se mencionó la posibilidad de utilizar los métodos espectroscópicos para la determinación de calores específicos de gases a baja presión y la variación de este calor específico con la temperatura. Tales datos se denominan calores específicos a presión cero.
+Un método alternativo para la determinación de valores de :math:`c_p` y :math:`c_v` en un amplio intervalo de presiones y temperaturas está basado en el hecho experimental de que es fácil determinar calores específicos a presiones bajas y no lo es tanto a presiones elevadas. Ya se mencionó la posibilidad de utilizar los métodos espectroscópicos para la determinación de calores específicos de gases a baja presión y la variación de este calor específico con la temperatura. Tales datos se denominan calores específicos a presión cero.
 
 Para hacer que estos datos sean aplicables en cualquier intervalo, no sólo de temperatura, sino también de presión, es preciso que podamos determinar como varían estos calores específicos con la presión a temperatura constante.
+
 Esta evaluación deberá basarse nuevamente en la utilización de datos p, v, T, determinados en el intervalo adecuado de estados de equilibrio.
 
 Desde el punto de vista matemático lo que buscamos es una expresión para :math:`\left( \frac{\partial c_p}{\partial p} \right)_T` y en casos menos frecuentes :math:`\left( \frac{\partial c_v}{\partial v} \right)_T`. Ecuaciones generalizadas para estas dos expresiones se obtienen a partir de las ecuaciones s(T, p) (6.43a) y s (T,v) (6.39) deducidas antes.
@@ -159,4 +160,3 @@ Sustituyendo en (6.58) y recordando que :math:`k_T= -\left(\frac{1}{v}\right)\le
    \gamma = -\left(\frac{\partial p}{\partial v}\right)_s \left( -\frac{\partial v}{\partial p}\right)_T = \frac{\kappa_T}{\kappa_s}
 
 Es decir, podemos relacionar el cociente de calores específicos con el cociente de las compresibilidades de la sustancia a temperatura y entropía constante.
-
