@@ -114,8 +114,7 @@ en (6.55), llegamos a la expresión:
    c_p-c_v = -T \left(\frac{\partial p}{\partial v}\right)_T \left(\frac{\partial v}{\partial T}\right)_p^2
 
 
-De esta ecuación se pueden deducir inmediatamente un conjunto de resultados importan-
-tes.
+De esta ecuación se pueden deducir inmediatamente un conjunto de resultados importantes.
 
 Ante todo y sobre la base de datos experimentales, se sabe que :math:`\left(\frac{\partial p}{\partial v}\right)_T` es siempre negativa para todas las sustancias en todas las fases. Ya que la primera derivada parcial está elevada al cuadrado, se deduce que :math:`c_p-c_v` debe ser siempre positivo o cero.
 
