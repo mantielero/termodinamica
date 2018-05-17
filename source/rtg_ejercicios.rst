@@ -19,6 +19,13 @@ Respuesta:
 
 \left[ 1 - \left( \frac{\partial^2 u}{\partial v \partial s}\right)_v\right) \right]
 
+
+\left( \frac{\partial^2 u}{\partial u \partial s} \right)^2
+\left( \frac{\partial^2 u}{\partial s^2} \right)_v
+\left( \frac{\partial^2 u}{\partial v^2} \right)_s
+
+
+
 6.3	Hallar una expresión para (3cp//3p)T en función de v, T y a, suponiendo a constante. Respuesta: (3cp/3p)T = - T a2 v
 
 6.4	La velocidad del sonido puede expresarse por ^j(dp/dp)g . Determínese esta velocidad en
