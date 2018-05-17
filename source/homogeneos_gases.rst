@@ -293,7 +293,7 @@ El gráfico de factor de compresibilidad generalizado tiene muy diversas aplicac
 Gráficas termodinámicas generalizadas
 '''''''''''''''''''''''''''''''''''''
 
-El principio de los estados correspondientes también es muy útil en la predicción de valores distintos a los *pvT*. Estos tres valores acabamos de correlacionarlos mediante el factor de compresibilidad y las propiedades reducidas :math:`p_R, T_R y v_R'`..
+El principio de los estados correspondientes también es muy útil en la predicción de valores distintos a los *pvT*. Estos tres valores acabamos de correlacionarlos mediante el factor de compresibilidad y las propiedades reducidas :math:`p_R`, :math:`T_R` y :math:`v_R'`.
 
 Es importante destacar que el factor de compresibilidad y las coordenadas reducidas pueden utilizarse para evaluar propiedades tales como la entalpia, la entropía y el calor específico a presión constante, para gases a presiones elevadas. La utilidad de este método radica en que únicamente se requiere la presión crítica y la temperatura crítica de cualquier sustancia, viniendo las correlaciones entre estas propiedades representadas de nuevo en forma de gráficas. El método de evaluación implica las ecuaciones generalizadas desarrolladas previamente.
 
@@ -323,6 +323,7 @@ encontraremos que
 .. math::
 
    v = \frac{ZRT}{p}
+   
    \left( \frac{\partial v}{\partial T}\right)_p = \frac{ZR}{p}+ \frac{RT}{p}\left( \frac{\partial Z}{\partial T}\right)_p dp
 
 por lo que, sustituyendo en la ecuación (7.12), obtenemos
