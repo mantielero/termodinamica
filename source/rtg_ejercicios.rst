@@ -1,7 +1,7 @@
 Ejercicios
 ==========
 
-6.1	Para un sistema compresible simple determínese una expresión que proporcione la variación | de entalpia con el volumen a temperatura constante en función de T, :math:`\alpha` y :math:`\kappa_T`.
+6.1	Para un sistema compresible simple determínese una expresión que proporcione la variación de entalpia con el volumen a temperatura constante en función de T, :math:`\alpha` y :math:`\kappa_T`.
 
 Respuesta: :math:`\frac{\alpha T -1}{\kappa_T}`
 
