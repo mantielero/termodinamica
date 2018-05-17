@@ -279,9 +279,9 @@ las transformadas serán:
 
 .. math::
 
-   \tau_1 = Y - D_1X_1 \\
-   \tau_2 = Y - D_2X_2 \\
-   \tau_{12} = Y - D_1X_1 -D_2X_2
+   \tau_1 &= Y - D_1X_1 \\
+   \tau_2 &= Y - D_2X_2 \\
+   \tau_{12} &= Y - D_1X_1 -D_2X_2
 
 y, por tanto,
 
