@@ -124,7 +124,7 @@ El segundo caso en el que se anula la diferencia :math:`c_p-c_v` es cuando se an
 
 Es importante destacar que cuando se considera el estudio de hablar de calor específico y no se hace referencia a que el proceso considerado sea a presión o a volumen constante. Esto se debe a que los valores de :math:`\left(\frac{\partial v}{\partial T}\right)_p` son pequeños para la mayoría de los estados de equilibrio de las sustancias en estas fases. Generalmente los datos tabulados son valores de :math:`c_p`.
 
-Es frecuente que encontremos expresada la diferencia de calores específicos para sólidos y líquidos en función del coeficiente de dilatación a y del coeficiente de compresibilidad isoterma :math:`k_T`, ya definidos. Sustituyendo en (6.56), se obtiene:
+Es frecuente que encontremos expresada la diferencia de calores específicos para sólidos y líquidos en función del coeficiente de dilatación :math:`\alpha` y del coeficiente de compresibilidad isoterma :math:`k_T`, ya definidos. Sustituyendo en (6.56), se obtiene:
 
 .. math::
 
