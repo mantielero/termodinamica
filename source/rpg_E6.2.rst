@@ -1,6 +1,6 @@
 
 Ejercicio E6.2
-^^^^^^^^^^^^^^
+==============
 
 Se ha de comprimir un gas monoatómico en un compresor que funciona en régimen estacionario, de forma reversible y a temperatura constante.
 
@@ -13,23 +13,30 @@ Determínese:
    a)	El gas se comporta como gas perfecto.
    b)	El comportamiento del gas obedece a la ecuación:
 
-P
--í
-f
+.. math::
+
+   pv= RT - \frac{a}{T}p+bp
 
 en la que:
 
-pv=RT-^p+bp
-a = 0, 385 K m3 kmol"1 b = 0, 0152 m3 kmol"1
-13
+.. math::
+
+   a &= 0.385 \frac{K m^3}{kmol} \\
+   b &= 0.0152 \frac{K m^3}{kmol} 
+
 
 Relaciones termodinámicas generalizadas.
 
-/P	*******************
+*******************
 
-w	p = 150 bar	P
+.. figure:: ./img/ejercicio_rtg2.png
+   :align: center
 
-Solución:
+
+
+
+Solución
+--------
 
 Sistema: Volumen de control definido por la carcasa del compresor. Interacciones: Las esquematizadas en la figura.
 Proceso: El representado en el diagrama.
