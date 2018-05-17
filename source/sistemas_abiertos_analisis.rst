@@ -74,7 +74,7 @@ Podemos decir que el rendimiento de una instalación, de una máquina y en gener
 
    Esquema de la evolución del fluido en un compresor y en una turbina.
    
-En la figura 4.4 representamos en un diagrama T — s la evolución tanto de un compresor como de una turbina. A partir de ese diagrama queda claro que los rendimientos de un compresor y de una turbina se definen como:
+En la figura 4.4 representamos en un diagrama T—s la evolución tanto de un compresor como de una turbina. A partir de ese diagrama queda claro que los rendimientos de un compresor y de una turbina se definen como:
 
 .. math::
 
