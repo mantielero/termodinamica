@@ -77,7 +77,7 @@ por lo que:
 
 .. math::
 
-   T_i = \frac{v}{\left( \frac{\partial T}{\partial p} \right)_p} = \frac{1}{\alpha_i}
+   T_i = \frac{v}{\left( \frac{\partial v}{\partial T} \right)_p} = \frac{1}{\alpha_i}
 
 
 A partir de esta relación, una vez conocida la ecuación *pvT* del gas, se podría determinar el valor de la temperatura de inversión del mismo.
