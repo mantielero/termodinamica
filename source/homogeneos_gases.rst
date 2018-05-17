@@ -329,7 +329,7 @@ por lo que, sustituyendo en la ecuación (7.12), obtenemos
 
 .. math::
 
-   dh_T = \left[ \frac{ZRT}{p} - \frac{ZRT}{p} - \frac{RT^2}{p}\frac{RT}{p}\left( \frac{\partial Z}{\partial T}\right)_p\right] dp = - \frac{RT^2}{p}\left( \frac{\partial Z}{\partial T}\right)_p dp
+   dh_T = \left[ \frac{ZRT}{p} - \frac{ZRT}{p} - \frac{RT^2}{p}\left( \frac{\partial Z}{\partial T}\right)_p\right] dp = - \frac{RT^2}{p}\left( \frac{\partial Z}{\partial T}\right)_p dp
 
 Antes de integrar esta ecuación debemos transformarla a coordenadas reducidas, de forma que en una primera aproximación, resulte de validez general. Hemos visto que, por definición
 
