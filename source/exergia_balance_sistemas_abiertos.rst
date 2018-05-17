@@ -49,7 +49,7 @@ y la ecuación (5.18) se puede escribir:
 (*) En algunos textos a :math:`(e + p_ov — T_os)` le llaman disponibilidad. La disponibilidad de flujo se relaciona con ésta mediante la relación :math:`a_f = a + v(p — p_o)`.
 
 
-Si desde las condiciones del medio ambiente (estado muerto restringido: :math:`p_o`, :math:`T_o`, :math:`v = 0` y :math:`z = 0`) mediante un proceso en régimen estacionario (:math:`\frac{d}{dt}=0`) y teniendo como única fuente térmica la atmósfera :math:`\left(\sum_{i=1}^n \dot{Q}_i \left( 1- \frac{T_o}{T_i} \right)=0\right)` se quiere obtener una corriente con una velocidad, v, temperatura, T, presión, p y altura z determinadas, la potencia mecánica reversible útil i necesaria es :math:`m\psi` siendo :math:`\psi`  la exergía de una corriente, que se obtiene a partir de (5.19) con ^ todas las condiciones especificadas. Esto es:
+Si desde las condiciones del medio ambiente (estado muerto restringido: :math:`p_o`, :math:`T_o`, :math:`v = 0` y :math:`z = 0`) mediante un proceso en régimen estacionario (:math:`\frac{d}{dt}=0`) y teniendo como única fuente térmica la atmósfera :math:`\left(\sum_{i=1}^n \dot{Q}_i \left( 1- \frac{T_o}{T_i} \right)=0\right)` se quiere obtener una corriente con una velocidad, v, temperatura, T, presión, p y altura z determinadas, la potencia mecánica reversible útil i necesaria es :math:`m\psi` siendo :math:`\psi`  la exergía de una corriente, que se obtiene a partir de (5.19) con todas las condiciones especificadas. Esto es:
 
 .. math::
 
