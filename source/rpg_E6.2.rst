@@ -60,95 +60,63 @@ de donde:
 
    q = T (s_s -s_e)
 
-Y =	“ Se
-m
-q = T(ss-se)	(E6.2.a)
 
 En esta ecuación podemos considerar valores por unidad de masa o por unidad de cantidad de sustancia (mol). Para el problema que nos ocupa conviene utilizar el mol.
 
-Se ha de calcular wx y q, por lo que, según (4.11) y (E.6.2.a):
+Se ha de calcular :math:`w_x` y :math:`q`, por lo que, según (4.11) y (E.6.2.a):
 
-wx = A h - q
-q = T A s
-Ir?	Vemos que, calculado el incremento de entropía, puede determinarse q y una vez conocido q y
-calculado D h, se podrá determinar el trabajo.
-%
-Para calcular A s y A h, recordemos que según (6.43) y (6.45):
-14
-Relaciones termodinámicas generalizadas.
-h
-^ dv^
-k8Tj
-dp
-dh = cp
-dT +
-^ 5v ^
-v5Ty
-dp
+.. math::
+
+   w_x &= \Delta h - q \\
+   q &= T \Delta s
+   
+Vemos que, calculado el incremento de entropía, puede determinarse :math:`q` y una vez conocido :math:`q` y calculado :math:`Dh`, se podrá determinar el trabajo.
+
+Para calcular :math:`\Delta s` y :math:`\Delta h`, recordemos que según (6.43) y (6.45):
+
+.. math::
+
+   ds &= \frac{c_p}{T} dT - \left( \frac{\partial v}{\partial T}\right)_p dp \\
+   dh &= c_p dT + \left[ v-T\left( \frac{\partial v}{\partial T} \right)_p\right] dp
+
+
 para un proceso a temperatura constante:
-d s^p
-5T
-dp
-d h j —
-v-T
 
-v5T /
-dp
+.. math::
+
+   ds_T = - \left( \frac{\partial v}{\partial T} \right)_p dp \\
+   dh_T = \left[ v - T \left( \frac{\partial v}{\partial T} \right)_p\right] dp
+
+
 a) En el caso de gas perfecto:
-pv=RT,
-_ RT P
-/ , \ 5v
-5T
-R
-P
-s2 _ S1 -
-8.314
-/•l50 «	ISO
-—= R ln—— = - 22.51 kJ . kmol
-J io P 10
-d hT —
-T R
-v-T —
-dp = 0,
-Ah = 0
-q = T D s = 300 (- 22.51) = -6 754,42 kJ.kmol'1 w, = Dh - q = 0 + 6 754.42 = 6 754,42 kJ.kmol'1
+
+.. math::
+
+   pv &= RT \\
+   v &= \frac{RT}{p} \\
+   \left( \frac{\partial v}{\partial T} \right)_p &= \frac{R}{p}
+   ds_T = - \frac{R}{p}dp \\
+   s_2-s_1 = -8.314 \int_10^150 \frac{dp}{p} = R \ln \frac{150}{10} = -22.51 \frac{kJ}{kmol} \\
+   dh_T = \left[ v-T\frac{R}{p} \right] dp = 0 \\
+   \Delta h = 0 \\
+   q = TDs = 300(-22.51) = -6754.42 \frac{kJ}{kmol} \\
+   w_x = Dh -q = 0+6754.42 = 6754.42 \frac{kJ}{kmol}
+   
+
 b) Gas real:
-pv =
-RT- — p + bp, T
-RT	a	,
-v =------ + b ,
-P	T
 
-dT
-R a
-H 2 p T2
-15
-Relaciones termodinámicas generalizadas.
-t
-v-T
+.. math::
 
-v5Ty
-RT a R T a	RT a _ 2a,b
-“	T _ p T	p T~T
-d Sr — —
-( d\ '	dp = -	( R a V	M50	f R a 'j
-		— + — dp, A s =	—
-	p	l P T2 J J	10	y p t2 )
-dp
-ÁSx = - 8.314 ln
-150	0.385
-10	3002
-(150- 10) 102 = -22,57 kJ.(kmol.K)-1
-dhT
-	r (7 v 'l			(. ¿a"!
-v-T			dp =
-	[tiT¡	l C.		l T J
-dp
-i
-A hT
-n	b-^1
-JJ	T )
-dp
-b (150 - 10) 102 - — (150- 10) 102 = 176,86 kJ . kmol-1 300
-q = - 300.22.57 = - 6 772,38 kJ . kmol'1
-wx = 176,86 - ( - 6 772,38 ) = 6 949,24 kJ . kmol’1
+   pv = RT -\frac{a}{T} p +bp \\
+   v = \frac{RT}{p}-\frac{a}{T}+b \\
+   \left( \frac{\partial v}{\partial T} \right)_p = \frac{R}{p}+\frac{a}{T^2} \\
+   \left[ v-T \left( \frac{\partial v}{\partial T} \right)_p\right] = v- \frac{RT}{p}-\frac{a}{T} = \frac{RT}{p}-\frac{a}{T}+b-\frac{RT}{p}-\frac{a}{T} = - \frac{2a}{T}+b \\
+   ds_T = - \left( \frac{\partial v}{\partial T} \right)_p= -\left( \frac{R}{p} + \frac{a}{T^2} \right) dp \\
+   \Delta s = \int_10^150 - \left( \frac{R}{p} + \frac{a}{T^2} \right ) dp \\
+   \Delta s_T = -8.314 \ln \frac{150}{10} - \frac{0.385}{300^2}(150-10) 10^2 = -22.57 \frac{kJ}{kmol \cdot K } \\
+   dh_T = \left[ v- T \left( \frac{\partial v}{\partial T} \right)_p\right] dp = \left( b-\frac{2a}{T} \right) dp \\
+   \Delta h_T = \int_10^150 \left(b- \frac{2a}{T} \right) dp = \\
+   = b(150-10)10^2-\frac{2a}{300}(150-10)10^2= 176.86\frac{kJ}{kmol} \\
+   q = -300 \¢dot 22.57 = -6772.38\frac{kJ}{kmol} \\
+   w_x = 176.86 - (-6772.38) = 6949.24\frac{kJ}{kmol}
+   
