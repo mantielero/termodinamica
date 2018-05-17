@@ -6,7 +6,7 @@ Una vez que hemos considerado los principios fundamentales de la termodinámica,
 
 Los sistemas objeto de estudio, según su constitución, podemos clasificarlos en homogéneos y heterogéneos.
 
-Decimos que un sistema es homogéneo. cuando su composición química y propiedades físicas son iguales en todas sus partes o varían de un modo continuo de un punto del sistema a otro. Como ejemplo característico podríamos considerar una columna de aire. En este sistema y debido a la gravedad, con la altura cambian de un modo continuo, tanto su composición química como sus propiedades físicas.
+Decimos que un sistema es homogéneo cuando su composición química y propiedades físicas son iguales en todas sus partes o varían de un modo continuo de un punto del sistema a otro. Como ejemplo característico podríamos considerar una columna de aire. En este sistema y debido a la gravedad, con la altura cambian de un modo continuo, tanto su composición química como sus propiedades físicas.
 
 Cuando un sistema está constituido por dos o más partes homogéneas distintas se denomina heterogéneo: A cada una de las partes homogéneas que forman un sistema heterogéneo se le denomina fase. Las superficies que delimitan cada fase se denominan interfases y en ellas se da un cambio brusco en las propiedades (físicas, químicas o en ambas) que caracterizan cada fase. Hay casos en los que es conveniente considerar la interfase no como una superficie matemática, sino como una capa delgada en la que se transforma rápidamente el valor de las propiedades que definen cada fase (hielo-agua, agua-acetona, mercurio-acetona).
 
@@ -23,4 +23,3 @@ Tanto las sustancias puras como las mezclas pueden encontrarse en tres estados d
    Se considera un cuarto estado de agregación en el que existen presentes iones y electrones libres, es el denominado plasma. Este estado se presenta en condiciones muy especiales y no vamos a estudiarlo.
 
 En este tema nos dedicaremos al estudio de las propiedades termodinámicas de cada una de las fases y en el siguiente haremos el estudio de las condiciones de equilibrio de los sistemas homogéneos y de las transiciones de fase.
-
