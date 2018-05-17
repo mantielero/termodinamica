@@ -82,7 +82,7 @@ a) Según se índica en el enunciado:
 
 .. math::
 
-   \frac{p}{p_o} = \frac{AS^2 e^{ S/B}V^{-2}}{ AS_oV^{ -1} e^{S_o/B}V_o^{-2}} = \frac{1}{3}
+   \frac{p}{p_o} = \frac{AS^2 e^{ S/B}V^{-2}}{ AS_o e^{S_o/B}V_o^{-2}} = \frac{1}{3}
 
 También nos indican en el enunciado que el proceso es isoentrópico, por lo que:
 
