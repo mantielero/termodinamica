@@ -41,7 +41,7 @@ Así pues, llevando estas expresiones a (4.17) obtendremos:
 
    S_{t+\Delta t} - S_t+s_s \partial m_s -s_e \partial m_e = \frac{\partial Q_i}{T_i} + \partial \sigma_{VC}
 
-En el caso que estamos considerando, hemos de tener claro que :math:`\partial Q_i` y :math:`T_i`son, respectivamente, los valores de la cantidad de calor que a través de las fronteras impermeables recibe el sistema y la temperatura de la frontera del sistema por donde se produce la transferencia de calor. Si esta transferencia de calor tiene lugar en más de un punto de la frontera habrá que considerar el sumatorio correspondiente.
+En el caso que estamos considerando, hemos de tener claro que :math:`\partial Q_i` y :math:`T_i` son, respectivamente, los valores de la cantidad de calor que a través de las fronteras impermeables recibe el sistema y la temperatura de la frontera del sistema por donde se produce la transferencia de calor. Si esta transferencia de calor tiene lugar en más de un punto de la frontera habrá que considerar el sumatorio correspondiente.
 
 Considerando el cambio por unidad de tiempo, tendremos:
 
