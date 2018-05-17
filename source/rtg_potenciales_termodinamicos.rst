@@ -189,7 +189,7 @@ En efecto, consideremos el caso de la energía interna. A partir del primer prin
 
 .. math::
 
-   du = \partial q + \partial w	(6.17)
+   du = \partial q + \partial w	
 
 Del segundo principio, sabemos que para transformaciones reversibles :math:`\partial q = T ds`, por lo que:
 
