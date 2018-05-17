@@ -197,7 +197,7 @@ Del segundo principio, sabemos que para transformaciones reversibles :math:`\par
 
    du = T ds + \partial w
 
-Téngase en cuenta que el término dw incluye tanto el trabajo :math:`-p dv` cómo cualquier otra forma de trabajo cuasiestático ( eléctrico, superficial, químico, etc.) al que representaremos por :math:`\partial w_x` sustituyendo:
+Téngase en cuenta que el término :math:`\partial w` incluye tanto el trabajo :math:`-p dv` cómo cualquier otra forma de trabajo cuasiestático ( eléctrico, superficial, químico, etc.) al que representaremos por :math:`\partial w_x` sustituyendo:
 
 .. math::
 
