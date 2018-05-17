@@ -30,7 +30,6 @@ Respuesta:
 
 Respuesta: :math:`\left( \frac{\partial c_p}{\partial p} \right)_T = -T \alpha^2 v`
 
-6.4	La velocidad del sonido puede expresarse por :math:`\sqrt\left( \frac{\partial p}{\partial \rho} \right)_T`. Determínese esta velocidad en
-función de coordenadas termodinámicas y propiedades del sistema (p, v, T, cp y cv). ¿Que forma tomaría la mencionada expresión de la velocidad para el caso de un gas perfecto?.
-Respuesta : yjy R T
-24
+6.4	La velocidad del sonido puede expresarse por :math:`\sqrt\left( \frac{\partial p}{\partial \rho} \right)_s`. Determínese esta velocidad en función de coordenadas termodinámicas y propiedades del sistema (p, v, T, :math:`c_p` y :math:`c_v`). ¿Que forma tomaría la mencionada expresión de la velocidad para el caso de un gas perfecto?
+
+Respuesta: :math:`\sqrt{\gamma RT}`
