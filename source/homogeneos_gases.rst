@@ -278,21 +278,14 @@ El gráfico de factor de compresibilidad generalizado tiene muy diversas aplicac
 
 
 
-FIGURA Presión reducida, pn
+..figure:: ./img/z_pr.png
 
+..figure:: ./img/z_pr2.png
 
+..figure:: ./img/z_pr3.png
 
-FIGURA Presión reducida, /;/?
+..figure:: ./img/z_pr4.png
 
-
-
-FIGURA Factor do compresibilidad,
-
-
-
-Presión reducida
-
-Fig. 7.6
 
 :doc:`Ejercicio 7.3 <homogeneos_E7.3>`
 
