@@ -134,8 +134,8 @@ por lo que:
 
 .. math::
 
-   du = c_v dT + \left[ T\frac{\alpha}{k_T} - p\right]dv\\
-   dh = c_p dT + [v-T\alpha v] dp = c_p dT + [1-\alpha T]v dp
+   du &= c_v dT + \left[ T\frac{\alpha}{k_T} - p\right]dv\\
+   dh &= c_p dT + [v-T\alpha v] dp = c_p dT + [1-\alpha T]v dp
 
 Como aplicación inmediata de lo que acabamos de ver consideremos el ejercicio siguiente:
 
