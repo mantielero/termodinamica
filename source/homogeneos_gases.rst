@@ -379,7 +379,7 @@ La variación de entropía se puede calcular de forma semejante partiendo de la 
 
 .. math::
 
-   ds = \frac{c_p(T,p)}{T}dT - \left( \frac{\partial v}{\partial T}_p \right) dp
+   ds = \frac{c_p(T,p)}{T}dT - \left( \frac{\partial v}{\partial T}\right)_p  dp
 
 
 Procediendo como antes para un cambio a T constante
