@@ -25,7 +25,7 @@ Respuesta:
 
 .. math::
 
-   \left[ 1 - \left( \frac{\left( \frac{\partial^2 u}{\partial u \partial s} \right)^2}{\left( \frac{\partial^2 u}{\partial s^2} \right)_v \left( \frac{\partial^2 u}{\partial v^2} \right)_s} \right) \right]
+   \left[ 1 - \left( \frac{\left( \frac{\partial^2 u}{\partial v \partial s} \right)^2}{\left( \frac{\partial^2 u}{\partial s^2} \right)_v \left( \frac{\partial^2 u}{\partial v^2} \right)_s} \right) \right]
 
 
 
