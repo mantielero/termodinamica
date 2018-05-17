@@ -158,7 +158,7 @@ Expresión que podemos adimensionalizar con :math:`c_vT_o` obteniendo:
    \widetilde{\phi} = \left( \frac{T}{T_o}-1-\gamma \ln \frac{T}{T_o}\right) + (\gamma-1) \left( \frac{T}{T_o}\frac{p_o}{p} - 1 + \ln\frac{p}{p_o} \right)
 
 
-De (5.13.a) se ve que, para un gas perfecto, la exergia depende de la presión y temperatura. Puede comprobarse que :math:`\phi` (o :math:`\widetilde{\phi}`) dada por (5.13.a) tiene un mínimo en (:math:`T_o`, :math:`p_o` ). También puede comprobarse que, si del estado final se tiene determinada la presión, la temperatura correspondiente que hace que la, exergia sea mínima viene dada por:
+De (5.13.a) se ve que, para un gas perfecto, la exergia depende de la presión y temperatura. Puede comprobarse que :math:`\phi` (o :math:`\widetilde{\phi}`) dada por (5.13.a) tiene un mínimo en (:math:`T_o` , :math:`p_o` ). También puede comprobarse que, si del estado final se tiene determinada la presión, la temperatura correspondiente que hace que la, exergia sea mínima viene dada por:
 
 .. math::
 
