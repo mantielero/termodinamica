@@ -86,7 +86,7 @@ Para un tobera, definimos el rendimiento adiabático como el cociente entre la e
 
 .. math::
 
-   \eta_T = \frac{ \frac{\nu^2}{2} \bracevert_{2r} }{ \frac{\nu^2}{2} \right| \vert_{2s} }
+   \eta_T = \frac{ \frac{\nu^2}{2} \bracevert_{2r} }{ \left. \frac{\nu^2}{2} \right| \vert_{2s} }
 
 Este rendimiento lo ponemos en función de las entalpias de remanso a la entrada de la tobera y de la entalpia estática a la salida sin más que despejar de (4.34) los términos de energía cinética a la salida quedándonos:
 
