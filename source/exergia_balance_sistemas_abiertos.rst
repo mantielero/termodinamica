@@ -91,10 +91,10 @@ y de (5.24) se sigue que:
 
    \left. \dot{e}_x\right)_{perdida} = \dot{m} \psi_e - \dot{W} = \dot{m} \psi_s + T_o \dot{\sigma}_t 
 
-¿Cómo se modificarían estas expresiones si el flujo músico de salida se utilizase en un dispositivo para calefacción saliendo del dispositivo en condiciones del ambiente (p0, T0)1.
+¿Cómo se modificarían estas expresiones si el flujo músico de salida se utilizase en un dispositivo para calefacción saliendo del dispositivo en condiciones del ambiente (:math:`p_o`, :math:`T_o`)?
 
 De manera análoga, la expresión (5.lO.b) y la (5.22) una vez integrada, pueden expresarse, también, en la forma:
 
 .. math::
 
-   \dot{e}_x\bracevert_{obtenida} + \dot{e}_x\bracevert_{perdida} = \dot{e}_x\bracevert_{suministrada}
+   \left. \dot{e}_x\right_{obtenida} + \left. \dot{e}_x\riht_{perdida} = \left. \dot{e}_x\right_{suministrada}
