@@ -55,11 +55,11 @@ Si desde las condiciones del medio ambiente (estado muerto restringido: :math:`p
 
    \psi = h -h_o + \frac{\nu^2}{2}+gz- T_o(s-s_o)
 
-Teniendo en cuenta (5.8.a), (5.18) v (5.21) el balance de exergía para sistemas de flujo en ;égimen no estacionario puede expresarse en la forma:	
+Teniendo en cuenta (5.8.a), (5.18) v (5.21) el balance de exergía para sistemas de flujo en régimen no estacionario puede expresarse en la forma:	
 
 .. math::
 
-   \frac{d}{dt}\bracevert_{VC} + \sum_s \psi \dot{m} - \sum_e \psi \dot{m} - \dot{W}_{útil,real} - \sum_{i=1} \dot{Q}_i \left( 1-\frac{T_o}{T_i} \right) + T_o\dot{\sigma}_t = 0
+   \left. \frac{d}{dt} \right|_{VC} + \sum_s \psi \dot{m} - \sum_e \psi \dot{m} - \dot{W}_{útil,real} - \sum_{i=1} \dot{Q}_i \left( 1-\frac{T_o}{T_i} \right) + T_o\dot{\sigma}_t = 0
 
 Ecuación, que de manera análoga al caso de sistemas cerrados (5.10.b), nos indica que la variación de exergía de un recinto abierto proviene de la exergía neta que se introduce al recinto: a) con la masa a través de las fronteras permeables, (:math:`\sum_s \psi \dot{m} - \sum_e \psi \dot{m}`) con el trabajo, :math:`\dot{W}_{útil,real}`
 
