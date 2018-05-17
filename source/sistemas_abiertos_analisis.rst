@@ -71,6 +71,7 @@ Rendimiento adiabático de estos dispositivos
 Podemos decir que el rendimiento de una instalación, de una máquina y en general de cualquier dispositivo no es otra cosa que una comparación entre la actuación real de ese dispositivo bajo ciertas condiciones y la actuación que tendría lugar en un proceso ideal. En esta condición de idealidad es donde interviene la segunda ley, ya que lo que vamos a tomar como referencia de idealidad es el comportamiento isoentrópico del dispositivo. Así, cuanto más se acerque la instalación al comportamiento reversible más se acerca el rendimiento al valor unidad.
 
 .. figure:: ./img/fluido_compresor_turbina.png
+   :width: 30%
 
    Esquema de la evolución del fluido en un compresor y en una turbina.
    
