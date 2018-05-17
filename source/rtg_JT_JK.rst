@@ -4,10 +4,13 @@ Coeficiente de Joule-Thomson o Joule-Kelvin
 Consideremos el flujo de un fluido a través de un conducto que tiene un obstáculo o limitación al paso del fluido. Esta limitación puede ser un estrechamiento o algún tipo de tapón poroso como lana de acero, lana de vidrio o algodón. El efecto de esta limitación es producir una caída notable de presión a través del obstáculo. Un esquema de la instalación se muestra en la figura 6.1. La interacción trabajo entre las superficies de control 1 y 2 es nula y el conducto a través del que se produce el flujo está aislado térmicamente.
 
 
+.. figure:: ./img/experiencia_Joule_Thomson.png
 
-Figura 6.1 Experiencia de Joule-Thomson
+   Experiencia de Joule-Thomson
 
-Figura 6.2: Resultados del experimento de Joule-Thomson
+.. figure:: ./img/resultados_experimento.png
+
+   Resultados del experimento de Joule-Thomson
 
 Consecuentemente, la interacción térmica es nula o despreciable. El flujo del fluido se
 ajusta a las condiciones de estado estacionario. Además, los cambios en energía cinética y potencial de la corriente fluida entre 1 y 2, pueden también considerarse despreciables. Por lo que aplicando el primer principio para sistemas abiertos, se obtiene:
