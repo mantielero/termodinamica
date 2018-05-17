@@ -74,7 +74,7 @@ La expresión (5.23) puede ponerse de una forma genérica:
 
 .. math::
 
-   \dot{e_x}\bracevert_{obtenida} + \dot{e_x}\bracevert_{perdida} = \dot{e}\bracevert_{suministrada} 
+   \left. \dot{e_x} \right)_{obtenida} + \left. \dot{e_x}\right)_{perdida} = \left. \dot{e}\right)_{suministrada} 
 
 
 donde :math:`e_x` señala exergía. El valor de cada término habrá que asignarlo en cada caso concreto. A modo de ejemplo, supongamos la actuación de una turbina funcionando en régimen estacionario a la que se suministran :math:`\dot{m} kg\cdot s^{-1}` de vapor en condiciones (:math:`p_1`, :math:`T_1`), que sen de la misma en condiciones (:math:`p_2`, :math:`T_2`) y proporciona una potencia :math:`\dot{W}`. En este caso particular:
