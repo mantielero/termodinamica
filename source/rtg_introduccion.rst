@@ -20,7 +20,7 @@ Ambas funciones están relacionadas con sistemas complejos, en los que se dan re
 
 Cuando estudiemos sistemas multicomponentes y multifase, con y sin reacción química, veremos la importancia de estas funciones.
 
-Con frecuencia se nos presentará en el transcurso de nuestro estudio la necesidad de disponer de valores de las magnitudes u. h, s, a, g, etc. y estas no son determinables experimentalmente, por lo que es preciso disponer de relaciones entre estas magnitudes y otras que se puedan determinar de forma empírica, como son p, v, T, cp, Cv y las relaciones de estas últimas con T.
+Con frecuencia se nos presentará en el transcurso de nuestro estudio la necesidad de disponer de valores de las magnitudes u. h, s, a, g, etc. y estas no son determinables experimentalmente, por lo que es preciso disponer de relaciones entre estas magnitudes y otras que se puedan determinar de forma empírica, como son p, v, T, :math:`cp`, :math:`c_v` y las relaciones de estas últimas con T.
 
 En este tema veremos cómo pueden determinarse estas relaciones y cómo se procede para calcular valores de las distintas magnitudes a partir de las que podemos medir en el laboratorio.
 
