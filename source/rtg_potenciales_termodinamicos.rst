@@ -147,7 +147,7 @@ por lo que:
 
 Si disponemos de h, s, p, T y v, podemos determinar las restantes funciones termodinámicas.
 
-Supongamos que lo que nos dan es a en función de T y v:
+Supongamos que lo que nos dan es :math:`a` en función de T y v:
 
 .. math::
 
