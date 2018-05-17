@@ -224,6 +224,10 @@ Para gases reales ya hemos visto que a presiones altas y temperaturas bajas, la 
 
    Z= \frac{pv}{RT} = \frac{v}{\frac{RT}{p}} = \frac{v_{real}}{v_{ideal}}
 
+
+.. figure:: ./img/fig_7_3.png
+
+
 En la fig 7.3 se muestra el factor de compresibilidad para varios gases que se utilizan con frecuencia. En ella podemos observar que
 
 - El :math:`N_2` y el Ar hasta 100 bares se desvía un 3% o menos.
