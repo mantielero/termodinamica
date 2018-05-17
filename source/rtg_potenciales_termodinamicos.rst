@@ -268,7 +268,7 @@ Consideremos la forma de proceder al utilizar esta herramienta matemática. Para
 
    dY = D_1 dX_1 + D_2 dX_2 + D_3 dX_3 + ...
 
-Las correspondientes funciones transformadas de Legendre definen una serie de funciones relacionadas con Y, en las cuales el conjunto de variables utilizado para definir cada una de ellas contiene una o más de las :math:`D_i` (Recuerden que :math:`D_i=\left( \frac{\partial Y}{\partial X_i}\right)_{X_i}`) en lugar de las conjugadas :math:`X_i`. Para una expresión diferencial que tiene n variables existen :math:`2^n-1`  transformaciones posibles de Legendre. Si hay dos variables existirán tres transformadas de Legendre, es decir, si:
+Las correspondientes funciones transformadas de Legendre definen una serie de funciones relacionadas con Y, en las cuales el conjunto de variables utilizado para definir cada una de ellas contiene una o más de las :math:`D_i` (Recuerden que :math:`D_i=\left( \frac{\partial Y}{\partial X_i}\right)_{X_j}`) en lugar de las conjugadas :math:`X_i`. Para una expresión diferencial que tiene n variables existen :math:`2^n-1`  transformaciones posibles de Legendre. Si hay dos variables existirán tres transformadas de Legendre, es decir, si:
 
 
 .. math::
