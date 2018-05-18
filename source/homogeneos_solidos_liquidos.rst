@@ -17,7 +17,7 @@ Aun más, se ha visto experimentalmente que los valores medidos de :math:`T`, :m
 
 .. math::
 
-   \frac{T\alpha^2v}{\kappa_T C_p} = 0
+   \frac{T\alpha^2v}{\kappa_T c_p} = 0
 
 En el intervalo de temperaturas y presiones en el que son válidas las relaciones (7.20) y (7.21), decimos que las sustancias se comportan como líquidos incompresibles ideales o sólidos incompresibles ideales.
 
