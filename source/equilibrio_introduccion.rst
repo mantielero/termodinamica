@@ -21,50 +21,63 @@ Supongamos que deseamos evaluar la variación de energía interna de un sistema 
 .. math::
 
    U = U(S,V,n_1,n_2, ...) \\
-   dU = \left( \frac{\partial U}{\partial }
-(8.1)
-donde rij representa todas las especies presentes menos aquélla respecto a la que derivamos.
-Si realizamos una transformación en la que no variamos la composición ni el número total de moles:
-dU =
-dS +
-dV
-(8.2)
+   dU = \left( \frac{\partial U}{\partial S}	\right)_{V,n_i} dS  +  \left( \frac{\partial U}{\partial V}	\right)_{V,n_i} dV + \sum_i \left( \frac{\partial U}{\partial n_i}	\right)_{S,V,n_j} dn_i ,, j\neq i
 
-Pero en este caso el sistema se comporta como uno cerrado de composición constante, por lo que, si sólo consideramos trabajo pdV:
+donde :math:`n_j` representa todas las especies presentes menos aquella respecto a la que derivamos.
+
+Si realizamos una transformación en la que no variamos la composición ni el número total de moles:
+
+.. math::
+
+   dU = \left( \frac{\partial U}{\partial S}	\right)_{V,n_i} dS + \left( \frac{\partial U}{\partial V}	\right)_{V,n_i} dV
+
+Pero en este caso el sistema se comporta como uno cerrado de composición constante, por lo que, si sólo consideramos trabajo :math:`pdV`:
+
+.. math::
+
+   \left( \frac{\partial U}{\partial S}	\right)_{V,n_i} = T \\
+   \left( \frac{\partial U}{\partial v}	\right)_{S,n_i} = -p
+
+
 Sustituyendo en (8.1), obtenemos:
 
-S,V,Tlj
-drii
-(8.3)
-(8.4)
+.. math::
 
-X
+   dU = TdS -pdV + \sum_i \left( \frac{\partial U}{\partial n_i}	\right)_{S,V,n_j} dn_i
 
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
 que es una expresión general para el cambio de energía interna de un sistema en el que pueden cambiar tanto S y V como las cantidades de sustancia de las distintas especies químicas en la mezcla, si sólo se considera trabajo pdV.
+
 Recordemos que definimos G, H y A como funciones que venían dadas por una determinada agrupación de variables y por lo tanto son aplicables a cualquier tipo de sistema. Consi-deremos la definición de G:
 
-G = U + PV -TS	(8.5)
+.. math::
+
+   G = U + pV -TS
 
 entonces:
 
-dG = dU + pdV + Vdp - TdS - SdT
 
-y sustituyendo dU se tiene dG =	p/dÚ -f Yli (§nr)Sy	+ Vdp
+.. math::
+
+   dG = dU + pdV + Vdp - TdS - SdT
+
+y sustituyendo dU se tiene:
+
+.. math::
+
+   dG = TdS-pdV+\sum_i \left( \frac{\partial U}{\partial n_i}	\right)_{S,V,n_j} dn_i + pdV+Vdp-TdS-SdT
 
 de donde:
-(8.6)
-- SdT,
-dG
 
-fdU
-—arr + vo + E^
-S,V,n,
-dni
-(8.7)
+.. math::
 
-Pero esta expresión resulta análoga a la que obtendríamos al considerar G función de T, p, n\ ,ri2 ,...,nc, es decir:
-¿G=(f	)rJT+Qr,^ + ^X,mÍn-^
+   dG = -SdT+Vdp+\sum_i \left( \frac{\partial U}{\partial n_i}	\right)_{S,V,n_j} dn_i
+
+Pero esta expresión resulta análoga a la que obtendríamos al considerar G función de T, p, :math:`n_1`, :math:`n_2`, ..., :math:`n_c`, es decir:
+
+.. math::
+
+
+   dG = \left( \frac{\partial G}{\partial T} \right)_{p,n_i} dT + \left( \frac{\partial G}{\partial p}	\right)_{T,n_i} dp + \sum_i \left( \frac{\partial G}{\partial n_i}	\right)_{T,p,n_j} dn_i
 
 Conforme lo hemos definido, (8.7) y (8.8) representan la misma magnitud en función de las mismas variables, por lo que identificando coeficientes homólogos, tendremos:
 Í) ~*(t) =v’-(£'
