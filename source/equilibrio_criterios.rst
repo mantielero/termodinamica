@@ -1,38 +1,47 @@
 Criterios de equilibrio
 -----------------------
 
-Í Decimos que un sistema n^. está en equilibrio termodinámico cuando los valores de sus coordenadas termodinámicas son distintos de los correspondientes al equilibrio en la situáción considerada. La ecuación deducida del primero y segundo principios en su forma más general"
-/-/"áú. ¿ >&--------------fd >A-ry*jy*-	...,
-f41	' -
-fj
-J-1~	Z </<x
-£r. . jd
-[TdS >dU-
+Decimos que un sistema no está en equilibrio termodinámico cuando los valores de sus coordenadas termodinámicas son distintos de los correspondientes al equilibrio en la situáción considerada. La ecuación deducida del primero y segundo principios en su forma más general:
 
-(8.16)
-en la que Y¿ representa una fuerza generalizada (presión, tensión superficial, fuerza electromotriz, etc.) y dXk la variación de un desplazamiento generalizado (variación de volumen, superficie , carga eléctrica, etc.), nos permite obtener condiciones generales de equilibrio termodinámico y de estabilidad.
-Teniendo en cuenta que el estado de los sistemas termodinámicos se define, no solamente por los parámetros específicamente termodinámicos (temperatura, entropía, etc), sino también por los correspondientes parámetros mecánicos (presión, volumen) y químicos, las condiciones de equilibrio dependerán del tipo de interacción entre sistema y medio ambiente.	I
-7
-C&ÍÚ-
-fa
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-^ÍW-
-Determinemos las Condiciones de equilibrio y estabilidad de los sistemas termodinámicos
-^ » *“ " ' "   - - •—«    - ■ ”■ •••• -- ■■ .
-de masa constante, en las situaciones que se presentan con mayor frecuencia.
-~~ ....N -------------------c' - / ,
-a)Sistema aislado (U = constante, V = constante)	[a ~ tk,	O
+.. math::
+
+   TdS \geq dU - \sum Y_k dX_k
+   
+en la que :math:`Y_k` representa una fuerza generalizada (presión, tensión superficial, fuerza electromotriz, etc.) y :math:`dX_k` la variación de un desplazamiento generalizado (variación de volumen, superficie , carga eléctrica, etc.), nos permite obtener condiciones generales de equilibrio termodinámico y de estabilidad.
+Teniendo en cuenta que el estado de los sistemas termodinámicos se define, no solamente por los parámetros específicamente termodinámicos (temperatura, entropía, etc), sino también por los correspondientes parámetros mecánicos (presión, volumen) y químicos, las condiciones de equilibrio dependerán del tipo de interacción entre sistema y medio ambiente.
+
+Determinemos las Condiciones de equilibrio y estabilidad de los sistemas termodinámicos de masa constante, en las situaciones que se presentan con mayor frecuencia.
+
+a) Sistema aislado (esto es, cerrado) (U = constante, V = constante)	
 Para este sistema, suponiendo que sólo consideramos trabajo pdV y para una transformación en condiciones alejadas del equilibrio (irreversible), la desigualdad fundamental (8.16) nos lleva a:
-TdS>dU + pdV	(8.17)
-por lo que, al ser dU — 0 y dV = 0:
-(8.18)
+
+.. math::
+
+   TdS > dU + pdV
+   
+por lo que, al ser :math:`dU= 0` y :math:`dV = 0`:
+
+.. math::
+
+   TdS > 0
+
 es decir, cuando un sistema aislado evoluciona irreversiblemente, la entropía aumenta. Si la entropía tiende a incrementarse, la evolución no cesará hasta que se alcance un valor máximo, momento en el que habrá llegado al equilibrio.
-Por lo tanto(la condición general de equilibrio estable de un sistema aislado es -i que la entropía sea máxima. Si llamamos S0 a la entropía del sistema en equilibrio y S a la
+
+Por lo tanto, la condición general de equilibrio estable de un sistema aislado es que la entropía sea máxima. Si llamamos :math:`S_o` a la entropía del sistema en equilibrio y S a la
 entropía en cualquier otro estado, tendremos que:
+
+.. math::
+
+   \Delta S = S-S_o<0
+   
 o también:
 
-(8.19a)
-(8.196)
+.. math::
+
+   dS= 0 \\
+   d^2 S<0
+
+
 La anulación de la primera diferencial de la entropía no es más que la condición de extremo, pero no asegura la condición de máximo. La condición suficiente de máximo de entropía es el valor negativo de su segunda diferencial, que asegura la estabilidad del equilibrio.
 A fin de aclarar lo que acabamos de ver, tengamos en cuenta que, cuando se estudia un sistema en estado de equilibrio, se ve que los valores de las propiedades no permanecen exactamente constantes, sino que se presentan ciertas desviaciones en el valor de las que definen este estado y a estas variaciones en el valor de las propiedades se les denomina fluctuaciones. Las fluctuaciones generan perturbaciones del estado de equilibrio, de tal forma que, si este equilibrio no es estable el sistema se alejaría de dicho estado. Por ello, si queremos que el
 8
@@ -85,4 +94,3 @@ En el caso de sistemas a S y V constantes:
 (8.31)
 para este tipo de sistemas el equilibrio estable se consigue cuando la energía interna es mínima.
 4	j*...	^ "■
-
