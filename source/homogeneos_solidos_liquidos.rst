@@ -7,9 +7,11 @@ La contribución creciente del término de energía potencial se manifiesta porq
 
 Debido fundamentalmente a la intensidad de las fuerzas intermoleculares, los sólidos y líquidos son poco sensibles a los cambios de temperatura y especialmente insensibles a los cambios de presión. Esto es cierto, en el caso de los líquidos, cuando consideramos temperaturas por debajo de la temperatura crítica.
 
-Desde un punto de vista fenomenológico podemos dar a estas observaciones un carácter cuantitativo diciendo que para estas sustancias tanto a como kj son tan pequeñas que, a efectos prácticos, podemos considerar que, para estos estados de agregación, la ecuación de estado puede expresarse por::
+Desde un punto de vista fenomenológico podemos dar a estas observaciones un carácter cuantitativo diciendo que para estas sustancias tanto a como :math:`\kappa_T` son tan pequeñas que, a efectos prácticos, podemos considerar que, para estos estados de agregación, la ecuación de estado puede expresarse por:
 
-   v = constante ó p - constante (Independiente de T y p)	(7.20)
+.. math::
+
+   v = \text{constante ó } \\ \rho = \text{constante  (Independiente de T y p)}
 
 Aun más, se ha visto experimentalmente que los valores medidos de :math:`T, v, \alpha, \kappa_T y c_p` son tales que la relación :math:`\frac{T\alpha^2v}{\kappa_T C_p}` es mucho menor que la unidad y a efectos prácticos puede suponerse que
 
