@@ -53,7 +53,9 @@ Es decir, para los sólidos y líquidos ideales
 
 .. math::
 
-   u=u(T), s=s(T) y h=h(T,p)
+   u=u(T) \\
+   s=s(T) \\
+   h=h(T,p)
 
 
 por lo que, para comportamiento incompresible ideal, podemos escribir
