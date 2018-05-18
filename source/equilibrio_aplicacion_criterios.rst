@@ -1,68 +1,74 @@
 Aplicación de los criterios de equilibrio
------------------------------------------
+=========================================
 
-8.3.1	Matriz de estabilidad	flloi0 {L
+Matriz de estabilidad
+---------------------
+
 Consideremos un sistema cerrado situado en un recinto a una temperatura T ya presión constante p. La condición general de equilibrio estable de tal sistema es el mínimo de su energía de Gibbs.Aunque sea reiterativo recordemos que:
-G -U +pV -TS
-dG = -SdT + VdP
-(8.32)
-Esto significa que el estado del sistema situado en un recinto isotermo a p y T dados y teniendo como parámetros extensivos a V y S, es estable si una pequeña variación espontánea de las coordenadas conlleva un aumento de su energía de Gibbs G, ya que ello implica que se hallaba en el mínimo. Si denominamos G al valor de la energía de Gibbs correspondiente al estado de equilibrio y G\ el valor en un estado próximo al de equilibrio, tendremos:
-AG = G1-p)>0	(8.33)
-es decir:
-Ui-U - T(Si - S) + p(Vi - V) > 0	(8.34)
-en la que U es la energía interna del estado de equilibrio inicial del sistema para p y T dadas y las variables extensivas V, 5. La energía interna del estado desplazado del equilibrio con coordenadas V\ , S\ es U\. Si
-Si en vez de ser de equilibrio el estado del sistema de coordenadas V y S, es el de coordenadas Vi, Si a pi y Ti constantes, sería estable si en el caso de una pequeña variación espontánea se verificara la condición:
-U — U\ — Ti(S - Si) + pi(V - Vi) > 0
-(8.35)
 
-■- (AzUfj)
-/
-h
--Q
-/
-¿c.-^yr
-■y . U>tnt}
-!/-, i¡:, y
-/. ' 'X.isr, í
-l/,T V, S,
-irxn^¿dr\
-í.	<rc- a
-(*
-- A {'ryyy
-¿Jq
-yuAd
-,	¿cujJj .
-k!¿	/
-<6-
-/' .. .
--v	&
-1 A
-%y T5r¿ ^ jz	^
-istemas termodinámicas. Transido
-¿oa l>	J je^ó/'Á'A M
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-* "■ " 'A
-11
-; ts,/*, -tí i/,V
-\	iMh \ '	y y V	«>.	A'Y	J Jtyy.
-I ■■-A-rl&TtirU- tpiú-VJ-l (s,-s)*0	.	V - Ut *¡t,(y- i/() - r, fe- sj? o
-(*< 'J	Sumando miembro a miembro las desigualdades (8.34) y (8.35) se obtienen las relaciones
-entre las diferencias de los distintos parámetros de dos estados de equilibrio estable, próximos en Á (A yí?/ lre sb de un sistema homogéneo:
-p(*~Aj-!(£,-*}AM'V]-T<fc>)?0j-T{Sx - S) + p(Vj - V) - T^S - Si) V Pi(V - Vi) > 0
-(8.36)
-,/
-/
-las
-■^-TAS i+ pAV + TXAS - PlAV > 0
-(8.37)
-(8.38)
-JA-í-
-(8.39)
-o &£v	v- y? ¿o,- -
-en la que AT — T\ — T, AS = Si - S, AP = PX- P, AV = Vi - V.
+.. math::
+
+   G = U +pV -TS \\
+   dG = -SdT + VdP
+
+Esto significa que el estado del sistema situado en un recinto isotermo a p y T dados y teniendo como parámetros extensivos a V y S, es estable si una pequeña variación espontánea de las coordenadas conlleva un aumento de su energía de Gibbs G, ya que ello implica que se hallaba en el mínimo. Si denominamos G al valor de la energía de Gibbs correspondiente al estado de equilibrio y :math:`G_1` el valor en un estado próximo al de equilibrio, tendremos:
+
+.. math::
+
+   \Delta G = G_1 - G > 0
+   
+
+es decir:
+
+.. math::
+
+   U_1-U - T(S_1 - S) + p(V_1 - V) > 0
+   
+   
+en la que U es la energía interna del estado de equilibrio inicial del sistema para p y T dadas y las variables extensivas V, 5. La energía interna del estado desplazado del equilibrio con coordenadas :math:`V_1`, :math:`S_1` es :math:`U_1`.
+
+Si en vez de ser de equilibrio el estado del sistema de coordenadas V y S, es el de coordenadas :math:`V_1`, :math:`S_1` a :math:`p_1`, :math:`T_1`  constantes, sería estable si en el caso de una pequeña variación espontánea se verificara la condición:
+
+.. math::
+
+   U — U_1 — T_1(S - S_1) + p_1(V - V_1) > 0
+   
+
+Sumando miembro a miembro las desigualdades (8.34) y (8.35) se obtienen las relaciones entre las diferencias de los distintos parámetros de dos estados de equilibrio estable, próximos entre sí, de un sistema homogéneo:
+
+
+.. math::
+
+   -T (S_1-S)+p(V_1-V)-T_1(S-S_1)+p_1(V-V_1) > 0\\
+   -T\Delta S + p \Delta V+ T_1 \Delta S - p_1 \Delta V >0 \\
+   (T_1-T)\Delta S - (P_1-p)\Delta V > 0 \\
+   \Delta T \Delta S - \Delta p \Delta V > 0
+
+
+en la que
+
+.. math::
+
+   \Delta T = T_1 - T \\
+   \Delta S = S_1 -S \\
+   \Delta P = P_1 - P \\
+   \Delta V = V_1 - V
+   
+
 Una forma adecuada de recordar la desigualdad anterior es mediante la denominada matriz de estabilidad:
-( AT Ap\ AV AS
-8.3.2 Condiciones de estabilidad de sistemas monofásicos. Principio de Le Chátelier-Braun
+
+.. math::
+
+   \begin{pmatrix}
+      \Delta T  & \Delta p \\
+      \Delta V  & \Delta S
+   \end{pmatrix}
+
+
+
+Condiciones de estabilidad de sistemas monofásicos. Principio de Le Chátelier-Braun
+------------------------------------------------------------------------------------
+
 La desigualdad (8.39) para el determinante de esta matriz, permite obtener las condiciones de estabilidad de un sistema monofásico en diferentes situaciones. A continuación la aplicaremos al estudio de las condiciones de estabilidad en los casos siguientes:
 W
 
@@ -144,7 +150,10 @@ Equilibrio de los sistemas termodinámicos. Transiciones de fase
 que el suministro de calor a esta sustancia llevaría a una disminución de su temperatura y por tanto a un incremento de la diferencia de temperatura entre la fuente de calor y el sistema. Esto produciría una situación que nos alejaría cada vez más del equilibrio y por tanto a una inestabilidad creciente.
 De forma análoga, si (dp/dV)r > 0 en vez de ser (dp/dV)r < 0, una disminución pequeña del volumen debido a las fluctuaciones, provocaría una disminución de presión en el sistema, lo que haría que disminuyera más el volumen y por lo tanto el sistema se alejaría más y más de la condición de equilibrio.
 Las condiciones de equilibrio (8.42) y (8.45) llevan al denominado principio de la desviación de equilibrio o principio de Le ChaXelier-Braun, el cual podemos enunciar de la forma siguiente: si un sistema que se ha^}6 en equilibrio se aparta de él, éste tiende a evolucionar de forma que los correspondientes parámetros del sistema varíen en el sentido que permitan al sistema retornar al estado de equilibrio.
-8.3.3	Coordenadas termodinámicas en el equilibrio de sistemas monofásicos
+
+Coordenadas termodinámicas en el equilibrio de sistemas monofásicos
+-------------------------------------------------------------------
+
 Hemos considerado hasta ahora las condiciones que tendría que cumplir un sistema para que alcanzara un estado de equilibrio estable. Supuesto que estas condiciones se dan, veamos cómo se determinan las coordenadas termodinámicas de equilibrio de los sistemas termodinámicos.
 Figura 8.1 Sistema aislado integrado por dos sistemas que interactúan.
 De los distintos sistemas termodinámicos que podemos considerar y que difieren entre sí por las interacciones que experimentan (supuesto que hacemos abstracción de las sustancias que los integran), el más importante es el .sistema aislado integrado por dos subsistemas entre los que se produce interacción, ya que cualquier sistema y su medio ambiente cumple con esta condición.
@@ -194,4 +203,3 @@ y	'
 (8.56)
 Es decir, un sistema aislado alcanzará el equilibrio estable cuando todos los subsistemas que lo forman estén a la misma presión y temperatura, siempre que no existan paredes internas que impidan este equilibrio.
 Si en vez de considerar sistemas en los que el único trabajo sea el pdV, se someten a estudio otros tipos de sistemas, llegaríamos a que la condición de igualdad de temperatura se volvería a dar y cambiaría la condición de igualdad de presión.
-
