@@ -13,7 +13,7 @@ Desde un punto de vista fenomenológico podemos dar a estas observaciones un car
 
    v = \text{constante ó } \\ \rho = \text{constante  (Independiente de T y p)}
 
-Aun más, se ha visto experimentalmente que los valores medidos de :math:`T`, :math:`v`, :math:`\alpha`, :math:`\kappa_T` y :math:`c_p` son tales que la relación :math:`\frac{T\alpha^2v}{\kappa_T C_p}` es mucho menor que la unidad y a efectos prácticos puede suponerse que
+Aun más, se ha visto experimentalmente que los valores medidos de :math:`T`, :math:`v`, :math:`\alpha`, :math:`\kappa_T` y :math:`c_p` son tales que la relación :math:`\frac{T\alpha^2v}{\kappa_T c_p}` es mucho menor que la unidad y a efectos prácticos puede suponerse que
 
 .. math::
 
