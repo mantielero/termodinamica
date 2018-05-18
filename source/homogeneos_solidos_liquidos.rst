@@ -79,7 +79,7 @@ en las que :math:`u_0`, :math:`s_0` y :math:`h_0` son los valores correspondient
 Coeficientes térmicos de los sólidos: dependencia del volumen con la presión y la temperatura
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-En general se denominan ¡coeficientes termodinámicos a expresiones de la forma :math:`\left( \frac{\partial x}{\partial y}\right)_z`, en la que *x*, *y*, *z*, pueden ser cualesquiera de las magnitudes *T*, *p*, *v*, *s*. Los coeficientes termodinámicos que describen propiedades características del sistema, por ejemplo :math:`\left( \frac{\partial v}{\partial T}\right)_p` y :math:`\left( \frac{\partial v}{\partial p}\right)_T` están relacionados, respectivamente, con el coeficiente de dilatación :math:`\alpha` y el coeficiente de compresibilidad isotérmico :math:`\kappa_T`.
+En general se denominan coeficientes termodinámicos a expresiones de la forma :math:`\left( \frac{\partial x}{\partial y}\right)_z`, en la que *x*, *y*, *z*, pueden ser cualesquiera de las magnitudes *T*, *p*, *v*, *s*. Los coeficientes termodinámicos que describen propiedades características del sistema, por ejemplo :math:`\left( \frac{\partial v}{\partial T}\right)_p` y :math:`\left( \frac{\partial v}{\partial p}\right)_T` están relacionados, respectivamente, con el coeficiente de dilatación :math:`\alpha` y el coeficiente de compresibilidad isotérmico :math:`\kappa_T`.
 
 A estos coeficientes se les denomina térmicos, mientras que a los que incorporan en su definición :math:`c_v` o :math:`c_p` se les suele denominar energéticos o caloríficos.
 
