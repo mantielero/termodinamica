@@ -80,37 +80,41 @@ Pero esta expresión resulta análoga a la que obtendríamos al considerar G fun
    dG = \left( \frac{\partial G}{\partial T} \right)_{p,n_i} dT + \left( \frac{\partial G}{\partial p}	\right)_{T,n_i} dp + \sum_i \left( \frac{\partial G}{\partial n_i}	\right)_{T,p,n_j} dn_i
 
 Conforme lo hemos definido, (8.7) y (8.8) representan la misma magnitud en función de las mismas variables, por lo que identificando coeficientes homólogos, tendremos:
-Í) ~*(t) =v’-(£'
-9T J p Ui	V Op ) T,nt	\driiJ S,V,ri] \9tIí / T,p,n3
+
+.. math::
+
+   \left( \frac{\partial G}{\partial T}	\right)_{p,n_i} = -S \\
+   \left( \frac{\partial G}{\partial p}	\right)_{T,n_i} = V \\
+   \left( \frac{\partial U}{\partial n_i} \right)_{S,V,n_j} =\left( \frac{\partial G}{\partial n_i}	\right)_{T,p,n_j} 
+
 por lo que (8.7) podríamos expresarla mediante:
-dG= -SdT + Vdp+Y	dnt
-i VWr.p.n,
-(8.9)
-(8.10)
 
-A la magnitud que represéntala última igualdad de las (8.9) la denominamos potencial químico y suele representarse por /í¿, de forma que podemos escribir:
-dU — TdS — pdV -f y>,dn,
-(8.11)
-6
+.. math::
 
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-dG = -SdT + Vdp + Yl M»dn¡
-(8.12)
+   dG = -SdT+Vdp+\sum_i \left( \frac{\partial G}{\partial n_i}	\right)_{T,p,n_j} dn_i
+
+
+
+A la magnitud que represéntala última igualdad de las (8.9) la denominamos potencial químico y suele representarse por :math:`\mu_i`, de forma que podemos escribir:
+
+.. math::
+
+   dU = TdS -pdV + \sum \mu_i dn_i \\
+   dG = -SdT + Vdp + \sum \mu_idn_i
+
 
 De forma análoga encontraríamos:
-dH = TdS + Vdp + ^2 trìdui dA — —SdT - pdV + y^pidrij
-(8.13)
-7/'/
-(8.14)
-i ^ " /' * ^
-/ /ppr&ííy- jAv/di,^- >
 
-Teniendo en cuenta las variables en las que se expresen los potenciales termodinámicos,
-el potencial químico vendrá expresado por:
-(JjiW
-0’
-_ (^L\	- (02.}	_ fdH\ = fdA\
-/X‘ \dni)s,v,nj wn¡/T,p,nj \dni)s,p,nj \dnt)T,v,nj
-(8.15)
+.. math::
+
+   dH = TdS + Vdp + \sum \mu_i dn_i \\
+   dA = -SdT -pdv + \sum \mu_i dn_i
+
+
+Teniendo en cuenta las variables en las que se expresen los potenciales termodinámicos, el potencial químico vendrá expresado por:
+
+.. math::
+
+   \mu_i =  \left( \frac{\partial U}{\partial n_i} \right)_{S,V,n_j}  =  \left( \frac{\partial G}{\partial n_i}	\right)_{T,p,n_j} =  \left( \frac{\partial H}{\partial n_i}	\right)_{S,p,n_j}  =  \left( \frac{\partial A}{\partial n_i} \right)_{T, V,n_j} 
 
 En este tema estudiaremos las condiciones de equilibrio y estabilidad de los sistemas termodinámicos, veremos la ecuación de Clausius-Clapeyron aplicable en los cambios de fase y finalmente veremos cómo pueden calcularse, para su tabulación, las distintas propiedades termodinámicas de uso más frecuente.
