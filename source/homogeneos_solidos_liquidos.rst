@@ -32,7 +32,7 @@ y
 
 .. math::
 
-   1 - \frac{c_v}{c_p} = \frac{T\alpha^2v}{\kappa_T C_p} = 0
+   1 - \frac{c_v}{c_p} = \frac{T\alpha^2v}{\kappa_T c_p} = 0
 
 de donde deducimos que
 
