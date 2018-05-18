@@ -7,22 +7,21 @@ Es importante recordar nuestras definiciones de sistema homogéneo y heterogéne
 
 Vimos que un sistema se denominaba homogéneo cuando su composición química y propiedades físicas eran iguales en todos sus puntos o variaban de un modo continuo de un punto del sistema a otro. El ejemplo más paradigmático puede ser una columna de aire atmosférico: en esta columna y debido a la acción de la gravedad, habrá un cambio continuo de propiedades físicas y composición química.
 
-Llamamos heterogéneo al sistema integrado por dos o más partes homogéneas distintas. Cada una de estas partes homogéneas se denomina fase. Cada fase está separada de la otra por una superficie de separación íinterfaseL de modo que al atravesar esta superficie hay un cambio brusco de propiedades físicas o composición química, o de ambas simultáneamente. En general la interfase no es una superficie matemática, sino una capa delgada en la que las propiedades de una fase se transforman rápidamente en las de la otra fase.
+Llamamos heterogéneo al sistema integrado por dos o más partes homogéneas distintas. Cada una de estas partes homogéneas se denomina fase. Cada fase está separada de la otra por una superficie de separación (interfase) de modo que al atravesar esta superficie hay un cambio brusco de propiedades físicas o composición química, o de ambas simultáneamente. En general la interfase no es una superficie matemática, sino una capa delgada en la que las propiedades de una fase se transforman rápidamente en las de la otra fase.
 
 Aunque generalmente las fases se relacionan con los tres estados de agregación fundamentales: sólido, líquido y gas, pueden existir fases distintas en un mismo estado de agregación. Así, en el hielo se han descrito hasta siete fases distintas (de las cuales sólo se ha confirmado la existencia de seis, pues no hay evidencia experimental comprobada de la existencia del hielo IV). A veces al sistema homogéneo, o a alguna de las fases, constituido por varias sustancias puras se denomina disolución o mezcla.
-tJb /I
 
-á
-
-4
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
 
 Hasta ahora hemos considerado la variación de propiedades termodinámicas suponiendo que la cantidad de sustancia del sistema cerrado se mantenía constante. Al estudiar sistemas de masa constante constituidos por más de una fase también interviene en el cambio de propiedades termodinámicas la variación de la cantidad de sustancia (suele medirse en moles) en cada fase.
-Para tener en cuenta la influencia de la variación del número de moles en el valor de una propiedad introducimos la magnitud denominada potencial químico, que consideraremos con mayor detenimiento cuando realicemos el estudio de mezclas.
-Jl——-----------
+
+Para tener en cuenta la influencia de la variación del número de moles en el valor de una propiedad introducimos la magnitud denominada **potencial químico**, que consideraremos con mayor detenimiento cuando realicemos el estudio de mezclas.
 
 Supongamos que deseamos evaluar la variación de energía interna de un sistema en el que puede variar el número de moles, es decir, consideramos que U es función de n, además de serlo de S y V:
-U = U(S,V,ni,n2,....)
+
+.. math::
+
+   U = U(S,V,n_1,n_2, ...) \\
+   dU = \left( \frac{\partial U}{\partial }
 (8.1)
 donde rij representa todas las especies presentes menos aquélla respecto a la que derivamos.
 Si realizamos una transformación en la que no variamos la composición ni el número total de moles:
