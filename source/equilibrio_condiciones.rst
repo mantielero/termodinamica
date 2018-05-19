@@ -12,7 +12,7 @@ El procedimiento seguido será el mismo que hemos utilizado antes, pero ahora lo
    n_{sis} = n_I + n_{II} \\
    U_{sis} = U_I + U_{II}
    \end{array}
-   \right}
+   \right)
    \Rightarrow
    
    dV_I + dV_{II} = 0 \\
