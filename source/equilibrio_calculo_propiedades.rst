@@ -22,7 +22,9 @@ En la actualidad se sustituye la ecuación térmica de estado por un potencial t
 
 La ecuación elegida para modelar es la función específica" de Helmholtz, deducida en física estadística por el método de Ursell-Mayer, modificada para tener en cuenta el comportamiento del gas a densidades elevadas y muy bajas.
 
-La función o se expresa utilizando las variables^ y T en vez de v y 
+La función o se expresa utilizando las variables :math:`\rho` y *T* en vez de *v* y *T*
+
+
 T. t
 n Lfc Ál ‘^ rP'T As*
 
