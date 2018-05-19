@@ -15,9 +15,13 @@ El procedimiento seguido será el mismo que hemos utilizado antes, pero ahora lo
    \right)
    \Rightarrow
    
+   \left(
+   \begin{array}
    dV_I + dV_{II} = 0 \\
    dn_I + dn_{II} = 0 \\
    dU_I + dU_{II} = 0
+   \end{array}
+   \right.
    
 y
 
