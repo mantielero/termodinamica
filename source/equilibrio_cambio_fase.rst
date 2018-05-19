@@ -463,9 +463,16 @@ Si a partir de estas condiciones la presión sobre la fase *I* se incrementa en 
 
 En el momento en que se restablezca el equilibrio:
 
-9i(Po,T) + dPl = 9ii(Po,T) + (	'dgu\ .dpnJ	) dPll	(8.112)
+.. math::
 
-por lo que: (£)*-(&)*»			(8.113)
+   g_I(p_o,T) + \left( \frac{\partial g_I}{\partial p_I} \right) dp_I = g_{II}(p_o,T)+\left( \frac{\partial g_{II}}{\partial p_{II}} \right) dp_{II}
+
+por lo que:
+
+.. math::
+
+   
+
 
 Recuérdese que (dgi/dpi)r = v¡, y por tanto:
 Vídpi = vjjdpn			(8.114)
