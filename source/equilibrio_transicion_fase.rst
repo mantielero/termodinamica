@@ -36,19 +36,6 @@ b) Hay cambios en los que la entropía y el volumen no experimentan variación d
    \alpha v = \left( \frac{\partial v}{\partial T} \right)_p = \frac{\partial}{\partial T} \left( \frac{\partial g}{\partial p} \right)_T = \left( \frac{\partial^2 g}{\partial T \partial p} \right)
    
 
-Cp - (9s \ - d ( dff \
-T ~ \dT)p~ 8T V dTjp
-(8.129)
-kt v
-(dv\ =_d_(di\	( d2g\
-\dpjt dp \dp)T	\dp2)T
-(8.130)
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-35
-dTjp
-(dS\	( æ9\
-\dp) x	l dTdp
-(8.131)
 Es decir, se producen variaciones finitas en las derivadas segundas de la función de Gibbs. Para estos cambios de fase la ecuación de Clausius-Clapeyron nos lleva a una indeterminación:
 dp] _ su ~ s¡
 J /,// VII ~
