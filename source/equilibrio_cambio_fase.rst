@@ -260,28 +260,34 @@ de donde:
 ecuación de la curva del cambio de fase, conocida como ecuación de Clausius-Clapeyron. Esta ecuación relaciona la pendiente de la línea de cambio de fase en el diagrama p, T con el cociente de la diferencia en el valor de la entropía de las fases coexistentes :math:`(s_{II}— s_I)` y la variación de volumen al pasar de una fase a otra :math:`(v_{II} — v_I)`.
 
 Teniendo en cuenta que el cambio de fase ocurre a T y p constantes:
-dh — Tds + vdp,	dhjp = T dsxv
-(8.87)
-26
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
+
+.. math::
+
+   dh = Tds+vdp \\
+   dh_{T,p} = Tds_{T;p}
+   
+
 por lo que:
--VU C h	C 'P/f cffy -
-T(s¡i - s¡) = hn - h¡ = /i/,//	(8.88)
-en que h¡ u es la entalpia de cambio de fase y representa el calor intercambiado durante el proceso por unidad de masa o de cantidad de sustancia. De la anterior obtenemos:
-hru
-su ~ si =
-y sustituyendo en (8.86): hf,-¡T?0 ]
-:'U - jar-
-i i?1 Íl
-t-ky
--jy u-
-éá-J3»
-Js	¿-VW- V
-(8.89)
-<u (8.90)
-Pi y¡riVc.,
-'' \/jt -	70 •	- —	.
-La ecuación anterior aplicada al cambio de fase líquido - vapor toma la forma:
+
+.. math::
+
+   T(s_{II}-s_I) = h_{II}-h_I = h_{I,II}
+
+en que :math:`h_{Í,II}` es la entalpia de cambio de fase y representa el calor intercambiado durante el proceso por unidad de masa o de cantidad de sustancia. De la anterior obtenemos:
+
+
+.. math::
+
+  s_{II}-s_I = \frac{h_{I,II}}{T}
+  
+y sustituyendo en (8.86): 
+
+.. math::
+
+   \frac{dp}{dT} = \frac{h_{I,II}}{T(v_{II}-v_I)}
+   
+
+La ecuación anterior aplicada al **cambio de fase líquido - vapor** toma la forma:
 dT T(vg - vj)
 (8.91)
 Utilizamos la terminología, antes mencionada, de / para el líquido, g para el vapor y f g para la variación del valor de la magnitud correspondiente al cambio de fase. Por ser la densidad del vapor mucho menor que la del líquido tenemos que dpfQ/dT será siempre positiva.
