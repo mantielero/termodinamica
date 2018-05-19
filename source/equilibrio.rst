@@ -19,3 +19,7 @@ Teresa Leo Mena
    equilibrio_punto_critico
    equilibrio_calculo_propiedades
    equilibrio_tablas
+
+.. warning::
+
+   Falta: "Propiedades de las sustancias en el punto crítico
