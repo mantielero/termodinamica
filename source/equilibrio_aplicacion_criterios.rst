@@ -229,16 +229,30 @@ sustituyendo :math:`dU_{II}` y :math:`dV_{II}`  en función de :math:`dU_{I}` y 
 
    \left( \frac{1}{T_I} - \frac{1}{T_{II}} \right) dU_I + \left( \frac{p_I}{T_I} - \frac{p_{II}}{T_{II}} \right) dV_I = 0
 
-Antes hemos dicho que dUi y dV¡ eran variables independientes, por lo tanto, para que la igualdad anterior se cumpla en cualesquiera condiciones, se ha de verificar:
-T,	Tu T, T„
-(8.55)
+Antes hemos dicho que :math:`dU_{I}` y :math:`dV_{I}` eran variables independientes, por lo tanto, para que la igualdad anterior se cumpla en cualesquiera condiciones, se ha de verificar:
+
+.. math::
+
+   \frac{1}{T_I}- \frac{1}{T_{II}} = 0 \\
+   \frac{p_I}{T_I}- \frac{p_{II}}{T_{II}} = 0
+   
+
 de donde:
-T/ = TJ
 
-Tú
+.. math::
 
-r
-y	'
-(8.56)
+   T_I = T_{II}
+
+y
+
+.. math::
+
+   p_I = p_{II}
+   
+   
+(equilibrio térmico y mecánico)
+
+
 Es decir, un sistema aislado alcanzará el equilibrio estable cuando todos los subsistemas que lo forman estén a la misma presión y temperatura, siempre que no existan paredes internas que impidan este equilibrio.
-Si en vez de considerar sistemas en los que el único trabajo sea el pdV, se someten a estudio otros tipos de sistemas, llegaríamos a que la condición de igualdad de temperatura se volvería a dar y cambiaría la condición de igualdad de presión.
+
+Si en vez de considerar sistemas en los que el único trabajo sea el :math:`pdV`, se someten a estudio otros tipos de sistemas, llegaríamos a que la condición de igualdad de temperatura se volvería a dar y cambiaría la condición de igualdad de presión.
