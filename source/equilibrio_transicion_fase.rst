@@ -55,14 +55,16 @@ De estas se deducen las ecuaciones para este tipo de cambios de fase, denominada
 
 .. math::
 
-
-! Acp = T
-' dp'	A	= -T	' dp'
-[dT\	iji	KdT)p	[di]
-
-(8.134)
+   \Delta c_p = T \left[ \frac{dp}{dT} \right]_{I,II} \\
+   \Delta \left( \frac{\partial v}{\partial T} \right)_p = -T  \left[ \frac{dp}{dT} \right]_{I,II}^2 \Delta \left( \frac{\partial v}{\partial p} \right)_T
+   
+   
 ya que:
-(8.135)
+
+.. math::
+
+   
+
 En un principio se creyó que eran muchos los cambios de fase de segundo orden, no obstante la experimentación ha demostrado que sólo se ajusta a estas características el paso de superconductividad a conductividad normal en ausencia de campos magnéticos.
 c)	Se denominan transiciones de fase de orden superior a las que, manteniendo la condición As = 0 y Av = 0 como en las transiciones de fase de segundo orden, presentan una discontinuidad infinita en las derivadas de segundo orden o superior. Entre los cambios de fase de orden superior se citan: las transiciones orden-desorden en las aleaciones, los fenómenos ferroeléctricos en ciertas sales cristalinas, el paso de ferromagnetismo a paramagnetismo en el punto de Curie,
 etc.
