@@ -7,14 +7,14 @@ Así, pueden obtenerse expresiones anak'ticas que reflejen el comportamiento obs
 
 .. note::
 
-   3Callen K.B.Thermodyna.mics and an Introduction to Thermostatistics 2nd ed. Wiley & Sons New York 1985 Cap. 10.
-4Kirillin V.A., nota a pie de página 2.
+   (3)Callen K.B.Thermodyna.mics and an Introduction to Thermostatistics 2nd ed. Wiley & Sons New York 1985 Cap. 10.
+   (4)Kirillin V.A., nota a pie de página 2.
 
 En este apartado, se habla del cálculo de las propiedades termodinámicas de las sustancias mediante la obtención de expresiones analíticas adecuadas y en el siguiente apartado, se estudian con algún detalle las tablas y los diagramas de uso frecuente.
 
-Hasta no hace mucho tiempo la evaluación de las propiedades termodinámicas de los gases se basaba en la formulación de ecuaciones (p, v, T), que eran obtenidas mediante el análisis estadístico de datos experimentales (p, p, T o p, v, T).
+Hasta no hace mucho tiempo la evaluación de las propiedades termodinámicas de los gases se basaba en la formulación de ecuaciones (p, v, T), que eran obtenidas mediante el análisis estadístico de datos experimentales (p, :math:`\rho`, T o p, v, T).
 
-Algunas de estas ecuaciones, como la de Benedict-Webb-Rubin, utilizaban hasta 30 coe-ficients característicos de las sustancias, que se obtenían por ajuste de los datos experimentales adecuados.
+Algunas de estas ecuaciones, como la de Benedict-Webb-Rubin, utilizaban hasta 30 coeficientes característicos de las sustancias, que se obtenían por ajuste de los datos experimentales adecuados.
 
 Una vez conocida con suficiente precisión la ecuación térmica de estado, mediante las correspondientes ecuaciones generalizadas, podían evaluarse las propiedades termodinámicas requeridas.
 
@@ -24,15 +24,11 @@ La ecuación elegida para modelar es la función específica" de Helmholtz, dedu
 
 La función o se expresa utilizando las variables :math:`\rho` y *T* en vez de *v* y *T*
 
+.. math::
 
-T. t
-n Lfc Ál ‘^ rP'T As*
-
-A r a-
-rJh
-®teórica(Pi-E) “1“ ^residual(Pi T') j-p U{deai(T^
-(8.139)
-en la que aresidua¡ corresponde al comportamiento a densidades elevadas y aidea¡ corresponde al comportamiento a densidades muy bajas, en esta zona los otros términos se anulan y este sólo es función de T.
+   a(\rho, T) = a_{\text{teórica}}(\rho, T) + a_{\text{residual}}(\rho, T) + a_{\text{ideal}}(T)
+   
+en la que :math:`a_{\text{residual}}` corresponde al comportamiento a densidades elevadas y :math:`a_{\text{ideal}}` corresponde al comportamiento a densidades muy bajas, en esta zona los otros términos se anulan y este sólo es función de *T*.
 
 El cálculo de a se hace a partir de los valores correspondientes de u y s. Es decir, a partir de la integración de las ecuaciones generalizadas para u y s, determinamos u(T, v) y s(T, v), con lo que:
 
