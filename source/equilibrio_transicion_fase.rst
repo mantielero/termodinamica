@@ -37,13 +37,18 @@ b) Hay cambios en los que la entropía y el volumen no experimentan variación d
    
 
 Es decir, se producen variaciones finitas en las derivadas segundas de la función de Gibbs. Para estos cambios de fase la ecuación de Clausius-Clapeyron nos lleva a una indeterminación:
-dp] _ su ~ s¡
-J /,// VII ~
-dT
-0
-0
-(8.132a)
+
+.. math::
+
+  \left[ \frac{dp}{dT} \right]_{I,II} = \frac{s_{II}-s_I}{v_{II}-v_I} = \frac{0}{0}
+
+
 A fin de salvar esta indeterminación, apliquemos la regla de L’Hôpital. Derivando el segundo miembro de la ecuación anterior respecto a T y respecto a p, se obtiene:
+
+.. math::
+
+  \left[ \frac{dp}{dT} \right]_{I,II} = \frac{\left( \frac{\partial s_{II}}{\partial T} \right)_p - \left( \frac{\partial s_I}{\partial T} \right)_p }{ \left( \frac{\partial v_{II}}{\partial T} \right)_p - \left( \frac{\partial v_I}{\partial T} \right)_p  }
+
 ¡dpi (dsn/dT), - (dsi/dT)p	Acp
 dT\ pu (dvn/dT)p - (dv¡/dT)p TA (dv/dT)p
 (8.132 b)
