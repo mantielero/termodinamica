@@ -122,75 +122,59 @@ Regla de las fases de Gibbs
 ---------------------------
 
 
-En el análisis de los equilibrios de fase y de los procesos de cambio de fase, desempeña un papel importante la llamada regla de las fases de Gibbs. Esta regla establece la relación entre el
-JL
-r*
-
-rtc. ¡	1+ - h y
-¡i/O ( JO” SJfyc
-y (Ul
-'c- ASt d C&
-Ò ■ ',¡'-	/fallís ■
-23
-CIM___________
-J trr
-‘yhjíhj	|7~
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-¿O /o «g.t/dt	/ó*
-número de variables intensivas independientes que definen el estado del sistema termodinámico en equilibrio (a estas variables se les da el nombre de grados de libertad del sistema), el número de fases y el número de componentes del sistema.	——- Y" e"/^-
+En el análisis de los equilibrios de fase y de los procesos de cambio de fase, desempeña un papel importante la llamada regla de las fases de Gibbs. Esta regla establece la relación entre el número de variables intensivas independientes que definen el estado del sistema termodinámico en equilibrio (a estas variables se les da el nombre de grados de libertad del sistema), el número de fases y el número de componentes del sistema.
 
 La regla de las fases podemos formularla mediante la expresión:
-r\%-oL u
-Z"' A ;j ñ j /
-¿ Vk>%
-*
-. ;
-T
 
-Mx/y -
-Ui ¿fuse- G: // >* ¡s-fiL-
-l ~ 9~ f
+.. math::
 
-¡Cü W í
-¿L¿
-L (8‘?)
-/
+   l = c-f+2
 
-en la que l es el número de grados de libertad, c es el número de componentes y / el número de
-j i**/¿	O.
-fases.
-(p.yus- *
-r sr% LA.iV
-' A-
->kJ¿
-La justificación de la relación anterior es sencilla, sin más que tener en cuenta que para definir el estado de equilibrio de un sistema compresible simple necesitamos dos variables intensivas, a las cuales habrá que agregar, en el caso de que el sistema esté integrado por c componentes, las c - 1 fracciones molare^ necesarias para definir la composición de cada fase, en total f(c - 1) variables. A estas debemos restarles las / - 1 igualdades que hay para los potenciales químicos de cada componente en las diversas fases (las cuales establecen una ligadura entre las diversas fracciones molares),,en total c(f - 1), por lo que el número de grados de libertad será:
-7	• r,r----r/ -4->)
-j/> 1 = 2 + f(c — 1) — c(f — l) = c — f + 2 p’ ^r,	-p¿ (8-74)
+en la que l es el número de grados de libertad, c es el número de componentes y f el número de fases.
+
+La justificación de la relación anterior es sencilla, sin más que tener en cuenta que para definir el estado de equilibrio de un sistema compresible simple necesitamos dos variables intensivas, a las cuales habrá que agregar, en el caso de que el sistema esté integrado por c componentes, las :math:`c - 1` fracciones molares necesarias para definir la composición de cada fase, en total :math:`f(c - 1)` variables. A estas debemos restarles las :math:`f - 1` igualdades que hay para los potenciales químicos de cada componente en las diversas fases (las cuales establecen una ligadura entre las diversas fracciones molares), en total :math:`c(f - 1)`, por lo que el número de grados de libertad será:
+
+.. math::
+
+   l = 2 + f(c-1)-c(f-1)=c-f+2
+
+
 La regla de las fases es de importancia fundamental en termodinámica química y puede aplicarse a cualquier número de componentes. Se considera ahora su aplicación a una sustancia pura (c = 1), cumpliéndose entonces:
-1 = 3- f	(8.75a)
-s»
+
+.. math::
+
+   l = 3-f
+
+
 a)	Si la sustancia presenta una sola fase:
-l = 2
-(8.756)
+
+.. math::
+
+   l = 2
+   
+
 el sistema viene definido por dos coordenadas termodinámicas como corresponde a una sustancia compresible simple.
+
 b)	Si la sustancia se presenta en dos fases:
-v t/p n1	r ÍQM ’
-0	//t/A g- ^— l
-y-r-
-1 = 1
-(8.75c)
-y
-L'Ú -Sis	rf'.r-.-v ¿C,
 
-fi.
-Jé f*.
+.. math::
 
-24 Equilibrio de los sistemas termodinámicos. Transiciones de fase
+   l = 1
+   
+
 sólo es independiente una coordenada termodinámica, es decir dada la presión, sabemos cuál es la temperatura correspondiente de equilibrio y las restantes magnitudes específicas de cada fase. Las líneas de transición de fase suelen representarse en un diagrama p, T.
+
 c)	Finalmente, si consideramos un sistema trifásico, nos encontramos con que el número de libertades es 0:
-/ = 0	'	(8.75 d)
+
+.. math::
+
+   l = 0
+   
+
 es decir, tenemos un solo punto en el que puedan coexistir las tres fases. Por lo tanto hay unas p y T determinadas a las que puede darse esta coexistencia de fases y este punto es el punto triple.
+
 Antes hemos dicho que en fase sólida puede darse más de un estado alotrópico y por tanto más de una fase, de aquí que pueda existir más de un punto triple.
+
 .
 El punto triple en el que la sustancia se presenta en los tres estados de agregación se
 denomina punto triple principal.
