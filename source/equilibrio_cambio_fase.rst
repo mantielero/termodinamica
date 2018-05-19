@@ -176,46 +176,73 @@ es decir, tenemos un solo punto en el que puedan coexistir las tres fases. Por l
 Antes hemos dicho que en fase sólida puede darse más de un estado alotrópico y por tanto más de una fase, de aquí que pueda existir más de un punto triple.
 
 .
-El punto triple en el que la sustancia se presenta en los tres estados de agregación se
-denomina punto triple principal.
-8.5.2	Ecuación de ClausiusrClapeyron A—	q.
-^	r	/'■<&
+El punto triple en el que la sustancia se presenta en los tres estados de agregación se denomina punto triple principal.
+
+
+Ecuación de Clausius-Clapeyron
+------------------------------
+
 Consideremos un sistema monocomponente formado por dos fases que están en equilibrio a la presión p y a la temperatura T. Como hemos visto en el apartado 8.2, para este sistema se cumple la condición:
-(8.76)
+
+.. math::
+  
+   dG_{T,p} = 0
+
+
 La función de Gibbs para este sistema podemos expresarla por:
-G = migi + mi ¡gu y m =	+ mu dm = dm/ + dm// = 0
-(8.77)
+
+
+.. math::
+
+   G = m_Ig_I + m_{II} g_{II} \\
+   m = m_I +m_{II} \\
+   dm = dm_I + dm_{II} = 0
+
 de donde:
-P
-sx
-<>
-' T
-ifr-	= 0
-dGT,P = gidmi + gndmn = (g¡ - gii)dm¡ = 0
-J*
-jJin
-rû /
-¿P-* G-'
-(8.78)
-ya que al ser T y p constantes, dgi y dgu son nulas. En consecuencia, para este tipo de sistemas se cumple:
-gi(p,T) = gn(p, T)
-(8.79)
-Equilibrio de los sistemas termodinámicas. Transiciones de fase
-25
-Sometamos a este sistema a una transformación tal que la presión varíe en dp y la temperatura en dT, de forma que las fases se mantengan en equilibrio, por lo tanto:
-9i(p + dp,T + dT) = gn(p + dp,T + dT)
-(8.80)
-La función g(p + dp,T + dT) puede desarrollarse en serie, hasta términos de primer orden, de forma que:
-gÍP + dp,T + dT) = g{ptT)+(^Tdp+(^j dT	(8.81)
-De la expresión de dg = —sdT -f vdp obtenemos:
-dg\	(dg\
-dp)T V \dT)p	S
-(8.82)
+
+
+.. math::
+
+   dG_{T,p} = g_Idm_I+g_{II}dm_{II} = (g_I-g_{II})dm_I = 0
+   
+ya que al ser T y p constantes, :math:`dg_I` y :math:`dg_{II}` son nulas. En consecuencia, para este tipo de sistemas se cumple:
+
+.. math::
+
+   g_I(p,T) = g_{II}(p,T)
+   
+Sometamos a este sistema a una transformación tal que la presión varíe en *dp* y la temperatura en *dT*, de forma que las fases se mantengan en equilibrio, por lo tanto:
+
+.. math::
+
+   g_I(p+dp,T+dT) = g_{II}(p+dp,T+dT)
+   
+La función :math:`g(p + dp,T + dT)` puede desarrollarse en serie, hasta términos de primer orden, de forma que:
+
+.. math::
+
+   g(p + dp,T + dT) = g(p,T)+\left( \frac{\partial g}{\partial p}\right)_T dp+\left( \frac{\partial g}{\partial T}\right)_p dT
+   
+De la expresión de :math:`dg = —sdT + vdp` obtenemos:
+
+.. math::
+
+   left( \frac{\partial g}{\partial p}\right)_T = v \\
+   \left( \frac{\partial g}{\partial T}\right)_p ) -s
+
 y por consiguiente el desarrollo en serie toma la forma:
-g(p + dp,T + dT) = g(p, T) + vdp - sdT
-(8.83)
+
+.. math::
+
+   g(p + dp,T + dT) = g(p, T) + vdp - sdT
+   
+
 que sustituido en (8.80):
-gi^T) + v¡dp - s¡dT =	n) + vndp - sndT
+
+.. math::
+
+   \cancel{g_I(p,T)} +v_Idp-s_IdT = g_{II}(p,T)+v_{II}dp-s_{II}dT
+   
 Recordemos que la condición de partida fue que g¡ = gn, por lo que:
 (8.84)
 v¡dp — sjdT — vjjdp — sudT
