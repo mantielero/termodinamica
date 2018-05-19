@@ -324,69 +324,108 @@ de donde:
 
 en la que *C* es la constante de integración.
 
-Para hallar el valor de la constante que figura en el segundo miembro de (8.95) hemos de conocer la presión de saturación para el cambio de líquido a vapor a una temperatura determinada. Por lo general, la constante de integración se determina para la temperatura de ebullición normal Ten, es decir, la temperatura a la que hierve el líquido a la presión atmosférica normal (p = 101 325 Pa = 1 atm ). Sustituyendo en (8.95):
-ln
-Pia
-lÍ3
-1,013.105 R \Tt
-1
-fj
-(8.96)
-Con frecuencia, cuando la presión se expresa en atmósferas, nos podemos encontrar la expresión anterior en la forma:	---£> }} fcv
-b f n ( 1
-(p en atm)
-(8.97)
+Para hallar el valor de la constante que figura en el segundo miembro de (8.95) hemos de conocer la presión de saturación para el cambio de líquido a vapor a una temperatura determinada. Por lo general, la constante de integración se determina para la temperatura de ebullición normal :math:`T_{en}`, es decir, la temperatura a la que hierve el líquido a la presión atmosférica normal (p = 101325Pa = 1 atm ). Sustituyendo en (8.95):
+
+.. math::
+
+   \ln \frac{p_{fg}}{1.013\cdot 10^5} = \frac{h_{fg}}{R}\left( \frac{1}{T_{en} - \frac{1}{T} \right)
+
+Con frecuencia, cuando la presión se expresa en atmósferas, nos podemos encontrar la expresión anterior en la forma:
+
+.. math::
+
+   \ln p_{fg} = \frac{h_{fg}}{R} \left( \frac{1}{T_{en} - \frac{1}{T} \right) \hspace{2cm} \text{ (p en atm)}
+
 Cuando la constante de integración la determinamos mediante la presión de saturación a una temperatura cualquiera que podemos designar por T* , la ecuación anterior toma la forma:
-ln
-Pía _ hfg
-Pjg{T*) R
-T*
-(8.98)
-Es importante destacar que la dependencia lineal de ln pjg frente al/T deducida de la ecuación (8.95) y que, de acuerdo con las condiciones de la deducción, sólo serviría para presiones bajas y en un intervalo de temperaturas no muy grande, es aplicable en un gran intervalo de p
-y t.
-Un razonamiento análogo se puede aplicar a los cambios sólido-vapor y sólido-líquido, aunque los resultados obtenidos no son equivalentes. También se puede utilizar la ecuación de Clausius-Clapeyron para evaluar correcciones a la escala práctica internacional de temperaturas a fin de reducirla a la escala termodinámica2.
-8.5.3	Estabilidad de las fases
-Consideremos un sistema formado por dos fases en equilibrio, por ejemplo agua líquida y vapor de agua a presión. Supongamos que debido a un escape en la instalación baja la presión manteniéndose constante la temperatura, o que debido a un fallo en el sistema de regulación de
-2er, por ejemplo, Kirillin .A. et ai. Termodinámica Técnica Mir Moscú 1986 pág. 171.
-28
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-presión se incrementa la presión, manteniéndose también constante la temperatura. ¿Cual será en ambos casos la fase más estable? ¿Será la misma en las doá ocasiones?.
+
+.. math::
+
+   \ln \frac{p_{fg}}{p_{fg}(T^*)} = \frac{h_{fg}}{R} \left( \frac{1}{T^*} - \frac{1}{T} \right)
+
+
+Es importante destacar que la dependencia lineal de :math:`\ln p_{jg}` frente a :math:`\frac{1}{T}` deducida de la ecuación (8.95) y que, de acuerdo con las condiciones de la deducción, sólo serviría para presiones bajas y en un intervalo de temperaturas no muy grande, es aplicable en un gran intervalo de p y T.
+
+Un razonamiento análogo se puede aplicar a los cambios sólido-vapor y sólido-líquido, aunque los resultados obtenidos no son equivalentes. También se puede utilizar la ecuación de Clausius-Clapeyron para evaluar correcciones a la escala práctica internacional de temperaturas a fin de reducirla a la escala termodinámica (2).
+
+.. note::
+
+   (2)er, por ejemplo, Kirillin .A. et ai. Termodinámica Técnica Mir Moscú 1986 pág. 171.
+
+Estabilidad de las fases
+------------------------
+
+Consideremos un sistema formado por dos fases en equilibrio, por ejemplo agua líquida y vapor de agua a presión. Supongamos que debido a un escape en la instalación baja la presión manteniéndose constante la temperatura, o que debido a un fallo en el sistema de regulación de presión se incrementa la presión, manteniéndose también constante la temperatura. ¿Cual será en ambos casos la fase más estable? ¿Será la misma en las dos ocasiones?
+
 Para responder a estas cuestiones analicemos la dependencia de la función específica de Gibbs (en el caso de un solo componente coincide con el potencial químico) de una sustancia con respecto a la presión en cada una de las dos fases a temperatura constante. Este tipo de dependencia se representa gráficamente en la figura 8.6.
-9
-P
-presión
+
+
+
+.. figure:: ./img/fases_g_p.png
+
+   Valores de g en función de p para dos fases.	
+
 Como:
-(8.99)
-es evidente que en la figura 8.6 la curva I corresponde a la fase en la que la sustancia tiene mayor densidad (menor v), y la curva II a la fase de menor densidad. Además, en el sistema de coordenadas gp las isotermas tienen siempre la parte convexa hacia los valores de g positivos, ya que si derivamos otra vez respecto a p:
-( ^l\ = f—\
-\dp2)T \dp)T
-(8.100)
-y la magnitud (dv/dp)r es siempre negativa, tal como se vio en el apartado 8.3.2, expresión
-Figura 8.6 Valores de g en función de	(8.40).	< ú
-p para dos fases.	'
-Supongamos que la curva I se refiere al líquido (g¡) y la curva II a su vapor saturado (gg). Es evidente que el punto C, en el que se cortan las curvas I y II, es decir, en el que <7/ = gg, será el punto de equilibrio de las fases de la substancia dada (presión p/g).
+
+.. math::
+
+   \left( \frac{\partial g}{\partial p}\right)_T = v
+
+es evidente que en la figura 8.6 la curva I corresponde a la fase en la que la sustancia tiene mayor densidad (menor v), y la curva II a la fase de menor densidad. Además, en el sistema de coordenadas *gp* las isotermas tienen siempre la parte convexa hacia los valores de *g* positivos, ya que si derivamos otra vez respecto a p:
+
+.. math::
+
+   \left( \frac{\partial^2 g}{\partial p^2}\right)_T = \left( \frac{\partial v}{\partial p}\right)_T
+
+
+y la magnitud :math:`\left( \frac{\partial v}{\partial p}\right)_T` es siempre negativa, tal como se vio en el apartado 8.3.2, expresión (8.40).
+
+Supongamos que la curva I se refiere al líquido :math:`(g_f)` y la curva II a su vapor saturado :math:`(g_g)`. Es evidente que el punto C, en el que se cortan las curvas I y II, es decir, en el que :math:`g_f=g_g`, será el punto de equilibrio de las fases de la substancia dada (presión :math:`p_{fg}`).
+
 Teniendo en cuenta que la función de Gibbs es aditiva, para el sistema integrado por las dos fases, podremos escribir:
-G3Í3 = n¡g¡ + nggg	(8.101)
-Consideremos un sistema formado por dos fases que se encuentran a la misma presión y temperatura (puntos A y B de la isóbara p). Si este estado no es estado de equilibrio , en este sistema a p y T constantes se podrá producir un proceso que ocasione una variación del
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-29
-potencial G del sistema. Como p y T son constantes, g¡ y gg se mantendrán constantes durante el proceso, por lo que dg¡ y dga serán nulas y:
-dGsis — gjdnj 4~ ggdrig	(8.102)
+
+.. math::
+
+   G_{sis} = n_f g_f + n_g g_g
+   
+Consideremos un sistema formado por dos fases que se encuentran a la misma presión y temperatura (puntos A y B de la isóbara *p*). Si este estado no es estado de equilibrio , en este sistema a *p* y *T* constantes se podrá producir un proceso que ocasione una variación del potencial *G* del sistema. Como *p* y *T* son constantes, :math:`g_f` y :math:`g_g` se mantendrán constantes durante el proceso, por lo que :math:`dg_f` y :math:`dg_g` serán nulas y:
+
+.. math::
+
+   dG_{sis} = g_f dn_f + g_g dn_g
+
 También se cumple que:
-na{, = rij + ng = constante
-(8.103)
+
+.. math::
+
+   n_{sis} = n_f + n_g = \text{ constante}
+   
 por lo que:
+
+.. math::
+
+   dn_{sis} = dn_f +dn_g \rightarrow dn_f = -dn_g
+  
+
 de donde:
-(8.104)
-/v-
-(8.105)
-Hemos visto que cuando un sistema está en un estado de no equilibrio a T y p constantes, la función de Gibbs tiende a disminuir hasta que alcance el mínimo que será el punto de equilibrio, es decir, dGrlP < 0, por lo que el signo de dng se determina por el de la diferencia gg — g¡.
-En la gráfica esquematizada se ve que a la izquierda del punto fg, es decir, cuando p < p¡g tenemos que gg < g¡ y por tanto, debe ser dng > 0. Esto significa que se producirá un proceso de evaporación (el líquido pasa a vapor). Cuando estemos a la derecha del punto citado el proceso será de condensación.
+
+.. math::
+
+   dG_{sis} = (g_g-g_f)dn_g
+
+Hemos visto que cuando un sistema está en un estado de no equilibrio a *T* y *p* constantes, la función de Gibbs tiende a disminuir hasta que alcance el mínimo que será el punto de equilibrio, es decir, :math:`dG_{T,p} < 0`, por lo que el signo de :math:`dn_g` se determina por el de la diferencia :math:`g_g — g_f`.
+
+En la gráfica esquematizada se ve que a la izquierda del punto *fg*, es decir, cuando :math:`p < p_{fg}` tenemos que :math:`g_g < g_f` y por tanto, debe ser :math:`dn_g > 0`. Esto significa que se producirá un proceso de evaporación (el líquido pasa a vapor). Cuando estemos a la derecha del punto citado el proceso será de condensación.
+
 En resumen, se tiene:
-• Si gg > g¡, dng < 0, y por consiguiente, el estado estable es el estado líquido.
-• Si Qg < g/, dng > 0, y por tanto, el estado estable del sistema será el estado vapor.
-Resulta pues, que a una determinada p y T, es estable la fase cuya función de Gibbs,? específica sea menor.___	___
-8.5.4	Equilibrio de fases cuando las presiones sobre ambas fases son distintas
+
+- Si :math:`g_g > g_f`, :math:`dn_g < 0`, y por consiguiente, el estado estable es el estado líquido.
+- Si :math:`g_g < g_f`, :math:`dn_g > 0`, y por tanto, el estado estable del sistema será el estado vapor.
+
+Resulta pues, que a una determinada *p* y *T*, es estable la fase cuya función de Gibbs, específica sea menor.
+
+Equilibrio de fases cuando las presiones sobre ambas fases son distintas
+------------------------------------------------------------------------------
+
 Vamos a considerar el caso de equilibrio de fases cuando sobre cada una de ellas se ejerce una presión diferente. Estos casos son frecuentes en la práctica ya que, por ejemplo, en un
 30
 Equilibrio de los sistemas termodinámicos. Transiciones de fase
