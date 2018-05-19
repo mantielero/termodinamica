@@ -242,7 +242,7 @@ que sustituido en (8.80):
 .. math::
 
    \require{cancel}
-   \cancel{g_I(p,T)} +v_Idp-s_IdT = \calcel{g_{II}(p,T)}+v_{II}dp-s_{II}dT
+   \cancel{g_I(p,T)} +v_Idp-s_IdT = \cancel{g_{II}(p,T)}+v_{II}dp-s_{II}dT
    
 Recordemos que la condición de partida fue que g¡ = gn, por lo que:
 
