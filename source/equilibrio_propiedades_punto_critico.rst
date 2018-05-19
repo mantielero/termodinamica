@@ -39,3 +39,8 @@ De estos diagramas se deduce:
    \left( \frac{v_{fg}}{dT}\right)_{PC} = - \inf 
 
 Una mayor información sobre las propiedades de las sustancias en este punto se pueden encontrar en la Termodinámica de Callen(3) y en la ya citada dé Kirillin(4).
+
+.. note::
+
+   (3)Callen K.B.Thermodyna.mics and an Introduction to Thermostatistics 2nd ed. Wiley & Sons New York 1985 Cap. 10.
+   (4)Kirillin V.A., nota a pie de página 2.
