@@ -5,11 +5,6 @@ Una vez estudiado el comportamiento de las sustancias puras en las transiciones 
 
 Así, pueden obtenerse expresiones anak'ticas que reflejen el comportamiento observado. También pueden construirse tablas de propiedades con un espaciado conveniente entre puntos, muy útiles en los cálculos técnicos. Además, puede reflejarse de forma completa el comportamiento p - v — T de las sustancias en diagramas tridimensionales en coordenadas rectangulares, donde cada estado de equilibrio corresponde a un punto de la superficie p — v — T. En las proyecciones de estos diagramas, es decir, en los diagramas planos correspondientes, pueden representarse también las diversas isotermas, isoentálpicas, isócoras...en las distintas regiones, de forma que las propiedades térmicas y energéticas pueden leerse conjuntamente.
 
-.. note::
-
-   (3)Callen K.B.Thermodyna.mics and an Introduction to Thermostatistics 2nd ed. Wiley & Sons New York 1985 Cap. 10.
-   (4)Kirillin V.A., nota a pie de página 2.
-
 En este apartado, se habla del cálculo de las propiedades termodinámicas de las sustancias mediante la obtención de expresiones analíticas adecuadas y en el siguiente apartado, se estudian con algún detalle las tablas y los diagramas de uso frecuente.
 
 Hasta no hace mucho tiempo la evaluación de las propiedades termodinámicas de los gases se basaba en la formulación de ecuaciones (p, v, T), que eran obtenidas mediante el análisis estadístico de datos experimentales (p, :math:`\rho`, T o p, v, T).
