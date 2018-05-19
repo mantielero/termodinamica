@@ -426,26 +426,34 @@ Resulta pues, que a una determinada *p* y *T*, es estable la fase cuya función 
 Equilibrio de fases cuando las presiones sobre ambas fases son distintas
 ------------------------------------------------------------------------------
 
-Vamos a considerar el caso de equilibrio de fases cuando sobre cada una de ellas se ejerce una presión diferente. Estos casos son frecuentes en la práctica ya que, por ejemplo, en un
-30
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-recipiente de agua abierto a la atmósfera, sobre el líquido Se ejerce la presión atmosférica, mientras que el vapor se encuentra a la correspondiente presión parcial pv.
-Si nos centramos en el caso del equilibrio de fases Kquido-vapor, cuando la presión adicional sobre el Kquido la crea un gas inerte puede imaginarse este sistema como un recipiente cerrado de paredes rígidas, y en contacto con una fuente térmica, en el cual hay una sustancia en dos fases: un líquido y su vapor saturado. Sobre el líquido, además del vapor, hay un gas inerte que crea una presión adicional p* ejercida sobre el líquido. Consideraremos que el vapor y el gas inerte se comportan como una mezcla de gases ideales, es decir, cada uno se comporta como si ocupara solo todo el volumen a la temperatura del conjunto.
+Vamos a considerar el caso de equilibrio de fases cuando sobre cada una de ellas se ejerce una presión diferente. Estos casos son frecuentes en la práctica ya que, por ejemplo, en un recipiente de agua abierto a la atmósfera, sobre el líquido Se ejerce la presión atmosférica, mientras que el vapor se encuentra a la correspondiente presión parcial :math:`p_v`.
+
+Si nos centramos en el caso del equilibrio de fases líquido-vapor, cuando la presión adicional sobre el Kquido la crea un gas inerte puede imaginarse este sistema como un recipiente cerrado de paredes rígidas, y en contacto con una fuente térmica, en el cual hay una sustancia en dos fases: un líquido y su vapor saturado. Sobre el líquido, además del vapor, hay un gas inerte que crea una presión adicional :math:`p^*` ejercida sobre el líquido. Consideraremos que el vapor y el gas inerte se comportan como una mezcla de gases ideales, es decir, cada uno se comporta como si ocupara solo todo el volumen a la temperatura del conjunto.
+
 En este caso las condiciones de equilibrio se pueden expresar por las igualdades:
-Tf = Tg
-9j = 9g Pf = Pg + P*
-(8.106)
-(8.107)
-(8.108)
-Las condiciones (8.106) y (8.107) coinciden con las obtenidas antes. La condición (8.108) también es evidente: la diferencia entre las presiones de las dos fases coexistentes es igual a la presión adicional sobre una de ellas. Conviene destacar que en este caso gj se calcula a la presión pj — pg + p*, mientras que gg hay que calcularlo a pg.
+
+
+.. math::
+
+   T_f = T_g \\
+   g_f = g_g \\
+   p_f = p_g+p^*
+   
+Las condiciones (8.106) y (8.107) coinciden con las obtenidas antes. La condición (8.108) también es evidente: la diferencia entre las presiones de las dos fases coexistentes es igual a la presión adicional sobre una de ellas. Conviene destacar que en este caso :math:`g_f` se calcula a la presión :math:`p_f = p_g + p^*`, mientras que :math:`g_g` hay que calcularlo a :math:`p_g`.
+
 Estas condiciones son válidas no sólo para el equilibrio Kquido - vapor, sino también para otros casos de equilibrio de fases (sólido - Kquido y sólido - vapor).
-Consideremos ahora un problema importante: si varía la presión sobre la primera fase, con la condición de que T se mantenga constante, para que se recupere el equilibrio de fases, ¿variará la presión sobre la otra fase?. Supuesto que varíe, ¿hasta cuánto variará?.
-Para responder a esta cuestión consideremos que en el recipiente antes mencionado tenemos el líquido en equilibrio solamente con su vapor y supongamos que en un principio se encontraba en equilibrio a una presión p0 y una temperatura T. Si esto es así:
-gi(Po,T) = gii(p0,T)
-(8.109)
-donde I y II designan las fases de líquido y vapor.
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-31
+
+Consideremos ahora un problema importante: si varía la presión sobre la primera fase, con la condición de que *T* se mantenga constante, para que se recupere el equilibrio de fases, ¿variará la presión sobre la otra fase?. Supuesto que varíe, ¿hasta cuánto variará?.
+
+Para responder a esta cuestión consideremos que en el recipiente antes mencionado tenemos el líquido en equilibrio solamente con su vapor y supongamos que en un principio se encontraba en equilibrio a una presión :math:`p_o` y una temperatura *T*. Si esto es así:
+
+.. math::
+
+   g_I(p_o,T) = g_{II}(p_o,T)
+
+donde *I* y *II* designan las fases de líquido y vapor.
+
+
 Si a partir de estas condiciones la presión sobre la fase I se incrementa en dpi, manteniendo T invariable y suponemos que vuelve a restablecerse el equilibrio, la presión sobre la segunda fase se habrá incrementado en dpn, sin que sepamos a priori cuál es la magnitud de este cambio. Desarrollando las expresiones de g obtenemos:
 9i(Po + dpi,T) = gi(p0,T) + {jfajdpí	(8.110)
 9ii(Po + dpn,T) = gii(p0,T) +	dPu	(8.111)
