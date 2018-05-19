@@ -1,25 +1,30 @@
 Propiedades termodinámicas de las sustancias en la línea de transición de fase. Sistemas de dos fases
 -----------------------------------------------------------------------------------------------------
 
-En los cambios de fase considerados hasta ahora, hemos visto que en la línea de saturación en el diagrama p , T, o bien en la zona de saturación, si consideramos cualquier otro diagrama, las tres propiedades termodinámicas cp, a y kj se hacen infinitas. La justificación de este hecho
-resulta inmediata, ya que al ser:
-/ ds\	1 / dv \
-p	Cp = T{df)/ ay'~v{df)p
-U\
-«T =
-v
-dv\
-dp)T
-(8.127)
-J \&Tjp
-c. p f/o *
-como en esta zona tanto p como T se mantienen constantes y v y s experimentan un cambio
-CJw
-v
-finito, es evidente que las tres propiedades mencionadas se hagan infinito.
+En los cambios de fase considerados hasta ahora, hemos visto que en la línea de saturación en el diagrama *p* , *T*, o bien en la zona de saturación, si consideramos cualquier otro diagrama, las tres propiedades termodinámicas :math:`c_p`, :math:`\alpha` y :math:`\kappa_T` se hacen infinitas. La justificación de este hecho resulta inmediata, ya que al ser:
+
+
+.. math::
+
+   c_p = T\left( \frac{\partial s}{\partial T} \right)_p \\
+   \alpha = \frac{1}{v} \left( \frac{\partial v}{\partial T} \right)_p  \\
+   \kappa__T = - \frac{1}{v} \left( \frac{\partial v}{\partial p} \right)_T
+
+como en esta zona tanto *p* como *T* se mantienen constantes y *v* y *s* experimentan un cambio finito, es evidente que las tres propiedades mencionadas se hagan infinito.
+
 Esto que es característico de la fusión, vaporización y sublimación, no es el comportamiento general de los sistemas que experimentan un cambio de fase, por lo que los cambios de fase se suelen clasificar en:
-a ) Cambios de fase de primer orden, b ) Cambios de fase de segundo orden, c ) Cambios de fase de orden superior.
+
+a. Cambios de fase de primer orden, 
+b. Cambios de fase de segundo orden
+c. Cambios de fase de orden superior.
+
 a) Los cambios de fase de primer orden se caracterizan porque en la curva de saturación, las primeras derivadas de la función de Gibbs:
+
+.. math::
+
+   s = - \left( \frac{\partial g}{\partial T} \right)_p \\
+   v = \left( \frac{\partial g}{\partial p} \right)_T
+
 dg\ ..	„ _ fdg\
 s — —
 dT
@@ -70,5 +75,3 @@ etc.
 36
 Equilibrio de los sistemas termodinámicos. Transiciones de fase
 De todos ellos el más interesante, por las implicaciones teóricas que conlleva, es la transformación He(I) (líquido) en He(II) (líquido) a una presión y temperatura conocidas como punto A y denominada así por el aspecto que presenta, en este punto, la gráfica de cp en función de T.
-
-
