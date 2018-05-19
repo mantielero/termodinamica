@@ -1,109 +1,126 @@
 Cambio de fase
---------------
+==============
 
-Decimos que se produce un cambio de fase cuando una sustancia pasa de una fase a otra que puede coexistir con la primera. Aunque en general, cuando se habla de fases de una sustancia, se hace referencia a los tres estados de agregación de la materia: sólido, líquido y gas, ya vimos que el concepto de fase es más restringido que el de estado de agregación y de hecho se han definido fases distintas para el mismo estado de agregación en el caso del agua, carbono, azufre, etc.. No obstante, salvo que se indique lo contrario, identificaremos el cambio de fase
-18
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-con el j>aso de un estado de agregación a otro. De aquí que se hable de fusión (paso sólido -líquido), solidificacióft-^p3^0 líquido-sólido), vaporización (líquido-vapor), condensación (vapor -líquido), sublimación (sólido - gas), etc.
-Se sabe que una determinada sustancia, dependiendo de las condiciones en las que se encuentre (p, T), puede presentarse en los tres estados de agregación. Un caso típico es el del agua: a presión atmosférica y a las temperaturas comprendidas entre 0 y 100°C, el agua se presenta en estado líquido. Por debajo de cero, manteniendo la presión, el agua es sólida (hielo) mientras que por encima de 100 0 C el agua se encuentra en estado gaseoso (vapor). También es conocido el hecho de que al cambiar la presión, las temperaturas de solidificación y ebullición cambian. Según el estado de agregación en el que se presenta una determinada sustancia, sus propiedades físicas cambian, en particular la densidad1.
+Decimos que se produce un cambio de fase cuando una sustancia pasa de una fase a otra que puede coexistir con la primera. Aunque en general, cuando se habla de fases de una sustancia, se hace referencia a los tres estados de agregación de la materia: sólido, líquido y gas, ya vimos que el concepto de fase es más restringido que el de estado de agregación y de hecho se han definido fases distintas para el mismo estado de agregación en el caso del agua, carbono, azufre, etc.. No obstante, salvo que se indique lo contrario, identificaremos el cambio de fase con el paso de un estado de agregación a otro. De aquí que se hable de fusión (paso sólido -líquido), solidificación (paso líquido-sólido), vaporización (líquido-vapor), condensación (vapor-líquido), sublimación (sólido - gas), etc.
+
+Se sabe que una determinada sustancia, dependiendo de las condiciones en las que se encuentre (p, T), puede presentarse en los tres estados de agregación. Un caso típico es el del agua: a presión atmosférica y a las temperaturas comprendidas entre 0 y 100°C, el agua se presenta en estado líquido. Por debajo de cero, manteniendo la presión, el agua es sólida (hielo) mientras que por encima de 100°C el agua se encuentra en estado gaseoso (vapor). También es conocido el hecho de que al cambiar la presión, las temperaturas de solidificación y ebullición cambian. Según el estado de agregación en el que se presenta una determinada sustancia, sus propiedades físicas cambian, en particular la densidad(1).
+
+.. note::
+
+   (1) E1 cambio de densidad no se da de forma regular en el paso de sólido a líquido pues mientras existen sustanciéis que al fundir disminuyen su densidad, hay otras en que ocurre lo contrario (agua). En los pasos líquido - gas y sólido - gas la disminución de densidad se da en todos los casos.
+
 Este cambio de propiedades puede ser relacionado con el cambio en la estructura interatómica o intermolecular que presenta la sustancia. En general, pasamos de una estructura de mayor orden en los sólidos a una de menor orden en los líquidos y gases. La entalpia de cambio de fase (calor suministrado para que un cambio de fase se produzca) se invierte, por ejemplo, en el caso de paso sólido - líquido, en romper los enlaces que permiten una posición determinada a las moléculas y en su caso, también en realizar un cierto trabajo de expansión. De forma análoga podríamos analizar en una primera aproximación los restantes cambios.
+
 En la figura 8.2 representamos en trazo lleno un esquema del diagrama p, T para una sustancia como el agua, que se expande al solidificar y en trazo discontinuo el correspondiente a sustancias que se contraen al pasar al estado sólido (que es el caso más frecuente). En esta figura podemos ver las diferentes regiones y fases en las que se presentan las sustancias.
+
 En la figura se pueden distinguir tres regiones fundamentales: la zona de la fase sólida, zona de h'quido y zona de vapor o gas.
-Si consideramos un punto como el A y comunicamos energía al sistema a presión constante, veremos que la temperatura del mismo se incrementa hasta llegar a la línea de fusión. Cuando llegamos a esta línea, observamos que el sólido pasa a líquido (proceso de fusión) y mientras ocurre el cambio la temperatura permanece constante, hasta que todo el sólido ha pasado a
-1E1 cambio de densidad no se da de forma regular en el paso de sólido a líquido pues mientras existen sustanciéis que al fundir disminuyen su densidad, hay otras en que ocurre lo contrario (agua). En los pasos líquido - gas y sólido - gas la disminución de densidad se da en todos los casos.
-/
 
+Si consideramos un punto como el A y comunicamos energía al sistema a presión constante, veremos que la temperatura del mismo se incrementa hasta llegar a la línea de fusión. Cuando llegamos a esta línea, observamos que el sólido pasa a líquido (proceso de fusión) y mientras ocurre el cambio la temperatura permanece constante, hasta que todo el sólido ha pasado a líquido. Una vez en estado líquido, al continuar comunicando energía al sistema, la temperatura se incrementa y así continúa el proceso hasta alcanzar la línea de vaporización.
 
-'yo-
-l^-ti/V) l ¿fas< Íi-s o i.- Qfy^X. T^f Lo£ >
-«ífcy	/U.	/&^Jt-
-/V- y	¿¿/yA *//?...■
-¿2^--
-Equilibrio de los sistemas termodinámicos. Transiciones de fase	19
-líquido. Una vez en estado líquido, al continuar comunicando energía al sistema, la temperatura se incrementa y así continúa el proceso hasta alcanzar la línea de vaporización.
 Cuando el sistema alcanza este punto, se observa un proceso análogo al que tuvo lugar en la línea de fusión. Es decir, el líquido comienza a convertirse en vapor (vaporización), sin que
-cambie la temperatura y el proceso continúa hasta que todo el líquido se convierte en vapor. A partir de este momento y hasta terminar el proceso, punto B, al comunicar energía al sistema su temperatura se incrementa. No siempre el proceso sigue esta secuencia, pues si el punto escogido está a una presión menor que la del punto triple, se producirá el paso directo de sólido a gas (sublimación). Es lo ¿que ocurre cuando se comunica energía al CO2 sólido a presión atmosférica normal (a esta presión la temperatura de equilibrio sólido-gas de esta sustancia es de unos
-o
-i/i
-di
-L
-CL
-puntoT^^ critico (PC)
-/ / ItUt'k-
-punto triple (PT)
-i O iÁl (¿-loo- Csr- Í'U-■	■
-L PJ	M
-J ' ‘ f__________í f. c.y,.r.,A!
-vapor
-/
-/¿K.'J
-,/ /o
-?
-Temperatura T
-éí~	L^JA -
-Figura 8.2 Diagrama presión-temperatura para cambios de fase.
-(A
+cambie la temperatura y el proceso continúa hasta que todo el líquido se convierte en vapor. A partir de este momento y hasta terminar el proceso, punto B, al comunicar energía al sistema su temperatura se incrementa. No siempre el proceso sigue esta secuencia, pues si el punto escogido está a una presión menor que la del punto triple, se producirá el paso directo de sólido a gas (sublimación). Es lo que ocurre cuando se comunica energía al :math:`CO_2` sólido a presión atmosférica normal (a esta presión la temperatura de equilibrio sólido-gas de esta sustancia es de unos -79°C.
 
--79° C). ,
-cíí .	/ y	A" U A*r-
-1 > IÁ* y. {/.
+
+.. figure:: ./img/fase_p_T.png
+
+   Diagrama presión-temperatura para cambios de fase.
+
 Si, por el contrario, la presión es superior a la presión crítica el paso del líquido a gas se hace de forma continua sin que en ningún momento podamos distinguir entre la fase gas y líquido.
-Es importante destacar que la temperatura a la cual se producen los distintos cambios de fase dependen de la presión que actúa sobre el sistema, por lo que es perfectamente posible ¡hacer que el agua entre en ebullición a 25° C. Bastará para ello que la presión a la que se halla Cometida sea lo suficientemente baja (0,03 bar).
-Como se puede observar en la figura 8.2, en sustancias como el agua el efecto de la presión sobre la temperatura de cambio de fase, no es para todos los cambios de fase del mismo signo. Así, mientras que en el caso de la sublimación y vaporización un aumento de presión conlleva el correspondiente incremento de temperatura, en el caso de la fusión (trazo continuo), al aumento
 
+Es importante destacar que la temperatura a la cual se producen los distintos cambios de fase dependen de la presión que actúa sobre el sistema, por lo que es perfectamente posible ¡hacer que el agua entre en ebullición a 25°C. Bastará para ello que la presión a la que se halla sometida sea lo suficientemente baja (0.03 bar).
 
-/
-A//C
--"y ‘	/(,<.
-^ á f	cre
-20
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-de presión corresponde una disminución de temperatura. Esto justifica el fenómeno denominado rehielo (paso de un alambre a través de una barra de hielo sin producir modificación aparente de la misma; o soldadura, por presión, de dos trozos de hielo recién cortados).
+Como se puede observar en la figura 8.2, en sustancias como el agua el efecto de la presión sobre la temperatura de cambio de fase, no es para todos los cambios de fase del mismo signo. Así, mientras que en el caso de la sublimación y vaporización un aumento de presión conlleva el correspondiente incremento de temperatura, en el caso de la fusión (trazo continuo), al aumento de presión corresponde una disminución de temperatura. Esto justifica el fenómeno denominado rehielo (paso de un alambre a través de una barra de hielo sin producir modificación aparente de la misma; o soldadura, por presión, de dos trozos de hielo recién cortados).
+
 No obstante lo dicho para sustancias como el agua, conviene tener claro que, en la mayor parte de las sustancia^ las pendientes de las tres líneas de saturación son positivas (trazo discontinuo).
-Las tres líneas de equilibrio de dos fases de la figura 8.2 (fusión, vaporización y sublimación), se dice que determinan la región de saturación. Así, se puede decir que la línea de vaporización representa la región de saturación entre líqido y vapor. Al vapor presente en tal mezcla se le denomina vapor saturado y al Líquido allí presente, líquido. saturado.. Al líquido a la izquierda de la línea de saturación se le denomina líquido subenfriado o comprimido y al vapor a la derecha de la línea, vapor sobrecalentado.
+
+Las tres líneas de equilibrio de dos fases de la figura 8.2 (fusión, vaporización y sublimación), se dice que determinan la región de saturación. Así, se puede decir que la línea de vaporización representa la región de saturación entre líquido y vapor. Al vapor presente en tal mezcla se le denomina vapor saturado y al Líquido allí presente, líquido saturado.. Al líquido a la izquierda de la línea de saturación se le denomina líquido subenfriado o comprimido y al vapor a la derecha de la línea, vapor sobrecalentado.
+
 Conviene destacar el hecho, que se pone de manifiesto en la figura 8.4, que las líneas antes mencionadas (fusión, vaporización y sublimación) son la proyección sobre el plano p, T de superficies en las que coexisten mezclas de sólido-líquido, líquido-vapor y sólido-vapor respectivamente.	^
+
 El denominado punto triple es el estado en el que pueden coexistir tres fases.
-El punto crítico, como ya vimos en un tema anterior, corresponde al estado en el que no
-es posible distinguir entre la fase líquido y vapor . Es decir, al llegar a este punto la superficie de separación entre líquido y vapor desaparece y ias.pxapiedades de ambas fasesjseJmcejiJdfiidic&s, Por encima de la temperatura crítica el paso de líquido a vapor, como ya hemos dicho, se hace de forma continua y en ningún momento es posible distinguir entre las dos fases. En cierta bibiliografia se habla de gas,í en vez de hablar de vapor, cuando la temperatura de la sustancia es superior a la correspondiente al punto crítico, mientras que otros prefieren hablar de fluido para referirse a la sustancia en esta región.
+
+El punto crítico, como ya vimos en un tema anterior, corresponde al estado en el que no es posible distinguir entre la fase líquido y vapor . Es decir, al llegar a este punto la superficie de separación entre líquido y vapor desaparece y ias.pxapiedades de ambas fases se hacen idénticas. Por encima de la temperatura crítica el paso de líquido a vapor, como ya hemos dicho, se hace de forma continua y en ningún momento es posible distinguir entre las dos fases. En cierta bibliografia se habla de gas, en vez de hablar de vapor, cuando la temperatura de la sustancia es superior a la correspondiente al punto crítico, mientras que otros prefieren hablar de fluido para referirse a la sustancia en esta región.
+
 A fin de tener una visión más completa del proceso utilizado para distinguir entre las distintas fases y las condiciones que se dan al pasar de una región a otra, representamos el mencionado proceso AB en un diagrama (p, V) y en una superficie (p, V, T), figuras 8.3 y 8.4.
-En esta superficie (p, V, T) puede apreciarse mejor la naturaleza de las distintas regiones
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-21
-de saturación. Dentro de cada región podemos trazar líneas en las que la presión y temperatura permanecen constantes, en tanto que se produce un cambio importante en el volumen, y en general en el valor de cualquier propiedad extensiva.
+
+En esta superficie (p, V, T) puede apreciarse mejor la naturaleza de las distintas regiones de saturación. Dentro de cada región podemos trazar líneas en las que la presión y temperatura permanecen constantes, en tanto que se produce un cambio importante en el volumen, y en general en el valor de cualquier propiedad extensiva.
+
 Si nos centramos en la región de líquido-vapor y consideramos el volumen del sistema integrado por el líquido y vapor en equilibrio, tendremos que el volumen del sistema será:
-/ ^jíj	Tliquido T Vvapor — Fÿ "f~ Vg
-(8.64)
-en la que utilizamos / y g como abreviaturas de líquido y vapor, respectivamente, que son las que con más frecuencia se encuentran en las tablas de propiedades ter^'-^inámicas.
-Figura 8.3 Diagrama presión-volumen	Figura 8.4 Superficie p-v-T para una sustancia
-de una sustancia que se expande al so-	que se expande al solidificar.
-lidificar.
-También para este sistema podremos escribir: msis — mj T m.gi	— 'rnsis'^sisi
-9
-Vf = mfvf,
-Vg = mgvg
-(8.65)
+
+.. math::
+
+   V_{sis} = V_{\text{líquido}}+V_{\text{vapor}} = V_f+v_g
+
+en la que utilizamos *f* y *g* como abreviaturas de líquido y vapor, respectivamente, que son las que con más frecuencia se encuentran en las tablas de propiedades termodinámicas.
+
+.. figure:: ./img/fase_AB_2d.png
+
+   Diagrama presión-volumen	de una sustancia que se expande al solidificar
+   
+   
+.. figure:: ./img/fase_AB_3d.png
+
+   Superficie p-v-T para una sustancia que se expande al solidificar
+
+
+
+También para este sistema podremos escribir:
+
+.. math::
+
+   m_{sis} = m_f+m_g \\
+   V_{sis} = m_{sis} v_{sis} \\
+   V_f = m_f v_f \\
+   V_g = m_g v_g
+
+
 sustituyendo en (8.64):
-■i
-(8.66)
-i ^
-22
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-VsÍ8 —
-(8.67)
-Teniendo en cuenta que para una mezcla de líquido-vapor se define el título del vapor, representado por x, como el cociente mg/msis, obtendremos de Inecuación anterior:
-vsis = (1 - x)vf + xvg	(8.68)
+
+.. math:
+
+   m_{sis} v_{sis} = m_fv_f+m_gv_g=(m_{sis}-m_g)v_f+m_gv_g \\
+   v_{sis} = \left( 1 - \frac{m_g}{m_{sis}} \right) v_f + \frac{m_g}{m_{sis}} v_g
+
+Teniendo en cuenta que para una mezcla de líquido-vapor se define el título del vapor, representado por x, como el cociente :math:`\frac{m_g}{m_{sis}}`, obtendremos de la ecuación anterior:
+
+.. math::
+
+   v_{sis} = (1-x)v_f+xv_g
+
+
+
 de donde se deduce:
-en la que vjg — vg - v¡.
+
+.. math::
+
+   v_{sis} = v_f+x(v_g-v_f) = v_f+xv_{fg}
+
+en la que
+
+.. math::
+
+   v_{fg} = v_g-v_f
+
+
 Figura 8.5 Superficie (p V T) para una sustancia que se contrae en la solidificación.
--vf) = Vf + xvfjuj	(8.69)
-De forma análoga obtendríamos para la energía interna, entalpia y entropía en la zona de coexistencia de las fases líquido-vapor:
-usís — Uj T xujg	(8.70)
-haia = hf + xhfg	(8.71)
-$sis = Sf+xsjg	(8.72)
+
+
+De forma análoga obtendríamos para la energía interna, entalpía y entropía en la zona de coexistencia de las fases líquido-vapor:
+
+.. math::
+
+   u_{sis} = u_f+xu_{fg} \\
+   h_{sis} = h_f+xh_{fg} \\   
+   s_{sis} = s_f+xs_{fg} \\
+
 Para que se disponga de una descripción lo más completa posible de los sistemas que se nos pueden presentar, en la figura
 8.5	se da una representación de una superficie (p, V, T) para una sustancia que dilata al fundirse, o bien que se con-
 trae en la solidificación, caso más frecuente en el conjunto de sustancias que pueden manejarse y que difieren en este aspecto del agua.
-8.5.1	Regla de las fases de Gibbs.
+
+Regla de las fases de Gibbs
+---------------------------
+
+
 En el análisis de los equilibrios de fase y de los procesos de cambio de fase, desempeña un papel importante la llamada regla de las fases de Gibbs. Esta regla establece la relación entre el
 JL
 r*
