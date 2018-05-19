@@ -43,4 +43,5 @@ Una mayor información sobre las propiedades de las sustancias en este punto se 
 .. note::
 
    (3)Callen K.B.Thermodyna.mics and an Introduction to Thermostatistics 2nd ed. Wiley & Sons New York 1985 Cap. 10.
+   
    (4)Kirillin V.A., nota a pie de página 2.
