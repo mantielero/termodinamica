@@ -25,14 +25,14 @@ a) Los cambios de fase de primer orden se caracterizan porque en la curva de sat
    s = - \left( \frac{\partial g}{\partial T} \right)_p \\
    v = \left( \frac{\partial g}{\partial p} \right)_T
 
-dg\ ..	„ _ fdg\
-s — —
-dT
-v =
-dpJ :
-(8.128)
 experimentan un cambio finito durante el proceso de paso de una fase a otra. La vaporización, fusión y sublimación, cumplen con esta condición.
-b) Hay cambios en los que la entropía y el volumen no experimentan variación durante el proceso (cambios de fase de segundo orden, pero sí cp, a y kt, que como sabemos, cumplen con las relaciones:
+
+b) Hay cambios en los que la entropía y el volumen no experimentan variación durante el proceso (cambios de fase de segundo orden, pero sí :math:`c_p`, :math:`\alpha` y :math:`\kappa_T`, que como sabemos, cumplen con las relaciones:
+
+.. math::
+
+   \frac{c_p}{T} = \left( \frac{\partial s}{\partial T} \right)_p = 
+
 Cp - (9s \ - d ( dff \
 T ~ \dT)p~ 8T V dTjp
 (8.129)
