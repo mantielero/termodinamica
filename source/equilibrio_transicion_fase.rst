@@ -6,7 +6,9 @@ En los cambios de fase considerados hasta ahora, hemos visto que en la línea de
 
 .. math::
 
-   c_p = T\left( \frac{\partial s}{\partial T} \right)_p \\
+   c_p = T\left( \frac{\partial s}{\partial T} \right)_p 
+   
+\\
    \alpha = \frac{1}{v} \left( \frac{\partial v}{\partial T} \right)_p  \\
    \kappa__T = - \frac{1}{v} \left( \frac{\partial v}{\partial p} \right)_T
 
