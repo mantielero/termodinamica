@@ -32,7 +32,8 @@ b) Hay cambios en los que la entropía y el volumen no experimentan variación d
 .. math::
 
    \frac{c_p}{T} = \left( \frac{\partial s}{\partial T} \right)_p = \frac{\partial}{\partial T} \left( - \frac{\partial g}{\partial T} \right)_p = - \left( \frac{\partial^2 g}{\partial T^2} \right)_p \\
-   \kappa_T v = - \left( \frac{\partial v}{\partial p} \right)_T = \frac{\partial}{\partial p} \left( \frac{\partial g}{\partial p} \right)_T = - \left( \frac{\partial^2 g}{\partial p^2} \right)_T
+   \kappa_T v = - \left( \frac{\partial v}{\partial p} \right)_T = \frac{\partial}{\partial p} \left( \frac{\partial g}{\partial p} \right)_T = - \left( \frac{\partial^2 g}{\partial p^2} \right)_T \\
+   \alpha v = \left( \frac{\partial v}{\partial T} \right)_p = \frac{\partial}{\partial T} \left( \frac{\partial g}{\partial p} \right)_T = \left( \frac{\partial^2 g}{\partial T \partial p} \right)
    
 
 Cp - (9s \ - d ( dff \
