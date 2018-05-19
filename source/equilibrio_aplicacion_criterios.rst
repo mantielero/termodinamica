@@ -114,37 +114,45 @@ Si hacemos el análisis de una forma general, considerando un desplazamiento gen
    \left( \frac{\partial T}{\partial S} \right)_{Y_k} = \frac{T}{c_{Y_k}} > 0
 
 
-b)	Para analizar ahora lo que sucedería en transformaciones a entropía o a volumen constantes, en vez de las consideradas a temperatura o a presión constantes, se divide la desigualdad (8.39)
-7-Ò jf>l
-r
-Equilibrio de los sisteméis termodinámicas. Transiciones de fase	13
-primero por el cuadrado de la variación del primer desplazamiento generalizado AV manteniendo constante S y seguidamente por el cuadrado de la variación de S, manteniendo constante V y se obtiene:
-A p AV
-< 0
-(!),>»
-(8.44)
+b)	Para analizar ahora lo que sucedería en transformaciones a entropía o a volumen constantes, en vez de las consideradas a temperatura o a presión constantes, se divide la desigualdad (8.39) primero por el cuadrado de la variación del primer desplazamiento generalizado AV manteniendo constante S y seguidamente por el cuadrado de la variación de S, manteniendo constante V y se obtiene:
+
+.. math::
+
+   \left( \frac{\partial p}{\partial V} \right)_S < 0 \\ 
+   \left( \frac{\partial T}{\partial S} \right)_V > 0 
+
+
+
+
 De esto se deduce que un sistema termodinàmico en estado de equilibrio estable ha de satisfacer las desigualdades:
-i '	—
-—T'>,
-(MLi° IW3F
-(8.45)
+
+.. math::
+
+   \left( \frac{\partial p}{\partial V} \right)_S <0 \\   
+   \left( \frac{\partial T}{\partial S} \right)_V = \frac{T}{c_{v}} > 0
+
+
 cuando cada uno de los desplazamientos generalizados experimenta cualquier variación, manteniendo el otro constante.
-También en este caso podemos, por tanto, establecer que para tener un estado de equilibrio estable cv > 0.
+
+También en este caso podemos, por tanto, establecer que para tener un estado de equilibrio estable :math:`c_v > 0`.
+
 De lo expuesto anteriormente se deduce que un sistema homogéneo se encontrará en estado de equilibrio estable si el determinante de la matriz de estabilidad es positivo o si las condiciones de estabilidad (8.42) y (8.45) se cumplen.
-Como ya se ha dicho, la condición cv > 0 (o la condición cp > 0) se satisface si la temperatura termodinámica T es positiva.
-Es decir, si aceptamos que cv > 0 o cp > 0, la condición de estabilidad nos conduce a la elección de una temperatura T positiva. De acuerdo con el segundo principio, una elección tal
-srs-
-del signo de T conduce, como ya vimos, a que cuando dos cuerpos se ponen en contacto térmico, el calor pasa espontáneamente del cuerpo a temperatura más elevada al cuerpo de temperatura “menos elevada. Esto permite encontrar fácilmente sentido físicp a las condiciones de estabilidad
-(8.42)	y (8.45).
-En efecto, supongamos que cp fuese negativo. Esto significaría, teniendo en cuenta la definición de esta propiedad como relación entre el calor suministrado a un sistema a presión constante y el correspondiente incremento de temperatura:
-cp = (Sq/dT)p
-si cp < 0,’ para tiq > 0, dT < 0
-(8.46)
-14
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
+
+Como ya se ha dicho, la condición :math:`c_v > 0` (o la condición :math:`c_p > 0`) se satisface si la temperatura termodinámica T es positiva.
+
+Es decir, si aceptamos que :math:`cv > 0` o :math:`c_p > 0`, la condición de estabilidad nos conduce a la elección de una temperatura T positiva. De acuerdo con el segundo principio, una elección tal del signo de T conduce, como ya vimos, a que cuando dos cuerpos se ponen en contacto térmico, el calor pasa espontáneamente del cuerpo a temperatura más elevada al cuerpo de temperatura “menos elevada. Esto permite encontrar fácilmente sentido físicp a las condiciones de estabilidad (8.42)	y (8.45).
+
+En efecto, supongamos que :math:`c_p` fuese negativo. Esto significaría, teniendo en cuenta la definición de esta propiedad como relación entre el calor suministrado a un sistema a presión constante y el correspondiente incremento de temperatura:
+
+.. math::
+
+   c_p = \left( \frac{\partial q}{\dT} \right)_p \text{ si }c_p<0 \text{ para }\partial q>0\text{, } dT <0
+
 que el suministro de calor a esta sustancia llevaría a una disminución de su temperatura y por tanto a un incremento de la diferencia de temperatura entre la fuente de calor y el sistema. Esto produciría una situación que nos alejaría cada vez más del equilibrio y por tanto a una inestabilidad creciente.
-De forma análoga, si (dp/dV)r > 0 en vez de ser (dp/dV)r < 0, una disminución pequeña del volumen debido a las fluctuaciones, provocaría una disminución de presión en el sistema, lo que haría que disminuyera más el volumen y por lo tanto el sistema se alejaría más y más de la condición de equilibrio.
-Las condiciones de equilibrio (8.42) y (8.45) llevan al denominado principio de la desviación de equilibrio o principio de Le ChaXelier-Braun, el cual podemos enunciar de la forma siguiente: si un sistema que se ha^}6 en equilibrio se aparta de él, éste tiende a evolucionar de forma que los correspondientes parámetros del sistema varíen en el sentido que permitan al sistema retornar al estado de equilibrio.
+
+De forma análoga, si :math:`\left( \frac{\partial p}{\partial V} \right)_T > 0` en vez de ser :math:`\left( \frac{\partial p}{\partial V} \right)_T < 0`, una disminución pequeña del volumen debido a las fluctuaciones, provocaría una disminución de presión en el sistema, lo que haría que disminuyera más el volumen y por lo tanto el sistema se alejaría más y más de la condición de equilibrio.
+
+Las condiciones de equilibrio (8.42) y (8.45) llevan al denominado principio de la desviación de equilibrio o principio de Le Chatelier-Braun, el cual podemos enunciar de la forma siguiente: si un sistema que se hay6 en equilibrio se aparta de él, éste tiende a evolucionar de forma que los correspondientes parámetros del sistema varíen en el sentido que permitan al sistema retornar al estado de equilibrio.
 
 Coordenadas termodinámicas en el equilibrio de sistemas monofásicos
 -------------------------------------------------------------------
