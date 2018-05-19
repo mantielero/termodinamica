@@ -245,17 +245,20 @@ que sustituido en (8.80):
    \cancel{g_I(p,T)} +v_Idp-s_IdT = \calcel{g_{II}(p,T)}+v_{II}dp-s_{II}dT
    
 Recordemos que la condición de partida fue que g¡ = gn, por lo que:
-(8.84)
-v¡dp — sjdT — vjjdp — sudT
-(8.85)
-/ o/ c k 'J ■
-de donde: ______	.
-I 7 Ur /
-Yo
 
-dp_ _ su\- sj) dT	vui-v7
-(¿c. oi. gg^
-ecuación de la curva del cambio de fase, conocida como ecuación de Clausius- Clapeyron. Esta ecuación relaciona la pendiente de la línea de cambio de fase en el diagrama p, T con el cociente de la diferencia en el valor de la entropía de las fases coexistentes (s// — s¡ ) y la variación de volumen al pasar de una fase a otra (v¡¡ — v¡ ).
+.. math::
+
+   v_I dp - s_IdT = v_{II}dp — s_{II}dT
+   
+
+de donde:
+
+.. math::
+
+   \frac{dp}{dT} = \frac{s_{II}-s_I}}{v_{II}-v_{I}}
+
+ecuación de la curva del cambio de fase, conocida como ecuación de Clausius-Clapeyron. Esta ecuación relaciona la pendiente de la línea de cambio de fase en el diagrama p, T con el cociente de la diferencia en el valor de la entropía de las fases coexistentes :math:`(s_{II}— s_I)` y la variación de volumen al pasar de una fase a otra :math:`(v_{II} — v_I)`.
+
 Teniendo en cuenta que el cambio de fase ocurre a T y p constantes:
 dh — Tds + vdp,	dhjp = T dsxv
 (8.87)
