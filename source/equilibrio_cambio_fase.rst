@@ -255,7 +255,7 @@ de donde:
 
 .. math::
 
-   \frac{dp}{dT} = \frac{s_{II}-s_I}}{v_{II}-v_{I}}
+   \frac{dp}{dT} = \frac{s_{II}-s_I}{v_{II}-v_{I}}
 
 ecuación de la curva del cambio de fase, conocida como ecuación de Clausius-Clapeyron. Esta ecuación relaciona la pendiente de la línea de cambio de fase en el diagrama p, T con el cociente de la diferencia en el valor de la entropía de las fases coexistentes :math:`(s_{II}— s_I)` y la variación de volumen al pasar de una fase a otra :math:`(v_{II} — v_I)`.
 
