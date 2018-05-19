@@ -297,7 +297,7 @@ La ecuación anterior aplicada al **cambio de fase líquido - vapor** toma la fo
 
 Utilizamos la terminología, antes mencionada, de f para el líquido, g para el vapor y fg para la variación del valor de la magnitud correspondiente al cambio de fase. Por ser la densidad del vapor mucho menor que la del líquido tenemos que :math:`dp_{fg}/dT` será siempre positiva.
 
-A fin de encontrar una expresión para :math:`p_{fg}` en función de T en forma explícita, tendremos que integrar la ecuación anterior y para ello podemos realizar algunas simpliñcaciones. Por ser :math:`v_g\ggv_f`, podemos suponer:
+A fin de encontrar una expresión para :math:`p_{fg}` en función de T en forma explícita, tendremos que integrar la ecuación anterior y para ello podemos realizar algunas simpliñcaciones. Por ser :math:`v_g\gg v_f`, podemos suponer:
 
  .. math::
  
