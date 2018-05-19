@@ -50,14 +50,12 @@ A fin de salvar esta indeterminación, apliquemos la regla de L’Hôpital. Deri
   \left[ \frac{dp}{dT} \right]_{I,II} = \frac{\left( \frac{\partial s_{II}}{\partial T} \right)_p - \left( \frac{\partial s_I}{\partial T} \right)_p }{ \left( \frac{\partial v_{II}}{\partial T} \right)_p - \left( \frac{\partial v_I}{\partial T} \right)_p  } = \frac{ \Delta c_p}{T \Delta \left( \frac{\partial v}{\partial T}\right)_p} \\
   \left[ \frac{dp}{dT} \right]_{I,II} = \frac{\left( \frac{\partial s_{II}}{\partial p} \right)_T - \left( \frac{\partial s_I}{\partial p} \right)_T }{ \left( \frac{\partial v_{II}}{\partial p} \right)_T - \left( \frac{\partial v_I}{\partial p} \right)_T  } = - \frac{ \Delta \left( \frac{\partial v}{\partial T} \right)_p }{\Delta \left( \frac{\partial v}{\partial p}\right)_T}  
 
-¡dpi (dsn/dT), - (dsi/dT)p	Acp
-dT\ pu (dvn/dT)p - (dv¡/dT)p TA (dv/dT)p
-(8.132 b)
-dp
-(ds¡i/dp)T - (ds¡/dp)T	A(dv/dT)f
-dT iji (dvn/dp)T - (dv¡/dp)T A (dv/dp)T
-(8.133)
+
 De estas se deducen las ecuaciones para este tipo de cambios de fase, denominadas ecuaciones de Ehrenfest:
+
+.. math::
+
+
 ! Acp = T
 ' dp'	A	= -T	' dp'
 [dT\	iji	KdT)p	[di]
