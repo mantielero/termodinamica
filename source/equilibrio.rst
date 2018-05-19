@@ -17,4 +17,5 @@ Teresa Leo Mena
    equilibrio_cambio_fase
    equilibrio_transicion_fase
    equilibrio_punto_critico
+   equilibrio_calculo_propiedades
    equilibrio_tablas
