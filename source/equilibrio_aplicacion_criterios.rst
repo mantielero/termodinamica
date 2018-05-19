@@ -70,55 +70,50 @@ Condiciones de estabilidad de sistemas monofásicos. Principio de Le Chátelier-
 ------------------------------------------------------------------------------------
 
 La desigualdad (8.39) para el determinante de esta matriz, permite obtener las condiciones de estabilidad de un sistema monofásico en diferentes situaciones. A continuación la aplicaremos al estudio de las condiciones de estabilidad en los casos siguientes:
-W
 
-Xc
 
-a) Variación de una fuerza generalizada determinada, con la variación de su corres-
-Ípondiente desplazamiento generalizado manteniendo constantes las fuerzas genera- / ^ -lizadas conjugadas de otros desplazamientos generalizados. Por ejemplo, variación /
-bj ^1 I7¿i
-y de la presión con el volumen manteniendo la temperatura constante, o variación de la temperatura con la entropía manteniendo constante la presión. j ¡ ¿2.^
-d\i/f Jo
-b) Lo mismo que en el caso anterior, pero manteniendo constante el correspondiente y 0' |/,	desplazamiento conjugado generalizado. Como ejemplo se podría considerar la
-—-0	■—»'Cte 1	^11 J	J/)
-/xj
-/ )
-£J j
-*s/u-
-12
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-variación de la presión con el volumen a entropía constante, o la variación de la temperatura con la entropía a volumen constante.
-a)	Para deducir la condición de estabilidad en transformaciones a temperatura o a presión constantes, dividamos la desigualdad (8.39) por el cuadrado de la variación de volumen, manteniendo constante T, conjugada de la coordenada 5, obtenemos:
-O.AS Ap AF
-AF2 AF2
-> 0
+a) Variación de una fuerza generalizada determinada, con la variación de su correspondiente desplazamiento generalizado manteniendo constantes las fuerzas generalizadas conjugadas de otros desplazamientos generalizados. Por ejemplo, variación de la presión con el volumen manteniendo la temperatura constante, o variación de la temperatura con la entropía manteniendo constante la presión.
 
-/?
-' o
-ú	/
-(8.40)
-Al dividir ahora (8.39) entre A52 manteniendo constante p, conjugada de F, obtenemos: ATAS O.AF
-AS2
-AS2
-> 0
-(i)-
-(8.41)
+b) Lo mismo que en el caso anterior, pero manteniendo constante el correspondiente desplazamiento conjugado generalizado. Como ejemplo se podría considerar la variación de la presión con el volumen a entropía constante, o la variación de la temperatura con la entropía a volumen constante.
+
+a)	Para deducir la condición de estabilidad en transformaciones a temperatura o a presión constantes, dividamos la desigualdad (8.39) por el cuadrado de la variación de volumen, manteniendo constante T, conjugada de la coordenada S, obtenemos:
+
+.. math::
+
+   T=cte: \\
+   \frac{0.\Delta S}{\Delta V^2} - \frac{\Delta p \Delta V}{\Delta V^2} > 0 \\
+   -\left( \frac{\Delta p}{\Delta V} \right)_T >0 \\
+   \left( \frac{\Delta p}{\Delta V} \right)_T <0 \\
+   
+
+
+Al dividir ahora (8.39) entre :math:`\Delta S^2` manteniendo constante p, conjugada de V, obtenemos:
+
+.. math::
+
+   p=cte: \\
+   \frac{\Delta T \Delta S}{\Delta S^2} - \frac{0.\Delta V}{\Delta S^2} > 0 \\
+   \left( \frac{\Delta T}{\Delta S} \right)_p >0 
+
+
 De (8.40) y (8.41) se deduce que cuando un sistema homogéneo en estado de equilibrio estable, experimenta alguna pequeña variación de cualesquiera de sus desplazamientos generalizados, manteniendo constantes las fuerzas generalizadas conjugadas de los otros desplazamientos, se verifican las siguientes desigualdades:
-I©),“'
-(AT\ -T~ „
-¿Ás)
-T< <7
-L-
-(8.42)
-£
-y estas desigualdades representan las condiciones suficientes de estabilidad del sistema. De
-(8.42)	se deduce que para la escala de temperatura adoptada, la capacidad calorífica del sistema a presión constante, cp, será siempre positiva. Si se admitiera una escala de temperaturas negativas, cp habría de cambiar de signo.
-Y00*
-Si hacemos el análisis de una forma general, considerando un desplazamiento generalizado Xk y la fuerza generalizada conjugada de este desplazamiento F¿, las condiciones de estabilidad tomarán la forma:
-m<° (£)*
-> o
-cn
-(8.43)
+
+.. math::
+
+   \left( \frac{\Delta p}{\Delta V} \right)_T <0 \\
+   \left( \frac{\Delta T}{\Delta S} \right)_p = \frac{T}{c_p} >0
+
+
+y estas desigualdades representan las condiciones suficientes de estabilidad del sistema. De (8.42)	se deduce que para la escala de temperatura adoptada, la capacidad calorífica del sistema a presión constante, :math:`c_p`, será siempre positiva. Si se admitiera una escala de temperaturas negativas, :math:`c_p` habría de cambiar de signo.
+
+Si hacemos el análisis de una forma general, considerando un desplazamiento generalizado :math:`X_k` y la fuerza generalizada conjugada de este desplazamiento :math:`Y_k`, las condiciones de estabilidad tomarán la forma:
+
+.. math::
+
+   \left( \frac{\partial Y_k}{\partial X_k} \right)_T <0 \\   
+   \left( \frac{\partial T}{\partial S} \right)_{Y_k} = \frac{T}{c_{Y_k}} > 0
+
+
 b)	Para analizar ahora lo que sucedería en transformaciones a entropía o a volumen constantes, en vez de las consideradas a temperatura o a presión constantes, se divide la desigualdad (8.39)
 7-Ò jf>l
 r
