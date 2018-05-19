@@ -63,11 +63,10 @@ ya que:
 
 .. math::
 
-   \Delta \left( \frac{\partial v}{\partial T} \right)_p = 
+   \Delta \left( \frac{\partial v}{\partial T} \right)_p = - \left[ \frac{dp}{dT} \right] \Delta \left( \frac{\partial v}{\partial p} \right)_T
 
 En un principio se creyó que eran muchos los cambios de fase de segundo orden, no obstante la experimentación ha demostrado que sólo se ajusta a estas características el paso de superconductividad a conductividad normal en ausencia de campos magnéticos.
-c)	Se denominan transiciones de fase de orden superior a las que, manteniendo la condición As = 0 y Av = 0 como en las transiciones de fase de segundo orden, presentan una discontinuidad infinita en las derivadas de segundo orden o superior. Entre los cambios de fase de orden superior se citan: las transiciones orden-desorden en las aleaciones, los fenómenos ferroeléctricos en ciertas sales cristalinas, el paso de ferromagnetismo a paramagnetismo en el punto de Curie,
-etc.
-36
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-De todos ellos el más interesante, por las implicaciones teóricas que conlleva, es la transformación He(I) (líquido) en He(II) (líquido) a una presión y temperatura conocidas como punto A y denominada así por el aspecto que presenta, en este punto, la gráfica de cp en función de T.
+
+c)	Se denominan transiciones de fase de orden superior a las que, manteniendo la condición :math:`\Delta s = 0` y :math:`\Delta v = 0` como en las transiciones de fase de segundo orden, presentan una discontinuidad infinita en las derivadas de segundo orden o superior. Entre los cambios de fase de orden superior se citan: las transiciones orden-desorden en las aleaciones, los fenómenos ferroeléctricos en ciertas sales cristalinas, el paso de ferromagnetismo a paramagnetismo en el punto de Curie, etc.
+
+De todos ellos el más interesante, por las implicaciones teóricas que conlleva, es la transformación He(I) (líquido) en He(II) (líquido) a una presión y temperatura conocidas como punto :math:`\lambda` y denominada así por el aspecto que presenta, en este punto, la gráfica de :math:`c_p` en función de *T*.
