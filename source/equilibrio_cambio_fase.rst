@@ -471,65 +471,103 @@ por lo que:
 
 .. math::
 
+   \text{Recuérdese que: } \left( \frac{\partial g_I}{\partial p_I}\right)_T = v_I \text{ , y por tanto:} \\
+   v_Idp_I = v_{II}dp_{II}
+
+
+de donde:
+
+.. math::
+
+   \left( \frac{\partial p_{II}}{\partial p_I} \right) = \frac{v_I}{v_{II}}
+
+
+Esta ecuación, obtenida por primera vez por el físico inglés EH. Poynting, conduce a un resultado algo inesperado: el aumento de presión sobre una fase lleva a un aumento de presión sobre la segunda fase y este aumento es inversamente proporcional al volumen. Es decir, si el volumen específico es mayor en la segunda fase que en la primera, su correspondiente variación de presión será menor que la que tenga lugar sobre la primera fase.
+
+Como la densidad del vapor a presiones no muy elevadas (mucho menores que la presión crítica) es considerablemente menor que la densidad del líquido, al aumentar la presión sobre el líquido aumenta de un modo insignificante la presión del vapor (en el caso del agua a la presión atmosférica y temperatura de 100°C: :math:`v_f= 1.0435\cdot10^{~3}\frac{m^3}{kg}`, :math:`v_g = 1.673 \frac{m^3}{kg}`, y por consiguiente: :math:`\Delta p_g = \frac{1.0435\cdot 10{-3}}{1.673}` :math:`\Delta p_f = 6.23\cdot 10^{-4} \Delta p_f`. Cuando se trata del equilibrio sólido-líquido la cuestión es muy diferente, pues en este caso :math:`v_f = 1.00 \frac{cm^3}{g}`, :math:`v_s = 1.09 \frac{cm^3}{g}`, y por lo tanto :math:`\Delta p_f = 1.09 \Delta p_s`.
+
+Destaquemos que la ecuación de Poynting sólo es válida si la temperatura se mantiene constante en el proceso. Es decir, si la presión aumenta en una de las fases en equilibrio, la presión en la otra fase sólo aumentará si las temperaturas de las fases coexistentes son iguales. Si no se da esta condición, el aumento de presión en una de las fases puede no ocasionar necesariamente la variación de la presión en la segunda fase. Después se verá este caso de equilibrio.
+
+Es conveniente tener claro, que si las dos fases se encuentran en un principio a igual presión p0 y después se aumenta la presión de una de ellas a :math:`p_1`, no debemos pensar que la diferencia de presión que actúa entre las fases, :math:`p^*`, es :math:`p_I — p_o`, sino que de acuerdo con la ecuación de Poynting deberá incrementarse la presión sobre la segunda fase hasta un valor :math:`p_{II} > p_o`, y por tanto, la diferencia :math:`p^* = p_I — p_{II}`, será menor que la considerada en un principio.
+
+Es fácil determinar la relación entre :math:`p_I`, :math:`p_{II}`, :math:`p^*` y :math:`p_o`. Para ello, si hacemos :math:`\Delta p_I = p_I - p_o` y :math:`\Delta p_{II} = p_{II} — p_o`, que son los incrementos de presión sobre cada fase, tenemos:
+
+.. math::
+
+   p^* = \Delta p_I - \Delta p_{II}
+
+y según la ecuación de Poynting:
+
+.. math::
+
+   \Delta p_{II} = \int_{p_o}^{p^I} \frac{v_I}{v_II}dp_I
+
+Si la razón :math:`\frac{v_I}{v_{II}` no varía mucho al variar :math:`p_I` (como suele ocurrir con frecuencia), entonces:
+
+.. math::
+
+   \Delta p_{II} = \frac{v_I}{v_{II}} \Delta p_I
+
+y de (8.116) y (8.118) se obtiene:
+
+.. math::
+
+   p^* = \Delta p_I - \frac{v_I}{v_{II}} \Delta p_I = \frac{v_{II}-v_I}{v_{II}} \Delta p_I = \frac{v_{II}-v_I}{v_{I}} \Delta p_{II}
+
+
+por lo que:
+
+.. math::
+
+   p_I = p_o + \frac{v_{II}}{v_{II}-v_I} p^* \\
+   p_{II} = p_o + \frac{v_{I}}{v_{II}-v_I} p^*
    
 
+y estas son las relaciones buscadas entre :math:`p_{I}`, :math:`p_{II}`, :math:`p^{*}` y :math:`p_{o}`.
 
-Recuérdese que (dgi/dpi)r = v¡, y por tanto:
-Vídpi = vjjdpn			(8.114)
 
-de donde: 1 ( s ") = ”' / ^ ( V dpi ) Vil {	uh		(8.115)
+Equilibrio de fases en el caso de variación simultánea de presión y temperatura
+--------------------------------------------------------------------------------
 
-Esta ecuación, obtenida por primera vez por el físico inglés EH. Poynting, conduce a un resultado algo inesperado: el aumento de presión sobre una fase lleva a un aumento de presión sobre la segunda fase y este aumento es inversamente proporcional al volumen. Es decir, si el volumen específico es mayor en la segunda fase que en la primera, su correspondiente variación de presión será menor que la que tenga lugar sobre la primera fase.	IT -
-Como la densidad del vapor a presiones no muy elevadas (mucho menores que la presión crítica) es considerablemente menor que la densidad del líquido, al aumentar la presión sobre el líquido aumenta de un modo insignificante la presión del vapor (en el caso del agua a la presión atmosférica y temperatura de 100 °C: v¡ — 1,0435.10~3 m3 kg-1, vg = 1,673 m3 kg-1, y por
-32
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-consiguiente: Apg = (l,0435.10_3/l,673)Ap/ = 6,23.10_4Ap/. Cuando se trata del equilibrio ^sólido-líquido la cuestión es muy diferente, pues en este caso v¡ — 1,00 cm3 g_1 , v, = 1,09 cm3 g_1, y por lo tanto Ap¡ — 1,09 Ap3.
-Destaquemos que la ecuación de Poynting sólo es válida si la temperatura se mantiene constante en el proceso. Es decir, si la presión aumenta en una de las fases en equilibrio, la presión en la otra fase sólo aumentará si las temperaturas de las fases ’coexistentes son iguales. Si no se |da esta condición, el aumento de presión en una de las fases puede no ocasionar necesariamente la variación de la presión en la segunda fase. Después se verá este caso de equilibrio.
-Es conveniente tener claro, que si las dos fases se encuentran en un principio a igual presión p0 y después se aumenta la presión de una de ellas a pi, no debemos pensar que la diferencia de presión que actúa entre las fases, p*, es pi — p0 , sino que de acuerdo con la ecuación de Poynting deberá incrementarse la presión sobre la segunda fase hasta un valor pjj > p0, y por tanto, la diferencia p* = p¡ — p¡¡, será menor que la considerada en un principio.
-Es fácil determinar la relación entre p/, p¡¡, p* y p0. Para ello, si hacemos Api = p¡ - p0 y Apn — p¡¡ — pp , que son los incrementos de presión sobre cada fase, tenemos:
-	p* = Api - Api/ |[	(8.116)
-y según la ecuación de Poynting:
-a p/7= r —dpi		(8.117)
-	¿Vo VII
-Si la razón vi/vu no varía mucho al variar p¡ (como suele ocurrir con		frecuencia), entonces:
-	Á Vl A A pn = —Apiñ r vn j	(8.118)
-y de (8.116) y (8.118) se obtiene:
-* a	vl a	vn ~ vl »	vll —	*
-p = Api------Ap¡ = --------Api = -------A pii
-vn	vn	v¡
-(8.119)
-por lo que:
-vii
-Pl = Po H--------P
-vn ~ vi
-V Pll = Po +
-Vi
-Vil - VI
-(8.120)
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-33
-y estas son las relaciones buscadas entre pi, pn, p* y pQ.
-8.5.5 Equilibrio de fases en el caso de variación simultánea de presión y temperatura
-Deduzcamos ahora una relación entre los valores de las derivadas de las presiones no iguales pi y pn, sobre dos fases en equilibrio, respecto a la temperatura. Para ello vamos a utilizar un método análogo al empleado en la deducción de la ecuación de Clausius - Clapeyron.
+Deduzcamos ahora una relación entre los valores de las derivadas de las presiones no iguales :math:`p_{I}` y :math:`p_{II}`, sobre dos fases en equilibrio, respecto a la temperatura. Para ello vamos a utilizar un método análogo al empleado en la deducción de la ecuación de Clausius - Clapeyron.
+
 Si las fases están en equilibrio:
-gi{Pi,T) = gii(pn,T)	(8.121)
-Modifiquemos la temperatura en dT, la presión pi en dpi y pn en dpn, de forma que volvamos a conseguir el equilibrio:
-g¡(pi + dpi,T + dT) = gn(pn + dpn,T + dT)
-(8.122)
+
+.. math::
+
+   g_I(p_I, T) = g_{II}(p_{II},T)
+
+Modifiquemos la temperatura en *dT*, la presión :math:`p_I` en :math:`dp_I` y :math:`p_{II}` en :math:`dp_{II}`, de forma que volvamos a conseguir el equilibrio:
+
+.. math::
+
+   g_I(p_I+dp_I,T+dT) = g_{II}(p_{II}+dp_{II}, T+dT)
+   
+
 Desarrollando como hicimos en (8.110) y (8.111):
-9 Api + dpí,T + dT) = gI(pI, T) +	^ dPi +	dT
-= gi(pi,T) + Vídp! - s¡dT gii(pii + dpn, T + dT) = gn(pii, T) + vndpn - sudT
-(8.123)
-(8.124)
+
+.. math::
+
+   g_I(p_I+dp_I,T+dT) &= g_I(p_I,T) + \left( \frac{\partial g_I}{\partial p_I} \right)_T dp_I + \left( \frac{\partial g_I}{\partial T} \right)_{p_I} dT\\
+   &=g_I(p_I,T) + v_I dp_I - s_I dT
+   
+.. math::
+
+   g_{II}(p_{II}+dp_{II},T+dT) = g_{II}(p_{II},T) + v_{II}dp_{II} -s_{II}dT
+   
+   
+
 En el equilibrio:
-—pdvidpj - s¡dT ^~P(siI ~ s¡)dT
-ipil -s/	= ñu
-= vndpn - sndT
-= vndpn - v¡dp¡ dpn dp¡ f
-dT VI dT
-\hi,n _ dpn dpi T ~ VH dT	VI dT¡
-(8.125)
-(8.126)
-Esta relación análoga a la de Clausius-Clapeyron, nos muestra la relación que existe entre las magnitudes dp/dT de las fases presentes, cuando las presiones sobre ellas no son iguales.
-34 Equilibrio de los sistemas termodinámicas. Transiciones de fase
-J jZ/HLiC'G-____<f>-
+
+.. math::
+
+   v_I dp_I - s_IdT &= v_{II} dp_{II} -s_{II} dT \\
+   (s_{II}-s_{I})dT &= v_{II} dp_{II} -v_{I} dp_I \\
+   s_{II}-s_{I} = v_{II} \frac{dp_{II}}{dT} - v_I \frac{dp_I}{dT}
+
+
+.. math::
+
+   \frac{h_{I,II}}{T} = v_{II} \frac{dp_{II}}{dT} - v_I \frac{dp_I}{dT}
+
+Esta relación análoga a la de Clausius-Clapeyron, nos muestra la relación que existe entre las magnitudes :math:`\frac{dp}{dT}` de las fases presentes, cuando las presiones sobre ellas no son iguales.
