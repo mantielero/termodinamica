@@ -319,7 +319,7 @@ de donde:
 
 .. math::
 
-   ln p_{fg} = -\frac{h_{fg}}{RT}+C
+   \ln p_{fg} = -\frac{h_{fg}}{RT}+C
 
 
 en la que *C* es la constante de integración.
