@@ -299,27 +299,28 @@ Utilizamos la terminología, antes mencionada, de f para el líquido, g para el 
 
 A fin de encontrar una expresión para :math:`p_{fg}` en función de T en forma explícita, tendremos que integrar la ecuación anterior y para ello podemos realizar algunas simpliñcaciones. Por ser :math:`v_g\ggv_f`, podemos suponer:
 
-?ri>lr
-4-
-lUM
-Vg~vf = Vg
-(8.92)
+ 
+   
+
+
 Si consideramos presiones no muy altas, se puede considerar que vg — (RT/pjg), por lo tanto la ecuación (8.91) toma la forma:
-dpfg _ hfg	dpfg /Pfg _ hfg
-dT T(RT/Pfay
-de donde:
-lnPfg = J
-nfg RT2
-dT
-dT
-RT2
-,k
-(8.93)
-(8.94)
+
 La integración del segundo miembro puede realizarse siempre que conozcamos la dependencia de hfg con T. Para presiones no muy altas y un intervalo de T no muy grande, podemos suponer que hjg no depende de T, por lo que:
 
-Equilibrio de los sistemas termodinámieos. Transiciones de fase	27
-en la que C es la constante de integración.
+.. math::
+
+   \frac{dp_{fg}}{dT} = \frac{h_{fg}}{T\left( \frac{RT}{p_{fg}}\right)} \\
+   \frac{d\frac{p_{fg}}{p_{fg}}}{dT} = \frac{h_{fg}}{RT^2}  
+
+de donde:
+
+.. math::
+
+   ln p_{fg} = -\frac{h_{fg}}{RT}+C
+
+
+en la que *C* es la constante de integración.
+
 Para hallar el valor de la constante que figura en el segundo miembro de (8.95) hemos de conocer la presión de saturación para el cambio de líquido a vapor a una temperatura determinada. Por lo general, la constante de integración se determina para la temperatura de ebullición normal Ten, es decir, la temperatura a la que hierve el líquido a la presión atmosférica normal (p = 101 325 Pa = 1 atm ). Sustituyendo en (8.95):
 ln
 Pia
