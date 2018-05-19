@@ -158,7 +158,11 @@ Coordenadas termodinámicas en el equilibrio de sistemas monofásicos
 -------------------------------------------------------------------
 
 Hemos considerado hasta ahora las condiciones que tendría que cumplir un sistema para que alcanzara un estado de equilibrio estable. Supuesto que estas condiciones se dan, veamos cómo se determinan las coordenadas termodinámicas de equilibrio de los sistemas termodinámicos.
-Figura 8.1 Sistema aislado integrado por dos sistemas que interactúan.
+
+.. figure:: ./img/sistema_aislado_integrado.png
+
+   Sistema aislado integrado por dos sistemas que interactúan.
+
 De los distintos sistemas termodinámicos que podemos considerar y que difieren entre sí por las interacciones que experimentan (supuesto que hacemos abstracción de las sustancias que los integran), el más importante es el .sistema aislado integrado por dos subsistemas entre los que se produce interacción, ya que cualquier sistema y su medio ambiente cumple con esta condición.
 Consideremos el sistema aislado representado en la figura 8.1, formado por los subsistemas I y II,
 Equilibrio de los sistemas termodinámicos. Transiciones de fase
