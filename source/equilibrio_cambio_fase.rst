@@ -228,7 +228,7 @@ De la expresión de :math:`dg = —sdT + vdp` obtenemos:
 .. math::
 
    left( \frac{\partial g}{\partial p}\right)_T = v \\
-   \left( \frac{\partial g}{\partial T}\right)_p ) -s
+   \left( \frac{\partial g}{\partial T}\right)_p ) = -s
 
 y por consiguiente el desarrollo en serie toma la forma:
 
