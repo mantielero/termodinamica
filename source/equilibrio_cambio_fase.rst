@@ -299,11 +299,14 @@ Utilizamos la terminología, antes mencionada, de f para el líquido, g para el 
 
 A fin de encontrar una expresión para :math:`p_{fg}` en función de T en forma explícita, tendremos que integrar la ecuación anterior y para ello podemos realizar algunas simpliñcaciones. Por ser :math:`v_g\ggv_f`, podemos suponer:
 
+ .. math::
  
+ 
+    v_g-v_f = v_g
    
 
 
-Si consideramos presiones no muy altas, se puede considerar que vg — (RT/pjg), por lo tanto la ecuación (8.91) toma la forma:
+Si consideramos presiones no muy altas, se puede considerar que :math:`vg = \frac{RT}{p_fg}}`, por lo tanto la ecuación (8.91) toma la forma:
 
 La integración del segundo miembro puede realizarse siempre que conozcamos la dependencia de hfg con T. Para presiones no muy altas y un intervalo de T no muy grande, podemos suponer que hjg no depende de T, por lo que:
 
