@@ -30,15 +30,18 @@ La función o se expresa utilizando las variables :math:`\rho` y *T* en vez de *
    
 en la que :math:`a_{\text{residual}}` corresponde al comportamiento a densidades elevadas y :math:`a_{\text{ideal}}` corresponde al comportamiento a densidades muy bajas, en esta zona los otros términos se anulan y este sólo es función de *T*.
 
-El cálculo de a se hace a partir de los valores correspondientes de u y s. Es decir, a partir de la integración de las ecuaciones generalizadas para u y s, determinamos u(T, v) y s(T, v), con lo que:
+El cálculo de *a* se hace a partir de los valores correspondientes de *u* y *s*. Es decir, a partir de la integración de las ecuaciones generalizadas para *u* y *s*, determinamos :math:`u(T, v)` y :math:`s(T, v)`, con lo que:
 
-a = u(T, v) - T0s(T, v)
-(8.140)
+.. math::
+
+   a = t(T,v) - T_o s(T,v)
 
 Recuérdese que:
 
-du — cvdT +
-(8.141)
-* = sr: + (¿í).*	<8-142>
+.. math::
+
+  du = c_v dT + \left[ T\left( \frac{\partial p}{\partial T}\right)_v -p\right]dv\\
+  ds = \frac{c_V dT }{T} + \left( \frac{\partial p}{\partial T}\right)_v dv
+
 
 Cuando se trata de agua líquida-vapor de agua y de otros sistemas multifase, se ha seguido un procedimiento ligeramente distinto. En estos casos es mejor tener un modelo para determinar la forma general de la expresión analítica y entonces aplicar las técnicas de cuadrados mínimos a esta ecuación. Un buen ejemplo de esto puede ser la utilización de ecuaciones del tipo de la de Clausius-Clapeyron para representar la relación entre la presión y temperatura de saturación.
