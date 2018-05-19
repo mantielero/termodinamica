@@ -288,6 +288,12 @@ y sustituyendo en (8.86):
    
 
 La ecuación anterior aplicada al **cambio de fase líquido - vapor** toma la forma:
+
+.. math::
+
+
+   \frac{dp_{fg}}{dT} = \frac{h_{fg}}{T(v_{g}-v_f)}
+
 dT T(vg - vj)
 (8.91)
 Utilizamos la terminología, antes mencionada, de / para el líquido, g para el vapor y f g para la variación del valor de la magnitud correspondiente al cambio de fase. Por ser la densidad del vapor mucho menor que la del líquido tenemos que dpfQ/dT será siempre positiva.
