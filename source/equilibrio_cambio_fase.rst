@@ -102,7 +102,9 @@ en la que
    v_{fg} = v_g-v_f
 
 
-Figura 8.5 Superficie (p V T) para una sustancia que se contrae en la solidificación.
+.. figure:: ./img/fase_3d.png
+
+   Superficie (p V T) para una sustancia que se contrae en la solidificación.
 
 
 De forma análoga obtendríamos para la energía interna, entalpía y entropía en la zona de coexistencia de las fases líquido-vapor:
@@ -111,11 +113,10 @@ De forma análoga obtendríamos para la energía interna, entalpía y entropía 
 
    u_{sis} = u_f+xu_{fg} \\
    h_{sis} = h_f+xh_{fg} \\   
-   s_{sis} = s_f+xs_{fg} \\
+   s_{sis} = s_f+xs_{fg} 
 
 Para que se disponga de una descripción lo más completa posible de los sistemas que se nos pueden presentar, en la figura
-8.5	se da una representación de una superficie (p, V, T) para una sustancia que dilata al fundirse, o bien que se con-
-trae en la solidificación, caso más frecuente en el conjunto de sustancias que pueden manejarse y que difieren en este aspecto del agua.
+8.5	se da una representación de una superficie (p, V, T) para una sustancia que dilata al fundirse, o bien que se contrae en la solidificación, caso más frecuente en el conjunto de sustancias que pueden manejarse y que difieren en este aspecto del agua.
 
 Regla de las fases de Gibbs
 ---------------------------
