@@ -32,15 +32,10 @@ Por otro lado, si representamos en un diagrama :math:`h_{fg}` frente a *T* y :ma
    Diagrama de :math:`v_{fg}` frente a T.
 
 De estos diagramas se deduce:
-dh
-¡9
-dT
-PC
-= -00,
-dv
 
-dT )
--oo
-PC
-(8.138)
-Una mayor información sobre las propiedades de las sustancias en este punto se pueden encontrar en la Termodinámica de Callen3 y en la ya citada dé Kirillin4.
+.. math::
+
+   \left( \frac{dh_{fg}}{dT}\right)_{PC} = - \inf \\
+   \left( \frac{v_{fg}}{dT}\right)_{PC} = - \inf 
+
+Una mayor información sobre las propiedades de las sustancias en este punto se pueden encontrar en la Termodinámica de Callen(3) y en la ya citada dé Kirillin(4).
