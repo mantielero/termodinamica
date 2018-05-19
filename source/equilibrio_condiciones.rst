@@ -43,20 +43,35 @@ Para el sistema que estamos considerando:
 
    dS_{sis} = dS_I + dS_{II} = 0
    
+en donde:
+
+.. math::
+
+   dS_I = \frac{dU_I}{T_I} + \frac{p_I}{T_I}dV_I - \frac{\mu_I}{T_I} dn_I \\
+   dS_{II} = \frac{dU_{II}}{T_{II}} + \frac{p_{II}}{T_{II}}dV_{II} - \frac{\mu_{II}}{T_{II}} dn_{II} 
+ 
 Sustituyendo en (8.59), teniendo en cuenta (8.57), obtenemos:
-1
-tT¡
-dU¡ +
-Vil
-Tu
-V±
-Ti
-= 0
-(8.61)
-Por las mismas razones que antes expusimos dU¡, dV¡ y dn¡ son variables independientes, por lo que:
+
+.. math::
+
+   \left( \frac{1}{T_I} - \frac{1}{T_{II}} \right) dU_I + \left( \frac{p_I}{T_I} - \frac{P_{II}}{T_{II}}\right) dV_I - \left( \frac{\mu_I}{T_I} - \frac{\mu_{II}}{T_{II}} \right) dn_I = 0
+
+Por las mismas razones que antes expusimos :math:`dU_I`, :math:`dV_I` y :math:`dn_I` son variables independientes, por lo que:
+
+.. math::
+
+    \frac{1}{T_I} - \frac{1}{T_{II}} = 0\\
+    \frac{p_I}{T_I} - \frac{P_{II}}{T_{II}} = 0 \\
+    \frac{\mu_I}{T_I} - \frac{\mu_{II}}{T_{II}} = 0
+
 de donde:
-— = 0	VI	— = 0	Vi VII Q	(8.62)
-Tu	Ti	Ti,	Ti Tu
-11 ! : ■"i	Vi	= Vil	Vi = Vil f	(8.63)
+
+.. math::
+
+   T_I = T_{II} \\
+   p_I = p_{II} \\
+   \mu_I = \mu_{II}
+   
 Es decir, para que una sustancia que se presenta en dos fases esté en equilibrio, es preciso que presión, temperatura y potencial químico sean iguales en ambas fases.
-jjProcediendo de forma análoga llegaríamos a igual conclusión en un sistema muítifase. /
+
+Procediendo de forma análoga llegaríamos a igual conclusión en un sistema muítifase.
