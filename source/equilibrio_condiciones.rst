@@ -28,19 +28,21 @@ y
    dU_I = —dU_{II}
 
 Respecto al caso anterior vemos que la única variación es que hemos tenido que fijar la cantidad de sustancia.
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-17
+
+
 De (8.11) aplicada a una especie química, podemos deducir:
-dS=^- + ^dV- £dn	(8.58)
+
+.. math::
+
+   dS = \frac{dU}{T} + \frac{p}{T} dV - \frac{\mu}{T} dn
+
+
 Para el sistema que estamos considerando:
-dS,„ = dS¡ + dSH = 0	(8.59)
-,C	VI
-ÍS, = ^7 + T,ÍV,-T,
-dni
-ís„ = tOa +	^
-Tu T T/j	Tu
-dnii
-(8.60)
+
+.. math::
+
+   dS_{sis} = dS_I + dS_{II} = 0
+   
 Sustituyendo en (8.59), teniendo en cuenta (8.57), obtenemos:
 1
 tT¡
