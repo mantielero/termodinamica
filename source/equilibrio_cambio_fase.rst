@@ -454,15 +454,24 @@ Para responder a esta cuestión consideremos que en el recipiente antes menciona
 donde *I* y *II* designan las fases de líquido y vapor.
 
 
-Si a partir de estas condiciones la presión sobre la fase I se incrementa en dpi, manteniendo T invariable y suponemos que vuelve a restablecerse el equilibrio, la presión sobre la segunda fase se habrá incrementado en dpn, sin que sepamos a priori cuál es la magnitud de este cambio. Desarrollando las expresiones de g obtenemos:
-9i(Po + dpi,T) = gi(p0,T) + {jfajdpí	(8.110)
-9ii(Po + dpn,T) = gii(p0,T) +	dPu	(8.111)
+Si a partir de estas condiciones la presión sobre la fase *I* se incrementa en :math:`dp_I`, manteniendo *T* invariable y suponemos que vuelve a restablecerse el equilibrio, la presión sobre la segunda fase se habrá incrementado en :math:`dp_{II}`, sin que sepamos a priori cuál es la magnitud de este cambio. Desarrollando las expresiones de *g* obtenemos:
+
+.. math::
+
+   g_I(p_o+dp_I,T) = g_I(p_o,T)+ \left( \frac{\partial g_I}{\partial p_I} \right) dp_I \\
+   g_{II}(p_o+dp_{II},T) = g_{II}(p_o,T)+ \left( \frac{\partial g_{II}}{\partial p_{II}} \right) dp_{II}
+
 En el momento en que se restablezca el equilibrio:
+
 9i(Po,T) + dPl = 9ii(Po,T) + (	'dgu\ .dpnJ	) dPll	(8.112)
+
 por lo que: (£)*-(&)*»			(8.113)
+
 Recuérdese que (dgi/dpi)r = v¡, y por tanto:
 Vídpi = vjjdpn			(8.114)
+
 de donde: 1 ( s ") = ”' / ^ ( V dpi ) Vil {	uh		(8.115)
+
 Esta ecuación, obtenida por primera vez por el físico inglés EH. Poynting, conduce a un resultado algo inesperado: el aumento de presión sobre una fase lleva a un aumento de presión sobre la segunda fase y este aumento es inversamente proporcional al volumen. Es decir, si el volumen específico es mayor en la segunda fase que en la primera, su correspondiente variación de presión será menor que la que tenga lugar sobre la primera fase.	IT -
 Como la densidad del vapor a presiones no muy elevadas (mucho menores que la presión crítica) es considerablemente menor que la densidad del líquido, al aumentar la presión sobre el líquido aumenta de un modo insignificante la presión del vapor (en el caso del agua a la presión atmosférica y temperatura de 100 °C: v¡ — 1,0435.10~3 m3 kg-1, vg = 1,673 m3 kg-1, y por
 32
