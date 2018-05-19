@@ -163,40 +163,72 @@ Hemos considerado hasta ahora las condiciones que tendría que cumplir un sistem
 
    Sistema aislado integrado por dos sistemas que interactúan.
 
-De los distintos sistemas termodinámicos que podemos considerar y que difieren entre sí por las interacciones que experimentan (supuesto que hacemos abstracción de las sustancias que los integran), el más importante es el .sistema aislado integrado por dos subsistemas entre los que se produce interacción, ya que cualquier sistema y su medio ambiente cumple con esta condición.
-Consideremos el sistema aislado representado en la figura 8.1, formado por los subsistemas I y II,
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-15
-separados entre sí por una frontera que permite interacciones calor y trabajo. Determinemos en qué condiciones existirá equilibrio entre estos subsistemas. Por ser el sistema aislado se cumple:
-V
-Usis - U¡ + U¡[ — constante Vaig = Vi + Vn — constante .
-(8.47)
+De los distintos sistemas termodinámicos que podemos considerar y que difieren entre sí por las interacciones que experimentan (supuesto que hacemos abstracción de las sustancias que los integran), el más importante es el sistema aislado integrado por dos subsistemas entre los que se produce interacción, ya que cualquier sistema y su medio ambiente cumple con esta condición.
+
+Consideremos el sistema aislado representado en la figura 8.1, formado por los subsistemas I y II, separados entre sí por una frontera que permite interacciones calor y trabajo. Determinemos en qué condiciones existirá equilibrio entre estos subsistemas. Por ser el sistema aislado se cumple:
+
+.. math::
+
+   U_sis = U_I+U_{II} = \text{constante} \\
+   V_sis = V_I+V_{II} = \text{constante} 
+
+
 Podemos imaginar para este sistema procesos infinitesimales en los que cambie el volumen o la energía de cada subsistema o ambas simultáneamente (U y V son variables independientes). Al estar el sistema aislado:
-dUaia = 0, dV sis = 0 y dVl + dVu = dVaia = 0
-dUi + dUn = dUaia = o	(8.48)
+
+.. math::
+
+   dU_{sis} = 0 \\
+   dV_{sis} = 0
+
+y
+
+.. math::
+
+   dV_I + dV_{II} = dV_{sis} = 0 \\ 
+   dU_I + dU_{II} = dU_{sis} = 0
+   
+
 por lo que:
-dV i = —dV¡¡, dUi = —dU[¡
-(8.49)
-Antes vimos que la condición de equilibrio para un sistema aislado es:
-T_
-dSaia = 0
-(8.50)
+
+.. math::
+
+   dV_I=-dV_{II} \\
+   dU_I = -dU_{II}
+
+Antes vimos que la condición de equilibrio (:math:`dS_{sis}=0`)para un sistema aislado es:
+
+
 por ser:
-Saia = Si + Su, dSais = dS ¡ + dSn = 0
-(8.51)
-TidSi = dUi + pidVi,	TijdSn = dUn + pndV¡i
-(8.52)
-Es importante destacar que nuestro análisis se limita a sistemas en los que sólo existe trabajo pdV.
-Despejando dS¡ y dSn y sustituyendo en (8.51):
-du' +	+ dJ¿lL +	= o
-Ti T>
-Tu Tn
-(8.53)
-sustituyendo dUn y dV¡¡ en función de dU¡ y dV¡, respectivamente, obtenemos:
-r, - fr) dU‘+ir, ~ fí;)dVi = 0
-(8.54)
-16
-Equilibrio de los sistemas termodinámicas. Transiciones de fase
+
+.. math::
+
+   S_{sis} = S_I + S_{II} \\
+   dS_{sis} = dS_I + dS_{II} = 0
+
+y
+
+.. math::
+
+
+   T_IdS_I = dU_I+p_IdV_I \\
+   T_{II}dS_{II} = dU_{II}+p_{II}dV_{II}
+   
+
+Es importante destacar que nuestro análisis se limita a sistemas en los que sólo existe trabajo :math:`pdV`.
+
+Despejando :math:`dS_I` y :math:`dS_{II}` y sustituyendo en (8.51):
+
+.. math::
+
+   \frac{dU_I}{T_I} + \frac{p_I}{T_I} dV_I + \frac{dU_{II}}{T_{II}} + \frac{p_{II}}{T_{II}} dV_{II} = 0
+
+
+sustituyendo :math:`dU_{II}` y :math:`dV_{II}`  en función de :math:`dU_{I}` y :math:`dV_{I}`, respectivamente, obtenemos:
+
+.. math::
+
+   \left( \frac{1}{T_I} - \frac{1}{T_{II}} \right) dU_I + \left( \frac{p_I}{T_I} - \frac{p_{II}}{T_{II}} \right) dV_I = 0
+
 Antes hemos dicho que dUi y dV¡ eran variables independientes, por lo tanto, para que la igualdad anterior se cumpla en cualesquiera condiciones, se ha de verificar:
 T,	Tu T, T„
 (8.55)
