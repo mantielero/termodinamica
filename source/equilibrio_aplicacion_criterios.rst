@@ -146,7 +146,7 @@ En efecto, supongamos que :math:`c_p` fuese negativo. Esto significaría, tenien
 
 .. math::
 
-   c_p = \left( \frac{\partial q}{\dT} \right)_p \text{ si }c_p<0 \text{ para }\partial q>0\text{, } dT <0
+   c_p = \left( \frac{\partial q}{dT} \right)_p \text{ si }c_p<0 \text{ para }\partial q>0\text{, } dT <0
 
 que el suministro de calor a esta sustancia llevaría a una disminución de su temperatura y por tanto a un incremento de la diferencia de temperatura entre la fuente de calor y el sistema. Esto produciría una situación que nos alejaría cada vez más del equilibrio y por tanto a una inestabilidad creciente.
 
