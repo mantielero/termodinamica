@@ -7,72 +7,64 @@ Una propiedad termodinámica extensiva X de un sistema monocomponente y monofás
 
 Si cada número de moles de cada componente se multiplica por un factor a, la cantidad de sustancia del sistema quedará multiplicada por el mismo factor y así también el valor de la propiedad extensiva X. Esto es:
 
-X(T,p, ani,an2 ■ • ■ ank) = aX(T,p, ri{)
+.. math::
 
-Esta ecuación nos indica que X es una función homogénea de grado uno en los de modo que por el teorema de Euler de las funciones homogéneas podemos escribir
+   X(T,p,\alpha n_1, \alpha n_2, ... \alpha n_k) = \alpha X(T,p,n_i)
+   
+   
+Esta ecuación nos indica que *X* es una función homogénea de grado uno en los :math:`n_i` de modo que por el teorema de Euler de las funciones homogéneas podemos escribir
 
-dX	dX
-+ ••• + -—nk = X
-OTl\	ouk
+.. math::
+
+   \frac{\partial X}{\partial n_1} n_1 + ... + \frac{\partial X}{\partial n_k} n_k = X
 
 o lo que es lo mismo
 
-*=1
-=-1 í
-"LAs
-ij J X
-X i s
-T,p,n j
-H:/’/'/ijt
-(9.6)
-* ÜA,.
+.. math::
 
-donde el subíndice nj indica que todos los n excepto se han mantenido fijbs durante la diferenciación.
+   X = \sum_{i=1}^k n_i \left. \frac{\partial X}{\partial n_i} n_1 \right|_{T,p,n_j}
+ 
+donde el subíndice :math:`n_j` indica que todos los *n* excepto :math:`n_i`se han mantenido fijbs durante la diferenciación.
 
-La propiedad molar parcial x; es por de^nición:
+La propiedad molar parcial :math:`\overline{x_i}` es por definición:
 
-8X
+.. math::
 
-j tcJüX . .
-Xi = —	j Í i /	(9.7)
-T,p,n,
+   \overline{x_i} = \left. \frac{\partial X}{\partial n_i}  \right|_{T,p,n_j} \hspace{2cm} j \neq i
 
-Xi es una propiedad de la mezcla y no simplemente una propiedad del componente i; es decir, Xi depende, en general de la temperatura, presión y composición de la mezcla, = Xi(T,p, n¿). Las propiedades molares parciales son propiedades intensivas de la mezcla.
+
+
+:math:`\overline{x_i}` es una propiedad de la mezcla y no simplemente una propiedad del componente *i*; es decir, :math:`\overline{x_i}` depende, en general de la temperatura, presión *y* composición de la mezcla, :math:`\overline{x_i}=\overline{x_i}(T,p,n_i)`. Las propiedades molares parciales son propiedades intensivas de la mezcla.
 
 A la vista de la ecuación (9.7), la ecución (9.6) se puede escribir en la forma:
 
-k
-X = ^2 ni^i	(9-8)
-i
+.. math::
 
-Esta ecuación muestra que la propiedad X puede expresarse como una suma ponderada de las propiedades molares parciales x¡.
+   X= \sum_i^k n_i \overline{x_i}
+
+Esta ecuación muestra que la propiedad *X* puede expresarse como una suma ponderada de las propiedades molares parciales :math:`\overline{x_i}`.
 
 Eligiendo que la propiedad extensiva en (9.8) sea el volumen, la energía interna, la entalpia y entropía respectivamente, se tendrá:
 
-k	k	k	k
-V —	U =	H —	S =	(9.9)
-t	i	i '	i
+.. math::
 
-donde ñ¿, ü¿, hi y representan el volumen, la energía interna, la entalpia y la entropía molar parcial. Expresiones análogas pueden escribirse para la función de Gibbs, G, y la función de Helmholtz, A.
+   V= \sum_i^k n_i \overline{v_i} \\
+   U= \sum_i^k n_i \overline{u_i} \\
+   H= \sum_i^k n_i \overline{h_i} \\
+   S= \sum_i^k n_i \overline{s_i} 
+   
+
+
+donde :math:`\overline{v_i}`, :math:`\overline{u_i}`, :math:`\overline{h_i}` y :math:`\overline{s_i}` representan el volumen, la energía interna, la entalpia y la entropía molar parcial. Expresiones análogas pueden escribirse para la función de Gibbs, *G*, y la función de Helmholtz, *A*.
 
 Las propiedades molares parciales pueden evaluarse de varias formas. 
-En primer lugar, si
-( AXS
-la propiedad X puede medirse, x, puede obtenerse extrapolando el gráfico que da
-An¡
-frente a An;. esto es,
-T,p,n,
-4
-Sisteméis multicomponentes. Mezcla no reactiva de gases
-x; =
-dX
-drii
-T,p,nj
-= i- ¥■
-Ani-»0 A
-T,p,rij
+En primer lugar, si la propiedad *X* puede medirse, :math:`\overline{x_i}`, puede obtenerse extrapolando el gráfico que da :math:`\left( \frac{\Delta X}{\Delta n_i} \right)_{T,p,n_j}` frente a :math:`\Delta n_i`; esto es,
 
-Si se conoce una expresión para X en función de sus variables independientes, X{ puede evaluarse por diferenciación. La derivación puede ser analítica si la función viene expresada analíticamente o numérica si la función está dada en forma tabular.
+.. math::
+
+   \overline{x_i} = \left. \frac{\partial X}{\partial n_i} \right)_{T,p,n_j} = \lim_{\Delta n_i \rightarrow 0} \left. \frac{\Delta X}{\Delta n_i} \right)_{T,p,n_j} 
+
+Si se conoce una expresión para *X* en función de sus variables independientes, :math:`\overline{x_i}` puede evaluarse por diferenciación. La derivación puede ser analítica si la función viene expresada analíticamente o numérica si la función está dada en forma tabular.
 
 Un procedimiento gráfico de fácil aplicación para evaluar las propiedades molares parciales, cuando se dispone de datos experimentales, es el método-dé las intersecciones. Este método puede aplicarse para la evaluación de cualquier propieddad molar parcial. A título de ejemplo se puede considerar la determinación del volumen molar parcial en el caso de una disolución formada por dos componentes A y B.
 
