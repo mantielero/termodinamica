@@ -141,7 +141,7 @@ Haciendo uso de los valores críticos de la temperatura y presión del :math:`CC
 
 Los valores de :math:`\frac{f}{p}` se han obtenido del gráfico generalizado de fugacidad. Así pues :math:`\mu_2-\mu_1 = 1915\frac{kJ}{kmol}`.
 
-Para un componente puro el potencial químico es igual a la función de Gibbs por mol, p = g = h — Ts. Como la temperatura es la misma en los estados 1 y 2, el cambio en el potencial j químico puede expresarse como P2 — pi = /12 — h\ — T(s2 — -Si). Haciendo uso de los datos tabulares para el CCI2F2, obtenemos el valor de 1927,6 kJ-kmol-1 que es un valor muy próximo al calculado con el diagrama generalizado del coeficiente de fugacidad.
+Para un componente puro el potencial químico es igual a la función de Gibbs por mol, :math:`\mu = g = h-Ts`. Como la temperatura es la misma en los estados 1 y 2, el cambio en el potencial químico puede expresarse como :math:`\mu_2-\mu_1 = h_2-h_1 - T(s_2 — s_1)`. Haciendo uso de los datos tabulares para el :math:`CCl_2F_2`, obtenemos el valor de :math:`1927.6 \frac{kJ}{kmol}` que es un valor muy próximo al calculado con el diagrama generalizado del coeficiente de fugacidad.
 
 Evaluación de la fugacidad cuando el sistema se presenta como líquido o sólido
 -----------------------------------------------------------------------------
