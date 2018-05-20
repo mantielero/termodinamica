@@ -163,87 +163,101 @@ Pero cuando se produce el paso de una fase a otra en equilibrio, ya vimos que se
    R_u T \ln \frac{f_{II}}{f_I} = 0 \hspace{2cm} f_{II} = f_I
 
 Por lo tanto la fugacidad de un líquido en condiciones de saturación es igual a la fugacidad /del vapor en las mismas condiciones y ésta ya la sabemos calcular.
-Consideremos ahora el caso de un/líquido comprimido./ Haciendo aplicación de la ecuación (9.34) se tendrá:
 
-14
-Sistemas multicomponentes. Mezcla no reactiva de gases
-¿Hn//
-dp
-nj
-R¿r
+Consideremos ahora el caso de un líquido comprimido. Haciendo aplicación de la ecuación (9.34) se tendrá:
 
-Teniendo esto en cuenta imaginemos un sistema que evoluciona isotérmicamente desde una presión muy baja, p*, hasta la presión p pasando por un valor intermedio correspondiente a la presión de saturación a esa temperatura, psat.
+.. math::
 
-i Despejando de la expresión anterior d(ln /) e integrando entre p* y p (recuérdese que para tp~ —► 0, p* = /* y para el valor p corresponde el valor //) se obtendrá:
-U't)
-i»ít= fJ^+f ^p
-p- ]r.
+   \left. \frac{\partial \ln f_f}{\partial p} \right|_T = \frac{v_f}{ R_u T}
 
-Para evitar problemas de falta de continuidad en el límite cuando p* ambos miembros de la ecuación la expresión:
-0, restemos a
-OJ ln
-Psat _ r’al i
-p*	Jp*	p
-dp
+Teniendo esto en cuenta imaginemos un sistema que evoluciona isotérmicamente desde una presión muy baja, :math:`p^*`, hasta la presión *p* pasando por un valor intermedio correspondiente a la presión de saturación a esa temperatura, :math:`p_{sat}`.
+
+i Despejando de la expresión anterior :math:`d(\ln f)` e integrando entre :math:`p^*` y *p* (recuérdese que para :math:`p^* \rightarrow 0`, :math:`p^* = f^*` y para el valor *p* corresponde el valor :math:`f_f`) se obtendrá:
+
+.. math::
+
+   \ln \frac{f_f}{p^*} = \int_{p^*}^{p_{sat}} \frac{v_g}{R_u T } dp + \int_{p_{sat}}^p \frac{v_f}{R_u T} dp
+
+
+Para evitar problemas de falta de continuidad en el límite cuando :math:`p^* \rightarrow 0`, restemos a  ambos miembros de la ecuación la expresión:
+
+.. math::
+
+   \ln \frac{p_{sat}}{p^*} = \int_{p^*}^{p_{sat}} \frac{1}{p} dp
+
 con lo que se obtendrá la ecuación:
-ln — = Í (j%~^]dP+ í ~Prdp Psat Jpm \RuT Pj Jp9at Ru _________________'
+
+.. math::
+
+   \ln \frac{f_f}{p_{sat}} = \int_{p^*}^{p_{sat}} \left( \frac{v_g}{R_u T} - \frac{1}{p} \right)dp + \int_{p^*}^{p_{sat}} \frac{v_f}{R_u T} dp
 
 Esta ecuación puede aplicarse directamente.
-En el caso déláilidos.ol procedimiento a seguir es completamente análogo.
 
-Como aplicación vamos a determinar la fugacidad del agua líquida a 200 °C y 50 bars.
+En el caso de sólidos procedimiento a seguir es completamente análogo.
 
-De las tablas de propiedades termodinámicas del agua obtenemos, para 200 °C y las pre-
+Ejemplo
+^^^^^^^
 
-especifican, los siguientes valores:
-p, bars	v, m3/kg	v/RT, bar 1	(v/RT - 1/
-0,06	36,383	16,648	-1,845-10-2
-0,70	3,108	1,422	-6,406-10-3
-1,5	1,444	0,660	-5,918T0-3
-5,0	0,4259	0,195	-5,116-10-3
-10	0,206	9,426-10-2	-5,738-10—3
-15,54	0,127	5,811-10—2	-6,237-10—3
-15,54	1,156-10—3	5,289-10"4
-25	1,155-10-3	5,285-10-4
-50	1,153-10—3	5,276-10—4
-, para el	0,08314 agua es	bar-m3/kg-K.
-,-i
+Como aplicación vamos a determinar la fugacidad del agua líquida a 200°C y 50 bars.
 
-Tomando como valor de (v/RT — l/p) la media, -5,833T0 3, de la última expresión obtenemos para la primera integral el valor:
+De las tablas de propiedades termodinámicas del agua obtenemos, para 200°C y las presiones que se especifican, los siguientes valores:
 
-f (
-) dp = -5,833 • 10~3 • 15,54 = -9,14-10
-RUT p
--2
-Sistemas multicomponentes. Mezcla no reactiva de gases
-15
+
+.. math::
+
+   p, bars	v, m3/kg	v/RT, bar 1	(v/RT - 1/
+   0,06	36,383	16,648	-1,845-10-2
+   0,70	3,108	1,422	-6,406-10-3
+   1,5	1,444	0,660	-5,918T0-3
+   5,0	0,4259	0,195	-5,116-10-3
+   10	0,206	9,426-10-2	-5,738-10—3
+   15,54	0,127	5,811-10—2	-6,237-10—3
+   15,54	1,156-10—3	5,289-10"4
+   25	1,155-10-3	5,285-10-4
+   50	1,153-10—3	5,276-10—4
+
+El valor de R para el agua es :math:`\frac{0.08314}{18} \frac{bar \cdot m^3}{kg \cdot K}
+
+Tomando como valor de :math:`\left( \frac{v}{RT} — \frac{1}{p} \right)` la media, :math:`-5.833 \cdot 10^{.3}`, de la última expresión obtenemos para la primera integral el valor:
+
+.. math::
+
+   \int_0 ^{p_{sat}} \left( \frac{v_g}{R_u T} - \frac{1}{p}\right) dp = -5.833 \cdot 10^{-3} \cdot 15.54 = -9.14 \cdot 10^{-2}
+
 
 Para la segunda integral
--^=dp = 5,283 • 10-4(50 - 15,54) = 0,0182
-Rr/l
+
+.. math::
+
+   \int_{p_{sat}}^p \frac{v_f}{R_u T} dp = 5.283 \cdot 10^{-4} (50-15.54) = 0.0182
+
 
 Por lo que obtendríamos para la fugacidad del agua en las condiciones dadas:
 
+.. math::
+
+   \ln \frac{f_f}{p_{sat}} = -0.073
+
 esto es:
 
-ln
-j±_
-Psat
--0,073
-= 15,54 • e-0,073 = 14,44bar
+.. math::
+
+   f_f = 15.54 \cdot e^{-0.073} = 14.44bar
 
 Por otro lado, si consideramos como fugacidad del líquido la correspondiente al vapor saturado a la temperatura del líquido y utilizamos para su determinación el diagrama de fugacidad generalizado, obtenemos:
 
-15,54
-220,9
-0,0703 Tr
-473
-647,3
-0,731
-v = 0,96 =
-/
-15,54
-/ = 14,92 bar
+.. math::
+
+   \left.
+   \begin{array}
+   p_R = \frac{15.54}{220.9} = 0.0703 \\
+   T_R = \frac{473}{647.3} = 0.731 
+   \eng{array}
+   \right}
+   \rightarrow 
+   
+   \nu = 0.96= \frac{f}{15.54} \rightarrow f = 14.92bar
+  
 
 Vemos que el valor de la fugacidad del líquido saturado difiere en menos de un 4% del valor obtenido para el líquido comprimido, por lo que es frecuente utilizar como valor de la fugacidad del líquido comprimido el correspondiente al vapor saturado a la temperatura del líquido comprimido.
 
