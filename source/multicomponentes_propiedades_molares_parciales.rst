@@ -1,4 +1,6 @@
-9.1.- Propiedades molares parciales
+Propiedades molares parciales
+=============================
+
 En la presente discusión se introducirá el concepto de propiedad molar parcial y se verá su aplicación. Este concepto juega un papel importante en el análisis de los sistemas multicomponentes.
 Una propiedad termodinámica extensiva X de un sistema monocomponente y monofásico es una función de dos propiedades intensivas independientes y de la cantidad de sustancia del sistema. Eligiendo como variables independientes la presión y la temperatura y el número de
 Sistemas multicomponentes. Mezcla no reactiva de gases
@@ -134,5 +136,3 @@ ASmezcla — ^ ^ ^i(^t	^t)
 t=l
 En las ecuaciones (9.11),	/i¿ y s,- representan la energía, entalpia y entropía molar del
 componente puro i. Los símbolos ñ¿, y s, representan las respectivas propiedades molares parciales.
-
-
