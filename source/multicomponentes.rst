@@ -11,7 +11,7 @@ Pablo de Assas Marinez de Morentin
    :caption: Contenido:
 
    multicomponentes_introduccion
-   multicomponentes_propiedades_molares
+   multicomponentes_propiedades_molares_parciales
    multicomponentes_potenciales
    multicomponentes_fugacidad
    multicomponentes_disolucion_ideal
