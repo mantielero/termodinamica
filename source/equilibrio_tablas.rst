@@ -82,12 +82,14 @@ Definamos una nueva función :math:`p_r = \frac{p}{p_0}` y sustituyámosla en la
    \ln \frac{p}{p_0} = \ln p_r = \frac{s_T^0}{R} \\
    p_r = e^{\frac{s_T^0}{R}}
 
-Por lo que esta función sólo depende de T y puede ser tabulada utilizando esta magnitud como parámetro de entrada.
+Por lo que esta función sólo depende de *T* y puede ser tabulada utilizando esta magnitud como parámetro de entrada.
+
 Teniendo en cuenta esta función, para un proceso isoentrópico, como el representado por la ecuación (8.147), obtendríamos:
-42
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-eaVR _ pr2 esVR Prl
-(8.151)
+
+.. math::
+
+   \left( \frac{p_2}{p_1} \right)_s = \exp{\frac{s_2^0-s_1^0}{R}} = \frac{ \exp{\frac{s_2^0}{R}} }{ \exp{\frac{s_1^0}{R}} } = \frac{p_{r2}}{p_{r1}}
+
 Lo que nos permite disponer de un procedimiento para determinar la relación de presiones en un proceso isoentrópico, aunque los calores específicos a p y v constantes dependan de la temperatura.
 Análogamente se puede proceder para determinar la relación de volúmenes en un proceso isoentrópico:
 / V2_ \	_ P1T2 _ T2IPr2 _ Vr2
