@@ -264,84 +264,113 @@ Vemos que el valor de la fugacidad del líquido saturado difiere en menos de un 
 Sistemas multicomponentes
 -------------------------
 
-La fugacidad del componente i en una mezcla puede definirse por un procedimiento en todo análogo al seguido para el de un componente puro. La fugacidad /¿ para el componente i se introduce con:
+La fugacidad del componente *i* en una mezcla puede definirse por un procedimiento en todo análogo al seguido para el de un componente puro. La fugacidad :math:`\overline{f_i}` para el componente *i* se introduce con:
 
-/pi = RuT\nfi + C{T)
-(9.37)
+.. math::
 
-que es pareja a la (9.33). El par de ecuaciones que, en este caso de sistema multicomponente, nos permiten evaluar son:
+   \mu_i = R_u T \ln \overline{f_i} + C(T)
 
-RUT-
-ln /«• - / ¡s ~VÍ dP T,n	(9.38.a)
-lim = 1 P—0 Xip	(9.38.b)
+que es pareja a la (9.33). El par de ecuaciones que, en este caso de sistema multicomponente, nos permiten evaluar :math:`\overline{f_i}` son:
 
-E1 símbolo /^representa la fugacidad del componente i en la mezcla y debe distinguirse claramente en lo que sigue de /T)el cual representa Ja fugacidad del componente puro i a la misma presión y temperatura.
+.. math::
 
-/i
-Sistemas multicomponentes. Mezcla no reactiva de gases
-16 y
-í/¡7^
+   R_u T \left. \frac{\partial \ln \overline{f_i}}{\partial p} \right|_{T,n} = \overline{v_i} \\
+   \lim_{p\rightarrow 0} \frac{\overline{f_i}}{x_I p } = 1
 
-Refiriéndonos a la ecuación (9.38.b), hay que destacar que en el límite de gas, ideal, la fugacidad /¿.fio se exige que sea igual a la presión, como en el caso de un componente puro, sino que es igual a la cantidad xív. /Para ver que ésta es la cantidad límite apropiada, consideremos un sistema que consiste en una mezcla de gases que ocupa un volumen V a una presión p y temperatura T. Si toda la mezcla se comporta como un gas ideal, podemos escribir:
 
-P =
-nRT
-~V~
 
-siendo n es el número total de moles de la mezcla. Ya que un gas ideal puede considerarse como compuesto de moléculas que ejercen, unas sobre otras, fuerzas despreciables y cuyo volumen (el de las moléculas) es despreciable frente al volumen total, podemos pensar que cada componente i se comporta como un gas ideal que estuviese él solo a la temperatura T ocupando todo el volumen V. Así, la presión ejercida por cada componente i no sería la de la mezcla p, sino la presión dada por:
+E1 símbolo :math:`\overline{f_i}` representa la fugacidad del componente *i* en la mezcla y debe distinguirse claramente en lo que sigue de :math:`f_i`el cual representa la fugacidad del componente puro *i* a la misma presión y temperatura.
 
-n{RT Vi = —
+Refiriéndonos a la ecuación (9.38.b), hay que destacar que en el límite de gas, ideal, la fugacidad :math:`\overline{f_i}}` no se exige que sea igual a la presión, como en el caso de un componente puro, sino que es igual a la cantidad *x*, *p*. Para ver que ésta es la cantidad límite apropiada, consideremos un sistema que consiste en una mezcla de gases que ocupa un volumen *V* a una presión *p* y temperatura *T*. Si toda la mezcla se comporta como un gas ideal, podemos escribir:
 
-siendo n¿ el número de moles del componente i. Dividiendo estas dos últimas expresiones se obtiene:
-de donde despejando
-Pi = Xip	(9.39)
+.. math::
+
+   p = \frac{nRT}{V}
+
+siendo *n* es el número total de moles de la mezcla. Ya que un gas ideal puede considerarse como compuesto de moléculas que ejercen, unas sobre otras, fuerzas despreciables y cuyo volumen (el de las moléculas) es despreciable frente al volumen total, podemos pensar que cada componente *i* se comporta como un gas ideal que estuviese él solo a la temperatura *T* ocupando todo el volumen *V*. Así, la presión ejercida por cada componente *i* no sería la de la mezcla *p*, sino la presión :math:`p_i` dada por:
+
+.. math::
+
+   p_i = \frac{n_iRT}{V}
+
+siendo :math:`n_i` el número de moles del componente *i*. Dividiendo estas dos últimas expresiones se obtiene:
+
+.. math::
+
+   \frac{p_i}{p} = \frac{n_i}{n} = x_i
+
+de donde despejando :math:`p_i`
+
+.. math::
+
+   p_i = x_i p
+
 Sumando en ambos miembros de (9.39) sobre todos los componentes obtenemos:
 
-^p¡ =	= pj>
-i=i
-¿=i
-i=i
-w o, como la suma de las fracciones molares es igual a la unidad,
-4
-(9.40)
+.. math::
 
-Dicho en palabras, la ecuación (9.40) establece que la suma de las presiones es igual a la presión de la mezcla. De este hecho surge la denominación de presión parcial para p¿/ Con esto vemos que la ecuación (9.38.b) exige que la fugacidad del componente i se aproxíme a la presión parcial del componente i cuando la presión p tiende a cero.
+   \sum_{i=1}^k p_i = \sum_{i=1}^k x_i p = p \sum_{i=1}^k x:i
 
-Vamos a considerar a continuación, cómo puede expresarse la fugacidad de un componente i en una mezcla en función de cantidades evaluables. Para un componente puro i, la ecuación (9.34) da:
+o, como la suma de las fracciones molares es igual a la unidad,
 
-Sistemas mult¡componentes. Mezcla no reactiva de gases
-17
-RT
-d(ln /,)
-dp	= Vi T
-(9.41)
+.. math::
 
-donde V{ es el volumen específico molar de la sustancia pura i. Restando (9.41) de (9.38.a),
+   p = \sum_{i=1}^k p_i
 
-(9.42)
-din (ft/fi)
-dp	= Vi - Vi T,n
+Dicho en palabras, la ecuación (9.40) establece que la suma de las presiones :math:`p_i` es igual a la presión de la mezcla. De este hecho surge la denominación de presión parcial para :math:`p_i`. Con esto vemos que la ecuación (9.38.b) exige que la fugacidad del componente *i* se aproxíme a la presión parcial del componente *i* cuando la presión *p* tiende a cero.
 
-Integrando desde p* (que es una presión lo suficientemente baja como para considerar el comportamiento de gas ideal) a p, manteniendo constante la temperatura y la composición de
-la mezcla,
+Vamos a considerar a continuación, cómo puede expresarse la fugacidad de un componente *i* en una mezcla en función de cantidades evaluables. Para un componente puro *i*, la ecuación (9.34) da:
 
-RT ln	(/)]	v rP = / (Vi- Vi)dp j
-	tendrá:		p* Jp’ 1
+.. math::
 
-En el límite p* —► 0, se 1 i
+   RT\left. \frac{\partial (\ln f_i)}{\partial p} \right|_T = v_i
+   
+donde :math:`v_i` es el volumen específico molar de la sustancia pura *i*. Restando (9.41) de (9.38.a),
 
-jU/RT	ln (i)
-Como , cuando limp-_^o /« -		p*	y fi-+ xiP*7~'\
-J
+.. math::
 
-Ir
+   RT\left. \frac{\partial \ln \left( \frac{\overline{f_i}}{f_i}\right)}{\partial p} \right|_{T,n} = \overline{v_i}-v_i
+ 
+Integrando desde :math:`p^*` (que es una presión lo suficientemente baja como para considerar el comportamiento de gas ideal) a *p*, manteniendo constante la temperatura y la composición de
+la mezcla
+
+.. math::
+
+   RT \left. \ln \left( \frac{\overline{f_i}}{f_i}\right) \right]_{p^*}^p   = \int_{p^*}^p (\overline{v_i}- v_i) dp
+   
+
+
+En el límite :math:`p^* \rightarrow 0`, se tendrá
+
+.. math::
+
+   RT \left[  \ln\left( \frac{\overline{f_i}}{f_i}\right) - \lim_{p^* \rightarrow 0} \ln \left( \frac{\overline{f_i}}{f_i} \right) \right] = \int_0^p (\overline{v_i} - v_i) dp 
+
+Como cuando 
+
+.. math::
+
+   \lim_{p^* \rightarrow 0} \Rightarrow f_i\rightarrow p^* \text{   y  } \overline{f_i} \rightarrow x_i p^*
+   
+   
+luego:
+
+.. math::
+
+   \lim_{p^* \rightarrow 0} \ln \left(  \frac{\overline{f_i}}{f_i}  \right)  \rightarrow \ln \left( \frac{x_i p^*}{p^*} \right) = \ln x_i
+
+
+
 Así pues, podemos escribir:
 
-RT ln ^ j'j - ln x,J = J (v¡ - v{)dp
-.
+.. math::
 
+   RT \left[  \ln\left( \frac{\overline{f_i}}{f_i}\right) - \ln x_i  \right] = \int_0^p (\overline{v_i} - v_i) dp 
 
-(9.43)
+ó
 
-en donde /¿ es la fugacidad del componente i en la mezcla, de composición, presión y temperatura dadas, y /¿ es la fugacidad del componente puro a la misma presión y temperatura. La ecuación
-(9.43)	expresa la relación entre /¿ y /, en función de la diferencia entre y que es una cantidad mensurable.
+.. math::
+
+   RT \ln\left( \frac{\overline{f_i}}{x_i f_i}\right) = \int_0^p (\overline{v_i} - v_i) dp 
+
+en donde :math:`\overline{f_i}` es la fugacidad del componente *i* en la mezcla, de composición, presión y temperatura dadas, y :math:`f_i` es la fugacidad del componente puro a la misma presión y temperatura. La ecuación (9.43) expresa la relación entre :math:`\overline{f_i}` y :math:`f_i` en función de la diferencia entre :math:`\overline{v_i}` y :math:`v_i` que es una cantidad mensurable.
