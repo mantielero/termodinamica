@@ -10,133 +10,137 @@ Sistemas monocomponentes
 
 Vamos a comenzar por el caso más sencillo de un sistema que consta de un solo componente. En este caso, la ecuación (9.18.c) se reduce a:
 
-"X.......
+.. math::
+
+   G = \mu n
 
 o lo que es lo mismo:
 
-(28)
-= h-Ts
+.. math::
+
+   \mu = \frac{G}{n} = g = h- Ts
+   
 
 Esto es, para un componente puro el potencial químico es igual a la función de Gibbs por mol. Con esto, la ecuación
 
-/V
+.. math::
+
+   \left. \frac{\partial G}{\partial p} \right|_T = V
 
 escrita en base molar queda en la forma:
 
+.. math::
 
-Para el caso particular de un gas ideal, pv = RUT y la ecuacción 
-(9.29) toma la forma:
-dp^ = RuTd(\n p)
-(9.30)
+   \left. \frac{\partial \mu}{\partial p} \right|_T = v
 
-donde con (*) se indica gas ideal. Integrando a temperatura constante la ùltima ecuación se
-obtiene:
+Para el caso particular de un gas ideal, :math:`pv = R_u T d(\ln p)` y la ecuacción (9.29) toma la forma:
 
-\
-V;
-jp* = RuT\np + C(T)	(9.31)
+.. math::
 
-donde C(T) es una función de integración. Como la presión puede tomar valores comprendidos entre cero e infinito, el término ln p de esta expresión y, por lo tanto el potencial químico, tiene f un intervalo de valores entre —oo y +oo. La ecuación (9.31) muestra también que el potencial químico puede determinarse a falta de un parámetro dependiente de la temperatura.
+   d\mu_T^* = R_u T d(\ln p)
+   
+donde con (*) se indica gas ideal. Integrando a temperatura constante la ùltima ecuación se obtiene:
+
+.. math::
+
+   \mu^* = R_u T \ln p + C(T)
+
+donde C(T) es una función de integración. Como la presión puede tomar valores comprendidos entre cero e infinito, el término ln p de esta expresión y, por lo tanto el potencial químico, tiene f un intervalo de valores entre :math:`-\inf` y :math:`\inf`. La ecuación (9.31) muestra también que el potencial químico puede determinarse a falta de un parámetro dependiente de la temperatura.
+
 Para un gas real (en general para una sustancia compresible simple), y a fin de mantener el formalismo matemático utilizado para los gases ideales, definimos p mediante la expresión:
-dpj = RUT -j-= RuTd(ln /)
-La integracióñ'dé esta ecuación proporciona:
-én la qpé / es la fugacidad
-(9.32)
-p - RUT ln / + C(T) j
-(9.33)
 
-j|Comparando las ecuaciones (9.33) y (9.31), se ve que la fugacidad juega, en el caso de gases
-Ísales, el mismo papel que la presión en el caso de un gas ideal. La fugacidad tiene la mismas imensiones que la presión.
+.. math::
+
+   d\mu_T &= R_u T \frac{df}{f} \\
+   &= R_u T d(\ln f)
+   
+
+en la que *f* es la fugacidad.
+
+La integracióñ'dé esta ecuación proporciona:
+
+.. math::
+
+   \mu = R_u T \ln f + C(T)
+
+Comparando las ecuaciones (9.33) y (9.31), se ve que la fugacidad juega, en el caso de gases reales, el mismo papel que la presión en el caso de un gas ideal. La fugacidad tiene la mismas imensiones que la presión.
+
 
 Sustituyendo (9.32) en (9.29) se tiene:
-RUT
-din f
-dp
 
-(9.34)
+.. math::
 
-La integración de (9.34), manteniendo constante la temperatura, nos determina la fugacidad con sólo una constante indeterminada. Sin embargo, como el comportamiento de gas ideal se da cuando la presión tiende a cero, el término constante puede determinarse exigiendo que la fugacidad de un componente puro sea igual a la presión en el h'mite p -> 0. Esto es:
+   R_u T \left. \frac{\partial \ln f}{\partial p} \right|_T = v
+   
+La integración de (9.34), manteniendo constante la temperatura, nos determina la fugacidad con sólo una constante indeterminada. Sin embargo, como el comportamiento de gas ideal se da cuando la presión tiende a cero, el término constante puede determinarse exigiendo que la fugacidad de un componente puro sea igual a la presión en el límite :math:`p\rightarrow 0`. Esto es:
 
-lim -p-*o p
-(9.35)
+.. math::
+
+   \lim_{p\rightarrow 0}\frac{f}{p} = 1
 
 Las ecuaciones (9.34) y (9.35) determinan, pues, completamente la función fugacidad.
 
-12
-Sistemas multicomponentes. Mezcla no reactiva de gases
 
 Evaluación de la fugacidad para gases a partir de datos p, v, T
 ---------------------------------------------------------------
 
-Consideraremos ahora cómo puede evaluarse la fugacidad partir de la correspondiente ecuación térmica de estado. Si a la ecuación (9.34) le restamos RUT
-din p
-dp
-RUT
+Consideraremos ahora cómo puede evaluarse la fugacidad partir de la correspondiente ecuación térmica de estado. Si a la ecuación (9.34) le restamos :math::`R_u T \left. \frac{\partial \ln p}{\partial p} \right|_T = \frac{R_u T}{p}` se obtiene:
 
-se obtiene:
+.. math::
 
-din—
-RUT-
-dp
-= v —
-RUT
+   R_u T \left. \frac{\partial \ln \frac{f}{p}}{\partial p} \right|_T = v-\frac{R_u T}{p}
 
-Al cocienteI—/se le conoce como coeficiente de fugacidad y se le denota con el símbolo v
-\P¡	------------------------
-(o <f>). de modo que la ecuación anterior puede escribirse en la forma-
-RuT
-din v
-dp
-= v —
-RUT
-T	P —J '
+Al cociente :math:`\frac{f}{p}` le conoce como coeficiente de fugacidad y se le denota con el símbolo :math:`\nu` (o :math:`\phi`), de modo que la ecuación anterior puede escribirse en la forma
 
-Integrando desde p —>• 0 hasta la presión considerada a T constante (para p —* 0 v = 1), se obtiene:
 
-‘"r‘ Lfe - ;)dp 6)
+.. math::
 
-Esta ecuación nos permite obtener v y por lo tanto / una vez conocida la relación p — y (p(v,T). ¡ Si lo que queremos es utilizar el modelo de estados correspondientes con : = R^T' |
-t r '/íiVrl /li /»«íi'/y	r\/M* nr\ 1 ^ non ^ ei /vn nntnrmr	--------
-multiplicando y dividiendo por p la ecuación anterior
+   R_u T \left. \frac{\partial \ln \nu}{\partial p} \right|_T = v-\frac{R_u T}{p}
 
-> ;n
-„ ln v = í (z — l)d(ln p)
-Jo
-/V
-P
+Integrando desde :math:`p\rightarrow 0` hasta la presión considerada a *T* constante (para :math:`p\rightarrow 0 \hspace{1cm} \nu = 1`), se obtiene:
 
-Si esta ecuación la expresamos en términos de la presión reducida, Pr = —, nos queda:
+.. math::
 
-Pe
-rPR
-In V = / (z - l)d(ln pR) Jo
+   \ln \nu = \int_{p\rightarrow 0}^p \left( \frac{v}{R_u T} - \frac{1}{p}\right) dp
+   
+   
 
-(9.36)
+Esta ecuación nos permite obtener :math:`\nu` y por lo tanto *f* una vez conocida la relación :math:`p=p(v,T)`. Si lo que queremos es utilizar el modelo de estados correspondientes con: :math:`z = \frac{pv}{R_u T}`, multiplicando y dividiendo por *p* la ecuación anterior
 
-Dado que el factor de compresibilidad z depende de la temperatura reducida Tr y de la
-presión reducida pR, se tiene que el segundo miembro de (9.36) va a depender sólo de esas
-jropiedades. Así pues, ln v o ln — es sólo función de esas dos propiedades reducidas. Haciendo
-P
-uso de la ecuación de estado generalizada que da z en función de Tr y pR, ln— puede evaluarse
-P
-fácilmente con un ordenador. Disponiendo del diagrama de u generalizado puede utilizarse para el cálculo de esta magnitud empleando como variables de entrada pR y Tr.
+.. math::
 
-Para ilustrar el uso de esa representación gráfica, consideremos dos estados del CCI2F2 a la misma temperatura de 420 K. En el estado inicial la presión es de 2 MPa y en el estado v final de 4 MPa. El cambio en el potencial químico entre estos dos estados puede determinarse haciendo uso de la ecuación (9.33):
-Sistemas multicomponentes. Mezcla no reactiva de gases
-13
-M2 - Pl = RuTlny-Ji
-= RuTln
-h P2 Pi P2 Pi h.
-Haciendo uso de los valores críticos de la temperatura y presión del CCI2F2 (Tc = 385 K, pc = 41,2 bar):
-estado 1 estado 2
-/
-Pri — 0,5 PR2 = 0,99
-Tri = 1,09 Tr\ = 1,09
-f/p = 0.89
-f !p — o, 77
-Los valores de — se han obtenido del gráfico generalizado de fugacidad. Así pues P2 ~
-P
-- 1915 kJ-kmol 1.
+   \ln \nu = \int_0^p \left( \frac{pv}{R_u T} - 1\right) d(\ln p) = \int_0^p \left( z - 1\right) d(\ln p)
+
+
+Si esta ecuación la expresamos en términos de la presión reducida, :math:`p_R= \frac{p}{p_c}` nos queda:
+
+.. math::
+
+   \ln \nu = \int_0^{p_R} (z-1) d(\ln p_R)
+
+Dado que el factor de compresibilidad *z* depende de la temperatura reducida :math:`T_R` y de la presión reducida :math:`p_R`, se tiene que el segundo miembro de (9.36) va a depender sólo de esas propiedades. Así pues, :math:`\ln \nu` o :math:`\ln \frac{f}{p}` es sólo función de esas dos propiedades reducidas. Haciendo uso de la ecuación de estado generalizada que da *z* en función de :math:`T_R` y :math:`p_R`, :math:`\ln \frac{f}{p}` puede evaluarse fácilmente con un ordenador. Disponiendo del diagrama de :math:`\nu` generalizado puede utilizarse para el cálculo de esta magnitud empleando como variables de entrada :math:`p_R` y :math:`T_R`.
+
+Ejemplo
+^^^^^^^
+
+Para ilustrar el uso de esa representación gráfica, consideremos dos estados del :math:`CCl_2F_2` a la misma temperatura de 420K. En el estado inicial la presión es de 2MPa y en el estado final de 4 MPa. El cambio en el potencial químico entre estos dos estados puede determinarse haciendo uso de la ecuación (9.33):
+
+.. math::
+
+   \mu_2-\mu_1 &= R_u T \ln \frac{f_2}{f_1} \\
+   &= R_u T \ln \left[ \frac{f_2}{p_2} \cdot \frac{p_2}{p_1} \cdot \frac{p_1}{f_1} \right]
+
+Haciendo uso de los valores críticos de la temperatura y presión del :math:`CCl_22F_2` (:math:`T_c=385K`, :math:`p_c=41.2bar`):
+
+.. math::
+
+   \begin{array}
+   \text{estado 1} & p_{R1} = 0.5 &  T_{R1} = 1.09 & \frac{f}{p}=0.89 \\
+   \text{estado 2} & p_{R2} = 0.99 & T_{R1} = 1.09 & \frac{f}{p} = 0.77
+   \end{array}
+
+Los valores de :math:`\frac{f}{p}` se han obtenido del gráfico generalizado de fugacidad. Así pues :math:`\mu_2-\mu_1 = 1915\frac{kJ}{kmol}`.
+
 Para un componente puro el potencial químico es igual a la función de Gibbs por mol, p = g = h — Ts. Como la temperatura es la misma en los estados 1 y 2, el cambio en el potencial j químico puede expresarse como P2 — pi = /12 — h\ — T(s2 — -Si). Haciendo uso de los datos tabulares para el CCI2F2, obtenemos el valor de 1927,6 kJ-kmol-1 que es un valor muy próximo al calculado con el diagrama generalizado del coeficiente de fugacidad.
 
 Evaluación de la fugacidad cuando el sistema se presenta como líquido o sólido
