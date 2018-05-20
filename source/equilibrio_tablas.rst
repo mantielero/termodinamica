@@ -105,7 +105,10 @@ Diagramas termodinámicos
 ------------------------
 
 En lugar de los diagramas tridimensionales p-v-T donde se representa todo tipo de curvas para una sustancia determinada, en la práctica suelen utilizarse diagramas planos cuyas coordenadas rectangulares son propiedades de uso frecuente en cálculos técnicos. Presentan la ventaja, frente a las tablas, de permitir en muchos casos la representación de los procesos en una forma sencilla, aunque si se pretende ser riguroso, sólo los procesos cuasiestáticos pueden ser representados en los diagramas termodinámicos. Esto requiere el trazado de isotermas, isóbaras, isocoras...en dichos diagramas. Las relaciones generales de la Termodinámica permiten efectuar estas determinaciones de forma general y la aplicación del modelo de cada sustancia lleva a conclusiones particulares en los distintos casos. Al igual que en las tablas, el origen es arbitrario y debe tenerse en cuenta si se desea mezclar datos de fuentes distintas. Por su interés en Termodinámica Técnica, se estudian aquí los diagramas temperatura-entropía, entalpia-entropía y presión-entalpia.
-8.9.2.1	Diagrama Temperatura-entropía
+
+Diagrama Temperatura-entropía
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Una de las razones por las que el diagrama T-s resulta útil es que, en un proceso reversible, el área comprendida entre la línea que une los estados inicial y final y el eje de abscisas representa el calor intercambiado durante el proceso. La figura 8.9 muestra un ejemplo de un diagrama T-s
 
 / /' -		^ T~s
