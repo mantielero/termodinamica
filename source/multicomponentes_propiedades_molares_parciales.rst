@@ -66,107 +66,91 @@ En primer lugar, si la propiedad *X* puede medirse, :math:`\overline{x_i}`, pued
 
 Si se conoce una expresión para *X* en función de sus variables independientes, :math:`\overline{x_i}` puede evaluarse por diferenciación. La derivación puede ser analítica si la función viene expresada analíticamente o numérica si la función está dada en forma tabular.
 
-Un procedimiento gráfico de fácil aplicación para evaluar las propiedades molares parciales, cuando se dispone de datos experimentales, es el método-dé las intersecciones. Este método puede aplicarse para la evaluación de cualquier propieddad molar parcial. A título de ejemplo se puede considerar la determinación del volumen molar parcial en el caso de una disolución formada por dos componentes A y B.
+Un procedimiento gráfico de fácil aplicación para evaluar las propiedades molares parciales, cuando se dispone de datos experimentales, es el método de las intersecciones. Este método puede aplicarse para la evaluación de cualquier propieddad molar parcial. A título de ejemplo se puede considerar la determinación del volumen molar parcial en el caso de una disolución formada por dos componentes *A* y *B*.
 
-La curva experimental que muestra el volumen molar de la disolución en función de la fracción molar del componente B, para una temperatura y presión determinadas, puede ser como la representada en la figura 9.1. En esta curva se representa en ordenadas el volumen molar de la mezcla, v = V/n, y en abscisas la fracción molar del componente B. Como puede verse en la gráfica, el punto de intersección de la curva con el eje en A, representa el volumen molar correspondiente al componente puro A en las condiciones (p, T) de la mezcla, ya que en ese punto xB
-Figura 9.1
-es igual a cero. Lo mismo se puede decir con la intersección con el eje B, respecto a ese componente.
+La curva experimental que muestra el volumen molar de la disolución en función de la fracción molar del componente *B*, para una temperatura y presión determinadas, puede ser como la representada en la figura 9.1. En esta curva se representa en ordenadas el volumen molar de la mezcla, :math:`v = \frac{V}{n}`, y en abscisas la fracción molar del componente *B*. Como puede verse en la gráfica, el punto de intersección de la curva con el eje en *A*, representa el volumen molar correspondiente al componente puro *A* en las condiciones (*p*, *T*) de la mezcla, ya que en ese punto :math:`x_B` es igual a cero. Lo mismo se puede decir con la intersección con el eje *B*, respecto a ese componente.
 
 De acuerdo con (9.9), el volumen de la mezcvla vendrá dado por:
-V = nAvA +nBvB
-en la que vA y vB son los volúmenes molares parciales de A y B respectivamente.
+
+.. math::
+
+   V = n_A \overline{v_A}+n_B \overline{v_B}
+
+en la que :math:`\overline{v_A}` y :math:`\overline{v_B}` son los volúmenes molares parciales de *A* y *B* respectivamente.
 
 También se puede dar el volumen de la mezcla en función del volumen molar medio de la misma, representado en la figura 9.1, mediante la expresión:
 
-V = v(nA +nB)
+.. math::
 
-Teniendo en cuenta esta última expresión y la definición de volumen molar parcial, se puede obtener como valor del volumen molar parcial para el componente A, por ejemplo, la expresión:
-OV
-Va dnt
-= v + (nA +nB)
-dv
-dnt
-T,p,n,
-" T,PlnB
+   V = v(n_A +n_B)
 
+Teniendo en cuenta esta última expresión y la definición de volumen molar parcial, se puede obtener como valor del volumen molar parcial para el componente *A*, por ejemplo, la expresión:
+
+.. math::
+
+   \overline{v_A} = \left. \frac{\partial V}{\partial n_A} \right)_{T,p,n_B} = v + (n_A+n_B) \left. \frac{\partial v}{\partial n_A} \right)_{T,p,n_B}
+   
 A fin de poder utilizar la gráfica que se ha mencionado, se tendrá que referir la expresión anterior a la fracción molar del componente B, para lo que se realizan las transformaciones siguientes:
 
-dV
-Va dnt
-= v+(nA + nB)
-dv
-T,p,n
-dxt
-dx.
-T,p,n.
-dnÁ
-T,p,n.
-Sistemas multicomponentes. Mezcla no reactiva de gases
-5
+.. math::
 
-Téngase en cuenta que aunque nB se mantiene constante, xB también depende de nA. 
+   \overline{v_A} = \left. \frac{\partial V}{\partial n_A} \right)_{T,p,n_B} = v + (n_A+n_B) \left. \frac{\partial v}{\partial x_B} \right|_{T,p,n_B} \left. \frac{\partial x_B}{\partial n_A} \right|_{T,p,n_B} 
 
-Para calcular dxB/dnA |x,p,nB, se parte de la definición de xB:
+Téngase en cuenta que aunque :math:`n_B` se mantiene constante, :math:`x_B` también depende de :math:`n_A`. 
 
-nc
-n, + nF
+Para calcular :math:`\left. \frac{\partial x_B}{\partial n_A} \right|_{T,p,n_B}`, se parte de la definición de :math:`x_B`:
+
+.. math::
+   
+   x_B = \frac{n_B}{n_A+n_B}
+
 
 por lo que:
 
-dxB _	nB
-dnA (nA + nB)2
+.. math::
 
-Sustituyendo en vA, se obtiene:
+   \frac{\partial x_B}{\partial n_A} = - \frac{n_B}{(n_A+n_B)^2}
 
-dV
-dn.
-= V — X-í
-dv
-T,p,nE
+Sustituyendo en :math:`\overline{v_A}`, se obtiene:
 
-..*\
-T,p,nB J
+.. math::
 
-Teniendo en cuenta la figura 9.1 y esta expresión, puede verse con facilidad que vA vendrá dada por la intersección de la tangente en el punto considerado (xB,v) con el eje de ordenadas en A. Para el otro componente se puede obtener una expresión análoga.
+   \overline{v_A} = \left. \frac{\partial V}{\partial n_A} \right)_{T,p,n_B} = v- x_B \left. \frac{\partial v}{\partial x_B} \right)_{T,p,n_B}
 
-Se debe tener en cuenta, como ya se ha indicado y en la gráfica se ve con claridad, que para valores determinados de temperatura y presión, vA y vB dependen de xB y no son iguales a los correspondientes valores molares de A o B puros, representados en la figura por vA y vB respectivamente y que sólo son función de la temperatura y presión.
+Teniendo en cuenta la figura 9.1 y esta expresión, puede verse con facilidad que :math:`\overline{v_A}` vendrá dada por la intersección de la tangente en el punto considerado (:math:`x_B`,*v*) con el eje de ordenadas en *A*. Para el otro componente se puede obtener una expresión análoga.
+
+Se debe tener en cuenta, como ya se ha indicado y en la gráfica se ve con claridad, que para valores determinados de temperatura y presión, :math:`\overline{v_A}` y :math:`\overline{v_B}` dependen de :math:`x_B` y no son iguales a los correspondientes valores molares de *A* o *B* puros, representados en la figura por :math:`v_A` y :math:`v_B` respectivamente y que sólo son función de la temperatura y presión.
 
 Vamos a concluir el presente análisis evaluando el cambio en el volumen de una mezcla de componentes puros que están a la misma presión y temperatura, resultado para el que se da una aplicación más adelante. El volumen total de los componentes puros antes de la mezcla es:
 
-I
-k
-Vcom.puro — ^ ' TliV{
-<=1
+.. math::
 
-donde v¡ es el volumen específico molar del componente puro i. El volumen de la mezcla es:
+   V_{\text{com.puro}} = \sum_{i=1}^k n_i v_i
 
-k
-Vmezcla = ^ ^ i=l
+donde :math:`v_i` es el volumen específico molar del componente puro *i*. El volumen de la mezcla es:
 
-donde es el volumen molar parcial del componente i en la mezcla. El cambio de volumen debido a la mezcla es:
+.. math::
+
+   V_{\text{mezcla}} = \sum_{i=1}^k n_i \overline{v_i}
+
+donde :math:`\overline{v_i}` es el volumen molar parcial del componente *i* en la mezcla. El cambio de volumen debido a la mezcla es:
+
+.. math::
+
+   \Delta V_{\text{mez}} = V_{\text{mez}}- V_{\text{comp.puro}} = \sum_{i=1}^k n_i \overline{v_i} - \sum_{i=1}^k n_i v_i
 
 o
-A14
-V - V
-* m.p.z Y c
-comp.puro
-k	k
-- Y^TliVi Í=l	i=l
-k
-AVme, = £><(* - *0	(9.10)
--L	¿=i
+
+.. math::
+
+   \Delta V_{\text{mez}} = \sum_{i=1}^k n_i (\overline{v_i}-v_i)
 
 Resultados análogos pueden obtenerse para otras propiedades extensivas, por ejemplo:
 
-6
-Sistemas multicomponentes. Mezcla no reactiva de gases
-k
-mezcla. — ^ ' Tljjüi ~ U¿) i=l
-k
-&Hmezcla = ^	~ h{)	(9.11)
-1=1 k
-ASmezcla — ^ ^ ^i(^t	^t)
-t=l
+.. math::
 
-En las ecuaciones (9.11),	/i¿ y s,- representan la energía, entalpia y entropía molar del
-componente puro i. Los símbolos ñ¿, y s, representan las respectivas propiedades molares parciales.
+   \Delta U_{\text{mezcla}} = \sum_{i=1}^k n_i (\overline{u_i}-u_i) \\
+   \Delta H_{\text{mezcla}} = \sum_{i=1}^k n_i (\overline{h_i}-h_i) \\   
+   \Delta S_{\text{mezcla}} = \sum_{i=1}^k n_i (\overline{s_i}-s_i)
+
+En las ecuaciones (9.11), :math:`u_i`, :math:`h_i` y :math:`s_i` representan la energía, entalpia y entropía molar del componente puro *i*. Los símbolos :math:`\overline{u_i}`, :math:`\overline{h_i}` y :math:`\overline{s_i}`, representan las respectivas propiedades molares parciales.
