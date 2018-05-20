@@ -90,12 +90,20 @@ Teniendo en cuenta esta función, para un proceso isoentrópico, como el represe
 
    \left( \frac{p_2}{p_1} \right)_s = \exp{\frac{s_2^0-s_1^0}{R}} = \frac{ \exp{\frac{s_2^0}{R}} }{ \exp{\frac{s_1^0}{R}} } = \frac{p_{r2}}{p_{r1}}
 
-Lo que nos permite disponer de un procedimiento para determinar la relación de presiones en un proceso isoentrópico, aunque los calores específicos a p y v constantes dependan de la temperatura.
+Lo que nos permite disponer de un procedimiento para determinar la relación de presiones en un proceso isoentrópico, aunque los calores específicos a *p* y *v* constantes dependan de la temperatura.
+
 Análogamente se puede proceder para determinar la relación de volúmenes en un proceso isoentrópico:
-/ V2_ \	_ P1T2 _ T2IPr2 _ Vr2
-\Vl)3 P2T1	Ti/Prl	Vrl
-Esta ecuación juega, para gases semiperfectos, un papel análogo al desempeñado por = constante en gases perfectos.
-8.9.2	Diagramas termodinámicos
+
+.. math::
+
+   \left( \frac{v_2}{v_1} \right)_s = \frac{p_1T_2}{p_2 T_1} = \frac{\frac{T_2}{p_{r2}}}{\frac{T_1}{p_{r1}}} = \frac{v_{r2}}{v_{r1}}
+
+
+Esta ecuación juega, para gases semiperfectos, un papel análogo al desempeñado por :math:`Tv^{(\gamma-1)} = \text{ constante}` en gases perfectos.
+
+Diagramas termodinámicos
+------------------------
+
 En lugar de los diagramas tridimensionales p-v-T donde se representa todo tipo de curvas para una sustancia determinada, en la práctica suelen utilizarse diagramas planos cuyas coordenadas rectangulares son propiedades de uso frecuente en cálculos técnicos. Presentan la ventaja, frente a las tablas, de permitir en muchos casos la representación de los procesos en una forma sencilla, aunque si se pretende ser riguroso, sólo los procesos cuasiestáticos pueden ser representados en los diagramas termodinámicos. Esto requiere el trazado de isotermas, isóbaras, isocoras...en dichos diagramas. Las relaciones generales de la Termodinámica permiten efectuar estas determinaciones de forma general y la aplicación del modelo de cada sustancia lleva a conclusiones particulares en los distintos casos. Al igual que en las tablas, el origen es arbitrario y debe tenerse en cuenta si se desea mezclar datos de fuentes distintas. Por su interés en Termodinámica Técnica, se estudian aquí los diagramas temperatura-entropía, entalpia-entropía y presión-entalpia.
 8.9.2.1	Diagrama Temperatura-entropía
 Una de las razones por las que el diagrama T-s resulta útil es que, en un proceso reversible, el área comprendida entre la línea que une los estados inicial y final y el eje de abscisas representa el calor intercambiado durante el proceso. La figura 8.9 muestra un ejemplo de un diagrama T-s
