@@ -109,48 +109,43 @@ En lugar de los diagramas tridimensionales p-v-T donde se representa todo tipo d
 Diagrama Temperatura-entropía
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Una de las razones por las que el diagrama T-s resulta útil es que, en un proceso reversible, el área comprendida entre la línea que une los estados inicial y final y el eje de abscisas representa el calor intercambiado durante el proceso. La figura 8.9 muestra un ejemplo de un diagrama T-s
+Una de las razones por las que el diagrama T-s resulta útil es que, en un proceso reversible, el área comprendida entre la línea que une los estados inicial y final y el eje de abscisas representa el calor intercambiado durante el proceso. La figura 8.9 muestra un ejemplo de un diagrama T-s de una sustancia pura donde se representan las líneas a presión, volumen y entalpia constantes.
 
-/ /' -		^ T~s
-m *-■
-y
+.. figure:: ./img/diag_Ts.png
 
+   Diagrama T-s de una sustancia pura con algunas líneas de interés.
 
-
-
-dlbM
-ds/t/ w ■
-d't-'b-lO Cir- £,	t.
-¿I) -T~
-4T> Cp
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-1 CfyCr jr X ►
-43 ^
-// ss> ^ P’dr)
-‘ *r'ÍSS,fy dSJp
-de una sustancia pura donde se representan las líneas a presión, volumen y entalpia constantes.
-Figura 8.9 Diagrama T-s de una sustancia pura con algunas líneas de interés.
 a)	Las isóbaras son horizontales en la zona bifásica puesto que los cambios de fase de primer orden se efectúan a temperatura y presión constantes.
+
 Tanto en la región de líquido como en las de vapor y gas, las isóbaras se hallan aplicando:
-ds = cp	(p constante)
-(8.153)
+
+.. math::
+
+   ds = c_p \frac{dT}{T} \hspace{2cm} \text{p constante}
+
 y su representación es una línea curva. En las zonas donde su comportamiento puede aproximarse al de gas perfecto, se tiene la curva exponencial:
-T = T0exp{(s - s0)/cp}	(8.154)
-La pendiente de las isóbaras en el diagrama Ts viene dada por:
-(dT\ _ T \ds ) p Cp
-(8.155)
+
+.. math::
+
+   T = T_0 \exp{\frac{s-s_0}{c_p}}
+
+La pendiente de las isóbaras en el diagrama *Ts* viene dada por:
+
+.. math::
+
+   \left( \frac{\partial T}{\partial s} \right)_p = \frac{T}{c_p}
+
 en las regiones de líquido y vapor y gas.
+
 La separación entre dos isóbaras para una misma temperatura viene dada por:
-ds =
-/ dv
-\dT
-dp = -a v dp (T constante)
-(8.156)
-de modo que en la región líquida en que a» < 1, las isóbaras se hallan muy próximas entre sí y se confunden prácticamente con la curva de líquido saturado. En la zona de gas, av posee un valor considerable y las isóbaras se distinguen unas de otras con facilidad.
-b)	Las curvas a volumen constante o isocoras poseen un trazado bastante similar al de las isóbaras
-44
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-en las regiones de líquido y vapor y gas. En estos casos, dichas curvas se hallan aplicando:
+
+.. math::
+
+   ds = - \left( \frac{\partial v}{\partial T}\right)_p dp 0 -\alpha v dp  \hspace{2cm} \text{T constante}
+
+de modo que en la región líquida en que :math:`\alpha v \ll 1`, las isóbaras se hallan muy próximas entre sí y se confunden prácticamente con la curva de líquido saturado. En la zona de gas, av posee un valor considerable y las isóbaras se distinguen unas de otras con facilidad.
+
+b)	Las curvas a volumen constante o isocoras poseen un trazado bastante similar al de las isóbaras en las regiones de líquido y vapor y gas. En estos casos, dichas curvas se hallan aplicando:
 ds =
 (v constante)
 (8.157)
