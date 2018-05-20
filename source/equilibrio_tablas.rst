@@ -5,35 +5,31 @@ Tablas y diagramas termodinámicos
 Tablas termodinámicas
 ---------------------
 
-De las tablas de propiedades termodinámicas que con mayor frecuencia se encuentran en los textos de Termodinámica Técnica-, cabe mencionar las de vapor saturado y vapor sobrecalentado de sustancias puras como el agua (fluido de trabajo en plantas de potencia y cambiadores
-de calor) o alguno de los hidrocarburos halogenados más conocidos^el diclorodiflúormetano o
-i----oP
-R-12 (muy frecuente en dispositivos de refrigeración).
-Y
--C
-i
-r
-(yI
-¿ 7
-¡ .. a-—-j
+De las tablas de propiedades termodinámicas que con mayor frecuencia se encuentran en los textos de Termodinámica Técnica, cabe mencionar las de vapor saturado y vapor sobrecalentado de sustancias puras como el agua (fluido de trabajo en plantas de potencia y cambiadores
+de calor) o alguno de los hidrocarburos halogenados más conocidos, el diclorodiflúormetano o R-12 (muy frecuente en dispositivos de refrigeración).
+
 Las tablas de vapor saturado suelen proporcionar como dato de entrada la temperatura de saturación acompañada de la presión de saturación correspondiente, o a la inversa. Se dan en estas tablas valores del volumen específico, energía interna, entalpia y entropía, tanto para el líquido como para el vapor saturados. El cálculo de las propiedades de cualquier mezcla bifásica se efectúa haciendo uso de las expresiones (8.68) a (8.72), si se conoce el título del vapor x.
-40 Equilibrio de los sistemas termodinámicos. Transiciones de fase
+
 En ocasiones, también se encuentran tabulados otros estados de saturación diferentes al de líquido-vapor, pero el manejo de los datos correspondientes resulta análogo al caso mencionado.
-En las tablas de vapor sobrecalentado suelen encontrarse tabuladas las propiedades en función de T y p, la información que proporcionan es bastante inmediata y su manejo no requiere consideración previa.
+
+En las tablas de vapor sobrecalentado suelen encontrarse tabuladas las propiedades en función de *T* y *p*, la información que proporcionan es bastante inmediata y su manejo no requiere consideración previa.
+
 También resulta frecuente encontrar tablas de Líquido comprimido, o líquido subenfriado, para el agua y alguna otra sustancia. Ambas denominaciones resultan equivalentes aunque representan dos puntos de vista distintos. Cuando se habla de líquido comprimido se está haciendo referencia a que la presión a la que se encuentra el líquido resulta superior a la presión de saturación correspondiente a su temperatura. Sin embargo, cuando se habla de líquido subenfriado se indica que la temperatura del mismo se halla por debajo de la de saturación correspondiente a la presión a la que se encuentra.
+
 De cualquier modo, en todos los casos, la tabulación se efectúa siempre con respecto a un origen seleccionado arbitrariamente y es necesario tener esto en cuenta si se pretende mezclar datos de la misma sustancia, pero procedentes de fuentes distintas.
+
 También cabe destacar que la utilización de tablas en la determinación de propiedades termodinámicas de las sustancias puede requerir algún procedimiento de interpolación.
-De las tablas que se van a utilizar vamos a centrarnos en ciertos aspectos de la información que proporcionan las tablas de gas. En general las tablas de gas ideal dan valores de T, h, u y s.
+
+De las tablas que se van a utilizar vamos a centrarnos en ciertos aspectos de la información que proporcionan las tablas de gas. En general las tablas de gas ideal dan valores de *T*, *h*, *u* y *s*.
+
 Sobre la temperatura, entalpia y energía interna no hay nada que decir, salvo destacar que las tablas se dan para estados termodinámicos de las sustancias tales que pueda considerarse que el comportamiento de las mismas, en estas condiciones, se ajusta al de un gas semiperfecto.
-Respecto a s° sí conviene recordar cómo llegamos a su definición, pues vimos que para un semiperfecto:
-52 - si
-L
-T* dT
-CP y
-Rln
-P2
-P\
-(8.143)
+
+Respecto a :math:`s^o` sí conviene recordar cómo llegamos a su definición, pues vimos que para un semiperfecto:
+
+.. math::
+
+   s_2 - s_1 = \int_{T_1}^{T_2} c_p \frac{dT}{T} - R \ln \frac{p_2}{p_1}
+   
 por lo que tendríamos que realizar la integral de (8.143) para cada proceso que deseemos analizar.
 (fZi l<Ác~>
 \ f
@@ -313,4 +309,3 @@ de temperatura (o presión) elegido.
 Figura 8.12: Representación de las lineas de titulo constante en los diagramas T-s, h-s ylnp-h.
 Así, el trazado de las líneas de título constante, x, en la zona de vapor húmedo de cualquiera de los diagramas descritos más arriba, se efectúa dividiendo en partes iguales cada uno de los segmentos que unen, para una temperatura (o presión) dada, la línea de líquido saturado con la vapor saturado (segmentos de vaporización) y uniendo entre sí todos los puntos que dividen a los respectivos segmentos en la misma relación.
 En la figura 8.12 se representan dichas líneas en las zonas de equilibrio líquido-vapor de los diagramas aquí estudiados.
-
