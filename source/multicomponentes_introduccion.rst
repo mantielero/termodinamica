@@ -26,9 +26,9 @@ siendo:
 
    \left.
    \begin{array}
-   n_i&: \text{cantidad de sustancia} \\
-   m_i&: \text{la masa} \\
-   M_i&: \text{la masa molar}
+   n_i & \text{: cantidad de sustancia} \\
+   m_i & \text{: la masa} \\
+   M_i & \text{: la masa molar}
    \end{array}
    \right}
    \text{del componente i}
