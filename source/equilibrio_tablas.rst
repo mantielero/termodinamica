@@ -306,31 +306,59 @@ En efecto, de las condiciones de estabilidad de sistemas monofásicos (apartado 
 En realidad, esto se cumple para casi todas las sustancias en casi todos los estados, siendo la excepción más conocida la del agua líquida entre 0°C y 4°C.
 
 De lo expuesto se deduce que en cualquier punto de la región de vapor, la pendiente de las isocoras resulta superior a la de las isóbaras, que a su vez es mayor que la de las isotermas:
-(8.174)
+
+.. math::
+
+    \left( \frac{\partial h}{\partial s} \right)_v >  \left( \frac{\partial h}{\partial s} \right)_p >  \left( \frac{\partial h}{\partial s} \right)_T
+
 d)	el punto de inversión en este diagrama se localiza en las isotermas con tangente horizontal, pues si el coeficiente de Joule-Thomson ha de ser igual a cero, se tiene que:
-(8.175)
+
+.. math::
+
+    \left( \frac{\partial T}{\partial p} \right)_h = - \frac{1}{ \left( \frac{\partial h}{\partial T} \right)_p  \left( \frac{\partial p}{\partial h} \right)_T} = - \frac{ \left( \frac{\partial h}{\partial p} \right)_T}{c_p} = \frac{ \left( \frac{\partial h}{\partial s} \right)_T}{c_p \left( \frac{\partial p}{\partial s} \right)_T} = \frac{\alpha v}{c_p}  \left( \frac{\partial h}{\partial s} \right)_T = 0
+    
 y de esto se concluye que:
-MJT = 0
-(8.176)
-8.9.2.3	Diagrama presión-entalpia
-Es este un diagrama de utilización muy extendida en el cálculo de procesos en los que intervienen ciclos frigoríficos. En realidad, se emplea con mucha mayor frecuencia el diagrama ln p-h que el propio p-h, ya que presenta la ventaja de permitir trabajar en un intervalo amplio de presiones. En la figura 8.11 se muestra una representación esquemática de este diagrama.
+
+.. math::
+
+   \mu_{JT} = 0 \Rightarrow  \left( \frac{\partial h}{\partial s} \right)_T =0
+   
+
+Diagrama presión-entalpía
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Es este un diagrama de utilización muy extendida en el cálculo de procesos en los que intervienen ciclos frigoríficos. En realidad, se emplea con mucha mayor frecuencia el diagrama :math:`\ln p-h` que el propio *p-h*, ya que presenta la ventaja de permitir trabajar en un intervalo amplio de presiones. En la figura 8.11 se muestra una representación esquemática de este diagrama.
+
 a)	las isotermas en la región bifásica son horizontales y paralelas a las isóbaras, y en las fases homogéneas su pendiente puede expresarse:
-cfinp\ _ 1 (dp\	1
-dh )j p\dh)T pv(l - aT)
-(8.177)
-En la zona de vapor, próxima a la h'nea de saturación, aT > 1, por lo que la pendiente será negativa. Cuando el comportamiento responde al de gas ideal,aT = 1 y las isotermas se
-Equilibrio de los sistemas termodinámicas. Transiciones de fase
-49
-Figura 8.11 Diagrama lnp-h de una sustancia pura con algunas líneas de interés.
-hacen prácticamente verticales, paralelas a las isoentálpicas.
-En la región de líquido se tiene que aT <C 1 y la pendiente es aproximadamente igual a p/p y siempre positiva. Si puede suponerse la densidad casi constante, al ir aumentando la presión disminuirá la pendiente de la isoterma y si se admite el modelo de fluido incompresible en la zona de la fase líquida, las isotermas han de ser verticales.
+
+.. math::
+
+    \left( \frac{\partial \ln p}{\partial h} \right)_T = \frac{1}{p} \left( \frac{\partial p}{\partial h} \right)_T = \frac{1}{pv(1-\alpha T)}
+
+
+En la zona de vapor, próxima a la h'nea de saturación, aT > 1, por lo que la pendiente será negativa. Cuando el comportamiento responde al de gas ideal,aT = 1 y las isotermas se hacen prácticamente verticales, paralelas a las isoentálpicas.
+
+
+.. figure:: ./img/diag_lnp_h.png
+
+   Diagrama lnp-h de una sustancia pura con algunas líneas de interés.
+
+En la región de líquido se tiene que :math:`\alpha T \ll 1` y la pendiente es aproximadamente igual a :math:`\frac{\rho}{p}` y siempre positiva. Si puede suponerse la densidad casi constante, al ir aumentando la presión disminuirá la pendiente de la isoterma y si se admite el modelo de fluido incompresible en la zona de la fase líquida, las isotermas han de ser verticales.
+
 b)	la pendiente de las isocoras se obtiene como:
-(dlnp\ _1 ídp\ _ 1 (§t)v _ 1	1
-V dh Jv p \dh)v	P(Ja)_ + í;
-(8.178)
+
+.. math::
+
+   \left( \frac{\partial \ln p}{\partial h} \right)_v = \frac{1}{p} \left( \frac{\partial p}{\partial h} \right)_v = \frac{1}{p} \frac{\left( \frac{\partial p}{\partial T} \right)_v}{\left( \frac{\partial h}{\partial T} \right)_v} = \frac{1}{p} \frac{1}{\frac{c_v}{\left( \frac{\partial p}{\partial T} \right)_v} + v}
+   
+
 En la zona donde la sustancia posee un comportamiento próximo al del gas ideal, esta pendiente será:
-í(ñnp\ _ _1-----1—_ R}_ _ J_ _	(8.179)
-V dh ) v pv ^ -(-1 cppv Tcp 7 pv
+
+.. math::
+
+   \left( \frac{\partial \ln p}{\partial h} \right)_v = \frac{1}{pv}\frac{1}{\frac{c_v}{R} +1} = \frac{R}{c_p}\frac{1}{pv} = \frac{1}{T c_p} = \frac{\gamma -1}{\gamma} \frac{1}{pv}
+
+
 de modo que siempre será positiva, e irá disminuyendo al aumentar la temperatura.
 c)	basándose en la expresión del potencial entalpia, la pendiente de las curvas isoentrópicas queda expresada como:
 / cflnp\ _ 1 / dp V dh ) 3 p \dh
