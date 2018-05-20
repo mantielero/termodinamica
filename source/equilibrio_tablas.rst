@@ -360,40 +360,61 @@ En la zona donde la sustancia posee un comportamiento próximo al del gas ideal,
 
 
 de modo que siempre será positiva, e irá disminuyendo al aumentar la temperatura.
+
 c)	basándose en la expresión del potencial entalpia, la pendiente de las curvas isoentrópicas queda expresada como:
-/ cflnp\ _ 1 / dp V dh ) 3 p \dh
-(a), r(i)
-1
-(I),
-p(-f) Pv
-(8.180)
+
+.. math::
+
+   \left( \frac{\partial \ln p}{\partial h} \right)_s = \frac{1}{p} \left( \frac{\partial p}{\partial h} \right)_s = - \frac{\left( \frac{\partial s}{\partial h} \right)_p}{p \left( \frac{\partial s}{\partial p} \right)_h} = - \frac{1}{p} \frac{\frac{1}{T}}{-\frac{v}{T}} = \frac{1}{pv}
+
 y siempre será positiva.
-En la zona de gas, si el comportamiento de la sustancia responde al modelo de gas perfecto, la pendiente de las isocoras resulta inferior en (7 — l)/7 a la pendiente de las isoentrópicas.
-50
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-Si el comportamiento se asemeja al de gas ideal,	= 1 /RT, y la pendiente de la
-curva irá disminuyendo al ir aumentando la temperatura, al igual que en el caso de las isocoras (ecuación 8.179).
+
+En la zona de gas, si el comportamiento de la sustancia responde al modelo de gas perfecto, la pendiente de las isocoras resulta inferior en :math:`\frac{\gamma -1}{\gamma}` a la pendiente de las isoentrópicas.
+
+
+Si el comportamiento se asemeja al de gas ideal, :math:`\left( \frac{\partial \ln p}{\partial h} \right)_s = \frac{1}{RT}`, y la pendiente de la curva irá disminuyendo al ir aumentando la temperatura, al igual que en el caso de las isocoras (ecuación 8.179).
+
 d)	en este diagrama, el punto de inversión se localiza sobre las isotermas con tangente vertical:
-MJT =
-(8.181)
+
+.. math::
+
+   \mu_{JT} = - \frac{1}{\left( \frac{\partial h}{\partial T} \right)_p \left( \frac{\partial p}{\partial h} \right)_T} = - \frac{1}{p c_p \left( \frac{\partial \ln p}{\partial h} \right)_T}
+
+
 así que:
-PJT = 0
-(8.182)
-En los diagramas de compresibilidad donde se representa la desviación del comportamiento ideal de la entalpia frente a la presión (presión reducida), el punto de inversión se localiza sobre las isotermas (temperatura reducida) con tangente horizontal, que además son máximos (figura 7.7):
-PJT =
-(8.183)
+
+.. math::
+
+   \mu_{JT} = 0 \Rightarrow \left( \frac{\partial \ln p}{\partial h} \right)_T \rightarrow \inf
+
+En los **diagramas de compresibilidad** donde se representa la desviación del comportamiento ideal de la entalpia frente a la presión (presión reducida), el punto de inversión se localiza sobre las isotermas (temperatura reducida) con tangente horizontal, que además son máximos (figura 7.7):
+
+.. math::
+
+   \mu_{JT} = - \frac{1}{\left( \frac{\partial h}{\partial T} \right)_p \left( \frac{\partial p}{\partial h} \right)_T}  = - \frac{\left( \frac{\partial h}{\partial p} \right)_T}{c_p}
+
+
 y entonces:
-Pjt = 0
-(8.184)
-8.9.2.4	Líneas de título constante en los diagramas termodinámicos
-Si se denomina con la letra 2 la propiedad termodinámica representada en cada caso en el eje de abscisas y con x el título del vapor, se tiene que:
-x =
-zx - Zf zg - Zf
-(8.185)
-cumpliéndose que la relación entre los segmentos que unen en cada diagrama los puntos correspondientes a los estados x y / y / y g tal como indica (8.185), es constante para cualquier valor
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-51
-de temperatura (o presión) elegido.
-Figura 8.12: Representación de las lineas de titulo constante en los diagramas T-s, h-s ylnp-h.
-Así, el trazado de las líneas de título constante, x, en la zona de vapor húmedo de cualquiera de los diagramas descritos más arriba, se efectúa dividiendo en partes iguales cada uno de los segmentos que unen, para una temperatura (o presión) dada, la línea de líquido saturado con la vapor saturado (segmentos de vaporización) y uniendo entre sí todos los puntos que dividen a los respectivos segmentos en la misma relación.
+
+.. math::
+
+   \mu_{JT} = 0 \Rightarrow \left( \frac{\partial \ln p}{\partial h} \right)_T \rightarrow \inf
+
+Líneas de título constante en los diagramas termodinámicos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Si se denomina con la letra *z* la propiedad termodinámica representada en cada caso en el eje de abscisas y con *x* el título del vapor, se tiene que:
+
+.. math::
+
+   x = \frac{z_x-z_f}{z_g-z_f}
+   
+cumpliéndose que la relación entre los segmentos que unen en cada diagrama los puntos correspondientes a los estados *x* y *f* y *f* y *g* tal como indica (8.185), es constante para cualquier valor de temperatura (o presión) elegido.
+
+.. figure:: ./img/diag_lineas_titulo_constante.png
+
+   Representación de las lineas de titulo constante en los diagramas T-s, h-s y lnp-h.
+   
+Así, el trazado de las líneas de título constante, *x*, en la zona de vapor húmedo de cualquiera de los diagramas descritos más arriba, se efectúa dividiendo en partes iguales cada uno de los segmentos que unen, para una temperatura (o presión) dada, la línea de líquido saturado con la vapor saturado (segmentos de vaporización) y uniendo entre sí todos los puntos que dividen a los respectivos segmentos en la misma relación.
+
 En la figura 8.12 se representan dichas líneas en las zonas de equilibrio líquido-vapor de los diagramas aquí estudiados.
