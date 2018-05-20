@@ -194,37 +194,45 @@ c)	las líneas isoentálpicas en regiones monofásicas pueden obtenerse a partir
    dh = c_p dT + \left[ v - T \left( \frac{\partial v}{\partial T} \right)_p \right] dp \\
    ds = \frac{c_p}{T} dT - \left( \frac{\partial v}{\partial T}\right)_p dp
 
-
-
-
 haciendo dh = 0 y sustituyendo:
-ds =
-1	dT
-i-í(#) yrT
-(8.1626)
-En la zona de líquido, ^ (^) T <« 1 así que las isoentálpicas se confunden con las isóbaras (ecuación 8.153), y por tanto, con la curva de líquido saturado.
+
+.. math::
+
+   ds = \frac{1}{1-\frac{1}{v}\left( \frac{\partial v}{\partial T} \right)_p T} c_p \frac{dT}{T}
+
+
+En la zona de líquido, :math:`\frac{1}{v}\left( \frac{\partial v}{\partial T} \right)_p \\ 1` así que las isoentálpicas se confunden con las isóbaras (ecuación 8.153), y por tanto, con la curva de líquido saturado.
+
 La pendiente de estas líneas puede obtenerse según se muestra a continuación:
-(§),
-cTT ds/ h
-(I)
-h VJT T = —ÍT = --VJT
-(8.163)
-donde pjj es el coeficiente de Joule-Thomson.
-Para un gas ideal u.jt — (Lasí que en la zona donde la sustancia se comporta con arreglo a ese modelo, según nos alejamos de la curva de saturación, las isoentálpicas poseen pendiente nula y son paralelas a las isotermas.
-Para la mayoría de los gases reales pjj > 0, por lo que estas curvas poseerán pendiente negativa.
-En la región bifásica, se tiene que dh = Tds, pues la presión se mantiene constante durante el cambio de fase. De este modo se tendrá que s - sre¡ =	y para un valor constante de
-h = ho podrá trazarse la curva isoentálpica fio en el diagrama Ts. Al aumentar la temperatura, disminuye la entropía, obteniéndose unas curvas semejantes a la representada en la figura 8.9.
-d)	el punto de inversión, es decir, aquél donde para una sustancia cualquiera se cumple que pJT = 0, se encuentra localizado en este diagrama sobre las líneas de entalpia constante, en el punto de tangente horizontal de cada isoentálpica, como se muestra en la figura 8.9. En efecto, como:
-hJT
-v
-f
-(8.164)
+
+.. math::
+
+   \left( \frac{\partial T}{\partial s} \right)_h = \frac{ \left( \frac{\partial T}{\partial p} \right)_h  }{ \left( \frac{\partial s}{\partial p} \right)_h  } = \frac{\mu_{JT}}{-\frac{v}{T}} = - \frac{T}{v} \mu_{JT}
+
+donde :math:`\mu_{JT}` es el coeficiente de Joule-Thomson.
+
+Para un gas ideal :math:`\mu_{JT}=0` que en la zona donde la sustancia se comporta con arreglo a ese modelo, según nos alejamos de la curva de saturación, las isoentálpicas poseen pendiente nula y son paralelas a las isotermas.
+
+Para la mayoría de los gases reales  :math:`\mu_{JT}>0`, por lo que estas curvas poseerán pendiente negativa.
+
+En la región bifásica, se tiene que :math:`dh = Tds`, pues la presión se mantiene constante durante el cambio de fase. De este modo se tendrá que :math:`s-s_{ref}= \frac{h-h_{ref}}{T}` y para un valor constante de :math:`h = h_0` podrá trazarse la curva isoentálpica :math:`h_0` en el diagrama *Ts*. Al aumentar la temperatura, disminuye la entropía, obteniéndose unas curvas semejantes a la representada en la figura 8.9.
+
+d)	el punto de inversión, es decir, aquél donde para una sustancia cualquiera se cumple que :math:`\mu_{JT}=0`, se encuentra localizado en este diagrama sobre las líneas de entalpia constante, en el punto de tangente horizontal de cada isoentálpica, como se muestra en la figura 8.9. En efecto, como:
+
+.. math::
+
+   \mu_{JT} =  \left( \frac{\partial T}{\partial p} \right)_h = -\frac{v}{T}  \left( \frac{\partial T}{\partial s} \right)_h = 0
+   
 se deduce que:
-46
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-PJT = O
-(8.165)
-8.9.2.2	Diagrama entalpia-entropía
+
+.. math::
+
+   \mu_{JT}= 0 \Rightarrow  \left( \frac{\partial T}{\partial s} \right)_h =0
+   
+
+Diagrama entalpia-entropía
+--------------------------
+
 También recibe el nombre de diagrama de Mollier de un fluido condensable y no debe confundirse con el diagrama de Mollier del aire húmedo, entalpia-humedad.
 Los diagramas h-s permiten medir directamente las variaciones de entalpia que tienen lugar en los sistemas abiertos , tan frecuentes en las aplicaciones técnicas. Este es el motivo principal por el que este tipo de diagramas resulta tan útil en las aplicaciones industriales.
 A continuación se estudian algunos aspectos de las líneas de mayor interés en este diagrama, cuyo esquema se representa en la figura 8.10.
