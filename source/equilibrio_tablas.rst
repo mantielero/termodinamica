@@ -146,39 +146,57 @@ La separación entre dos isóbaras para una misma temperatura viene dada por:
 de modo que en la región líquida en que :math:`\alpha v \ll 1`, las isóbaras se hallan muy próximas entre sí y se confunden prácticamente con la curva de líquido saturado. En la zona de gas, av posee un valor considerable y las isóbaras se distinguen unas de otras con facilidad.
 
 b)	Las curvas a volumen constante o isocoras poseen un trazado bastante similar al de las isóbaras en las regiones de líquido y vapor y gas. En estos casos, dichas curvas se hallan aplicando:
-ds =
-(v constante)
-(8.157)
+
+.. math::
+ 
+   ds = c_v \frac{dT}{T} \hspace{2cm} \text{ v constante}
+
+
 y su pendiente se obtiene como:
-(8.158)
-Como en la zona de líquido cp ~ cv, las isocoras se confunden prácticamente con las isóbaras.
-En la zona de gas, cp > cv, así que las isocoras poseen mayor pendiente que las isóbaras, aún dando lugar al mismo tipo de curva exponencial:
-(f) > (£)
-V OS ] v \ds ) p
-(8.159)
-x =
-En la región bifásica, las curvas a volumen constante pueden obtenerse sabiendo que 3~sl- y que	sólo es función de T5:
-Sg—Sf J n di	v9—vf
-V = Vf +
-S ~ Sf
-----—(Vg - Vf)	S - Sf =
-S9~Sf
-V - Vf
-(dp/dT)
-(8.160)
-y para un valor constante de v = «o se puede trazar la curva isocora en la región bifásica del diagrama T-s.
+
+.. math::
+
+
+   \left( \frac{\partial T}{\partial s} \right)_v = \frac{T}{c_v}
+
+Como en la zona de líquido :math:`c_p \approx c_v`, las isocoras se confunden prácticamente con las isóbaras.
+
+En la zona de gas, :math:`c_p > c_v`, así que las isocoras poseen mayor pendiente que las isóbaras, aún dando lugar al mismo tipo de curva exponencial:
+
+.. math::
+
+   \left( \frac{\partial T}{\partial s}  \right)_v > \left( \frac{\partial T}{\partial s}  \right)_p
+
+En la región bifásica, las curvas a volumen constante pueden obtenerse sabiendo que :math:`x  = \frac{s-s_f}{s_g-s_f}` y que :math:`\frac{dp}{dT} = \frac{s_g-s_f}{v_g-v_f}` sólo es función de :math:`T^5`:
+
+
+.. math::
+
+   v = v_f + \frac{s-s_f}{s_g-s_f}(v_g-v_f) \Rightarrow s-s_f = \frac{v-v_f}{\frac{dp}{dT}}
+
+.. note::
+
+   (5)Esta expresión, cuya integración, lleva siempre a una función más o menos complicada de la temperatura (la más sencilla es la llamada a veces ecuación de Clapeyron), sólo depende de la temperatura en cada punto, puesto que relaciona propiedades del equilibrio de fases
+
+
+y para un valor constante de :math:`v = v_0` se puede trazar la curva isocora en la región bifásica del diagrama *T-s*.
+
 El área encerrada entre dos puntos de una isocora y el eje de abscisas representa la variación de energía interna de un sistema compresible simple durante un proceso efectuado a volumen constante:
-U2 - U\
-(v constante)
-(8.161)
+
+.. math::
+
+   u_2-u_1 = \int_1^2 T ds \hspace{2cm} \text{ v constante}
+
 c)	las líneas isoentálpicas en regiones monofásicas pueden obtenerse a partir de las expresiones:
-dh = CpdT +
-v-T
-dp
-ds = ^dT -	dp	(8.162a)
-5Esta expresión, cuya integración, lleva siempre a una función más o menos complicada de la temperatura (la más sencilla es la llamada a veces ecuación de Clapeyron), sólo depende de la temperatura en cada punto, puesto que relaciona propiedades del equilibrio de fases
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
-45
+
+.. math::
+
+   dh = c_p dT + \left[ v - T \left( \frac{\partial v}{\partial T} \right)_p \right] dp \\
+   ds = \frac{c_p}{T} dT - \left( \frac{\partial v}{\partial T}\right)_p dp
+
+
+
+
 haciendo dh = 0 y sustituyendo:
 ds =
 1	dT
