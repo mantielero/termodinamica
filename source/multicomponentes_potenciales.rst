@@ -1,72 +1,87 @@
 Potenciales termodinámicos para sistemas multicomponentes
----------------------------------------------------------
+=========================================================
 
 Como ya se ha visto cualquier potencial termodinámico proporciona una descripción completa del estado termodinámico de un sistema. En principio, todas las propiedades de interés pueden determinarse a partir de ese potencial mediante un tratamiento matemático adecuado.
+
 Ya se vio en el tema anterior que la energía interna de un sistema multicomponente puede ser considerada como potencial termodinámico si se expresa en función de la entropía y el volumen del sistema así como del número de moles de cada componente; esto es:
-u	■_
-U = t/(5,E,n¿)
+
+.. math::
+
+   U = U(S,V,n_i)
+   
+
 Diferenciando esta función obtenemos:
-dU =
-3U_
-dS
-V,n
-is+dv
-S,n	i=1	*
-drii
-(9.12)
-sy,n,
+
+.. math::
+
+   dU = \left. \frac{\partial U}{\partial S} \right|_{V,n} dS + 
+   \left. \frac{\partial U}{\partial V} \right|_{S,n} dV +
+   \sum_{i=1}^k \left. \frac{\partial U}{\partial n_i} \right|_{S,V,n_j} dn_i
+   
 Esta diferencial nos expresa la variación de la energía interna del sistema cuando varía la entropía, el volumen y el número de moles de cada componente. El subíndice n en los dos primeros términos indica que todas las n permanecen fijas durante la diferenciación. Como esto implica composición fija, se sigue que:
-L dU			du
-ds	V,n	y	-p=dv
-dU
-(9.13) , recibe el nom-
-E1 tercer término del segundo miembro de la ecuación (9.7),	.
-v ' dniJs’v’n>‘
-bre de potencial químico y se lo denota con el símbolo gj. Este potencial químico es una propiedad intensiva al igual que la presión y la temperatura. Contabiliza la variación de la e-nergía interna de un sistema multicomponente debida a la variación de la cantidad de sustancia de cada uno de los componentes si se deja variar la cantidad de materia del mismo componente considerado y se mantienen constantes las propiedades termodinámicas que definen el sistema, es decir, la entropía, el volumen y el número de moles de los restantes componentes.
-Sistemas multicomponentes. Mezcla no reactiva de gases
-7
+
+.. math::
+
+   T = \left. \frac{\partial U}{\partial S} \right|_{V,n} \\
+   -p = \left. \frac{\partial U}{\partial V} \right|_{S,n}
+   
+
+E1 tercer término del segundo miembro de la ecuación (9.7),	:math:`\left. \frac{\partial U}{\partial n_i} \right|_{S,V,n_j} ` recibe el nombre de *potencial químico* y se lo denota con el símbolo :math:`\mu_i`. Este potencial químico es una propiedad intensiva al igual que la presión y la temperatura. Contabiliza la variación de la energía interna de un sistema multicomponente debida a la variación de la cantidad de sustancia de cada uno de los componentes si se deja variar la cantidad de materia del mismo componente considerado y se mantienen constantes las propiedades termodinámicas que definen el sistema, es decir, la entropía, el volumen y el número de moles de los restantes componentes.
+
 Así, pues, la ecuación (9.12) podemos escribirla en la forma:
-k
-dU = TdS - pdV + y^jijdnj
-(9.14)
-«=i
-La función U es una homogénea de grado uno en S, V y ya que
-U (otS, aV, arii) = aU(S,V,m)
+
+
+.. math::
+
+   dU = T dS + -p dV + \sum_{i=1}^k \mu_i dn_i
+
+La función *U* es una homogénea de grado uno en S, V y :math:`n_i` ya que:
+
+.. math::
+
+   U(\alpha S, \alpha V, \alpha n_i) = \alpha U(S,V,n_i)
+
 y basándonos en el teorema de Euler de funciones homogéneas obtenemos:
-dU U = ——
-ds
-V,n
-S+dJL
-+ dv
-v+^Z
-S,n i=i Un'
-Ui
-(9.15)
-S,V,nj
+
+.. math::
+
+   dU = \left. \frac{\partial U}{\partial S} \right|_{V,n} S + 
+   \left. \frac{\partial U}{\partial V} \right|_{S,n} V +
+   \sum_{i=1}^k \left. \frac{\partial U}{\partial n_i} \right|_{S,V,n_j} n_i
+   
+
 y teniendo en cuenta las relaciones (9.13) podemos poner:
-) —
-U = TS - pV +
-A esta última ecuación se la conoce como ecuación de Euler de la energía Si diferenciamos (9.16) obtenemos:
-(9.16)
-dU = TdS - pdV +	+
-¿=i
-SdT -Vdp+ ^2 nidpi
-¿=i
+
+.. math::
+
+   U = TS-pV+ \sum_{i=1}^k \mu_i n_i
+
+A esta última ecuación se la conoce como ecuación de Euler de la energía. Si diferenciamos (9.16) obtenemos:
+
+.. math::
+
+   dU = TdS -pdV + \sum_{i=1}^k \mu_i dn_i + \left[ SdT - Vdp + \sum_{i=1}^k n_i d\mu_i \right]
+   
 y comparándola con (9.14) obtenemos la relación
-k
-^2nídpi = —SdT -\-Vdp
-:=1
-(9.17)
-ue se conoce como ecuación de Gibbs-Duhem. Esta ecuación nos da las restricciones existentes ntre las posibles variaciones de las variables intensivas T, p, y
-funciones de la forma A(T, V, n¡), H(S,p,n¡) y G(T,p, n¿) también sirven como potenciales termodinámicos para sistemas multicomponentes.
+
+.. math::
+
+   \sum_{i=1}^k n_i d\mu_i = -SdT + Vdp
+   
+   
+que se conoce como ecuación de Gibbs-Duhem. Esta ecuación nos da las restricciones existentes ntre las posibles variaciones de las variables intensivas T, p, y :math:`\mu_i`.
+
+Las funciones de la forma :math:`A(T, V, n_i)`, :math:`H(S,p,n_i)` y :math:`G(T,p, n_i)` también sirven como potenciales termodinámicos para sistemas multicomponentes.
+
 Estas funciones se obtienen aplicando la transformación de Legendre a U, de manera que las ecuaciones de Euler del potencial de Helmholtz, la entalpia y del potencial de Gibbs resultan:
-—jj»2*
-A = U - TS H = U+pV : G = U -TS + pV
--pV + ^2 Tiní i= 1 k	(9.18.a)
-TS + 2>ni ¿=i k	(9.18.6)
-52^ni i=i	(9.18.c)
-8
-Sistemas multicomponentes. Mezcla no reactiva de gases
+
+.. math::
+
+   A = U-TS \Rightarrow A = -pV + \sum_{i=1}^k \mu_i n_i \\
+   H = U+pV \Rightarrow H = TS + \sum_{i=1}^k \mu_i n_i \\
+   G = U-TS+pV \Rightarrow G =  \sum_{i=1}^k \mu_i n_i 
+   
+
 Si diferenciamos ahora estas funciones y tenemos en consideración la ecuación de Gibbs-Duhem (9.17), se obtendrá:
 dA = —SdT — pdV A y>dn¿
 t=i
@@ -185,4 +200,3 @@ hi - Tsí 1 _
 = 'k\
 jr2 \
 ecuación utilizada con frecuencia en termodinámica química.
-
