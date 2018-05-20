@@ -274,33 +274,37 @@ En la zona de gas, lejos de la curva de saturación, donde el comportamiento pue
 
     \left( \frac{\partial T}{\partial v} \right)_p = \frac{p}{R} = \frac{T}{v} \Rightarrow  \left( \frac{\partial h}{\partial s} \right)_T = 0
 
-donde se adviente que las isotermas tienden a ser rectas paralelas al eje de abscisas. La pendiente de las isotermas en las regiones líquida y vapor puede ponerse:
-(£),-*- =
-y resulta inferior en 1/a a la pendiente de las isóbaras en dichas zonas del diagrama,
+donde se adviente que las isotermas tienden a ser rectas paralelas al eje de abscisas. 
+
+
+La pendiente de las isotermas en las regiones líquida y vapor puede ponerse:
+
+.. math::
+
+    \left( \frac{\partial h}{\partial s} \right)_T = T -\frac{1}{\alpha}
+    
+y resulta inferior en :math:`\frac{1}{\alpha}` a la pendiente de las isóbaras en dichas zonas del diagrama.
+
 c)	La pendiente de las ¡socoras puede obtenerse como sigue:
-(8.170)
-dh\
-ds)v
-d(u + pv)\ _ ( (ar })„
-_ Cv + V{$fr)v	v_f dp\
-cv \dT) v.
-(8.171)
-En las regiones de vapor y gas esta pendiente será mayor que T, ya que se cumple que:
-> 0	(8.172)
-dp
 
-dT)v
-dpJT
-En efecto, de las condiciones de estabilidad de sistemas monofásicos (apartado 8.3.2), se deduce que si	< 0) también debe cumplirse que	< 0. Como además, para las
-sustancias en estado de vapor se cumple que (ff) > 0, se tiene que:
+.. math::
 
-dh
-ds
-> T
-(8.173)
-En realidad, esto se cumple para casi todas las sustancias en casi todos los estados, siendo la excepción más conocida la del agua h'quida entre 0 °C y 4 °C.
-48
-Equilibrio de los sistemas termodinámicos. Transiciones de fase
+    \left( \frac{\partial h}{\partial s} \right)_v =  \left( \frac{\partial (u+pv)}{\partial s} \right)_v = \frac{ \left( \frac{\partial (u+pv)}{\partial T} \right)_v}{ \left( \frac{\partial s}{\partial T} \right)_v} = \frac{c_v+v \left( \frac{\partial p}{\partial T} \right)_v}{\frac{c_v}{T}} = T \left[ 1+ \frac{v}{c_v}  \left( \frac{\partial p}{\partial T} \right)_v\right]
+
+En las regiones de vapor y gas esta pendiente será mayor que *T*, ya que se cumple que:
+
+.. math::
+
+    \left( \frac{\partial p}{\partial T} \right)_v = - \frac{ \left( \frac{\partial v}{\partial T} \right)_p}{ \left( \frac{\partial v}{\partial p} \right)_T} > 0
+
+En efecto, de las condiciones de estabilidad de sistemas monofásicos (apartado 8.3.2), se deduce que si	:math:` \left( \frac{\partial p}{\partial v} \right)_T <0`) también debe cumplirse que	:math:` \left( \frac{\partial v}{\partial p} \right)_T<0`. Como además, para las sustancias en estado de vapor se cumple que :math:` \left( \frac{\partial v}{\partial T} \right)_p >0`, se tiene que:
+
+.. math::
+
+    \left( \frac{\partial p}{\partial T} \right)_v >0 \Rightarrow  \left( \frac{\partial h}{\partial s} \right)_v > T
+
+En realidad, esto se cumple para casi todas las sustancias en casi todos los estados, siendo la excepción más conocida la del agua líquida entre 0°C y 4°C.
+
 De lo expuesto se deduce que en cualquier punto de la región de vapor, la pendiente de las isocoras resulta superior a la de las isóbaras, que a su vez es mayor que la de las isotermas:
 (8.174)
 d)	el punto de inversión en este diagrama se localiza en las isotermas con tangente horizontal, pues si el coeficiente de Joule-Thomson ha de ser igual a cero, se tiene que:
