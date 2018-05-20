@@ -185,10 +185,6 @@ De la última de estas relaciones, y de la definición de *G* ecuación (9.18c) 
 
    (*)De manera análoga puede obtenerse que h¡ =	y que á¡ = ü¡ — Ts¡, siendo á¡ la función molar parcial de Helmholtz
 
-
-
-
-
 De (9.25) y (9.23) se obtiene que:
 
 
