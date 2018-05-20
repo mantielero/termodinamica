@@ -31,37 +31,30 @@ Respecto a :math:`s^o` sí conviene recordar cómo llegamos a su definición, pu
    s_2 - s_1 = \int_{T_1}^{T_2} c_p \frac{dT}{T} - R \ln \frac{p_2}{p_1}
    
 por lo que tendríamos que realizar la integral de (8.143) para cada proceso que deseemos analizar.
-(fZi l<Ác~>
-\ f
-'A c.
-u 'Its
 
-yUr~ ^ t	~ /$T
-X a stuXr
-X' X"	^ * /l/XT . yt-'C^JÍ.
-¿¿	/-	-	_, qt/rj r Ciyfrj-
-Eqailibrio de los sistemas termodinámicos. Transiciones de fase
-41
+
 Para evitar esto, se define la función:
-rT dT
-_■o ___
-Sj'
-f1 dT
-~ LCp T
-(8.144)
+
+.. math::
+
+   s_T^0  \equiv \int_{T_o}^T c_p \frac{dT}{T}
+   
+
 cuyos valores se tabulan para las distintintas temperaturas, de forma que:
-rT2 dT [T* dT	[T1	dT
-f1* dT _ f1* dT_ f ^
-JTl CpT ~ JTo CpT ~ JTo
-'-p y
-’2 “
-(8.145)
+
+.. math::
+
+   \int_{T_1}^{T_2} c_p \frac{dT}{T} = \int_{T_0}^{T_2} c_p \frac{dT}{T}- \int_{T_0}^{T_1} c_p \frac{dT}{T} = s_2^0-s_1^0
+
 Por lo que la variación de entropía para estos gases, ecuación (8.143), toma la forma:
-(8.146)
-S2 - Si = «2 ~ si ~ R ln — ----------------------------Pl
-,	/	Las tablas de gas ideal correspondientes al aire, también traen dos columnas con valores
--h> ¡
-(V'yuu-Á ' de pr y rn presión relativa y volumen relativo, respectivamente. d.- U'/fí'-'t*	Para establecer su definición consideremos un proceso isoentrópico, para este caso (8.146)
+
+.. math::
+
+   s_2-s_1 =  s_2^0-s_1^0 - R\ln \frac{p_2}{p_1}
+
+Las tablas de gas ideal correspondientes al aire, también traen dos columnas con valores :math:`p_r` y :math:`v_r`, presión relativa y volumen relativo, respectivamente.
+
+Para establecer su definición consideremos un proceso isoentrópico, para este caso (8.146)
 G í/S. Jtssiy'í-
 toma la forma:
 s%-s° = Rln — Pi
