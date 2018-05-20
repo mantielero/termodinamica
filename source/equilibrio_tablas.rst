@@ -54,11 +54,12 @@ Por lo que la variación de entropía para estos gases, ecuación (8.143), toma 
 
 Las tablas de gas ideal correspondientes al aire, también traen dos columnas con valores :math:`p_r` y :math:`v_r`, presión relativa y volumen relativo, respectivamente.
 
-Para establecer su definición consideremos un proceso isoentrópico, para este caso (8.146)
-G í/S. Jtssiy'í-
-toma la forma:
-s%-s° = Rln — Pi
-(8.147)
+Para establecer su definición consideremos un proceso isoentrópico, para este caso (8.146) toma la forma:
+
+.. math::
+
+   s_2^0-s_1^0 = R \ln \frac{p_2}{p_1}
+
 Si aplicamos esta ecuación entre un estado de referencia (T0, p0) y un estado cualquiera a (T, p), tendremos:
 s j — Sjo — Rln—	(8.148)
 Po
