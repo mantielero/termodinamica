@@ -60,16 +60,28 @@ Para establecer su definición consideremos un proceso isoentrópico, para este 
 
    s_2^0-s_1^0 = R \ln \frac{p_2}{p_1}
 
-Si aplicamos esta ecuación entre un estado de referencia (T0, p0) y un estado cualquiera a (T, p), tendremos:
-s j — Sjo — Rln—	(8.148)
-Po
-Si consideramos que en este estado de referencia Sjo = 0, obtendremos:
-s°T = i?ln — Po
-(8.149)
-Definamos una nueva función pT — p/p0 y sustituyámosla en la expresión anterior, llegaremos a:
-ln — = lnpr Po
-R
-(8.150)
+Si aplicamos esta ecuación entre un estado de referencia (:math:`T_0`, :math:`p_0`) y un estado cualquiera a (*T*, *p*), tendremos:
+
+.. math::
+
+   s_T^0-s_{T_0}^0 = R \ln \frac{p}{p_0}
+
+
+Si consideramos que en este estado de referencia :math:`s_{T_0}^0`, obtendremos:
+
+.. math::
+
+   s_T^0 = R \ln \frac{p}{p_0}
+
+
+Definamos una nueva función :math:`p_r = \frac{p}{p_0}` y sustituyámosla en la expresión anterior, llegaremos a:
+
+.. math::
+
+
+   \ln \frac{p}{p_0} = \ln p_r = \frac{s_T^0}{R} \\
+   p_r = e^{\frac{s_T^0}{R}}
+
 Por lo que esta función sólo depende de T y puede ser tabulada utilizando esta magnitud como parámetro de entrada.
 Teniendo en cuenta esta función, para un proceso isoentrópico, como el representado por la ecuación (8.147), obtendríamos:
 42
