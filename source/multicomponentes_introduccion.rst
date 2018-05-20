@@ -74,14 +74,19 @@ de modo que :math:`l = \sum_{i=1}^k x_i`.
 
 
 Cuando una mezcla se especifica por las fracciones molares de los componentes se habla de análisis molar.
-La masa molar media (aparente) de una mezcla, M, se define como:
-k
 
-n n
-'YjUíMí
-M
-i=i
-= XíMí
-(9.5)
-í=i
+La masa molar media (aparente) de una mezcla, *M*, se define como:
+
+.. math::
+
+   \left.
+   \begin{array}
+   M=  \frac{m}{n}= \frac{\sum_{i=1}^k m_i}{n} \\
+   m_i = n_i M_i
+   \end{array}
+   \right}
+   \rightarrow
+   M = \frac{\sum_{i=1}^k n_i M_i}{n} = \sum_{i=1}^k x_i M_i
+
+
 esto es, la masa molar de la mezcla es una media ponderada de las masa molares de cada componente.
