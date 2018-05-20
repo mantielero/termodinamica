@@ -83,120 +83,117 @@ Estas funciones se obtienen aplicando la transformación de Legendre a U, de man
    
 
 Si diferenciamos ahora estas funciones y tenemos en consideración la ecuación de Gibbs-Duhem (9.17), se obtendrá:
-dA = —SdT — pdV A y>dn¿
-t=i
-k
-dH = TdS + Vdp + £>,■*»<
-<=i
-k
-! dG = —SdT Vdp A ptdnt
-(9.19.a)
-(9.19.6)
-(9.19.c)
-;=i
-Estas son las ecuaciones equivalentes para sistemas multicomponentes de da — —sdT — pdv, dh = Tds A vdp y dg — -sdT A vdp para sistemas monocomponentes.
-Ya hemos visto anteriormente que de la diferencial de Í7(5, V, n¿) se deduce que:
-dU		dU			dU
-ds	V,n	V~ dV	í S,n	y	/i‘ “ dn¡
-(9.20.a)
-s,v, ny
-Esto es, la temperatura, presión y potencial químico pueden obtenerse por diferenciación de U(S,V,rii). Las dos primeras relaciones de la ecuación (9.20.a) son las equivalentes de
-T =
-du
-ds
-du
--P=dï
-de los sistemas monocomponentes. '
-Un procedimiento análogo con las expresiones H(S,p, n¿), A(T, V, n¿) y G(T,p, tii) conduce a las expresiones:
-T=™ dS	í p,n	r-%	î S,n	y	pí	_ dH drii
-dA ~P~ dV	í T,n	ç dA dT	? V}n	y	Pi	dA dn
-c dG dT	•> p,n	dp	i T,n	y	pí	_ dG dru
-SiPini
-T,V,ny
-T,p,ny
-(9.20.b)
-(9.20.c)
-(9.20.d)
-El análisis anterior de los potenciales termodinámicos nos ha proporcionado algunas relaciones de propiedades para sistemas multicomponentes que se corresponden con relaciones obtenidas previamente para sistemas monocomponentes. Además, pueden obtenerse las correspondientes relaciones de Maxwell igualando las derivadas segundas cruzadas. Por ejemplo, de (9.19.c) obtenemos:
-dV_
-dT
-p,n
-ds_
-dp
-(9.21)
-T,n
-De manera análoga se pueden conseguir relaciones en las que se involucra el potencial químico. De (9.19.c) también se obtiene la importante relación:
-Sistemas multicomponentes. Mezcla no reactiva de gases
-9
-U
-o ‘
-y teniendo en cuenta que la parte componente i, podemos escribir:
-dp¡	¡dV — (
-dp	T,n &TIi
-p,T,n> jJ
-derecha de esta ecuación es el volumen molar parcial del
-dfu
-dp
-T,n
-(9.22)
-Análogamente se obtiene que:
-dpi
-dT
-p,n
-dS_
-drii
-= ~Si
-P,T,n j
-Al ser p,i una función de T y p, podemos escribir:
-(9.23)
-y comparando esta expresión con la ecuación de Gibbs-Duhem (9.17) se obtiene:
-V 1
 
-t=i
-dpi
-dT
-= -S
-p,n
-v-^ dpi
-> n» -5-
-Él 9”
-= V
-T,n
+.. math::
+
+   dA = -S dT -pdV + \sum_{i=1}^k \mu_i dn_i \\
+   dH = T dS +Vdp + \sum_{i=1}^k \mu_i dn_i \\
+   dG = -S dT +Vdp + \sum_{i=1}^k \mu_i dn_i 
+   
+
+Estas son las ecuaciones equivalentes para sistemas multicomponentes de :math:`da= —sdT — pdv`, :math:`dh = Tds + vdp` y :math:`dg = -sdT + vdp` para sistemas monocomponentes.
+
+Ya hemos visto anteriormente que de la diferencial de :math:`U(S, V, n_i)` se deduce que:
+
+.. math::
+
+   T= \left. \frac{\partial U}{\partial S} \right|_{V,n} \\
+   -p =  \left. \frac{\partial U}{\partial V} \right|_{S,n}  \\
+    \mu_i = \left. \frac{\partial U}{\partial n_i} \right|_{S,V,n_j} 
+   
+
+Esto es, la temperatura, presión y potencial químico pueden obtenerse por diferenciación de :math:`U(S,V,n_i)`. Las dos primeras relaciones de la ecuación (9.20.a) son las equivalentes de :math:`T =  \left. \frac{\partial u}{\partial s} \right|_{v}`, :math:`-p =  \left. \frac{\partial u}{\partial v} \right|_{s}` de los sistemas monocomponentes.
+
+Un procedimiento análogo con las expresiones :math:`H(S,p,n_i)`, :math:`A(T, V, n_i)` y :math:`G(T,p, n_i)` conduce a las expresiones:
+
+
+.. math::
+
+   T =  \left. \frac{\partial H}{\partial S} \right|_{p,n} \text{, } V=  \left. \frac{\partial H}{\partial p} \right|_{S,n} \text{, y} \mu_i =  \left. \frac{\partial H}{\partial n_i} \right|_{S,p,n_j}  \\
+   -p =  \left. \frac{\partial A}{\partial V} \right|_{T,n} \text{, } -S =  \left. \frac{\partial A}{\partial T} \right|_{V,n} \text{, y }  \mu_i = \left. \frac{\partial A}{\partial n_i} \right|_{T,V,n_j}  \\
+   -S =  \left. \frac{\partial G}{\partial T} \right|_{p,n} \text{, } V =  \left. \frac{\partial G}{\partial p} \right|_{T,n} \text{, y }  \mu_i = \left. \frac{\partial G}{\partial n_i} \right|_{T,p,n_j} 
+
+
+El análisis anterior de los potenciales termodinámicos nos ha proporcionado algunas relaciones de propiedades para sistemas multicomponentes que se corresponden con relaciones obtenidas previamente para sistemas monocomponentes. Además, pueden obtenerse las correspondientes relaciones de Maxwell igualando las derivadas segundas cruzadas. Por ejemplo, de (9.19.c) obtenemos:
+
+.. math::
+
+   \left. \frac{\partial V}{\partial T} \right|_{p,n} = - \left. \frac{\partial S}{\partial p} \right|_{T,n}
+   
+De manera análoga se pueden conseguir relaciones en las que se involucra el potencial químico. De (9.19.c) también se obtiene la importante relación:
+
+.. math::
+
+   \left. \frac{\partial \mu_i}{\partial p} \right|_{T,n} = \left. \frac{\partial V}{\partial n_i} \right|_{p,T,n_j}
+
+
+y teniendo en cuenta que la parte derecha de esta ecuación es el volumen molar parcial del componente *i*, podemos escribir:
+
+
+.. math::
+
+   \left. \frac{\partial \mu_i}{\partial p} \right|_{T,n} = \overline{v_i}
+
+Análogamente se obtiene que:
+
+.. math::
+
+   \left. \frac{\partial \mu_i}{\partial T} \right|_{p,n} = - \left. \frac{\partial S}{\partial n_i} \right|_{p,T,n_j}  = - \overline{s_i}
+
+Al ser :math:`\mu:i` una función de *T* y *p*, podemos escribir:
+
+.. math::
+
+   \sum_{i=1}^k n_i d\mu_i = \sum_{i=1}^k n_i \left. \frac{\partial \mu_i}{\partial T} \right|_{p,n} dT + \sum_{i=1}^k n_i \left. \frac{\partial \mu_i}{\partial p} \right|_{T,n} dp 
+
+
+y comparando esta expresión con la ecuación de Gibbs-Duhem (9.17) se obtiene:
+
+.. math::
+
+   \sum_{i=1}^k n_i \left. \frac{\partial \mu_i}{\partial T} \right|_{p,n} = -S \\
+   \sum_{i=1}^k n_i \left. \frac{\partial \mu_i}{\partial p} \right|_{T,n} = V
+
+
 teniendo en cuenta (9.22), (9.23), (9.22.a) y (9.23.a) se llega a las ecuaciones:
-(23.a)
-(22.a)
-k	k
-Y^n¡Vi = V y ^mSi^S	(9.24)
-i'=i	¿=i
+
+.. math::
+
+   \sum_{i=1}^k n_i \overline{v_i} = V \\
+   \sum_{i=1}^k n_i \overline{s_i} = S
+   
+
 expresiones que ya obtuvimos anteriormente (ver ec.(9.9))
+
 Como vimos en el tema anterior (8.10), según las variables utilizadas para expresar los potenciales termodinámicos, el potencial químico tomará la forma:
-dU	_ dH	_ dA	_ dG
-dni	S,V,rij d71'	s,p,n, " dni	T,Vn¡ drii
-(9.25)
-Sólo la última de estas derivadas parciales es una propiedad molar parcial, ya que el término
-Ímolar parcial se aplica sólo a las derivadas parciales en las que las variables independientes son la temperatura, presión y número de moles de cada componente presente.
-|De la última de estas relaciones, y de la definición de G ecuación (9.18c) se obtiene que*
-*De manera análoga puede obtenerse que h¡ =	y que á¡ = ü¡ — Ts¡, siendo á¡ la función molar parcial
-de Helmholtz
-10
-Sistemas multicomponentes. Mezcla no reactiva de gases
-Mi
-£sh-ts)
-- dJL
-~ dn± P,r,n,
-= h{ — Tsí
-- T
-■ T,p,nj
-as
-drii
-P,T,nj
-De (9.25) y (9.23) se obtiene que
-d(m/T)
-dT	p,n
-_Mi_ 1 dgj T2 + T dT
-p, n
-hi - Tsí 1 _
-— — ji2	~ TS'
-= 'k\
-jr2 \
+
+.. math::
+
+   \mu_i = \left. \frac{\partial U}{\partial n_i} \right|_{S,V,n_i} = \left. \frac{\partial H}{\partial n_i} \right|_{S,p,n_j} = \left. \frac{\partial A}{\partial n_i} \right|_{T,V,n_j} = \left. \frac{\partial G}{\partial n_i} \right|_{T,p,n_j}
+   
+   
+   
+Sólo la última de estas derivadas parciales es una propiedad molar parcial, ya que el término molar parcial se aplica sólo a las derivadas parciales en las que las variables independientes son la temperatura, presión y número de moles de cada componente presente.
+
+De la última de estas relaciones, y de la definición de *G* ecuación (9.18c) se obtiene que(*):
+
+.. math::
+
+   \mu_i = \left[ \frac{\partial}{\partial n_i}(H-TS)\right]_{T,p,n_j} = \left. \frac{\partial H}{\partial n_i} \right|_{p,T,n_j} - T \left. \frac{\partial S}{\partial n_i} \right|_{p,T,n_j} = \overline{h_i} - T \overline{s_i}
+
+.. note::
+
+   (*)De manera análoga puede obtenerse que h¡ =	y que á¡ = ü¡ — Ts¡, siendo á¡ la función molar parcial de Helmholtz
+
+
+
+
+
+De (9.25) y (9.23) se obtiene que:
+
+
+.. math::
+
+   \left. \frac{\partial \frac{\mu_i}{T}}{\partial T} \right|_{p;n} = - \frac{\mu_i}{T^2}+ \frac{1}{T}\left. \frac{\partial \mu_i}{\partial T} \right|_{p,n} = - \frac{\overline{h_i}- T\overline{s_i}}{T^2} - \frac{1}{T}\overline{s_i} = - \frac{\overline{h_i}}{T^2}
+
 ecuación utilizada con frecuencia en termodinámica química.
