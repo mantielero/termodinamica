@@ -150,22 +150,19 @@ Ya hemos visto un procedimiento para la evaluación de la fugacidad de un sistem
 
 Para ello recurramos a la ecuación (9.32!) y consideremos un pequeño cambio a temperatura constante.
 
-Si aplicamos esta expresión para calcular el cambio de p a T constante cuando el sistema pasa de la fase I (supongamos gas) a la fase II (líquido), coexistiendo ambas fases en equilibrio, integrando (9.32):
+Si aplicamos esta expresión para calcular el cambio de :math:`\mu` a *T* constante cuando el sistema pasa de la fase *I* (supongamos gas) a la fase *II* (líquido), coexistiendo ambas fases en equilibrio, integrando (9.32):
 
-PlL.
-H = RUT ln ^
-^— h
+.. math::
 
-Pero cuando se produce el paso de una fase a otra en equilibrio, ya vimos que se cumple
-l que pn = pi, por lo que
-U-D
+   \mu_{II} - \mu_I = R_u T \ln \frac{f_{II}}{f_I} = 0 \hspace{2cm} f_{II} = f_I
 
-RUT ln 4^ = 0
-fi
-fu = X
->>
+Pero cuando se produce el paso de una fase a otra en equilibrio, ya vimos que se cumple que :math:`\mu_{II} = \mu_I`, por lo que
 
-) / Por lo tanto la fugacidad de un líquido en condiciones de saturación es igual a la fugacidad /del vapor en las mismas condiciones y ésta ya la sabemos calcular.
+.. math::
+ 
+   R_u T \ln \frac{f_{II}}{f_I} = 0 \hspace{2cm} f_{II} = f_I
+
+Por lo tanto la fugacidad de un líquido en condiciones de saturación es igual a la fugacidad /del vapor en las mismas condiciones y ésta ya la sabemos calcular.
 Consideremos ahora el caso de un/líquido comprimido./ Haciendo aplicación de la ecuación (9.34) se tendrá:
 
 14
