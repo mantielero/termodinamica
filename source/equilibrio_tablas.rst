@@ -234,30 +234,46 @@ Diagrama entalpia-entropía
 --------------------------
 
 También recibe el nombre de diagrama de Mollier de un fluido condensable y no debe confundirse con el diagrama de Mollier del aire húmedo, entalpia-humedad.
+
 Los diagramas h-s permiten medir directamente las variaciones de entalpia que tienen lugar en los sistemas abiertos , tan frecuentes en las aplicaciones técnicas. Este es el motivo principal por el que este tipo de diagramas resulta tan útil en las aplicaciones industriales.
+
 A continuación se estudian algunos aspectos de las líneas de mayor interés en este diagrama, cuyo esquema se representa en la figura 8.10.
-Figura 8.10 Diagrama h-s de una sustancia pura con algunas líneas de interés.
-a)	La pendiente de las isóbaras, cualquiera que sea la región en la que se encuentren, puede obtenerse del potencial entalpia dh = Tds + udp:
-(8.166)
+
+.. figure:: ./img/diag_hs.png
+
+   Diagrama h-s de una sustancia pura con algunas líneas de interés.
+   
+a)	La pendiente de las isóbaras, cualquiera que sea la región en la que se encuentren, puede obtenerse del potencial entalpia :math:`dh = Tds + udp`:
+
+.. math::
+
+    \left( \frac{\partial h}{\partial s} \right)_p = T
+
 aumentando al ir aumentando la temperatura y siempre será positiva.
-En la región bifásica, T permanece constante y las isóbaras son aquí líneas rectas,
+
+En la región bifásica, *T* permanece constante y las isóbaras son aquí líneas rectas.
+
 b)	La pendiente de las isotermas es, en general:
-fdk\ (jp)r v~t(st)p	far
-(g)T -(&),
-P
-(8.167)
-Equilibrio de los sistemas termodinámieos. Transiciones de fase
-47
-De esto se deduce que en la región bifásica, donde T se mantiene constante durante el cambio de fase, se tiene que:
-dT\
-dv)t
-= 0
-S)T-
-(8.168)
+
+.. math::
+
+    \left( \frac{\partial h}{\partial s} \right)_T = \frac{ \left( \frac{\partial h}{\partial p} \right)_T}{ \left( \frac{\partial s}{\partial p} \right)_T} = \frac{v-T \left( \frac{\partial v}{\partial T} \right)_p}{-  \left( \frac{\partial v}{\partial T} \right)_p} = T -v \left( \frac{\partial T}{\partial v} \right)_p
+    
+De esto se deduce que en la región bifásica, donde *T* se mantiene constante durante el cambio de fase, se tiene que:
+
+.. math::
+
+    \left( \frac{\partial T}{\partial vs} \right)_p = 0 \Rightarrow  \left( \frac{\partial h}{\partial s} \right)_T = T
+    
+
 y las isotermas en esta zona del diagrama son líneas rectas que coinciden con las isóbaras.
+
 En la zona de gas, lejos de la curva de saturación, donde el comportamiento puede asemejarse al de gas ideal:
-(f)r = °	(8'169)
-dT\ _ p _ T dv)_ R v
+
+.. math::
+
+    \left( \frac{\partial T}{\partial v} \right)_p = \frac{p}{R} = \frac{T}{v} \Rightarrow  \left( \frac{\partial h}{\partial s} \right)_T = 0
+
 donde se adviente que las isotermas tienden a ser rectas paralelas al eje de abscisas. La pendiente de las isotermas en las regiones líquida y vapor puede ponerse:
 (£),-*- =
 y resulta inferior en 1/a a la pendiente de las isóbaras en dichas zonas del diagrama,
