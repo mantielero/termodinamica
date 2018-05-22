@@ -169,102 +169,84 @@ Proceso real de mezclado
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Consideremos a continuación el caso esquematizado en la figura adjunta:
-Dos depósitos A y B están unidos mediante un con-1	ducto provisto de una llave, en los depósitos hay dos gases
---------- a la misma presión y temperatura, que es la del medio ambiente. Se abre la llave y se espera hasta que se alcanza el -------- *	--------- equilibrio.
 
-La transformación se realiza a T constante y los gases tenderán a difundirse el uno en el otro hasta que llenen todo el depósito, momento en el que alcanzarán, respectivamente, las presiones Pi y P2-
+.. figure:: ./img/depositos_A_B.png
+
+Dos depósitos *A* y *B* están unidos mediante un conducto provisto de una llave, en los depósitos hay dos gases a la misma presión y temperatura, que es la del medio ambiente. Se abre la llave y se espera hasta que se alcanza el equilibrio.
+
+La transformación se realiza a *T* constante y los gases tenderán a difundirse el uno en el otro hasta que llenen todo el depósito, momento en el que alcanzarán, respectivamente, las presiones :math:`p_1` y :math:`p_2`-
 
 Es importante destacar, en este caso, que en las condiciones iniciales los gases están a la misma temperatura y presión y que en el estado final se mantiene la temperatura, pero las presiones de cada gas son distintas, a diferencia de lo que ocurre en el caso analizado en el apartado anterior.
 
 Para calcular la variación de entropía podremos utilizar la ecuación:
 
-ds = ^dT - R — T	v
-ds = -R^-P
-al ser la transformación a T constante:
+.. math::
 
-26
-Sistemas multicomponentes. Mezcla no reactiva de gases
+   ds = \frac{c_p}{T}dT - R \frac{dp}{p}
 
-En el caso del componente i, tendremos que al cambiar su presión de p a la entropía cambia desde s0¿(p, T) a s¿(p¿, T), siendo:
+al ser la transformación a *T* constante:
 
-Si
-di P*
-- s0i = -it ln —
-V
+.. math::
+
+   ds = -R \frac{dp}{p}
+
+En el caso del componente *i*, tendremos que al cambiar su presión de *p* a :math:`p_i` la entropía cambia desde :math:`s_{oi}(p,T)` a :math:`s_{i}(p_i,T)`, siendo:
+
+.. math::
+
+   s_i-s_{oi} = -R \ln \frac{p_i}{p}
 
 esto es:
 
-~ s0i -Rln —
-P
+.. math::
+
+   s_i = s_{oi} - R \ln \frac{p_i}{p}
 
 El valor de la entropía final será:
 
-S = njSj
-X
-= Y' n¡(s0i - Rln —)
-L—¿	p
-i
-= n	— l?y^a;t ln X{
-. i	i
+.. math::
+ 
+   S = \sum_i n_i s_i \\
+   = \sum_i n_i \left( s_{oi} - R \ln \frac{p_i}{p} \right) \\
+   = n \left[ \sum_i x_i s_{oi} - R \sum_i x_i \ln x_i \right]
 
 Esta ecuación, al dividirla entre el número total de moles y reordenarla queda:
 
-^^mezcla — ^	^ ^ ^i^oi — Jí X¿ ln X{	(9.6T)
-t	«
+.. math::
 
-en la que s es la entropía molar de la mezcla a T y p y s01- es la entropía molar del componente i a las mismas T y p. Por lo tanto s — x¡sQi representa el incremento de entropía por mol que se produce al mezclar gases a las mismas T y p. Téngase en cuenta que siempre será positiva ya que X{ siempre será menor que la unidad. Sólo en el caso de que todos los gases sean iguales x = 1 y el incremento de entropía sería nulo ( paradoja de Gibbs). No parece ser que tenga sentido hablar de mezcla en el caso de que consideremos gases iguales en las mismas condiciones de T y p.
+   \Delta s_{\text{mezcla}} = s - \sum_i x_i s_{oi} = -R \sum_i x_i \ln x_i
 
-Se propone como ejercicio el encontrar las condiciones finales en el caso de mezcla de tres gases, contenidos en tres recintos aislados del exterior, y que se encuentran a distinta T y p.
+en la que s es la entropía molar de la mezcla a *T* y *p* y :math:`s_{oi}` es la entropía molar del componente *i* a las mismas *T* y *p*. Por lo tanto :math:`s- \sum_i x_i s_{oi}` representa el incremento de entropía por mol que se produce al mezclar gases a las mismas *T* y *p*. Téngase en cuenta que siempre será positiva ya que :math:`x_i` siempre será menor que la unidad. Sólo en el caso de que todos los gases sean iguales :math:`x = 1` y el incremento de entropía sería nulo (paradoja de Gibbs). No parece ser que tenga sentido hablar de mezcla en el caso de que consideremos gases iguales en las mismas condiciones de *T* y *p*.
+
+Se propone como ejercicio el encontrar las condiciones finales en el caso de mezcla de tres gases, contenidos en tres recintos aislados del exterior, y que se encuentran a distinta *T* y *p*.
 
 Variaciones de las propiedades termodinámicas
 ---------------------------------------------
 
 En el trabajo con mezclas más que los valores de estas propiedades, lo que nos interesa es poder evaluar las variaciones de las mismas cuando la mezcla experimenta un proceso durante el cual la composición permanece constante; esto es, tenemos un sistema formado por varios componentes cuyo número de moles permanece constante durante el proceso, y, por lo tanto, también permanece constante el número de moles de la mezcla.
 
-Las variaciones de U, H, y S durante el proceso, apartir de (9.65) y (9.66), serán:
+Las variaciones de *U*, *H*, y *S* durante el proceso, a partir de (9.65) y (9.66), serán:
 
-Sistemas multicomponentes. Mezcla no reactiva de gases
-27
+.. math::
 
-k
-AU = ^n¿(ui2 - m¿i)
-¿=i
-k
-AH = ^n¿(/i¿2 - hn)	(9.68.a)
-i—i
-k
-AS = ^2 ni(Si2 - Sil)
-1=1
+   \Delta U = \sum_{i=1}^k n_i (u_{i2})-u_{i1}) \\
+   \Delta H = \sum_{i=1}^k n_i (h_{i2})-h_{i1}) \\   
+   \Delta S = \sum_{i=1}^k n_i (s_{i2})-s_{i1}) 
 
-donde y h{ se calculan a la temperatura de la mezcla (a T2 en el instante final y a Ti en el instante inicial) mientras que se calcula a la temperatura y presión de la mezcla; esto es,
+donde :math:`u_i` y :math:`h_i` se calculan a la temperatura de la mezcla (a :math:`T_2` en el instante final y a :math:`T_1` en el instante inicial) mientras que :math:`s_i` se calcula a la temperatura y presión de la mezcla; esto es,
 
-k
-AU= £nt[u¿(T2)-u,(Ti)]
-t=i
-k
-AH = Y.	~ hi(Ti)]	(9-68-b)
-t=i
-k
-AS = £n,MT2,p2) - 6¿(Ti,pi)]
-i=1
+.. math::
 
-ya que lo que hemos denominado ASmezcia es el mismo para el estado inicial y final puesto que no depende ni de T ni de p, sino sólo de la composición según se ve de (9.67).
-du
+   \Delta U &= \sum_{i=1}^k n_i (u_i(T_2)-u_i(T_1)) \\
+   \Delta H &= \sum_{i=1}^k n_i (h_i(T_2)-h_i(T_1)) \\   
+   \Delta S &= \sum_{i=1}^k n_i (s_i(T_2,p_2)-s_i(T_1,p_1)) 
 
-Finalmente si las expresiones dadas en (9.65) las dividimos por n, como cv —
+ya que lo que hemos denominado :math:`\Delta S_{\text{mezcla}}` es el mismo para el estado inicial y final puesto que no depende ni de *T* ni de *p*, sino sólo de la composición según se ve de (9.67).
 
-dT
-dh
-cr dT
 
-se obtienen las expresiones siguientes de los calores específicos a volumen y presión
-constante para una mezcla ideal de gases ideales:
+Finalmente si las expresiones dadas en (9.65) las dividimos por *n*, como :math:`c_v = \left. \frac{\partial u}{\partial T} \right|_v` y :math:`c_p = \left. \frac{\partial h}{\partial T} \right|_p` se obtienen las expresiones siguientes de los calores específicos a volumen y presión constante para una mezcla ideal de gases ideales:
 
-k	r\	k
-EOUi
-x'~ñr ~ / .x'cv' 1 = 1	" 1=1
-A dhi	A
-cp - Z_^Xi - / ,XjCpi
-(9.69)
-i=i
-¿=i
+.. math::
+
+   c_v = \sum_{i=1}^k x_i \left. \frac{\partial u_i}{\partial T} \right|_v = \sum_{i=1}^k x_i c_{vi} \\
+   c_p = \sum_{i=1}^k x_i \left. \frac{\partial h_i}{\partial T} \right|_p = \sum_{i=1}^k x_i c_{pi} 
