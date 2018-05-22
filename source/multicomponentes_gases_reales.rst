@@ -130,13 +130,9 @@ También puede utilizarse el modelo de Kay para calcular las variaciones de las 
 
 .. math::
 
-   \Delta H = n \left[ \right]
+   \Delta H = n \left[ \Delta h^* - \Delta h^c \left( \frac{p_2}{p_c'}, \frac{T_2}{T_c'} \right) + \Delta h^c \left( \frac{p_1}{p_c'}, \frac{T_1}{T_c'} \right) \right] \\
+   \Delta S = n \left[ \Delta s^* - \Delta s^c \left( \frac{p_2}{p_c'}, \frac{T_2}{T_c'} \right) + \Delta s^c \left( \frac{p_1}{p_c'}, \frac{T_1}{T_c'} \right) \right]    
 
-(9.80)
-(9.81)
-Si de una mezcla de gases reales conocemos la temperatura, tanto la inicial como la final del proceso, y el volumen final, para poder utilizar las expresiones (9.80) o (9.81), es preciso
-k
-primero estimar pm =	mediante la ley de la aditividad de las presiones y una vez obtenida,
-¿ = 1
-ya podemos utilizar esas expresiones.
+
+Si de una mezcla de gases reales conocemos la temperatura, tanto la inicial como la final del proceso, y el volumen final, para poder utilizar las expresiones (9.80) o (9.81), es preciso primero estimar :math:`p_m = \sum_{i=1}^k p_i` mediante la ley de la aditividad de las presiones y una vez obtenida, ya podemos utilizar esas expresiones.
 
