@@ -135,32 +135,35 @@ _Estado 1_: :math:`E_1` adosado a *A*. Los gases 1 y 2 están no mezclados, a la
 
 Estado 2: Gas perfecto mezclado a la temperatura *T*.
 
-Desplazando, tan lentamente como sea preciso, el conjunto E1-E2 de los dos émbolos ligados mediante el vástago 1, se obtiene una zona de mezcla entre las paredes Ei y A; el desplazamiento inverso separa los gases, siendo la operación reversible, por lo que puede imaginarse una sucesión de estados de equilibrio entre los estados inicial y final.
+Desplazando, tan lentamente como sea preciso, el conjunto :math:`E_1-E_2` de los dos émbolos ligados mediante el vástago 1, se obtiene una zona de mezcla entre las paredes :math:`E_1` y *A*; el desplazamiento inverso separa los gases, siendo la operación reversible, por lo que puede imaginarse una sucesión de estados de equilibrio entre los estados inicial y final.
 
-Es importante destacar que los volúmenes ocupados por el gas 1 y 2, no varían durante el proceso, por lo que, al mantenerse la temperatura, tampoco variarán pi y P2-
+Es importante destacar que los volúmenes ocupados por el gas 1 y 2, no varían durante el proceso, por lo que, al mantenerse la temperatura, tampoco variarán :math:`p_1` y :math:`p_2`.
 
-Si denominamos Ac al área de la sección recta del cilindro, el émbolo Ei está sometido en su cara izquierda a un fuerza p\ Ac dirigida hacia la derecha y en la cara derecha a una fuerza -(pi + P2) Ac dirigida hacia la izquierda. La fuerza resultante sobre Ei es -p2 Ac.
+Si denominamos :math:`A_c` al área de la sección recta del cilindro, el émbolo :math:`E_1` está sometido en su cara izquierda a un fuerza :math:`p_1 A_c` dirigida hacia la derecha y en la cara derecha a una fuerza :math:`-(p_1+p_2)A_c` dirigida hacia la izquierda. La fuerza resultante sobre :math:`E_1` es :math:`-p_2 A_c`.
 
-Sistemas multicomponentes. Mezcla no reactiva de gases
-25
+El sistema ejerce sobre la cara izquierda de :math:`E_2` una fuerza :math:`p_2 A_c`, por lo que la fuerza resultante sobre el sistema en conjunto de los dos émbolos es nula, como corresponde a una evolución en equilibrio.
 
-El sistema ejerce sobre la cara izquierda de E2 una fuerza P2 Ac, por lo que la fuerza resultante sobre el sistema en conjunto de los dos émbolos es nula, como corresponde a una evolución en equilibrio.
+De lo que acabamos de ver resulta que el trabajo es nulo, la temperatura es constante durante el proceso por lo que :math:`\Delta U = 0`, aplicando el primer principio obtenemos
 
-De lo que acabamos de ver resulta que el trabajo es nulo, la temperatura es constante durante el proceso por lo que AU = 0, aplicando el primer principio obtenemos
+.. math::
 
-Q 1,2 = 0
-Q\i
+   Q_{1,2} = 0
 
-Al ser la transformación reversible AS = —'1 = 0 por lo que
 
-S - S0 = ns - n¡s0i - 0
+Al ser la transformación reversible :math:`\Delta S = \frac{Q_{1,2}}{T} = 0` por lo que
+
+.. math::
+
+   S - S_o = ns - \sum_i n_i s_{oi} = 0
 
 Esto es:
 
-ns = V] n,s0¿; s = ^2xíS0í	(9.66)
-t	i
+.. math::
 
-En (9.66) s es la entropía molar de la mezcla a T y p y es la entropía del componente i evaluada a T y p¡, es decir en las condiciones iniciales.
+   ns = \sum_i n_i s_{oi} \\
+   s = \sum_i x_i s_{oi}
+
+En (9.66) s es la entropía molar de la mezcla a *T* y *p* y :math:`s_{oi}` es la entropía del componente *i* evaluada a *T* y :math:`p_i`, es decir en las condiciones iniciales.
 
 Proceso real de mezclado
 ^^^^^^^^^^^^^^^^^^^^^^^^
