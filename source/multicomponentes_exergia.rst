@@ -45,5 +45,6 @@ a) el trabajo máximo que puede obtenerse manteniendo constante la composición 
 
 b) la exergía química dada por la expresión (9.56) pudiéndose expresar la exegía total, Ex, como:
 
-Ex — $)n. + Exq
-(9.58)
+.. math::
+
+   E_x =  \left. \Phi \right)_{n_i} + E_{xq}
