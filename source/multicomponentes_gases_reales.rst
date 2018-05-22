@@ -127,6 +127,11 @@ siendo (:math:`p_2`,:math:`T_2`) el estado final del proceso y (:math:`p_1`,:mat
 Hay que resaltar el hecho de que en la forma en que se han deducido las expresiones (9.76) a (9.78) subyace la hipótesis de la ley de aditividad de los volúmenes, de modo que la ley de aditividad de las presiones no es válida para calcular las variaciones de energía interna, entalpia y entropía de una mezcla ideal de gases reales utilizando el modelo de estados correspondientes.
 
 También puede utilizarse el modelo de Kay para calcular las variaciones de las propiedades termodinámicas de las que nos estamos ocupando. En este caso la mezcla se considera como un único gas real que tuviese como valores críticos de presión y temperatura los dados por (9.74), siendo en este caso las variaciones de entalpia y entropía:
+
+.. math::
+
+   \Delta H = n \left[ \right]
+
 (9.80)
 (9.81)
 Si de una mezcla de gases reales conocemos la temperatura, tanto la inicial como la final del proceso, y el volumen final, para poder utilizar las expresiones (9.80) o (9.81), es preciso
