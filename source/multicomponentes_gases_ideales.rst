@@ -129,11 +129,11 @@ Lo mismo podemos decir de la entalpia. Para analizar la variación de entropía 
 
 .. figure:: ./img/fig_9_2.png
 
-Sea un dispositivo en el que mediante émbolos rígidos se confinan dos gases según se muestra en la figura. El émbolo Ei es permeable al gas 1, el tabique A es permeable al gas 2 y el E2 es impermeable.
+Sea un dispositivo en el que mediante émbolos rígidos se confinan dos gases según se muestra en la figura. El émbolo :math:`E_1` es permeable al gas 1, el tabique *A* es permeable al gas 2 y el :math:`E_2` es impermeable.
 
-Estado 1: Ei adosado a A. Los gases 1 y 2 están no mezclados, a la temperatura T y presiones respectivas P1 y P2-
+_Estado 1_: :math:`E_1` adosado a *A*. Los gases 1 y 2 están no mezclados, a la temperatura *T* y presiones respectivas :math:`p_1` y :math:`p_1`-
 
-Estado 2: Gas perfecto mezclado a la temperatura T.
+Estado 2: Gas perfecto mezclado a la temperatura *T*.
 
 Desplazando, tan lentamente como sea preciso, el conjunto E1-E2 de los dos émbolos ligados mediante el vástago 1, se obtiene una zona de mezcla entre las paredes Ei y A; el desplazamiento inverso separa los gases, siendo la operación reversible, por lo que puede imaginarse una sucesión de estados de equilibrio entre los estados inicial y final.
 
