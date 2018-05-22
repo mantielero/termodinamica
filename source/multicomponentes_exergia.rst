@@ -41,7 +41,7 @@ a) el trabajo máximo que puede obtenerse manteniendo constante la composición 
 
 .. math::
 
-   E_{xtm} = \left. \Phi \right)_{n_i} = \left[ [(E - E_o) + p_o(V - V_o) - T_o(S - So) \right]_{n_i}
+   E_{xtm} = \left. \Phi \right)_{n_i} = \left[ (E - E_o) + p_o(V - V_o) - T_o(S - So) \right]_{n_i}
 
 b) la exergía química dada por la expresión (9.56) pudiéndose expresar la exegía total, Ex, como:
 
