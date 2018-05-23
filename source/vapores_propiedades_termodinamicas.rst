@@ -216,73 +216,81 @@ Esta última expresión puede ponerse, sin más que sumar y restar :math:`R_v \l
 
 .. math::
 
-   s_v = \frac{h_{lv}(T_{ref})}{T_{ref}} + c_{p_v} \ln \frac{T}{T_{ref}} - R_v \ln \frac{p^*(T)}{p^*(T_{ref})} - R_v\ln \phi \\
-   s_g(T) - R_v \ln \phi
+   s_v &= \frac{h_{lv}(T_{ref})}{T_{ref}} + c_{p_v} \ln \frac{T}{T_{ref}} - R_v \ln \frac{p^*(T)}{p^*(T_{ref})} - R_v\ln \phi \\
+   &= s_g(T) - R_v \ln \phi
 
 Así, pues, podremos escribir para la entropía del aire húmedo:
 
-(10.28.C)
-, T n , Pa s - cPa ln —-------ña ln---------b w
-Tref	Pref
-hlv(Tref) Tref
-P*(T)
-+ cPv ln —1-----------ñu ln	7 N - ñu ln 0
-J- i
-(10.29)
-[re/	P*(Tref)
+.. math::
 
-Si el aire húmedo está sobresaturado las expresiones de la entropía para ese aire serán: Si 6 > 0,01°C
-s = sa +w3aiSp + (w - u3at)s¡	(10.30.a)
-donde sa viene dado por (10.28.a), sg se obtiene de (10.28.c) haciendo <f) — 1 y s¡ es:
+   s = c_{p_a} \ln \frac{T}{T_{ref}} - R_a \ln \frac{p_a}{p_{ref}} + \omega \left[ \frac{h_{lv}(T_{ref})}{T_{ref}} + c_{p_v} \ln \frac{T}{T_{ref}} - R_v \ln \frac{p^*(T)}{p^*(T_{ref})} - R_v\ln \phi \right]
 
-si = c, ln-— = sf(T)
-1 ref
-(10.30.b)
-sí e < o,oi°c
-s = sa + 0J,atsg + (¡Jj - u,at)s,	(10.31.a)
+Si el aire húmedo está sobresaturado las expresiones de la entropía para ese aire serán: 
 
-sa, en este caso, también viene dada por (10.28.a) y sg es la misma que en el caso anterior. La expresión de ss es:
+Si :math:`\theta  > 0.01°C`
 
-ss =	+ cs ln	(10.31.b)
-ref	r rej
+.. math::
 
-Aire húmedo en equilibrio con agua líquida
+   s = s_a + \omega_{sat} s_g + (\omega - \omega_{sat}) s_l
 
-Habrá ocasiones en las que el aire húmedo se encuentre en equilibrio con agua h'quida, y para esos casos conviene analizar la influencia que sobre la presión de saturación del agua tiene la presencia del aire seco.
+donde :math:`s_a` viene dado por (10.28.a), :math:`s_g` se obtiene de (10.28.c) haciendo :math:`\phi = 1` y :math:`s_l` es:
 
-Partimos del hecho de que el aire seco no está, prácticamente, disuelto en el agua líquida*; esto es, podemos considerar el agua líquida, en presencia de aire húmedo saturado, como una sustancia pura. Como hay equilibrio entre el agua en fase líquida y fase vapor se debe verificar que:
+.. math::
 
-P-l(T, p) — flv(T, Pv.aat)
+   s_l = c_l \ln \frac{T}{T_{ref}} = s_f(T)
 
-y como ya vimos en el tema anterior, para un sistema monocomponente p = h — Ts, luego tendremos para el agua líquida y para el agua vapor los valores:
-*De la ley de Henry se obtiene que las fracciones molares de Oí y Ni disueltas en el agua liquida son %o2 — 4.76 • 10-6 y xjv2 = 9.14 • 10~6, lo cual supone que hay 8,5 gramos de Oí y 14,1 gramos de Ni disueltos en 1 m3 de agua. Estas cantidades son lo suficientemente pequeñas como para poder considerar el agua como una sustancia pura
+Si :math:`\theta  < 0.01°C`
 
-Mezclas de gases y vapores. Psicrometría
-11
-m = h¡- Ts,
-= hf(T) + P~P*(T>) -Ts}(T) Pt
-Pv — *^v	TSV{T, Pv%sat)
-= h9(T) - T
-sg(T)-Rv ln^fi P .
+.. math::
 
-En la que p* es la presión de saturación del agua como sustancia pura. Y como hg(T) — h¡(T) = T[sg{T) — sj(T)}, la condición de igualdad de los potenciales químicos implica:
+   s = s_a + \omega_{sat} s_g +  (\omega - \omega_{sat}) s_s
 
-= RvTinP^Í
-Pt	P*
+:math:`s_a`, en este caso, también viene dada por (10.28.a) y :math:`s_g` es la misma que en el caso anterior. La expresión de :math:`s_s` es:
+
+.. math::
+
+   s_s = \frac{h_{ls}}{T_{ref}} + c_s \ln \frac{T}{T_{ref}}
+   
+
+_Aire húmedo en equilibrio con agua líquida_
+
+Habrá ocasiones en las que el aire húmedo se encuentre en equilibrio con agua líquida, y para esos casos conviene analizar la influencia que sobre la presión de saturación del agua tiene la presencia del aire seco.
+
+Partimos del hecho de que el aire seco no está, prácticamente, disuelto en el agua líquida(*); esto es, podemos considerar el agua líquida, en presencia de aire húmedo saturado, como una sustancia pura. Como hay equilibrio entre el agua en fase líquida y fase vapor se debe verificar que:
+
+.. math::
+
+   \mu_l(T,p) = \mu_v(T, p_{v,sat})
+   
+
+y como ya vimos en el tema anterior, para un sistema monocomponente :math:`\mu = h — Ts`, luego tendremos para el agua líquida y para el agua vapor los valores:
+
+.. note::
+
+   (*) De la ley de Henry se obtiene que las fracciones molares de Oí y Ni disueltas en el agua liquida son %o2 — 4.76 • 10-6 y xjv2 = 9.14 • 10~6, lo cual supone que hay 8,5 gramos de Oí y 14,1 gramos de Ni disueltos en 1 m3 de agua. Estas cantidades son lo suficientemente pequeñas como para poder considerar el agua como una sustancia pura
+
+
+.. math::
+
+   \mu_l &= h_l - T s_l \\
+   &= h_f(T) + \frac{p-p^*(T)}{\rho_l} - T s_f(T)
+   
+.. math::
+   
+   \mu_v = h_v-T s_v(T,p_{v,sat}) \\
+    = h_g(T) - T \left[ s_g(T) - R_v \ln \frac{p_{v,sat}}{p^*}\right] 
+    
+En la que :math:`p^*` es la presión de saturación del agua como sustancia pura. Y como :math:`h_g(T) — h_f(T) = T\left[s_g(T) — s_f(T)\right]`, la condición de igualdad de los potenciales químicos implica:
+
+.. math::
+
+   \frac{p- p^*(T)}{\rho_l} = R_v T \ln \frac{p_{v,sat}}{p^*}
+
+
 esto es:
-Pv, sai
-= exp
-P ~ P*(T)
-RvTpi ,
-1 +
-P ~ P*(T)
-RvTpi
-p - p*(T)
 
-si  ------—- < 1, cosa que sucede si, en el intervalo de temperaturas normales de trabajo, p <
-RvTpi
-P ~ P*(T)
-140 MPa. Y si ponemos que pVySat = P*{T) el error que se comete es del orden de —------X
--L^V-L Pl
+.. math::
 
-100. Así pues, en todos nuestros análisis de procesos de aire húmedo, cuando tengamos el aire en equilibrio con agua líquida tomaremos como presión de saturación la correspondiente al agua como sustancia pura.
+   \frac{p_{v,sat}}{p^*} = \exp{ \frac{p- p^*(T)}{R_v T \rho_l} } \approx 1 + \frac{p- p^*(T)}{R_v T \rho_l} 
+   
+si :math:`\frac{p- p^*(T)}{R_v T \rho_l} \ll 1`, cosa que sucede si, en el intervalo de temperaturas normales de trabajo, :math:`p \ll 140MPa`. Y si ponemos que :math:`p_{v,sat} = p^*(T)` el error que se comete es del orden de :math:`\frac{p- p^*(T)}{R_v T \rho_l} \times 100`. Así pues, en todos nuestros análisis de procesos de aire húmedo, cuando tengamos el aire en equilibrio con agua líquida tomaremos como presión de saturación la correspondiente al agua como sustancia pura.
