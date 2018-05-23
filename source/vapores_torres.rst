@@ -89,7 +89,7 @@ En la mayoría de los casos el calor transferido con los alrededores es despreci
 
 .. math::
  
-   \dot{m}_a = \dot{m}_{l_1} (h_{l_1} - h_{l_4})}{ h_{a_5}- h_{a_2} + \omega_5 h_{v_5} - \omega_2 h_{v_2} - (\omega_5 - \omega_2) h_{l_3}}
+   \dot{m}_a = \frac{ \dot{m}_{l_1} (h_{l_1} - h_{l_4}) }{ h_{a_5}- h_{a_2} + \omega_5 h_{v_5} - \omega_2 h_{v_2} - (\omega_5 - \omega_2) h_{l_3}}
    
 y reordenándola se obtiene
 
