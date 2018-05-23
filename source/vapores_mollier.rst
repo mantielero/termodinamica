@@ -17,7 +17,7 @@ A) Si el aire húmedo sólo contiene vapor de agua, ya vimos que su entalpia es 
 
    h = c_{p_a}\theta + \omega \left[ h_{lv}(\theta_{ref}) + c_{p_v}\theta \right]
 
-por lo que en un diagrama (h, :math:`\omega`), las isotermas :math:`\theta = \cte` son rectas de pendiente
+por lo que en un diagrama (h, :math:`\omega`), las isotermas :math:`\theta = cte` son rectas de pendiente
 
 .. math::
 
