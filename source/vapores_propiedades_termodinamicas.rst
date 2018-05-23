@@ -51,21 +51,18 @@ Entre va y v existe la relación:
   va_ = (l + ºomega)v
   
 
-siendo  :math:`(1 + \omega)` la relación ------;------. Evidentemente entre p y va existe la relación:
+siendo  :math:`(1 + \omega)` la relación  :math:`\frac{\text{masa de aire húmedo}}{\text{masa de aire seco}}`. Evidentemente entre :math:`\rho` y :math:`v_a` existe la relación:
 
-masa de aire seco
-(1 +w)
-a —
-V,
-P
-(10.14)
-Mezclas de gases y vapores. Psicrometría
-7
+.. math::
+   
+   v_a = \frac{(1 + \omega)}{\rho}
+
 
 Entalpia, energía interna y entropía del aire húmedo
 ----------------------------------------------------
 
 De manera análoga al volumen específico, cuando se utilizan valores específicos de estas propiedades termodinámicas se hace por unidad de aire seco y no por unidad de masa de mezcla.
+
 El estado de referencia elegido para poder evaluar estas propiedades, mejor dicho sus variaciones, es un estado de equilibrio termomecánico, pero no de equilibrio químico. Es un estado en el que a temperatura 9rej = 0,01°C y pTej — 100 kPa el aire seco y el agua líquida están separados y para los cuales ha(0ref) = 0, h¡(9ref, pref) = 0, sa(9ref, pref) = 0y s,(9ref) = 0 (Hay que hacer notar que al dar estos valores se está suponiendo comportamiento perfecto para el gas y para el líquido).
 
 De acuerdo con (9.65), la entalpia del aire h 'medo podemos expresarla como:
