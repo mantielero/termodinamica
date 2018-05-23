@@ -62,20 +62,29 @@ b) Ecuación de la conservación de la energía (suponiendo que las variaciones 
 
 .. math::
 
-   \dot{Q}  + \dot{W} = 
+   \dot{Q}  + \dot{W} &= h_{l_4} \dot{m}_{l_4} + (\dot{m}_{a_5} h_{a_5} + \dot{m}_{v_5} h_{v_5}) - \\
+   &- h_{l_1} \dot{m}_{l_1} - (\dot{m}_{a_2} h_{a_2} + \dot{m}_{v_2} h_{v_2}) - h_{l_3} \dot{m}_{l_3}
+   
 Teniendo en cuenta que
-mV2 = u2rna
-772 f 5 — ^5 722 a
 
-considerando la ecuación (10.68) y que la cantidad de agua que circula por el sistema a refrigerar debe ser constante (m/j = rñ;4) se obtiene de la ecuación (10.69) que
+.. math::
 
-mi3 = (w5 - u2)ma
+   \dot{m}_{v_2} = \omega_2 \dot{m}_{a} \\
+   \dot{m}_{v_5} = \omega_5 \dot{m}_{a} \\
+   
+
+considerando la ecuación (10.68) y que la cantidad de agua que circula por el sistema a refrigerar debe ser constante (:math:`\dot{m}_{l_1} = \dot{m}_{l_4}`) se obtiene de la ecuación (10.69) que
+
+.. math::
+ 
+   \dot{m}_{l_3} = (\omega_5 - \omega_2) \dot{m}_a
 
 De la ecuación (10.70) se obtiene que
-_ ________Q + W + mh(hh - h¡t)___________
-has ~ ha2 + u$hVb — u2hV2 — (u>5 - uj2)h¡3
-(10.71)
 
+.. math::
+ 
+   \dot{m}_a = \frac{\dot{Q} + \dot{W} + \dot{m}_{l_1} (h_{l_1} - h_{l_4})}{ h_{a_5}- h_{a_2} + \omega_5 h_{v_5} - \omega_2 h_{v_2} - (\omega_5 - \omega_2) h_{l_3}}
+   
 En la mayoría de los casos el calor transferido con los alrededores es despreciable (Q = 0) y la potencia requerida por el ventilador en las torres de convección forzada también es despreciable frente al resto de las energías (W = 0), por lo que la ecuación (10.71) se reduce a
 
 ____________mx(hh ~ hu)_______________
