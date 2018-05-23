@@ -28,29 +28,30 @@ y de la definición de humedad (ec. 10.3) podremos escribir:
  
    \rho = \frac{1 + \omega}{1 + \tilde{\omega}} \frac{p}{R_a T}
 
-Como (1 + tu) es siempre menor que (1 + cu), al aumentar la humedad del aire disminuye la densidad del mismo.
+Como :math:`(1 + \omega)` es siempre menor que :math:`(1 + \tilde{\omega})`, al aumentar la humedad del aire disminuye la densidad del mismo.
 
-En vez de la densidad, a menudo se trabaja con su inversa el volumen específico del aire húmedo. Cuando se maneja esta propiedad suele usarse como magnitud de referencia la cantidad de aire seco ma. Por definición, el volumen específico con referencia a la cantidad de aire seco, es:
+En vez de la densidad, a menudo se trabaja con su inversa el volumen específico del aire húmedo. Cuando se maneja esta propiedad suele usarse como magnitud de referencia la cantidad de aire seco :math:`m_a`. Por definición, el volumen específico con referencia a la cantidad de aire seco, es:
 
-Va =
-volumen de aire húmedo
-V	R T
-— = (1 + w)----
-ma	p
-a ■	-	— v- ■ -y	(10.12)
+.. math::
 
-masa de aire seco	™	'	v '
+   v_a = \frac{\text{volumen de aire húmedo}}{\text{masa de aire seco}} = \frac{V}{m_a} = (1+\tilde{\omega}) \frac{R_a T}{p}
 
-El volumen específico así definido difiere de la difinición corriente, en la que la magnitud
+El volumen específico así definido difiere de la definición corriente, en la que la magnitud
 de referencia es la masa de la mezcla:
 
-volumen de aire húmedo	V
-masa de aire húmedo ma + mv
-Entre va y v existe la relación:
-va = (l + u)v	(10.13)
-, ,, ,	.	. ., masa de aire húmedo „
+.. math::
 
-siendo (1 + tu) la relación ------;------. Evidentemente entre p y va existe la relación:
+   v_a = \frac{\text{volumen de aire húmedo}}{\text{masa de aire húmedo}} = \frac{V}{m_a+m_v}
+
+
+Entre va y v existe la relación:
+
+.. math::
+
+  va_ = (l + ºomega)v
+  
+
+siendo  :math:`(1 + \omega)` la relación ------;------. Evidentemente entre p y va existe la relación:
 
 masa de aire seco
 (1 +w)
