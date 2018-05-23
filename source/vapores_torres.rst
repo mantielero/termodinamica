@@ -95,7 +95,7 @@ y reordenándola se obtiene
 
 .. math::
  
-   \dot{m}_a = \dot{m}_{l_1} (h_{l_1} - h_{l_4})}{ (h_{a_5}   + \omega_5 h_{v_5})- (h_{a_2}  + \omega_2 h_{v_2}) - (\omega_5 - \omega_2) h_{l_3}}
+   \dot{m}_a = \frac{ \dot{m}_{l_1} (h_{l_1} - h_{l_4})}{ (h_{a_5}   + \omega_5 h_{v_5})- (h_{a_2}  + \omega_2 h_{v_2}) - (\omega_5 - \omega_2) h_{l_3}}
    
 Los valores de las entalpias del vapor de agua y del agua líquida se pueden evaluar considerando la entalpia del vapor saturado y líquido saturado, a sus temperaturas respectivas.
 
