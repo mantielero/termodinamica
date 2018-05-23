@@ -1,31 +1,32 @@
 Propiedades termodinámicas del aire húmedo
 ==========================================
 
-Al estudiar procesos que involucren al aire húmedo y tener que aplicar tanto el primer principio como el segundo bien a sistemas abiertos bien a sistemas cerrados, nos encontramos
-
-
-
-con que hay que evaluar variaciones tanto de energía interna como de entalpia y/o entropía. Por ello en esta sección vamos a ver cómo se pueden evaluar estas propiedades termodinámicas además de dar la expresión de la densidad del aire húmedo. En general, todas estas propiedades se dan por unidad de masa de aire seco que es el componente de la mezcla que se mantiene constante en, prácticamente, todos los procesos. Al final de la sección se dirá cómo se pasa de la unidad de aire seco a la unidad de mezcla.
+Al estudiar procesos que involucren al aire húmedo y tener que aplicar tanto el primer principio como el segundo bien a sistemas abiertos bien a sistemas cerrados, nos encontramos con que hay que evaluar variaciones tanto de energía interna como de entalpia y/o entropía. Por ello en esta sección vamos a ver cómo se pueden evaluar estas propiedades termodinámicas además de dar la expresión de la densidad del aire húmedo. En general, todas estas propiedades se dan por unidad de masa de aire seco que es el componente de la mezcla que se mantiene constante en, prácticamente, todos los procesos. Al final de la sección se dirá cómo se pasa de la unidad de aire seco a la unidad de mezcla.
 
 
 Densidad del aire húmedo
 ------------------------
 
 
-La densidad del aire húmedo depende de la temperatura T, de la presión p y de la humedad cu. De la definición de densidad tenemos que:
-ma “j" TTly
-P= V
+La densidad del aire húmedo depende de la temperatura *T*, de la presión *p* y de la humedad :math:`\omega`. De la definición de densidad tenemos que:
 
-Si sustituimos en (10.9) el valor de V obtenido de las ecuaciones (10.2), V = (ma~^a Íl mvRv)T , .	P
-se obtiene:
+.. math::
 
-P =
-ma + m„
+   \rho = \frac{m_a+m_v}{V}
+   
 
-maRa + mvRv T y de la definición de humedad (ec. 10.3) podremos escribir:
+Si sustituimos en (10.9) el valor de *V* obtenido de las ecuaciones (10.2), :math:`V = \frac{(m_a R_a + m_v R_v)T}{p}`, se obtiene:
 
-1 + cu p	,
-9 ~ 1 +ÜÍJ	(10.10)
+.. math::
+ 
+   \rho = \frac{m_a + m_v}{m_a R_a + m_v R_v} \frac{p}{T}
+
+
+y de la definición de humedad (ec. 10.3) podremos escribir:
+
+.. math::
+ 
+   \rho = \frac{1 + \omega}{1 + \tilde{\omega}} \frac{p}{R_a T}
 
 Como (1 + tu) es siempre menor que (1 + cu), al aumentar la humedad del aire disminuye la densidad del mismo.
 
