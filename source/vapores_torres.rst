@@ -6,13 +6,16 @@ En multitud de procesos industriales es necesario refrigerar determinados sistem
 En un caso o en otro se debe enfriar el agua caliente, que sale del sistema a refrigerar, para, respectivamente, evitar contaminación térmica o poder volver a utilizar el agua de nuevo. Para enfriar el agua se utilizan las llamadas torres de enfriamiento.
 
 En una torre de enfriamiento se hace interaccionar una corriente de aire con el agua a enfriar (finamente pulverizada para favorecer el contacto). En este proceso una pequeña cantidad de agua se evapora, suministrando parte de la energía necesaria para su evaporación el resto del agua, que de esta manera disminuye su temperatura. El esquema de una torre de enfriamiento se puede ver en la (fig.30).
+
+.. figure:: ./img/torres_fig30.png
+
+
 Para lograr aumentar la superficie de contacto del agua y el aire se suele disponer de algún elemento (láminas o tubos) que logran dicho efecto al gotear el agua en ellos. A dichos elementos, en conjunto, se les suele denominar como relleno.
 
 Debido a la evaporación, la cantidad de agua existente en la torre va disminuyendo con el tiempo, para evitar este efecto se necesita añadir agua desde el exterior (agua de aporte).
 Salida de la mezcla de aire-vapor
 
-(5)
-Fig.30	Fig.31
+.. figure:: ./img/torres_fig31.png
 
 Las torres de enfriamiento se pueden presentar con diversas configuraciones.
 
@@ -22,44 +25,44 @@ De acuerdo con el mecanismo por el que circula el aire en la torre, estas se cla
 
 a)	Torres de convección forzada si hay algún elemento mecánico, por ejemplo un ventilador, que obliga a circular el aire a través de la torre (fig.30).
 b)	Torres de convección natural si el aire circula a través de la torre por mecanismos naturales (convección natural). En este caso el tipo de torre más frecuente es el denominado “hiperbólico” (fig.31).
+
 Si se atiende a la dirección en la que circulan el agua y el aire en la torre, estas se pueden ser:
+
 a) Torres de flujo a contracorriente si el agua y el aire circulan en la misma dirección y sentidos opuestos.
 b)	Torres de flujo cruzado si el agua y el aire circulan en direcciones perpendiculares.
 c)	Torres combinadas cuando se tiene una combinación de las anteriores.
 
 Un esquema de los diversos tipos se puede ver en la fig.32.
 
-TIPO D£ TORRE	IMPULSO	SUCCION
-CONTRACORRIENTE	^ 1 h	l"fl
-	1	I
-CRUZADA	jih	—1 -
-| AJfiE	.■—e» VOLADOR
-Fig.32
+.. figure:: ./img/torres_fig32.png
 
 La elección de un tipo u otro de torre, depende del tipo de instalación (tipo de industria), cantidad de agua a enfriar y costes de instalación y mantenimiento. A continuación se exponen algunas consideraciones que dan una idea del tipo de torre a utilizar en cada caso:
 
-	FORZADA	NATURAL
-Coste de bombeo del agua	BAJO	ALTO
-Consumo de potencia total de equipos auxiliares	ALTO	BAJO (por no tener que mover el aire)
-Costes de mantenimiento	ALTO	BAJO
-Impacto ambiental (nieblas a nivel de suelo)	ALTO	BAJO (por ser el aire lanzado a gran altura)
-Influencia de las condiciones de la planta y condiciones ambientales	BAJO	ALTO
-Costes de capital	BAJO (en instalaciones de pequeño tamaño)	(mejores en grandes instalaciones)
+
+.. figure:: ./img/torres_tabla.png
 
 Suponiendo que la torre funciona en régimen estacionario, la ecuación de conservación de la masa para el aire seco y el agua, junto con la ecuación de conservación de la energía aplicadas a la torre en su conjunto, proporcionan información de las características de su funcionamiento. Utilizando la nomenclatura de la fig.30 se tendrá:
 
 a) Ecuación de conservación de la masa:
-Mezclas de gases y vapores. Psicrometría
-45
-•	para el aire seco:
-ma2 = mas = ma	(10.68)
-•	para el agua:
-m(l + m„2 + m¡3 = m¡4 + rhVb	(10.69)
+
+* para el aire seco:
+
+.. math::
+
+   \dot{m}_{a_2} = \dot{m}_{a_5} = \dot{m}_{a}
+   
+* para el agua:
+
+.. math::
+
+   \dot{m}_{l_1} + \dot{m}_{v_2} + \dot{m}_{l_3} = \dot{m}_{l_4} + \dot{m}_{v_5}
+
 
 b) Ecuación de la conservación de la energía (suponiendo que las variaciones de las energías cinética y potencial son despreciables):
-Q + W= h¡4 m/4 + (ma5/ia5 + mVbhVb)~
-/iqm/j (ma2ha2 -f* hv2) hi3irii3
-(10.70)
+
+.. math::
+
+   \dot{Q}  + \dot{W} = 
 Teniendo en cuenta que
 mV2 = u2rna
 772 f 5 — ^5 722 a
