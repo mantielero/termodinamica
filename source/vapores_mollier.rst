@@ -54,7 +54,7 @@ Las líneas de humedad relativa constante se dibujan por puntos calculando, a un
 
 con lo que la entalpía del aire húmedo podemos expresarla en la forma
 
-. math::
+.. math::
 
   h = c_{p_a} \theta + 0.622 \frac{\phi \cdot p^*}{p - \phi \cdot p^*} \left[ h_{lv}(\theta_{ref}) + c_{p_v} \theta \right]
 
