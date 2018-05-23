@@ -92,121 +92,132 @@ Con el estado de referencia mencionado anteriormente y en la consideración de c
    h = c_{p_a} \theta + \omega \left( \frac{p^*(\theta_{ref}) -p_{ref}}{\rho_l} +h_{lv}(0.01°C) + c_{p-v} \theta \right)
 
 
-y+:M0,01°o) + Cp^)J )	(10.16)
----------—-----J___
 
-En la expresión anterior el término -------------T— es despreciable (su valor es -0,099 kJ-
-Pi
-kg_1) frente a cualquiera de los otros dos términos (hiv(9rej) = 2501,4 kJ- kg 1 y cPv0 = 1,82 kJ- kg-1 si 9 — 1°C), por lo que para el aire húmedo no saturado y saturado puede ponerse :
-jjh = Cp
+En la expresión anterior el término :math:`p^*(\theta_{ref}) -p_{ref}}{\rho_l}` es despreciable (su valor es :math:`0.099\frac{kJ}{kg}`) frente a cualquiera de los otros dos términos ( :math:`h_{lv}(\theta_{ref}=2501.4\frac{ kJ}{kg}` y :math:`c_{p_v} \theta  = 1.82 \frac{kJ}{kg}-1 si :math:`\theta = 1°C`), por lo que para el aire húmedo no saturado y saturado puede ponerse:
 
-— CVa ^	^ tylvi^ref ) 4“ C-
-■4
-(10.17)
+.. math::
 
-Para el aire húmedo sobresaturado, distinguiremos dos casos según que 9 sea mayor o menor que 0,01 °C; esto es, según que el condensado sea líquido o sólido.
-Para el primer caso (9 > 0,01°C):
+   h = c_{p-a} \theta + \omega \left[ h_{lv}(\theta_{ref}) + c_{p_v}\theta \right]
 
-8
-Mezcléis de gases y vapores. Psicrometría
-h = ha +usath¿ + (u>-u>sat)hp	(10.18)
+Para el aire húmedo sobresaturado, distinguiremos dos casos según que :math:`\theta` sea mayor o menor que :math:`0.01°C`; esto es, según que el condensado sea líquido o sólido.
 
-donde /i¡ es la entalpia del líquido a la temperatura y presión (T, p) del aire húmedo saturado y hg es la entalpia del vapor saturado a la temperatura (T); esto es, la expresión que nos da el valor de esta entalpia, teniendo en cuenta el estado de referencia elegido, es:
+Para el primer caso (:math:`\theta > 0.01°C`):
 
-hi = c,6 + P~Preí	(10.19)
-Pi
+.. math::
+
+   h = h_a + \omega_{sat} h_g + (\omega - \omega_{sat})h_l
+
+
+donde :math:`h_l` es la entalpia del líquido a la temperatura y presión (*T*, *p*) del aire húmedo saturado y :math:`h_g` es la entalpía del vapor saturado a la temperatura (*T*); esto es, la expresión que nos da el valor de esta entalpia, teniendo en cuenta el estado de referencia elegido, es:
+
+.. math::
+
+   h_l = c_l \theta + \frac{p-p_{ref}}{\rho_l}
 
 y si despreciamos el término de la presión en la evaluación de la entalpia del líquido nos quedará:
 
-h = cpJ + usat [h¡v(9ref) + cPv9] + (u - usat) c¡9	(10.20)
-Y	para el segundo caso (9 < 0,01°C):
-h — ha i^sat^g d" (u? UJsat')(10.21)
 
-siendo h„ la entalpia del condensado sólido a la temperatura y presión (T, p) del aire húmedo saturado y que podemos evaluarla con:
+.. math::
 
-= P‘(«„/)~Pr., +	+ cJ + P-p’ÍOre,)	(10.22)
-'	Pl	Ps
+   h = c_{p-a}\theta + \omega_{sat} \left[ h_{lv}(\theta_{ref}) + c_{p_v}\theta \right] + (\omega - \omega_{sat})c_l \theta
 
-Y	si, como hemos hecho hasta ahora, también en este caso despreciamos la contribución de la presión a la entalpia del sólido nos quedará finalmente:
+Y para el segundo caso (:math:`\theta < 0.01°C`)
 
-^ — Cpa9 &sat [^/u(^re/)	1“ (^ ^saí) [^!s(^re/) d"
-(10.23)
+.. math::
+
+   h = h_a + \omega_{sat} h_g + (\omega-\omega_{sat}) h_s
+
+siendo :math:`h-s` la entalpia del condensado sólido a la temperatura y presión (*T*, *p*) del aire húmedo saturado y que podemos evaluarla con:
+
+.. math::
+
+   h_s = \frac{p^*(\theta_{ref}) - p_{ref}}{\rho_l} + h_{ls}(\theta_{ref}) + c_s \theta + \frac{p-p^*(\theta_{ref})}{\rho_s} 
+
+Y si, como hemos hecho hasta ahora, también en este caso despreciamos la contribución de la presión a la entalpia del sólido nos quedará finalmente:
+
+.. math::
+
+   h = c_{p-a}\theta + \omega_{sat}\left[ h_{lv}(\theta_{ref}) + c_{p_v}\theta \right] +  (\omega-\omega_{sat}) \left[ h_{ls}(\theta_{ref}) + c_s \theta \right]
 
 Los valores numéricos de los calores específicos, dado el intervalo de temperaturas utilizado en los problemas de aire húmedo, y los de las entalpias de cambio de fase son:
 
-Cpa = 1,005 kJ • kg"1 • K-1 cPv = 1,82 kJ • kg“1 • K-1
--1 tz-l
-c, = 4,18 kJ-kg'1 -K
-cs = 2,05 kJ • kg 1 • K 1.
-hiv(9ref) = 2501,4 kJ-kg 1 his(9Tej) - -333,4 kJ-kg 1
+.. math::
 
-El término (lo - u3at) que aparece en las ecuaciones anteriores representa, respectivamente, la cantidad de condensado líquido y sólido existente en la mezcla.
+   c_{p_a} = 1.005 \frac{kJ}{kg \cdot K} \\
+   c_{p_v} = 1.82 \frac{kJ}{kg \cdot K} \\
+   c_{l} = 4.18 \frac{kJ}{kg \cdot K} \\
+   c_{s} = 2.05 \frac{kJ}{kg \cdot K} \\
+   h_{lv}(\theta_{ref}) = 2501.4 \frac{kJ}{kg} \\
+   h_{ls}(\theta_{ref}) = -333.4 \frac{kJ}{kg} \\   
+   
+
+El término (:math:`\omega-\omega_{sat}`) que aparece en las ecuaciones anteriores representa, respectivamente, la cantidad de condensado líquido y sólido existente en la mezcla.
+
 Vamos a evaluar, ahora, la energía interna de una muestra de aire húmedo. Con el estado
-de referencia elegido, ure¡ no es nulo, sino que vale uTe¡ — uarcf + u)!í„r . siendo uarc —
-V f	1
-
-~PrefVarcj = -RaTref y uVrcJ =--------ya que, por definición, hrej = uref + (pv)Tef = 0. Con
+de referencia elegido, :math:`u_{ref}` no es nulo, sino que vale :math:`u_{ref} = u_{a_{ref}} + \omega u_{v_{ref}}` siendo :math:`u_{a_{ref}} = -p_{ref} v_{a_{ref}} = R_a T_{ref}` y :math:`u_{v_{ref}} = - \frac{p_{ref}}{\rho_l}` ya que, por definición, :math:`h_{ref} = u_{ref} + (pv)_{ref} = 0`. Con
 esto la expresión de la energía interna será:
 
-Mezclas de gases y vapores. Psicrometría
-9
-u — ua +uuv = cVa6 -\-u[u¡v(9Tef) + cVv6] - ^RaTref	(10.24)
+.. math::
 
-Una forma alternativa, y quizás más sencilla, de evaluar la energía interna del aire húmedo es partiendo de u = h — pv por la que:
+   u = u_a + \omega u_v = h_a - R_a T + \omega (h_v-R_v T)
 
-'___________=-__-■	— , :.../ ' /	--------t
-u = ua + Louv = ha - RaT + w (hv - RVT)
-(10.25.a)
+Una forma alternativa, y quizás más sencilla, de evaluar la energía interna del aire húmedo es partiendo de :math:`u = h — pv por la que:
 
+.. math::
+
+   u = u_a + \omega u-v = h_a - R_a T + \omega (h_v-R_v T)
+   
 que puede reagruparse para escribir:
 
-(10.25.b)
+.. math::
 
-u = ha + uhv - Ra (1 + ü) T = cPa0 + u[hiv(0re/) 4-cPv0] - 7üa(l +ü)T Puede verse fácilmente que ambas expresiones, (10.24) y (10.25), coinciden.
+   u = h_a +\omega h-v - R_a ( 1 +\tilde{\omega}) T \\
+   = c_{p_a}\theta + \omega \left[ h_{lv}(\theta_{ref}) + c_{p_v}\theta \right] - R_a (1 +\tilde{\omega}) T
 
-Cuando el aire húmedo está sohresat aradoras expresiones de la energía interna del mismo
+Puede verse fácilmente que ambas expresiones, (10.24) y (10.25), coinciden.
+
+Cuando el aire húmedo está sobresaturado las expresiones de la energía interna del mismo
 son:
 
-^ — ha 4“ ^sathg	Ra (1 4" ^sat ) R 4” (^ ^sat)
-hf(T) -
-P*(T)
-Pi
-si 0>O,O1°C	(10.26)
-n — Ha 4“ tdsathg Ra (1 4" &sat ) R 4" (^	^sa¿)
-hs(R)
-P*{T)
-si 0<O,O1°C	(10.27)
+* si :math:`\theta > 0.01°C`:
 
-La entalpia del líquido saturado h¡(T) se calcula de (10.19) sin más que poner las condiciones de saturación y de manera análoga, a partir de (10.22) se obtiene la entalpia para el condensado sólido (hielo) hs(T).
+.. math::
 
-Para evaluar la entropía de una muestra de aire húmedo utilizaremos la expresión R — k
-^^n¿s,(T,p¿). Así pues, para el aire húmedo, y por unidad de masa de aire seco, teniendo en ¿=i
+   u = h_a + \omega_{sat} h_g - R_a (1 +\tilde{\omega}_{sat}) T + (\omega-\omega_{sat}) \left[ h_f(T) - \frac{p^*(T)}{\rho_l} \right]
+   
+* si :math:`\theta < 0.01°C`:
+
+.. math::
+
+   u = h_a + \omega_{sat} h_g - R_a (1 +\tilde{\omega}_{sat}) T + (\omega-\omega_{sat}) \left[ h_s(T) - \frac{p^*(T)}{\rho_s} \right]   
+   
+La entalpia del líquido saturado :math:`h_f(T)` se calcula de (10.19) sin más que poner las condiciones de saturación y de manera análoga, a partir de (10.22) se obtiene la entalpia para el condensado sólido (hielo) :math:`h_s(T)`.
+
+Para evaluar la entropía de una muestra de aire húmedo utilizaremos la expresión :math:`S=\sum_{i=1}^k n_i s_i(T,p_i)`. Así pues, para el aire húmedo, y por unidad de masa de aire seco, teniendo en ¿=i
 cuenta el estado de referencia se tendrá:
+
+.. math::
+
+   s = s_a +\omega s_v
+
 con
+
+.. math::
+
+   s_a = c_{p_a} \ln \frac{T}{T_{ref}} - R_a \ln \frac{p_a}{p_ref}
+   
 y
 
-(10.28)
-(10.28.a)
-sv
-hlv(Tref)
-4- Cp„ ln
-- re/
-■ref
-Rv ln
-Pv
-P*(Rref)
-(10.28.b)
+.. math::
 
-Esta última expresión puede ponerse, sin más que sumar y restar .R„ln p*(R) y teniendo en cuenta (10.7), en la forma:
+   s_v = \frac{h_{lv}(T_{ref})}{T_{ref}} + c_{p_v} \ln \frac{T}{T_{ref}} - R_v \ln \frac{p_v}{p^*(T_{ref}}
 
-10
-Mezclas de gases y vapores. Psicrometría
-hlv(Tref)	,	, T „ , .	P*(T)
-Su — —~	b c„v	ln m	— Rv ln	^/ÍT,	x -ñu ln <p
-c re/
-'■ref
-P*(Tref)
-= sa(T) - ñuln <(>
+Esta última expresión puede ponerse, sin más que sumar y restar :math:`R_v \ln p^*(T)` y teniendo en cuenta (10.7), en la forma:
+
+.. math::
+
+   s_v = \frac{h_{lv}(T_{ref})}{T_{ref}} + c_{p_v} \ln \frac{T}{T_{ref}} - R_v \ln \frac{p^*(T)}{p^*(T_{ref})} - R_v\ln \phi \\
+   s_g(T) - R_v \ln \phi
 
 Así, pues, podremos escribir para la entropía del aire húmedo:
 
