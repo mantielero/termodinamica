@@ -85,15 +85,18 @@ De la ecuación (10.70) se obtiene que
  
    \dot{m}_a = \frac{\dot{Q} + \dot{W} + \dot{m}_{l_1} (h_{l_1} - h_{l_4})}{ h_{a_5}- h_{a_2} + \omega_5 h_{v_5} - \omega_2 h_{v_2} - (\omega_5 - \omega_2) h_{l_3}}
    
-En la mayoría de los casos el calor transferido con los alrededores es despreciable (Q = 0) y la potencia requerida por el ventilador en las torres de convección forzada también es despreciable frente al resto de las energías (W = 0), por lo que la ecuación (10.71) se reduce a
+En la mayoría de los casos el calor transferido con los alrededores es despreciable (:math:`\dot{Q}`) y la potencia requerida por el ventilador en las torres de convección forzada también es despreciable frente al resto de las energías (:math:`\dot{W}`), por lo que la ecuación (10.71) se reduce a
 
-____________mx(hh ~ hu)_______________
-has	ha2 T ^bh^s ^2^t/2	(^5 ^2)^/3
-o reordenándola se obtiene
-________________™,h(hh - hu)_______________
-(has T ^shvs)	(^a2 T hV2)	(u?5 u2)hi3
-(10.72)
+.. math::
+ 
+   \dot{m}_a = \dot{m}_{l_1} (h_{l_1} - h_{l_4})}{ h_{a_5}- h_{a_2} + \omega_5 h_{v_5} - \omega_2 h_{v_2} - (\omega_5 - \omega_2) h_{l_3}}
+   
+y reordenándola se obtiene
 
+.. math::
+ 
+   \dot{m}_a = \dot{m}_{l_1} (h_{l_1} - h_{l_4})}{ (h_{a_5}   + \omega_5 h_{v_5})- (h_{a_2}  + \omega_2 h_{v_2}) - (\omega_5 - \omega_2) h_{l_3}}
+   
 Los valores de las entalpias del vapor de agua y del agua líquida se pueden evaluar considerando la entalpia del vapor saturado y líquido saturado, a sus temperaturas respectivas.
 
 La humedad u2 y U5 se pueden evaluar mediante la ecuación (10.4), utilizando la presión parcial del vapor de agua obtenida a partir de los valores de humedad relativa (que suelen ser dato) y la ecuación (10.6).
