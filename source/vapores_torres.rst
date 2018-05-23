@@ -223,23 +223,26 @@ Resolviendo el sistema
 
 Para calcular el gasto volumétrico de aire necesitamos conocer la presión parcial del aire seco. De la ecuación (10.4) se obtiene
 
+.. math::
 
-Pv2
-1
-1 +
-0,622
-W2
-1 +
-),622
-= 0,01318bar
-8,308•10
--3
-Pa2 = P -Pv2 = 1 — O, 01318 = 0,9868bar y de la ecuación de estado para el aire seco
+   p_{v_2} = \frac{p}{1+ \frac{0.622}{\omega-2}} = \frac{1}{1+\frac{0.622}{8.308 \cdot 10^{-3}}} = 0.01318bar \\
+   p_{a_2} = p - p_{v_2} = 1-0.01318 = 0.9868 bar
+   
+
+y de la ecuación de estado para el aire seco
+
+.. math::
+
+   p-a \dot{V} = \dot{m}_a R_a T
+   
 queda
-V
-PaV = rhaRaT
-ma RaT	6 81,6 • 287-294
-582,8m 3/s
-Pa	0,9868 • 1Q5
 
-b) La cantidad de agua consumida será la diferencia entre el agua que entra y sale de la torre Agua consumida = m/j - m¡4 = 597,43 — 589,03 = 8,4kg/s
+.. math::
+
+   \dot{V} = \frac{\dot{m}_a R_a T}{p_a} = \frac{681.6 \cdot 287 \cdot 294}{0.9868 \cdot 10^5} = 582.8 \frac{m^3}{s}
+
+b) La cantidad de agua consumida será la diferencia entre el agua que entra y sale de la torre
+
+.. math::
+
+   \text{Agua consumida} =\dot{m}_{l_1} - \dot{m}_{l_4} = 597.43 — 589.03 = 8.4kg/s
