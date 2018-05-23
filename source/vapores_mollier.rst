@@ -1,5 +1,5 @@
 Diagrama de Mollier y psicrométrico del aire húmedo
----------------------------------------------------
+===================================================
 
 Diagrama de Mollier del aire húmedo
 
@@ -207,8 +207,10 @@ Ex— ha(T,p)	ha(Tamb,paarnb) Tamb sa(T,pa) sa (romfc,j>0am(>)
 (10.43)
 ~(U> -	---P ^'amb-
 Pl
+
 La exergía debid?¿ al cambio en la composición (exergía química), por unidad de masa de aire seco, tiene la misma expresión que para sistemas cerrados, ya que sólo depende de la composición de la muestra de aire húmedo (</>) y de la composición del aire ambiente (<f>amb)• Así pues, la exergía química para una corriente de aire húmedo viene dada por la suma de (10.41.a) y (10.41.b).
 La exergía de la corriente de aire húmedo que desde las condiciones (T,p, <f>) se lleva al equilibrio térmico, mecánico y en composición, vendrá pues, dada por
+
 EXt — (cPa + ucPv)
 (T-T J-T . ln
 v	amo/	amo
@@ -220,6 +222,3 @@ amb
 * amb
 (10.44)
 u>
-
-
-
