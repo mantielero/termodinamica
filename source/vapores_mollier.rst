@@ -19,81 +19,85 @@ A) Si el aire húmedo sólo contiene vapor de agua, ya vimos que su entalpia es 
 
 por lo que en un diagrama (h, :math:`\omega`), las isotermas :math:`\theta = \cte` son rectas de pendiente
 
-^(ti(^re/) d" Cpv9
-(10.36)
+.. math::
 
-que será tanto mayor cuanto mayor sea la temperatura. Como h¡v(9ref) tiene un valor muy alto y el intervalo de temperaturas en que nos vamos a mover es moderadamente pequeño ( de -40 a 60 °C) la contribución del término en 6 es pequeño frente a hiv{9re¡). Esto hace que todas las isotermas tengan una pendiente muy grande y que la zona del diagrama a considerar sea una zona muy reducida en las proximidades del eje de ordenadas, (ver fig. 2).
+   \left. \frac{\partial h}{\partial \omega} \right)_\theta = h_{lv} (\theta_{ref} ) + c_{p_v} \theta
 
-Por esta razón Mollier propuso un diagrama oblicuángulo para consiguir una zona de trabajo más cómoda. La modificación consiste en girar el eje u hacia abajo hasta conseguir que la isoterma 9 = 0°C sea horizontal (fig. 3). Las isoentálpicas, h = const, van de izquierda a derecha, descendiendo paralelamente al eje u> en el que h = 0. Las h'neas w = const permanecen verticales.
+que será tanto mayor cuanto mayor sea la temperatura. Como :math:`h_{lv} (\theta_{ref} )` tiene un valor muy alto y el intervalo de temperaturas en que nos vamos a mover es moderadamente pequeño ( de -40 a 60°C) la contribución del término en :math:`\theta` es pequeño frente a :math:`h_{lv} (\theta_{ref} )`. Esto hace que todas las isotermas tengan una pendiente muy grande y que la zona del diagrama a considerar sea una zona muy reducida en las proximidades del eje de ordenadas, (ver fig. 2).
+
+.. figure:: ./img/mollier_fig2.png
+
+  
+
+Por esta razón Mollier propuso un diagrama oblicuángulo para consiguir una zona de trabajo más cómoda. La modificación consiste en girar el eje :math:`\omega` hacia abajo hasta conseguir que la isoterma :math:`\theta =  0°C` sea horizontal (fig. 3). Las isoentálpicas, :math:`h = const`, van de izquierda a derecha, descendiendo paralelamente al eje :math:`\omega` en el que :math:`h = 0`. Las líneas :math:`\omega = const` permanecen verticales.
+
+.. figure:: ./img/mollier_fig3.png
 
 La diferencia de entalpia entre dos estados determinados (1,2) viene dada por el segmento de recta comprendido entre las isoentálpicas correspondientes. Para construir las isotermas se hace lo siguiente:
 
-dada una cierta humedad w, la diferencia de ordenadas entre el eje lo y la isoterma 9 = 0oC vale lo • h¡v(9ref). A este valor se le añade la entalpia del aire seco, cPa9 y lo • cPv9 (ver fig. 3). En el eje de ordenadas, (lo = 0), se representan los estados del aire seco. En este eje, sobre cada isoterma puede leerse el valor de las entalpias correspondientes a esos estados, h = cPa9.
+dada una cierta humedad :math:`\omega`, la diferencia de ordenadas entre el eje :math:`\omega` y la isoterma :math:`\theta =  0°C` vale :math:`\omega \cdot h_{lv} (\theta_{ref} )`. A este valor se le añade la entalpia del aire seco, :math:`c_{p_a} \theta` y :math:`\omega \cdot c_{p_v} \theta` (ver fig. 3). En el eje de ordenadas, (:math:`\omega = 0`), se representan los estados del aire seco. En este eje, sobre cada isoterma puede leerse el valor de las entalpias correspondientes a esos estados, :math:`h = c_{p_a} \theta`.
 
-Las isotermas sólo pueden dibujarse, con el esquema anteriormente señalado, hasta valores de u correspondientes a la saturación, que es cuando lo alcanza el valor
+Las isotermas sólo pueden dibujarse, con el esquema anteriormente señalado, hasta valores de :math:`\omega` correspondientes a la saturación, que es cuando :math:`\omega` alcanza el valor
 
-LOsat = 0,622-
-p
-p-p*
+.. math::
 
-y entonces estaremos sobre la línea </> = 1, que es donde se termina la zona de aire no saturado.
+   \omega_{sat} = 0.622 \frac{p^*}{p-p^*}
 
-Mezclas de gases y vapores. Psicrometría
-15
+y entonces estaremos sobre la línea :math:`\phi = 1`, que es donde se termina la zona de aire no saturado.
 
-Las líneas de humedad relativa constante se dibujan por puntos calculando, a una cierta temperatura, la presión de saturación p*, la humedad u y la entalpia h ya que de (10.4) y (10.7)
 
-p - <p ■ p*
+Las líneas de humedad relativa constante se dibujan por puntos calculando, a una cierta temperatura, la presión de saturación :math:`p^*`, la humedad :math:`\omega` y la entalpia *h* ya que de (10.4) y (10.7)
 
-con lo que la entalpia del aire húmedo podemos expresarla en la forma
+.. math::
+   
+   \omega = 0.622 \frac{\phi \cdot p^*}{p - \phi \cdot p^*}
 
-h = cpJ + 0,622	[h,v{9ref) + cPv9]	(10.37)
-p — <p • p
+con lo que la entalpía del aire húmedo podemos expresarla en la forma
 
-Así pues, para una cierta temperatura, calculada la entalpia, podemos hallar (p sin más que tener la curva p*{T) = f(T). La curva <j> = 0 coincide con el eje de ordenadas lj = 0.
+. math::
+
+  h = c_{p_a} \theta + 0.622 \frac{\phi \cdot p^*}{p - \phi \cdot p^*} \left[ h_{lv}(\theta_{ref}) + c_{p_v} \theta \right]
+
+Así pues, para una cierta temperatura, calculada la entalpia, podemos hallar :math:`\phi` sin más que tener la curva :math:`p^*(T) = f(T)`. La curva :math:`\phi = 0` coincide con el eje de ordenadas :math:`\omega = 0`
 
 B) Zona de sobresaturación (zona de niebla).
 
-En esta zona las isotermas del aire húmedo también son líneas rectas. En efecto, distinguiendo que 8 > 0,01°C o que 9 < 0,01°C, se tendrá, de acuerdo con (10.20) ó (10.23), que
+En esta zona las isotermas del aire húmedo también son líneas rectas. En efecto, distinguiendo que :math:`\theta \geq 0.01°C` o que :math:`\theta < 0.01°C`, se tendrá, de acuerdo con (10.20) ó (10.23), que
+
+.. math::
+
+   \left. \frac{\partial h}{\partial \omega} \right)_\theta = c_l \theta
+
 o que
 
-= ci9
+.. math::
 
-(10.38)
+   \left. \frac{\partial h}{\partial \omega} \right)_\theta = h_{ls}(\theta_{ref}) + c_s \theta
 
-dh\ ,	.
-= h¡s(9ref) + cs9
+Para la zona de niebla con :math:`\theta \geq 0.01°C`, cada isoterma se une con la correspondiente isoterma de la zona de vapor no saturado en la línea :math:`\phi = 1`, formando un ángulo. Para :math:`\theta= 0`, :math:`\frac{\partial h}{\partial \omega} = 0` y la isoterma :math:`\theta= 0` coincide con una línea isentálpica. Para :math:`\theta> 0`, las isotermas de esta zona son algo menos inclinadas que las isoentálpicas (ver fig. 4)
 
-(10.39)
+.. figure:: ./img/mollier_fig4.png
 
-Para la zona de niebla con 9 > 0,01°C, cada isoterma se une con la correspondiente isoterma de la zona de vapor no saturado en la línea <j> = 1, formando un ángulo. Para 0 = 0, dh/du — 0 y la isoterma 0 = 0 coincide con una línea isentálpica. Para 0 > 0, las isotermas de esta zona son algo menos inclinadas que las isoentálpicas (ver fig. 4)
+Análogamente cuando :math:`\theta < 0.01°C`, las isotermas de la zona de niebla (en este caso será hielo el condensado) también se unen, sobre la línea :math:`\phi = 1`, con las isotermas correspondientes de la zona de vapor no saturado formando un ángulo. La isoterma :math:`\theta = 0°C` tiene una pendiente igual a :math:`h_{ls}(\theta_{ref}) = —333.4\frac{kJ}{kg}`. Por lo tanto su inclinación es mayor que la misma isoterma en la zona de niebla con condensado líquido. La zona entre estas dos isotermas a 0°C contiene estados del aire húmedo en el que coexisten aire seco, vapor de agua, agua líquida y hielo.
 
-Análogamente cuando 0 < 0,01°C, las isotermas de la zona de niebla (en este caso será hielo el condensado) también se unen, sobre la Enea <p = 1, con las isotermas correspondientes de la zona de vapor no saturado formando un ángulo. La isoterma 0 = 0°C tiene una pendiente igual a h¡s(9ref) = —333.4kJ ■ kg~l. Por lo tanto su inclinación es mayor que la misma isoterma en la zona de niebla con condensado líquido. La zona entre estas dos isotermas a 0°C contiene estados del aire húmedo en el que coexisten aire seco, vapor de agua, agua líquida y hielo.
+De (10.4) se ve claramente que se precisa un diagrama (*h*, :math:`\omega`) para cada valor de la presión, *p*, a la que se está trabajando. En general se suele disponer de un diagrama de Mollier para una presión de 100kPa, que es la más usual en la mayoría de los procesos de acondicionamiento de aire. Las variaciones de presión atmosférica normales, ±20mbar, son despreciables para la exactitud deseada normalmente en la técnica. No obstante vamos a ver qué ocurre con el diagrama (*h*, :math:`\omega`) cuando varía la presión.
 
-16
+Al haber modelizado el aire húmedo como una mezcla ideal de gases perfectos, la entalpia del mismo no depende de la presión, de modo que las líneas isoentálpicas del diagrama de Mollier no varían al variar la presión; en cambio lo que sí varía es la expresión de las líneas :math:`\phi = const`. Para una presión determinada si :math:`\phi = const`, también será constante :math:`\frac{\phi}{p}`. De manera que para la nueva presión cada líneas :math:`\phi= const` valdrá
 
-Mezclas de gases y vapores. Psicrometría
+.. math::
 
-De (10.4) se ve claramente que se precisa un diagrama (h, u) para cada valor de la presión, p, a la que se está trabajando. En general se suele disponer de un diagrama de Mollier para una presión de 100 kPa, que es la más usual en la mayoría de los procesos de acondicionamiento de aire. Las variaciones de presión atmosférica normales,±20 mbar, son despreciables para la exactitud deseada normalmente en la técnica. No obstante vamos a ver qué ocurre con el diagrama (h, u) cuando varía la presión.
+   \phi-1 = \phi \frac{p-1}{p}
 
-Al haber modelizado el aire húmedo como una mezcla ideal de gases perfectos, la entalpia del mismo no depende de la presión, de modo que las líneas isoentálpicas del diagrama de Mollier no varían al variar la presión; en cambio lo que sí varía es la expresión de las líneas (p = const. Para una presión determinada si (p = const, también será constante <p/p. De manera que para la nueva presión cada líneas <p = const valdrá
-<f>i = <t>—
-V
 
-De modo que, por ejemplo, la línea <p — 0,5 del diagrama de Mollier para p = 100 kPa se transforma en la línea (p = 1 si la presión es 200 kPa. Y todas las isotermas de la zona de niebla, que deben coincidir con las correspondientes isotermas de la zona de aire húmedo no saturado
+De modo que, por ejemplo, la línea :math:`\phi = 0.5` del diagrama de Mollier para p=100kPa se transforma en la línea :math:`\phi = 1` si la presión es 200 kPa. Y todas las isotermas de la zona de niebla, que deben coincidir con las correspondientes isotermas de la zona de aire húmedo no saturado sobre la línea :math:`\phi = 1`, quedan modificadas.
 
-El diagrama psicrométrico, (fig. 5), tiene como coordenadas la temperatura, 0, y la humedad, u. 
 
-En este diagrama se han representado
-las líneas de humedad relativa, obtenidas me-
+Diagrama psicrométrico del aire húmedo
+--------------------------------------
 
-<p • p*
+El diagrama psicrométrico, (fig. 5), tiene como coordenadas la temperatura, :math:`\theta`, y la humedad, :math:`\omega`.  En este diagrama se han representado las líneas de humedad relativa, obtenidas mediante la ecuación :math:`\omega = 0.622 \frac{\phi \cdot p^*}{p - \phi \cdot p^*}`, y las líneas de volumen específico y de la entalpia por unidad de masa de aire seco de la fase gaseosa, dadas por las ecuaciones (10.14), junto con la (10.10), y (10.17).
 
-diante la ecuación u = 0,622-----------, y las
-
-p — <p • p*
-
-líneas de volumen específico y de la entalpia por unidad de masa de aire seco de la fase gaseosa, dadas por las ecuaciones (10.14), junto con la (10.10), y (10.17).
+.. figure:: ./img/psicrometria_fig5.png
 
 A) SISTEMAS CERRADOS Exergía termomecánica
 
