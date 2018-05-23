@@ -101,127 +101,107 @@ El diagrama psicrométrico, (fig. 5), tiene como coordenadas la temperatura, :ma
 
 A) SISTEMAS CERRADOS Exergía termomecánica
 
-Consideremos una masa determinada de aire húmedo en unas condiciones determinadas de temperatura, presión y humedad relativa (T, p, <p). Consideremos también un medio ambiente que suponemos que es, así mismo, aire húmedo en condiciones (Tamb, pamb, <Pamb)-
+Consideremos una masa determinada de aire húmedo en unas condiciones determinadas de temperatura, presión y humedad relativa (*T*, *p*, :math:`\phi`). Consideremos también un medio ambiente que suponemos que es, así mismo, aire húmedo en condiciones (:math:`T_{amb}`, :math:`p_{amb}`, :math:`ºphi_{amb}`)-
 
 Si permitimos que esta masa de aire húmedo alcance el equilibrio térmico y mecánico, pero no el químico, con el medio ambiente considerando a éste como un depósito térmo-mecánico y sin disponer de otros depósitos térmicos, el trabajo útil máximo que puede obtenerse de la configuración inicial viene dado por la exergía del aire húmedo en ese estado termodinámico.
-sobre la línea <p — 1, quedan modificadas. Diagrama psicrométrico del aire húmedo
-
-Mezclas de gases y vapores. Psicrometría
-17
 
 Sabemos que la exergía termomecánica, por unidad de masa, de un sistema cerrado viene dada por
 
-Et = u — u ,4-p Av — v — T As — s .)
+.. math::
 
-Es posible que la temperatura del ambiente, Tamh, sea menor que la temperatura de rocío del estado del aire húmedo, y, al enfriarlo hasta Tamb, parte del aire se condense, formándose gotas de agua líquida. En este caso el aire quedará, al alcanzar el equilibrio, saturado. Esto sucederá si:
+   E_x = u - u_{amb} + p_{amb}(v-v_{amb}) - T_{amb} (s-s_{amb})
 
-=	< MU. = ¿
-p.„. -	p-tor(T)
+Es posible que la temperatura del ambiente, :math:`T_{amb}`, sea menor que la temperatura de rocío del estado del aire húmedo, y, al enfriarlo hasta :math:`T_{amb}`, parte del aire se condense, formándose gotas de agua líquida. En este caso el aire quedará, al alcanzar el equilibrio, saturado. Esto sucederá si:
 
-Suponiendo que esto se verifica, la masa de vapor que condensa, por unidad de masa de aire seco, es (u; — u'), donde hemos llamado u>' a la humedad del aire húmedo saturado a presión y temperatura del medio ambiente. Las fracciones molares del aire seco y del vapor de agua serán x'a y x'v respectivamente.
+.. math::
+
+   \tilde{\omega}' = \frac{p^*(T_{amb})}{p_{amb} - p^*(T_{amb})} < \frac{\phi p^*(T)}{p-\phi p^*(T)} = \tilde{\omega}
+
+Suponiendo que esto se verifica, la masa de vapor que condensa, por unidad de masa de aire seco, es :math:`\omega - \omega '`, donde hemos llamado :math:`\omega '` a la humedad del aire húmedo saturado a presión y temperatura del medio ambiente. Las fracciones molares del aire seco y del vapor de agua serán :math:`x_a '` y :math:`x_v '` respectivamente.
 
 Con esto, teniendo en cuenta las ecuaciones (10.25.a),(10.26), (10.28), (10.30.a) y (10.30.b),
-sin despreciar el volumen ocupado por el líquido condensado, ( —- ) y como hg(T)—Tsg(T) =
-\ P‘ /
+sin despreciar el volumen ocupado por el líquido condensado, :math:`\frac{\omega - \omega '}{\rho_l}` y como :math:`h_g(T)—T s_g(T) = h_f(T) — Ts_f(T)`, podemos escribir para la exergía termomecánica del aire húmedo por unidad de masa de aire seco:
 
-hf(T) — Tsf(T), podemos escribir para la exergía termomecánica del aire húmedo por unidad de masa de aire seco:
+.. math::
+   
+   E_x &= (u_a - u_{a_{amb}} - T_{amb} \left[ s_a(T,p_a) - s_a(T_{amb}, p_{a_{amb}}' ) \right]  \\
+   &+ \omega \left{ u_v - h_f(T_{amb}) - T_{amb} \left[ s_g(T) - R_v \ln \frac{x_v p}{p^*(T)} - s_f(T_{amb}) \right] \right} \\
+   &+ (\omega - \omega ' )\frac{p^*(T_{amb})}{\rho_l} + p_{amb} \left[ (1+\tilde{\omega}) \frac{R_a T}{p} - \frac{R_a T_{amb}}{p_{amb}}  - \left( \frac{\omega - \omega '}{\rho_l}\right)\right]
 
-Ex =(ua - uaamb) - Tamb [sa(T, pa) - sa(Tamb, p'aam6)]
-+ "{«.-	h,(Tm)- T.„, [»,(T) -	^ - »/(T..,)] }
-+ t^+p„„, Pl
-(1+ü)
-RaT RaT
-p
-Pa,
-u — u>
-Pl
-(10.40)
-
-donde p'aamb es presión parcial del aire seco en el aire húmedo saturado; esto es, p'aamb = x'aPamb ■ Sa{T, Pa) y sa(Tamb, p'aamb) se obtienen de (10.28.a).
+donde :math:`p_{a_{amb}}'` es presión parcial del aire seco en el aire húmedo saturado; esto es, :math:`p_{a_{amb}}' = x_a' p_{amb} \cdot s_a(T,p_a)` y :math:`s_a(T_{amb}, p_{a_{amb}}')` se obtienen de (10.28.a).
 
 Exergía química
+^^^^^^^^^^^^^^^
 
 Ya vimos en el capítulo anterior (9.64) que la exergía química de una mezcla viene expresada
 por:
 
-k
-Exq — ^ ^	(g¿ — goi)
-¿=1
+.. math::
 
-siendo p[ el potencial químico del componente i en las condiciones del equilibrio termomecánico pamb, x') y g0i el potencial químico del mismo componente, pero calculado en las condiciones de presión, temperatura y composición del medio ambiente. Para una mezcla ideal de gases ideales el potencial químico de cada uno de los componentes se obtiene a partir de (9.26), teniendo en cuenta (9.73) y (9.74), esto es = /i¿(T) - Ts,(T, p,)
+   E_{xq} = \sum_{i=1}^k n_i (\mu_i ' - \mu_{oi})
 
-18
-Mezclas de gases y vapores. Psicrometría
+siendo :math:`\mu_i'` el potencial químico del componente *i* en las condiciones del equilibrio termomecánico (:math:`T_{amb}`, :math:`p_{amb}`, :math:`x'`) y :math:`\mu_{oi}` el potencial químico del mismo componente, pero calculado en las condiciones de presión, temperatura y composición del medio ambiente. Para una mezcla ideal de gases ideales el potencial químico de cada uno de los componentes se obtiene a partir de (9.26), teniendo en cuenta (9.73) y (9.74), esto es :math:`\mu_i = h_i(T) - T s_i(T, p_i)`
 
 Para el caso de aire húmedo expresando la exergía por unidad de masa de aire seco obtenemos:
 
 a) aire seco
 
-Exq„ — Ta
-[Sa(Tamb,Paamb) sa[Tambi Pa<.ml.)]
-(10.41.a)
+.. math::
+
+   E_{xq_a} = -T_{amb} \left[ s_a(T_{amb}, p_{a_{amb}}') - s_a(T_{amb}, p_{a_{amb}}) \right]
+   
 ya que el aire seco se ha modelizado como gas perfecto y por lo tanto no hay variación de su entalpia al pasar del estado de equilibrio termomecánico al de equilibrio en composición ya que no varía la temperatura. Igual que anteriormente los sa se calculan de (10.28.a)
 
 b) vapor de agua
 
-Al aplicar la expresión de la exergía química al vapor de agua existente en el estado de equilibrio termomecánico, que por unidad de masa de aire seco es u1, se obtendrá:
-Exqv — w
-(T
-\ a;
-,) Tambsg(Tamb;
-hv(Tamb) Tamb
-(sg{Tamb) ~ Rvln
+Al aplicar la expresión de la exergía química al vapor de agua existente en el estado de equilibrio termomecánico, que por unidad de masa de aire seco es :math:`\omega '`, se obtendrá:
+
+.. math::
+
+   E_{xq_v} = \omega ' \left\{ hg(T_{amb}) - T_{amb} s_g(T_{amb}) -\left[ h_v(T_{amb}) - T_{amb} \left( s_g(T_{amb}) - R_v \ln \frac{x_{v_{amb}} p_{amb}}{p^*(T_{amb})} \right)  \right]   \right\}
 
 c)	agua líquida
 
 Análogamente, la variación de exergía que experimenta el agua líquida, que ha condensado al alcanzar el equilibrio termomecánico, cuando se le deja alcanzar el equilibrio en composición con el medio ambiente, expresada por unidad de masa de aire seco es:
-'xq,
-=(« - "') { hf(Tamb) + P-b f(T-J - Tambs/(Tamb) l	Pi
-0
-^viTamb) ^aml ( Sj(^amt)
-Xv kP k
-ua m b í amb
-)]}
-P'(T*mb)
 
-Sumando las contribuciones del vapor de agua y del agua h'quida, como :
-hf(.Tamb) 'RambSf('Ramb) ~ ^gi^amb) ^amb S g^amb) nos quedará finalmente como contribución del agua a la exergía química de la mezcla:
-Exqw =-uTambRvln Xv;m*Pamb +(u- u/)Pamt ~ P*{T-b)	(10.41.b)
-P amb )	P¡
+.. math::
+
+   E_{xq_l} = (\omega - \omega ') \left\{ hf(T_{amb}) + \frac{p_{amb} - p^*(T_{amb})}{\rho_l} - T_{amb} s_f(T_{amb}) -\left[ h_v(T_{amb}) - T_{amb} \left( s_g(T_{amb}) - R_v \ln \frac{x_{v_{amb}} p_{amb}}{p^*(T_{amb})} \right)  \right]   \right\}
+
+
+Sumando las contribuciones del vapor de agua y del agua líquida, como:
+
+.. math::
+ 
+   h_f(T_{amb}) - T_{amb} s_f( T_{amb}) = h_g(T_{amb}) - T_{amb} s_g(T_amb)
+ 
+   
+nos quedará finalmente como contribución del agua a la exergía química de la mezcla:
+
+.. math::
+   
+   E_{xq_w} = -\omega T_{amb} R_v \ln \frac{x_{v_{amb}} p_{amb}}{p^*(T_{amb})} + (\omega - \omega ')\frac{p_{amb} - p^*(T_{amb})}{\rho_l}
 
 Sumando cada una de las contribuciones, tanto la correspondiente al equilibrio termo-mecánico (10.40) como la del equilibrio en composición (10.41.a y 10.41.b), se tendrá finalmente para la exergía de una determinada masa de aire húmedo, considerado éste como una mezcla ideal de gases perfectos:
 
-EXt ={cVa + ucVv )(T -Tamb) + parnbRa(l+ü)l-
-T T
-P P*mt P
-~ Tamb(cPa + wcpjln -— + flar„m6(l+¿)ln
-Pa
-+ RaT,
-Q'J’ amb
-(l-f¿;)ln ^	+ ¿> ln —^
-1 -f ó
+.. math::
 
-(10.42)
-Mezclas de gases y vapores. Psicrometría
-19
-Ex— ha(T,p)	ha(Tamb,paarnb) Tamb sa(T,pa) sa (romfc,j>0am(>)
-+
-+u\hv- hg (T mb) - Tar¡
-(10.43)
-~(U> -	---P ^'amb-
-Pl
+   E_{x_t} &= (c_{v_a} + \omega c_{v_v}) (T- T_{amb}) + p_{amb} R_a (1+ \tilde{\omega}) \left( \frac{T}{p} - \frac{T_{amb}}{p_{amb}} \right) \\
+   &-T_{amb} (c_{p_a} + \omega c_{p_v}) \ln \frac{T}{T_{amb}}  + R_a T_{amb} (1+ \tilde{\omega}) \ln \frac{p}{p_{amb}} \\
+   &+ R_a T_{amb} \left[ (1+\tilde{\omega}) \ln \frac{1+ \tilde{\omega}_{amb}}{1+ \tilde{\omega}} + \tilde{\omega} \ln \frac{\tilde{\omega}}{\tilde{\omega}_{amb}} \right]
 
-La exergía debid?¿ al cambio en la composición (exergía química), por unidad de masa de aire seco, tiene la misma expresión que para sistemas cerrados, ya que sólo depende de la composición de la muestra de aire húmedo (</>) y de la composición del aire ambiente (<f>amb)• Así pues, la exergía química para una corriente de aire húmedo viene dada por la suma de (10.41.a) y (10.41.b).
-La exergía de la corriente de aire húmedo que desde las condiciones (T,p, <f>) se lleva al equilibrio térmico, mecánico y en composición, vendrá pues, dada por
 
-EXt — (cPa + ucPv)
-(T-T J-T . ln
-v	amo/	amo
--\-RaTr
-amb
-(1 -f ¿>)ln
-^^+¿ln 1 + w
-+ RaTam6(1 + ¿>) ln h
-* amb
-(10.44)
-u>
+.. math::
+
+   E_x &= h_a(T,p) - h-a(T_{amb}, p_{a_{amb}}' ) - T_{amb} \left[ s_a(T, p_a) - s_a( T_{amb}, p_{a_{amb}}') \right] + \\
+   &+ \omega \left\{ h_v - h_g(T_{amb}) - T_{amb} \left[ s_g(T) - T_v\ln \frac{x_v p}{p^*(T)} - s_g(T_{amb})  \right]    \right\} - \\
+   &-  (\omega - \omega ') \frac{p_{amb} - p^*(T_{amb})}{\rho_l}
+   
+La exergía debida al cambio en la composición (exergía química), por unidad de masa de aire seco, tiene la misma expresión que para sistemas cerrados, ya que sólo depende de la composición de la muestra de aire húmedo (:math:`\phi`) y de la composición del aire ambiente (:math:`\phi_{amb}`) Así pues, la exergía química para una corriente de aire húmedo viene dada por la suma de (10.41.a) y (10.41.b).
+
+La exergía de la corriente de aire húmedo que desde las condiciones (*T*, *p*, :math:`\phi`) se lleva al equilibrio térmico, mecánico y en composición, vendrá pues, dada por
+
+.. math::
+
+   E_{x_t} &= (c_{p_a} - \omega c_{p_v}) \left[ (T-T_{amb}) - T_{amb}\ln \frac{T}{T_{amb}}\right] + R_a T_{amb} (1+\tilde{\omega}) \ln \frac{p}{p_{amb}} + \\
+   &+ R_a T_{amb} \left[ (1+\tilde{\omega}) \ln \frac{(1+\tilde{\omega}_{amb})}{(1+\tilde{\omega})} + \tilde{\omega} \ln \frac{\tilde{\omega}}{\tilde{\omega}_{amb}} \right]
