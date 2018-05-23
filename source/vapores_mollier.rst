@@ -2,23 +2,22 @@ Diagrama de Mollier y psicrométrico del aire húmedo
 ===================================================
 
 Diagrama de Mollier del aire húmedo
+-----------------------------------
 
-Para representar de un modo claro los cambios de estado del aire húmedo se utiliza un diagrama termodinámico, introducido por Mollier, en el que se adopta como coordenadas la entalpia y la humedad, (h, u). Estos diagramas, válidos cada uno de ellos para una presión p, han obtenido una gran aceptación por sus aplicaciones prácticas. Este tipo de diagramas puede ser confeccionado para cualquier mezcla de un gas y un vapor, aunque nosotros sólo vamos a estudiarlo en el caso de aire húmedo.
+Para representar de un modo claro los cambios de estado del aire húmedo se utiliza un diagrama termodinámico, introducido por Mollier, en el que se adopta como coordenadas la entalpia y la humedad, (h, :math:`\omega`). Estos diagramas, válidos cada uno de ellos para una presión *p*, han obtenido una gran aceptación por sus aplicaciones prácticas. Este tipo de diagramas puede ser confeccionado para cualquier mezcla de un gas y un vapor, aunque nosotros sólo vamos a estudiarlo en el caso de aire húmedo.
 
 En el estudio del diagrama de Mollier distiguiremos fundamentalmente dos zonas:
 
 A)	zona de no saturación
-
 B)	zona de sobresaturación (zona de niebla).
 
 A) Si el aire húmedo sólo contiene vapor de agua, ya vimos que su entalpia es (ec. 10.17)
-14
 
-Mezclas de gases y vapores. Psicrometría
+.. math::
 
-h = cpJ + u[hlv(Oref) + cPv9)
+   h = c_{p_a}\theta + \omega \left[ h_{lv}(\theta_{ref}) + c_{p_v}\theta \right]
 
-por lo que en un diagrama (/i, w), las isotermas 9 =const son rectas de pendiente
+por lo que en un diagrama (h, :math:`\omega`), las isotermas :math:`\theta = \cte` son rectas de pendiente
 
 ^(ti(^re/) d" Cpv9
 (10.36)
