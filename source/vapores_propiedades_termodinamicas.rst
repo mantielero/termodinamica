@@ -63,34 +63,33 @@ Entalpia, energía interna y entropía del aire húmedo
 
 De manera análoga al volumen específico, cuando se utilizan valores específicos de estas propiedades termodinámicas se hace por unidad de aire seco y no por unidad de masa de mezcla.
 
-El estado de referencia elegido para poder evaluar estas propiedades, mejor dicho sus variaciones, es un estado de equilibrio termomecánico, pero no de equilibrio químico. Es un estado en el que a temperatura 9rej = 0,01°C y pTej — 100 kPa el aire seco y el agua líquida están separados y para los cuales ha(0ref) = 0, h¡(9ref, pref) = 0, sa(9ref, pref) = 0y s,(9ref) = 0 (Hay que hacer notar que al dar estos valores se está suponiendo comportamiento perfecto para el gas y para el líquido).
+El estado de referencia elegido para poder evaluar estas propiedades, mejor dicho sus variaciones, es un estado de equilibrio termomecánico, pero no de equilibrio químico. Es un estado en el que la temperatura :math:`\theta_{ref} = 0.01°C` y :math:`p_{ref} = 100 kPa` el aire seco y el agua líquida están separados y para los cuales :math:`h_a(\theta_{ref}) = 0`, :math:`h_l(\theta_{ref},p_{ref}) = 0`, :math:`s_a(\theta_{ref},p_{ref}) = 0` y :math:`s_l(\theta_{ref}) = 0` (Hay que hacer notar que al dar estos valores se está suponiendo comportamiento perfecto para el gas y para el líquido).
 
-De acuerdo con (9.65), la entalpia del aire h 'medo podemos expresarla como:
+De acuerdo con (9.65), la entalpia del aire húmedo podemos expresarla como:
 
-H ----	"f" Tlyhy
+.. math::
+
+   H = n_a \overline{h_a} + n_v \overline{h_v}
 
 que, por unidad de sustancia de aire seco, toma la forma:
 
-h — ha ujhv
-(10.15.a)
+.. math::
 
-en la que ha y hv son, respectivamente, las entalpias molares del aire seco y del vapor a la temperatura de la mezcla. Teniendo en cuenta que — = u'y que = 0,622, al pasar a
-na
+   \overline{h} = \overline{h_a} + \tilde{\omega} \overline{h_v}
 
-valores específicosj)or unidad de masa de airé seco he obtiene:
+en la que :math:`\overline{h_a}` y :math:`\overline{h_v}` son, respectivamente, las entalpias molares del aire seco y del vapor a la temperatura de la mezcla. Teniendo en cuenta que :math:`\frac{n_a}{n_v} = \tilde{\omega}` y que :math:`\frac{M_v}{M_a}= 0.622`, al pasar a valores específicos por unidad de masa de aire seco se obtiene:
 
-(10.15.b)
+.. math::
+ 
+   h = h_a + \omega h_v
 
-En (10.15.b) la entalpia del aire húmedo, h, viene expresada por unidad de aire seco.
-Con el estado de referencia mencionado anteriormente y en la consideración de comportamiento de gas perfecto (aire y vapor de agua) y de líquido incompresible (agua líquida), la entalpia del aire húmedo ( ecuación (10.15)) que está a una temperatura T (K) y a una presión
-p (kPa) se expresa en la forma:
+En (10.15.b) la entalpia del aire húmedo, *h*, viene expresada por unidad de aire seco.
 
-✓¿fe
-f~
-T
+Con el estado de referencia mencionado anteriormente y en la consideración de comportamiento de gas perfecto (aire y vapor de agua) y de líquido incompresible (agua líquida), la entalpia del aire húmedo (ecuación (10.15)) que está a una temperatura *T(K)* y a una presión *p (kPa)* se expresa en la forma:
 
-9 + u ( &I1Ù—hit)
-Pi
+.. math::
+
+   h = c_{p_a} \theta + \omega \left( \frac{p^*(\theta_{ref}) -p_{ref}}{\rho_l} +h_{lv}(0.01°C) + c_{p-v} \theta \right)
 
 
 y+:M0,01°o) + Cp^)J )	(10.16)
