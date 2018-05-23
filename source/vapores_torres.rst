@@ -99,90 +99,131 @@ y reordenándola se obtiene
    
 Los valores de las entalpias del vapor de agua y del agua líquida se pueden evaluar considerando la entalpia del vapor saturado y líquido saturado, a sus temperaturas respectivas.
 
-La humedad u2 y U5 se pueden evaluar mediante la ecuación (10.4), utilizando la presión parcial del vapor de agua obtenida a partir de los valores de humedad relativa (que suelen ser dato) y la ecuación (10.6).
-Hay que recordar que los valores de (hab -\-u*,hVb) y (ha2 +u>2hV2) se pueden calcular mediante el diagrama de Mollier, o el psicrométrico, o la ecuación (10.17), y que la entalpia del agua líquida (hq, hi3, h¡4) se puede calcular mediante la ecuación (10.19).'
+La humedad :math:`\omega_2` y :math:`\omega_5` se pueden evaluar mediante la ecuación (10.4), utilizando la presión parcial del vapor de agua obtenida a partir de los valores de humedad relativa (que suelen ser dato) y la ecuación (10.6).
 
-46
-Mezclas de gases y vapores. Psicrometría
+Hay que recordar que los valores de :math:`(h_{a_5}   + \omega_5 h_{v_5})` y :math:`(h_{a_2}  + \omega_2 h_{v_2})` se pueden calcular mediante el diagrama de Mollier, o el psicrométrico, o la ecuación (10.17), y que la entalpia del agua líquida (:math:`h_{l_1}`, :math:`h_{l_3}`, :math:`h_{l_4}`) se puede calcular mediante la ecuación (10.19).'
+
+
 Ejercicio 10.9
+--------------
 
-Se desean enfriar 0,6 m3/s de agua desde 30°C hasta 20 ° C, para lo que se utiliza una torre de enfriamiento de convección forzada que utiliza aire a 1 bar y temperaturas de termómetro seco y húmedo de 21°C y 15 °C respectivamente. El aire a la salida de la torre tiene una temperatura de 27°C y una humedad relativa del 90%.
+Se desean enfriar :math:`0.6 \frac{m^3}{s}` de agua desde 30°C hasta 20°C, para lo que se utiliza una torre de enfriamiento de convección forzada que utiliza aire a 1bar y temperaturas de termómetro seco y húmedo de 21°C y 15°C respectivamente. El aire a la salida de la torre tiene una temperatura de 27°C y una humedad relativa del 90%.
 
 Determinar:
-a)	El gasto volumétrico de aire necesario en m3/s.
-b)	El consumo de agua en kg/s.
+a)	El gasto volumétrico de aire necesario en :math:`\frac{m^3}{s}`.
+b)	El consumo de agua en :math:`\frac{kg}{s}`.
 El trabajo consumido por el ventilador de la torre se puede suponer despreciable.
+
 Solución
+^^^^^^^^
+
 a) El problema se resuelve mediante las ecuaciones (10.69) y (10.72).
-En este caso hay que tener en cuenta que no hay agua de aporte (m¡3 = 0 , /q3 = 0) y por tanto m/j ^ m/4. Debido a lo anterior las ecuaciones citadas anteriormente se modifican quedando el sistema de ecuaciones
-Til — ----------------------------
-(^■05 4" ^5^5) — (^02 4"	>2)
-mh +üj2ma - mu + u5ma
+
+En este caso hay que tener en cuenta que no hay agua de aporte (:math:`\dot{m}_{l_3} = 0`, :math:`\dot{h}_{l_3} = 0`) y por tanto :math:`\dot{m}_{l_1} \neq \dot{m}_{l_4}`. Debido a lo anterior las ecuaciones citadas anteriormente se modifican quedando el sistema de ecuaciones
+
+.. math::
+
+   \dot{m}_a =  \frac{\dot{m}_{l_1} h_{l_1} - \dot{m}_{l_4} h_{l_4}}{(h_{a_5}   + \omega_5 h_{v_5}) - (h_{a_2}   + \omega_2 h_{v_2})} \\
+   \dot{m}_{l_1} + \omega_2 \dot{m}_a = \dot{m}_{l_4} + \omega_5 \dot{m}_a
 
 A continuación procederemos a calcular el valor de las diversas magnitudes que aparecen en las ecuaciones anteriores.
 
 De las tablas de propiedades termodinámicas del agua en saturación,
 
-u/1(30°C) = 1,0043 ■ 10“3m3/%
+.. math::
 
-y teniendo en cuenta que en la torre entran 0,6m3/s de agua, el gasto de agua que entra en la torre es
+   v_{l-1}(30°C) = 1.0043\cdot 10^{-3} \frac{m^3}{kg}
 
-mh =
-0,6 m3/s
-1,0043-10~3m3/kg
-597,43kg/s
+y teniendo en cuenta que en la torre entran :math:`0.6\frac{m^3}{s}` de agua, el gasto de agua que entra en la torre es
+
+.. math::
+
+   \dot{m}_{l_1} = \frac{0.6\frac{m^3}{s}}{1.0043\cdot 10^{-3} \frac{m^3}{kg}} = 597.43 \frac{kg}{s}
 
 Por otra parte se tiene
-h¡j = c;j 0/j = 4,18 • 30 = 125,4kJ/kg hu = c/4#/4 = 4,18 • 20 = 83,6kJ/kg
-Mezclas de gases y vapores. Psicrometría
-47
+
+.. math::
+
+
+   h_{l_1} = c_{l_1} \theta_{l_1} = 4.18 \cdot 30 = 125.4 \frac{kJ}{kg} \\
+   h_{l_4} = c_{l_4} \theta_{l_4} = 4.18 \cdot 20 = 83.6 \frac{kJ}{kg} \\
 
 Para el aire que sale de la torre, de las tablas de propiedades termodinámicas del agua en saturación
 
-p*(27°C) = 0,035676ar
+.. math::
+ 
+   p^*(27°C) = 0.03567bar
+
 y de la ecuación (10.6)
-pv = p*(f> = 0,03567 • 0,9 = 0,03216ar
+
+
+.. math::
+
+   p-v = p^* \phi = 0.03567 \cdot 0.9 = 0.0321bar
+
 y de la ecuación (10.4)
-us = 0,622——— = 0,622-^^— = 0,02063kg/kg p - Pv	1 - 0,0321
-h s — has	Cpa ^5 + Us [^/u (^re/ ) + Cpv$s] —
-= 1,005-27+ 0,0263 [2501,4 + 1,82-27] = 79,75kJ/kg
+
+.. math::
+
+   \omega_5 = 0.622 \frac{p_v}{p-p_v} = 0.622 \frac{0.0321}{1-0.0321} = 0.02063\frac{kg}{kg}\\
+   h_5 = h_{a_5}+ \omega_5 h_{v_5} = c_{p_a} \theta_5 + \omega_5 \left[ h_{l_v}(\theta_{ref})+c_{p_v} \theta_5\right] = \\
+   = 1.005 \cdot 27 + 0.0263[2501.4+1.82 \cdot 27] = 79.75 \frac{kJ}{kg}
+   
 
 Para el aire que entra en la torre, de la definición de temperatura húmeda, aplicando el principio de conservación de la energía al proceso de saturación (2 — 2') se obtiene
 
-hy + {u2' — U2)h¡ — hy
-ha2 + U2hV2 + (u>2' — U2)h¡ =	+ u2 '^v2i
-Cpa&2+^2 [hlv(Qref) + cpv&2] + (w2' — U2)c¡6¡ =
-— Cpa@2' 4" ^2' [^/u(0re/) 4” ^Pd^2']
-Cpa{02' - 02) + W3' [^/»(0re/) + Cp„02 ~ C/0/]
-U)2 — ------------------------------------------- —
-h¡v(6
-re /) + CPv 62 - c¡9¡
+.. math::
 
-El valor de uy se calcula a partir de la ecuación (10.4)
+   h-2 + (\omega_2' -\omega_2) h_l = h_2'  \\
+   h_{a_2} + \omega_2 h_{v_2}+  (\omega_2' -\omega_2) h_l = h_s' + \omega_2'  h_{v_2 '} \\
+   c_{p_a} \theta_2 + \omega_2 [h_{l-v}(\theta_{ref}) + c_{p_v}\theta_2] +  (\omega_2' -\omega_2) c_l \theta_l = \\
+   c_{p_a} \theta_{2'} + \omega_{2'}[h_{l-v}(\theta_{ref}) + c_{p_v}\theta_{2'}] \\
+   \omega_2 = \frac{c_{p_a} (\theta_{2'} - \theta_2)+\omega_{2'}[h_{l-v}(\theta_{ref}) + c_{p_v}\theta_2 - c_l \theta_l]}{h_{l-v}(\theta_{ref}) + c_{p_v}\theta_2-c_l \theta_l}
+   
 
-u2> = 0,622 Pv*' = 0,622- P
-P - Pv2,	P-P*
+El valor de :math:`\omega_{2'}` se calcula a partir de la ecuación (10.4)
 
-obteniendo p* de las tablas de propiedades termodinámicas del agua en saturación
-p*(15°C) = 0,017056ar	'
+.. math::
 
-u2' = 0,6221	= 0,01079kg/kg
-1,005(15 - 21) + 0,01079[2501,4 + 1,82 ■ 15 - 4,18 ■ 15] 2501,4 + 1,82-21 -4,18-15
-U2 = 8,308 • 10~3kg/kg
+   \omega_{2'} = 0.622 \frac{p_{v_{2'}}}{ p- p_{v_{2'}}} = 0.622 \frac{p^*}{p-p^*}
+
+obteniendo :math:`p^*` de las tablas de propiedades termodinámicas del agua en saturación
+
+.. math::
+
+   p^*(15°C) = 0.01705bar \\
+   \omega_{2' } = 0.622 \frac{0.01705}{1-0.01705} = 0.01079\frac{kg}{kg} \\
+   \omega_2 = \frac{1.005(15-21)+0.01079[2501.4 + 1.82\cdot 15 -4.18 \cdot 15]}{2501.4 + 1.82\cdot 21 - 4.18 \cdot 15} \\
+   \omega_2 = 8.308 \cdot 10^{-3} \frac{kg}{kg}
 
 
 y entonces
 
-^2= ^e»2 "I" ^2^V2 = Cpa^2 "i" ^2 [/l/v(^re/) "I" ^Pn^2] =
-= 1,005 • 21 + 8,308 • 10-3[2501,4 + 1,82 • 21] = 42,2kJ/kg
 
-Introduciendo el valor de las magnitudes calculadas en el sistema de ecuaciones inicial se obtiene	_
-1995 — 2,23m/4 = ma
+.. math::
+
+   h_2 = h_{a_2} + \omega_2 h_{v_2} = c_{p_a} \theta_2 + \omega_2 [h_{l-v}(\theta_{ref})+c_{p_v}\theta_2] = \\
+   1.005 \cdot 21+8.308.10^{-3} [2501.4 + 1.82\cdot 21] = 42.2 \frac{kJ}{kg}
+
+Introduciendo el valor de las magnitudes calculadas en el sistema de ecuaciones inicial se obtiene
+
+.. math::
+
+   1995-2.23 \dot{m}_{L-4} = \dot{m}_a \\
+   \dot{m}_{l_4} = -1.23 \cdot 10^{-2} \dot{m}_a + 597.4
+   
+
 Resolviendo el sistema
-m¡. = -1,23-10 2ma + 597,4
-ma = 68l,6kg/s m;4 = 589, 03kg ¡s
+
+.. math::
+
+   \dot{m}_a = 681.6\frac{kg}{s} \\
+   \dot{m}_{l_4} = 589.03 \frac{kg}{s}
+
 
 Para calcular el gasto volumétrico de aire necesitamos conocer la presión parcial del aire seco. De la ecuación (10.4) se obtiene
+
+
 Pv2
 1
 1 +
