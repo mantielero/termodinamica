@@ -204,5 +204,7 @@ La exergía de la corriente de aire húmedo que desde las condiciones (*T*, *p*,
 
 .. math::
 
-   E_{x_t} &= (c_{p_a} - \omega c_{p_v}) \left[ (T-T_{amb}) - T_{amb}\ln \frac{T}{T_{amb}}\right] + R_a T_{amb} (1+\tilde{\omega}) \ln \frac{p}{p_{amb}} + \\
-   &+ R_a T_{amb} \left[ (1+\tilde{\omega}) \ln \frac{(1+\tilde{\omega}_{amb})}{(1+\tilde{\omega})} + \tilde{\omega} \ln \frac{\tilde{\omega}}{\tilde{\omega}_{amb}} \right]
+   E_{x_t} &= (c_{p_a} - \omega c_{p_v}) \left[ (T-T_{amb}) - T_{amb}\ln \frac{T}{T_{amb}}\right] + R_a T_{amb} (1+\tilde{\omega}) \ln \frac{p}{p_{amb}} 
+   
++ \\
+&+ R_a T_{amb} \left[ (1+\tilde{\omega}) \ln \frac{(1+\tilde{\omega}_{amb})}{(1+\tilde{\omega})} + \tilde{\omega} \ln \frac{\tilde{\omega}}{\tilde{\omega}_{amb}} \right]
