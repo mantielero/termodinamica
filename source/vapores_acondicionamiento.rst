@@ -838,10 +838,9 @@ y con :math:`p^*(23.6°C) = 0.02915bar` se obtiene
 .. math::
 
    \phi &= \frac{ \omega p }{ ( 0.622 + \omega ) p^{*} } = \\
-        &= \frac{ 0.01145 \cdot 1 }{ (0.622 + 0.01145) \cdot 0.02915 }
+        &= \frac{ 0.01145 \cdot 1 }{ (0.622 + 0.01145) \cdot 0.02915} = 0.62
         
-prueba::
-
+        
         = 0.62 \\
    \phi &= 62%
 
