@@ -219,7 +219,11 @@ que se puede expresar como
 
 El último término de esta expresión representa la cantidad de energía extraída del sistema, debida a la condensación del agua. En general, este término, comparado con el primero se puede despreciar en muchos cálculos.
 
-
+.. toctree::
+   :maxdepth: 1
+   :caption: Ejercicios:
+   
+   vapores_acondicionamiento_ex10_1
 
 Humidificación
 --------------
