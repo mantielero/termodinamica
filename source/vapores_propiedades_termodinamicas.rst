@@ -143,12 +143,12 @@ Los valores numéricos de los calores específicos, dado el intervalo de tempera
 
 .. math::
 
-   c_{p_a} = 1.005 \frac{kJ}{kg \cdot K} \\
-   c_{p_v} = 1.82 \frac{kJ}{kg \cdot K} \\
-   c_{l} = 4.18 \frac{kJ}{kg \cdot K} \\
-   c_{s} = 2.05 \frac{kJ}{kg \cdot K} \\
-   h_{lv}(\theta_{ref}) = 2501.4 \frac{kJ}{kg} \\
-   h_{ls}(\theta_{ref}) = -333.4 \frac{kJ}{kg} \\   
+   c_{p_a} &= 1.005 \frac{kJ}{kg \cdot K} \\
+   c_{p_v} &= 1.82 \frac{kJ}{kg \cdot K} \\
+   c_{l} &= 4.18 \frac{kJ}{kg \cdot K} \\
+   c_{s} &= 2.05 \frac{kJ}{kg \cdot K} \\
+   h_{lv}(\theta_{ref}) &= 2501.4 \frac{kJ}{kg} \\
+   h_{ls}(\theta_{ref}) &= -333.4 \frac{kJ}{kg} \\   
    
 
 El término (:math:`\omega-\omega_{sat}`) que aparece en las ecuaciones anteriores representa, respectivamente, la cantidad de condensado líquido y sólido existente en la mezcla.
