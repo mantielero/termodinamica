@@ -124,8 +124,7 @@ sin despreciar el volumen ocupado por el líquido condensado, :math:`\frac{\omeg
 
 .. math::
    
-   E_x &= (u_a - u_{a_{amb}}) 
-   - T_{amb} \left[ s_a(T,p_a) - s_a(T_{amb}, p_{a_{amb}}' ) \right]  \\
+   E_x &= (u_a - u_{a_{amb}}) - T_{amb} \left[ s_a(T,p_a) - s_a(T_{amb}, p_{a_{amb}}' ) \right]  \\
    &+ \omega \left{ u_v - h_f(T_{amb}) - T_{amb} \left[ s_g(T) - R_v \ln \frac{x_v p}{p^*(T)} - s_f(T_{amb}) \right] \right}
    
 &+ (\omega - \omega ' )\frac{p^*(T_{amb})}{\rho_l} + p_{amb} \left[ (1+\tilde{\omega}) \frac{R_a T}{p} - \frac{R_a T_{amb}}{p_{amb}}  - \left( \frac{\omega - \omega '}{\rho_l}\right)\right]
