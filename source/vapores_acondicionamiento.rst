@@ -222,60 +222,75 @@ El último término de esta expresión representa la cantidad de energía extra�
 Ejercicio 10.1
 ^^^^^^^^^^^^^^
 
-Para cierto proceso se necesita tener aire saturado con una humedad de 0,007 kg/kg. Se utiliza 0,5 kg/s de aire atmosférico a 25°C y con una humedad relativa del 60%.
+Para cierto proceso se necesita tener aire saturado con una humedad de :math:`0.007\frac{kg}{kg}`. Se utiliza :math:`0.5\frac{kg}{s}` de aire atmosférico a 25°C y con una humedad relativa del 60%.
 
 Calcular la cantidad de calor que se necesita extraer del aire para obtener las condiciones deseadas.
+
 La presión atmosférica es 1 bar.
 
 Solución
 ''''''''
 
 El calor que hay que extraer se calcula a partir de la ecuación (10.53)
-Q = ma(h2 - hi) + ma(ux - LJ2)h¡
-Se necesita conocer el valor de ma, y puesto que
+
+.. math::
+   
+   \dot{Q} = \dot{m}_a (\dot{h}_2 - \dot{h}_1  )+ \dot{m}_a (\omega_2 - \omega_1) h_l
+   
+Se necesita conocer el valor de :math:`\dot{m}_a`, y puesto que
+
+.. math::
+
+   \dot{m} = \dot{m}_a + \dot{m}_v = \dot{m}_a (1+\omega)
+   
 resulta que
-m = ma + mv = ma(l + u>)
-ma
-m
-1+^2
-0,5kg/s 1 + 0,007kg/kg
-0,4965kg/s
+
+.. math::
+
+   \dot{m}_a = \frac{\dot{m}}{1+\omega_2} = \frac{0.5\frac{kg}{s}}{1+0.007\frac{kg}{kg}} = 0.4965\frac{kg}{s}
+   
 
 De la ecuación (10.6)
 
+.. math::
+
+   p_v = \phi_1 \cdot p^*(25°C) \\
+   p_{v_1} = 0.6 \cdot 0.03169bar = 0.019014bar
+
 y de la ecuación (10.4)
 
-Pv — 4>i ' p*(25°C)
-pVl = 0,6-0,031696ar = 0,019014¿>ar
-u>\ - 0,622-
-Pv 1
-ui\ = 0,622-
-P-Pvx
-0,019014
-= Q,Q\2kg¡kg
-1-0,019014
+.. math::
 
-También es preciso calcular 82. Como a la salida el aire está saturado, de la ecuación (10.4)
+   \omega_1 = 0.622 \frac{p_{v_1}}{p-p_{v_1}} \\
+   \omega_1 = 0.622 \frac{0.019014}{1-0.019014} = 0.012\frac{kg}{kg}
+   
 
-P2 =
-P-lj2
-1-0,007
-= 0,01138óar
-0,622 -^2	0,622 - 0,007
+También es preciso calcular :math:`\theta_2`. Como a la salida el aire está saturado, de la ecuación (10.4)
+
+.. math::
+
+   p_2^* = \frac{p \cdot \omega_2}{0.622 - \omega_2} = \frac{1 \cdot 0.007}{0.622-0.007} = 0.01138bar
+
 
 Con este valor y la tabla de propiedades termodinámicas del agua en saturación
 
-82 = 8,9 °C
+.. math::
+
+   \theta_2 = 8.9°C
 
 El valor de la entalpia es
 
-h2 = cPa02 + w2[M0re/) + Cp„02] = 1,005 - 8,9 + 0,007(2501,4+ 1,82 - 8,9] = 26,57kJ/kg
-hi = cPa81 + wi [h¡v(8ref) + cp„0i] = 1,005 ■ 25 + 0,012(2501,4 + 1,82-25] = 55,69kJ/kg
-h¡ = c¡8¡ = 4,18-8,9 = 37,2 kJ/kg
+.. math::
+
+   h_2 = c_{p_a} \theta_2 + \omega_2[ h_{l_v}(\theta_{ref}) + c_{p_v} \theta_2] = 1.005\cdot 8.9 + 0.007 [2501.4 +  1.82 \cdot 8.9] = 26.57\frac{kJ}{kg} \\
+   h_1 = c_{p_a} \theta_1 + \omega_1[ h_{l_v}(\theta_{ref}) + c_{p_v} \theta_1]  = 1.005 \cdot 25 + 0.012(2501.4 + 1.82\cdot25] = 55.69\frac{kJ}{kg}
+   h¡ = c¡8¡ = 4,18-8,9 = 37,2 kJ/kg
 
 De lo anterior se obtiene
 
-Q = 0,4965(26,57 - 55,69) + 0,4965(0,012 - 0,007) • 37,2 Q = -14,37 kj/s
+.. math::
+
+   Q = 0,4965(26,57 - 55,69) + 0,4965(0,012 - 0,007) • 37,2 Q = -14,37 kj/s
 
 Humidificación
 --------------
