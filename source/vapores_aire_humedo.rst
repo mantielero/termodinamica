@@ -11,8 +11,11 @@ El punto triple del agua está a una temperatura de 0.01°C de manera que si la 
 
 * *Aire húmedo no saturado* en el que :math:`p_v<p^*(T)`; contiene agua en estado de vapor
 sobrecalentado.
+
 * *Aire húmedo saturado* La presión de vapor es igual a la de saturación a la temperatura de la mezcla, :math:`p_v = p^*(T)`. Contiene agua en estado de vapor saturado.
+
 * *Aire húmedo saturado con condensado líquido*. Contiene vapor de agua saturado y agua en forma de niebla o líquido precipitado.
+
 * *Aire húmedo saturado con condensado sólido*. Además del vapor de agua saturado contiene hielo, generalmente en forma de niebla o escarcha.
 
 El aire húmedo se considera, pues, como una mezcla ideal de gases ideales, de modo que la ecuación térmica de estado para la mezcla es:
