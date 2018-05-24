@@ -106,7 +106,7 @@ También se puede dar el contenido de agua mediante la humedad relativa :math:`\
    \phi = \left. \frac{p_v}{p^*} \right|_{p,T}
 
 
- Como :math:`p_v = x_v p` y :math:`p^* = x_{v,sat} p`, una forma alternativa de expresar la humedad relativa es:
+Como :math:`p_v = x_v p` y :math:`p^* = x_{v,sat} p`, una forma alternativa de expresar la humedad relativa es:
  
 .. math::
 
