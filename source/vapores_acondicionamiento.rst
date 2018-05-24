@@ -889,7 +889,12 @@ y por tanto para calcular el punto 3, que estará en la recta que une el punto 1
 
 
 
-De lo anterior se obtiene que 03 = 20,2°C 0húmedo3 = 13 C
+De lo anterior se obtiene que 
+
+.. math::
+
+   \theta_3 = 20.2°C\\
+   \theta_{\text{húmedo}_3} = 15°C
 
 
 
@@ -899,34 +904,38 @@ Sistemas de aire acondicionado
 
 Cualquier sistema de acondicionamiento de aire estará integrado por un conjunto de los procesos estudiados anteriormente. Los procesos utilizados podrán variar más o menos respecto a los descritos, pero su fundamento será el mismo.
 
-• Acondicionamiento de verano:
+* Acondicionamiento de verano:
 
 En general la temperatura y la humedad relativa suelen ser bastante altas por lo que se procede a acondicionar el aire disminuyendo su temperatura y humedad. Para conseguir lo anterior se realiza un proceso de deshumidificación hasta conseguir un valor de humedad tal que, si la temperatura resultante es demasiado baja, al proceder a realizar un calentamiento, la humedad resultante sea la adecuada. En la fig.27 se representa el proceso en un diagrama de Mollier.
 
+.. figure:: ./img/acondicionamiento_fig27.png
+
 Si la temperatura fuese elevada y la humedad relativa baja (clima continental o desértico) se puede obtener un enfriamiento adecuado sin más que hacer pasar el aire por una cámara de saturación adiabática (humidificación), proceso que se conoce como enfriamiento por evaporación.
+
+* Acondicionamiento de invierno
 
 Si el clima (como suele suceder en invierno) es seco y frió se procede a realizar un calentamiento, seguido de un proceso de humidificación, hasta conseguir la humedad deseada, y por último otro proceso de calentamiento. En el diagrama de Mollier el proceso vendría representado como se muestra en la fig.28.
 
-Fig.28
+.. figure:: ./img/acondicionamiento_fig28.png
 
 En los sistemas de acondicionamiento se suele recurrir además a mezclar dos corrientes de aire, una procedente del interior del espacio a acondicionar y la otra procedente del exterior.
 
 En la fig.29 se esquematiza una instalación muy simple que puede utilizarse para acondicionar un cierto espacio. Dependiendo de los requisitos y condiciones exteriores entrarán en funcionamiento unos sistemas u otros.
 
-enfnam numkí. cal«nt.
 
-Fig.29
 
-cal«nt.
+.. figure:: ./img/acondicionamiento_fig29.png
 
 
 Ejercicio 10.7
+^^^^^^^^^^^^^^
 
 En un recinto entra una cierta cantidad de aire a una temperatura de 15°C. Debido a la actividad que se produce en el recinto se liberan 8 kJ/s de calor y se añaden 1,4 • 10~3 kg/s de vapor de agua saturado a 30°C. Después de estos procesos, el aire sale del recinto a 25°C de temperatura seca y 19°C de temperatura húmeda.
 
 Determinar la temperatura húmeda del aire que entra al recinto y su volumen específico.
 
 Solución
+''''''''
 
 Este problema puede resolverse de forma analítica, como se ha hecho en otros, o de una manera más simple utilizando el diagrama psicrométrico.
 
