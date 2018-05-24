@@ -447,63 +447,11 @@ La resolución utilizando el diagrama psicrométrico se deja como ejercicio.
 
 
 
-Ejercicio 10.3
-^^^^^^^^^^^^^^
-
-Para tratar una corriente de aire húmedo a una temperatura seca de 21°C y una temperatura húmeda de 8°C, se inyecta adiabáticamente vapor saturado a 110°C, hasta que su temperatura de rocío es 13°C.
-
-El gasto músico de aire seco es de 90kg/min.
-
-Determinar el gasto músico de vapor, en kg/h, necesario y la temperatura final del aire obtenido.
-
-Se puede suponer que la presión total se mantiene constante en un valor de 1 bar. 
-
-Solución
-''''''''
-
-A partir de la ecuación (10.55) se obtiene
-
-.. math::
-
-   \dot{m}_l = \dot{m}_{v_2}-\dot{m}_{v_1} = (\omega_2-\omega_1) \dot{m}_a
-
-y por tanto es necesario calcular la humedad del aire a la entrada y salida del humidificador.
-
-Para calcular :math:`\omega_1`, como conocemos la temperatura húmeda a la entrada y utilizando su definición, al aplicar el principio de conservación de la energía a ese proceso (1 — 2') se obtiene
-
-.. math::
-
-   h_1 + (\omega_{2'}-\omega_1) h_l = h_{2'} \\
-   h_{a_1} + \omega_1 h_{v_1} + (\omega_{2'} - \omega_1) h_l =  h_{2'} +  \omega_{2'} h_{v2'} \\
-   c_{p_a} \theta_1 + \omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] + (\omega_{2'}-\omega_1) c_l \theta_l  = c_{p_a} \theta_{2'} + \omega_{2'} [h_{lv}(\theta_{ref})+c_{p_v} \theta_{2'}] \\
-   \omega_1 = \frac{c_{p_a} (\theta_{2'} - \theta_1) +\omega_{2'}[h_{lv}(\theta_{ref})+c_{p_v} \theta_{2'} - c_l \theta_l] }{h_{lv}(\theta_{ref})+c_{p_v} \theta_1 -c_l \theta_l}
+.. toctree::
+   :maxdepth: 1
+   :caption: Ejercicios:
    
-
-obteniendo :math:`p^*` de las tablas de propiedades termodinámicas del agua en saturación (:math:`p^* = 0.01072bar`).
-
-.. math::
-
-   \omega_{2'} = 0.622 \frac{0.01072}{1 - 0.01072} = 6.74 \cdot 10^{-3} \frac{kg}{kg} \\
-   \omega_1 = \frac{1.005(8-21) 6.47 \cdot 10^{-3}(2501.4+1.82\cdot 8 - 4.18 \cdot 8}{2501.4+1.82\cdot 21 -4.18 \cdot 8} \\
-   \omega_1 = 1.46 \cdot 10^{-3} \frac{kg}{kg}
-
-Paxa calcular la humedad a la salida (:math:`\omega_2`), a partir de la ecuación (10.4) y teniendo en cuenta que la presión de vapor a la salida es igual a la presión de vapor saturado a la temperatura de rocío (13°C), de las tablas de propiedades termodinámicas del agua en saturación :math:`p^*(13°C) = 0,01497bar` y por tanto :math:`p_v = 0.01497bar`, quedando
-
-.. math::
-
-   \omega_2 = 0.622 \frac{p_v}{p - p_v} = 0.622\frac{0.01497}{1-0.01497} = 9.45 \cdot 10^{-3} \frac{kg}{kg} \\
-   \dot{m}_l = \dot{m}_a (\omega_2 - \omega_1) = 90 \cdot 60(9.45\cdot 10^{-3} - 1.46 \cdot 10^{-3}) = 43.15\frac{kg}{h}
-
-Para calcular la temperatura a la salida, mediante la ecuación (10.57)
-
-.. math::
-
-   h_2 - h_1 = h_l (\omega_2 - \omega_1) \\
-   c_{p_a} \theta_2 + \omega_2 [h_{lv}(\theta_{ref})+c_{p_v} \theta_2] - c_{p_a} \theta_1 - \omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] = [h_{lv}(\theta_{ref})+c_{p_v} \theta_l] (\omega_2 - \omega_1) \\
-   \theta_2 = \frac{ [h_{lv}(\theta_{ref})+c_{p_v} \theta_l] (\omega_2 - \omega_1)  c_{p_a} \theta_1 + \omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] -  \omega_2 h_{lv}(\theta_{ref})} {    c_{p_a} +  \omega_2 c_{p_v}} \\
-   \theta_2 &= \frac{(2501.4 + 1.82 \cdot 110)(9.45 -1.46) \cdot 10^{-3} + 1.005 \cdot 21}{1.005 + 9.45 \cdot 10^{-3}\cdot 1.82} + \\
-   &+ \frac{1.46 \cdot 10^{-3}(2501.4+1.82 \cdot 21) - 9.45\cdot 10^{-3}\cdot 2501.4}{1.005+9.45\cdot 10^{-3}\cdot 1.82} \\
-   \theta_2 = 22.27°C
+   vapores_acondicionamiento_ex10_3
 
 
 Calentamiento y enfriamiento
