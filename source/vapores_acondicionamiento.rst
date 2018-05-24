@@ -845,7 +845,11 @@ y con :math:`p^*(23.6°C) = 0.02915bar` se obtiene
 La resolución gráfica se deja como ejercicio.
 
 
-ex10_6
+.. toctree::
+   :maxdepth: 1
+   :caption: Ejercicios:
+   
+   vapores_acondicionamiento_ex10_6
 
 
 
