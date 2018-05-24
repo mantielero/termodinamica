@@ -976,7 +976,7 @@ Ejercicio 10.8
 
 Un día de verano las condiciones atmosféricas son:
 
-a)	Presión atmosférica 985 bar.
+a)	Presión atmosférica 985bar.
 b)	Temperatura 32°C.
 c)	Humedad relativa 70%
 
@@ -984,11 +984,12 @@ A partir de estas condiciones se desea obtener aire a 22°C y una humedad relati
 
 Determinar:
 
-a)	La cantidad de agua eliminada en kg/kg^¡re seco.
-b)	El calor extraído por la unidad de refrigeración en kJ/kg^re seco-
-c)	La cantidad de calor cedido en la sección de calentamiento en kJ¡kg^ 8eCo-
+a)	La cantidad de agua eliminada en :math:`kg/kg_{\text{aire seco}}`
+b)	El calor extraído por la unidad de refrigeración en :math:`kJ/kg_{\text{aire seco}}`
+c)	La cantidad de calor cedido en la sección de calentamiento en :math:`kJ/kg_{\text{aire seco}}`
 
-Solución:
+Solución
+''''''''
 
 El proceso seguido por el aire será como el representado en la Fig.27. En la solución del problema se seguirá la nomenclatura de dicha figura.
 
