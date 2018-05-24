@@ -91,43 +91,43 @@ y con el valor de ma obtenido en la ecuación (10.48)
    \frac{ \dot{Q}+\sum_s (\dot{m}_w h_w)_s -  \sum_e (\dot{m}_w h_w)_e}{ \sum_e \dot{m}_{w_e} -  \sum_s \dot{m}_{w_s}} = \frac{ h_2 - h_1}{\omega_2 - \omega_1}
 
 
-que es precisamente el valor q' que da el diagrama psicrométrico, es decir
+que es precisamente el valor :math:`q'` que da el diagrama psicrométrico, es decir
 
-/	^2 h\ Qneto
-q = -------- = -------
-w2 - uq mWneto
-(10.45)
-(10.46) cinética y
-(10.47)
-(10.48)
-S
-(10.49) (10.49a)
 
-Por lo tanto, de lo anterior se concluye que dado, por ejemplo, el estado del aire húmedo a la entrada, todos los demás posibles estados del aire a la salida estarán sobre una recta cuya pendiente es q' y que pasa por el punto dado por las condiciones a la entrada.
+.. math::
 
+   q'  = \frac{ h_2 - h_1}{\omega_2 - \omega_1} = \frac{\dot{Q}_{neto}}{\dot{m}_{w_{neto}}}
+
+
+Por lo tanto, de lo anterior se concluye que dado, por ejemplo, el estado del aire húmedo a la entrada, todos los demás posibles estados del aire a la salida estarán sobre una recta cuya pendiente es :math:`q'` y que pasa por el punto dado por las condiciones a la entrada.
 
 En el diagrama de Mollier aparece una escala que proporciona, igual que en el caso anterior, el valor de la relación entre las diferencias de entalpia y diferencias de humedad entre dos estados de un proceso (fig.8).
 
-Fig.8
+.. figure:: ./img/diag_mollier.png
 
-2.	En el mismo gráfico que aparece en el diagrama psicrométrico, citado anteriormente, hay otra escala que proporciona el ”Factor de calor sensible” (FCS) y que da el cambio de entalpia asociado con un cambio en la temperatura seca dividido entre el cambio de entalpia total. Para el proceso entre un estado 1 y un estado 2 (fig.9)
+2.	En el mismo gráfico que aparece en el diagrama psicrométrico, citado anteriormente, hay otra escala que proporciona el "Factor de calor sensible" (FCS) y que da el cambio de entalpia asociado con un cambio en la temperatura seca dividido entre el cambio de entalpia total. Para el proceso entre un estado 1 y un estado 2 (fig.9)
 
-Fig.9
-donde 02¡ = 02 y u2i = u>\.
-FCS
-h2i — h\ h2 — h\
+.. figure:: ./img/acondicionamiento_fig9.png
 
-Para ver el significado del FCS una manera más simple, volvamos al sistema introducido en el punto anterior. Si se supone que no se añade, ni se quita agua, del sistema (mWc =
+.. math::
 
-= 0) resulta un proceso ficticio tal que a partir de la ecuación (10.49)
-, h Q
-h,2> — h\ = —— ma
+   FCS = \frac{h_{2'} - h_1}{h_2 - h_1}
+   
+donde :math:`\theta_{2'} = \theta_2` y :math:`\omega_{2'} = \omega_1`.
 
-mientras que en el proceso real /12 - Ai vendría dado por la ecuación (10.49) conservando todos los términos. Por tanto el factor FCS se puede definir como la relación entre el calor neto que se comunica al sistema y la energía total añadida al sistema (incluyendo la cantidad de energía que posee el agua añadida y que vendría dada por su entalpia), quedando
 
-Ó
-]?(j § — _______________—________________
-Q 4“ X)e (^w^to)e {jdlulhw^s
+Para ver el significado del FCS una manera más simple, volvamos al sistema introducido en el punto anterior. Si se supone que no se añade, ni se quita agua, del sistema (:math:`\dot{m}_{w_e} = \dot{m}_{w_s}`) resulta un proceso ficticio tal que a partir de la ecuación (10.49)
+
+.. math::
+
+   h_{2'} - h_1 = \frac{\dot{Q}}{\dot{m}_a}
+
+
+mientras que en el proceso real :math:`h_2 - h_1` vendría dado por la ecuación (10.49) conservando todos los términos. Por tanto el factor FCS se puede definir como la relación entre el calor neto que se comunica al sistema y la energía total añadida al sistema (incluyendo la cantidad de energía que posee el agua añadida y que vendría dada por su entalpia), quedando
+
+.. math::
+
+   FCS = \frac{\dot{Q}}{\dot{Q} + \sum_e (\dot{m}_w h_w)_e - \sum_s (\dot{m}_w h_w)_s}
 
 Deshumidificación
 -----------------
