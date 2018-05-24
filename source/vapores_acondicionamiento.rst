@@ -290,7 +290,7 @@ De lo anterior se obtiene
 
 .. math::
 
-   \dot{Q} = 0,4965(26,57 - 55,69) + 0,4965(0,012 - 0,007) • 37,2 \\
+   \dot{Q} = 0.4965(26.57 - 55.69) + 0.4965(0.012 - 0.007) \cdot 37.2 \\
    \dot{Q} = -14.37 \frac{kJ}{s}
 
 Humidificación
