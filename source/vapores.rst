@@ -18,6 +18,5 @@ Emilio Navarro Arévalo.
    vapores_propiedades_termodinamicas
    vapores_saturacion
    vapores_mollier
-   vapores_acondicionamiento_aire
+   vapores_acondicionamiento
    vapores_torres
-
