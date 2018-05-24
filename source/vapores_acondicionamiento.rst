@@ -17,36 +17,60 @@ Introducción a los procesos con aire húmedo
 Antes de proceder al estudio de los procesos elementales para el acondicionamiento de aire citados anteriormente, conviene describir un gráfico adicional que aparece en algunos diagramas psicrométricos, así como la escala que aparece en el diagrama de Mollier y que proporcionan el valor de la relación entre las diferencias de entalpia y diferencias de humedad entre dos estados.
 
 1.	El gráfico que aparece en el diagrama psicrométrico (fig.6) proporciona la relación entre las diferencias de entalpia y diferencias de humedad entre los estados inicial y final de cualquier proceso. Es decir
-,	variación de entalpia	li2 — h\ Ah
-^	variación de humedad	u>2 — Au
+
+.. math::
+
+   q' = \frac{\text{variación de entalpía}}{\text{variación de humedad}} = \frac{h_2 - h_1}{\omega_2 - \omega_2} = \frac{\Delta h}{\Delta \omega}
+
 
 Es útil para determinar dichos estados (inicial o final), o el calor transferido en el proceso, como se verá posteriormente con algún ejemplo.
-Fig.6
 
+.. figure:: ./img/diag_psicrometrico.png
+
+   Diagrama psicrométrico
+
+   
 Para ver que es lo que exactamente representa, supongamos que tenemos un cierto sistema (fig.7) en el que entra una corriente de aire en unas condiciones 1 y sale en unas condiciones 2. A través de la frontera del sistema hay un cierto intercambio de calor y al sistema se le añade o quita una cierta cantidad de agua.
 Fig. 7
+
+.. figure:: ./img/acondicionamiento_fig7.png
 
 Aplicando al sistema el principio de conservación de la masa y de conservación de la energía (sistema abierto en régimen estacionario) se obtiene:
 
 a)	Conservación de la masa:
-•	para el aire seco
-TTia\ ~ ril'0,2 ~~ rila
-•	para el agua
-rhvi + Y mWc =	+	™w,
-e	s
+
+    * para el aire seco
+    
+    .. math::
+    
+       \dot{m}_{a_1} = \dot{m}_{a_2} = \dot{m}_a
+
+
+    * para el agua
+    
+    .. math::
+       
+       \dot{m}_{v_1} + \sum_e \dot{m}_{w_e} = \dot{m}_{v_2} + \sum_s \dot{m}_{w_s}
 
 b)	Conservación de la energía (suponiendo que las variaciones de las energías potencial son despreciables):
 
-Q = dia2/ia2 + mV7hV7 + ^ ('ñiwhw)s ~ diaihai — mvihvi — Y, (mwhw)e
-3	e
+.. math::
+
+   \dot{Q} = \dot{m}_{a_2} h_{a_2} + \dot{m}_{v_2} h_{v_2} + \sum_s (\dot{m}_w h_w)_s - \dot{m}_{a_1} h_{a_1} - \dot{m}_{v_1} h_{v_1} - \sum_e (\dot{m}_w h_w)_e
+   
+
 Teniendo en cuenta que
 
-mvi = uqmai m„2 = lJ2ma2
+.. math::
+
+   \dot{m}_{v_1} = \omega_1 \dot{m}_{a_1} \\
+   \dot{m}_{v_2} = \omega_2 \dot{m}_{a_2}
 
 de la ecuación (10.46) se obtiene
 
-Y ~ Y = ^»(^2 - U>1 )
-e	s
+.. math::
+
+   \sum_e \dot{m}_{w_e} - \sum_s \dot{m}_{w_s} = \dot{m}_{a} (\omega_2 - \omega_1)
 
 y de la ecuación (10.47) se obtiene
 
