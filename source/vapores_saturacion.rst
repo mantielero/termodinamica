@@ -39,7 +39,7 @@ De acuerdo con (10.4), (10.17) y (10.19) podremos escribir:
    &\omega_{sa} = 0.62 \frac{ p^*(T_{sa}) }{p-p^*(T_{sa})} \\
    &c_{p-a} \theta + \omega \left[ h_{lv}(\theta_{ref}) + c_{p_v} \theta \right] + (\omega_{sa} - \omega) \left[ c_l\theta_{sa} + \frac{p-p_{ref}}{\rho_l} \right] = c_{p_a} \theta_{sa}+ \omega_{sa} \left[ h_{lv}(\theta_{ref}) + c_{p_v} \theta_{sa} \right]
 
-Para utilizar las relaciones anteriores en la determinación analítica de :math:`\nu_{sa}` es necesario, además, una relación que nos de la presión de saturación en función de la temperatura, :math:`p* =
+Para utilizar las relaciones anteriores en la determinación analítica de :math:`\nu_{sa}` es necesario, además, una relación que nos de la presión de saturación en función de la temperatura, :math:`p^* =
 f(T)`
 
 De esta forma la temperatura de saturación adiabática tiene una solución analítica. Pero si los valores de las propiedades termodinámicas se conocen en forma tabular o por medio de un diagrama termodinámico, la resolución de las ecuaciones (10.33) y (10.34), que nos dan la temperatura de saturación adiabática, hay que realizarla mediante el método de prueba y error o por un método iterativo.
