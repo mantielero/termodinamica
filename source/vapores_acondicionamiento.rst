@@ -154,44 +154,73 @@ En las fig.ll y 12 se representa el proceso, seguido por el aire, en el diagrama
 En un proceso real hay que hacer notar que:
 
 a)	El aire no se enfría todo a la misma temperatura, ya que el aire que pasa cerca de la superficie del refrigerador estará a menor temperatura que el aire que pasa a una cierta distancia.
-b)	El agua que se condensa no lo hace todo a la misma temperatura. La razón de esto, es que cuando la mezcla alcanza la temperatura de rocío [0r) de las condiciones iniciales, parte se condensa a esa temperatura. La mezcla continua posteriormente condensándose y variando su temperatura desde 9r a 02- (fig.12)
+b)	El agua que se condensa no lo hace todo a la misma temperatura. La razón de esto, es que cuando la mezcla alcanza la temperatura de rocío (:math:`\theta_R`) de las condiciones iniciales, parte se condensa a esa temperatura. La mezcla continua posteriormente condensándose y variando su temperatura desde :math:`\theta_R` a :math:`\theta_2` (fig.12)
 
 Lo anterior nos lleva a establecer dos hipótesis simplificadoras antes de proceder a realizar el análisis del proceso:
+
 a) Todo el aire húmedo se enfría a la misma temperatura antes de dejar el sistema.
 b) Todo el líquido condensado se enfría a la temperatura de salida del aire húmedo antes de salir del sistema, es decir,
 
-9¡ = 02
+.. math::
+
+   \theta_l =  \theta_2
+   
 El error introducido con esta hipótesis es pequeño debido a que la entalpia del agua líquida es pequeña frente a la entalpia de la corriente de aire.
 
 Para el proceso, en régimen estacionario, se tienen las siguientes ecuaciones:
 
 a)	Conservación de la masa:
-•	para el aire seco
-rn-m = dia2 = ma	(10.50)
-•	para el agua
-mVl = ñu + mV2	(10.51)
+
+    * para el aire seco
+    
+    .. math::
+    
+       \dot{m}_{a_1} =\dot{m}_{a_2}  = \dot{m}_a
+
+    * para el agua
+    
+    .. math::
+    
+       \dot{m}_{v_1} =\dot{m}_l  + \dot{m}_{v_2}
 
 
 b)	Conservación de la energía (suponiendo que las variaciones de las energías cinética y potencial son despreciables):
 
-Q = ma2ha2 + mV2hV2 + m¡h¡ - maihai - mVlhVi	(10.52)
+.. math::
+
+   \dot{Q} = \dot{m}_{a_2} \dot{h}_{a_2} + \dot{m}_{v_2} \dot{h}_{v_2} + \dot{m}_l \dot{h}_l - \dot{m}_{a_1} \dot{h}_{a_1} - \dot{m}_{v_1} \dot{h}_{v_1}
 
 
 Teniendo que cuenta que
 
-mv j = uq mQl
-TTiy^ — ^2^a2
+.. math::
+
+   \dot{m}_{v_1} = \omega_1 \dot{m}_{a_1}  \\
+   \dot{m}_{v_2} = \omega_2 \dot{m}_{a_2}  
+   
 y con la ecuación (10.51) se obtiene
-m¡ = róa(uq - u2)
+
+.. math::
+
+    \dot{m}_l = \dot{m}_a (\omega_2 - \omega_1) 
+
 y la ecuación (10.52) se reduce a
-Q = m0(/ia2 - hai) + ih¡h¡ + ma(hv2u2 - hv\ui)
+
+.. math::
+
+   \dot{Q} = \dot{m}_a (\dot{h}_{a_2} - \dot{h}_{a_1} ) + \dot{m}_l \dot{h}_l + \dot{m}_a (\dot{h}_{v_2} \omega_2 - \dot{h}_{a_1} \omega_1 )
+
 que se puede expresar como
-Q = ma(h2 - hi) + ma(üJi - u2)h¡
-(10.53)
+
+.. math::
+   
+   \dot{Q} = \dot{m}_a (\dot{h}_2 - \dot{h}_1  )+ \dot{m}_a (\omega_2 - \omega_1) h_l
+   
 
 El último término de esta expresión representa la cantidad de energía extraída del sistema, debida a la condensación del agua. En general, este término, comparado con el primero se puede despreciar en muchos cálculos.
 
 Ejercicio 10.1
+^^^^^^^^^^^^^^
 
 Para cierto proceso se necesita tener aire saturado con una humedad de 0,007 kg/kg. Se utiliza 0,5 kg/s de aire atmosférico a 25°C y con una humedad relativa del 60%.
 
@@ -199,6 +228,7 @@ Calcular la cantidad de calor que se necesita extraer del aire para obtener las 
 La presión atmosférica es 1 bar.
 
 Solución
+''''''''
 
 El calor que hay que extraer se calcula a partir de la ecuación (10.53)
 Q = ma(h2 - hi) + ma(ux - LJ2)h¡
