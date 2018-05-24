@@ -291,6 +291,6 @@ esto es:
 
 .. math::
 
-   \frac{p_{v,sat}}{p^*} = \exp{ \frac{p- p^*(T)}{R_v T \rho_l} } \approx 1 + \frac{p- p^*(T)}{R_v T \rho_l} 
+   \frac{p_{v,sat}}{p^*} = \exp{ \left( \frac{p- p^*(T)}{R_v T \rho_l} \right)} \approx 1 + \frac{p- p^*(T)}{R_v T \rho_l} 
    
 si :math:`\frac{p- p^*(T)}{R_v T \rho_l} \ll 1`, cosa que sucede si, en el intervalo de temperaturas normales de trabajo, :math:`p \ll 140MPa`. Y si ponemos que :math:`p_{v,sat} = p^*(T)` el error que se comete es del orden de :math:`\frac{p- p^*(T)}{R_v T \rho_l} \times 100`. Así pues, en todos nuestros análisis de procesos de aire húmedo, cuando tengamos el aire en equilibrio con agua líquida tomaremos como presión de saturación la correspondiente al agua como sustancia pura.
