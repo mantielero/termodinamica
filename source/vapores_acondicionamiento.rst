@@ -479,98 +479,145 @@ Para calcular :math:`\omega_1`, como conocemos la temperatura húmeda a la entra
    \omega_1 = \frac{c_{p_a} (\theta_{2'} - \theta_1) +\omega_{2'}[h_{lv}(\theta_{ref})+c_{p_v} \theta_{2'} - c_l \theta_l] }{h_{lv}(\theta_{ref})+c_{p_v} \theta_1 -c_l \theta_l}
    
 
-obteniendo p* de las tablas de propiedades termodinámicas del agua en saturación (p* = 0,01072óar).
+obteniendo :math:`p^*` de las tablas de propiedades termodinámicas del agua en saturación (:math:`p^* = 0.01072bar`).
 
-u2i = 0,622-	- = 6,74 • 10~3kg/kg
-1 - 0,01072
-_ 1,005(8- 21)6,47-10~3(2501,4 + 1,82-8 -4,18-8)
-Wl “	2501,4 + 1,82-21 - 4,18-8
-u>i = 1,46 • I0~3kg/kg
+.. math::
 
+   \omega_{2'} = 0.622 \frac{0.01072}{1 - 0.01072} = 6.74 \cdot 10^{-3} \frac{kg}{kg} \\
+   \omega_1 = \frac{1.005(8-21) 6.47 \cdot 10^{-3}(2501.4+1.82\cdot 8 - 4.18 \cdot 8}{2501.4+1.82\cdot 21 -4.18 \cdot 8} \\
+   \omega_1 = 1.46 \cdot 10^{-3} \frac{kg}{kg}
 
+Paxa calcular la humedad a la salida (:math:`\omega_2`), a partir de la ecuación (10.4) y teniendo en cuenta que la presión de vapor a la salida es igual a la presión de vapor saturado a la temperatura de rocío (13°C), de las tablas de propiedades termodinámicas del agua en saturación :math:`p^*(13°C) = 0,01497bar` y por tanto :math:`p_v = 0.01497bar`, quedando
 
-Paxa calcular la humedad a la salida (w2), a partir de la ecuación (10.4) y teniendo en cuenta que la presión de vapor a la salida es igual a la presión de vapor saturado a la temperatura de rocío (13°C), de las tablas de propiedades termodinámicas del agua en saturación p*(13°C) = 0,01497¿>ar y por tanto pv = 0,014976ar, quedando
+.. math::
 
-u;2 = 0,622 —	= 0,622	= 9,45 - 10~3fc^/^
-p — pv	1 — 0,01497
+   \omega_2 = 0.622 \frac{p_v}{p - p_v} = 0.622\frac{0.01497}{1-0.01497} = 9.45 \cdot 10^{-3} \frac{kg}{kg} \\
+   \dot{m}_l = \dot{m}_a (\omega_2 - \omega_1) = 90 \cdot 60(9.45\cdot 10^{-3} - 1.46 \cdot 10^{-3}) = 43.15\frac{kg}{h}
 
-m, = rna(u>2 - uq) = 90 • 60(9,45 • 10"3 - 1,46 • 10“3) = 43,15kg/h Para calcular la temperatura a la salida, mediante la ecuación (10.57)
-h2- hi = h¡(u2 - wi)
-cPa^2 + U2[hlv(0ref) + cp„^2] _ cpa^l —'	\hlv(@ref ) 4" cp„$l] = [h¡v{0ref ) + Cpv #/](uJ2 ~ Wj)
-„ [h¡v(9ref) + cPtl0¡](iJ2 - wi) + cPa9\ + u)i[h¡v(9ref) + cPv#i] - cj2h;v(0re/)
-“2 — ---------------------------- ;
-CPa + W2 Cp„
-(2501,4 + 1,82-110)(9,45 - 1,46)- 10~3 + 1,005-21 2_	1,005 + 9,45-10-3-1,82	+
-1,46 • 10_3(2501,4 + 1,82 • 21) - 9,45 • 10~3 • 2501,4 +	1,005 + 9,45-10-3 • 1,82
-92 = 22,27°C
+Para calcular la temperatura a la salida, mediante la ecuación (10.57)
+
+.. math::
+
+   h_2 - h_1 = h_l (\omega_2 - \omega_1) \\
+   c_{p_a} \theta_2 + \omega_2 [h_{lv}(\theta_{ref})+c_{p_v} \theta_2] - c_{p_a} \theta_1 - \omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] = [h_{lv}(\theta_{ref})+c_{p_v} \theta_l] (\omega_2 - \omega_1) \\
+   \theta_2 = \frac{ [h_{lv}(\theta_{ref})+c_{p_v} \theta_l] (\omega_2 - \omega_1)  c_{p_a} \theta_1 + \omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] -  \omega_2 h_{lv}(\theta_{ref})} {    c_{p_a} +  \omega_2 c_{p_v}} \\
+   \theta_2 &= \frac{(2501.4 + 1.82 \cdot 110)(9.45 -1.46) \cdot 10^{-3} + 1.005 \cdot 21}{1.005 + 9.45 \cdot 10^{-3}\cdot 1.82} + \\
+   &+ \frac{1.46 \cdot 10^{-3}(2501.4+1.82 \cdot 21) - 9.45\cdot 10^{-3}\cdot 2501.4}{1.005+9.45\cdot 10^{-3}\cdot 1.82} \\
+   \theta_2 = 22.27°C
+
 
 Calentamiento y enfriamiento
 ----------------------------
 
 El calentamiento y el enfriamiento son procesos muy sencillos, en los que su único fin es aumentar o disminuir la temperatura del arre húmedo sin variar su humedad. Para conseguir esto se hace pasar el aire húmedo por un cambiador de calor por el que circula un fluido caliente o un refrigerante según sea el caso. En la fig.19 se representa un esquema de la instalación y en las fig.20 y 21 se representa, en el diagrama de Mollier y en el diagrama psicrométrico, el proceso que tiene lugar.
 
-Fig. 19
+.. figure:: ./img/acondicionamiento_fig19.png
 
+.. figure:: ./img/acondicionamiento_fig20.png
+
+.. figure:: ./img/acondicionamiento_fig21.png
 
 Las ecuaciones que resuelven el problema son
 
 a)	Conservación de la masa:
 
-•	para el aire seco
-mQl = ráa2 = ma	(10.58)
-•	para el vapor de agua
-rhvi = rhv 2	(10.59)
+    * para el aire seco
+    
+    .. math::
+    
+       \dot{m}_{a_1} =\dot{m}_{a_2}  = \dot{m}_a
+    
+    * para el vapor de agua
+    
+    .. math::
+    
+       \dot{m}_{v_1} = \dot{m}_{v_2}
+
 
 b)	Conservación de la energía (suponiendo que las variaciones de energía cinética y potencial son despreciables):
 
-Q — ñia2/i02 T	di.a^ha^ iriy^hy^	(10.60)
+.. math::
+
+   \dot{Q} = \dot{m}_{a_2} h_{a_2} + \dot{m}_{v_2} h_{v_2}  - \dot{m}_{a_1} h_{a_1}  - \dot{m}_{v_1} h_{v_1}
 
 Teniendo en cuenta que
 
-mvi = uqmai mV2 = u2rna7
+.. math::
+
+   \dot{m}_{v_1} = \omega_1 \dot{m}_{a_1} \\
+   \dot{m}_{v_2} = \omega_2 \dot{m}_{a_2}
 
 de la ecuación (10.58) y (10.59) resulta que
 
-U>1 — U) 2
+.. math::
+
+   \omega_1 = \omega_2
 
 
-como se había indicado anteriormente. De la ecuación (10.60) se obtiene
+como se había indicado anteriormente. 
 
-T
-Q = ma(h2 - hi)
-(10.61)
+De la ecuación (10.60) se obtiene
+
+.. math::
+
+   \dot{Q} = \dot{m}_a (h_2 - h_1)
 
 y por tanto el calor que es necesario comunicar o extraer es igual a la variación de entalpia de la corriente de aire húmedo.
 
 En general es un proceso a presión total constante, y por tanto, en el diagrama (T-s) para el agua, el proceso tendrá lugar en la región de vapor sobrecalentado como se puede ver en la fig.22.
 
-Fig.22
+.. figure:: ./img/acondicionamiento_fig22.png
 
 
 Ejercicio 10.4
+^^^^^^^^^^^^^^
 
-Se desea obtener 0,83 kg/s de aire a una temperatura de 35°C. Para ello, se utiliza aire atmosférico a una temperatura de 4°C y con una humedad de 0,0045 kg/kg, que se hace pasar por un cambiador de calor que aumenta su temperatura hasta el valor deseado. Calcular la cantidad de calor que es necesario suministrar para realizar dicho proceso.
+Se desea obtener :math:`0.83\frac{kg}{s}` de aire a una temperatura de 35°C. Para ello, se utiliza aire atmosférico a una temperatura de 4°C y con una humedad de :math:`0.0045\frac{kg}{s}` , que se hace pasar por un cambiador de calor que aumenta su temperatura hasta el valor deseado. 
+
+Calcular la cantidad de calor que es necesario suministrar para realizar dicho proceso.
 
 La presión atmosférica es 1 bar.
 
 Solución
+''''''''
 
 El valor pedido se calcula a partir de la ecuación (10.61)
 
-Q = m0(/i2 - hi)
+.. math::
 
-Puesto que y por tanto
+   \dot{Q} = \dot{m}_a (h_2 - h_1)
 
-m
-ma
-m = rha + rhv — ma( 1 + w) 0,83kg/s
-1 + w 1 + 0,0045kg/kg
-= 0,826kg/s
+Puesto que 
+
+.. math::
+
+   \dot{m} = \dot{m}_a + \dot{m}_v = \dot{m}_a (1+\omega)
+
+y por tanto
+
+.. math::
+
+   \dot{m}_a = \frac{\dot{m}}{1+\omega} = \frac{0.83 \frac{kg}{s}}{1+0.0045\frac{kg}{kg}} = 0.826 \frac{kg}{s}
+
 De la ecuación (10.17)
-h — cPa6 + w [h¡v(u>ref -)- Cpv6]
+
+.. math::
+
+   h = c_{p_a} \theta + \omega [h_{lv}(\theta_{ref}) + c_{p_v} \theta]
+
 queda
-/ii = 1,005-4 + 0,045(2501,4 + 1,82-4] = I5,3kj/kg h2 = 1,005-35+ 0,0045(2501,4+ 1,82-35] = 46,7kJ/kg y por tanto la cantidad de calor que hay que suministrar es
-Q — 0,826kg/s(46,7kJ/kg — I5,3kj / kg) = 25,9 kJ/s
+
+.. math::
+
+   h_1 = 1.005 \cdot 4 + 0.045[2501.4+1.82 \cdot 4] = 15.3\frac{kJ}{kg}\\
+   h_2 = 1.005 \cdot 35 + 0.045[2501.4+1.82 \cdot 35] = 46.7 \frac{kJ}{kg}
+   
+
+y por tanto la cantidad de calor que hay que suministrar es
+
+.. math::
+
+   \dot{Q} = 0.826 \frac{kg}{s} (46.7\frac{kJ}{kg} - 15.3\frac{kJ}{kg} = 25.9\frac{kJ}{s}
 
 Mezcla adiabática de corrientes de aire húmedo
 ----------------------------------------------
@@ -579,7 +626,7 @@ Otro proceso que es de interés técnico es la mezcla de corrientes de aire húm
 
 Se supone que el proceso es adiabático y que las variaciones de energía cinética y potencial son pequeñas En general se conocen las condiciones (gasto y estado) de cada una de las corrientes que se mezclan y se pretende calcular el gasto y el estado de la corriente que se obtiene.
 
-Fig.23
+.. figure:: ./img/acondicionamiento_fig23.png
 
 
 Las ecuaciones de las que se dispone para resolver el problema, igual que en casos anteriores
@@ -587,49 +634,66 @@ son:
 
 a)	Conservación de la masa:
 
-•	para el aire seco
-mai + m0¡ = ma3	(10.62)
-•	para el vapor de agua
-mVl + m„2 = m„3	(10.63)
+    * para el aire seco
+    
+    .. math::
+    
+       \dot{m}_{a_1} =\dot{m}_{a_2}  = \dot{m}_a
+    
+    * para el vapor de agua
+    
+    .. math::
+    
+       \dot{m}_{v_1} + \dot{m}_{v_2} = \dot{m}_{v_3}
+      
 
 b)	Conservación de la energía:
 
-0 — maihai 4“ hv^ 4"	2 4“	(10.64)
+.. math::
+
+   \dot{Q} = \dot{m}_{a_1} h_{a_1} + \dot{m}_{v_1} h_{v_1} + \dot{m}_{a_2} h_{a_2}  + \dot{m}_{v_2} h_{v_2} -  \dot{m}_{a_3} h_{a_3}  - \dot{m}_{v_3} h_{v_3} 
+
 Teniendo que cuenta las ecuaciones (10.62) y (10.63) y que
-mVl = uqmai Tíl y 2 — ^2 TTla.2
-TTl\)$ — ^3^1(13
+
+.. math::
+
+   \dot{m}_{v_1} = \omega_1 \dot{m}_{a_1} \\
+   \dot{m}_{v_2} = \omega_2 \dot{m}_{a_2} \\
+   \dot{m}_{v_3} = \omega_3 \dot{m}_{a_3}
+
 
 resulta que
 
-U>3 —
-u>imai +u2ñia2
-maj 4” di(j2
+.. math::
+
+   \omega_3 = \frac{\omega_1 \dot{m}_{a_1} + \omega_2 \dot{m}_{a_2}}{\dot{m}_{a_1} =\dot{m}_{a_2} }
 
 De la ecuación (10.64) se obtiene
-.	j/ir 4“ dia2/12
-= —:------—:-------
-Tila i i Tila2
-(10.65)
-(10.66)
+
+.. math::
+
+   h_3 = \frac{\dot{m}_{a_1}  h_1 + \dot{m}_{a_2}  h_2 }{\dot{m}_{a_1}  + \dot{m}_{a_2}}
 
 De las dos ecuaciones anteriores, conocidas las condiciones de entrada, se puede calcular la humedad y entalpia de la corriente de salida.
 
 En el diagrama psicrométrico el proceso podría venir dado por cualquiera de los indicados en las fig.24 ó 25, dependiendo de las condiciones a la entrada. En las condiciones mostradas en la fig.25, el proceso vendría representado en el diagrama de Mollier como se muestra en la fig.26.
 
-Fig.26
-
+.. figure:: ./img/acondicionamiento_fig26.png
 
 
 A partir de las ecuaciones anteriores, combinándolas adecuadamente, se obtienen las relaciones
-ñrai _ hj, — /¿2 _	~ u2
-171(12	— ^3	— u 3
-(10.67)
+
+
+.. math::
+
+   \frac{\dot{m}_{a_1} }{\dot{m}_{a_2} } = \frac{h_3 - h_2}{h_1 - h_3} = \frac{\omega_3 - \omega_2}{\omega_1 - \omega_3}
 
 De estas relaciones se obtiene una interesante interpretación geométrica en el diagrama psicrométrico y que puede observarse en las fig.24, 25 ó 26. Las relaciones citadas nos indican que el estado de la corriente a la salida se encuentra sobre la recta que une los puntos de las condiciones a la entrada.
 
 Ejercicio 10.5
+^^^^^^^^^^^^^^
 
-En el proceso de acondicionamiento de un edificio se han de mezclar adiabáticamente 75 m3/min de aire exterior a 30°C y 80% de humedad relativa con 100 m3/mm de aire interior tratado a 19°C y 30% de humedad relativa.
+En el proceso de acondicionamiento de un edificio se han de mezclar adiabáticamente :math:`75\frac{m^3}{min}` de aire exterior a 30°C y 80% de humedad relativa con :math:`100\frac{m^3}{mm}` de aire interior tratado a 19°C y 30% de humedad relativa.
 
 Determinar para la mezcla resultante:
 
@@ -638,86 +702,122 @@ b)	Temperatura seca.
 c)	Temperatura húmeda.
 d)	Humedad relativa.
 
-Resolver el problema analítica y gráficamente suponiendo que la presión se mantiene igual a 1 bar.
+Resolver el problema analítica y gráficamente suponiendo que la presión se mantiene igual a 1bar.
 
 Solución
+''''''''
 
 Antes de nada vamos a calcular los gastos, humedad, y entalpia en las entradas.
+
 De la ecuación (10.6)
 
-Pv =
-y con los valores de p* obtenidos de las tablas de propiedades termodinámicas del agua en saturación
-p\ = 0,042466ar	p*2 = 0,021986ar
-pVi = 0,8-0,04246 = 0,0339686ar	pV2 = 0,3 • 0,02198 = 0,0065946ar
+.. math::
+
+   p_v = \phi \cdot p^*
+   
+
+
+y con los valores de :math:`p^*` obtenidos de las tablas de propiedades termodinámicas del agua en saturación
+
+.. math::
+
+   p_1^* = 0.04246bar \\
+   p_2^* = 0.02198bar \\
+   p_{v_1} = 0.8 \cdot 0.04246 = 0.033968bar \\
+   p_{v_2}= 0.3 \cdot 0.02198 = 0.006594bar 
+   
+
 y por tanto
-pai = 1 — 0,033968 = 0,9666ar
-Pa2 = 1 — 0,006594 = 0,9936ar
+
+.. math::
+
+   p_{a_1} = 1-0.033968 = 0.966bar \\
+   p_{a_2} = 1-0.006594 = 0.993bar
 
 
-De la ecuación de estado p ■ V = m • R ■ T para el aire queda
+De la ecuación de estado :math:`p\cdot \dot{V} = \dot{m} \cdot R \cdot T` para el aire queda
 
-.	_ paiVx 0,966 • 105 • 75
-ma2 =
-RaTi 287•303 Pa2V2 _ 0,993-105-100
-= 83,31 kg/min — 118,5 kg/min
+.. math::
 
-RaT2 287•292 Para calcular la humedad recurrimos a la ecuación (10.4) puesta en la forma
-,Pv
+   \dot{m_{a_1}} = \frac{p_{a_1 \dot{V}_1}}{R_a T_1} = \frac{0.966 \cdot 10^5 \cdot 75}{287 \cdot 303} = 83.31\frac{kg}{min} \\
+   \dot{m_{a_2}} = \frac{p_{a_2 \dot{V}_2}}{R_a T_2} = \frac{0.993 \cdot 10^5 \cdot 100}{287 \cdot 292} = 118.5 \frac{kg}{min}
 
-u = 0,622-
-Po.
-aq = 0,622°’0Q39369668 = 0,02187%/%
+Para calcular la humedad recurrimos a la ecuación (10.4) puesta en la forma
 
-u>2 = 0,6220 q^4 = 0,00413%/fcg Para calcular las entalpias recurrimos a la ecuación (10.17)
+.. math::
 
-h = cPa9 + u [hlv(6ref) + cPv9]
-hi = 1,005-30+ 0,02187 [2501,4 + 1,82-30] = 86,05kJ/kg h2 = 1,005 • 19 + 0,004130 [2501,4 + 1,82 • 19] = 29,57kJ/kg a) De la ecuación (10.65)
-+ ma2üj2 83,31-0,02187+ 118,5-0,004130 u>3 = ——---—------= ---------„„ „„ . „	„---------= 0,01145kg/kg
-rilai + 777(22
+   \omega = 0.622 \frac{p_v}{p_a} \\
+   \omega_1 = 0.622 \frac{0.033968}{0.966} = 0.02187\frac{kg}{kg} \\
+   \omega_2 = 0.622 \frac{0.006594}{0.993} = 118.5\frac{kg}{min}
+
+Para calcular las entalpias recurrimos a la ecuación (10.17)
+
+.. math::
+
+   h = c_{p_a} \theta + \omega [h_{lv}(\theta_{ref}) + c_{p_v} \theta] \\
+   h_1 = 1.005 \cdot 30 + 0.02187 [2501.4 + 1.82 \cdot 30] = 86.05 \frac{kg}{kg} \\
+   h_2 = 1.005 \cdot 19 + 0.004130 [2501.4+1.82 \cdot 19] = 29.57\frac{kJ}{kg}
+
+a) De la ecuación (10.66)
+
+.. math::
+
+   \omega_3 = \frac{\dot{m}_{a_1} \omega_1 + \dot{m}_{a_2} \omega_2 }{ \dot{m}_{a_1} + \dot{m}_{a_2}} = \frac{83.31\cdot 0.02187 + 118.5 \cdot 0.004130}{83.31+118.5} = 0.01145\frac{kg}{kg}
 
 b) De la ecuación (10.66)
 
-ha -
-83,31+118,5
-mai h\ + 77^(22 h-2
-mai + ma j
-y como h3 = cPa03 + cj3 [h¡v(6ref) + cp„03] queda
-0.3 =
-dla\k\ + 77la2 ^2 777a2	"7a2
-- W3h;„(0re/)
-9a =
-CVa + W3Cp„
-83,31-86,05 + 118,5-29,57 83,31 + 118,5______________
-- 0,01145-2501,4
-1,005 + 0,01145-1,82 e3 = 23,6 °C
-h3 = 52,88kJ/kg
+.. math::
 
+   h_3 = \frac{\dot{m}_{a_1} h_1 + \dot{m}_{a_2} h_2 }{ \dot{m}_{a_1} + \dot{m}_{a_2}} 
 
+y como :math:`h_3 = c_{p_a} \theta_3 + \omega_3[h_{lv}(\theta_{ref}) + c_{p_v} \theta_3]` queda
+
+.. math::
+
+   \theta_3 = \frac{ \frac{\dot{m}_{a_1} h_1 + \dot{m}_{a_2} h_2 }{ \dot{m}_{a_1} + \dot{m}_{a_2}} - \omega_3 h_{lv}(\theta_{ref}) }{c_{p_a} + \omega_3 c_{p_v}} \\
+   \theta_3 = \frac{ \frac{83.31 \cdot 86.05 + 118.5 \cdot 29.57 }{ 83.31 + 118.5} - 0.01145 \cdot 1501.4 }{1.005  + 0.01145 \cdot 1.82}  \\
+   \theta_3 = 23.6°C \\
+   h_3 = 52.88 \frac{kJ}{kg}
 
 c) Utilizando la definición de temperatura húmeda y para el proceso de saturación 3 — 3'
 
-h-3 + (w3' ~ <^3 )h¡ = hy
+.. math::
+ 
+   h_3 + (\omega_{3'} ~ \omega_3 )h_l = h_{3'}
+   
 y con
-w3- = 0,622 Pv*' = 0,622-^—
-P - Pv3,	P-P*
+
+.. math::
+
+   \omega_{3'} = 0.622 \frac{p_{v_{3'}}}{ p -p_{v_{3'}}} = 0.622 \frac{p^*}{p-p^*}
+
+
 queda
-52,88 + ( 0,622——---- 0,01145 ) 4,1803- = 1,00503' + 0,622—1-— [2501,4 + 1,8203-]
-V 1 - P*	J	1 - P*
+
+.. math::
+
+   52.88 + \left( 0.622 \frac{p^*}{p- p^*} - 0.01145\right) 4.18 \theta_{3'} = 1.005 \theta_{3'} + 0.622 \frac{p^*}{p- p^*} [2501.4 + 1.82 \theta_{3'}]
+
 
 y reordenándola queda
 
-0 = 50,225+ —^—[1,39403, - 1477,8] - 03» = y
-1 — p
+.. math::
 
-Para resolverla se utiliza el método de prueba y error, calculando p* en las tablas de propiedades termodinámicas del agua en saturación.
+   0 = 50.225+ \frac{p^*}{p- p^*} [1.394 \theta_{3'} -1477.8] - \theta_{3'} = y
 
-03-(°C)	p*(bar)	y
-20,0	0,02339	-4,50
-18,0	0,02064	1,61
-19,0	0,02198	-1,39
-18,5	0,02131	0,11
+Para resolverla se utiliza el método de prueba y error, calculando :math:`p^*` en las tablas de propiedades termodinámicas del agua en saturación.
 
-Por lo que tomamos Ohúmeda3, = 18,5°C d) De la ecuación (10.6)
+| \theta_{3'}(°C) | p^* (bar) | y     |
++=================+===========+=======+
+| 20,0            |  0,02339  | -4,50 | 
+| 18,0            | 0,02064   | 1,61  | 
+| 19,0            | 0,02198   | -1,39 | 
+| 18,5            | 0,02131   | 0,11  | 
+
+
+Por lo que tomamos :math:`\theta_{\text{húmeda}} = 18.5°C`
+
+d) De la ecuación (10.6)
 
 P
 
