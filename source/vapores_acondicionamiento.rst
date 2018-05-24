@@ -303,7 +303,7 @@ verizar agua líquida en la corriente de aire (fig-14).
 
 Según se utilice uno u otro procedimiento la temperatura a la salida (82) será mayor o menor que la temperatura a la entrada (#i), por lo que este proceso nos permite, según los casos, obtener un efecto simultáneo de calefacción o refrigeración (calentamiento o enfriamiento del aire tratado).
 
-Fig. 14
+.. figure:: ./img/acondicionamiento_fig14.png
 
 En el caso de inyectar vapor de agua a alta temperatura, la humedad y temperatura a la salida ((^2,^2) aumentan, estando representado el proceso, en el diagrama de Mollier y en el diagrama psicrométrico, como se muestra en las fig.15 y 16 respectivamente.
 
