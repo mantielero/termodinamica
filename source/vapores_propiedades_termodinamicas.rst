@@ -161,7 +161,7 @@ esto la expresión de la energía interna será:
 
    u = u_a + \omega u_v = h_a - R_a T + \omega (h_v-R_v T)
 
-Una forma alternativa, y quizás más sencilla, de evaluar la energía interna del aire húmedo es partiendo de :math:`u = h — pv por la que:
+Una forma alternativa, y quizás más sencilla, de evaluar la energía interna del aire húmedo es partiendo de :math:`u = h — pv` por la que:
 
 .. math::
 
