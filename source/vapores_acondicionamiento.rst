@@ -301,28 +301,48 @@ La humidificación es el proceso contrario al estudiado anteriormente, es decir,
 Para lograrlo se pueden utilizar varios i	2	procedimientos: inyectar vapor de agua o pul-
 verizar agua líquida en la corriente de aire (fig-14).
 
-Según se utilice uno u otro procedimiento la temperatura a la salida (82) será mayor o menor que la temperatura a la entrada (#i), por lo que este proceso nos permite, según los casos, obtener un efecto simultáneo de calefacción o refrigeración (calentamiento o enfriamiento del aire tratado).
+Según se utilice uno u otro procedimiento la temperatura a la salida (:math:`\theta_2`) será mayor o menor que la temperatura a la entrada (:math:`\theta_1`), por lo que este proceso nos permite, según los casos, obtener un efecto simultáneo de calefacción o refrigeración (calentamiento o enfriamiento del aire tratado).
 
 .. figure:: ./img/acondicionamiento_fig14.png
 
-En el caso de inyectar vapor de agua a alta temperatura, la humedad y temperatura a la salida ((^2,^2) aumentan, estando representado el proceso, en el diagrama de Mollier y en el diagrama psicrométrico, como se muestra en las fig.15 y 16 respectivamente.
+En el caso de inyectar vapor de agua a alta temperatura, la humedad y temperatura a la salida (:math:`\omega_2`, :math:`\theta_2`) aumentan, estando representado el proceso, en el diagrama de Mollier y en el diagrama psicrométrico, como se muestra en las fig.15 y 16 respectivamente.
 
-Si por el contrario, lo que se hace es inyectar agua en estado líquido, la temperatura a la salida ($2) será menor que la temperatura a la entrada ($i), quedando el proceso representado en los diagramas de Mollier y psicrométrico como se muestra en las fig.17 y 18.
+.. figure:: ./img/acondicionamiento_fig15.png
+
+.. figure:: ./img/acondicionamiento_fig16.png
+
+Si por el contrario, lo que se hace es inyectar agua en estado líquido, la temperatura a la salida (:math:`\theta_2`) será menor que la temperatura a la entrada (:math:`\theta_1`), quedando el proceso representado en los diagramas de Mollier y psicrométrico como se muestra en las fig.17 y 18.
+
+.. figure:: ./img/acondicionamiento_fig17.png
+
+.. figure:: ./img/acondicionamiento_fig18.png
 
 Las ecuaciones que gobiernan el proceso de humidificación son las siguientes:
 
 a)	Conservación de la masa:
-•	para el aire seco
-ma 1 = ma2 = ma	(10.54) •
-•	para el agua
-m„ j + m¡ = mV2	(10.55)
 
-En este caso m¡ puede representar el gasto de agua líquida o vapor aportado.
+   * para el aire seco
+   
+   .. math::
+    
+      \dot{m}_{a_1} = \dot{m}_{a_2} = \dot{m}_a	
+
+   * para el agua
+
+   .. math::
+    
+      \dot{m}_{v_1} = \dot{m}_l = \dot{m}_{v_2}	
+
+En este caso :math:`\dot{m}_l` puede representar el gasto de agua líquida o vapor aportado.
 
 b)	Conservación de la energía en régimen estacionario (suponiendo que las variaciones de las energías cinética y potencial son despreciables):
 
-0 —	4"	4“ Th¡h¡ rrid^ha? 771 ^hv2	(10.56)
-También h¡ puede representar la entalpia del líquido o vapor aportado, según los casos.
+.. math::
+
+   0 = \dot{m}_{a_1} h_{a_1} +  \dot{m}_{v_1} h_{v_1}  \dot{m}_l h_l -  \dot{m}_{a_2} h_{a_2} -  \dot{m}_{v_2} h_{v_2}
+
+
+También :math:`h_l` puede representar la entalpia del líquido o vapor aportado, según los casos.
 
 Teniendo en cuenta las ecuaciones (10.54) y (10.55) y que
 
