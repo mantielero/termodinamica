@@ -282,15 +282,15 @@ El valor de la entalpia es
 
 .. math::
 
-   h_2 = c_{p_a} \theta_2 + \omega_2[ h_{l_v}(\theta_{ref}) + c_{p_v} \theta_2] = 1.005\cdot 8.9 + 0.007 [2501.4 +  1.82 \cdot 8.9] = 26.57\frac{kJ}{kg} \\
-   h_1 = c_{p_a} \theta_1 + \omega_1[ h_{l_v}(\theta_{ref}) + c_{p_v} \theta_1]  = 1.005 \cdot 25 + 0.012(2501.4 + 1.82\cdot25] = 55.69\frac{kJ}{kg}
-   h¡ = c¡8¡ = 4,18-8,9 = 37,2 kJ/kg
+   h_2 &= c_{p_a} \theta_2 + \omega_2[ h_{l_v}(\theta_{ref}) + c_{p_v} \theta_2] = 1.005\cdot 8.9 + 0.007 [2501.4 +  1.82 \cdot 8.9] = 26.57\frac{kJ}{kg} \\
+   h_1 &= c_{p_a} \theta_1 + \omega_1[ h_{l_v}(\theta_{ref}) + c_{p_v} \theta_1]  = 1.005 \cdot 25 + 0.012(2501.4 + 1.82\cdot25] = 55.69\frac{kJ}{kg} \\
+   h_l &= c_l \theta_l = 4.18 \cdot 8.9 = 37.2 \frac{kJ}{kg}
 
 De lo anterior se obtiene
 
 .. math::
 
-   Q = 0,4965(26,57 - 55,69) + 0,4965(0,012 - 0,007) • 37,2 Q = -14,37 kj/s
+   \dot{Q} = 0,4965(26,57 - 55,69) + 0,4965(0,012 - 0,007) • 37,2 Q = -14,37 kj/s
 
 Humidificación
 --------------
