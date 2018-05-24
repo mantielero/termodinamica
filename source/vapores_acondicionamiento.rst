@@ -807,13 +807,14 @@ y reordenándola queda
 
 Para resolverla se utiliza el método de prueba y error, calculando :math:`p^*` en las tablas de propiedades termodinámicas del agua en saturación.
 
++-----------------+-----------+-------+
 | \theta_{3'}(°C) | p^* (bar) | y     |
 +=================+===========+=======+
 | 20,0            |  0,02339  | -4,50 | 
 | 18,0            | 0,02064   | 1,61  | 
 | 19,0            | 0,02198   | -1,39 | 
 | 18,5            | 0,02131   | 0,11  | 
-
++-----------------+-----------+-------+
 
 Por lo que tomamos :math:`\theta_{\text{húmeda}} = 18.5°C`
 
