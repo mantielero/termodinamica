@@ -101,7 +101,7 @@ El diagrama psicrométrico, (fig. 5), tiene como coordenadas la temperatura, :ma
 
 A) SISTEMAS CERRADOS Exergía termomecánica
 
-Consideremos una masa determinada de aire húmedo en unas condiciones determinadas de temperatura, presión y humedad relativa (*T*, *p*, :math:`\phi`). Consideremos también un medio ambiente que suponemos que es, así mismo, aire húmedo en condiciones (:math:`T_{amb}`, :math:`p_{amb}`, :math:`\phi_{amb}`)-
+Consideremos una masa determinada de aire húmedo en unas condiciones determinadas de temperatura, presión y humedad relativa (*T*, *p*, :math:`\phi`). Consideremos también un medio ambiente que suponemos que es, así mismo, aire húmedo en condiciones (:math:`T_{amb}`, :math:`p_{amb}`, :math:`\phi_{amb}`).
 
 Si permitimos que esta masa de aire húmedo alcance el equilibrio térmico y mecánico, pero no el químico, con el medio ambiente considerando a éste como un depósito térmo-mecánico y sin disponer de otros depósitos térmicos, el trabajo útil máximo que puede obtenerse de la configuración inicial viene dado por la exergía del aire húmedo en ese estado termodinámico.
 
