@@ -819,67 +819,76 @@ Por lo que tomamos :math:`\theta_{\text{húmeda}} = 18.5°C`
 
 d) De la ecuación (10.6)
 
-P
+.. math::
+
+   \phi = \left. \frac{p_v}{p^*} \right|_{p,T}
 
 y de la ecuación (10.4)
 
-u = 0,622
-P,T
-Pv
-P-Pv
+.. math::
 
-y con p*(23,6°C) = 0,029156ar se obtiene
+   \omega = 0.622 \frac{p_v}{p - p_v}
 
-ujp	0,01145-1
-<t> =
-(0,622 + u>)p*	(0,622 + 0,01145) • 0,02915
-<f> = 62%
+y con :math:`p^*(23.6°C) = 0.02915bar` se obtiene
+
+.. math::
+
+   \phi = \frac{\omega p}{(0.622 + \omega) p^*} = \frac{0.01145 \cdot 1}{(0.622 + 0.01145) \cdot 0.02915} = 0.62 \\
+   \phi = 62%
 
 La resolución gráfica se deja como ejercicio.
 
-0,62
-
 
 Ejercicio 10.6
+^^^^^^^^^^^^^^
 
-Se mezclan 2 m3/s de aire a una temperatura seca de 4°C y una temperatura húmeda de 2°C con 7 m3/s de aire a una temperatura de 25°C y con una humedad relativa del 50%.
+Se mezclan :math:`2 \frac{m^3}{s}` de aire a una temperatura seca de 4°C y una temperatura húmeda de 2°C con :math:`7 \frac{m^3}{s}` de aire a una temperatura de 25°C y con una humedad relativa del 50%.
 
 Determinar la temperatura seca y húmeda de la corriente resultante.
 
 Solución
+''''''''
 
 
 Entrando en el diagrama psicrométrico con la temperatura seca (4°C) y la temperatura húmeda (2°C) de la corriente se obtiene un valor del volumen específico de
 
-v\ - 0,789m3/kg
+.. math::
+
+   v_1 = 0.789\frac{m^3}{kg}
 
 Entrando en el diagrama psicrométrico con la temperatura seca (25°C) y con el valor de la humedad relativa (50%) de la otra corriente se obtiene un valor del volumen específico de
 
-V2 — 0,858m3/kg
+.. math::
+
+   v_2 = 0.858\frac{m^3}{kg}
 
 De lo anterior se obtiene que
 
-7Hn i —
-771 o o —
-0,789
-= 2,53kg/s
-= 8,16kg/s
+.. math::
+
+   \dot{m}_{a_1} = \frac{2}{0.789} = 2.53 \frac{kg}{s} \\
+   \dot{m}_{a_2} = \frac{7}{0.858} = 8.16 \frac{kg}{s} 
 
 y con la ecuación (10.67)
 
-02	0,858
-u>3 - u>2 _ m0l _ 2,53kg/s - u>3 ma2	8,16kg/s
-= 0,31
+.. math::
+
+   \frac{\omega_3 -\omega_2}{\omega_1- \omega_3} = \frac{\dot{m}_{a_1}}{\dot{m}_{a_2}} = \frac{2.53\frac{kg}{s}}{8.16 \frac{kg}{s}} = 0.31
 
 De igual forma
 
-uq - u3 ma2
-m„
-8,16
-= 0,76
-ui - u>2 ma3 mai + ma2 2,53 + 8,16
+.. math::
 
-y por tanto para calcular el punto 3, que estará en la recta que une el punto 1 y 2, simplemente hay que tener en cuenta que la distancia entre los puntos 1 y 3 es 0,76 veces la distancia entre el punto 1 y 2.
+   \frac{\omega_3 -\omega_2}{\omega_1- \omega_3} = \frac{\dot{m}_{a_2}}{\dot{m}_{a_3}} = \frac{\dot{m}_{a_2}}{\dot{m}_{a_1} + \dot{m}_{a_2}} = \frac{8.16}{2.53+8.16} = 0.76
+
+y por tanto para calcular el punto 3, que estará en la recta que une el punto 1 y 2, simplemente hay que tener en cuenta que la distancia entre los puntos 1 y 3 es 0.76 veces la distancia entre el punto 1 y 2.
+
+
+.. figure:: ./img/acondicionamiento_ejercicio.png
+
+
+
+
 De lo anterior se obtiene que 03 = 20,2°C 0húmedo3 = 13 C
 
 
