@@ -440,18 +440,25 @@ y de la ecuación (10.6)
 
 .. math::
 
-   \phi = \frac{p_v}{p^*} \Rightarrow \phi_2 = \frac{\omega_2 p}{(0.622+\omega_2)p^*} = \frac{0.012087 \cdot 1}{(0.622+0.012087)\cdot 0.02487} = 0.7665 = 76.65%
+   \phi = \frac{p_v}{p^*} \Rightarrow \phi_2 = \frac{\omega_2 p}{(0.622+\omega_2)p^*} = \frac{0.012087 \cdot 1}{(0.622+0.012087)\cdot 0.02487} = 0.7665 = 76.65% \\
+   \frac{\dot{m}_l}{\dot{m}_a} = (\omega_2 - \omega_1) = 5.39\cdot 10^{-3}\frac{kg}{kg}
 
 La resolución utilizando el diagrama psicrométrico se deja como ejercicio.
 
-= 0,7665 = 76,65%
+
 
 Ejercicio 10.3
+^^^^^^^^^^^^^^
 
 Para tratar una corriente de aire húmedo a una temperatura seca de 21 °C y una temperatura húmeda de 8°C, se inyecta adiabáticamente vapor saturado a 110°C, hasta que su temperatura de rocío es \“i0C.
 El gasto músico de aire seco es de 90 kg/min.
+
 Determinar el gasto músico de vapor, en kg/h, necesario y la temperatura final del aire obtenido.
-Se puede suponer que la presión total se mantiene constante en un valor de 1 bar. Solución
+Se puede suponer que la presión total se mantiene constante en un valor de 1 bar. 
+
+Solución
+''''''''
+
 A partir de la ecuación (10.55) se obtiene
 
 rhi = rnV7 - mvi = (u2 - uq )ma
