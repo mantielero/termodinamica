@@ -252,7 +252,7 @@ Si :math:`\theta  < 0.01°C`
    s_s = \frac{h_{ls}}{T_{ref}} + c_s \ln \frac{T}{T_{ref}}
    
 
-_Aire húmedo en equilibrio con agua líquida_
+**Aire húmedo en equilibrio con agua líquida**
 
 Habrá ocasiones en las que el aire húmedo se encuentre en equilibrio con agua líquida, y para esos casos conviene analizar la influencia que sobre la presión de saturación del agua tiene la presencia del aire seco.
 
