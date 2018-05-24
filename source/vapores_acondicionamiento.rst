@@ -939,4 +939,5 @@ En la fig.29 se esquematiza una instalación muy simple que puede utilizarse par
    :maxdepth: 1
    :caption: Ejercicios:
    
+   vapores_acondicionamiento_ex10_7
    vapores_acondicionamiento_ex10_8
