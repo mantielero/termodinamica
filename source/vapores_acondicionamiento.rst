@@ -74,13 +74,16 @@ de la ecuación (10.46) se obtiene
 
 y de la ecuación (10.47) se obtiene
 
-Q — rila ( ha2 hal ) + rila(hy 2^2 hyl ^1 ) "f" ^ ^ i^riílyjllyj )g ^ ( riflyj hyj )
-5	e
+.. math::
+
+   \dot{Q} =\dot{m}_{a} ( h_{a_2} - h_{a_1} ) + \dot{m}_{a} ( h_{v_2}\omega_2 - h_{v_1}\omega_1 ) + \sum_s (\dot{m}_w h_w)_s -  \sum_e (\dot{m}_w h_w)_e
 
 Esta última ecuación se puede expresar como
 
-Q + Y^ {diwhw)e - ^(m»/!«,), = rha(/i2 - hi)
-e	s
+.. math::
+
+    \dot{Q}+\sum_s (\dot{m}_w h_w)_s -  \sum_e (\dot{m}_w h_w)_e = \dot{m}_{a} ( h_2 - h_1 ) 
+
 y con el valor de ma obtenido en la ecuación (10.48)
 Q + Y (riiwhw)e	y ^ (ririyjhyj)$
 ______e_____________3____________ _	^2 - frl
