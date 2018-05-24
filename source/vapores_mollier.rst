@@ -166,8 +166,7 @@ Análogamente, la variación de exergía que experimenta el agua líquida, que h
 
 .. math::
 
-   E_{xq_l} = (\omega - \omega ') \left\{ &hf(T_{amb}) + \frac{p_{amb} - p^*(T_{amb})}{\rho_l} - T_{amb} s_f(T_{amb}) - \\
-   &\left[ h_v(T_{amb}) - T_{amb} \left( s_g(T_{amb}) - R_v \ln \frac{x_{v_{amb}} p_{amb}}{p^*(T_{amb})} \right)  \right]   \right\}
+   E_{xq_l} = (\omega - \omega ') \left\{ hf(T_{amb}) + \frac{p_{amb} - p^*(T_{amb})}{\rho_l} - T_{amb} s_f(T_{amb}) - \left[ h_v(T_{amb}) - T_{amb} \left( s_g(T_{amb}) - R_v \ln \frac{x_{v_{amb}} p_{amb}}{p^*(T_{amb})} \right)  \right]   \right\}
 
 
 Sumando las contribuciones del vapor de agua y del agua líquida, como:
