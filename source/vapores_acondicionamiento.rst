@@ -994,19 +994,31 @@ Solución
 El proceso seguido por el aire será como el representado en la Fig.27. En la solución del problema se seguirá la nomenclatura de dicha figura.
 
 a) De la ecuación (10.4) y (10.6) se obtiene
-u = 0,622
-P*4>
-p — p*(f>
-De las tablas de propiedades termodinámicas del agua en saturación
-p*(32°C) = 47,59mbar p*(22°C) = 26,45mbar
-y por tanto
-ui = 0,622 = 0,622
-°’7-47,59	= 2,18-10 ~2kg/kg
-985- 0,7-47,59 0,45-26,45
-985- 0,45-26,45 La cantidad de agua eliminada es
-= 7,61•10~6kg/kg
-Au; = u>4 — uq = -1,42 • 10 2kg/kg
 
+.. math::
+
+   \omega = 0.622 \frac{p^* \phi}{p - p^* \phi}
+
+De las tablas de propiedades termodinámicas del agua en saturación
+
+.. math::
+
+   p^*(32°C) = 47.59mbar \\
+   p^*(22°C) = 26.45mbar 
+   
+
+y por tanto
+
+.. math::
+
+   \omega_1 = 0.622 \frac{0.7 \cdot 47.59}{985 - 0.7 \cdot 47.59} = 2.18 \cdot 10^{-2} \frac{kg}{kg} \\
+   \omega_2 = 0.622 \frac{0.45 \cdot 26.45}{985 - 0.45 \cdot 26.45} = 7.61 \cdot 10^{-3} \frac{kg}{kg} 
+   
+La cantidad de agua eliminada es
+
+.. math::
+
+   \Delta \omega = \omega_4 - \omega_1 = -1.42 \cdot 10^{.2} \frac{kg}{kg}
 
 
 b)	De la ecuación (10.53)
