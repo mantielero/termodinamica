@@ -837,7 +837,7 @@ y con :math:`p^*(23.6°C) = 0.02915bar` se obtiene
 
 .. math::
 
-   \phi &= \frac{ \omega p }{ ( 0.622 + \omega ) p^* } 
+   \phi = \frac{ \omega p }{ ( 0.622 + \omega ) p^{*} } 
    
    
 prueba::
