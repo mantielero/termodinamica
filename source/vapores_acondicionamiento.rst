@@ -450,10 +450,12 @@ La resolución utilizando el diagrama psicrométrico se deja como ejercicio.
 Ejercicio 10.3
 ^^^^^^^^^^^^^^
 
-Para tratar una corriente de aire húmedo a una temperatura seca de 21 °C y una temperatura húmeda de 8°C, se inyecta adiabáticamente vapor saturado a 110°C, hasta que su temperatura de rocío es \“i0C.
-El gasto músico de aire seco es de 90 kg/min.
+Para tratar una corriente de aire húmedo a una temperatura seca de 21°C y una temperatura húmeda de 8°C, se inyecta adiabáticamente vapor saturado a 110°C, hasta que su temperatura de rocío es 13°C.
+
+El gasto músico de aire seco es de 90kg/min.
 
 Determinar el gasto músico de vapor, en kg/h, necesario y la temperatura final del aire obtenido.
+
 Se puede suponer que la presión total se mantiene constante en un valor de 1 bar. 
 
 Solución
@@ -461,20 +463,21 @@ Solución
 
 A partir de la ecuación (10.55) se obtiene
 
-rhi = rnV7 - mvi = (u2 - uq )ma
+.. math::
+
+   \dot{m}_l = \dot{m}_{v_2}-\dot{m}_{v_1} = (\omega_2-\omega_1) \dot{m}_a
 
 y por tanto es necesario calcular la humedad del aire a la entrada y salida del humidificador.
 
-Para calcular uq, como conocemos la temperatura húmeda a la entrada y utilizando su definición, al aplicar el principio de conservación de la energía a ese proceso (1 — 2') se obtiene
+Para calcular :math:`\omega_1`, como conocemos la temperatura húmeda a la entrada y utilizando su definición, al aplicar el principio de conservación de la energía a ese proceso (1 — 2') se obtiene
 
-h i + (u>2' — uq)/q = h2i
-hai + í*q/i„i + (u2i — uq)/q = h2i -f- u>2'hv2i
-cPa01 + «i [hlv(9re/) + cVv61] + (u2> - u>i)c¡9, = cPa62- + u>2» [hlv(9ní) + cpJ2,] cPa(02, - 6i) + u>2, [hiv(9ref) + cPv02- - c¡9¡]
-(jJ-^	_ _______________________________________
-^iu(^re/) d" Cpv91 ~ C¡9¡
-El valor de u2< se calcula a partir de la ecuación (10.4)
-u>2< = 0,622	= 0,622—-—
-P ~ Pv2,	P~P*
+.. math::
+
+   h_1 + (\omega_{2'}-\omega_1) h_l = h_{2'} \\
+   h_{a_1} + \omega_1 h_{v_1} + (\omega_{2'} - \omega_1) h_l =  h_{2'} +  \omega_{2'} h_{v2'} \\
+   c_{p_a} \theta_1 + \omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] + (\omega_{2'}-\omega_1) c_l \theta_l  = c_{p_a} \theta_{2'} + \omega_{2'} [h_{lv}(\theta_{ref})+c_{p_v} \theta_{2'}] \\
+   \omega_1 = \frac{c_{p_a} (\theta_{2'} - \theta_1) +\omega_{2'}[h_{lv}(\theta_{ref})+c_{p_v} \theta_{2'} - c_l \theta_l] }{h_{lv}(\theta_{ref})+c_{p_v} \theta_1 -c_l \theta_l}
+   
 
 obteniendo p* de las tablas de propiedades termodinámicas del agua en saturación (p* = 0,01072óar).
 
