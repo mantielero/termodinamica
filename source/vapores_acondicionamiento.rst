@@ -85,10 +85,11 @@ Esta última ecuación se puede expresar como
     \dot{Q}+\sum_s (\dot{m}_w h_w)_s -  \sum_e (\dot{m}_w h_w)_e = \dot{m}_{a} ( h_2 - h_1 ) 
 
 y con el valor de ma obtenido en la ecuación (10.48)
-Q + Y (riiwhw)e	y ^ (ririyjhyj)$
-______e_____________3____________ _	^2 - frl
-Y”lw‘~Ylh^»	U2-U!
-e	s
+
+.. math::
+
+   \frac{ \dot{Q}+\sum_s (\dot{m}_w h_w)_s -  \sum_e (\dot{m}_w h_w)_e}{ \sum_e \dot{m}_{w_e} -  \sum_s \dot{m}_{w_s}} = \frac{ h_2 - h_1}{\omega_2 - \omega_1}
+
 
 que es precisamente el valor q' que da el diagrama psicrométrico, es decir
 
