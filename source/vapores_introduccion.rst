@@ -35,4 +35,4 @@ Mezcla sobresaturada
 
 Para unas condiciones de :math:`p_g` y *T*, sería una mezcla en la que la presión parcial del vapor fuese mayor que la de saturación a esa temperatura, manteniéndose el vapor no saturado. Correspondería a un estado metaestable en el que, por cualquier pequeña perturbación, se produciría la condensación de parte del vapor disminuyendo, por tanto, la presión que pasaría al valor correspondiente a la de saturación a la temperatura *T*.
 
-También se denomina aire sobresaturado al que resulta de una mezcla sobresatu-radauna vez que se ha condensado el vapor de agua en exceso y éste permanece en suspensión (niebla).
+También se denomina aire sobresaturado al que resulta de una mezcla sobresaturada una vez que se ha condensado el vapor de agua en exceso y éste permanece en suspensión (niebla).
