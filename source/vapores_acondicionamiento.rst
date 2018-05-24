@@ -134,15 +134,19 @@ Deshumidificación
 
 El proceso mediante el cual se consigue disminuir la humedad de una mezcla de aire-vapor de agua se denomina deshumidificación.
 
-Si una corriente de aire húmedo se enfría a presión constante hasta alcanzar una temperatura menor que su temperatura de rocío (9 < 9r), parte del vapor de agua se condensa, quedando
+Si una corriente de aire húmedo se enfría a presión constante hasta alcanzar una temperatura menor que su temperatura de rocío (:math:`\theta < \theta_R`), parte del vapor de agua se condensa, quedando aire húmedo saturado.
+
+
+
 Como el aire que se obtiene está a una temperatura menor que la del aire antes de la deshumidificación, y en general se requiere utilizar el aire a una temperatura parecida a la de la corriente inicial, se suele proceder posteriormente a calentar dicha corriente hasta alcanzar la temperatura deseada, proceso que se estudiará posteriormente (calentamiento).
 
-Fig. 10
+.. figure:: ./img/acondicionamiento_fig10.png
 
 La instalación, como se muestra en la fig.10, constará de un cambiador de calor (por el que circulará un fluido refrigerante) con el que se enfría la corriente de aire.
 
-Fig. 11
-Fig. 12
+.. figure:: ./img/acondicionamiento_fig11.png
+
+.. figure:: ./img/acondicionamiento_fig12.png
 
 
 En las fig.ll y 12 se representa el proceso, seguido por el aire, en el diagrama de Mollier y en el diagrama psicrométrico, respectivamente, mientras que en la fig.13 se representa el proceso seguido por el agua en un diagrama (T-s).
