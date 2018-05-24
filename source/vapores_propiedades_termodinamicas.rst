@@ -89,11 +89,11 @@ Con el estado de referencia mencionado anteriormente y en la consideración de c
 
 .. math::
 
-   h = c_{p_a} \theta + \omega \left( \frac{p^*(\theta_{ref}) -p_{ref}}{\rho_l} +h_{lv}(0.01°C) + c_{p-v} \theta \right)
+   h = c_{p_a} \theta + \omega \left( \frac{p^*\left(\theta_{ref}\right) -p_{ref}}{\rho_l} +h_{lv}(0.01°C) + c_{p-v} \theta \right)
 
 
 
-En la expresión anterior el término :math:`p^*(\theta_{ref}) -p_{ref}}{\rho_l}` es despreciable (su valor es :math:`0.099\frac{kJ}{kg}`) frente a cualquiera de los otros dos términos ( :math:`h_{lv}(\theta_{ref}=2501.4\frac{ kJ}{kg}` y :math:`c_{p_v} \theta  = 1.82 \frac{kJ}{kg}-1 si :math:`\theta = 1°C`), por lo que para el aire húmedo no saturado y saturado puede ponerse:
+En la expresión anterior el término :math:`\frac{p^*\left(\theta_{ref}\right) -p_{ref}}{\rho_l}` es despreciable (su valor es :math:`0.099\frac{kJ}{kg}`) frente a cualquiera de los otros dos términos ( :math:`h_{lv}(\theta_{ref}=2501.4\frac{ kJ}{kg}` y :math:`c_{p_v} \theta  = 1.82 \frac{kJ}{kg}-1 si :math:`\theta = 1°C`), por lo que para el aire húmedo no saturado y saturado puede ponerse:
 
 .. math::
 
