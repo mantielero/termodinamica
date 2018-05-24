@@ -44,11 +44,11 @@ de referencia es la masa de la mezcla:
    v_a = \frac{\text{volumen de aire húmedo}}{\text{masa de aire húmedo}} = \frac{V}{m_a+m_v}
 
 
-Entre va y v existe la relación:
+Entre :math:`v_a` y *v* existe la relación:
 
 .. math::
 
-  va_ = (l + ºomega)v
+  v_a = (l + \omega)v
   
 
 siendo  :math:`(1 + \omega)` la relación  :math:`\frac{\text{masa de aire húmedo}}{\text{masa de aire seco}}`. Evidentemente entre :math:`\rho` y :math:`v_a` existe la relación:
