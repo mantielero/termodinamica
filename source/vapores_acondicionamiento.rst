@@ -1023,23 +1023,45 @@ La cantidad de agua eliminada es
 
 b)	De la ecuación (10.53)
 
-Q - rha(h3 - hx) + ma(üq - u3)hi Ú = (^3 ~ hi) + (uq — u>3)h¡
+.. math::
+
+   \dot{Q} = \dot{m}_a (h_3 - h_1) + \dot{m}_a (\omega_1 - \omega_3) h_l \\
+   \dot{q} =  (h_3 - h_1) + (\omega_1 - \omega_3) h_l
+
+
 Necesitamos conocer la temperatura en el punto 3 y para ello sabemos que la temperatura en el punto 3 se corresponde con la temperatura de rocío correspondiente al punto 4. De la ecuación (10.8)
-Td(k, _ UK) _	295	_
-M	T4(üQln04 ~~	295 -ln 0,45 ~ 282K
-5121	5121
-0fi = 9,O3°C'
-03 = 0l = OR = 9,03°C
+
+.. math::
+
+   T_R(K) = \frac{T_4(K)}{1 - \frac{T_4(K) \ln \phi_4}{5121}} = \frac{295}{1 - \frac{295\cdot \ln 0.45}{5121}} = 282K \\
+   \theta_R = 9.03°C \\
+   \theta_3 = \theta_l = \theta_R = 9.03°C 
+   
 Además
-o>3 =	— 7,61 • 10 ~3kg/kg
-q = cPa(03 - #i) + h¡v(9Tef)(u3 - uq) + cPv(u303 - uq6\) + (uq - üj3)c¡6i q= 1,005(9,03 - 32) + 2501,4(7,61 • 10'3 - 2,18 • 10"2)+
-+ 1,82(7,61 • 10~3 • 9,03 - 2,18 • 10~2 • 32)+
-+(2,18 • 10~2 - 7,61 • 10~3) -4,18- 9,03 q = -59,19 kJ/kg
+
+.. math::
+
+   \omega_3 = \omega_4 = 7.61 \¢dot 10^{-3} \frac{kg}{kg} \\
+   \dot{q} = c_{p_a} (\theta_3 - \theta_1) + h_{lv}(\theta_{ref})(\omega_3 -\omega_1)  + c_{p_v} (\omega_3 \theta_3 - \omega_1 \theta_1) + (\omega_1 - \omega_3) c_l \theta_l \\
+   \dot{q} = 1.005(9.03 - 32) + 2501.4(7.61 \cdot 10^{-3} -2.18 \cdot 10^{-2}) + 1.82 (7.61 \cdot 10^{-3} \cdot 9.03 - 2.18 \cdot 10^{-2} \cdot 32) + (2.18 \cdot 10^{-2} - 7.61 \cdot 10^{-3} ) \cdot 4.18 \cdot 9.03 \\
+   \dot{q} = -59.19 \frac{kJ}{kg}
+   
+
 c)	De la ecuación (10.61)
-Q = ma(h4 - h3)
-q = (h4 ~ h3)
-9 = cpa(^4 — ^3) + hiv(0ref)(uj4 — u>3) + cPv(u40 4 — u393) y puesto que u>4 = u3 queda
-Q = cpa(04 ~ #3) +	u>3(94 - 93)
-9 = (cPa + cPvw3)(é,4 - 93) q = (1,005 + 1,82 • 7,61 • 10_3)(22 - 9,03)kJ/kg q — 13,2kJ/kg
+
+.. math::
+
+   \dot{Q} = \dot{m}_a (h_4 - h_3) \\
+   \dot{q} = h_4 - h_3 \\
+   \dot{q} = c_{p_a} (\theta_4 - \theta_3) + h_{lv}(\theta_{ref}) (\omega_4 -\omega_3) + c_{p_v} (\omega_4 \theta_4 - \omega_3 \theta_3)
+   
+y puesto que :math:`\omega_4 = \omega_3` queda
+
+.. math::
+
+   \dot{q} = c_{p_a} (\theta_4 - \theta_3) + c_{p_v} \omega_3 (\theta_4 - \theta_3)  \\
+   \dot{q} = (c_{p_a}  + c_{p_v} \omega_3) (\theta_4 - \theta_3) \\
+   \dot{q} = (1.005 + 1.82 \cdot 7.61 \cdot 10^{-3})(22-9.03) \frac{kJ}{kg} \\
+   \dot{q} = 13.2\frac{kJ}{kg}
 
 El problema se puede resolver fácilmente utilizando el diagrama de Mollier, obteniendo resultados análogos.
