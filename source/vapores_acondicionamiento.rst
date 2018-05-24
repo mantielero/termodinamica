@@ -976,4 +976,4 @@ Otra manera de resolver el problema es utilizando la definición del factor FCS.
 y entrando con este valor en el gráfico del factor FCS del diagrama psicrométrico se procede igual que antes, obteniendo un resultado análogo.
 
 
-
+vapores_acondicionamiento_ex10_8
