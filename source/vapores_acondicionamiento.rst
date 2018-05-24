@@ -696,6 +696,7 @@ De estas relaciones se obtiene una interesante interpretación geométrica en el
    :maxdepth: 1
    :caption: Ejercicios:
    
+   vapores_acondicionamiento_ex10_5
    vapores_acondicionamiento_ex10_6
 
 
