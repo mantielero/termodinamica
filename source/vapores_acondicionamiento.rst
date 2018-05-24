@@ -346,25 +346,33 @@ También :math:`h_l` puede representar la entalpia del líquido o vapor aportado
 
 Teniendo en cuenta las ecuaciones (10.54) y (10.55) y que
 
-m» j = uimai mU2 = u>2ma2
+.. math::
+
+   \dot{m}_{v_1} = \omega_1 \dot{m}_{a_1} \\
+   \dot{m}_{v_2} = \omega_2 \dot{m}_{a_2}
 
 la ecuación (10.56) se reduce a
 
-m¡h¡ —	hai) T ^ha(k^2^u2 ^í^vi)
+.. math::
+
+   \dot{m}_l h_l = \dot{m}_a ( h_{a_2}-h_{a_1}) + \dot{m}_a ( \omega_2 h_{v_2}- \omega_1h_{v_1})
 
 o lo que es lo mismo
 
-hi = íi—(10.57)
+.. math::
+
+   h_l = \frac{h_2 - h_1}{\omega_2- \omega_1}
 
 Las ecuaciones (10.55) y (10.57) nos permiten, conocidas las condiciones del aire a la entrada y salida del sistema, determinar la cantidad y condiciones en las que es preciso introducir el agua o el vapor. Si por el contrario, se conoce la cantidad y condiciones en las que se introduce el agua y uno de los estados inicial o final, el otro se determinaría utilizando la ecuación de la energía (10.56) y la de conservación de la masa (10.54, 10.55) o de forma semigráfica a partir de la ecuación (10.57), teniendo en cuenta que
 
-h¡
-h2 — h\ , — Q
-U)2 —
+.. math::
 
-y utilizando el transportador del diagrama psicrométrico o del diagrama de Mollier. Para ello, conocida h¡, y por tanto la pendiente de la recta que une el estado 1 y el estado 2, se traza dicha recta en el diagrama adjunto al psicrométrico y posteriormente una paralela a esta que pase por el punto 1 o 2 (el que esté determinado) en el diagrama psicrométrico, el otro punto estará situado sobre dicha recta y para determinarlo se necesita otra condición adicional.
+   h_l = \frac{h_2 - h_1}{\omega_2- \omega_1} = q'
+   
+y utilizando el transportador del diagrama psicrométrico o del diagrama de Mollier. Para ello, conocida :math:`h_l`, y por tanto la pendiente de la recta que une el estado 1 y el estado 2, se traza dicha recta en el diagrama adjunto al psicrométrico y posteriormente una paralela a esta que pase por el punto 1 o 2 (el que esté determinado) en el diagrama psicrométrico, el otro punto estará situado sobre dicha recta y para determinarlo se necesita otra condición adicional.
 
 Ejercicio 10.2
+^^^^^^^^^^^^^^
 
 Cierto día se alcanza una temperatura de 34°C , con una humedad relativa del 20%. Para acondicionar una vivienda se utiliza un sistema de humidificación adiabática.
 
@@ -373,50 +381,66 @@ Si a la salida se requiere tener una temperatura de 21°C, determinar de forma a
 La presión atmosférica es de 1 bar y el agua se suministra a la temperatura de salida del aire.
 
 Solución
+''''''''
 
 De la ecuación (10.6) se obtiene
 
-Pv = <f> ■ P*
+.. math::
 
-p* de las tablas de propiedades termodinámicas del agua en saturación a 0 — 34°C es
+   p_v = \phi \cdot p^*
 
-p*(34°C) = 0,053245ar
-pv- 0,2-0,05324 = 0,0106486ar
+:math:`p^*` de las tablas de propiedades termodinámicas del agua en saturación a :math:`\theta = 34°C` es
+
+.. math::
+
+   p^*(34°C) = 0.05324bar
+   p_v =  0.2 \cdot 0.05324 = 0.010648bar
 
 
 De la ecuación (10.4)
-un = 0,622 • —= 0,622 •	= 6,694 • 10~3kg/kg
-P-Pv
-1 - 0,010648
 
+.. math::
+
+   \omega_1 = 0.622 \cdot \frac{p_v}{p-p_v} = 0.622\cdot \frac{0.010648}{1-0.010648} = 6.694 \cdot 10^{-3} \frac{kg}{kg}
+   
 De la ecuación (10.57)
 
-h2 - hi = (lj2 - u>i )h¡ y con las ecuaciones (10.17) y (10.18)
-h = cpJ + u[hlv(0rej) + cPv0]
-P ~ Pref
-h¡ = c¡6 -f
-Pl
-(17)
-(18)
-U)2 -
-CpJ 2 + w2 [hlvjrej) + CpJ2] ~ CpJl - Wj [h¡v(6ref) +'cp„01] = (w2 - V\ )cfi¡
-_ [hlyjref) + cpJ\ - C¡0[] -f Cpa(6i - Oj) hlvjref) + cpJi - c¡0,
-cPv — 1,82kJ ■kg~1K~1
-cPa = 1,005&J • kg~1K~1	p*(21°C) = 0,02487¿>ar
-c¡ = 4,18kJ ■ kg 1K 1
-29,6359 2451,84
-u>2 =
+.. math::
 
-De la ecuación (10.4) y de la ecuación (10.6)
+   h_2 - h_1 = (\omega_2- \omega_1)h_l
 
-Pv
-= 0,012087kg/kg
-u • p
-u2p
-0,622 u 0,012087-1
-, _ Py , _ _
-9 p* 92	(0,622 -f w2)p*	(0,622 + 0,012087) -0,02487
-— = (w2 - wi) = 5,39 • 10~3kg/kg ma
+y con las ecuaciones (10.17) y (10.18)
+
+.. math::
+
+   \left[
+   \begin{array}
+   h = c_{p-1} \theta \omega [h_{lv}(\theta_{ref})+c_{p_v} \theta] \\
+   h_l = c_l \theta + \frac{p-p_{ref}}{\rho_l}
+   \end{array}
+   \right. \\
+   c_{p_a} \theta_2 + \omega_2 [h_{lv}(\theta_{ref})+c_{p_v} \theta_2]- c_{p_a} \theta_1 - \omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] = (\omega_2- \omega_1)c_l \theta_l \\
+   \omega_2 = \frac{\omega_1 [h_{lv}(\theta_{ref})+c_{p_v} \theta_1] + c_{p_a} (\theta_2 - \theta_1)}{ [h_{lv}(\theta_{ref})+c_{p_v} \theta_1 - c_l \theta_l}\\
+   \left[
+   \begin{array}
+   c_{p_v} = 1.82\frac{kJ}{kg \cdot K} \\
+   c_{p_a} = 1.005\frac{kJ}{kg \cdot K}  \hspace{2cm} p^*(21°C) = 0.02487bar\\
+   c_l = 4.18 \frac{kJ}{kg \cdot K}
+   \end{array}
+   \right. \\
+   \omega_2 = \frac{29.6359}{2451.84} = 0.012087 \frac{kg}{kg}
+    
+De la ecuación (10.4) 
+
+.. math::
+
+   p_v = \frac{\omega \cdot p}{0.622+\omega}
+
+y de la ecuación (10.6)
+
+.. math::
+
+   \phi = \frac{p_v}{p^*} \Rightarrow \phi_2 = \frac{\omega_2 p}{(0.622+\omega_2)p^*} = \frac{0.012087 \cdot 1}{(0.622+0.012087)\cdot 0.02487} = 0.7665 = 76.65%
 
 La resolución utilizando el diagrama psicrométrico se deja como ejercicio.
 
