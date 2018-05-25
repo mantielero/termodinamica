@@ -63,7 +63,6 @@ Cuando se estudia el flujo de gas a través de un conducto, el sistema a conside
 
 .. figure:: ./img/volumen_control.png
    :height: 300px
-   :align: left
 
    Volumen de control
 
@@ -71,7 +70,6 @@ En el estudio de un gas contenido en un cilindro provisto de émbolo, el sistema
 
 .. figure:: ./img/masa_control.png
    :height: 300px
-   :align: right
 
    Masa de control
 
