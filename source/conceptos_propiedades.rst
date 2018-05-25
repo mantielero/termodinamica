@@ -78,7 +78,7 @@ Supóngase un conjunto de propiedades de un sistema:
 
    x_1, x_2, ..., x_n
 
-que pueden ser utilizadas para su caracterización. Desde este punto de vista, serían entonces varióles de estado. Cualquier relación entre estas propiedades conduce a otra propiedad termodinámica que puede expresarse por la función:
+que pueden ser utilizadas para su caracterización. Desde este punto de vista, serían entonces variables de estado. Cualquier relación entre estas propiedades conduce a otra propiedad termodinámica que puede expresarse por la función:
 
 .. math::
 
