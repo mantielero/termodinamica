@@ -19,7 +19,13 @@ Con la palabra **fase** se hace referencia a la materia que se presenta con una 
 Interfase
 ---------
 
-Cuando se halla presente más de una fase, las fases están separadas mediante superficies de separación (interfases), al pasar a través de las cuales cambian bruscamente las propiedades físicas o las químicas del sistema. Los gases, en general, se mezclan en cualquier proporción para formar una sola fase. Algunos líquidos denominados miscibles, como el alcohol y el agua, se mezclan para formar una sola fase líquida. Otros líquidos, que se denominan inmiscibles, como el aceite y el agua al mezclarse forman dos fases líquidas.
+Cuando se halla presente más de una fase, las fases están separadas mediante superficies de separación (interfases), al pasar a través de las cuales cambian bruscamente las propiedades físicas o las químicas del sistema. 
+
+Los gases, en general, se mezclan en cualquier proporción para formar una sola fase. 
+
+Algunos líquidos denominados miscibles, como el alcohol y el agua, se mezclan para formar una sola fase líquida. 
+
+Otros líquidos, que se denominan inmiscibles, como el aceite y el agua al mezclarse forman dos fases líquidas.
 
 Sustancia pura
 --------------
