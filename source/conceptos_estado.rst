@@ -1,7 +1,9 @@
 Estado
-------
+======
 
-Situación determinada en la que se halla un sistema, viene especificado por el valor de sus propiedades. El número de propiedades necesarios paradeterminar el estado de un sistema depende de su complejidad y como se verá al estudiar el Principio de Estado, se halla perfectamente determinado.
+**Estado** es la situación determinada en la que se halla un sistema. Viene especificado por el valor de sus propiedades. 
+
+El número de propiedades necesarios paradeterminar el estado de un sistema depende de su complejidad y como se verá al estudiar el *Principio de Estado*, se halla perfectamente determinado.
 
 Si el valor de las propiedades es el mismo en dos instantes distintos, el sistema se encontrará en el mismo estado en los dos instantes (no nos importa lo que haya hecho entre esos instantes).
 
