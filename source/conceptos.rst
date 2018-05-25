@@ -19,3 +19,15 @@ También la predicción de la evolución del mismo requiere el conocimiento de l
    conceptos_proceso   
    conceptos_fase
    conceptos_equilibrio
+   
+   
+Hablemos ahora de algunas propiedades:
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Propiedades:
+   
+   introduccion_presion
+   introduccion_densidad
+   introduccion_ley_cero_temperatura
+   introduccion_ejercicios   
