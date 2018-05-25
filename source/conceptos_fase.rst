@@ -30,11 +30,15 @@ Otros líquidos, que se denominan inmiscibles, como el aceite y el agua al mezcl
 Sustancia pura
 --------------
 
-**Sustancia pura**: aquella que tiene una composición química definida. Una sustancia pura puede existir en más de una fase, pero su composición química debe ser la misma en cada una de ellas. Por ejemplo, la mezcla de agua líquida y vapor de agua forma dos fases, pero es una sustancia pura, ya que se tiene la misma composición química en ambas fases. 
+**Sustancia pura**: aquella que tiene una *composición química definida*. 
 
-De los sistemas termodinámicos estudiados tienen una importancia fundamental, por la frecuencia con que se presentan, los constituidos por una sustancia pura. 
+Una sustancia pura puede existir en más de una fase, pero su composición química debe ser la misma en cada una de ellas. Por ejemplo, la mezcla de agua líquida y vapor de agua forma dos fases, pero es una sustancia pura, ya que se tiene la misma composición química en ambas fases. 
 
-Al estudiar un sistema formado por aire seco, podrá ser considerado como sustancia pura en tanto en cuanto sea una mezcla de gases, pero si por enfriamiento se consigue que aparezca una fase líquida, el sistema ya no estará integrado por una sustancia pura, ya que la composición del líquido es distinta a la de la fase gaseosa.
+Los sistemas termodinámicos constituidos por una sustancia pura se presentan con mucha frecuencia.  
+
+.. warning::
+
+   Al estudiar un sistema formado por aire seco, podrá ser considerado como sustancia pura en tanto en cuanto sea una mezcla de gases, pero si por enfriamiento se consigue que aparezca una fase líquida, el sistema ya no estará integrado por una sustancia pura, ya que la composición del líquido es distinta a la de la fase gaseosa.
 
 Resumen
 -------
