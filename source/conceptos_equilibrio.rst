@@ -1,15 +1,40 @@
 Equilibrio
 ==========
 
+Introducción
+------------
+
 El estudio de la termodinámica clásica se centra especialmente en el estudio de los estados de equilibrio y la variación de propiedades producidas cuando un sistema pasa de un estado de equilibrio a otro.
 
 En estudios previos ya se ha encontrado esta palabra, en primer lugar en mecánica, en donde la condición de equilibrio resultaba de la anulación de la resultante de las fuerzas que se ejercían sobre el punto, o bien la anulación de fuerzas y momentos sobre el cuerpo rígido o sistema de puntos.
 
-Cuando se efectúa el estudio termodinámico de un sistema, el concepto de equilibrio tiene mayor alcance y no sólo incluye el equilibrio de fuerzas sino también el de otras interacciones. Cada clase de interacción se refiere a un aspecto particular del equilibrio termodinámico o equilibrio total de un sistema. De acuerdo con lo dicho, deben existir varios tipos de equilibrio particular para completar la condición de equilibrio termodinámico. Entre estos figuran el equilibrio mecánico, el equilibrio térmico y los equilibrios de fase y químico. Más adelante se consideran criterios para estos cuatro tipos de equilibrio, pero de momento es importante conocer la forma de decidir si un sistema se encuentra en estado de equilibrio termodinámico. Para ello, se aisla el sistema de su medio ambiente y se observa qué sucede con sus propiedades. Si no hay cambio una vez aislado el sistema, se puede asegurar que el sistema se hallaba en equilibrio en el momento de aislarlo y se puede afirmar que se encontraba en estado de equilibrio termodinámico, o simplemente en estado de equilibrio.
+Cuando se efectúa el estudio termodinámico de un sistema, el concepto de equilibrio tiene mayor alcance y no sólo incluye el equilibrio de fuerzas sino también el de otras interacciones. 
 
-Cuando un sistema se halla en estado de equilibrio, las propiedades del sistema tienen igual valor en cada fase del mismo y de hecho sólo tiene sentido hablar de variables o propiedades del sistema cuando el sistema se encuentra en equilibrio. Considérese, por ejemplo, que se utiliza la presión y la temperatura para describir el estado de un sistema. En este caso, la temperatura del sistema es uniforme en todos los puntos del mismo y, si no existen campos de fuerza externos, también lo es la presión.
+Cada clase de interacción se refiere a un aspecto particular del equilibrio termodinámico o equilibrio total de un sistema. De acuerdo con lo dicho, deben existir varios tipos de equilibrio particular para completar la condición de equilibrio termodinámico. Entre estos figuran el equilibrio:
 
-Para los sistemas termodinámicos son posibles estados en los que las propiedades termodinámicas toman distintos valores en distintos puntos del sistema y, por lo tanto, no son estados de equilibrio. Considérese, por ejemplo, una barra metálica con un extremo en contacto con la pared de un horno y el otro en contacto con la atmósfera. Si este sistema se aisla, se verá que sus variables cambian con el tiempo hasta llegar al equilibrio. El proceso durante el que el sistema pasa de un estado de no equilibrio a un estado de equilibrio se denomina proceso de relajación^ y el tiempo que tarda cada parámetro del sistema en hacerse igual en todo el sistema, se conoce como tiempo de relajación del parámetro dado r. El tiempo total de relajación de un sistema es más largo que los tiempos individuales de relajación.
+- mecánico
+- térmico 
+- de fase
+- químico
+
+Más adelante se consideran criterios para estos cuatro tipos de equilibrio, pero de momento es importante conocer la forma de decidir si un sistema se encuentra en estado de equilibrio termodinámico. 
+
+¿Cómo saber si un sistema se haya en equilibrio?
+------------------------------------------------
+
+Para ello, se aisla el sistema de su medio ambiente y se observa qué sucede con sus propiedades. Si no hay cambio una vez aislado el sistema, se puede asegurar que el sistema se hallaba en equilibrio en el momento de aislarlo y se puede afirmar que se encontraba en estado de equilibrio termodinámico, o simplemente en estado de equilibrio.
+
+Cuando un sistema se halla en estado de equilibrio, las propiedades del sistema tienen igual valor en cada fase del mismo y de hecho sólo tiene sentido hablar de variables o propiedades del sistema cuando el sistema se encuentra en equilibrio. 
+
+Considérese, por ejemplo, que se utiliza la presión y la temperatura para describir el estado de un sistema. En este caso, la temperatura del sistema es uniforme en todos los puntos del mismo y, si no existen campos de fuerza externos, también lo es la presión.
+
+
+No equilibrio
+-------------
+
+Para los sistemas termodinámicos son posibles estados en los que las propiedades termodinámicas toman distintos valores en distintos puntos del sistema y, por lo tanto, no son estados de equilibrio. 
+
+Considérese, por ejemplo, una barra metálica con un extremo en contacto con la pared de un horno y el otro en contacto con la atmósfera. Si este sistema se aisla, se verá que sus variables cambian con el tiempo hasta llegar al equilibrio. El proceso durante el que el sistema pasa de un estado de no equilibrio a un estado de equilibrio se denomina **proceso de relajación** y el tiempo que tarda cada parámetro del sistema en hacerse igual en todo el sistema, se conoce como **tiempo de relajación** del parámetro dado :math:`\tau`. El tiempo total de relajación de un sistema es más largo que los tiempos individuales de relajación.
 
 Los tiempos de relajación para los distintos procesos no pueden calcularse dentro del marco de la termodinámica, ya que los fenómenos de relajación son procesos, a nivel molecular, de transferencia de energía, cantidad de movimiento y magnitudes físicas análogas. La evaluación de los tiempos de relajación es un problema de la cinética física.
 
