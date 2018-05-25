@@ -17,17 +17,8 @@ Consecuentemente, hablaremos de:
 - **Sistema cerrado** o **masa de control**: determinada cantidad de materia. No intercambian material a través de su frontera (ej. compresión de aire con un émbolo). Ojo, la no variación de masa no implica que el sistema sea cerrado (ej. puede salir la misma cantidad de materia que entra en un volumen de control).
 - **Sistema abierto** o **volumen de control**: región del espacio dentro de un límite predeterminado . El límite del volumen de control (que puede ser móvil) se denomina superficie de control. El sistema se define como una región del espacio dentro de un límite predeterminado; la materia puede cruzar el límite del sistema.
 
-.. figure:: ./img/masa_control.png
-   :height: 300px
-   :align: right
 
-   Masa de control
 
-.. figure:: ./img/volumen_control.png
-   :height: 300px
-   :align: left
-
-   Volumen de control
 
 Todo lo situado fuera de los límites del sistema se denomina **medio ambiente** (o *exterior* o alrededores). Normalmente se considera como medio ambiente del sistema aquellas cosas exteriores al mismo que ejercen alguna influencia sobre él (interaccionan con el sistema). El conjunto de sistema y medio ambiente constituye el universo termodinámico en un problema dado.
 
@@ -57,6 +48,7 @@ En función de la composición química y propiedades físicas:
 
    Al proceder al estudio de un sistema, casi siempre se idealizará el conjunto. Se obtendrá un resultado aproximado al real. Así pues, el comportamiento real y el teórico podrían no coincidir. Esto implica que el modelo teórico estudiado es inadecuado.
 
+   En general, al proceder al estudio de una determinada instalación, la mayor parte de las veces ha de idealizarse el conjunto de elementos que la constituyen, de forma que sean asimilables a sistemas que puedan someterse a un análisis termodinámico sencillo. En tanto en cuanto la elección del correspondiente sistema ideal resulte adecuada al sistema real que se quiere modelar, el análisis teórico dará un resultado que responderá tanto más al resultado real, cuanto más se aproxime la descripción ideal al comportamiento real del sistema. Se ha de tener esto muy presente para ”no caer en la falacia de considerar que el estudio teórico de un sistema hace posible una determinada actuación, mientras que realmente esa actuación no se da”. Está claro que, cuando esto ocurre, el mencionado estudio teórico se basa en un modelo inadecuado al sistema real sometido a estudio.
 
 
 Según su constitución
@@ -78,13 +70,19 @@ Según su constitución
 Ejemplos de sistemas termodinámicos
 -----------------------------------
 
-Cuando se estudia el flujo de gas a través de un conducto, el sistema a considerar será el gas contenido en un determinado tramo del conducto y en este caso los límites del sistema serán las paredes del conducto (límite real) y la frontera ideal que delimita transversalmente la longitud predeterminada del mismo (límite imaginario), como se muestra en la figura 1.1:
+Cuando se estudia el flujo de gas a través de un conducto, el sistema a considerar será el gas contenido en un determinado tramo del conducto y en este caso los límites del sistema serán las paredes del conducto (límite real) y la frontera ideal que delimita transversalmente la longitud predeterminada del mismo (límite imaginario), como se muestra en la figura que muestra el *Volumen de Control*.
 
+.. figure:: ./img/volumen_control.png
+   :height: 300px
+   :align: left
 
-
-
-
+   Volumen de control
 
 En el estudio de un gas contenido en un cilindro provisto de émbolo, el sistema será normalmente el gas contenido dentro del cilindro. En este caso, aunque el volumen del sistema varíe, el sistema será un sistema cerrado mientras el émbolo se mueva en el cilindro y no sobrepase el límite del mismo. En el estudio de plantas de potencia se verá que las transformaciones que tienen lugar en las mismas se pueden analizar considerando un determinado elemento de masa de fluido (sistema cerrado) y siguiendo su evolución a lo largo de la instalación, o considerando un determinado volumen de control y realizando sobre él el análisis correspondiente.
 
-En general, **al proceder al estudio de una determinada instalación, la mayor parte de las veces ha de idealizarse el conjunto de elementos que la constituyen**, de forma que sean asimilables a sistemas que puedan someterse a un análisis termodinámico sencillo. En tanto en cuanto la elección del correspondiente sistema ideal resulte adecuada al sistema real que se quiere modelar, el análisis teórico dará un resultado que responderá tanto más al resultado real, cuanto más se aproxime la descripción ideal al comportamiento real del sistema. Se ha de tener esto muy presente para ”no caer en la falacia de considerar que el estudio teórico de un sistema hace posible una determinada actuación, mientras que realmente esa actuación no se da”. Está claro que, cuando esto ocurre, el mencionado estudio teórico se basa en un modelo inadecuado al sistema real sometido a estudio.
+.. figure:: ./img/masa_control.png
+   :height: 300px
+   :align: right
+
+   Masa de control
+
