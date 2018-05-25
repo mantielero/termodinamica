@@ -38,7 +38,7 @@ Diremos que "y" es propiedad si y sólo si "y" es diferencial exacta. Esto es, c
 
 .. math::
 
-   dy = \sum \frac{\partial y }{\partial x_i} = dx_i
+   dy = \sum \frac{\partial y }{\partial x_i} dx_i
 
 2. "y" verifica Schwarz:
 
