@@ -46,26 +46,15 @@ En función de la composición química y propiedades físicas:
    Como ya se ha dicho, los sistemas termodinámicos pueden abarcar desde el gas contenido en un pequeño volumen, a plantas industriales complejas y también grandes regiones de la atmósfera terrestre. EL PASO MAS IMPORTANTE EN LA SOLUCION DE UN PROBLEMA EN TERMODINAMICA ES NORMALMENTE LA SELECCION Y ESPECIFICACION CUIDADOSA DEL SISTEMA A CONSIDERAR.
 .. note::
 
-   Al proceder al estudio de un sistema, casi siempre se idealizará el conjunto. Se obtendrá un resultado aproximado al real. Así pues, el comportamiento real y el teórico podrían no coincidir. Esto implica que el modelo teórico estudiado es inadecuado.
 
-   En general, al proceder al estudio de una determinada instalación, la mayor parte de las veces ha de idealizarse el conjunto de elementos que la constituyen, de forma que sean asimilables a sistemas que puedan someterse a un análisis termodinámico sencillo. En tanto en cuanto la elección del correspondiente sistema ideal resulte adecuada al sistema real que se quiere modelar, el análisis teórico dará un resultado que responderá tanto más al resultado real, cuanto más se aproxime la descripción ideal al comportamiento real del sistema. Se ha de tener esto muy presente para ”no caer en la falacia de considerar que el estudio teórico de un sistema hace posible una determinada actuación, mientras que realmente esa actuación no se da”. Está claro que, cuando esto ocurre, el mencionado estudio teórico se basa en un modelo inadecuado al sistema real sometido a estudio.
+   En general, al proceder al estudio de una determinada instalación, la mayor parte de las veces ha de idealizarse el conjunto de elementos que la constituyen, de forma que sean asimilables a sistemas que puedan someterse a un análisis termodinámico sencillo. 
+   
+   En tanto en cuanto la elección del correspondiente sistema ideal resulte adecuada al sistema real que se quiere modelar, el análisis teórico dará un resultado que responderá tanto más al resultado real, cuanto más se aproxime la descripción ideal al comportamiento real del sistema.
+   
+   Se ha de tener esto muy presente para "no caer en la falacia de considerar que el estudio teórico de un sistema hace posible una determinada actuación, mientras que realmente esa actuación no se da". Está claro que, cuando esto ocurre, el mencionado estudio teórico se basa en un modelo inadecuado al sistema real sometido a estudio.
 
 
-Según su constitución
----------------------
-.. note::
 
-   NO ENTIENDO QUE SE CUENTE LO SIGUIENTE
-   En general, se estudiarán sistemas simples compresibles, es decir, aquellos sistemas para los que la única forma de trabajo reversible posible es la ligada a un cambio de volumen. Estos sistemas son homogéneos y se considerará que no es importante la influencia de:
-
-   - Campos eléctricos, magnéticos o gravitatorios.
-   - Efectos de capilaridad.
-   - Variación de composición isotópica en la sustancia que constituye el sistema.
-   - Si el sistema es sólido, igualdad de presión en todas las direcciones.
-
-.. note::
-
-   Composición isotópica: del número másico.
 
 Ejemplos de sistemas termodinámicos
 -----------------------------------
@@ -86,3 +75,20 @@ En el estudio de un gas contenido en un cilindro provisto de émbolo, el sistema
 
    Masa de control
 
+
+NO ENTIENDO QUE SE CUENTE LO SIGUIENTE AQUÍ
+-------------------------------------------
+
+.. note::
+
+   
+   En general, se estudiarán sistemas simples compresibles, es decir, aquellos sistemas para los que la única forma de trabajo reversible posible es la ligada a un cambio de volumen. Estos sistemas son homogéneos y se considerará que no es importante la influencia de:
+
+   - Campos eléctricos, magnéticos o gravitatorios.
+   - Efectos de capilaridad.
+   - Variación de composición isotópica en la sustancia que constituye el sistema.
+   - Si el sistema es sólido, igualdad de presión en todas las direcciones.
+
+.. note::
+
+   Composición isotópica: del número másico.
