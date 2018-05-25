@@ -13,6 +13,7 @@ También la predicción de la evolución del mismo requiere el conocimiento de l
    :caption: Contenido:
    
    conceptos_propiedades_
+   conceptos_estado
 
 
 Estado
