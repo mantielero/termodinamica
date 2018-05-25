@@ -18,10 +18,11 @@ Ventajas e inconvenientes
 
 Al afrontar el estudio del comportamiento de la materia, se encuentra que tanto la termodinámica como la física estadística poseen ventajas e inconvenientes en la consideración de distintos fenómenos.
 
-El método termodinàmico, al ser independiente de modelos estructurales determinados, está caracterizado por un mayor grado de generalidad. Los resultados obtenidos por la utilización de la física estadística son ciertos sólo en el intervalo de validez de las hipótesis efectuadas en relación con el comportamiento de los constituyentes del sistema.
+El método termodinámico, al ser independiente de modelos estructurales determinados, está caracterizado por un mayor grado de generalidad. Los resultados obtenidos por la utilización de la física estadística son ciertos sólo en el intervalo de validez de las hipótesis efectuadas en relación con el comportamiento de los constituyentes del sistema.
 
-El método termodinàmico se distingue, por regla general, por su gran simplicidad y abre el camino a la solución de gran número de problemas específicos mediante procedimientos matemáticos sencillos, sin necesidad de ninguna información de las propiedades de átomos y moléculas. Esta es la gran ventaja de esté método, especialmente cuando se resuelven problemas prácticos de carácter técnico (termodinámica técnica, transferencia de calor).
-El método termodinàmico posee, sin embargo, una limitación fundamental: su utilización no permite poner de manifiesto el mecanismo interno de los fenómenos estudiados.
+El método termodinámico se distingue, por regla general, por su gran simplicidad y abre el camino a la solución de gran número de problemas específicos mediante procedimientos matemáticos sencillos, sin necesidad de ninguna información de las propiedades de átomos y moléculas. Esta es la gran ventaja de esté método, especialmente cuando se resuelven problemas prácticos de carácter técnico (termodinámica técnica, transferencia de calor).
+
+El método termodinámico posee, sin embargo, una limitación fundamental: su utilización no permite poner de manifiesto el mecanismo interno de los fenómenos estudiados.
 
 Por esta razón, en Termodinámica, la pregunta ¿por qué? carece de sentido. Supóngase, por ejemplo, que se aplica el método termodinámico para determinar cómo un alambre de cobre se enfría cuando se somete a una rápida extensión, mientras que una banda de goma, en las mismas condiciones, se calienta. Desde un punto de vista termodinámico hay que contentarse en el hecho experimental, ya que el mecanismo físico en el que se basa este fenómeno permanece oculto. En contraste con esto, la solución de un problema particular por el método de la física estadística se basa desde el principio en conceptos atómico-moleculares, lo que permite visualizar el mecanismo del fenómeno considerado.
 
