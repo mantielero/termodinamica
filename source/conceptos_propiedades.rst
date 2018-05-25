@@ -28,23 +28,25 @@ Matemáticamente hablando
 
 Sean:
 
-1. Sea :math:`x_1, ..., x_n` propiedades de un sistema que lo caracterizan.
-2. :math:`y=y(x_1, ..., x_n)`: "y" es una nueva propidad (función de estado).
-3. "y" es diferenciable:
+* Sea :math:`x_1, ..., x_n` propiedades de un sistema que lo caracterizan.
+* :math:`y=y(x_1, ..., x_n)`: "y" es una nueva propidad (función de estado).
+
+
+Diremos que "y" es propiedad si y sólo si "y" es diferencial exacta. Esto es, cumple:
+
+1. "y" es diferenciable:
 
 .. math::
 
    dy = \sum \frac{\partial y }{\partial x_i} = dx_i
 
-4. "y" verifica Schwarz:
+2. "y" verifica Schwarz:
 
 .. math::
 
    \frac{\partial^2y}{\partial x_i \partial x_j} = \frac{\partial^2y}{\partial x_j \partial x_i}
 
-Los puntos 3. y 4.: o sea, :math:`dy` es diferencial exacta. Esta condición se usará con frecuencia.
-
-Si "y" no fuese una propiedad no cumpliría 3. y 4..
+Si "y" no fuese una propiedad no cumpliría (1) y (2).
 
 Cambio diferencial en una variable que no es una propiedad: :math:`\partial y = \sum z_i dx_i`, donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
 
