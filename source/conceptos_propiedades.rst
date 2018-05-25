@@ -57,7 +57,14 @@ Cambio diferencial en una variable que no es una propiedad:
 
    \partial y = \sum z_i dx_i
    
-donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
+donde :math:`z_i` y :math:`x_i` son variables de estado para las que:
+
+
+.. math::
+
+  \frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i} \Rightarrow \partial y \text{ no es diferencial exacta}
+  
+La integral de "y" dependerá de la trayectoria (integral de línea).
 
 .. note::
 
