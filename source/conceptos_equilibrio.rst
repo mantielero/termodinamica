@@ -51,24 +51,35 @@ Es claro que durante un proceso determinado, cuando el sistema que lo realiza pa
 A fin de poder estudiar termodinámicamente estos cambios, se utilizan dos modelos de procesos: procesos reversibles y procesos cuasiestáticos.
 
 
-El **proceso reversible** se define como aquel que experimenta un sistema que mantiene el equilibrio termodinàmico en los sucesivos estados que definen la trayectoria del proceso.
+Proceso reversible
+^^^^^^^^^^^^^^^^^^
 
-Más próximo a la realidad, y por tanto se utilizará con frecuencia para aproximarse al estudio de un proceso que tenga lugar en una instalación real, se encuentra el modelo de proceso cuasi estático o de cuasiequilibrio. Estos procesos se caracterizan porque su desviación de los correspondientes procesos en equilibrio termodinàmico es muy pequeña. Es decir, todos los estados por los que pasa un sistema en un proceso cuasi estático pueden considerarse estados de equilibrio. Para que esto ocurra los correspondientes tienpos de relajación de los distintos parámeros que carazterizan a sistem deben ser mucho más pequeños, que el tiempo empleado por el proceso para completarse. Dicho de otra forma, la velocidad del proceso es mucho menor que la velocidad de relajación. Por ello, en cualquier etapa del proceso habrá tiempo suficiente como para que las variables termodinámicas utilizadas adquieran cada una de ellas valores uniformes en todo el sistema y el proceso representará una sucesión continua de estados de equilibrio infinitamente próximos entre sí.
+El **proceso reversible** se define como aquel que experimenta un sistema que mantiene el equilibrio termodinámico en los sucesivos estados que definen la trayectoria del proceso.
+
+Proceso cuasi estático
+^^^^^^^^^^^^^^^^^^^^^^
+
+Más próximo a la realidad, y por tanto se utilizará con frecuencia para aproximarse al estudio de un proceso que tenga lugar en una instalación real, se encuentra el modelo de proceso cuasi estático o de cuasiequilibrio. 
+
+Estos procesos se caracterizan porque su desviación de los correspondientes procesos en equilibrio termodinámico es muy pequeña. Es decir, todos los estados por los que pasa un sistema en un proceso cuasi estático pueden considerarse estados de equilibrio. 
+
+Para que esto ocurra los correspondientes tienpos de relajación de los distintos parámeros que caracterizan el sistema deben ser mucho más pequeños, que el tiempo empleado por el proceso para completarse. 
+
+Dicho de otra forma, **la velocidad del proceso es mucho menor que la velocidad de relajación**. Por ello, en cualquier etapa del proceso habrá tiempo suficiente como para que las variables termodinámicas utilizadas adquieran cada una de ellas valores uniformes en todo el sistema y el proceso representará una sucesión continua de estados de equilibrio infinitamente próximos entre sí.
 
 En los procesos reales, los estados de no equilibrio son inevitables, por lo que las transformaciones que interesará analizar se podrán aproximar a procesos cuasi estáticos, pero nunca se identificarán del todo con ellos.
 
 El interés en los procesos cuasi estáticos se basa fundamentalmente en dos consideraciones:
 
-- Primero, los modelos termodinámicos simples dan al menos una información cualitativa del comportamiento de los sistemas reales y estos modelos pueden obtenerse considerando procesos cuasi estáticos. Esto es análogo a la utilización del punto material o a las poleas sin rozamiento en el estudio de la mecánica
-- Segundo, el concepto de proceso cuasi estático es el instrumento más adecuado para la deducción de las relaciones que existen entre las propiedades de sistemas en equilibrio.
-Para estudiar termodinàmicamente un determinado proceso no es condición imprescindible que el proceso sea asimilable a uno cuasi estático. Simplemente, pudiendo definir los estados inicial y final del proceso, es decir, siempre que estos estados sean de equilibrio, es posible deducir y evaluar ciertos efectos globales que tienen lugar durante aquel.
+1. Los modelos termodinámicos simples dan al menos una información cualitativa del comportamiento de los sistemas reales y estos modelos pueden obtenerse considerando procesos cuasi estáticos. Esto es análogo a la utilización del punto material o a las poleas sin rozamiento en el estudio de la mecánica
+2. El concepto de proceso cuasi estático es el instrumento más adecuado para la deducción de las relaciones que existen entre las propiedades de sistemas en equilibrio.
+
+Para estudiar termodinámicamente un determinado proceso no es condición imprescindible que el proceso sea asimilable a uno cuasi estático. Simplemente, pudiendo definir los estados inicial y final del proceso, es decir, siempre que estos estados sean de equilibrio, es posible deducir y evaluar ciertos efectos globales que tienen lugar durante aquel.
 
 
 
-OTRO
-----
-
-
+Resumen
+-------
 
 Equilibrio termodinámico: equilibrio mecánico, equilibrio térmico, equilibrio de fase y equilibrio químico.
 
@@ -82,11 +93,11 @@ Procedimiento: aislamos del medio ambiente. Si no cambian las propiedades, estab
 
    Sólo tiene sentido hablar de propiedades del sistema cuando éste está en equilibrio.
 
-Proceso de relajación: paso de un estado de no equilibrio a uno de equilibrio (:math:`\tau=` tiempo de relajación = lo que dura el proceso).
+Proceso de relajación: paso de un estado de no equilibrio a uno de equilibrio (:math:`\tau=` tiempo de relajación = lo que dura el proceso de relajación).
 
 Modelos de procesos:
 
 - Proceso reversible: el que experimenta un sistema que mantiene el estado de equilibrio termodinámico en todo instante.
 - Proceso cuasiestático: :math:`\tau<< t_p`, en donde, :math:`t_p=` tiempo del proceso. nos movemos casi en estado de equilibrio. Es el modelo a utilzar cuando un proceso es lento.
 
-.. note:: en probelmas, bsaa con definir los estados inicial y final para que podamos deducir ciertos efectos globales que ocurren durante el proceso.
+.. note:: en problemas, basta con definir los estados inicial y final para que podamos deducir ciertos efectos globales que ocurren durante el proceso.
