@@ -29,8 +29,8 @@ Cuando un sistema se halla en estado de equilibrio, las propiedades del sistema 
 Considérese, por ejemplo, que se utiliza la presión y la temperatura para describir el estado de un sistema. En este caso, la temperatura del sistema es uniforme en todos los puntos del mismo y, si no existen campos de fuerza externos, también lo es la presión.
 
 
-No equilibrio
--------------
+No equilibrio - Tiempos de relajación
+-------------------------------------
 
 Para los sistemas termodinámicos son posibles estados en los que las propiedades termodinámicas toman distintos valores en distintos puntos del sistema y, por lo tanto, no son estados de equilibrio. 
 
@@ -38,9 +38,20 @@ Considérese, por ejemplo, una barra metálica con un extremo en contacto con la
 
 Los tiempos de relajación para los distintos procesos no pueden calcularse dentro del marco de la termodinámica, ya que los fenómenos de relajación son procesos, a nivel molecular, de transferencia de energía, cantidad de movimiento y magnitudes físicas análogas. La evaluación de los tiempos de relajación es un problema de la cinética física.
 
-En termodinámica técnica se está más interesados por los procesos (cambios de estado) que por los estados de equilibrio en sí, que no pueden dar lugar a ningún cambio que permita obtener el efecto que se busca en una instalación determinada. Es claro que durante un proceso determinado, cuando el sistema que lo realiza pasa de un estado a otro, no es posible definir el valor de sus propiedades termodinámicas porque éste varía según el punto que se elija en el mismo para efectuar su determinación. A fin de poder estudiar termodinàmicamente estos cambios, se utilizan dos modelos de procesos: procesos reversibles y procesos cuasiestáticos.
 
-El proceso reversible se define como aquel que experimenta un sistema que mantiene el equilibrio termodinàmico en los sucesivos estados que definen la trayectoria del proceso.
+Modelos de procesos
+-------------------
+
+En termodinámica técnica se está más interesados por los procesos (cambios de estado) que por los estados de equilibrio en sí, que no pueden dar lugar a ningún cambio que permita obtener el efecto que se busca en una instalación determinada. 
+
+
+Es claro que durante un proceso determinado, cuando el sistema que lo realiza pasa de un estado a otro, no es posible definir el valor de sus propiedades termodinámicas porque éste varía según el punto que se elija en el mismo para efectuar su determinación. 
+
+
+A fin de poder estudiar termodinámicamente estos cambios, se utilizan dos modelos de procesos: procesos reversibles y procesos cuasiestáticos.
+
+
+El **proceso reversible** se define como aquel que experimenta un sistema que mantiene el equilibrio termodinàmico en los sucesivos estados que definen la trayectoria del proceso.
 
 Más próximo a la realidad, y por tanto se utilizará con frecuencia para aproximarse al estudio de un proceso que tenga lugar en una instalación real, se encuentra el modelo de proceso cuasi estático o de cuasiequilibrio. Estos procesos se caracterizan porque su desviación de los correspondientes procesos en equilibrio termodinàmico es muy pequeña. Es decir, todos los estados por los que pasa un sistema en un proceso cuasi estático pueden considerarse estados de equilibrio. Para que esto ocurra los correspondientes tienpos de relajación de los distintos parámeros que carazterizan a sistem deben ser mucho más pequeños, que el tiempo empleado por el proceso para completarse. Dicho de otra forma, la velocidad del proceso es mucho menor que la velocidad de relajación. Por ello, en cualquier etapa del proceso habrá tiempo suficiente como para que las variables termodinámicas utilizadas adquieran cada una de ellas valores uniformes en todo el sistema y el proceso representará una sucesión continua de estados de equilibrio infinitamente próximos entre sí.
 
