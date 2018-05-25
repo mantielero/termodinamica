@@ -4,19 +4,28 @@ Sistema termodinámico
 Introducción
 ------------
 
-Como **sistema termodinámico** se puede considerar cualquier cosa que se desee estudiar y el sistema puede ser tan sencillo como un cuerpo libre, o tan complejo como una moderna central productora de energía. 
+Como sistema termodinámico se puede considerar cualquier cosa que se desee estudiar y el sistema puede ser tan sencillo como un cuerpo libre, o tan complejo como una moderna central productora de energía.
 
-Cualquier cantidad de materia o espacio sometida a estudio (termodinámico). La cantidad de materia o región del espacio debe hallarse contenida dentro de unos límites perfectamente predeterminados. Estos límites pueden ser fijos o deformables, así como reales o imaginarios.
+.. warning::
+
+   Siempre que cumpla la hipótesis de distribución de materia continua.
+
+Por tanto, será un **sistema termodinámico** cualquier cantidad de materia o espacio sometida a estudio (termodinámico). 
+
+Consecuentemente, hablaremos de:
+
+- **Sistema cerrado** o **masa de control**: determinada cantidad de materia.
+- **Sistema abierto** o **volumen de control**: región del espacio dentro de un límite predeterminado . El límite del volumen de control (que puede ser móvil) se denomina superficie de control.
+
+La cantidad de materia o región del espacio debe hallarse contenida dentro de unos límites perfectamente predeterminados. Estos límites pueden ser fijos o deformables, así como reales o imaginarios.
 
 Clasificación:
 
-- Deformable (indeformable): cuando la distancia relativa entre todas las partículas del mismo es constante. Cuando algo puede variar su posición relativa, deformable.
-- Cerrados (abiertos): no intercambian material a través de su frontera. Ojo, la no variación de masa no implica que el sistema sea cerrado.
+- Indeformable: cuando la distancia relativa entre todas las partículas del mismo es constante (ej. un sólido). Deformable: cuando algo puede variar su posición relativa (ej. aire, muelle, ...).
+- Cerrados (abiertos): no intercambian material a través de su frontera (ej. compresión de aire con un émbolo). Ojo, la no variación de masa no implica que el sistema sea cerrado (ej. puede salir la misma cantidad de materia que entra en un volumen de control).
 - Homogéneo / Heterogéneo: cuando su composición química y propiedades físicas son iguales en todas sus partes o varían de un modo continuo de un punto del sistema a otro. Cuandoel sistema está constituido por dos o más partes homogéneas distintas, se denomina heterogéneo. A cada sistema homogéneo de un sistema heterogéneo se le denomina fase.
 - Aislado: no interaccionan con el exterior ni másica ni energéticamente.
-- Sistema cerrado o masa de control: determinada cantidad de materia.
-- Sistema abierto o volumen de control: región del espacio dentro de un límite predeterminado . El límite del volumen de control (que puede ser móvil) se denomina superficie de control.
-- Medio ambiente o exterior o alrededores: lo que está fuera de los límies del sistema.
+- Medio ambiente o exterior o alrededores: lo que está fuera de los límites del sistema.
 
 .. note::
 
