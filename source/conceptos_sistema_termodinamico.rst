@@ -34,7 +34,7 @@ El sistema puede ser:
 En función de la composición química y propiedades físicas:
 
 - Homogéneo: cuando su composición química y propiedades físicas son iguales en todas sus partes o varían de un modo continuo de un punto del sistema a otro. (ej. columna de aire -cambian de un modo continuo con la altura, tanto su composición química como sus propiedades físicas debido a la gravedad-).
-- Heterogéneos: Cuando el sistema está constituido por dos o más partes homogéneas distintas. A cada sistema homogéneo de un sistema heterogéneo se le denomina fase.
+- Heterogéneos: Cuando el sistema está constituido por dos o más partes homogéneas distintas. A cada sistema homogéneo de un sistema heterogéneo se le denomina :ref:`fase <fase>`.
 
 
 
