@@ -35,10 +35,6 @@ Contenido
    introduccion_metodo_termodinamico_estadistico   
    alcance_termodinamica
    conceptos
-   introduccion_presion
-   introduccion_densidad
-   introduccion_ley_cero_temperatura
-   introduccion_ejercicios
    primer_principio
    segundo_principio
    segundo_principio_ejercicios
