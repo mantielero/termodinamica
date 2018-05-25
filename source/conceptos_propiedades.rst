@@ -59,6 +59,9 @@ Cambio diferencial en una variable que no es una propiedad:
    
 donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
 
+.. note::
+
+   Observar que con :math:`dy` indicamos que "y" es propiedad, mientras que con :math:`\partial y` indicamos que "y" NO es propiedad.
 
 Todo lo dicho anteriormente podría sintetizarse utilizando un lenguaje matemático de la forma siguiente.
 
