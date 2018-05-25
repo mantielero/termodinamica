@@ -47,7 +47,7 @@ Fase
    sustancia homogénea en todos sus puntos, tanto en composición como en estructura física. Ojo: distinta fase no implica distintos estados de agregación (ej. tipos de hielo).
 
 Interfase
-   superficie de separación entre fases. Ojo: gases y líquidos mixcibles; por otro lado, se mezclan.
+   superficie de separación entre fases. 
 
 Sustancia pura
-   aquella que tiene composición química definida. Por ejemplo: :math:`H_2O_{(l)}+H_2O_{(v)}`, aire seco (sólo si es estado gaseoso)
+   aquella que tiene composición química definida. Por ejemplo: :math:`H_2O_{(l)}+H_2O_{(v)}`, aire seco (sólo mientras esté en estado gaseoso)
