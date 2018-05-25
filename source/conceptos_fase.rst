@@ -1,6 +1,8 @@
 Fase y sustancia pura
 =====================
 
+.. _fase:
+
 Fase
 ----
 
