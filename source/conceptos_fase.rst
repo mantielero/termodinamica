@@ -6,7 +6,15 @@ Fase
 
 Con la palabra **fase** se hace referencia a la materia que se presenta con una composición química y estructura física determinadas, es decir, una sustancia se presenta en una fase dada cuando es homogénea en todos sus puntos, tanto en composición como en estructura física.
 
-En general, se acostumbra a considerar que distintas fases de una sustancia definida suponen distintos estados de agregación, así se dice que el agua puede presentarse en tres fases distintas: sólido (hielo), líquido (agua líquida) y gas (vapor de agua); no obstante, se han citado hasta siete variedades de hielo, todas sólidas, cada una de las cuales constituye una fase distinta. Algo análogo podría decirse del azufre, fósforo, carbono, etc.
+.. warning::
+
+   Fase no es lo mismo que estado de agregación
+   
+   Los estados de agregación son: sólido, líquido y gaseoso.
+   
+   ¡Se han citado hasta siete variedades de hielo, todas sólidas! Cada una de las cuales constituye una fase distinta. 
+   
+   Algo análogo podría decirse del azufre, fósforo, carbono, etc.
 
 Interfase
 ---------
