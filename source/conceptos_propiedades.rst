@@ -8,6 +8,11 @@ Para estudiar un determinado sistema lo primero que debe hacerse es proceder a s
 
 También la predicción de la evolución del mismo requiere el conocimiento de las propiedades del sistema y de cómo estas se relacionan.
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Contenido:
+   
+   conceptos_propiedades_
 
 
 Estado
