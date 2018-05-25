@@ -46,9 +46,18 @@ Diremos que "y" es propiedad si y sólo si "y" es diferencial exacta. Esto es, c
 
    \frac{\partial^2y}{\partial x_i \partial x_j} = \frac{\partial^2y}{\partial x_j \partial x_i}
 
+Si no es propiedad
+''''''''''''''''''
+
 Si "y" no fuese una propiedad no cumpliría (1) y (2).
 
-Cambio diferencial en una variable que no es una propiedad: :math:`\partial y = \sum z_i dx_i`, donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
+Cambio diferencial en una variable que no es una propiedad: 
+
+.. math::
+
+   \partial y = \sum z_i dx_i
+   
+donde :math:`z_i` y :math:`x_i` son variables de estado para las que: :math:`\frac{\partial z_i}{\partial x_i} \neq \frac{\partial z_j}{\partial x_i}`, implica que :math:`\partial y` no es diferencial exacta y su integral depende de la trayectoria (integral de línea).
 
 
 Todo lo dicho anteriormente podría sintetizarse utilizando un lenguaje matemático de la forma siguiente.
