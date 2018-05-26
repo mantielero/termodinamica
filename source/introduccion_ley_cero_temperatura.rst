@@ -128,7 +128,11 @@ Es necesario que el termómetro, al ponerse en contacto con el sistema para dete
 
 A fin de asignar un número a la temperatura correspondiente a cada isoterma de la familia, se recurre al hecho de que alguna o algunas de las propiedades del termómetro varían al vaciar la temperatura de equilibrio termómetro-sistema en observación. Para simplificar el procedimiento, conviene que sea una sola de las propiedades del termómetro la que varíe, para lo que se deben mantener constantes el resto de las que definen su estado. Téngase en cuenta que, si el termómetro se comporta como un sistema simple, cada una de las isotermas viene expresada en función de un par de magnitudes observables como podrían ser *p* y *V*, y en general, cualesquiera parejas de variables que puedan definir el estado del sistema y que se pueden representar por las variables genéricas *X* e *Y*. La forma más simple de efectuar la asignación antes aludida podría ser, entonces, la que se describe a continuación.
 
-Figura 1.8 Red de isotermas
+.. figure:: ./img/red_isotermas.png
+   :width: 100%
+   :align: center
+
+   Red de isotermas
 
 En el plano *XY* de las coordenadas del termómetro, en el que se han representado las isotermas, se elige una trayectoria que podría ser la recta :math:`Y = Y_j`, representada en la figura 1.8. Cada uno de los puntos en los que ésta corta a las isotermas tiene la misma coordenada :math:`Y_1`, pero diferente coordenada *X*, que corresponde a una temperatura diferente. La temperatura asociada a cada isoterma se toma de forma que sea una función cómoda de la X de este punto de intersección. La coordenada *X* se denomina magnitud o propiedad termométrica, y la forma de la función termométrica :math:`\Theta (X)` determina la escala de temperatura. En principio, cualquier función:math:`\Theta = f(X)`  puede asignarse arbitrariamente para establecer la escala.
 
