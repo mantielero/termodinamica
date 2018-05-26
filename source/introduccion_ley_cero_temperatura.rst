@@ -20,7 +20,7 @@ Debido a esto, es preciso revestir adecuadamente estas sensaciones de caliente y
 Pared diatérmana y pared adiabática. Equilibrio térmico
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Considérese la experiencia siguiente: dos recipientes de paredes rígidas A y B contienen el mismo gas con la misma densidad p y presiones distintas :math:`p_A` y :math:`p_B` respectivamente. Los recipientes se encuentran inicialmente separados, sin que pueda suponerse ninguna influencia entre ellos. A continuación se aproximan entre sí, hasta conseguir el contacto físico. Una vez alcanzado dicho contacto pueden ocurrir dos cosas:
+Considérese la experiencia siguiente: dos recipientes de paredes rígidas A y B contienen el mismo gas con la misma densidad :math:`\rho` y presiones distintas :math:`p_A` y :math:`p_B` respectivamente. Los recipientes se encuentran inicialmente separados, sin que pueda suponerse ninguna influencia entre ellos. A continuación se aproximan entre sí, hasta conseguir el contacto físico. Una vez alcanzado dicho contacto pueden ocurrir dos cosas:
 
 .. figure:: ./img/pared_adiabatica_diatermica.png
    :width: 80%
