@@ -168,23 +168,27 @@ Se podría representar por *X* una cualquiera de las magnitudes termométricas r
 
    \Theta (X) = a X \text{ (Y constante)}
 
-siendo *a* una constante arbitraria. Al utilizar esta función para calcular la razón de dos temperaturas en esta escala lineal, se obtiene:
+siendo *a* una constante arbitraria. 
+
+Al utilizar esta función para calcular la razón de dos temperaturas en esta escala lineal, se obtiene:
 
 .. math::
 
    \frac{\Theta (X_1)}{\Theta (X_2)} = \frac{X_1}{X_2}
 
-es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termomètrica *X*.
+es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termométrica *X*.
 
-
-   
-
+Escala Celsius
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨
 
 Para fijar el valor de la temperatura de un sistema se definió una escala que utilizaba dos puntos fijos con un intervalo entre ellos igual a 100, eligiendo en un principio los puntos de fusión del hielo y ebullición del agua líquida a la presión atmosférica. La escala se suele conocer con el nombre de quien se considera su descubridor, Celsius.
 
+Escala con un punto fijo
+¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+
 La escala así definida conducía a errores importantes en la determinación de temperaturas muy bajas, por lo que Giauque en 1939 propuso que se definiera una escala de temperatura que tuviera un solo punto fijo y se eligiera arbitrariamente este punto fijo (esto ya había sido sugerido por lord Kelvin en 1854). Esta propuesta de Giauque, apoyada por la mayor parte de los físicos y químicos que trabajaban con bajas temperaturas, fue aprobada en la X Conferencia de Pesas y Medidas celebrada en París en el verano de 1954.
 
-A partir de esta fecha sólo se requiere un punto fijo para la definición de la escala termométrica; este punto fijo es la temperatura y presión para las cuales pueden coexistir en equilibrio hielo, agua líquida y vapor de agua. A este estado se le denomina punto triple del agua. Como temperatura de este punto fijo se ha asignado el valor 273,16 kelvin (abreviado, 273,16K). El kelvin es la unidad de temperatura en el Sistema Internacional.
+A partir de esta fecha sólo se requiere un punto fijo para la definición de la escala termométrica; este punto fijo es la temperatura y presión para las cuales pueden coexistir en equilibrio hielo, agua líquida y vapor de agua. A este estado se le denomina punto triple del agua. Como temperatura de este punto fijo se ha asignado el valor 273.16 kelvin (abreviado, 273.16K). El kelvin es la unidad de temperatura en el Sistema Internacional.
 
 Si se tiene en cuenta la relación (1.15) y se designa con el subíndice 3 las estados de equilibrio térmico con el punto triple del agua, se obtiene:
 
@@ -192,7 +196,7 @@ Si se tiene en cuenta la relación (1.15) y se designa con el subíndice 3 las e
 
    \frac{\Theta (X)}{\Theta (X_3)} = \frac{X}{X_3}
 
-y al haberse asignado a :math:`\Theta (X_3)` el valor 273,16 se obtiene:
+y al haberse asignado a :math:`\Theta (X_3)` el valor 273.16 se obtiene:
 
 
 .. math::
@@ -201,7 +205,9 @@ y al haberse asignado a :math:`\Theta (X_3)` el valor 273,16 se obtiene:
 
 Al ser el punto triple del agua el único punto fijo en termometria, es importante disponer de una fuente térmica a esta temperatura. Para conseguirla se utiliza un recipiente como el esquematizado en la figura 1.9.
 
-Figura 1.9 Esquema de la fuente térmica del punto triple del agua
+.. figure:: ./img/punto_triple.png
+
+   Esquema de la fuente térmica del punto triple del agua
 
 El recipiente se llena prácticamente con agua destilada perfectamente desgasificada y desionizada; después se hace el vacío, de forma que cuando se cierre sólo contenga agua líquida y vapor de agua. Una vez en estas condiciones, se sitúa en la cavidad central una mezcla frigorífica, con lo que se consigue formar hielo sobre las paredes interiores del recinto al congelarse el agua contenida en el mismo. Posteriormente, se elimina la mezcla frigorífica y en su lugar se sitúa la ampolla del termómetro, con lo que se fundirá una delgada película en contacto con la pared. En estas condiciones quedarán en equilibrio las tres fases (hielo, agua líquida y vapor de agua). Mientras esto suceda tendremos la seguridad de que el recinto se encuentra en el punto triple.
 
