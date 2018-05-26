@@ -79,15 +79,13 @@ Mediante el desplazamiento del tabique que separa A y B, se permite que estos es
 
 Una vez realizados los procesos anteriores, si se ponen en contacto térmico B y C, se observa que tampoco se producen modificaciones en las propiedades de estos sistemas, por lo que se puede afirmar que también se encuentran en equilibrio térmico.
 
+Generalización de estos resultados:
 
-La generalización de estos resultados constituye el *Principio Cero de la Termodinámica*, que puede ser enunciado de la forma siguiente:
-
-**Si dos sistemas se encuentran, por separado, en equilibrio térmico con
-un tercero, se encuentran en equilibrio térmico entre sí.*
+* **Principio Cero de la Termodinámica**: si dos sistemas se encuentran, por separado, en equilibrio térmico con un tercero, se encuentran en equilibrio térmico entre sí. (*)
 
 .. note::
 
-   1 Enunciado por R.H.Fowler en 1931.
+   (*) Enunciado por R.H.Fowler en 1931.
 
 Concepto de temperatura
 '''''''''''''''''''''''
