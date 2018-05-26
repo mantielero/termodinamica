@@ -9,7 +9,6 @@ Debido al papel fundamental que la temperatura juega en el estudio de la termodi
 La noción de temperatura es compleja y a lo largo de nuestro estudio la veremos evolucionar y completarse. En esta parte se proporciona una noción experimental de temperatura. Fundamentalmente se establece una escala práctica de temperatura, así como los instrumentos utilizados para su aplicación.
 
 
-
 Noción intuitiva de temperatura
 -------------------------------
 
@@ -18,7 +17,7 @@ La sensación táctil de caliente y frío proporciona la primera aproximación e
 Debido a esto, es preciso revestir adecuadamente estas sensaciones de caliente y frío a fin de convertirlas en conceptos cuantitativamente manejables. Para ello se establecen las definiciones de pared diatèrmica, pared adiabática y equilibrio térmico.
 
 Pared diatérmana y pared adiabática. Equilibrio térmico
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------------------------
 
 Considérese la experiencia siguiente: dos recipientes de paredes rígidas A y B contienen el mismo gas con la misma densidad :math:`\rho` y presiones distintas :math:`p_A` y :math:`p_B` respectivamente. Los recipientes se encuentran inicialmente separados, sin que pueda suponerse ninguna influencia entre ellos. A continuación se aproximan entre sí, hasta conseguir el contacto físico. 
 
