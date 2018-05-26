@@ -1,29 +1,26 @@
 Temperatura y Ley Cero
 ======================
 
+Introducción
+------------
+
 Debido al papel fundamental que la temperatura juega en el estudio de la termodinámica, es conveniente considerar ahora con cierto detenimiento esta magnitud, aunque una definición completa no se pueda obtener hasta abordar el estudio del segundo principio.
 
 La noción de temperatura es compleja y a lo largo de nuestro estudio la veremos evolucionar y completarse. En esta parte se proporciona una noción experimental de temperatura. Fundamentalmente se establece una escala práctica de temperatura, así como los instrumentos utilizados para su aplicación.
 
 
 
-
-
-
-
-
-
-
-
 Noción intuitiva de temperatura
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------
 
-La sensación táctil de caliente y frío proporciona la primera aproximación experimental a la noción de temperatura, y se dice que un cuerpo caliente tiene mayor temperatura que un cuerpo frío. No obstante, esta noción resulta insuficiente a la hora de proceder a una evaluación cuantitativa de esta magnitud ya que ni siquiera es capaz de establecer, a partir de ella, un criterio de igualdad (recuérdese la distinta sensación producida por el contacto con un trozo de hierro o un trozo de corcho o madera, mantenidos en un mismo ambiente frío). Debido a esto, es preciso revestir adecuadamente estas sensaciones de caliente y frío a fin de convertirlas en conceptos cuantitativamente manejables. Para ello se establecen las definiciones de pared diatèrmica, pared adiabática y equilibrio térmico.
+La sensación táctil de caliente y frío proporciona la primera aproximación experimental a la noción de temperatura, y se dice que un cuerpo caliente tiene mayor temperatura que un cuerpo frío. No obstante, esta noción resulta insuficiente a la hora de proceder a una evaluación cuantitativa de esta magnitud ya que ni siquiera es capaz de establecer, a partir de ella, un criterio de igualdad (recuérdese la distinta sensación producida por el contacto con un trozo de hierro o un trozo de corcho o madera, mantenidos en un mismo ambiente frío). 
+
+Debido a esto, es preciso revestir adecuadamente estas sensaciones de caliente y frío a fin de convertirlas en conceptos cuantitativamente manejables. Para ello se establecen las definiciones de pared diatèrmica, pared adiabática y equilibrio térmico.
 
 Pared diatérmana y pared adiabática. Equilibrio térmico
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Considérese la experiencia siguiente, esquematizada en la figura 1.5: dos recipientes de paredes rígidas A y B contienen el mismo gas con la misma densidad p y presiones distintas :math:`P_A` y :math:`P_B` respectivamente. Los recipientes se encuentran inicialmente separados, sin que pueda suponerse ninguna influencia entre ellos. A continuación se aproximan entre sí, hasta conseguir el contacto físico. Una vez alcanzado dicho contacto pueden ocurrir dos cosas:
+Considérese la experiencia siguiente: dos recipientes de paredes rígidas A y B contienen el mismo gas con la misma densidad p y presiones distintas :math:`p_A` y :math:`p_B` respectivamente. Los recipientes se encuentran inicialmente separados, sin que pueda suponerse ninguna influencia entre ellos. A continuación se aproximan entre sí, hasta conseguir el contacto físico. Una vez alcanzado dicho contacto pueden ocurrir dos cosas:
 
 .. figure:: ./img/pared_adiabatica_diatermica.png
    :width: 80%
