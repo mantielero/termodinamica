@@ -111,7 +111,7 @@ Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas p
 
    (2) La función termometrica que dió lugar a esta escala es una función lineal del tipo :math:`\theta = a - X -f b`, en que los dos puntos fijos necesarios para caracterizarla son la temperatura del hielo en equilibrio con agua líquida (:math:`\theta = 0°C`) y la temperatura del vapor en equilibrio con agua líquida (:math:`\theta = 100°C`), a la prseión atmosférica estándar.
 
-Se puede variar el estado del sistema A, manteniendo el contacto térmico con B, de forma que se garantice la existencia de equilibrio térmico. La experiencia muestra que existen parejas de valores :math:`(X_i^A, Y_i^A)` con :math:`i = 2, 3,...`, correspondientes a estados del sistema A en equilibrio térmico con el estado original del sistema B, y por tanto, en equilibrio térmico entre sí. Se denomina *isoterma* al lugar geométrico de los puntos :math:`(X_i^A, Y_i^A)` que corresponden a estados de un sistema en equilibrio térmico entre sí. La curva I de la figura 1.7 puede ser una de estas isotermas.
+Se puede variar el estado del sistema A, manteniendo el contacto térmico con B, de forma que se garantice la existencia de equilibrio térmico. La experiencia muestra que existen parejas de valores :math:`(X_i^A, Y_i^A)` con :math:`i = 2, 3,...`, correspondientes a estados del sistema A en equilibrio térmico con el estado original del sistema B, y por tanto, en equilibrio térmico entre sí. Se denomina **isoterma** al lugar geométrico de los puntos :math:`(X_i^A, Y_i^A)` que corresponden a estados de un sistema en equilibrio térmico entre sí. La curva I de la figura 1.7 puede ser una de estas isotermas.
 
 Repitiendo la experiencia con distintos estados iniciales del sistema B, que ha servido de base de comparación, se obtendría una red o conjunto de isotermas del sistema A (curvas I, II y III de la figura 1.7). Procediendo de manera análoga con B, pero tomando ahora el sistema A como referencia, se tendrían ahora las curvas I’ ( estados de equilibrio térmico con los estados I de A), II’ (equilibrio con II) y III’ (equilibrio con III) de la figura 1.7.
 
@@ -209,10 +209,6 @@ Termómetro de gas a volumen constante
 -------------------------------------
 
 La figura 1.10 muestra un esquema muy simplificado de un termómetro de gas a volumen constante. Los materiales, construcción y dimensiones varían de unos laboratorios e institutos nacionales a otros, dependiendo de la naturaleza del gas y del intervalo de temperaturas que se intenta medir. En esta figura, el gas se halla contenido en el depósito B, que comunica con la columna de mercurio M a través de un capilar. El volumen del gas se mantiene constante modificando la altura de la columna M hasta que el nivel de mercurio toque exactamente el índice en el espacio situado encima de M, denominado "espacio muerto" o "volumen perjudicial". Se varía el nivel de la columna M subiendo o bajando el tubo M’ unido a M mediante un tubo flexible.
-
-
-
-
 
 
 Figura 1.10 Termómetro de gas a volumen constante
