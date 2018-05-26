@@ -153,26 +153,27 @@ siendo *a* una constante arbitraria. Al utilizar esta función para calcular la 
 
 es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termomètrica *X*.
 
- 
+.. table:: Tipos importantes de termómetros
+   :widths: auto
+   
+    +-----------------------------------------+-----------------------+------------------+
+    | Termómetro                              | Magnitud termometrica | Símbolo          |
+    +=========================================+=======================+==================+
+    | Gas mantenido a volumen constante       |	Presión	              |  P               |
+    +-----------------------------------------+-----------------------+------------------+
+    | Gas mantenido a presión constante       |  Volumen              | V                |
+    +-----------------------------------------+-----------------------+------------------+
+    | Resistencia eléctrica	                  | Resistencia eléctrica | R                |
+    |  (presión y esfuerzo constantes)        |                       |                  |
+    +-----------------------------------------+-----------------------+------------------+
+    |Par termoeléctrico	                      | f.e.m. térmica 	      | :math:`\epsilon` |
+    |  (presión y esfuerzo constantes)        |                       |                  |
+    +-----------------------------------------+-----------------------+------------------+
+    | Columna líquida en un capilar de vidrio |	longitud	          | L                |
+    |  (presión constante)                    |                       |                  |
+    +-----------------------------------------+-----------------------+------------------+
 
-+-----------------------------------------+-----------------------+------------------+
-| Termómetro                              | Magnitud termometrica | Símbolo          |
-+=========================================+=======================+==================+
-| Gas mantenido a volumen constante       |	Presión	              |  P               |
-+-----------------------------------------+-----------------------+------------------+
-| Gas mantenido a presión constante       |  Volumen              | V                |
-+-----------------------------------------+-----------------------+------------------+
-| Resistencia eléctrica	                  | Resistencia eléctrica | R                |
-|  (presión y esfuerzo constantes)        |                       |                  |
-+-----------------------------------------+-----------------------+------------------+
-|Par termoeléctrico	                      | f.e.m. térmica 	      | :math:`\epsilon` |
-|  (presión y esfuerzo constantes)        |                       |                  |
-+-----------------------------------------+-----------------------+------------------+
-| Columna líquida en un capilar de vidrio |	longitud	          | L                |
-|  (presión constante)                    |                       |                  |
-+-----------------------------------------+-----------------------+------------------+
-
-   Tipos importantes de termómetros
+   
 
 
 Para fijar el valor de la temperatura de un sistema se definió una escala que utilizaba dos puntos fijos con un intervalo entre ellos igual a 100, eligiendo en un principio los puntos de fusión del hielo y ebullición del agua líquida a la presión atmosférica. La escala se suele conocer con el nombre de quien se considera su descubridor, Celsius.
