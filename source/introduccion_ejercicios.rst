@@ -1,4 +1,4 @@
-EJERCICIOS
+Ejercicios
 ==========
 
 Ejercicio 1.1 
