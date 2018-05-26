@@ -290,8 +290,8 @@ La necesidad de independencia de la lectura de temperatura de la naturaleza del 
 
 Lo dicho anteriormente indica que la escala de gas ideal no resulta una escala cómoda de aplicar en las determinaciones prácticas de temperatura, por lo que se la ha sustituido por una escala práctica que permite realizar las medidas con comodidad. Esta es la escala internacional de temperatura, cuya última versión es la de 1990.
 
-Escala Internacional de Temperatura
-'''''''''''''''''''''''''''''''''''
+**Escala Internacional de Temperatura**
+
 
 Para evitar la molestia que conlleva la utilización de la escala de gas ideal se utiliza una serie de termómetros secundarios, cuya calibración se realiza basándose en la escala de gas ideal. Para ello, se divide la escala de temperatura en intervalos y en cada uno se utiliza un termómetro secundario con funciones que relacionan los valores medidos con este termómetro y los correspondientes valores de la escala de gas ideal.
 
