@@ -267,8 +267,8 @@ donde *p* y :math:`p_3` son las lecturas obtenidas llevando el termómetro en co
 
 Si se utilizaran distintos gases en la determinación de la temperatura de un determinado sistema con este tipo de termómetro, se encontrarían diferencias, por lo que es necesario encontrar otro procedimiento para evaluar esta magnitud que no dependa del instrumento o sustancia de trabajo utilizada. Esto se consigue mediante la escala de gas ideal.
 
-Temperatura en la escala de gas ideal
-'''''''''''''''''''''''''''''''''''''
+**Temperatura en la escala de gas ideal**
+
 
 Como se ha dicho y experimentalmente puede comprobarse, al realizar la determinación de la temperatura de un sistema con un termómetro de gas a volumen constante, utilizando distintos gases, los resultados obtenidos son distintos. No sólo ocurre esto, sino que utilizando cantidades distintas de masa de gas termométrico en el termómetro de volumen constante se obtienen resultados distintos según la cantidad de masa de gas que se ponga en el termómetro.
 
