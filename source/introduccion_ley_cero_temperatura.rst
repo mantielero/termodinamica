@@ -286,8 +286,6 @@ Es importante destacar el hecho de que, según disminuye la masa de gas en el te
 
    T = 273.16 \lim_{p_3 \rightarrow 0} \left( \frac{p}{p_3} \right) \hspace{2cm} [K]
 
-Figura 1.11 Punto de ebullición del agua en función del tipo de gas y masa del mismo, en el termómetro
-
 La necesidad de independencia de la lectura de temperatura de la naturaleza del gas con el que se efectúe la determinación al utilizar esta escala, obliga a utilizar el termómetro de acuerdo con el método sugerido anteriormente al citar los resultados experimentales. Es decir, cada medición de temperatura obliga a realizar un conjunto de determinaciones utilizando cada vez menos cantidad de gas, hasta que la sensibilidad de los instrumentos lo permitan, y extrapolar los resultados a presión cero.
 
 Lo dicho anteriormente indica que la escala de gas ideal no resulta una escala cómoda de aplicar en las determinaciones prácticas de temperatura, por lo que se la ha sustituido por una escala práctica que permite realizar las medidas con comodidad. Esta es la escala internacional de temperatura, cuya última versión es la de 1990.
