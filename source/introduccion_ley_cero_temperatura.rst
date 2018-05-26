@@ -253,7 +253,7 @@ Para realizar la determinación de :math:`\Theta`, se mide la diferencia de nive
 
 .. math::
 
-   p = p_{atm}+-\rho g h
+   p = p_{atm} \pm \rho g h
 
 utilizando el signo + cuando el extremo superior de M’ está por encima del de M.
 
