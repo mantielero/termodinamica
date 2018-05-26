@@ -232,7 +232,6 @@ En el libro de Zemansky(4), se puede encontrar una buena información sobre tipo
    (3) Al comportarse el líquido como un fluido incompresible, esta condición no influye apreciablemente en la lectura.
 
 .. note::
-
    
    (4) M.W.Zemansky & R.H.Dittman Calor y Termodinámica 1981 McGraw-Hill USA.
 
