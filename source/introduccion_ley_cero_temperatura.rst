@@ -99,7 +99,7 @@ Escala empírica de temperaturas
 
 Para conseguir esto se pueden considerar las experiencias que se describen a continuación.
 
-Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas para caracterizar su estado tendrán unos valores determinados que, suponiendo sistemas simples (como después se verá, son aquellos que interaccionan mediante una sola forma de trabajo), se pueden designar por los conjuntos :math:`(X_1^A, Y_1^A)` y   :math:`(X_1^B, Y_1^B)`  para cada sistema. Estas parejas de valores se pueden representar en un sistema de ejes adecuados como se indica en la figura 1.7.
+Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas para caracterizar su estado tendrán unos valores determinados que, suponiendo sistemas simples (como después se verá, son aquellos que interaccionan mediante una sola forma de trabajo), se pueden designar por los conjuntos :math:`(X_1^A, Y_1^A)` y   :math:`(X_1^B, Y_1^B)`  para cada sistema. Estas parejas de valores se pueden representar en un sistema de ejes adecuados:
 
 .. figure:: ./img/isotermas.png
    :width: 100%
@@ -109,7 +109,7 @@ Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas p
 
 .. note::
 
-   2 La función termometrica que dió lugar a esta escala es una función lineal del tipo 0 = a - X -f b, en que los dos puntos fijos necesarios para caracterizarla son la temperatura del hielo en equilibrio con agua líquida (0 = 0°C) y la temperatura del vapor en equilibrio con agua líquida (0 = 100°C), a la prseión atmosférica estándar.
+   (2) La función termometrica que dió lugar a esta escala es una función lineal del tipo 0 = a - X -f b, en que los dos puntos fijos necesarios para caracterizarla son la temperatura del hielo en equilibrio con agua líquida (0 = 0°C) y la temperatura del vapor en equilibrio con agua líquida (0 = 100°C), a la prseión atmosférica estándar.
 
 Se puede variar el estado del sistema A, manteniendo el contacto térmico con B, de forma que se garantice la existencia de equilibrio térmico. La experiencia muestra que existen parejas de valores :math:`(X_i^A, Y_i^A)` con :math:`i = 2, 3,...`, correspondientes a estados del sistema A en equilibrio térmico con el estado original del sistema B, y por tanto, en equilibrio térmico entre sí. Se denomina *isoterma* al lugar geométrico de los puntos :math:`(X_i^A, Y_i^A)` que corresponden a estados de un sistema en equilibrio térmico entre sí. La curva I de la figura 1.7 puede ser una de estas isotermas.
 
