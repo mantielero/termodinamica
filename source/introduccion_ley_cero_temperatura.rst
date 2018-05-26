@@ -263,7 +263,7 @@ Las lecturas de presión han de corregirse debido a diversas causas de error, en
 
    \Theta (p) = 273.16 \frac{p}{p_3} K
 
-donde *p* y :math:`_3` son las lecturas obtenidas llevando el termómetro en contacto con el sistema cuya temperatura se quiere determinar y la fuente en el punto triple, respectivamente.
+donde *p* y :math:`p_3` son las lecturas obtenidas llevando el termómetro en contacto con el sistema cuya temperatura se quiere determinar y la fuente en el punto triple, respectivamente.
 
 Si se utilizaran distintos gases en la determinación de la temperatura de un determinado sistema con este tipo de termómetro, se encontrarían diferencias, por lo que es necesario encontrar otro procedimiento para evaluar esta magnitud que no dependa del instrumento o sustancia de trabajo utilizada. Esto se consigue mediante la escala de gas ideal.
 
