@@ -92,7 +92,12 @@ Concepto de temperatura
 
 Si varios sistemas están en equilibrio térmico deben tener alguna característica o propiedad en común y a esta propiedad común la denominamos *temperatura*.
 
-Aunque la esencia de este concepto sólo se alcanza a través de la teoría cinético-molecular de la materia o a partir del segundo principio de la termodinámica y de la mecánica estadística, tomando como base el Principio Cero de la Termodinámica se pueden obtener métodos que permiten operar con esta magnitud. Es decir, *el Principio Cero permite definir una escala empírica de temperaturas*. Para conseguir esto se pueden considerar las experiencias que se describen a continuación.
+Aunque la esencia de este concepto sólo se alcanza a través de la teoría cinético-molecular de la materia o a partir del segundo principio de la termodinámica y de la mecánica estadística, tomando como base el Principio Cero de la Termodinámica se pueden obtener métodos que permiten operar con esta magnitud. Es decir, *el Principio Cero permite definir una escala empírica de temperaturas*. 
+
+Escala empírica de temperaturas
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Para conseguir esto se pueden considerar las experiencias que se describen a continuación.
 
 Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas para caracterizar su estado tendrán unos valores determinados que, suponiendo sistemas simples (como después se verá, son aquéllos que interaccionan mediante una sola forma de trabajo), se pueden designar por los conjuntos :math:`(X_1^A, Y_1^A)` y   :math:`(X_1^B, Y_1^B)`  para cada sistema. Estas parejas de valores se pueden representar en un sistema de ejes adecuados como se indica en la figura 1.7.
 
