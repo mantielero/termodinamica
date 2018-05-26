@@ -17,6 +17,10 @@ De forma análoga, la fuerza que actúa sobre un área :math:`\Delta A` en un pu
 
 Como consecuencia de lo dicho, resulta evidente que en ausencia de campos de fuerza o paredes rígidas interiores, la presión de un fluido en equilibrio, es uniforme sobre su límite y en el interior del mismo.
 
+
+Presión manométrica y absoluta
+------------------------------
+
 En ingeniería es normal que la presión de un sistema se mida respecto a la atmosférica (:math:`p_{atm}`) en vez de hacerlo respecto al vacío, denominándose entonces presión manométrica, :math:`p_{man}`. En la figura 1.2 se representa un esquema del sistema utilizado frecuentemente en la determinación de la presión y de ella se deduce con facilidad:
 
 .. math::
@@ -95,17 +99,6 @@ La presión atmosférica estándar es:
 OTRO
 ----
 
-La presión de un fluido en equilibrio es uniforme sobre su límite y en el interior del mismo.
-
-Presión manométrica:
-
-.. math::
-
-   P_a = P_{manométrica}+ P_{atmosférica}
-
-en donde:
-
-- :math:`P_a`: presión absoluta (la que se usa en termodinámica).
 
 Evaluar  los cambios de presión dentro de un fluido (gas o líquido) en presencia de campo gravitatorio:
 
@@ -126,10 +119,3 @@ Para diferencias de altura suficientemente pequeñas: p y g son constantes. En e
 
 Presión de vacío: es la presión manométrica uando la presión absoluta es la atmosférica.
 
-Unidades:
-
-.. math::
-
-   [SI] = 1Pa=1N\cdot m^{-2}\\
-   1bar = 10^5Pa\\
-   \text{Presión atmosférica estándar: }1'01325bar
