@@ -1,5 +1,5 @@
 Densidad y volumen específico
------------------------------
+=============================
 
 A continuación se considera la definición de algunas magnitudes que ya han sido utilizadas en los estudios realizados con anterioridad y de las que se tendrá que hacer uso en Termodinámica.
 
@@ -35,4 +35,3 @@ en donde:
 - :math:`\delta V'`: volumen más pequeño comparable con la idea distribución continua de la materia. Es decir, lo más pequeño posible moviéndonos en el estadio macroscópico.
 - :math:`v = \frac{1}{\rho}`: ¿volumen específico?
 - :math:`\rho = \lim_{\Delta A \rightarrow \Delta A'} \frac{\Delta F_n}{\Delta A}`: en donde :math:`F_n` tiene componente normal a :math:`\Delta A`. Cierto en un sistema en equilibrio. Esto es válido para un fluido. como un fluido no soporta esfuerzos tangenciales, la única fuerza que soportará será la normal a la superficie (presión hidrostática). Ver pag. 19.
-
