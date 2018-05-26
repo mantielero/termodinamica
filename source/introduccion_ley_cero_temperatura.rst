@@ -156,22 +156,22 @@ es decir, la razón de dos temperaturas es igual a la razón de sus correspondie
 .. table:: Tipos importantes de termómetros
    :widths: auto
    
-    +-----------------------------------------+-----------------------+------------------+
-    | Termómetro                              | Magnitud termometrica | Símbolo          |
-    +=========================================+=======================+==================+
-    | Gas mantenido a volumen constante       |	Presión	              |  P               |
-    +-----------------------------------------+-----------------------+------------------+
-    | Gas mantenido a presión constante       |  Volumen              | V                |
-    +-----------------------------------------+-----------------------+------------------+
-    | Resistencia eléctrica	                  | Resistencia eléctrica | R                |
-    |  (presión y esfuerzo constantes)        |                       |                  |
-    +-----------------------------------------+-----------------------+------------------+
-    |Par termoeléctrico	                      | f.e.m. térmica 	      | :math:`\epsilon` |
-    |  (presión y esfuerzo constantes)        |                       |                  |
-    +-----------------------------------------+-----------------------+------------------+
-    | Columna líquida en un capilar de vidrio |	longitud	          | L                |
-    |  (presión constante)                    |                       |                  |
-    +-----------------------------------------+-----------------------+------------------+
+   +-----------------------------------------+-----------------------+------------------+
+   | Termómetro                              | Magnitud termometrica | Símbolo          |
+   +=========================================+=======================+==================+
+   | Gas mantenido a volumen constante       |	Presión	             |  P               |
+   +-----------------------------------------+-----------------------+------------------+
+   | Gas mantenido a presión constante       |  Volumen              | V                |
+   +-----------------------------------------+-----------------------+------------------+
+   | Resistencia eléctrica	                 | Resistencia eléctrica | R                |
+   |  (presión y esfuerzo constantes)        |                       |                  |
+   +-----------------------------------------+-----------------------+------------------+
+   | Par termoeléctrico	                     | f.e.m. térmica        | :math:`\epsilon` |
+   |  (presión y esfuerzo constantes)        |                       |                  |
+   +-----------------------------------------+-----------------------+------------------+
+   | Columna líquida en un capilar de vidrio |	longitud	         | L                |
+   |  (presión constante)                    |                       |                  |
+   +-----------------------------------------+-----------------------+------------------+
 
    
 
