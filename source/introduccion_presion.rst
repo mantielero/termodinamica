@@ -1,5 +1,5 @@
 Presión
--------
+=======
 
 Se define la presión *p* en un punto de la superficie límite de un sistema en equilibrio, como la componente normal de la fuerza mecánica ejercida sobre la unidad de área de la superficie en el punto mencionado. Si se designa por :math:`\delta F_n` la componente normal citada y por :math:`\delta A` el elemento de superficie en el entorno del punto sobre el que se ejerce :math:`\delta F_n`, *p* vendrá dada por:
 
@@ -62,16 +62,34 @@ Cuando la presión del recinto en el que se efectúa la medición es inferior a 
 
    Relación entre las presiones absoluta, manomètrica y de vacío
 
+Unidades
+--------
+
 En el sistema internacional la presión se expresa en pascales:
 
 .. math::
 
    1Pa = 1N \cdot m^{-2}
 
-pero debido a la pequeñez de esta unidad se utiliza el :math:`kPa = 10^3 Pa` y el :math:`MPa= 10^6 Pa`.
+pero debido a la pequeñez de esta unidad se utiliza:
 
-Aunque no sea del sistema internacional, es frecuente expresar la presión en bares (:math:`1bar = 10^5 Pa`). La presión atmosférica estándar es:  :math:`1,01325 bar`.
+.. math::
 
+   1 kPa &= 10^3 Pa \\
+   1 MPa &= 10^6 Pa
+
+Otras unidades usuales (fuera del sistema internacional)::
+
+.. math::
+
+   1 bar &= 10^5 Pa \\
+   1 psi &= 6894.76 Pa
+   
+La presión atmosférica estándar es:
+
+.. math::
+
+   p_{atm} = 1.01325 bar
 
 
 OTRO
@@ -115,10 +133,3 @@ Unidades:
    [SI] = 1Pa=1N\cdot m^{-2}\\
    1bar = 10^5Pa\\
    \text{Presión atmosférica estándar: }1'01325bar
-
-
-
-
-
-
-
