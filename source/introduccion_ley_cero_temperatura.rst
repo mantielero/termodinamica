@@ -284,7 +284,7 @@ Es importante destacar el hecho de que, según disminuye la masa de gas en el te
 
 .. math::
 
-   T = 273,16 \lim_{p_3 \rightarrow 0} \left( \frac{p}{p_3} \right) K
+   T = 273.16 \lim_{p_3 \rightarrow 0} \left( \frac{p}{p_3} \right) K
 
 Figura 1.11 Punto de ebullición del agua en función del tipo de gas y masa del mismo, en el termómetro
 
