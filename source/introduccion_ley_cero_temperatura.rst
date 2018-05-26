@@ -49,9 +49,11 @@ Si lo que se produce es el proceso b):
 
 En este último caso los sistemas A y B se hallan, por definición, en **equilibrio térmico** una vez alcanzado un estado que se mantiene independientemente del tiempo. Puede constatarse la existencia de equilibrio térmico porque, una vez alcanzado éste y aislado el conjunto del exterior, la presión no cambia.
 
-Relacionado con la definición de pared diatérmana se tiene el concepto de conductor térmico los sistemas que llegan al equilibrio térmico cuando se separan mediante paredes diatérmicas, es decir, cuando se ponen en contacto térmico, son conductores térmicos. Los metales, especialmente la plata y el cobre, y los gases, sobre todo el helio, son conductores térmicos. Estas sustancias pueden ser utilizadas como elementos de ensayo para distinguir entre superficies diatérmanas y adiabáticas. Experimentalmente se ha visto que las paredes que permiten el contacto térmico entre dos sistemas (sustancias) determinados, también lo permiten entre otros cualesquiera.
+Equilibrio térmico: estado que se mantiene independiente del tiempo
 
-Hay sistemas (generalmente son sólidos como el amianto, la lana de vidrio, cierto tipo de plásticos, etc.), que cuando se les rodea de paredes diatérmanas, no alcanzan el equilibrio térmico con su medio ambiente, o tardan un tiempo excesivamente largo en alcanzarlo. A estos sistemas se les denomina aislantes térmicos o malos conductores térmicos. Estos materiales se utilizan para conseguir paredes adiabáticas (casi adiabáticas).
+Relacionado con la definición de pared diatérmana se tiene el concepto de **conductor térmico**. Los sistemas que llegan al equilibrio térmico cuando se separan mediante paredes diatérmicas, es decir, cuando se ponen en contacto térmico, son conductores térmicos. Los metales, especialmente la plata y el cobre, y los gases, sobre todo el helio, son conductores térmicos. Estas sustancias pueden ser utilizadas como elementos de ensayo para distinguir entre superficies diatérmanas y adiabáticas. Experimentalmente se ha visto que las paredes que permiten el contacto térmico entre dos sistemas (sustancias) determinados, también lo permiten entre otros cualesquiera.
+
+Hay sistemas (generalmente son sólidos como el amianto, la lana de vidrio, cierto tipo de plásticos, etc.), que cuando se les rodea de paredes diatérmanas, no alcanzan el equilibrio térmico con su medio ambiente, o tardan un tiempo excesivamente largo en alcanzarlo. A estos sistemas se les denomina **aislantes térmicos** o **malos conductores térmicos**. Estos materiales se utilizan para conseguir paredes adiabáticas (casi adiabáticas).
 
 Según lo que se acaba de ver, el contacto térmico entre un sistema y su medio ambiente o un sistema y otro, viene determinado sólo por la naturaleza de las paredes que lo separan.
 
@@ -61,27 +63,7 @@ Téngase en cuenta que ningún material proporciona una pared que sea realmente 
 o diatérmana. Por lo tanto, la consideración de pared adiabática o diatérmana depende del intervalo de tiempo en el que se considera el proceso. Para procesos rápidos casi todas las paredes serán adiabáticas y para procesos lentos las paredes se comportarán como diatérmanas. Si las velocidades son intermedias, una pared metálica será diatérmana y un recipiente recubierto por lana de vidrio o poliuretano será adiabático.
 
 
-Temperatura y Ley Cero
-----------------------
 
-Sean dos sistemas A y B con el mismo gas. A y B con la misma densidad :math:`rho`, presiones distintas y temperaturas distintas (lo sabemos tocándolo; no nos confundimos porque se trata de la misma sustancia y no de hierro y madera, por ejemplo).
-
-Los ponemos en contacto:
-
-a. :math:`P_A^{(1)} = P_A^{(2)}` y :math:`P_B^{(1)} = P_B^{(2)}`; paredes adibáticas: aislante térmico.
-b. :math:`P_A^{(2)} = P_B^{(2)}`; paredes diatérmanas (o diatérmicas): conductoras térmicas.
-
-Equilibrio térmico: estado que se mantiene independiente del tiempo
-
-.. note:: un material que sea conductor térmico lo será sean cuales sean las sustancias puestas en contacto.
-
-Los procesos rápidos serán adiabáticos. Los procesos lentos serán diatérmicos (equilbrio térmico con el medio ambiente).
-
-Principio cero de la termodinámica: A en equilibrio térmico con B y B en equilibrio térmico con C implica que A está en equilibrio térmico con C. (se observa empíricamente)
-
-Temperatura: característica o propiedad común que tienen dos sistemas en equilibrio térmico.
-
-Escala empírica de temperaturas:
 
 
 Principio Cero de la Termodinámica
@@ -272,3 +254,28 @@ Para evitar la molestia que conlleva la utilización de la escala de gas ideal s
 La última versión de la ESCALA INTERNACIONAL DE TEMPERATURA es la correspondiente a 1990 (ITS-90). Esta escala se extiende desde 0,65 K a las temperaturas más altas que pueden medirse utilizando un método óptico. En los intervalos más bajos utiliza, o bien un termómetro de gas He, o bien la determinación de temperatura basada en las relaciones presión de vapor-temperatura para 3He y 4He. Entre 14 K y 904 K utiliza un termómetro de resistencia de platino y un polinomio que expresa T en función de R (resistencia eléctrica) y cuyas constantes se calculan utilizando distintos puntos fijos determinados con la escala de gas ideal. Desde 904 a 1338 K, se emplea un termopar de platino platino-rodio y el correspondiente polinomio y puntos fijos de referencia. Por encima de esta temperatura se recurre a la pirometría óptica.
 
 Normalmente, la calibración de los instrumentos utilizados en la determinación de temperatura se basa en esta escala, mucho más fácil de aplicar que la del gas ideal, y en su definición se ha cuidado de que las diferencias se hallen dentro de la sensibilidad de los instrumentos utilizados.
+
+
+Resumen
+-------
+
+Sean dos sistemas A y B con el mismo gas. A y B con la misma densidad :math:`rho`, presiones distintas y temperaturas distintas (lo sabemos tocándolo; no nos confundimos porque se trata de la misma sustancia y no de hierro y madera, por ejemplo).
+
+Los ponemos en contacto:
+
+a. :math:`P_A^{(1)} = P_A^{(2)}` y :math:`P_B^{(1)} = P_B^{(2)}`; paredes adibáticas: aislante térmico.
+b. :math:`P_A^{(2)} = P_B^{(2)}`; paredes diatérmanas (o diatérmicas): conductoras térmicas.
+
+
+
+.. note:: 
+
+   Un material que sea conductor térmico lo será sean cuales sean las sustancias puestas en contacto.
+
+Los procesos rápidos serán adiabáticos. Los procesos lentos serán diatérmicos (equilbrio térmico con el medio ambiente).
+
+Principio cero de la termodinámica: A en equilibrio térmico con B y B en equilibrio térmico con C implica que A está en equilibrio térmico con C. (se observa empíricamente)
+
+Temperatura: característica o propiedad común que tienen dos sistemas en equilibrio térmico.
+
+Escala empírica de temperaturas:
