@@ -1,5 +1,5 @@
 Temperatura y Ley Cero
-----------------------
+======================
 
 Debido al papel fundamental que la temperatura juega en el estudio de la termodinámica, es conveniente considerar ahora con cierto detenimiento esta magnitud, aunque una definición completa no se pueda obtener hasta abordar el estudio del segundo principio.
 
