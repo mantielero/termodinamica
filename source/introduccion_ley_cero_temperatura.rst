@@ -153,11 +153,8 @@ siendo *a* una constante arbitraria. Al utilizar esta función para calcular la 
 
 es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termomètrica *X*.
 
-.. figure:: ./img/tipos_termometro.png
-   :width: 100%
-   :align: center
-   
-   Tipos importantes de termómetros
+ 
+
 +-----------------------------------------+-----------------------+------------------+
 | Termómetro                              | Magnitud termometrica | Símbolo          |
 +=========================================+=======================+==================+
@@ -174,6 +171,9 @@ es decir, la razón de dos temperaturas es igual a la razón de sus correspondie
 | Columna líquida en un capilar de vidrio |	longitud	          | L                |
 |  (presión constante)                    |                       |                  |
 +-----------------------------------------+-----------------------+------------------+
+
+   Tipos importantes de termómetros
+
 
 Para fijar el valor de la temperatura de un sistema se definió una escala que utilizaba dos puntos fijos con un intervalo entre ellos igual a 100, eligiendo en un principio los puntos de fusión del hielo y ebullición del agua líquida a la presión atmosférica. La escala se suele conocer con el nombre de quien se considera su descubridor, Celsius.
 
