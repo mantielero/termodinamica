@@ -261,7 +261,7 @@ Las lecturas de presión han de corregirse debido a diversas causas de error, en
 
 .. math::
 
-   \Theta (p) = 273.16 \frac{p}{p_3} K
+   \Theta (p) = 273.16 \frac{p}{p_3} \hspace{2cm} [K]
 
 donde *p* y :math:`p_3` son las lecturas obtenidas llevando el termómetro en contacto con el sistema cuya temperatura se quiere determinar y la fuente en el punto triple, respectivamente.
 
