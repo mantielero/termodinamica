@@ -63,22 +63,22 @@ o diatérmana. Por lo tanto, la consideración de pared adiabática o diatérman
 
 
 
-
-
 Principio Cero de la Termodinámica
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------
 
 Considérese que se dispone de tres sistemas, cuyas propiedades pueden medirse mediante la instrumentación adecuada, limitados por paredes diatérmanas, rígidas e impermeables. Para concretar, supóngase que son gases confinados en un volumen determinado, cuya masa y presión se puede determinar. Los tres sistemas se hallan dispuestos en el interior de un recipiente aislado y, mediante tabiques adiabáticos móviles, se aíslan unos de otros.
+
+.. figure:: ./img/principio_cero.png
+   :width: 80%
+   :align: center
+
+   Principio Cero de la Termodinámica
+
 
 Mediante el desplazamiento del tabique que separa A y B, se permite que estos establezcan contacto térmico. Si las propiedades de A y B no cambian después de que este contacto térmico se produzca, puede decirse que A y B están en equilibrio térmico. De forma análoga, se puede establecer el contacto térmico entre A y C, y si se ve que tampoco hay variación en las propiedades, se dice que hay equilibrio térmico entre A y C.
 
 Una vez realizados los procesos anteriores, si se ponen en contacto térmico B y C, se observa que tampoco se producen modificaciones en las propiedades de estos sistemas, por lo que se puede afirmar que también se encuentran en equilibrio térmico.
 
-.. figure:: ./img/pared_adiabatica_diatermica.png
-   :width: 80%
-   :align: center
-
-   Principio Cero de la Termodinámica
 
 La generalización de estos resultados constituye el *Principio Cero de la Termodinámica*, que puede ser enunciado de la forma siguiente:
 
