@@ -276,6 +276,10 @@ Como se ha dicho y experimentalmente puede comprobarse, al realizar la determina
 
 En la figura 1.11 se han representado los datos experimentales obtenidos al calcular la temperatura de ebullición normal del agua utilizando un termómetro de gas a volumen constante utilizando distintos gases y distintas masas para cada gas, como refleja el valor diferente de presión en el punto triple. Es decir, cuanto menor masa tiene el termómetro, menor es el valor de la presión de vapor en este punto.
 
+.. figure:: ./img/ebullicion_agua.png
+
+   Punto de ebullición del agua en función del tipo de gas y masa del mismo, en el termómetro
+
 Es importante destacar el hecho de que, según disminuye la masa de gas en el termómetro, los valores de temperatura indicados por los distintos gases se van aproximando. En el límite, cuando la presión en el punto triple se anula (valor que en la realidad coincidiría con la anulación del gas), los datos de los cinco termómetros coinciden. Basándose en este hecho se establece la definición de la escala de gas ideal, que puede resumirse en la ecuación:
 
 .. math::
