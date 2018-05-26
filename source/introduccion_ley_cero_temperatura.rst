@@ -153,7 +153,11 @@ siendo *a* una constante arbitraria. Al utilizar esta función para calcular la 
 
 es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termomètrica *X*.
 
-Tabla 1.1 Tipos importantes de termómetros
+.. figure:: ./img/tipos_termometro.png
+   :width: 100%
+   :align: center
+   
+   Tipos importantes de termómetros
 
 Termómetro	Magnitud termometrica	Símbolo
 Gas mantenido a volumen constante	Presión	P
