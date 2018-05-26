@@ -141,25 +141,23 @@ Tipos de termómetros
 
 Existen cinco tipos importantes de termómetros, cada uno de los cuales posee su propia propiedad termométrica:
 
-.. table:: Tipos importantes de termómetros
-   :widths: auto
-   
-   +-----------------------------------------+-----------------------+------------------+
-   | Termómetro                              | Magnitud termometrica | Símbolo          |
-   +=========================================+=======================+==================+
-   | Gas mantenido a volumen constante       |	Presión	             |  P               |
-   +-----------------------------------------+-----------------------+------------------+
-   | Gas mantenido a presión constante       |  Volumen              | V                |
-   +-----------------------------------------+-----------------------+------------------+
-   | Resistencia eléctrica	                 | Resistencia eléctrica | R                |
-   |  (presión y esfuerzo constantes)        |                       |                  |
-   +-----------------------------------------+-----------------------+------------------+
-   | Par termoeléctrico	                     | f.e.m. térmica        | :math:`\epsilon` |
-   |  (presión y esfuerzo constantes)        |                       |                  |
-   +-----------------------------------------+-----------------------+------------------+
-   | Columna líquida en un capilar de vidrio |	longitud	         | L                |
-   |  (presión constante)                    |                       |                  |
-   +-----------------------------------------+-----------------------+------------------+
+  
++-----------------------------------------+-----------------------+------------------+
+| Termómetro                              | Magnitud termometrica | Símbolo          |
++=========================================+=======================+==================+
+| Gas mantenido a volumen constante       |	Presión	             |  P               |
++-----------------------------------------+-----------------------+------------------+
+| Gas mantenido a presión constante       |  Volumen              | V                |
++-----------------------------------------+-----------------------+------------------+
+| Resistencia eléctrica	                 | Resistencia eléctrica | R                |
+|  (presión y esfuerzo constantes)        |                       |                  |
++-----------------------------------------+-----------------------+------------------+
+| Par termoeléctrico	                     | f.e.m. térmica        | :math:`\epsilon` |
+|  (presión y esfuerzo constantes)        |                       |                  |
++-----------------------------------------+-----------------------+------------------+
+| Columna líquida en un capilar de vidrio |	longitud	         | L                |
+|  (presión constante)                    |                       |                  |
++-----------------------------------------+-----------------------+------------------+
 
 
 Se podría representar por *X* una cualquiera de las magnitudes termométricas relacionadas en la misma, y se elige arbitrariamente para la temperatura que marca el termómetro, común a todos los sistemas en equilibrio térmico con él, la siguiente función lineal de X:
