@@ -69,7 +69,7 @@ Principio Cero de la Termodinámica
 Considérese que se dispone de tres sistemas, cuyas propiedades pueden medirse mediante la instrumentación adecuada, limitados por paredes diatérmanas, rígidas e impermeables. Para concretar, supóngase que son gases confinados en un volumen determinado, cuya masa y presión se puede determinar. Los tres sistemas se hallan dispuestos en el interior de un recipiente aislado y, mediante tabiques adiabáticos móviles, se aíslan unos de otros.
 
 .. figure:: ./img/principio_cero.png
-   :width: 80%
+   :width: 40%
    :align: center
 
    Principio Cero de la Termodinámica
