@@ -42,7 +42,7 @@ La determinación de la presión mediante la lectura de una columna de líquido,
 
 
 
-Para evaluar los cambios de presión dentro del fluido, en presencia del campo gravitatorio, se hace un balance de fuerzas en un elemento de la columna fluida:
+Para evaluar los cambios de presión dentro del fluido (gas o líquido), en presencia del campo gravitatorio, se hace un balance de fuerzas en un elemento de la columna fluida:
 
 .. figure:: ./img/elemento_columna.png
    :width: 50%
@@ -70,39 +70,19 @@ Para diferencias de altura suficientemente pequeñas: :math:`\rho` y *g* son con
 
    p_2-p_1 = -pg(z_2-z_1)
 
-
-
-
 Esta ecuación define la diferencia de presión entre dos puntos de una columna de fluido en el campo gravitatorio, supuesto que :math:`\rho` y *g* se mantengan constantes.
 
-Cuando la presión del recinto en el que se efectúa la medición es inferior a la atmosférica, se suele hablar de presión de vacío. La relación entre ellas se muestra en la figura 1.4.
-
-
-OTRO
-----
-
-
-Evaluar  los cambios de presión dentro de un fluido (gas o líquido) en presencia de campo gravitatorio:
-
-.. math::
-
-   P_z \Delta A &= P_z dz \cdot \Delta A + \rho g \Delta A dz\\
-   -dP &= \rho g dz
-
-
-
-
-
-Presión de vacío: es la presión manométrica uando la presión absoluta es la atmosférica.
-
-
-
+Cuando la presión del recinto en el que se efectúa la medición es inferior a la atmosférica, se suele hablar de presión de vacío:
 
 .. figure:: ./img/relacion_presiones.png
    :width: 70%
    :align: center
 
    Relación entre las presiones absoluta, manomètrica y de vacío
+
+
+Presión de vacío: es la presión manométrica cuando la presión absoluta es la atmosférica.
+
 
 Unidades
 --------
