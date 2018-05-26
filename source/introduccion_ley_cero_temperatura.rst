@@ -201,7 +201,7 @@ y al haberse asignado a :math:`\Theta (X_3)` el valor 273.16 se obtiene:
 
    \Theta (X) = 273.16 \frac{X}{X_3} K \hspace{ 2cm} \text{ (Y constante)}
 
-Al ser el punto triple del agua el único punto fijo en termometria, es importante disponer de una fuente térmica a esta temperatura. Para conseguirla se utiliza un recipiente como el esquematizado en la figura 1.9.
+Al ser el punto triple del agua el único punto fijo en termometria, es importante disponer de una fuente térmica a esta temperatura. Para conseguirla se utiliza un recipiente como el esquematizado:
 
 .. figure:: ./img/punto_triple.png
 
