@@ -1,7 +1,6 @@
 Densidad y volumen específico
 =============================
 
-A continuación se considera la definición de algunas magnitudes que ya han sido utilizadas en los estudios realizados con anterioridad y de las que se tendrá que hacer uso en Termodinámica.
 
 La densidad de una sustancia se define como la masa por unidad de volumen y se designa
 por :math:`\rho`:
