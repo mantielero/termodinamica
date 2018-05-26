@@ -47,6 +47,11 @@ La determinación de la presión mediante la lectura de una columna de líquido,
    p_z &= p_{z+dz} + \rho g dz\\
    -dp &= \rho g dz\\
 
+en donde:
+
+- :math:`\rho = rho(z)`: el aire  lejos es menos denso
+- :math:`g=g(z)` (recordar ecuaciones)
+
 .. figure:: ./img/elemento_columna.png
    :width: 50%
    :align: center
@@ -78,9 +83,7 @@ Evaluar  los cambios de presión dentro de un fluido (gas o líquido) en presenc
    P_z \Delta A &= P_z dz \cdot \Delta A + \rho g \Delta A dz\\
    -dP &= \rho g dz
 
-en donde:
 
-- :math:`\rho = rho(z)`: el aire  lejos es menos denso; :math:`g=g(z)` (recordar ecuaciones)
 
 
 
