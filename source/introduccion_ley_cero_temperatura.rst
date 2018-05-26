@@ -179,12 +179,12 @@ Al utilizar esta función para calcular la razón de dos temperaturas en esta es
 es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termométrica *X*.
 
 Escala Celsius
-¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+··············
 
 Para fijar el valor de la temperatura de un sistema se definió una escala que utilizaba dos puntos fijos con un intervalo entre ellos igual a 100, eligiendo en un principio los puntos de fusión del hielo y ebullición del agua líquida a la presión atmosférica. La escala se suele conocer con el nombre de quien se considera su descubridor, Celsius.
 
 Escala con un punto fijo
-¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨
+························
 
 La escala así definida conducía a errores importantes en la determinación de temperaturas muy bajas, por lo que Giauque en 1939 propuso que se definiera una escala de temperatura que tuviera un solo punto fijo y se eligiera arbitrariamente este punto fijo (esto ya había sido sugerido por lord Kelvin en 1854). Esta propuesta de Giauque, apoyada por la mayor parte de los físicos y químicos que trabajaban con bajas temperaturas, fue aprobada en la X Conferencia de Pesas y Medidas celebrada en París en el verano de 1954.
 
