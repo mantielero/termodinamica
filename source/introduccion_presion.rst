@@ -111,7 +111,7 @@ pero debido a la pequeñez de esta unidad se utiliza:
    1 kPa &= 10^3 Pa \\
    1 MPa &= 10^6 Pa
 
-Otras unidades usuales (fuera del sistema internacional)::
+Otras unidades usuales (fuera del sistema internacional):
 
 .. math::
 
