@@ -46,18 +46,47 @@ La determinación de la presión mediante la lectura de una columna de líquido,
    p_z \delta A &= p_{z+dz} \delta A + \rho g \delta A dz\\
    p_z &= p_{z+dz} + \rho g dz\\
    -dp &= \rho g dz\\
-   p_2-p_1 &= \delta p = - \rho g (z_2-z_1)
-
 
 .. figure:: ./img/elemento_columna.png
-   :width: 70%
+   :width: 50%
    :align: center
 
    Elemento de columna de fluido en el campo gravitatorio
 
+Para diferencias de altura suficientemente pequeñas: :math:`\rho` y *g* son constantes. En ese caso, integrando:
+
+.. math::
+
+   p_2-p_1 = -pg(z_2-z_1)
+
+
+
+
 Esta ecuación define la diferencia de presión entre dos puntos de una columna de fluido en el campo gravitatorio, supuesto que :math:`\rho` y *g* se mantengan constantes.
 
 Cuando la presión del recinto en el que se efectúa la medición es inferior a la atmosférica, se suele hablar de presión de vacío. La relación entre ellas se muestra en la figura 1.4.
+
+
+OTRO
+----
+
+
+Evaluar  los cambios de presión dentro de un fluido (gas o líquido) en presencia de campo gravitatorio:
+
+.. math::
+
+   P_z \Delta A &= P_z dz \cdot \Delta A + \rho g \Delta A dz\\
+   -dP &= \rho g dz
+
+en donde:
+
+- :math:`\rho = rho(z)`: el aire  lejos es menos denso; :math:`g=g(z)` (recordar ecuaciones)
+
+
+
+Presión de vacío: es la presión manométrica uando la presión absoluta es la atmosférica.
+
+
 
 
 .. figure:: ./img/relacion_presiones.png
@@ -96,26 +125,5 @@ La presión atmosférica estándar es:
    p_{atm} = 1.01325 bar
 
 
-OTRO
-----
 
-
-Evaluar  los cambios de presión dentro de un fluido (gas o líquido) en presencia de campo gravitatorio:
-
-.. math::
-
-   P_z \Delta A &= P_z dz \cdot \Delta A + \rho g \Delta A dz\\
-   -dP &= \rho g dz
-
-en donde:
-
-- :math:`\rho = rho(z)`: el aire  lejos es menos denso; :math:`g=g(z)` (recordar ecuaciones)
-
-Para diferencias de altura suficientemente pequeñas: p y g son constantes. En ese caso:
-
-.. math::
-
-   P_2-P_1 = -pg(z_2-z_1)
-
-Presión de vacío: es la presión manométrica uando la presión absoluta es la atmosférica.
 
