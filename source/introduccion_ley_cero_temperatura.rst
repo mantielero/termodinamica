@@ -109,7 +109,7 @@ Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas p
 
 .. note::
 
-   (2) La función termometrica que dió lugar a esta escala es una función lineal del tipo 0 = a - X -f b, en que los dos puntos fijos necesarios para caracterizarla son la temperatura del hielo en equilibrio con agua líquida (:math:`\theta = 0°C`) y la temperatura del vapor en equilibrio con agua líquida (:math:`\theta = 100°C`), a la prseión atmosférica estándar.
+   (2) La función termometrica que dió lugar a esta escala es una función lineal del tipo :math:`\theta = a - X -f b`, en que los dos puntos fijos necesarios para caracterizarla son la temperatura del hielo en equilibrio con agua líquida (:math:`\theta = 0°C`) y la temperatura del vapor en equilibrio con agua líquida (:math:`\theta = 100°C`), a la prseión atmosférica estándar.
 
 Se puede variar el estado del sistema A, manteniendo el contacto térmico con B, de forma que se garantice la existencia de equilibrio térmico. La experiencia muestra que existen parejas de valores :math:`(X_i^A, Y_i^A)` con :math:`i = 2, 3,...`, correspondientes a estados del sistema A en equilibrio térmico con el estado original del sistema B, y por tanto, en equilibrio térmico entre sí. Se denomina *isoterma* al lugar geométrico de los puntos :math:`(X_i^A, Y_i^A)` que corresponden a estados de un sistema en equilibrio térmico entre sí. La curva I de la figura 1.7 puede ser una de estas isotermas.
 
