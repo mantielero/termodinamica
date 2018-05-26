@@ -242,6 +242,7 @@ La siguiente figura muestra un esquema muy simplificado de un termómetro de gas
 
 .. figure:: ./img/termometro_gas.png
    :width: 50%
+   :align: center
 
    Termómetro de gas a volumen constante   
 
