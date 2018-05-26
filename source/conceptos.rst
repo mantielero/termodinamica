@@ -21,7 +21,7 @@ También la predicción de la evolución del mismo requiere el conocimiento de l
    conceptos_equilibrio
    
    
-Hablemos ahora de algunas propiedades:
+A continuación se considera la definición de algunas magnitudes (propiedades en este caso) que ya han sido utilizadas en los estudios realizados con anterioridad y de las que se tendrá que hacer uso en Termodinámica.
 
 .. toctree::
    :maxdepth: 1
@@ -30,4 +30,4 @@ Hablemos ahora de algunas propiedades:
    introduccion_presion
    introduccion_densidad
    introduccion_ley_cero_temperatura
-   introduccion_ejercicios   
+   introduccion_ejercicios
