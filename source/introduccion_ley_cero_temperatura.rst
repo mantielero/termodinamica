@@ -99,7 +99,7 @@ Escala empírica de temperaturas
 
 Para conseguir esto se pueden considerar las experiencias que se describen a continuación.
 
-Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas para caracterizar su estado tendrán unos valores determinados que, suponiendo sistemas simples (como después se verá, son aquéllos que interaccionan mediante una sola forma de trabajo), se pueden designar por los conjuntos :math:`(X_1^A, Y_1^A)` y   :math:`(X_1^B, Y_1^B)`  para cada sistema. Estas parejas de valores se pueden representar en un sistema de ejes adecuados como se indica en la figura 1.7.
+Se toman dos sistemas, A y B, en equilibrio térmico. Las propiedades elegidas para caracterizar su estado tendrán unos valores determinados que, suponiendo sistemas simples (como después se verá, son aqullos que interaccionan mediante una sola forma de trabajo), se pueden designar por los conjuntos :math:`(X_1^A, Y_1^A)` y   :math:`(X_1^B, Y_1^B)`  para cada sistema. Estas parejas de valores se pueden representar en un sistema de ejes adecuados como se indica en la figura 1.7.
 
 .. figure:: ./img/isotermas.png
    :width: 100%
