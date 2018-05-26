@@ -238,10 +238,14 @@ En el libro de Zemansky(4), se puede encontrar una buena información sobre tipo
 Termómetro de gas a volumen constante
 -------------------------------------
 
-La figura 1.10 muestra un esquema muy simplificado de un termómetro de gas a volumen constante. Los materiales, construcción y dimensiones varían de unos laboratorios e institutos nacionales a otros, dependiendo de la naturaleza del gas y del intervalo de temperaturas que se intenta medir. En esta figura, el gas se halla contenido en el depósito B, que comunica con la columna de mercurio M a través de un capilar. El volumen del gas se mantiene constante modificando la altura de la columna M hasta que el nivel de mercurio toque exactamente el índice en el espacio situado encima de M, denominado "espacio muerto" o "volumen perjudicial". Se varía el nivel de la columna M subiendo o bajando el tubo M’ unido a M mediante un tubo flexible.
+La siguiente figura muestra un esquema muy simplificado de un termómetro de gas a volumen constante:
 
+.. figure:: ./img/termometro_gas.png
 
-Figura 1.10 Termómetro de gas a volumen constante
+   Termómetro de gas a volumen constante   
+
+Los materiales, construcción y dimensiones varían de unos laboratorios e institutos nacionales a otros, dependiendo de la naturaleza del gas y del intervalo de temperaturas que se intenta medir. En esta figura, el gas se halla contenido en el depósito B, que comunica con la columna de mercurio M a través de un capilar. El volumen del gas se mantiene constante modificando la altura de la columna M hasta que el nivel de mercurio toque exactamente el índice en el espacio situado encima de M, denominado "espacio muerto" o "volumen perjudicial". Se varía el nivel de la columna M subiendo o bajando el tubo M’ unido a M mediante un tubo flexible.
+
 
 Para realizar la determinación de :math:`\Theta`, se mide la diferencia de niveles *h*, entre las dos columnas de mercurio M y M’, cuando el depósito del termómetro B está rodeado por el sistema cuya temperatura se va a medir y cuando se halla rodeado de agua en el punto triple. Es evidente que la presión del gas en cualquier caso está dada por:
 
