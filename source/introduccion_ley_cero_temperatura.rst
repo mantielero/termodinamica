@@ -139,19 +139,7 @@ En el plano *XY* de las coordenadas del termómetro, en el que se han representa
 Tipos de termómetros
 ''''''''''''''''''''
 
-Existen cinco tipos importantes de termómetros, cada uno de los cuales posee su propia propiedad termométrica, como se indica en la Tabla 1.1. Se podría representar por *X* una cualquiera de las magnitudes termométricas relacionadas en la misma, y se elige arbitrariamente para la temperatura que marca el termómetro, común a todos los sistemas en equilibrio térmico con él, la siguiente función lineal de X:
-
-.. math::
-
-   \Theta (X) = a X \text{ (Y constante)}
-
-siendo *a* una constante arbitraria. Al utilizar esta función para calcular la razón de dos temperaturas en esta escala lineal, se obtiene:
-
-.. math::
-
-   \frac{\Theta (X_1)}{\Theta (X_2)} = \frac{X_1}{X_2}
-
-es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termomètrica *X*.
+Existen cinco tipos importantes de termómetros, cada uno de los cuales posee su propia propiedad termométrica:
 
 .. table:: Tipos importantes de termómetros
    :widths: auto
@@ -172,6 +160,22 @@ es decir, la razón de dos temperaturas es igual a la razón de sus correspondie
    | Columna líquida en un capilar de vidrio |	longitud	         | L                |
    |  (presión constante)                    |                       |                  |
    +-----------------------------------------+-----------------------+------------------+
+
+
+Se podría representar por *X* una cualquiera de las magnitudes termométricas relacionadas en la misma, y se elige arbitrariamente para la temperatura que marca el termómetro, común a todos los sistemas en equilibrio térmico con él, la siguiente función lineal de X:
+
+.. math::
+
+   \Theta (X) = a X \text{ (Y constante)}
+
+siendo *a* una constante arbitraria. Al utilizar esta función para calcular la razón de dos temperaturas en esta escala lineal, se obtiene:
+
+.. math::
+
+   \frac{\Theta (X_1)}{\Theta (X_2)} = \frac{X_1}{X_2}
+
+es decir, la razón de dos temperaturas es igual a la razón de sus correspondientes valores de la magnitud termomètrica *X*.
+
 
    
 
