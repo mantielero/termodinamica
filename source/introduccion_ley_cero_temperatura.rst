@@ -1,5 +1,5 @@
-Temperatura y Ley Cero
-======================
+Temperatura
+===========
 
 Introducción
 ------------
