@@ -47,7 +47,7 @@ Si lo que se produce es el proceso b):
 - los recipientes están formados por una sustancia que se dice es conductora térmica.
 - hablaremos de **paredes diatérmanas** o **diatérmicas**.
 
-En este último caso los sistemas A y B se hallan, por definición, en equilibrio térmico una vez alcanzado un estado que se mantiene independientemente del tiempo. Puede constatarse la existencia de equilibrio térmico porque, una vez alcanzado éste y aislado el conjunto del exterior, la presión no cambia.
+En este último caso los sistemas A y B se hallan, por definición, en **equilibrio térmico** una vez alcanzado un estado que se mantiene independientemente del tiempo. Puede constatarse la existencia de equilibrio térmico porque, una vez alcanzado éste y aislado el conjunto del exterior, la presión no cambia.
 
 Relacionado con la definición de pared diatérmana se tiene el concepto de conductor térmico los sistemas que llegan al equilibrio térmico cuando se separan mediante paredes diatérmicas, es decir, cuando se ponen en contacto térmico, son conductores térmicos. Los metales, especialmente la plata y el cobre, y los gases, sobre todo el helio, son conductores térmicos. Estas sustancias pueden ser utilizadas como elementos de ensayo para distinguir entre superficies diatérmanas y adiabáticas. Experimentalmente se ha visto que las paredes que permiten el contacto térmico entre dos sistemas (sustancias) determinados, también lo permiten entre otros cualesquiera.
 
