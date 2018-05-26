@@ -38,7 +38,17 @@ En ingeniería es normal que la presión de un sistema se mida respecto a la atm
 
 Es preciso insistir en que la magnitud que utiliza la termodinámica es la presión absoluta (que es la que define el estado del sistema) y no la manométrica, por lo que hay que ser muy cuidados a la hora de utilizar esta magnitud.
 
-La determinación de la presión mediante la lectura de una columna de líquido, como indica la figura 1.2, es el fundamento de muchos instrumentos utilizados para la medida de presiones. Para evaluar los cambios de presión dentro del fluido, en presencia del campo gravitatorio, se hace un balance de fuerzas en un elemento de la columna fluida, como se muestra en la figura 1.3.
+La determinación de la presión mediante la lectura de una columna de líquido, como indica la figura 1.2, es el fundamento de muchos instrumentos utilizados para la medida de presiones. 
+
+
+
+Para evaluar los cambios de presión dentro del fluido, en presencia del campo gravitatorio, se hace un balance de fuerzas en un elemento de la columna fluida:
+
+.. figure:: ./img/elemento_columna.png
+   :width: 50%
+   :align: center
+
+   Elemento de columna de fluido en el campo gravitatorio
 
 
 .. math::
@@ -52,11 +62,7 @@ en donde:
 - :math:`\rho = rho(z)`: el aire  lejos es menos denso
 - :math:`g=g(z)` (recordar ecuaciones)
 
-.. figure:: ./img/elemento_columna.png
-   :width: 50%
-   :align: center
 
-   Elemento de columna de fluido en el campo gravitatorio
 
 Para diferencias de altura suficientemente pequeñas: :math:`\rho` y *g* son constantes. En ese caso, integrando:
 
