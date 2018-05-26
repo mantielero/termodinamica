@@ -158,13 +158,22 @@ es decir, la razón de dos temperaturas es igual a la razón de sus correspondie
    :align: center
    
    Tipos importantes de termómetros
-
-Termómetro	Magnitud termometrica	Símbolo
-Gas mantenido a volumen constante	Presión	P
-Gas mantenido a presión constante Resistencia eléctrica	Volumen	V
-(presión y esfuerzo constantes) Par termoeléctrico	Resistencia eléctrica	R
-(presión y esfuerzo constantes)	f.e.m. térmica	£
-Columna líquida en un capilar de vidrio (presión constante)	longitud	L
++-----------------------------------------+-----------------------+------------------+
+| Termómetro                              | Magnitud termometrica | Símbolo          |
++=========================================+=======================+==================+
+| Gas mantenido a volumen constante       |	Presión	              |  P               |
++-----------------------------------------+-----------------------+------------------+
+| Gas mantenido a presión constante       |  Volumen              | V                |
++-----------------------------------------+-----------------------+------------------+
+| Resistencia eléctrica	                  | Resistencia eléctrica | R                |
+|  (presión y esfuerzo constantes)        |                       |                  |
++-----------------------------------------+-----------------------+------------------+
+|Par termoeléctrico	                      | f.e.m. térmica 	      | :math:`\epsilon` |
+|  (presión y esfuerzo constantes)        |                       |                  |
++-----------------------------------------+-----------------------+------------------+
+| Columna líquida en un capilar de vidrio |	longitud	          | L                |
+|  (presión constante)                    |                       |                  |
++-----------------------------------------+-----------------------+------------------+
 
 Para fijar el valor de la temperatura de un sistema se definió una escala que utilizaba dos puntos fijos con un intervalo entre ellos igual a 100, eligiendo en un principio los puntos de fusión del hielo y ebullición del agua líquida a la presión atmosférica. La escala se suele conocer con el nombre de quien se considera su descubridor, Celsius.
 
