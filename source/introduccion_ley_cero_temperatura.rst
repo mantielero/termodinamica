@@ -145,17 +145,17 @@ Existen cinco tipos importantes de termómetros, cada uno de los cuales posee su
 +-----------------------------------------+-----------------------+------------------+
 | Termómetro                              | Magnitud termometrica | Símbolo          |
 +=========================================+=======================+==================+
-| Gas mantenido a volumen constante       |	Presión	             |  P               |
+| Gas mantenido a volumen constante       |	Presión	              |  P               |
 +-----------------------------------------+-----------------------+------------------+
 | Gas mantenido a presión constante       |  Volumen              | V                |
 +-----------------------------------------+-----------------------+------------------+
-| Resistencia eléctrica	                 | Resistencia eléctrica | R                |
+| Resistencia eléctrica	                  | Resistencia eléctrica | R                |
 |  (presión y esfuerzo constantes)        |                       |                  |
 +-----------------------------------------+-----------------------+------------------+
-| Par termoeléctrico	                     | f.e.m. térmica        | :math:`\epsilon` |
+| Par termoeléctrico	                  | f.e.m. térmica        | :math:`\epsilon` |
 |  (presión y esfuerzo constantes)        |                       |                  |
 +-----------------------------------------+-----------------------+------------------+
-| Columna líquida en un capilar de vidrio |	longitud	         | L                |
+| Columna líquida en un capilar de vidrio |	longitud	          | L                |
 |  (presión constante)                    |                       |                  |
 +-----------------------------------------+-----------------------+------------------+
 
