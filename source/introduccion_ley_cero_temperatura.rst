@@ -20,7 +20,7 @@ Debido a esto, es preciso revestir adecuadamente estas sensaciones de caliente y
 Pared diatérmana y pared adiabática. Equilibrio térmico
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Considérese la experiencia siguiente: dos recipientes de paredes rígidas A y B contienen el mismo gas con la misma densidad :math:`\rho` y presiones distintas :math:`p_A` y :math:`p_B` respectivamente. Los recipientes se encuentran inicialmente separados, sin que pueda suponerse ninguna influencia entre ellos. A continuación se aproximan entre sí, hasta conseguir el contacto físico. Una vez alcanzado dicho contacto pueden ocurrir dos cosas:
+Considérese la experiencia siguiente: dos recipientes de paredes rígidas A y B contienen el mismo gas con la misma densidad :math:`\rho` y presiones distintas :math:`p_A` y :math:`p_B` respectivamente. Los recipientes se encuentran inicialmente separados, sin que pueda suponerse ninguna influencia entre ellos. A continuación se aproximan entre sí, hasta conseguir el contacto físico. 
 
 .. figure:: ./img/pared_adiabatica_diatermica.png
    :width: 80%
@@ -28,21 +28,24 @@ Considérese la experiencia siguiente: dos recipientes de paredes rígidas A y B
 
    Definición de pared adiabática y pared diatérmana
 
-a)	que la presión inicial en cada uno de los recipientes se mantenga después de un tiempo suficientemente largo, de forma que :math:`p_{A}'' = p_{A}'` y :math:`p_{B}'' = p_{B}'`.
 
-b)	que la presión vaya cambiando y después de un tiempo suficientemente largo :math:`p_A'' = p_B''`.
+Una vez alcanzado dicho contacto pueden ocurrir dos cosas:
+
+a. 	que la presión inicial en cada uno de los recipientes se mantenga después de un tiempo suficientemente largo, de forma que :math:`p_{A}'' = p_{A}'` y :math:`p_{B}'' = p_{B}'`.
+
+b.	que la presión vaya cambiando y después de un tiempo suficientemente largo :math:`p_A'' = p_B''`.
 
 En el caso a) se dice que:
 
 - los dos sistemas no están en contacto térmico.
 - las paredes del recipiente están formadas por una sustancia que es un aislante térmico.
-- las paredes se denominan adiabáticas
+- hablaremos de **paredes adiabáticas**
 
 Si lo que se produce es el proceso b):
 
 - los dos sistemas están, por definición, en contacto térmico.
 - los recipientes están formados por una sustancia que se dice es conductora térmica.
-- las paredes se denominan diatérmanas o diatérmicas.
+- hablaremos de **paredes diatérmanas** o **diatérmicas**.
 
 En este último caso los sistemas A y B se hallan, por definición, en equilibrio térmico una vez alcanzado un estado que se mantiene independientemente del tiempo. Puede constatarse la existencia de equilibrio térmico porque, una vez alcanzado éste y aislado el conjunto del exterior, la presión no cambia.
 
