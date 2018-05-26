@@ -209,19 +209,19 @@ Al ser el punto triple del agua el único punto fijo en termometria, es importan
 
 El recipiente se llena prácticamente con agua destilada perfectamente desgasificada y desionizada; después se hace el vacío, de forma que cuando se cierre sólo contenga agua líquida y vapor de agua. Una vez en estas condiciones, se sitúa en la cavidad central una mezcla frigorífica, con lo que se consigue formar hielo sobre las paredes interiores del recinto al congelarse el agua contenida en el mismo. Posteriormente, se elimina la mezcla frigorífica y en su lugar se sitúa la ampolla del termómetro, con lo que se fundirá una delgada película en contacto con la pared. En estas condiciones quedarán en equilibrio las tres fases (hielo, agua líquida y vapor de agua). Mientras esto suceda tendremos la seguridad de que el recinto se encuentra en el punto triple.
 
-Tipos de termómetros. Comparación
-'''''''''''''''''''''''''''''''''
+**Comparación de los tipos de termómetro**
+
 
 Aplicando a los distintos tipos de termómetros el procedimiento que se termina de describir, se dispone de cinco posibilidades de realizar la determinación de temperatura de un sistema dado. Cada una de éstas conduce al resultado siguiente:
 
 
 .. math::
 
-   \Theta (p) &= 273,16 \frac{p}{p_3} K \text{ (V constante)}\\
-   \Theta (V) &= 273,16 \frac{V}{V_3} K \text{ (p constante)}\\
-   \Theta (R) &= 273,16 \frac{R}{R_3} K \text{ (esfuerzo constante)}\\
-   \Theta (\epsilon) &= 273,16 \frac{\epsilon}{\epsilon_3} K \text{ (esfuerzo constante)}\\
-   \Theta (L) &= 273,16 \frac{L}{L_3} K \text{ (p constante)}
+   \Theta (p) &= 273,16 \frac{p}{p_3} K \hspace{2cm} &\text{ (V constante)}\\
+   \Theta (V) &= 273,16 \frac{V}{V_3} K \hspace{2cm} &\text{ (p constante)}\\
+   \Theta (R) &= 273,16 \frac{R}{R_3} K \hspace{2cm} &\text{ (esfuerzo constante)}\\
+   \Theta (\epsilon) &= 273,16 \frac{\epsilon}{\epsilon_3} K \hspace{2cm} &\text{ (esfuerzo constante)}\\
+   \Theta (L) &= 273,16 \frac{L}{L_3} K \hspace{2cm} &\text{ (p constante)}
 
 La definición de los cinco posibles tipos de termómetros no resuelve el problema de la determinación de temperatura, ya que si se utilizaran los cinco termómetros simultáneamente en la medida de la temperatura de un sistema determinado, se observarían bastantes discrepancias en los resultados obtenidos con cada uno de los termómetros, dependiendo del intervalo en el que se estuviese midiendo. Aún más, si se eligiese el mismo tipo de termómetro, pero utilizando como sustancia termométrica distintas materias, también se encontrarían diferencias, en algunos casos notables. No obstante, hay termómetros con los que se obtienen resultados más reproducibles, como son los que utilizan gases a presiones moderadas, especialmente :math:`H_2` y :math:`He`. Debido a esto, los gases son las sustancias termométricas más ampliamente utilizadas, y será este tipo de termómetro el que se describirá a continuación. En el libro de Zemansky(4), se puede encontrar una buena información sobre tipos de termómetros y determinación de temperaturas.
 
