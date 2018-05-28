@@ -174,40 +174,39 @@ Del estudio de mecánica es conocido que un sistema puede tener energía debido 
  
 Si el sistema está en presencia de campos eléctricos y/o magnéticos, también se pueden generar contribuciones que corresponden a estos tipos de energía:
 
- 
+.. math::
+
+   \Delta E_{Mag} \\
+   \Delta E_{El} 
+
 Otra contribución posible a la variación de energía total es la debida a efectos de ten­ sión superficial, por lo que otro término a tener en cuenta al considerar la variación de energía total es el debido a este tipo de energía y que podemos representarlo por:
 
-JLl_Esup -   :
-.
+.. math::
+
+   \Delta E_{Sup} \\
+
 No obstante estos términos de energía no completan el conjunto de las formas de ener­ gía que pueden atribuirse a un sistema, ya que al comunicar a un sistema calor y trabajo, sin cambiar ninguna de las formas de energía mencionadas, puede producirse un cambio de esta­ do. La energía relacionada con este cambio de estado es la denominada ywgilririfem que representaremos por la letra U y que verifica la igualdad:
-J Ll u = Ll E - Ll Ep -	Ec - Ll Ecr  - Ll EEI - Ll Esup
-I	-- - ·
+
+.. math::
+
+   \Delta U = \Delta E - \Delta E_{p} - \Delta E_{c} - \Delta E_{cr} - \Delta E_{El} - \Delta E_{sup}
+
+
 Cuando consideremos un sistema fijo en el espacio y sobre el que no actúan campos eléctricos ni magnéticos y los efectos superficiales sean despreciables:
 
-Ll U  = Ll E
-1
-\ En general la termodinámica está interesada en este tipo de procesos.
-»
-Aunque la termodinámica nada tiene que ver con la estructura interna de la materia, es interesante relacionar la energía interna del sistema con la de sus constituyentes, porque intui­ tivamente ayuda a la comprensión de este concepto: supuesto que se dispone de un conoci­ miento elemental de la teoría cinético-molecular, es evidente que los cambios de energía interna están ligados a las variaciones de la energía potencial intermolecular, cinética de trasla­ ción, rotación, vibración, etc. de las partículas que constituyen el sistema. Como es conocido por la teoría cinética, se encuentra una relación directa entre la energía cinética de las molécu­ las de un sistema y la temperatura del mismo .
+.. math::
 
+   \Delta U = \Delta E
 
+En general la termodinámica está interesada en este tipo de procesos.
 
+Aunque la termodinámica nada tiene que ver con la estructura interna de la materia, es interesante relacionar la energía interna del sistema con la de sus constituyentes, porque intuitivamente ayuda a la comprensión de este concepto: supuesto que se dispone de un conocimiento elemental de la teoría cinético-molecular, es evidente que los cambios de energía interna están ligados a las variaciones de la energía potencial intermolecular, cinética de traslación, rotación, vibración, etc. de las partículas que constituyen el sistema. Como es conocido por la teoría cinética, se encuentra una relación directa entre la energía cinética de las moléculas de un sistema y la temperatura del mismo.
 
-9
- 
-2.Primera ley de la tennodinámica. Postulado de estado
-En sistemas en los que se producen reacciones químicas los cambios de energía inter­ na están relacionados con los cambios de configuración de los constituyentes del sistema, es decir, con el  paso de unas especies químicas a otras.	1.
- 
+En sistemas en los que se producen reacciones químicas los cambios de energía inter­ na están relacionados con los cambios de configuración de los constituyentes del sistema, es decir, con el  paso de unas especies químicas a otras.	
 
+También en los sistemas en los que se producen reacciones nucleares hay cambios de energía interna debido a la transformación de especies atómicas. Conviene destacar que en el caso de reacciones químicas el cambio de configuración esta ligado a la forma en la que están dispuestos los átomos formando distintas moléculas, mientras que en el caso de una reacción nuclear son los constituyentes fundamentales de la materia los que se reordenan formando distintos átomos. En este último caso al realizar el balance de energía habrá que tener en cuenta la equivalencia de masa y energía.
 
-
-
-·, J
- 
-
-También en los sistemas en los que se producen reacciones nucleares hay cambios de energía interna debido a la transformación de especies atómicas. Conviene destacar que en el caso de reacciones químicas el cambio de configuración esta ligado a la forma en la que están dispuestos los átomos formando distintas moléculas, mientras que en el caso de una reacción nuclear son los constituyentes fundamentales de la materia los que se reordenan formando dis­ tintos átomos. En este último caso al realizar el balance de energía habrá que tener en cuenta la equivalencia de masa y energía.
-
-.A-t	Hay una distinción clara entre las variaciones de energía de un sistema debidas a la pre-
+Hay una distinción clara entre las variaciones de energía de un sistema debidas a la pre-
 1  sencia de campos de fuerzas exteriores y la posible variación en las coordenadas del sistema
 \ respecto a marcos de coordenadas exteriores al mismo (extrínsecas) y las que se deben  a cam­
 J    bios que tienen lugar en el interior del sistema, dependiendo de su naturaleza e independientes
