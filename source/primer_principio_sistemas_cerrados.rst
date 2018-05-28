@@ -3,17 +3,18 @@ Aplicación del primer principio a sistemas simples cerrados
 
 Se ha visto que la aplicación del primer principio a un sistema cerrado conduce a las expresiones :
 
-( 2.2 )
-( 2.1 )
+.. math::
+
+   \delta Q + \delta W = dE \\
+   Q_{12} + W_{12} = \Delta E
 
 Según se considere un proceso elemental o un proceso finito. En el caso de querer referir el es­ tudio a la unidad de masa del sistema, se tendría:
 
  
-o q + o w = d e  1
-q12  + w12   =	e
- 
-( 2.3 )
-( 2.4 )
+.. math::
+
+   \delta q + \delta w = de \\
+   q_{12} + w_{12} = \Delta e
  
 I	En  un  principio. considerremos únicamete la_ posibilidad  de trabajo  reversible  y  para
 el caso de que se considere un sistema compresible slillple, el trabajo o w = -p dv  y wP =
