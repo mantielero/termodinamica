@@ -16,116 +16,91 @@ Según se considere un proceso elemental o un proceso finito. En el caso de quer
    \delta q + \delta w = de \\
    q_{12} + w_{12} = \Delta e
  
-I	En  un  principio. considerremos únicamete la_ posibilidad  de trabajo  reversible  y  para
-el caso de que se considere un sistema compresible slillple, el trabajo o w = -p dv  y wP =
-Í 2	-
-j	p dv ; si además se supone que la única forma de energía importante es la variación de 'energía interna, u, las expresiones anteriores tomarán la forma:
+En  un  principio. considerremos únicamete la posibilidad  de trabajo  reversible  y  para
+el caso de que se considere un sistema compresible slillple, el trabajo :math:`\delta w = -p dv` y :math:`w_{12} = \int_1^2 -pdv`; si además se supone que la única forma de energía importante es la variación de energía interna, *u*, las expresiones anteriores tomarán la forma:
 
-18
+
+.. math::
+
+   \delta q - pdv = du \\
+   q_{12} - \int_1^2 pdv = \Delta u
+
+Por la frecuencia con que se presentan  es conveniente considerar la aplicación de ( 2. 5) L Y (2.6) a procesos que se realizan a volumen constante y a presión constante.
+
+Si el proceso se realiza a **volumen constante** (isocoro):
+
+.. math::
+
+   \delta q_v -0 = d u_v
+   
+
+Por ser *u* una propiedad termodinámica del sistema se podrá expresar en función de dos variables termodinámicas del mismo . Se suelen escoger *T* y *v* como variables adecuadas para expresar esta función, por lo que:
+
+.. math::
+
+   du = \left( \frac{\partial u}{\partial T} \right)_v dT +  \left( \frac{\partial u}{\partial v} \right)_T dv
+   
+
  
-2.Primera ley de la termodinámica. Postulado de estado
+y para un proceso a volumen constante:
 
+.. math::
+
+   du_v = \left( \frac{\partial u}{\partial T} \right)_v dT_v
  
-o q - p dv  = d u
-1	q12:  - f  p d v  = Li u
- 
-( 2.5 )
-( 2.6 )
- 
-
-{	Por la frecuencia con que se presentan  es conveniente considerar la aplicación de ( 2. 5) L Y (2.6) a procesos que se realizan a volumen constante y a presión constante.
-
- i el proceso se realiza a_volumen s_o_!:lst nts (] ,, .:tC#"l.
-- ·· -- -
-L;L..: _.:_	J -	( 2.7 )
-
-Por ser u una propiedad termodinámica del sistema se podrá expresar en función de dos variables termodinámicas del mismo . Se suelen escoger T y v como variables adecuadas para expresar esta función, por lo que:
-(}1!w, . c. •--41' ( >;;....;  /" 1,:i_ -)
- 
-fd u =	( á u ] d T + [ a"'í', J	d v
- 
-
-( 2.8 )
- 
-y para un proceso a V_QIU n	:tantear	" i·- d	T
- 
-
-
-
 
 Por definición se hace:
- 
-)! " = J : J ..dT,j
 
-V     1 ,
- 
+.. math::
 
-( 2 .9 a )
+   c_v =  \left( \frac{\partial u}{\partial T} \right)_v 
 
 
-
-
-( 2 9 b )
- 
-
-\ y  se  le  denomina  cªlor	- ficCJ..... volu	ns.tan.te.  Sus u nidades  son  kJkg·1   K 1   o kJkmo1·1 K 1 , según se refiera a la unidad de masa o a la unidad de sustanciá  -
+y  se  le  denomina  calor específico a volumen constante.  Sus unidades  son  :math:`\frac{kJ}{kg \cdot K}` o :math:`\frac{kJ}{kmol \cdot K}`, según se refiera a la unidad de masa o a la unidad de sustancia.
 
 Sustituyendo en (2.9) e igualando con (2.7), se obtiene:
 
-l	.	: ,
-\ d /{ \'  =  C V  d 1 = 0 qV	( 2.1O a )
+.. math::
 
-por lo que otra forma de expresar c'"  es hacerlo mediante la equivalencia:	(	f. /  f,.
-t .  .	e,.  b1Cf-''" .. • V<-  l
-l	..-1IJ ¡¡/¡., · ·vJ.  ¡rve- ,, .	'  Í
-,	=   o qv	i J	2 1 0 b)	/ Wl ·¡	°t-
- 
-C v   -
- 
-d T	'v 11 ';"1,f,..."	.
- 
-r.
-,,...--JJ1 <
- 
-1, 11¿;J.. ,,	•J	'1J!:..jy'-üJ
-Esta forma de expresar e" sirve de base a la determinación calorimétrica de e,. . Para realizar esta determinación experimental se mide la cantidad de calor transferida a volumen constante a un determinado  sistema, q 12(v)'  necesaria para conseguir un incremento de temperatura  Li T'", y
- 
-e" será igual a ( ql2(v) I Li Tv ).	-	"", {, / f	) ,_.,	;oc.-.t9 =h lÍ.V.
- 
-1; !lif ;; <•.r..:· ,/./
- 
-f /  . u.---  ,.<... }     (!_      'j/f..Cr   /	-	'U <-·/li-h-
-Teniendo en cuenta la posibilidad  de determinar   cv , se puede dar una expresión de du,
-para un sistema compresible simple, mediante la expresión:
+   du_v = c_v dT = \delta q_v
+
+por lo que otra forma de expresar :math:`c_v`  es hacerlo mediante la equivalencia:	
+
+.. math::
+
+   c_v = \frac{\delta q_v}{dT}
+
+Esta forma de expresar :math:`c_v` sirve de base a la determinación calorimétrica de :math:`c_v`. Para realizar esta determinación experimental se mide la cantidad de calor transferida a volumen constante a un determinado sistema, :math:`q_{12(v)}`,  necesaria para conseguir un incremento de temperatura  :math:`\Delta T_v`, y :math:`c_v` será igual a :math:`\frac{q_{12(v)}}{\Delta T_v}` 
 
 
+Teniendo en cuenta la posibilidad  de determinar :math:`c_v`, se puede dar una expresión de *du*, para un sistema compresible simple, mediante la expresión:
 
 
-19
- 
-2.Primera ley de la termodinámica. Postulado de estado
+.. math::
 
-
-
-11d 11 ,,   =  c ,, d T  +
+   du_v = c_v dT +  \left( \frac{\partial u}{\partial v} \right)_T dv
  
 
-[ ªa ll ]	d v
-V	T
- 
+'· Para analizar la aplicación del primer principio a un sistema que experimenta una transformación a presión constante, utilicemos la ecuación ( 2. 5 ).
 
-'· Para analizar la aplicación del primer principio a un sistema que experimenta una trans­ formación a presión constante, utilicemos la ecuación ( 2. 5 ).
-
-o qp  - p d vp  = d up	( 2. 1 1 )
+.. math::
+   
+   \delta q_p -p dv_p = du_p
 
  
 de donde
  
-o qp  = p d vp  + d llp  = d ( u  + pv ) p	( 2 . 12 )
+.. math::
+   
+   \delta q_p = p dv_p + du_p = d(u+pv)_p
  
 
-El conjunto de propiedades (u + pv ) se presenta de esta forma con la suficiente fre­ cuencia para que merezca la pena adscribir! ·un nombre especial y un símbolo especial: se le denomina ental_Qía y se representa por la letra h :
+El conjunto de propiedades (u + pv ) se presenta de esta forma con la suficiente frecuencia para que merezca la pena adscribirle un nombre especial y un símbolo especial: se le denomina entalpía y se representa por la letra *h*:
 
+.. math::
+
+   H \equiv U + pV\\
+   h \equiv u + pv
  
 H  - U  + p V
 F-
