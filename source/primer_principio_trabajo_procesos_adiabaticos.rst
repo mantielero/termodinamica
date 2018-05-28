@@ -30,8 +30,15 @@ definición. Ambos se basan en algunas de las experiencias de Joule.
 En el caso representado en la figura 2.1 la caída de un peso mueve una rueda de paletas
 y esto se traduce en el calentamiento del líquido en el que está introducida la rueda.
 
+
+.. figure:: ./img/fig2_1.png
+   :width: 50%
+   
 En el caso de la figura 2.2 el paso de una cierta intensidad de corriente a través de los
 límites del sistema, se traduce también en el calentamiento del líquido.
+
+.. figure:: ./img/fig2_2.png
+   :width: 50%
 
 Nonnalmente se supone que cuando hay un calentamiento (incremento de temperatura)
 es porque se ha suministrado una cierta cantidad de calor (estrictamente hablando todavía
