@@ -7,40 +7,13 @@ A efectos de cálculo, es conveniente analizar Jos distintos modos de trabajo qu
 
 
 
-2.3.1	Trabajo de expansión y compresión.
+Trabajo de expansión y compresión
+---------------------------------
 
-En los dispositivos utilizados para la transformación de energía térmica en energía me­ cánica se emplea con frecuencia la expansión de un gas contenido en un cilindro provisto de émbolo. A  continuación considera remos este caso con cierto detenimiento.
+En los dispositivos utilizados para la transformación de energía térmica en energía mecánica se emplea con frecuencia la expansión de un gas contenido en un cilindro provisto de émbolo. A  continuación considera remos este caso con cierto detenimiento.
 
-En la figura 2.6 se representa esquemáticamente una determinada masa de fluido con­ tenida en un cilindro provisto de un émbolo.
+En la figura 2.6 se representa esquemáticamente una determinada masa de fluido contenida en un cilindro provisto de un émbolo.
 
-
-
-
-
-
-
-
-
-10
- 
- 	 	 
-
-
-2.Primera ley de la termodinámica. Postulado de estado
-
-
-
- 
-
-... F a
- 
-p
-,. B
-r¡
-'P
-,.;
-l
- 
 
 
  
@@ -54,143 +27,118 @@ Figura 2.6  Trabajo -p dV
 
 Si en todo momento:
  
-p
-:.:_::··
- 
-1
-l	/  
-/
-/
-*dV	2    V
- 
+.. math::
 
-P  = P o  + A	y	F = - p A
+   p = p_o + \frac{F_a}{A} \\
+   F= -p A
  
 
 Siendo A la sección transversal  del émbolo:
 
-1 Wn =  Í
-!	1
-j	.
- 
+.. math::
 
-
-
-
-
-
-
-
-
-1
-- p d V
- 
-
-....... . j
- 
-
-
-
- 
-(2.3)
+   W_{12} = \int_1^2 -p dV
  
 Ya que la fuerza ejercida por el fluido contra la cara interior del émbolo es Ff = pA, la fuerza que ejercerá el medio ambiente sobre el sistema, si la evolución se realiza en condicio­ nes de casi equ ilibrio, será -p A para un desplazamiento infinitesimal se tendrá:
-o W = F dx =	-p A dx   = -p dV
-En el caso de considerar una transformación desde el estado 1 al 2, la expresión para el trabajo será la dada por (2.3) y su valor será el que corresponde al del área de la superficie li­ mitada por la gráfica que representa el proceso experimentado por el fluido, el eje de abscisas y los límites extremos de la transformación. Sólo en el caso de que, en todo momento, la pre­ sión del fluido esté equilibrada por la correspondiente a las acciones del medio ambiente sobre el sistema, se podrá expresar el trabajo en función de la presión del fluido mediante la expre­ sión (23). En este caso tendremos lo que se denomina una transformación cuasjestática, aun­ que, si no se impone ninguna otra condición , no necesariamente tendrá que ser reversible . Por el contrario toda transformación reversible es necesariamente cuasiestá!ica.
 
-La mayor parte de los procesos que tienen lugar en dispositivos de aplicación técnica, en una primera aproximación, pueden analizarse suponiendo que la transformación es cuasies­ tática, para lo cual es preciso que la velocidad del fluido en el dispositivo analizado sea peque­ ña frente a la velocidad del sonido en dicho fluido en las mismas condiciones (número de Mach menor que 1).
+.. math::
 
-En la figura 2.6 es fácil ver que_ la cantidad de__trahaj_u..ó.ptimo_qll.e puede Uite[f arnbiarse sfoi:maci0n con-un c_amQiQ de volumen .determinado,.-se. da para una transformaciÓ cuasies.tática, Supongase que la transformación  se realizara  en condiciones  de no-equilibrio  y
-considerese lo que ocurriría en los casos:
-
-11
  
-2.	Primera ley de la termodinámica. Postulado de estado
+   \delta W = F \cdot dx = -p \cdot  A  \cdot dx = -p \cdot dV
 
+En el caso de considerar una transformación desde el estado 1 al 2, la expresión para el trabajo será la dada por (2.3) y su valor será el que corresponde al del área de la superficie limitada por la gráfica que representa el proceso experimentado por el fluido, el eje de abscisas y los límites extremos de la transformación. Sólo en el caso de que, en todo momento, la presión del fluido esté equilibrada por la correspondiente a las acciones del medio ambiente sobre el sistema, se podrá expresar el trabajo en función de la presión del fluido mediante la expresión (23). En este caso tendremos lo que se denomina una transformación cuasjestática, aunque, si no se impone ninguna otra condición , no necesariamente tendrá que ser reversible. Por el contrario toda transformación reversible es necesariamente cuasiestática.
 
+La mayor parte de los procesos que tienen lugar en dispositivos de aplicación técnica, en una primera aproximación, pueden analizarse suponiendo que la transformación es cuasiestática, para lo cual es preciso que la velocidad del fluido en el dispositivo analizado sea pequeña frente a la velocidad del sonido en dicho fluido en las mismas condiciones (número de Mach menor que 1).
 
+En la figura 2.6 es fácil ver que_ la cantidad de trabajo óptimo que puede intercambiarse en una transformación con un cambio de volumen determinado, se da para una transformación cuasiestática. Supongase que la transformación  se realizara  en condiciones  de no-equilibrio  y considerese lo que ocurriría en los casos:
 
 a)	Compresión.
 
 b)	Expansión.
 
-a)	Si se quiere comprimir el gas y se realiza la compresión de forma no cuasietática, en
-todo momento tendrá que cumplirse que la acción ejercida por el medio ambiente sobre el sis­ tema produzca una fuerza, FÁ , que sea superior a [-p A, para conseguir el desplazamiento del
-, émbolo hacia la izquierda, por lo que la hipotética  trayectoria del proceso podria representarse por la linea de puntos AB , esta trayectoria limita sobre el diagrama p V una superficie mayor que la delimitada  por  la trayectoria  del proceso  cuasiestático  y por  Jo tanto  correspondería  a
-,    un trabajo realizado sobre el sistema mayor que el realizado en el mencionado  proceso.
+a)	Si se quiere comprimir el gas y se realiza la compresión de forma no cuasietática, en todo momento tendrá que cumplirse que la acción ejercida por el medio ambiente sobre el sistema produzca una fuerza, :math:`F_Á'`, que sea superior a :math:`-p A`, para conseguir el desplazamiento del émbolo hacia la izquierda, por lo que la hipotética  trayectoria del proceso podria representarse por la línea de puntos AB, esta trayectoria limita sobre el diagrama pV una superficie mayor que la delimitada  por la trayectoria  del proceso  cuasiestático  y por  lo tanto  correspondería  a un trabajo realizado sobre el sistema mayor que el realizado en el mencionado  proceso.
 
-b)	En este caso y siguiendo un razonamiento análogo al utilizado en el caso anterior, se llega a la conclusión de que la trayectoria seguida por la evolución estarla por debajo de la co­ rrespondiente a la transformación cuasiestática y por lo tanto el trabajo obtenido seria menor que el que se obtendria en la transformación cuasiestática correspondiente.
+b)	En este caso y siguiendo un razonamiento análogo al utilizado en el caso anterior, se llega a la conclusión de que la trayectoria seguida por la evolución estarla por debajo de la correspondiente a la transformación cuasiestática y por lo tanto el trabajo obtenido seria menor que el que se obtendria en la transformación cuasiestática correspondiente.
 
 A efectos de cálculo y para evitar posibles confusiones, es preciso destacar que:
 
 I)	El cálculo del trabajo de expansión (en general de cualquier forma de trabajo) en función de propiedades del sistema sólo es posible para procesos cuasiestáticos.
 
-II)	Cuando el proceso tiene lugar deforma no cuasiestática el cálculo o la medida del trabajo habrá que hacerlo mediante la utilización de propiedades o parámetros exter­ nos al sistema.
+II)	Cuando el proceso tiene lugar deforma no cuasiestática el cálculo o la medida del trabajo habrá que hacerlo mediante la utilización de propiedades o parámetros externos al sistema.
 
-III)	Desde el punto de vista termodinámico sólo es posible hablar de trabajo en interac­ ciones que puedan reducirse a determinados efectos en la frontera del sistema (elevación   de un peso).
+III)	Desde el punto de vista termodinámico sólo es posible hablar de trabajo en interacciones que puedan reducirse a determinados efectos en la frontera del sistema (elevación de un peso).
 
-2.3.2	Trabajo eléctrico.
+Trabajo eléctrico
+-----------------
 
-Al considerar el proceso de paso de una carga eléctrica a través de los límites de un sistema, vimos que este tipo de interacción correspondía plenamente a la definición termodiná­ mica de la interacción trabajo. Para su evaluación recuerdese del estudio elemental de la elec­ tricidad que el trabajo asociado al transporte de una carga d Qe a través de una diferencia de potencial  V es
+Al considerar el proceso de paso de una carga eléctrica a través de los límites de un sistema, vimos que este tipo de interacción correspondía plenamente a la definición termodiná­ mica de la interacción trabajo. Para su evaluación recuerdese del estudio elemental de la elec­ tricidad que el trabajo asociado al transporte de una carga :math:`dQ_e` a través de una diferencia de potencial  *V* es:
 
- 
-Teniendo en cuenta qu1 d ó -	1 crJ,siendo Ila intensidad de la corriente eléctrica, tendre-
- 
-mos entonces:
- 
--
----- -.,.
- 
-o W	= V  Idt
--------·-· -
+.. math::
 
-12
+   \delta W = V dQ_e
+
+Teniendo en cuenta que :math:`d Q_e =I \cdot dt`, siendo *I* la intensidad de la corriente eléctrica, tendremos entonces:
  
-2.Primera ley de la termodinámica. Postulado de estado
+.. math::
+
+   \delta W = V \cdot I \cdot dt
 
 
 
 
 Por lo que el trabajo asociado al paso de una intensidad I desde el instante 1 al 2, será:
 
-2
-W12 =	V 1 dt
+.. math::
 
-En la que V se mide en voltios, I en amperios y t en segundos.
+   W_{12} = \int_1^2 V \cdot I \cdot dt
 
-Cuando se estudia la descarga reversible de una pila electroquímica la diferencia de po­ tencial se sustituye por la f.e.m. de la pila e.
+En la que *V* se mide en voltios, *I* en amperios y *t* en segundos.
 
-2.3.3	Trabajo de superficie.
+Cuando se estudia la descarga reversible de una pila electroquímica la diferencia de potencial se sustituye por la f.e.m. de la pila e.
+
+Trabajo de superficie
+---------------------
 
 Para  un  líquido  se  define  la  tensión  superficial mediante la expresión:
-º¡
-dx
+
+.. math::
+
+   \Gamma = \frac{F}{2I} = \frac{F}{I}
 
  
 Figura 2.7 Esquema sistema de me- dida de la tensión superficial.
  
 
-Es 'decir fuerza por unidad de longitud necesaria para mantener una determinada superficie libre. En la figura 2. 7 se muestra un esquema que aclara esta de­ finición, el factor 2 que aparece en la fórmula tiene
- 
-en cuenta el hecho de que hay dos superficies libres en contacto con el lado móvil del bastidor. Para aumentar la superficie de A en dA, habrá que realizar untrabajo sobre el sistema:
+Es 'decir fuerza por unidad de longitud necesaria para mantener una determinada superficie libre. En la figura 2.7 se muestra un esquema que aclara esta definición, el factor 2 que aparece en la fórmula tiene en cuenta el hecho de que hay dos superficies libres en contacto con el lado móvil del bastidor. Para aumentar la superficie de A en dA, habrá que realizar untrabajo sobre el sistema:
  
 
-_¡_,·-----	··  -	-·- ·-·
-W  =  F dx   =  r L dx  =- r dA
+.. math::
+
+   \delta W = F dx = \Gamma L dx = \Gamma dA
  
-_f,
- 
 
-Los valores de la tensión superficial son del orden de 1O -2 N/m para la mayor parte de los líquidos , a pesar de su pequeñez, tienen una gran influencia en numerosos procesos indus­ triales ligados a tratamiento de minerales, fundición de metales, fabricación de detergentes, etc.
+Los valores de la tensión superficial son del orden de :math:`1O^{-2} \frac{N}{m}` para la mayor parte de los líquidos, a pesar de su pequeñez, tienen una gran influencia en numerosos procesos industriales ligados a tratamiento de minerales, fundición de metales, fabricación de detergentes, etc.
 
-2.3.4	Trabajo elástico.
+Trabajo elástico
+----------------
 
-El trabajo  realizado  para cambiar la longitud de un muelle o varilla metálica,  sometida a una fuerza F, en dx, viene dado por:
+El trabajo  realizado  para cambiar la longitud de un muelle o varilla metálica,  sometida a una fuerza *F*, en *dx*, viene dado por:
 
-o We = F dx
-En la que dx es igual  a d( l - l 1), siendo :
-lo, longitud del sistema no perturbado.
-l,longitud del sistema sometido a tensión.
+.. math::
+
+   \delta W_e = F dx
+   
+
+En la que:
+
+.. math::
+
+   dx = d(L-L_o)
+
+siendo:
+
+- :math:`L_o`: longitud del sistema no perturbado.
+- *L*: longitud del sistema sometido a tensión.
 
  
 
@@ -199,92 +147,85 @@ l,longitud del sistema sometido a tensión.
 L	L
 Figura 2.8. Trabajo elstico
  
-En los materiales elásticos ideales es apli­ cable la ley de Hooke, es decir la fuerza que actúa sobre el sistema es proporcional a la deformación producida:
+En los materiales elásticos ideales es aplicable la ley de Hooke, es decir la fuerza que actúa sobre el sistema es proporcional a la deformación producida:
 
- 
-13
- 
-2.Primera ley de la termodinámica. Postulado de estado
+.. math::
 
+   F = k_E x = k_e (L- L_o)
 
 
-
-ke es la denominada constante elástica del sistema.
+:math:`k_e` es la denominada constante elástica del sistema.
 
  
 
-es:
- 
-El trabajo  realizado  sobre el sistema cuando éste se lleva desde una longitud L 1  a L2
- 
 
  
-2
-F d( L - La )  =
+El trabajo  realizado  sobre el sistema cuando éste se lleva desde una longitud :math:`L_1`  a :math:`L_2` es:
  
-f	k.
- 
-( L - Lo)  d( L - Lo )   = !
- 
-t ke [ ( L 2  - Lo ) 2  - ( L ¡
- 
-- La ) 2 ]
+.. math::
+
+   W_{12} &= \int_1^2 F d(L-L_o) = \int_1^2 k_e (L-L_o) d(L-L_o) = \\
+   &=\frac{1}{2} k_e \left[ (L_2-L_o)^2 - (L_1 - L_o)^2 )\right]
  
 
-Para un sólido en general, aunque no sea en forma de alambre o varilla, la ley de Hoo­ ke es aplicable dentro del límite elástico, aui:iq ue en estos casos se suele expresar el trabajo elástico en función de la deformación unitaria E = (L - L"3fi   el esfuerzo normal / a = FI
-(Aº  es la sección transversal del material no sometido a esfuéfio)  Como expresión del-rral5aJO para este caso se obtiene:
+Para un sólido en general, aunque no sea en forma de alambre o varilla, la ley de Hooke es aplicable dentro del límite elástico, aui:iq ue en estos casos se suele expresar el trabajo elástico en función de la deformación unitaria :math:`\epsilon = \frac{(L - L_o)}{L}` el esfuerzo normal :math:`\sigma = \frac{F}{A}`
+(:math:`A_o` es la sección transversal del material no sometido a esfuerzo). Como expresión del-rral5aJO para este caso se obtiene:
 
-oWe = F d( L - Lo )  = a A a lo d E	Va a d E
+.. math::
 
-en la que l '0  será el volumen del material sin deformar.
+   \delta W_e  = F d(L-L_o) = \sigma A_o L_o d\epsilon = V_o \sigma d\epsilon
 
-En los estudios de resistencia de materiales  se utiliza  como parámetro  característico  de la sustancia el denominadolmódulo de You ng Er = (J I E. Este parámetro tiene la propiedad de mantenerse  constante cuando el material  se utiliza dentro  de su límite elástico.  Sustituyendo
-(J en función de Er en la ecuación anterior, se obtiene:
+en la que :math:`V_o` será el volumen del material sin deformar.
 
+En los estudios de resistencia de materiales  se utiliza  como parámetro  característico  de la sustancia el denominado módulo de Young :math:`E_T = \frac{\sigma}{\epsilon}`. Este parámetro tiene la propiedad de mantenerse  constante cuando el material  se utiliza dentro  de su límite elástico.  Sustituyendo :math:`\sigma` en función de :math:`E_T` en la ecuación anterior, se obtiene:
 
+.. math::
+
+   \delta W_e = V_o E_T \epsilon d\epsilon
  
 
-Por lo que, dentro del límite elástico, el trabajo transferido en un proceso que lleve al sólido desde la deformación unitaria  E 1   a  E :; vendrá dado por
--¡ rr;rr,r 12   = T.-  o E T  E   - E 	
-1
-1
+Por lo que, dentro del límite elástico, el trabajo transferido en un proceso que lleve al sólido desde la deformación unitaria  :math:`\epsilon_1` a  :math:`\epsilon_2` vendrá dado por
 
-Ecuación equivalente a la obten.ida para la deformación elástica de un muelle o varilla delgada.
+.. math::
 
-2.3.5	Trabajo de magnetización y de polarización.
+   W_{12} = V_o E_T \frac{\epsilon_2^2 - \epsilon_1^2}{2}
 
-En el estudio de la electricidad y el electromagnetismo se demuestra que el trabajo rea­ lizado al incrementar la magnetización de una sustancia debido a la variación del campo mag­ nético al que se encuentra sometida, viene dado por:
-l
-·	O Wnragnen:acwn.._= V g9H dM
 
+Ecuación equivalente a la obtenida para la deformación elástica de un muelle o varilla delgada.
+
+Trabajo de magnetización y de polarización
+------------------------------------------
+
+En el estudio de la electricidad y el electromagnetismo se demuestra que el trabajo realizado al incrementar la magnetización de una sustancia debido a la variación del campo magnético al que se encuentra sometida, viene dado por:
+
+.. math::
+
+   \delta W_{\text{magnetización}} = V \mu_o H dM
  
 en la que:
  
-H = intensidd d_l campo 1:1agnético, se expresa en m -1s-1C
-)M = magnetizac1on por urudad de volumen (m- 1 s - 1 ()
-µ.o= permeabilidad  magnética del vacío (1, 3566 X  10 -6 mkgC -2 )
-l	V = volumen de la sustancia.
-
-14
- 
-2.Primera ley de la termodinámica. Postulado de estado
+- *H* = intensidd del campo magnético, se expresa en :math:`\left[ \frac{C}{m \cdot s}\right]`
+- *M* = magnetizac1on por urudad de volumen  :math:`\left[ \frac{C}{m \cdot s}\right]`
+- :math:`\mu_o`: permeabilidad  magnética del vacío (:math:`1.3566 \cdot 10^{-6} \frac{m\cdot kg}{C^{-2}}`)
+- *V* = volumen de la sustancia.
 
 
-De forma análoga se encuentra que el trabajo eléctrico ligado a la variación de la pola­ rización de un dieléctrico en un campo eléctrico es:
+De forma análoga se encuentra que el trabajo eléctrico ligado a la variación de la polarización de un dieléctrico en un campo eléctrico es:
 
-.O TYpo/an::ación = V E • dP
-;!  ,.,,..--..--·-· .
+.. math::
 
-en la que:	E	vector intensidad campo eléctrico (m kg s-2 c-1  )
-¡!- = vector polarización eléctrica (e m -2  )
-¡ V  = volumen del dieléctrico.
-1
-1
-2.3.6	Interacciones generalizadas de trabajo. Dependencia de la trayectoria.
+   \delta W_{\text{polarización}} = V \vec{E} \cdot \vec{dP}
 
-Se ha visto que en todas las formas de trabajo examinadas siempre se da el producto de u na magnitud  intensiva  (p,E,H,   etc) por  la variación  de una  magnitud  extensiva  (dV,
-( VP), d(VM),  etc.). Por lo que se podría  generalizar este hecho  expresando  la interacción rabajo como el producto de una fuerza generalizada F (la correspondiente magnitud intensi­
-a) por un desplazamiento generalizado-:_cIX (eneíq'i:i;Mx será la correspondiente magnitud ex­ ensiva) . Párá las diversas formas..de trabajo examinadas se tendría:
+en la que:	
+
+- :math:`\vec{E}`: vector intensidad campo eléctrico :math:`\left[ \frac{m \cdot kg}{s^{-2} \cdot C^{-1}}\right]`
+- :math:`\vec{P}`: vector polarización eléctrica :math:`\left[ \frac{C}{m^2}\right]`
+- *V*: volumen del dieléctrico.
+
+Interacciones generalizadas de trabajo. Dependencia de la trayectoria
+---------------------------------------------------------------------
+
+Se ha visto que en todas las formas de trabajo examinadas siempre se da el producto de u na magnitud  intensiva  (*p*, :math:`\vec{E}`, :math:`\vec{H}`, etc) por  la variación  de una  magnitud  extensiva  (*dV*, :math:`d(V\vec{P})`, :math:`d(V\vec{M})`,  etc.). Por lo que se podría  generalizar este hecho  expresando  la interacción rabajo como el producto de una fuerza generalizada *F* (la correspondiente magnitud intensiva) por un desplazamiento generalizado *dX* (en el que i:i;Mx será la correspondiente magnitud ex­ ensiva) . Párá las diversas formas..de trabajo examinadas se tendría:
 
 Sistema	F	X		Trabajo cuasiestático
 Fluido	p	V	-p dV
