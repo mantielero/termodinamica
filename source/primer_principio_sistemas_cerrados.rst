@@ -102,13 +102,14 @@ El conjunto de propiedades (u + pv ) se presenta de esta forma con la suficiente
    H \equiv U + pV\\
    h \equiv u + pv
  
-H  - U  + p V
-F-
-1	h	- u	+ p v _
  
-( 2. 13 a )
-( 2. 13 b )
- 
+
+
+
+
+
+
+
 
 Por ser una combinación de propiedades termodinámicas , también es una propiedad
 /_ termodinámica  y para un  sistema simple podrá expresarse en función  de   dos propiedades  ter­
