@@ -57,6 +57,6 @@ Este sistema de ecuaciones se podrá resolver  respecto a *u* y *v*, obteniéndo
    u= u(T,p) \\
    v = v(T,p)
 
-Por lo que, dados los valores de dos propiedades (T y p, por ejemplo) de un sistema simple compresible (en cualquier otro sistema simple serian otras propiedades caracteristicas del mismo) se puede, en principio, determinar los valores de u y v y por lo tanto el estado del sistema. Por lo tanto, se puede inferir que dos propiedades termodinámicas independientes cualesquiera de un sistema homogéneo compresible simple definen el estado del mismo.
+Por lo que, dados los valores de dos propiedades (*T* y *p*, por ejemplo) de un sistema simple compresible (en cualquier otro sistema simple serían otras propiedades caracteristicas del mismo) se puede, en principio, determinar los valores de *u* y *v* y por lo tanto el estado del sistema. Por lo tanto, se puede inferir que dos propiedades termodinámicas independientes cualesquiera de un sistema homogéneo compresible simple definen el estado del mismo.
 
-Téngase en cuenta que la forma que toman estas relaciones no la proporciona la ter­ modinámica. Estas relaciones pueden obtenerse o experimentalmente, o mediante la teoría cinético-molecular y la fisica estadística. No obstante, desde el punto de vista de la tennodiná­ mica lo importante es que estas relaciones existen y que puede recurrir a ellas cuando las nece­ sita.
+Téngase en cuenta que la forma que toman estas relaciones no la proporciona la termodinámica. Estas relaciones pueden obtenerse o experimentalmente, o mediante la teoría cinético-molecular y la fisica estadística. No obstante, desde el punto de vista de la tennodinámica lo importante es que estas relaciones existen y que puede recurrir a ellas cuando las necesita.
