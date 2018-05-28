@@ -224,6 +224,7 @@ Interacciones generalizadas de trabajo. Dependencia de la trayectoria
 ---------------------------------------------------------------------
 
 Se ha visto que en todas las formas de trabajo examinadas siempre se da el producto de u na magnitud  intensiva  (*p*, :math:`\vec{E}`, :math:`\vec{H}`, etc) por  la variación  de una  magnitud  extensiva  (*dV*, :math:`d(V\vec{P})`, :math:`d(V\vec{M})`,  etc.). Por lo que se podría  generalizar este hecho  expresando  la interacción rabajo como el producto de una fuerza generalizada *F* (la correspondiente magnitud intensiva) por un desplazamiento generalizado *dX* (en el que *X* será la correspondiente magnitud extensiva). Para las diversas formas..de trabajo examinadas se tendría:
+
 +----------------------+----------------------+-------------------+---------------------------------------------+
 | Sistema              | F                    | X                 | Trabajo cuasiestático                       |
 +======================+======================+===================+=============================================+
