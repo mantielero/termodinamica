@@ -1,10 +1,8 @@
 Primera Ley de la Termodínamica. Postulado de Estado
 ====================================================
 
-2. PRIMER PRINCIPIO DE LA TERMODINÁMICA. POSTULADO DE ESTADO.
-
-
-Introducción.
+Introducción
+------------
 
 En mecánica básica se han estudiado las formas de energía ligadas al movimíento de un cuerpo (energías cinéticas de traslación y rotación) y a su posición en el campo gravitatorio (energía potencial). En electromagnetismo se considera la energía de una partícula cargad:! en el campo eléctrico y magnético y también se ha estudiado en químíca la energía de enlace de los átomos y moléculas.
 
@@ -27,7 +25,8 @@ Para tma exposición detallada sobre el desarrollo histórico de este problema e
  
 I
 
-2.Primera ley de la termodinámica. Postulado de estado
+Primera ley de la termodinámica. Postulado de estado
+----------------------------------------------------
 
 
 dad de transformación de la energía en el diseño de máquinas útiles. También veremos que mientras que esposible  convertir completamente trabajo en calor la inversa no es cierta.
@@ -36,7 +35,8 @@ En este tema se considerará una de las leyes más importantes de la termodinám
 
 También se verá como pueden relacionarse las interacciones con las que puede variarse el estado de un sistema con el número de variables necesarias para definir el estado termodiná­ mico del mismo. Es el denominado postulado de estado.
 
-2.1 El concepto de trabajo y los procesos adiabáticos.
+El concepto de trabajo y los procesos adiabáticos
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Es conocida la definición mecánica  de trabajo como el producto de la fuerza por el desplazamiento de su punto de aplicación. Para un desplazamiento diferencial, se tiene:
 
@@ -151,7 +151,8 @@ Como se ha visto en el tema anterior, si el límite de un sistema está formado 
 Para poder interaccionar con sistemas rodeados por paredes adiabáticas es preciso que haya algún límite móvil o que un eje o carga eléctrica pueda atravesar la frontera del sistema, dicho de otra forma: espreci so que pueda realizarse trabajo.
 
 
-2.2 Primer principio.
+Primer principio
+^^^^^^^^^^^^^^^^
 
 Utilizando los conceptos  y  definiciones  expuestos  hasta  aquí, procederemos  a  enun­ ciar la primera gran generalización de la termodinámica , el denominado primer principio o primera ley de la termodinámica. Como se ha dicho es un enunciado y no una demostración , ya que partiendo de hechos experimentalmente demostrables, se generalizan hasta elevarlos a la categoría de principio universal, cuya única validación consiste en comprobar experi­ mental o teóricamente la verificación de las consecuencias que de él se deducen.
 
@@ -391,7 +392,9 @@ d.e influencias externas (intrínsecas). Estas últimas son las que componen la 
 \sistema
  
 ,J,,, .........   t ¿,-   - "'	I	l. ., ::;  Q	·'
-2.3	Trabajo en procesos cuasiestáticos.
+
+Trabajo en procesos cuasiestáticos
+----------------------------------
 
 Se ha visto que la interacción trabajo se da en el límite del sistema cuando el efecto sobre el medio ambiente puede sustituirse por la elevación de un peso, si es el sistema el que realiza el trabajo.
 
@@ -719,7 +722,8 @@ correspondientes estados inicial y final y de la trayectoria seguida por el proc
 
 Aunque ya se ha mencionado es conveniente insistir  en que, a diferencia de la energía total del sistema que sólo es función de estado del sistema y por tanto su variación sólo depen­ de del estado inicial y final del proceso, las cantidades de calor y trabajo intercambiadas en el proceso dependerán de la naturaleza del mismo y sólo su suma será igual a la variación de energía y por lo tanto será función únicamente de los estados extremos del sistema en el  pro­ ceso. Al hacer los balances de energía calor y trabajo en el sistema, es muy importante que es­ to se tenga muy presente.
 
-2.4	Postulado de estado. Sistemas simples.
+Postulado de estado. Sistemas simples
+-------------------------------------
 
 Como ya mencionamos en el tema anterior, el número de propiedades termodinámicas que definen el estado de un sistema está perfectamente definido y, por lo tanto, no todas las propiedades termodinámicas de un sistema se pueden hacer variar independientemente unas de otras.
 
