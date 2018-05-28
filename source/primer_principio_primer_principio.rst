@@ -206,11 +206,4 @@ En sistemas en los que se producen reacciones químicas los cambios de energía 
 
 También en los sistemas en los que se producen reacciones nucleares hay cambios de energía interna debido a la transformación de especies atómicas. Conviene destacar que en el caso de reacciones químicas el cambio de configuración esta ligado a la forma en la que están dispuestos los átomos formando distintas moléculas, mientras que en el caso de una reacción nuclear son los constituyentes fundamentales de la materia los que se reordenan formando distintos átomos. En este último caso al realizar el balance de energía habrá que tener en cuenta la equivalencia de masa y energía.
 
-Hay una distinción clara entre las variaciones de energía de un sistema debidas a la pre-
-1  sencia de campos de fuerzas exteriores y la posible variación en las coordenadas del sistema
-\ respecto a marcos de coordenadas exteriores al mismo (extrínsecas) y las que se deben  a cam­
-J    bios que tienen lugar en el interior del sistema, dependiendo de su naturaleza e independientes
-d.e influencias externas (intrínsecas). Estas últimas son las que componen la energía interna del
-\sistema
- 
-,J,,, .........   t ¿,-   - "'	I	l. ., ::;  Q	·'
+Hay una distinción clara entre las variaciones de energía de un sistema debidas a la presencia de campos de fuerzas exteriores y la posible variación en las coordenadas del sistema respecto a marcos de coordenadas exteriores al mismo (extrínsecas) y las que se deben  a cambios que tienen lugar en el interior del sistema, dependiendo de su naturaleza e independientes de influencias externas (intrínsecas). Estas últimas son las que componen la energía interna del sistema.
