@@ -6,10 +6,10 @@ desplazamiento de su punto de aplicación. Para un desplazamiento diferencial, s
 
 .. math::
 
-   \delta W = F_s ds = \arrow F \cdot \arrow{dr} = \overline{F} \cdot \overline{v} dt
+   \delta W = F_s ds = \vec F \cdot \vec{dr} = \overline{F} \cdot \overline{v} dt
 
 
-En el primer caso :math:`F_s` es la componente de la fuerza paralela a la trayectoria y *ds* el desplazamiento a lo largo de la trayectoria, mientras que :math:`\arrow{F}` y :math:`\arrow{dr}` representan, en general, los vectores fuerza y variación del vector de posición. Para calcular el trabajo, involucrado en un proceso finito habría que realizar la integral a lo largo de la trayectoria, por lo que se tendría que conocer la relación funcional (*F*, *s*) o (:math:`\arrow{F}`, :math:`\arrow{dr}`).
+En el primer caso :math:`F_s` es la componente de la fuerza paralela a la trayectoria y *ds* el desplazamiento a lo largo de la trayectoria, mientras que :math:`\vec{F}` y :math:`\vec{dr}` representan, en general, los vectores fuerza y variación del vector de posición. Para calcular el trabajo, involucrado en un proceso finito habría que realizar la integral a lo largo de la trayectoria, por lo que se tendría que conocer la relación funcional (*F*, *s*) o (:math:`\vec{F}`, :math:`\vec{dr}`).
 
 En termodinámica, al ser el trabajo una interacción entre sistema y medio ambiente, se
 debe analizar el proceso que se considere viendo lo que ocurre en la zona de influencia de ambos,
