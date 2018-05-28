@@ -17,11 +17,9 @@ En la figura 2.6 se representa esquemáticamente una determinada masa de fluido 
 
 
  
+.. figure:: ./img/trabajo_pdV.png
 
-
-
-
-Figura 2.6  Trabajo -p dV
+   Trabajo -p dV
 
 
 
@@ -105,8 +103,10 @@ Para  un  líquido  se  define  la  tensión  superficial mediante la expresión
 
    \Gamma = \frac{F}{2I} = \frac{F}{I}
 
+
+.. figure:: ./img/tension_superficial.png
  
-Figura 2.7 Esquema sistema de me- dida de la tensión superficial.
+   Esquema sistema de me- dida de la tensión superficial.
  
 
 Es 'decir fuerza por unidad de longitud necesaria para mantener una determinada superficie libre. En la figura 2.7 se muestra un esquema que aclara esta definición, el factor 2 que aparece en la fórmula tiene en cuenta el hecho de que hay dos superficies libres en contacto con el lado móvil del bastidor. Para aumentar la superficie de A en dA, habrá que realizar untrabajo sobre el sistema:
@@ -141,11 +141,9 @@ siendo:
 - *L*: longitud del sistema sometido a tensión.
 
  
+.. figure:: ./img/trabajo_elastico.png
 
-
-
-L	L
-Figura 2.8. Trabajo elstico
+   Trabajo elstico
  
 En los materiales elásticos ideales es aplicable la ley de Hooke, es decir la fuerza que actúa sobre el sistema es proporcional a la deformación producida:
 
@@ -248,8 +246,9 @@ Se ha visto que en todas las formas de trabajo examinadas siempre se da el produ
 
 
 
+.. figure:: ./img/trabajo_generalizado.png
 
-Figura 2.9  Trabajo generalizado
+   Trabajo generalizado
  
 Para representar un proceso cualquiera se podría recurrir a un diagrama generalizado F, X. En este diagrama se puede ver , figura 2.9, que el trabajo intercambiado para llevar al sistema desde un determinado estado 1 a otro 2 depende de la trayectoria seguida en este proceso y no únicamente del estado inicial y final. Ya que el valor de las áreas encerradas por las correspondientes trayecto­ rias y el eje de abscisas, que representan el trabajo cua­ siestático intercambiado en el proceso, dependen de los correspondientes estados inicial y final y de la trayectoria seguida por el proceso, como ya se vio anteriormente.
  
