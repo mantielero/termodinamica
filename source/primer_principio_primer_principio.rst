@@ -134,7 +134,7 @@ Es conveniente volver a insistir en que tanto *Q* como *W* nos indican interacci
 
 .. note::
 
-   (2) Primera ley de la termodinámica. Postulado de estado
+   (2) En el apartado siguiente se considerará más detenidamente el concepto de energia interna.
 
 En el estudio de sistemas cerrados es conveniente hacer referencia a valores de las magnitudes correspondientes a la unidad de masa del sistema, cuando este sea el caso se utili­ zarán como símbolos de las magnitudes consideradas:
 
@@ -157,30 +157,20 @@ Según hemos, visto para un sistema y proceso determinados
    \Delta E = Q_{12}  + W_{12}
  
 
-Para poder evaluar esta expresión es conveniente saber qué tipos de energías están in­ volucradas en el proceso. Conocido este dato, se podría recurrir a otras ramas de la Física pa­ ra su posible evaluación.
+Para poder evaluar esta expresión es conveniente saber qué tipos de energías están involucradas en el proceso. Conocido este dato, se podría recurrir a otras ramas de la Física para su posible evaluación.
 
-Si lo dicho anteriormente es posible hacerlo, todavía habría que conocer alguno de los otros dos términos.  En general, el trabajo sabemos cómo evaluarlo y más adelante, en este mismo tema, se insistirá en como tener en cuenta las distintas formas de trabajo con las que podemos estar relacionados, por lo tanto será fácil evaluar Q12   .  En otros casos, lo que se ha-
-
-
- 
-En el apartado siguiente se considerará más detenidamente el concepto de energia interna.
-
-8
- 
+Si lo dicho anteriormente es posible hacerlo, todavía habría que conocer alguno de los otros dos términos.  En general, el trabajo sabemos cómo evaluarlo y más adelante, en este mismo tema, se insistirá en como tener en cuenta las distintas formas de trabajo con las que podemos estar relacionados, por lo tanto será fácil evaluar :math:`Q_{12}`.  En otros casos, lo que se hace es asignar un valor al calor (con frecuencia cero) y la relación anterior se podrá utilizar para evaluar otras magnitudes del proceso.
 
 
+**Nos centraremos ahora en el estudio de la naturaleza de las distintas formas en las que un sistema cerrado puede almacenar energía**
 
-ce es asignar un valor al calor (con frecuencia cero) y la relación anterior se podrá utilizar para evaluar otras magnitudes del proceso.
+Del estudio de mecánica es conocido que un sistema puede tener energía debido a su posición en el campo gravitatorio :math:`\Delta E_p` así como debido a su velocidad (traslación :math:`\Delta E_{ct}`  y rotación :math:`\Delta E_{cr}`). Por lo tanto de aquí se obtienen tres posibles contribuciones a :math:`\Delta E` :
 
- 
-Nos centraremos ahora en el estudio de la naturaleza de las distintas formas en las que un sistema cerrado puede almacenar  enera. .
+.. math::
 
-Del estudio de mecánica es conocido que un sistema puede tener energía debido a su posición en el campo gravitatorio Mp así como debido a su velocidad (traslación;Mcr y rota­ ción1Mcr ). Por lo tanto de aquí se obtienen tres posibles contribuciones a M :
-
- 
-_ J	-Ep  -
- 
-Mcr
+   \Delta E_p \\
+   \Delta E_{ct} \\
+   \Delta E_{cr}
  
 Si el sistema está en presencia de campos eléctricos y/o magnéticos, también se pueden generar contribuciones que corresponden a estos tipos de energía:
 
