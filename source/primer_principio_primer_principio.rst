@@ -1,55 +1,32 @@
 Primer principio
 =================
 
-Utilizando los conceptos  y  definiciones  expuestos  hasta  aquí, procederemos  a  enun­ ciar la primera gran generalización de la termodinámica , el denominado primer principio o primera ley de la termodinámica. Como se ha dicho es un enunciado y no una demostración , ya que partiendo de hechos experimentalmente demostrables, se generalizan hasta elevarlos a la categoría de principio universal, cuya única validación consiste en comprobar experi­ mental o teóricamente la verificación de las consecuencias que de él se deducen.
+Utilizando los conceptos  y  definiciones  expuestos  hasta  aquí, procederemos  a  enunciar la primera gran generalización de la termodinámica , el denominado primer principio o primera ley de la termodinámica. Como se ha dicho es un enunciado y no una demostración , ya que partiendo de hechos experimentalmente demostrables, se generalizan hasta elevarlos a la categoría de principio universal, cuya única validación consiste en comprobar experimental o teóricamente la verificación de las consecuencias que de él se deducen.
+
+.. figure:: ./img/w_mecanico_adiabatico.png
+   :width: 50%
+   
 
 
-
-
-
-
-
-
-
-
-
-
-4
- 
-2.Primera ley de la tef"!lodinámica. Postulado de estado
-
-
-
-
-
+.. figure:: ./img/w_electrico_adiabatico.png
+   :width: 50%
  
 
+.. figure:: ./img/w_mecanico_electrico_adiabatico.png
+   :width: 50%
 
 
-w
-\lec:iniro, Adia bátiL-o
- 
+Para llevar al sistema desde un  estado 1 a un estado 2 determinados, el trabajo transferido en distintos procesos es:
 
-w \1
- 
-w ·\l.---t--l+1---lg----1 I :
- 
-w
-Ekctrico T \1ecánico, adiabático
+.. math::
 
+   W_M = W_E = W_M' +W_E' 
 
-w
-Eh!ctrico, Adiabático
-
-
-
-Para lleva r al sistema desde un  estado 1 a un estado 2 detenninados
 W	=  W	=  W '	+	W '
 \1	E	M	E
 
-Figura 2.5. Trabajo transferido en distintos procesos
 
-Para enunciar este primer principio, consideremos las experiencias utilizadas anterior­ mente para definir trabajo adiabático y haciendo uso de los dos métodos indicados, paletas y resistencia eléctrica, llevemos adiabáticamente una determinada masa  de fluido desde unas condiciones iniciales definidas por (T1  , p 1  ), a unas condiciones finales representadas por (T2
+Para enunciar este primer principio, consideremos las experiencias utilizadas anteriormente para definir trabajo adiabático y haciendo uso de los dos métodos indicados, paletas y resistencia eléctrica, llevemos adiabáticamente una determinada masa  de fluido desde unas condiciones iniciales definidas por (T1  , p 1  ), a unas condiciones finales representadas por (T2
 ,pi). En ambos casos las condiciones iniciales y finales son las mismas, la experiencia demues­
 tra que el trabajo mecánico y eléctrico realizado en condiciones adiabáticas para conseguir un determinado cambio de estado de un sistema es el mismo:
 
