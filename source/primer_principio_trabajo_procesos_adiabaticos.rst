@@ -49,9 +49,16 @@ los recipientes que contienen el fluido por los sistemas que se indican en las f
 En el primer caso el peso en su caída eleva un peso en el medio ambiente, por lo que la
 interacción que se produce entre sistema y medio ambiente es la que hemos denominado trabajo.
 
-Figura 2.3 Esquema equivalente a la figura 2. 1
+.. figure:: ./img/fig2_3.png
+   :width: 50%
+   
+   Esquema equivalente a la figura 2. 1
 
-Figura 2.4 Esquema equivalente a la figura 2.2
+
+.. figure:: ./img/fig2_4.png
+   :width: 50%
+   
+   Esquema equivalente a la figura 2.2
 
 Cuando sustituimos por el motor eléctrico el recipiente primitivo, también conseguimos
 elevar un peso por el paso de la corriente eléctrica, pero simultáneamente se produce, en
