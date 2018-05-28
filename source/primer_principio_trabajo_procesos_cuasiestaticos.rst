@@ -225,43 +225,34 @@ en la que:
 Interacciones generalizadas de trabajo. Dependencia de la trayectoria
 ---------------------------------------------------------------------
 
-Se ha visto que en todas las formas de trabajo examinadas siempre se da el producto de u na magnitud  intensiva  (*p*, :math:`\vec{E}`, :math:`\vec{H}`, etc) por  la variación  de una  magnitud  extensiva  (*dV*, :math:`d(V\vec{P})`, :math:`d(V\vec{M})`,  etc.). Por lo que se podría  generalizar este hecho  expresando  la interacción rabajo como el producto de una fuerza generalizada *F* (la correspondiente magnitud intensiva) por un desplazamiento generalizado *dX* (en el que i:i;Mx será la correspondiente magnitud ex­ ensiva) . Párá las diversas formas..de trabajo examinadas se tendría:
+Se ha visto que en todas las formas de trabajo examinadas siempre se da el producto de u na magnitud  intensiva  (*p*, :math:`\vec{E}`, :math:`\vec{H}`, etc) por  la variación  de una  magnitud  extensiva  (*dV*, :math:`d(V\vec{P})`, :math:`d(V\vec{M})`,  etc.). Por lo que se podría  generalizar este hecho  expresando  la interacción rabajo como el producto de una fuerza generalizada *F* (la correspondiente magnitud intensiva) por un desplazamiento generalizado *dX* (en el que *X* será la correspondiente magnitud extensiva). Para las diversas formas..de trabajo examinadas se tendría:
++----------------------+----------------------+-------------------+--------------------------------------------+
+| Sistema              | F                    | X                 | Trabajo cuasiestático                                                      |
++======================+======================+===================+============================================+
+| Fluido               | p                    | V	              |-p dV                  |
++----------------------+----------------------+-------------------+--------------------------------------------+
+| Carga eléctrica      | V o :math:`\epsilon` | :math:`Q_e`       | :math:`V dQ_e \hspace{0.5cm} \epsilon dQ_e` | 
++----------------------+----------------------+-------------------+--------------------------------------------+
+| Superficie líquidos  | :math:`\Gamma`       | A                 | :math:`\Gamma dA`                      | 
++----------------------+----------------------+-------------------+--------------------------------------------+
+| Muelles o varillas   | F                    | :math:`L-L_o`     | :math:`Fd(L-L_o)`                       |
++----------------------+----------------------+-------------------+--------------------------------------------+
+|                      | :math:`\sigma`       | :math:`\epsilon`  | :math:`V \sigma d\epsilon`            |
++----------------------+----------------------+-------------------+--------------------------------------------+
+| Dieléctrico          | :math:`\vec{E}`      | :math:`V \vec{P}  | :math:`\vec{E} \cdot d(V \vec{P})`      |
++----------------------+----------------------+-------------------+--------------------------------------------+
+| Sustancia magnética  | :math:`\vec{H}`      | :math:`V \vec{M}` | :math:`\mu_o \vec{H} V \vec{M}`       |
++----------------------+----------------------+-------------------+--------------------------------------------+
 
-Sistema	F	X		Trabajo cuasiestático
-Fluido	p	V	-p dV
-Carga eléctrica	V o e,	Qe	V dQe   e, dQ. Superficie líquidos	r	A	r dA
-Muelles o varillas	F	L-L	F d(L-LJ
--(f	e, -	-Va de,  -
  
-Dieléctrico
-
-Sustancia magnética
- 
--]:,º	V -P	},' •-d ( VP)
- 
-H	VM	µºH d(VM)
-
- 
-
-
-F
 
 
 
-
-
-
-
-X   1	X  2	X
 
 Figura 2.9  Trabajo generalizado
  
 Para representar un proceso cualquiera se podría recurrir a un diagrama generalizado F, X. En este diagrama se puede ver , figura 2.9, que el trabajo intercambiado para llevar al sistema desde un determinado estado 1 a otro 2 depende de la trayectoria seguida en este proceso y no únicamente del estado inicial y final. Ya que el valor de las áreas encerradas por las correspondientes trayecto­ rias y el eje de abscisas, que representan el trabajo cua­ siestático intercambiado en el proceso, dependen de los correspondientes estados inicial y final y de la trayectoria seguida por el proceso, como ya se vio anteriormente.
  
-
-15
- 
-2.Primera ley de la tennodinámica. Postulado de estado
 
 
 correspondientes estados inicial y final y de la trayectoria seguida por el proceso, como ya se vio anteriormente .
