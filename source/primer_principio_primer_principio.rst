@@ -124,7 +124,9 @@ En donde se utilizan los símbolos :math:`\delta` para tener en cuenta el hecho 
 
 Como ya se ha dicho, los valores que toman :math:`Q_{12}` y :math:`Q_{12}`  no sólo dependerán de los es­ tados inicial y final, sino que también dependerán de la trayectoria seguida en el proceso, así que definidos los correspondientes estados 1 y 2, los valores de Q 12 y W12 dependerán de la trayectoria seguida y de aquí que no se pueda hablar de incrementos de las correspondientes magnitudes, sino de valores de las mismas involucrados en el proceso. Recuerdese que en el caso de E, por ser función de estado, se tiene:
 
- 
+.. math::
+
+   \int_1^2  dE = \Delta E = E_2 - E_1 
 
 ya que sólo depende de los estados extremos del proceso.
 
