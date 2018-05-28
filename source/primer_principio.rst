@@ -10,6 +10,7 @@ Primera Ley de la Termodínamica. Postulado de Estado
    primer_principio_trabajo_procesos_adiabaticos
    primer_principio_primer_principio
    primer_principio_trabajo_procesos_cuasiestaticos
+   primer_principio_postulado_estado_sistemas_simples
    primer_principio_postulado_estado
  
 
