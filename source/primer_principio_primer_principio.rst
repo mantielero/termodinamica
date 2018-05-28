@@ -22,111 +22,107 @@ Para llevar al sistema desde un  estado 1 a un estado 2 determinados, el trabajo
 
    W_M = W_E = W_M' +W_E' 
 
-W	=  W	=  W '	+	W '
-\1	E	M	E
 
+Para enunciar este primer principio, consideremos las experiencias utilizadas anteriormente para definir trabajo adiabático y haciendo uso de los dos métodos indicados, paletas y resistencia eléctrica, llevemos adiabáticamente una determinada masa  de fluido desde unas condiciones iniciales definidas por (:math:`T_1`  , :math:`p_1`), a unas condiciones finales representadas por (:math:`T_2`  , :math:`p_2`). En ambos casos las condiciones iniciales y finales son las mismas, la experiencia demuestra que el trabajo mecánico y eléctrico realizado en condiciones adiabáticas para conseguir un determinado cambio de estado de un sistema es el mismo:
 
-Para enunciar este primer principio, consideremos las experiencias utilizadas anteriormente para definir trabajo adiabático y haciendo uso de los dos métodos indicados, paletas y resistencia eléctrica, llevemos adiabáticamente una determinada masa  de fluido desde unas condiciones iniciales definidas por (T1  , p 1  ), a unas condiciones finales representadas por (T2
-,pi). En ambos casos las condiciones iniciales y finales son las mismas, la experiencia demues­
-tra que el trabajo mecánico y eléctrico realizado en condiciones adiabáticas para conseguir un determinado cambio de estado de un sistema es el mismo:
+.. math::
 
-W 12 (  lecanico. adiabatico)	= W 12 (Eléctrico. adiabatico)
+   W_{\text{12(Mecánico,adiabático)}} = W_{\text{12(Eléctrico,adiabático)}}
 
-Aun más, si se interacciona simultáneamente con trabajo elécti-ico y mecánico para llevar al sistema desde el mismo estado inicial al mismo estado final, la suma de los trabajos utilizados en esta ocasión es igual a cada uno de los suministrados en las ocasiones anteriores, figura 2. 5 .
+Aun más, si se interacciona simultáneamente con trabajo elécti-ico y mecánico para llevar al sistema desde el mismo estado inicial al mismo estado final, la suma de los trabajos utilizados en esta ocasión es igual a cada uno de los suministrados en las ocasiones anteriores, figura 2.5 (fórmula matemática superior).
 
 De lo dicho anteriormente se puede inferir, haciendo una primera generalización, que la cantidad de trabajo adiabático suministrado a un sistema para llevarlo desde un estado a otro no depende del procedimiento seguido para conseguir este cambio, sino solamente de los estados inicial y final.
 
 En esencia esto constituye la base del enunciado de la primera ley de la termodinámica, que podemos formular de la siguiente forma:
 
-El trabajo implicado en la modificación adiabática del estado de un sistema cerra­ do no depende del procedimiento utilizado en el proceso, sino solamente de los estados ini­ cial y final  del sistema.
+El trabajo implicado en la modificación adiabática del estado de un sistema cerrado no depende del procedimiento utilizado en el proceso, sino solamente de los estados inicial y final  del sistema.
 
+También se podría decir que el trabajo intercambiado en un proceso adiabático solo depende del estado inicial y final del sistema y no del procedimiento utilizado en la realización del mismo, ni de la naturaleza del sistema.
 
+Como ya hemos dicho la validez de este principio no está en el método utilizado para su formulación, sino en que las consecuencias que de él se derivan han sido ampliamente comprobadas.
 
+La primera consecuencia que puede obtenerse de este enunciado es que si el trabajo adiabático sólo depende del estado inicial y final del sistema, este trabajo debe representar la variación de una propiedad del sistema. A esta propiedad se le denomina energía total y la representaremos por *E*. Según el primer principio:
 
-5
+.. math::
 
+   \Delta E = E_2 - E_1 = W_{adiabático}
 
+Conviene destacar que esta ecuación es una definición operacional del incremento de energía en un proceso cualquiera, ya que al ser E propiedad del sistema sólo dependerá del estado del sistema y no del procedimiento que nos haya llevado a él. Esto quiere decir que para cualquier proceso experimentado por un sistema del que conozcamos el estado inicial y final, se podrá calcular el incremento de energía total del sistema sin más que calcular o medir el trabajo adiabático realizado para llevar el sistema desde el mencionado estado inicial hasta el final.
 
-"
- 
-r
+Lo dicho anteriormente tiene una teórica limitación, ya que hay estados entre los que no es posible definir una transformación adiabática, por lo que hay quien considera poco consistente la ecuación anterior. No obstante, la objeción no es excesivamente importante puesto que si bien es posible que entre los estados 1 y 2 no se tenga un proceso adiabático, siempre es posible localizar un punto *R* tal que sean posibles los procesos adiabáticos *1R* y *2R*, de forma que:
 
+.. math::
 
+   \Delta E_{1R} = W_{adiabático}' \\
+   \Delta E_{2R} = W_{adiabático}'' 
 
-2.Primera ley de la tennodinámica. Postulado de estado
+por lo que:
 
+.. math::
 
-También se podría decir que el trabajo intercambiado en un proceso adiabático solo depende del estado inicial y final del sistema y no del procedimiento utilizado en la realización
-l del mismo, ni de la naturaleza del sistema.
-¡	---f>
-Como ya hemos dicho la validez de este principio no está en el método utilizado para
-su formulación, sino en que las consecuencias que de el se derivan han sido ampliamente com­ probadas .
+   E_R - E_1 = W_{adiabático}' \\
+   E_R - E_2 = W_{adiabático}'' 
 
-La primera consecuencia que puede obtenerse de este enunciado es que si el trabajo adiabático sólo depende del estado inicial y final del sistema, este trabajo debe representar la variación de una propiedad del sistema. A esta propiedad se le denomina energia total y la representaremos por E. Según el primer principio:
+Consecuentemente:
 
-/J..E	= E 2    - E 1    = W !diabát1co
+.. math::
 
-Conviene destacar que esta ecuación es una definición operacional del incremento de energía en un proceso cualquiera, ya que al ser E propiedad del sistema sólo dependerá del estado del sistema y no del procedimiento que nos haya llevado a él. Esto quiere decir que pa­ ra cualquier proceso experimentado por un sistema del que conozcamos el estado inicial y fi­ nal, se podrá calcular el incremento de energía total del sistema sin más que calcular o medir el trabajo adiabático realizado para llevar el sistema desde el mencionado estado inicial hasta el final.
+   \Delta E &= E_2 - E_1 = (E_R - E_1) - (E_R - E_2) \\
+   \Delta E &= W_{adiabático}'-W_{adiabático}''
 
-Lo dicho anteriormente tiene una teórica limitación , ya que hay estados entre los que no es posible definir una transformación adiabática, por lo que hay quien considera poco con­ sistente la ecuación anterior. No obstante, la objeción no es excesivamente importante puesto que si bien es posible que entre los estados 1 y 2 no se tenga un proceso adiabático, siempre es posible localizar un punto R tal que sean posibles los procesos adiabáticos 1R y 2R, de forma que:
-/J..E I R  = W d1abá t1co	y	/J..E2R   =	diabátlco'
+Y siempre será posible la determinación de :math:`\Delta E` mediante la realización y medida de tra­ bajo  adiabático.
 
-                       ER    - E 1  = W:.1diabá11co	y
-E =	diahiwco  - w;{diabático
-
-Y siempre será posible la determinación de M mediante la realización y medida de tra­ bajo  adiabático.
-
-Es conveniente destacar, que si bien M , para  un determinado sistema y proceso, está cuantificada, nopodemos decir lo mismo del valor absoluto de E para un estado dado de ese sistema. Para poder calcular este valor espreciso fijar un valor de referencia arbitrariamen­ te elegido.
+Es conveniente destacar, que si bien :math:`\Delta E`, para  un determinado sistema y proceso, está cuantificada, no podemos decir lo mismo del valor absoluto de *E* para un estado dado de ese sistema. Para poder calcular este valor espreciso fijar un valor de referencia arbitrariamente elegido.
 
 Principio de conservación de la energía para sistemas cerrados
 --------------------------------------------------------------
 
+Basándonos en la definición de *E* como función de estado, se puede proceder a formular el principio general de conservación de la energía para las interacciones que puede experimentar un sistema cerrado dado.
 
+Si *E* es una función de estado su valor no dependerá de la forma en que ese estado haya sido conseguido, ahora bien, para un determinado proceso no adiabático, lo que no se cumplirá es que:
 
+.. math::
 
+   \Delta E = W_{12} \hspace{2cm} \text{(En general no se cumple)}
 
+Siempre que :math:`W_{12} \neq W_{\text{adiabático}}`.   No  obstante, es conveniente  destacar  que, también  para  este proceso :math:`\Delta E = W_{\text{adiabático}}`.
 
-Basándonos en la definición de E como función de estado, se puede proceder a formu­ lar el principio general de conservación de la energía para las interacciones que puede experi­ mentar un sistema cerrado dado.
+A fin de conseguir una ecución que nos permita manejar este proceso desde el punto de vista de los intercambios de energía, se introduce una magnitud :math:`Q_{12}` para el mencionado proceso, a la que se denomina calor y que cumple la condición:
 
-Si E es una función de estado su valor no dependerá de la forma en que ese estado ha­ ya sido conseguido, ahora bien, para un determinado proceso no adiabático, lo que no se cumplirá es que:
+.. math::
 
-!::.E = W12	(En general no se cumple)
+   \Delta E - W_{12} = Q_{12}
+   
 
-Siempre que  W12	W i J wbiinca .   No  obstante, es conveniente  destacar  que, también  para  este proceso D.E = WAdiaba11c·o .
-
-A fin de conseguir una ecución que nos permita manejar este proceso desde el punto de vista de los intercambios de energía, se introduce una magnitud Q12 para el mencionado proceso, a la que se denomina calor y que cumple la condición:
-
-D.E - W12 = Q12
  
 o lo que es lo mismo :
  
-+kºZ-
- 
-t::.E = W12	(2 . 1)
+.. math::
+
+   \Delta E =   W_{12} + Q_{12}
 
  
 El calor lo mismo que el trabajo son magnitudes que nos definen el tipo de interacción del sistema con su ambiente, y por tanto se pueden evaluar sólo en la frontera del sistema.
 
-Conviene insisti r en lo dicho hace un momento: por ser E una función de estado, el va­ lor de Af,. cuando el sistema pasa desde un estado 1 a un estado 2 es el mismo, independiente­ mente del proceso que lleve desde el estado inicial al final. Lo que cambia de un proceso a otro es la naturaleza de la interacción con el medio ambiente: mientras que en un proceso adia­ bático sólo se necesita trabajo para producir el cambio, en general será necesario el concurso del calor y del trabajo para conseguir un proceso dado . Habrá casos en los que también se po­ drá producir un cambio determinado utilizando solamente transferencia de calor.
+Conviene insistir en lo dicho hace un momento: por ser *E* una función de estado, el valor de :math:`\Delta E` cuando el sistema pasa desde un estado 1 a un estado 2 es el mismo, independientemente del proceso que lleve desde el estado inicial al final. Lo que cambia de un proceso a otro es la naturaleza de la interacción con el medio ambiente: mientras que en un proceso adiabático sólo se necesita trabajo para producir el cambio, en general será necesario el concurso del calor y del trabajo para conseguir un proceso dado. Habrá casos en los que también se podrá producir un cambio determinado utilizando solamente transferencia de calor.
 
 El criterio de signos para el calor es idéntico al que se formuló para el trabajo.
 
 Puesto que las cantidades de calor y trabajo que intervienen en un cambio  de estado dado dependen de cómo se realice el proceso,  ambas  serán  función  de la trayectoria  seguida por el proceso y sus diferenciales no serán exactas. Para tener esto en cuenta un proceso dife­ rencial  se representará  mediante la ecuación:
-/ .:!.!! =	+ o wj	c2.2)
-En donde se utilizan los símbolos o para tener en cuenta el hecho de que tanto W co­ mo Q dependen de la trayectoria seguida por el proceso y no son magnitudes características
-} de un sistema dado. Según esto:
-} ;o Q = Q 12	Y	} ; o W = W12
 
-7
- 
-r
+.. math::
+
+   dE = \delta Q + \delta W
 
 
+En donde se utilizan los símbolos :math:`\delta` para tener en cuenta el hecho de que tanto *W* como *Q* dependen de la trayectoria seguida por el proceso y no son magnitudes características de un sistema dado. Según esto:
 
-2.Primera ley de la termodinámica. Postulado de estado
+.. math::
 
+   \int_1^2  \delta Q = Q_{12} \\
+   \int_1^2  \delta W = W_{12}
 
-Como ya se ha dicho, los valores que toman Q 12 y W12 no sólo dependerán de los es­ tados inicial y final, sino que también dependerán de la trayectoria seguida en el proceso, así que definidos los correspondientes estados 1 y 2, los valores de Q 12 y W12 dependerán de la trayectoria seguida y de aquí que no se pueda hablar de incrementos de las correspondientes magnitudes, sino de valores de las mismas involucrados en el proceso. Recuerdese que en el caso de E, por ser función de estado, se tiene:
+Como ya se ha dicho, los valores que toman :math:`Q_{12}` y :math:`Q_{12}`  no sólo dependerán de los es­ tados inicial y final, sino que también dependerán de la trayectoria seguida en el proceso, así que definidos los correspondientes estados 1 y 2, los valores de Q 12 y W12 dependerán de la trayectoria seguida y de aquí que no se pueda hablar de incrementos de las correspondientes magnitudes, sino de valores de las mismas involucrados en el proceso. Recuerdese que en el caso de E, por ser función de estado, se tiene:
 
  
 
