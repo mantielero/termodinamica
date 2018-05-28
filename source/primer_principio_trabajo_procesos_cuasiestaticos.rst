@@ -250,10 +250,6 @@ Se ha visto que en todas las formas de trabajo examinadas siempre se da el produ
 
    Trabajo generalizado
  
-Para representar un proceso cualquiera se podría recurrir a un diagrama generalizado F, X. En este diagrama se puede ver , figura 2.9, que el trabajo intercambiado para llevar al sistema desde un determinado estado 1 a otro 2 depende de la trayectoria seguida en este proceso y no únicamente del estado inicial y final. Ya que el valor de las áreas encerradas por las correspondientes trayecto­ rias y el eje de abscisas, que representan el trabajo cua­ siestático intercambiado en el proceso, dependen de los correspondientes estados inicial y final y de la trayectoria seguida por el proceso, como ya se vio anteriormente.
- 
-
-
-correspondientes estados inicial y final y de la trayectoria seguida por el proceso, como ya se vio anteriormente .
+Para representar un proceso cualquiera se podría recurrir a un diagrama generalizado F, X. En este diagrama se puede ver , figura 2.9, que el trabajo intercambiado para llevar al sistema desde un determinado estado 1 a otro 2 depende de la trayectoria seguida en este proceso y no únicamente del estado inicial y final. Ya que el valor de las áreas encerradas por las correspondientes trayectorias y el eje de abscisas, que representan el trabajo cuasiestático intercambiado en el proceso, dependen de los correspondientes estados inicial y final y de la trayectoria seguida por el proceso, como ya se vio anteriormente.
 
 Aunque ya se ha mencionado es conveniente insistir  en que, a diferencia de la energía total del sistema que sólo es función de estado del sistema y por tanto su variación sólo depen­ de del estado inicial y final del proceso, las cantidades de calor y trabajo intercambiadas en el proceso dependerán de la naturaleza del mismo y sólo su suma será igual a la variación de energía y por lo tanto será función únicamente de los estados extremos del sistema en el  pro­ ceso. Al hacer los balances de energía calor y trabajo en el sistema, es muy importante que es­ to se tenga muy presente.
