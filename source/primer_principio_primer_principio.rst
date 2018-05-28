@@ -130,20 +130,31 @@ Como ya se ha dicho, los valores que toman :math:`Q_{12}` y :math:`Q_{12}`  no s
 
 ya que sólo depende de los estados extremos del proceso.
 
-Es conveniente volver a insistir en que tanto Q como W nos indican interacciones entre el sistema y medio ambiente y, por tanto, tendrán lugar en la zona de interacción de uno con otro, es decir, en el límite del sistema. Cuando se tiene un sistema aislado E  = 0, por lo tanto hay que llevar mucho cuidado en termodinámica .al hablar de "calor generado " en el in­ terior de los límites del sistema, porque normalmente se está haciendo referencia a la variación de algún tipo de energía interna del mismo que no es fácil de evaluar por lo que se recurre a ese artificio. Termodinámicamente hablando , no parece que sea muy afortunada la solución adoptada .
+Es conveniente volver a insistir en que tanto *Q* como *W* nos indican interacciones entre el sistema y medio ambiente y, por tanto, tendrán lugar en la zona de interacción de uno con otro, es decir, en el límite del sistema. Cuando se tiene un sistema aislado :math:`\Delta E  = 0`, por lo tanto hay que llevar mucho cuidado en termodinámica al hablar de "calor generado" en el interior de los límites del sistema, porque normalmente se está haciendo referencia a la variación de algún tipo de energía interna del mismo que no es fácil de evaluar(2)  por lo que se recurre a ese artificio. Termodinámicamente hablando , no parece que sea muy afortunada la solución adoptada .
+
+.. note::
+
+   (2) Primera ley de la termodinámica. Postulado de estado
 
 En el estudio de sistemas cerrados es conveniente hacer referencia a valores de las magnitudes correspondientes a la unidad de masa del sistema, cuando este sea el caso se utili­ zarán como símbolos de las magnitudes consideradas:
 
-M
---¡:¡:¡-,
+.. math::
 
-Si la referencia es a la unidad de sustancia (mol) de sistema, los símbolos son los mis­ mos, lo cual no crea ambigüedad puesto que las correspondientes magnitudes, normalmente están suficientemente definidas en el contexto del problema; si esto no es así hay que hacer la observación correspondiente.
+   \Delta e = \frac{\Delta E}{m} \\
+   q_{12} = \frac{Q_{12}}{m} \\
+   w_{12} = \frac{W_{12}}{m}
 
-Natu raleza de la energía total de un sistema
----------------------------------------------
+
+Si la referencia es a la unidad de sustancia (mol) de sistema, los símbolos son los mismos, lo cual no crea ambigüedad puesto que las correspondientes magnitudes, normalmente están suficientemente definidas en el contexto del problema; si esto no es así hay que hacer la observación correspondiente.
+
+Naturaleza de la energía total de un sistema
+--------------------------------------------
 
 Según hemos, visto para un sistema y proceso determinados
 
+.. math::
+
+   \Delta E = Q_{12}  + W_{12}
  
 
 Para poder evaluar esta expresión es conveniente saber qué tipos de energías están in­ volucradas en el proceso. Conocido este dato, se podría recurrir a otras ramas de la Física pa­ ra su posible evaluación.
@@ -156,7 +167,7 @@ En el apartado siguiente se considerará más detenidamente el concepto de energ
 
 8
  
-2.Primera ley de la termodinámica. Postulado de estado
+
 
 
 ce es asignar un valor al calor (con frecuencia cero) y la relación anterior se podrá utilizar para evaluar otras magnitudes del proceso.
