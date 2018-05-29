@@ -99,45 +99,44 @@ El conjunto de propiedades (u + pv ) se presenta de esta forma con la suficiente
 
 .. math::
 
-   H \equiv U + pV\\
-   h \equiv u + pv
+   H &\equiv U + pV\\
+   h &\equiv u + pv
  
- 
 
 
+Por ser una combinación de propiedades termodinámicas , también es una propiedad termodinámica  y para un  sistema simple podrá expresarse en función  de dos propiedades  termodinámicas cualesquiera. Para sistemas compresibles es frecuente escoger *T* y *p*, por lo que
+*h(T, p)*, será:
 
+.. math::
 
+   dh = \left( \frac{\partial h}{\partial T} \right)_p dT + \left( \frac{\partial h}{\partial p} \right)_T dp
+   
 
-
-
-
-Por ser una combinación de propiedades termodinámicas , también es una propiedad
-/_ termodinámica  y para un  sistema simple podrá expresarse en función  de   dos propiedades  ter­
-l odinámicas cualesq uiera. Para sistemas compresibles es frecuente escoger T y p, por lo que
-h(T, p), será:
-I
-Q_f!_ ]	+	a h1
-a r	!'	l a p J r
-
- 
 por definición :
 
+.. math::
+  
+   c_p = \left( \frac{\partial h}{\partial T} \right)_p
+
+y
+
+
+.. math::
+
+   dh = c_p dT + \left( \frac{\partial h}{\partial p} \right)_T dp
+
+
+para una transformación a *p constante*:
+
+.. math::
+
+   dh_p = c_p dT
  
-
-y	d h
-
-
-para una transformación a p constante:
+Sustituyendo en (2. 12), *h = u + pv* y teniendo en cuenta (2. 14), se obtiene:
  
+.. math::
 
-
-( 2 14 a )
- 
-
- 
-d hp  = Cp  d T	( 2 . 14 b ) Sustituyendo en (2. 12), h = u + pv y teniendo en cuenta (2. 14), se obtiene :
- 
-
+   \delta q_p = c_p dT
 
 
  
@@ -145,55 +144,47 @@ r. ¡..J;.
  
 
  
-Esta, análogamente a lo que ocurrió con c.,,, proporciona la base para un posible méto­ do experimental de determinación de cP midiendo el calor transferido a presión constante a un sistema y el correspondiente  incremento de T.
+Esta, análogamente a lo que ocurrió con :math:`c_v`, proporciona la base para un posible método experimental de determinación de :math:`c_p` midiendo el calor transferido a presión constante a un sistema y el correspondiente  incremento de *T*.
 
 En general:
+
+.. math::
+
+   q_{p(1,2)} = \int_1^2 c_p dT
+
+
+La integración del segundo miembro es, en general, fácil de hacer, aunque con frecuencia haya que recurrir a métodos gráficos o numéricos.
+
+Cómo es fácil  ver, :math:`c_p` se mide en las mismas unidades que :math:`c_v`.
+
+Conviene destacar que, tanto en el caso de una transformación  a volumen constante como a presión constante, el calor transferido en el proceso es posible darlo como diferencia del valor  de propiedades  termodinámicas  del  sistema correspondientes  a los estados extremos (*u* y *h* respectivamente),  es decir:
+
+.. math::
+   
+   q_{v(1,2)} = u_2 - u_1 \\
+   q_{p(1,2)} = h_2 - h_1 
+
  
+Consideremos ahora qué ocurre cuando, además de trabajo	reversible hay una aportación de trabajo irreversible al sistema, como podría ser la agitación mediante paletas, aporte de carga eléctrica a través de una resistencia eléctrica, etc.. La ecuación del primer principio para un sistema compresible simple, para transformaciones a volumen constante y a	presión constante, toma las formas siguientes:
+
+.. math::
+
+   \delta q_v + \delta w_{irre} -p \cdot 0 = du_v \\
+   \delta q_p + \delta w_{irre} -p \cdot dv = du_p 
 
 
+de donde se obtiene:	
 
+.. math::
 
-( /   '  fl)
- 
-qp(l ,2) =
- 
-f	Cp  d T
-20
- 
-
-
-).	' ,_ c.
-(J.. '1 .1 '· .....  .) .
- 
-2.Primera ley de la termodinámica. Postulado de estado
-
-
-1 La integración del segundo miembro es, en general, fácil de hacer, aunque con frecuencia haya que recurrir a métodos gráficos o numéricos.
-
-Cómo es fácil  ver, cP se mide en las mismas unidades que e,. .
-
-Conviene destacar que, tanto en el caso de una transformación  a volumen constante como a presión constante, el calor transferido en el proceso es posible darlo como diferencia
-1 del valor  de propiedades  termodinámicas  del  sistema correspondientes  a los estados extremos (u y h respectivamente),  es decir:
-
-q v( l.2)   = l/ 2   - 11 ¡
-qp(l ,2 )   = h2  - h1
-----
-Consideremos :ihora qué ocurre cuando, además de trabajo	reversible 1 .  hay una J aportación de tr-ª9-ªÍQ- irt yer iQ!	al sistema, como podría ser la agitación mediante pale-
-, ,¡tas, aporte de carga e éctrica a través de una resistencia eléctrica, etc.. La ecuación del primer
-j prin pio para un sistEma compresibl.e smple, para transformaciones a volumen constante y a	_
-L pres1on constante, to;ma las formas s1gu1entes¡,	i	h.t	;! v" _.,	J ,.' .1.,.. / '"/!·
-1 ......	,-,,,.v.1-I·.:  ¿.,,.    < 1" 1''·  .:  0  J	......-+>  i/	t.	,	,	.
-f/ c.1.¡	• t..lbh..._  ((,	/"'"
-;	O (jv   + O W irre    - p O  = d uv	v- ''	( 2. 15 )	J ,d.Í-c.
-o qp  + O W 1rre   - p dv	d up _-::. f:- ,:/¡ ( 2.16 )
-de donde se obtiene:	Si,v. --
-
-O q...  + O W irre   = d ll v
-o qp  + O IV urn    = d hp
+   \delta q_v + \delta w_{irre} &= du_v \\
+   \delta q_p + \delta w_{irre} &= dh_p 
 
 Para un proceso finito tendríamos:
 
-q... ( 1.2)   + W ¡1Te   =	U ,..
-qp (1 ,2)    + ll'1rre    = M!' \
+.. math::
 
-Vemos que, para un  determinado cambio de estado, independientemente de que la transformación en conjunto sea reversible o no lo sea, tanto la variación de h como la de u es­ tarán perfectamente definidas, por lo que conociendo alguno de los otros dos datos, es posible determinar el tercero .
+   q_{v(1,2)} + w_{irre} &= \Delta u_v \\
+   q_{p(1,2)} + w_{irre} &= \Delta h_p 
+
+Vemos que, para un  determinado cambio de estado, independientemente de que la transformación en conjunto sea reversible o no lo sea, tanto la variación de *h* como la de *u* estarán perfectamente definidas, por lo que conociendo alguno de los otros dos datos, es posible determinar el tercero.
