@@ -1,4 +1,4 @@
-Primera Ley de la Termodínamica. Postulado de Estado
+Primera Ley de la Termodinámica. Postulado de Estado
 ====================================================
 
 
