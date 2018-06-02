@@ -188,7 +188,7 @@ Nos centraremos ahora en el estudio de la naturaleza de las distintas formas en 
 - :math:`\Delta E_{Sup}`: variación de energía total es la debida a efectos de tensión superficial.
 
 
-No obstante estos términos de energía no completan el conjunto de las formas de energía que pueden atribuirse a un sistema, ya que al comunicar a un sistema calor y trabajo, sin cambiar ninguna de las formas de energía mencionadas, puede producirse un cambio de estado. La energía relacionada con este cambio de estado es la denominada energía interna que representaremos por la letra *U* y que verifica la igualdad:
+No obstante estos términos de energía no completan el conjunto de las formas de energía que pueden atribuirse a un sistema, ya que al comunicar a un sistema calor y trabajo, sin cambiar ninguna de las formas de energía mencionadas, puede producirse un cambio de estado. La energía relacionada con este cambio de estado es la denominada **energía interna** que representaremos por la letra *U* y que verifica la igualdad:
 
 .. math::
 
