@@ -30,7 +30,13 @@ Todo lo dicho anteriormente, que ahora parece bastante evidente, no  se establec
 
    Debe quedar claro, desde el principio, que la definición de energía que se utilizó en mecánica "como la capacidad de realizar trabajo" no es válida en termodinámíca. Cuando se considere la aplicación de la segunda ley de la termodinámica, se verá que de la energía que tiene un sistema hay una parte disponible para realizar trabajo y otra que permanece ligada al sistema.
 
-En el estudio de la termodinámíca se considerará cómo son afectadas las propiedades de un sistema por la transferencia de energía, cómo la energía puede transformarse de una forma en otra, que limítaciones tienen estas transformaciones, y cómo se puede utilizar la capacidad de transformación de la energía en el diseño de máquinas útiles. También veremos que mientras que es posible convertir completamente trabajo en calor la inversa no es cierta.
+En el estudio de la termodinámíca se considerará:
+
+- cómo son afectadas las propiedades de un sistema por la transferencia de energía
+- cómo la energía puede transformarse de una forma en otra
+- que limítaciones tienen estas transformaciones
+- cómo se puede utilizar la capacidad de transformación de la energía en el diseño de máquinas útiles
+- También veremos que mientras que es posible convertir completamente trabajo en calor la inversa no es cierta.
 
 En este tema se considerará una de las leyes más importantes de la termodinámica, la
 conocida como **primer principio** y que puede conducir al principio general de conservación de
