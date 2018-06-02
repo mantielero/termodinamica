@@ -84,27 +84,31 @@ Principio de conservación de la energía para sistemas cerrados
 
 Basándonos en la definición de *E* como función de estado, se puede proceder a formular el principio general de conservación de la energía para las interacciones que puede experimentar un sistema cerrado dado.
 
-Si *E* es una función de estado su valor no dependerá de la forma en que ese estado haya sido conseguido, ahora bien:
+Hemos visto que *E* es una función de estado para la que se cumple en procesos adiabáticos: :math:`\Delta E = W_{\text{adiabático}}` 
 
-- Para un proceso no adiabático, en general se cumplirá: 
+
+.. note::
+
+   Si *E* es una función de estado su valor no dependerá de la forma en que ese estado haya sido conseguido.
+
+Si el proceso no es adiabático, en general se cumplirá: :math:`W_{12} \neq W_{\text{adiabático}}`. Y consecuentemente, en general:
 
 .. math::
 
    \Delta E \neq W_{12} 
 
-Siempre que :math:`W_{12} \neq W_{\text{adiabático}}`.   
+Calor
+^^^^^
 
-No  obstante, es conveniente  destacar  que, también  para  este proceso :math:`\Delta E = W_{\text{adiabático}}`.
-
-A fin de conseguir una ecución que nos permita manejar este proceso desde el punto de vista de los intercambios de energía, se introduce una magnitud :math:`Q_{12}` para el mencionado proceso, a la que se denomina calor y que cumple la condición:
+A fin de conseguir una ecuación que nos permita manejar este proceso desde el punto de vista de los intercambios de energía, se introduce una magnitud :math:`Q_{12}` para el mencionado proceso, a la que se denomina **calor** y que cumple la condición:
 
 .. math::
 
-   \Delta E - W_{12} = Q_{12}
+   Q_{12} = \Delta E - W_{12}
    
 
  
-o lo que es lo mismo :
+o lo que es lo mismo:
  
 .. math::
 
