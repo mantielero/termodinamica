@@ -25,13 +25,13 @@ Para llevar al sistema desde un  estado 1 a un estado 2 determinados, el trabajo
    W_M = W_E = W_M' +W_E' 
 
 
-Para enunciar este primer principio, consideremos las experiencias utilizadas anteriormente para definir trabajo adiabático y haciendo uso de los dos métodos indicados, paletas y resistencia eléctrica, llevemos adiabáticamente una determinada masa  de fluido desde unas condiciones iniciales definidas por (:math:`T_1`  , :math:`p_1`), a unas condiciones finales representadas por (:math:`T_2`  , :math:`p_2`). En ambos casos las condiciones iniciales y finales son las mismas, la experiencia demuestra que el trabajo mecánico y eléctrico realizado en condiciones adiabáticas para conseguir un determinado cambio de estado de un sistema es el mismo:
+Para enunciar este primer principio, consideremos las experiencias utilizadas anteriormente para definir trabajo adiabático y haciendo uso de los dos métodos indicados, paletas y resistencia eléctrica, llevemos adiabáticamente una determinada masa  de fluido desde unas condiciones iniciales definidas por (:math:`T_1`  , :math:`p_1`), a unas condiciones finales representadas por (:math:`T_2`  , :math:`p_2`). En ambos casos las condiciones iniciales y finales son las mismas. La experiencia demuestra que el trabajo mecánico y eléctrico realizado en condiciones adiabáticas para conseguir un determinado cambio de estado de un sistema es el mismo:
 
 .. math::
 
    W_{\text{12(Mecánico,adiabático)}} = W_{\text{12(Eléctrico,adiabático)}}
 
-Aun más, si se interacciona simultáneamente con trabajo elécti-ico y mecánico para llevar al sistema desde el mismo estado inicial al mismo estado final, la suma de los trabajos utilizados en esta ocasión es igual a cada uno de los suministrados en las ocasiones anteriores, figura 2.5 (fórmula matemática superior).
+Aun más, si se interacciona simultáneamente con trabajo eléctriico y mecánico para llevar al sistema desde el mismo estado inicial al mismo estado final, la suma de los trabajos utilizados en esta ocasión es igual a cada uno de los suministrados en las ocasiones anteriores, figura 2.5 (fórmula matemática superior).
 
 De lo dicho anteriormente se puede inferir, haciendo una primera generalización, que la cantidad de trabajo adiabático suministrado a un sistema para llevarlo desde un estado a otro no depende del procedimiento seguido para conseguir este cambio, sino solamente de los estados inicial y final.
 
