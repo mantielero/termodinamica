@@ -143,7 +143,7 @@ Como ya se ha dicho, los valores que toman :math:`W_{12}` y :math:`Q_{12}`  no s
 
 ya que sólo depende de los estados extremos del proceso.
 
-Es conveniente volver a insistir en que tanto *Q* como *W* nos indican interacciones entre el sistema y medio ambiente y, por tanto, tendrán lugar en la zona de interacción de uno con otro, es decir, en el límite del sistema. Cuando se tiene un sistema aislado :math:`\Delta E  = 0`, por lo tanto hay que llevar mucho cuidado en termodinámica al hablar de "calor generado" en el interior de los límites del sistema, porque normalmente se está haciendo referencia a la variación de algún tipo de energía interna del mismo que no es fácil de evaluar(2)  por lo que se recurre a ese artificio. Termodinámicamente hablando , no parece que sea muy afortunada la solución adoptada .
+Es conveniente volver a insistir en que tanto *Q* como *W* nos indican interacciones entre el sistema y medio ambiente y, por tanto, tendrán lugar en la zona de interacción de uno con otro, es decir, en el límite del sistema. Cuando se tiene un sistema aislado :math:`\Delta E  = 0`, por lo tanto hay que llevar mucho cuidado en termodinámica al hablar de "calor generado" en el interior de los límites del sistema, porque normalmente se está haciendo referencia a la variación de algún tipo de energía interna del mismo que no es fácil de evaluar(2)  por lo que se recurre a ese artificio. Termodinámicamente hablando, no parece que sea muy afortunada la solución adoptada .
 
 .. note::
 
