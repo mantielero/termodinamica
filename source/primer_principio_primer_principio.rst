@@ -1,20 +1,22 @@
 Primer principio
 =================
 
-Utilizando los conceptos  y  definiciones  expuestos  hasta  aquí, procederemos  a  enunciar la primera gran generalización de la termodinámica , el denominado primer principio o primera ley de la termodinámica. Como se ha dicho es un enunciado y no una demostración , ya que partiendo de hechos experimentalmente demostrables, se generalizan hasta elevarlos a la categoría de principio universal, cuya única validación consiste en comprobar experimental o teóricamente la verificación de las consecuencias que de él se deducen.
+Utilizando los conceptos  y  definiciones  expuestos  hasta  aquí, procederemos  a  enunciar la primera gran generalización de la termodinámica, el denominado primer principio o primera ley de la termodinámica. Como se ha dicho es un enunciado y no una demostración, ya que partiendo de hechos experimentalmente demostrables, se generalizan hasta elevarlos a la categoría de principio universal, cuya única validación consiste en comprobar experimental o teóricamente la verificación de las consecuencias que de él se deducen.
 
 .. figure:: ./img/w_mecanico_adiabatico.png
    :width: 50%
    
-
+   Comunicamos trabajo mecánico a un sistema adiabático
 
 .. figure:: ./img/w_electrico_adiabatico.png
    :width: 50%
  
+   Comunicamos trabajo eléctrico a un sistema adiabático
 
 .. figure:: ./img/w_mecanico_electrico_adiabatico.png
    :width: 50%
 
+   Comunicamos trabajo mecánico y eléctrico a un sistema adiabático
 
 Para llevar al sistema desde un  estado 1 a un estado 2 determinados, el trabajo transferido en distintos procesos es:
 
