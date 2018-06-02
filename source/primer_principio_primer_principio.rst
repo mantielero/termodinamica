@@ -149,7 +149,11 @@ Es conveniente volver a insistir en que tanto *Q* como *W* nos indican interacci
 
    (2) En el apartado siguiente se considerará más detenidamente el concepto de energia interna.
 
-En el estudio de sistemas cerrados es conveniente hacer referencia a valores de las magnitudes correspondientes a la unidad de masa del sistema, cuando este sea el caso se utili­ zarán como símbolos de las magnitudes consideradas:
+
+Magnitudes específicas
+^^^^^^^^^^^^^^^^^^^^^^
+
+En el estudio de sistemas cerrados es conveniente hacer referencia a valores de las magnitudes correspondientes a la unidad de masa del sistema, cuando este sea el caso se utilizarán como símbolos de las magnitudes consideradas:
 
 .. math::
 
