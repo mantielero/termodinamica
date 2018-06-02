@@ -176,25 +176,17 @@ Según hemos, visto para un sistema y proceso determinados
 
 Para poder evaluar esta expresión es conveniente saber qué tipos de energías están involucradas en el proceso. Conocido este dato, se podría recurrir a otras ramas de la Física para su posible evaluación.
 
-Si lo dicho anteriormente es posible hacerlo, todavía habría que conocer alguno de los otros dos términos.  En general, el trabajo sabemos cómo evaluarlo y más adelante, en este mismo tema, se insistirá en como tener en cuenta las distintas formas de trabajo con las que podemos estar relacionados, por lo tanto será fácil evaluar :math:`Q_{12}`.  En otros casos, lo que se hace es asignar un valor al calor (con frecuencia cero) y la relación anterior se podrá utilizar para evaluar otras magnitudes del proceso.
+Si lo dicho anteriormente es posible hacerlo, todavía habría que conocer alguno de los otros dos términos.  En general, el trabajo sabemos cómo evaluarlo y más adelante, en este mismo tema, se insistirá en cómo tener en cuenta las distintas formas de trabajo con las que podemos estar relacionados, por lo tanto será fácil evaluar :math:`Q_{12}`.  En otros casos, lo que se hace es asignar un valor al calor (con frecuencia cero) y la relación anterior se podrá utilizar para evaluar otras magnitudes del proceso.
 
 
-**Nos centraremos ahora en el estudio de la naturaleza de las distintas formas en las que un sistema cerrado puede almacenar energía**
+Nos centraremos ahora en el estudio de la naturaleza de las distintas formas en las que un sistema cerrado puede almacenar energía:
 
-Del estudio de mecánica es conocido que un sistema puede tener energía debido a su posición en el campo gravitatorio :math:`\Delta E_p` así como debido a su velocidad (traslación :math:`\Delta E_{ct}`  y rotación :math:`\Delta E_{cr}`). Por lo tanto de aquí se obtienen tres posibles contribuciones a :math:`\Delta E` :
+- :math:`\Delta E_p`: un sistema puede tener energía debido a su posición en el campo gravitatori
+- :math:`\Delta E_{ct}` y :math:`\Delta E_{cr}`: también debido a su velocidad de translación y rotación.
+- :math:`\Delta E_{Mag}`: en prensencia de campos magnéticos.
+- :math:`\Delta E_{El}`: en presencia de campos eléctricos.
+- :math:`\Delta E_{Sup}`: variación de energía total es la debida a efectos de tensión superficial
 
-.. math::
-
-   \Delta E_p \\
-   \Delta E_{ct} \\
-   \Delta E_{cr}
- 
-Si el sistema está en presencia de campos eléctricos y/o magnéticos, también se pueden generar contribuciones que corresponden a estos tipos de energía:
-
-.. math::
-
-   \Delta E_{Mag} \\
-   \Delta E_{El} 
 
 Otra contribución posible a la variación de energía total es la debida a efectos de ten­ sión superficial, por lo que otro término a tener en cuenta al considerar la variación de energía total es el debido a este tipo de energía y que podemos representarlo por:
 
