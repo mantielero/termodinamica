@@ -1,6 +1,9 @@
 Primer principio
 =================
 
+Introducción
+------------
+
 Utilizando los conceptos  y  definiciones  expuestos  hasta  aquí, procederemos  a  enunciar la primera gran generalización de la termodinámica, el denominado primer principio o primera ley de la termodinámica. Como se ha dicho es un enunciado y no una demostración, ya que partiendo de hechos experimentalmente demostrables, se generalizan hasta elevarlos a la categoría de principio universal, cuya única validación consiste en comprobar experimental o teóricamente la verificación de las consecuencias que de él se deducen.
 
 .. figure:: ./img/w_mecanico_adiabatico.png
