@@ -26,9 +26,13 @@ Todo lo dicho anteriormente, que ahora parece bastante evidente, no  se establec
 
 
 
+Termodinámica
+-------------
+
 .. warning::
 
    Debe quedar claro, desde el principio, que la definición de energía que se utilizó en mecánica "como la capacidad de realizar trabajo" no es válida en termodinámíca. Cuando se considere la aplicación de la segunda ley de la termodinámica, se verá que de la energía que tiene un sistema hay una parte disponible para realizar trabajo y otra que permanece ligada al sistema.
+
 
 En el estudio de la termodinámíca se considerará:
 
