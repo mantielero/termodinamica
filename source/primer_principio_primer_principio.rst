@@ -92,7 +92,9 @@ Si *E* es una función de estado su valor no dependerá de la forma en que ese e
 
    \Delta E \neq W_{12} 
 
-Siempre que :math:`W_{12} \neq W_{\text{adiabático}}`.   No  obstante, es conveniente  destacar  que, también  para  este proceso :math:`\Delta E = W_{\text{adiabático}}`.
+Siempre que :math:`W_{12} \neq W_{\text{adiabático}}`.   
+
+No  obstante, es conveniente  destacar  que, también  para  este proceso :math:`\Delta E = W_{\text{adiabático}}`.
 
 A fin de conseguir una ecución que nos permita manejar este proceso desde el punto de vista de los intercambios de energía, se introduce una magnitud :math:`Q_{12}` para el mencionado proceso, a la que se denomina calor y que cumple la condición:
 
