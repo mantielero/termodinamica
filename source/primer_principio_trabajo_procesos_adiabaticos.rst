@@ -38,7 +38,7 @@ En el caso de la figura 2.2 el paso de una cierta intensidad de corriente a trav
 .. figure:: ./img/fig2_2.png
    :width: 50%
 
-Nonnalmente se supone que cuando hay un calentamiento (incremento de temperatura) es porque se ha suministrado una cierta cantidad de calor (estrictamente hablando todavía no se sabe que es calor). A continuación se verá que también este incremento de temperatura puede conseguirse mediante una interacción trabajo. Para ello, en las figuras anteriores, se sustituyen los recipientes que contienen el fluido por los sistemas que se indican en las figuras siguientes:
+Normalmente se supone que cuando hay un calentamiento (incremento de temperatura) es porque se ha suministrado una cierta cantidad de calor (estrictamente hablando todavía no se sabe que es calor). A continuación se verá que también este incremento de temperatura puede conseguirse mediante una interacción trabajo. Para ello, en las figuras anteriores, se sustituyen los recipientes que contienen el fluido por los sistemas que se indican en las figuras siguientes:
 
 En el primer caso el peso en su caída eleva un peso en el medio ambiente, por lo que la interacción que se produce entre sistema y medio ambiente es la que hemos denominado trabajo.
 
