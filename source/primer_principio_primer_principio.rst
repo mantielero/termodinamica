@@ -47,6 +47,10 @@ El trabajo implicado en la modificación adiabática del estado de un *sistema c
 
 También se podría decir que el trabajo intercambiado en un proceso adiabático solo depende del estado inicial y final del sistema y no del procedimiento utilizado en la realización del mismo, ni de la naturaleza del sistema.
 
+
+Consecuencias
+-------------
+
 Como ya hemos dicho la validez de este principio no está en el método utilizado para su formulación, sino en que las consecuencias que de él se derivan han sido ampliamente comprobadas.
 
 La primera consecuencia que puede obtenerse de este enunciado es que si el trabajo adiabático sólo depende del estado inicial y final del sistema, este trabajo debe representar la variación de una propiedad del sistema. A esta propiedad se le denomina energía total y la representaremos por *E*. Según el primer principio:
@@ -61,15 +65,8 @@ Lo dicho anteriormente tiene una teórica limitación, ya que hay estados entre 
 
 .. math::
 
-   \Delta E_{1R} = W_{adiabático}' \\
-   \Delta E_{2R} = W_{adiabático}'' 
-
-por lo que:
-
-.. math::
-
-   E_R - E_1 = W_{adiabático}' \\
-   E_R - E_2 = W_{adiabático}'' 
+   \Delta E_{1R} &= E_R - E_1 &= W_{adiabático}' \\
+   \Delta E_{2R} &= E_R - E_2 &= W_{adiabático}'' 
 
 Consecuentemente:
 
