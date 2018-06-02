@@ -56,16 +56,24 @@ En el primer caso el peso en su caída eleva un peso en el medio ambiente, por l
 Cuando sustituimos por el motor eléctrico el recipiente primitivo, también conseguimos elevar un peso por el paso de la corriente eléctrica, pero simultáneamente se produce, en más o menos extensión, el calentamiento del motor. No obstante, se sabe que, mejorando el diseño del motor y empleando superconductores, podríamos reducir las pérdidas de energía en el mismo y en el límite, teóricamente, se podría conseguir que toda la energía eléctrica se utilizara en elevar el peso, luego la interacción también es trabajo. Este segundo ejemplo es muy importante porque pone de manifiesto el tipo de interacción que tiene lugar cuando la carga eléctrica atraviesa los límites de un sistema. Este es un fenómeno que hay que analizar con frecuencia, y según hemos visto, este transporte de carga eléctrica se puede considerar desde el punto de vista termodinámico como una interacción trabajo.
 
 
+Criterio de signos
+------------------
+
 En cuanto al criterio de signos a adoptar para esta interacción, tendremos en cuenta el que con mayor frecuencia se ve en la bibliografia y es el que considera el punto de vista del sistema: es decir, será positivo lo que demos al sistema y negativo lo que se extraiga de él.
 
 Desde este punto de vista, el trabajo es positivo cuando se le da al sistema y negativo cuando el sistema lo produce.
 
-En termodinámica técnica se encuentra con cierta frecuencia el criterio opuesto para el trabajo: el trabajo es positivo cuando lo produce el sisteHia y negativo cuando se le suministra.
+En termodinámica técnica se encuentra con cierta frecuencia el criterio opuesto para el trabajo: el trabajo es positivo cuando lo produce el sistema y negativo cuando se le suministra.
 
 Conviene tener daro que cualesquiera de los criterios es adecuado si se utiliza coherentemente. Llevaría a un resultado incorrecto la utilización sucesiva de los dos criterios en el análisis de las distintas partes de un problema.
 
+Transformación adiabática
+-------------------------
+
 Por su importancia en el análisis de los distintos procesos que tendremos que considerar en nuestro estudio es conveniente destacar que consideraremos transformación adiabática a aquella en la que sólo intervienen interacciones de trabajo.
 
+Sistema aislado
+^^^^^^^^^^^^^^^
 
 Como se ha visto en el tema anterior, si el límite de un sistema está formado por paredes adiabáticas rígidas y sin ejes que las atraviesen, las propiedades que definen el estado del sistema, también denominadas coordenadas termodinámicas del sistema, no se ven afectadas por la presencia de otros sistemas cualesquiera en el entorno del mismo, independientemente de las coordenadas que definieran el estado es estos. Es decir, el sistema está aislado de su medio ambiente.
 
