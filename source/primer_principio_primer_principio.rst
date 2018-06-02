@@ -75,7 +75,7 @@ Consecuentemente:
    \Delta E &= E_2 - E_1 = (E_R - E_1) - (E_R - E_2) \\
    \Delta E &= W_{adiabático}'-W_{adiabático}''
 
-Y siempre será posible la determinación de :math:`\Delta E` mediante la realización y medida de tra­ bajo  adiabático.
+Y siempre será posible la determinación de :math:`\Delta E` mediante la realización y medida de trabajo  adiabático.
 
 Es conveniente destacar, que si bien :math:`\Delta E`, para  un determinado sistema y proceso, está cuantificada, no podemos decir lo mismo del valor absoluto de *E* para un estado dado de ese sistema. Para poder calcular este valor espreciso fijar un valor de referencia arbitrariamente elegido.
 
@@ -84,11 +84,13 @@ Principio de conservación de la energía para sistemas cerrados
 
 Basándonos en la definición de *E* como función de estado, se puede proceder a formular el principio general de conservación de la energía para las interacciones que puede experimentar un sistema cerrado dado.
 
-Si *E* es una función de estado su valor no dependerá de la forma en que ese estado haya sido conseguido, ahora bien, para un determinado proceso no adiabático, lo que no se cumplirá es que:
+Si *E* es una función de estado su valor no dependerá de la forma en que ese estado haya sido conseguido, ahora bien:
+
+- Para un proceso no adiabático, en general se cumplirá: 
 
 .. math::
 
-   \Delta E = W_{12} \hspace{2cm} \text{(En general no se cumple)}
+   \Delta E \neq W_{12} 
 
 Siempre que :math:`W_{12} \neq W_{\text{adiabático}}`.   No  obstante, es conveniente  destacar  que, también  para  este proceso :math:`\Delta E = W_{\text{adiabático}}`.
 
