@@ -185,14 +185,8 @@ Nos centraremos ahora en el estudio de la naturaleza de las distintas formas en 
 - :math:`\Delta E_{ct}` y :math:`\Delta E_{cr}`: también debido a su velocidad de translación y rotación.
 - :math:`\Delta E_{Mag}`: en prensencia de campos magnéticos.
 - :math:`\Delta E_{El}`: en presencia de campos eléctricos.
-- :math:`\Delta E_{Sup}`: variación de energía total es la debida a efectos de tensión superficial
+- :math:`\Delta E_{Sup}`: variación de energía total es la debida a efectos de tensión superficial.
 
-
-Otra contribución posible a la variación de energía total es la debida a efectos de ten­ sión superficial, por lo que otro término a tener en cuenta al considerar la variación de energía total es el debido a este tipo de energía y que podemos representarlo por:
-
-.. math::
-
-   \Delta E_{Sup} \\
 
 No obstante estos términos de energía no completan el conjunto de las formas de ener­ gía que pueden atribuirse a un sistema, ya que al comunicar a un sistema calor y trabajo, sin cambiar ninguna de las formas de energía mencionadas, puede producirse un cambio de esta­ do. La energía relacionada con este cambio de estado es la denominada ywgilririfem que representaremos por la letra U y que verifica la igualdad:
 
