@@ -31,13 +31,16 @@ Para enunciar este primer principio, consideremos las experiencias utilizadas an
 
    W_{\text{12(Mecánico,adiabático)}} = W_{\text{12(Eléctrico,adiabático)}}
 
-Aun más, si se interacciona simultáneamente con trabajo eléctriico y mecánico para llevar al sistema desde el mismo estado inicial al mismo estado final, la suma de los trabajos utilizados en esta ocasión es igual a cada uno de los suministrados en las ocasiones anteriores, figura 2.5 (fórmula matemática superior).
+Aun más, si se interacciona simultáneamente con trabajo eléctrico y mecánico para llevar al sistema desde el mismo estado inicial al mismo estado final, la suma de los trabajos utilizados en esta ocasión es igual a cada uno de los suministrados en las ocasiones anteriores, figura 2.5 (fórmula matemática superior).
 
-De lo dicho anteriormente se puede inferir, haciendo una primera generalización, que la cantidad de trabajo adiabático suministrado a un sistema para llevarlo desde un estado a otro no depende del procedimiento seguido para conseguir este cambio, sino solamente de los estados inicial y final.
+De lo dicho anteriormente se puede inferir, haciendo una primera generalización, que la cantidad de trabajo adiabático suministrado a un sistema para llevarlo desde un estado a otro no depende del procedimiento seguido para conseguir este cambio, sino solamente de los estados inicial y final. 
 
-En esencia esto constituye la base del enunciado de la primera ley de la termodinámica, que podemos formular de la siguiente forma:
+En esencia esto constituye la base del enunciado de la primera ley de la termodinámica.
 
-El trabajo implicado en la modificación adiabática del estado de un sistema cerrado no depende del procedimiento utilizado en el proceso, sino solamente de los estados inicial y final  del sistema.
+Primera Ley de la Termodinámica
+-------------------------------
+
+El trabajo implicado en la modificación adiabática del estado de un *sistema cerrado* no depende del procedimiento utilizado en el proceso, sino solamente de los estados inicial y final  del sistema.
 
 También se podría decir que el trabajo intercambiado en un proceso adiabático solo depende del estado inicial y final del sistema y no del procedimiento utilizado en la realización del mismo, ni de la naturaleza del sistema.
 
