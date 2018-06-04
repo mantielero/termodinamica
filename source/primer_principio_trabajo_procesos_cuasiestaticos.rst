@@ -10,7 +10,7 @@ A efectos de cálculo, es conveniente analizar los distintos modos de trabajo qu
 Trabajo de expansión y compresión
 ---------------------------------
 
-En los dispositivos utilizados para la transformación de energía térmica en energía mecánica se emplea con frecuencia la expansión de un gas contenido en un cilindro provisto de émbolo. A  continuación considera remos este caso con cierto detenimiento.
+En los dispositivos utilizados para la transformación de energía térmica en energía mecánica se emplea con frecuencia la expansión de un gas contenido en un cilindro provisto de émbolo. A  continuación consideraremos este caso con cierto detenimiento.
 
 En la figura 2.6 se representa esquemáticamente una determinada masa de fluido contenida en un cilindro provisto de un émbolo.
 
