@@ -3,7 +3,7 @@ Trabajo en procesos cuasiestáticos
 
 Se ha visto que la interacción trabajo se da en el límite del sistema cuando el efecto sobre el medio ambiente puede sustituirse por la elevación de un peso, si es el sistema el que realiza el trabajo.
 
-A efectos de cálculo, es conveniente analizar los distintos modos de trabajo que se pueden dar en un sistema determinado, de forma que sea factible su evaluación a partir de la variación de las propiedades del mismo. Veremos que una condición necesaria para que pueda efectuarse el cálculo a partir de la eterminación del cambio en el valor de las propiedades del sistema es que el proceso sea cuasiestático .
+A efectos de cálculo, es conveniente analizar los distintos modos de trabajo que se pueden dar en un sistema determinado, de forma que sea factible su evaluación a partir de la variación de las propiedades del mismo. Veremos que una condición necesaria para que pueda efectuarse el cálculo a partir de la determinación del cambio en el valor de las propiedades del sistema es que el proceso sea cuasiestático .
 
 
 
