@@ -60,7 +60,7 @@ En la figura 2.6 es fácil ver que_ la cantidad de trabajo óptimo que puede int
 * Expansión.
 
 
-Comrpesión
+Compresión
 ^^^^^^^^^^
 
 a)	Si se quiere comprimir el gas y se realiza la compresión de forma no cuasietática, en todo momento tendrá que cumplirse que la acción ejercida por el medio ambiente sobre el sistema produzca una fuerza, :math:`F_Á'`, que sea superior a :math:`-p A`, para conseguir el desplazamiento del émbolo hacia la izquierda, por lo que la hipotética  trayectoria del proceso podria representarse por la línea de puntos AB, esta trayectoria limita sobre el diagrama pV una superficie mayor que la delimitada  por la trayectoria  del proceso  cuasiestático  y por  lo tanto  correspondería  a un trabajo realizado sobre el sistema mayor que el realizado en el mencionado  proceso.
