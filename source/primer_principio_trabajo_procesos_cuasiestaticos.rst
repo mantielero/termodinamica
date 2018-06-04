@@ -26,11 +26,11 @@ Si en todo momento:
  
 .. math::
 
-   p = p_o + \frac{F_a}{A} \\
-   F= -p A
+   p &= p_o + \frac{F_a}{A} \\
+   F &= -p A
  
 
-Siendo A la sección transversal  del émbolo:
+siendo *A* la sección transversal  del émbolo:
 
 .. math::
 
