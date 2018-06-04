@@ -32,9 +32,7 @@ Si en todo momento:
 
 siendo *A* la sección transversal  del émbolo:
 
-.. math::
 
-   W_{12} = \int_1^2 -p dV
  
 Ya que la fuerza ejercida por el fluido contra la cara interior del émbolo es :math:`F = -pA`, la fuerza que ejercerá el medio ambiente sobre el sistema, si la evolución se realiza en condiciones de casi equilibrio, será :math:`-p A` para un desplazamiento infinitesimal se tendrá:
 
@@ -43,7 +41,15 @@ Ya que la fuerza ejercida por el fluido contra la cara interior del émbolo es :
  
    \delta W = F \cdot dx = -p \cdot  A  \cdot dx = -p \cdot dV
 
-En el caso de considerar una transformación desde el estado 1 al 2, la expresión para el trabajo será la dada por (2.3) y su valor será el que corresponde al del área de la superficie limitada por la gráfica que representa el proceso experimentado por el fluido, el eje de abscisas y los límites extremos de la transformación. Sólo en el caso de que, en todo momento, la presión del fluido esté equilibrada por la correspondiente a las acciones del medio ambiente sobre el sistema, se podrá expresar el trabajo en función de la presión del fluido mediante la expresión (23). En este caso tendremos lo que se denomina una transformación cuasiestática, aunque, si no se impone ninguna otra condición, no necesariamente tendrá que ser reversible. Por el contrario toda transformación reversible es necesariamente cuasiestática.
+En el caso de considerar una transformación desde el estado 1 al 2, la expresión para el trabajo será la dada por (2.3) 
+
+
+.. math::
+
+   W_{12} = \int_1^2 -p dV
+   
+
+y su valor será el que corresponde al del área de la superficie limitada por la gráfica que representa el proceso experimentado por el fluido, el eje de abscisas y los límites extremos de la transformación. Sólo en el caso de que, en todo momento, la presión del fluido esté equilibrada por la correspondiente a las acciones del medio ambiente sobre el sistema, se podrá expresar el trabajo en función de la presión del fluido mediante la expresión (23). En este caso tendremos lo que se denomina una transformación cuasiestática, aunque, si no se impone ninguna otra condición, no necesariamente tendrá que ser reversible. Por el contrario toda transformación reversible es necesariamente cuasiestática.
 
 La mayor parte de los procesos que tienen lugar en dispositivos de aplicación técnica, en una primera aproximación, pueden analizarse suponiendo que la transformación es cuasiestática, para lo cual es preciso que la velocidad del fluido en el dispositivo analizado sea pequeña frente a la velocidad del sonido en dicho fluido en las mismas condiciones (número de Mach menor que 1).
 
