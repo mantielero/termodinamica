@@ -16,7 +16,6 @@ En la figura 2.6 se representa esquemáticamente una determinada masa de fluido 
 
 
 
- 
 .. figure:: ./img/trabajo_pdV.png
 
    Trabajo -p dV
