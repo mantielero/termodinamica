@@ -33,7 +33,6 @@ Si en todo momento:
 siendo *A* la sección transversal  del émbolo:
 
 
- 
 Ya que la fuerza ejercida por el fluido contra la cara interior del émbolo es :math:`F = -pA`, la fuerza que ejercerá el medio ambiente sobre el sistema, si la evolución se realiza en condiciones de casi equilibrio, será :math:`-p A` para un desplazamiento infinitesimal se tendrá:
 
 .. math::
@@ -51,18 +50,25 @@ En el caso de considerar una transformación desde el estado 1 al 2, la expresi�
 y su valor será el que corresponde al del área de la superficie limitada por la gráfica que representa el proceso experimentado por el fluido, el eje de abscisas y los límites extremos de la transformación. 
 
 
-
 Sólo en el caso de que, en todo momento, la presión del fluido esté equilibrada por la correspondiente a las acciones del medio ambiente sobre el sistema, se podrá expresar el trabajo en función de la presión del fluido mediante la expresión (23). En este caso tendremos lo que se denomina una transformación cuasiestática, aunque, si no se impone ninguna otra condición, no necesariamente tendrá que ser reversible. Por el contrario toda transformación reversible es necesariamente cuasiestática.
 
 La mayor parte de los procesos que tienen lugar en dispositivos de aplicación técnica, en una primera aproximación, pueden analizarse suponiendo que la transformación es cuasiestática, para lo cual es preciso que la velocidad del fluido en el dispositivo analizado sea pequeña frente a la velocidad del sonido en dicho fluido en las mismas condiciones (número de Mach menor que 1).
 
 En la figura 2.6 es fácil ver que_ la cantidad de trabajo óptimo que puede intercambiarse en una transformación con un cambio de volumen determinado, se da para una transformación cuasiestática. Supongase que la transformación  se realizara  en condiciones  de no-equilibrio  y considerese lo que ocurriría en los casos:
 
-a)	Compresión.
+* Compresión.
+* Expansión.
 
-b)	Expansión.
+
+Comrpesión
+^^^^^^^^^^
 
 a)	Si se quiere comprimir el gas y se realiza la compresión de forma no cuasietática, en todo momento tendrá que cumplirse que la acción ejercida por el medio ambiente sobre el sistema produzca una fuerza, :math:`F_Á'`, que sea superior a :math:`-p A`, para conseguir el desplazamiento del émbolo hacia la izquierda, por lo que la hipotética  trayectoria del proceso podria representarse por la línea de puntos AB, esta trayectoria limita sobre el diagrama pV una superficie mayor que la delimitada  por la trayectoria  del proceso  cuasiestático  y por  lo tanto  correspondería  a un trabajo realizado sobre el sistema mayor que el realizado en el mencionado  proceso.
+
+
+Expasión
+^^^^^^^^
+
 
 b)	En este caso y siguiendo un razonamiento análogo al utilizado en el caso anterior, se llega a la conclusión de que la trayectoria seguida por la evolución estarla por debajo de la correspondiente a la transformación cuasiestática y por lo tanto el trabajo obtenido seria menor que el que se obtendria en la transformación cuasiestática correspondiente.
 
