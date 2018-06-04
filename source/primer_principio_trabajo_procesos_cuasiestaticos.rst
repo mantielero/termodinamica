@@ -36,7 +36,7 @@ siendo *A* la sección transversal  del émbolo:
 
    W_{12} = \int_1^2 -p dV
  
-Ya que la fuerza ejercida por el fluido contra la cara interior del émbolo es Ff = pA, la fuerza que ejercerá el medio ambiente sobre el sistema, si la evolución se realiza en condicio­ nes de casi equ ilibrio, será -p A para un desplazamiento infinitesimal se tendrá:
+Ya que la fuerza ejercida por el fluido contra la cara interior del émbolo es :math:`F = -pA`, la fuerza que ejercerá el medio ambiente sobre el sistema, si la evolución se realiza en condicio­ nes de casi equ ilibrio, será -p A para un desplazamiento infinitesimal se tendrá:
 
 .. math::
 
